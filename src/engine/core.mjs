@@ -189,17 +189,34 @@ export function applyRule(value, host, t, config) {
 const yieldToHost = () => new Promise(resolve => setTimeout(resolve, 0));
 export async function findMatches(value, host, config, options = {}) {
   value = rule(value); host = normalize(host); const d = domain(config), hostGroups = groups(host);
-  const { signal, maxCandidates = 250_000, maxMatches = 20_000, batchSize = 128, onProgress } = options;
+  const { signal, maxCandidates = 250_000, maxMatches = 20_000, batchSize = 128, maxDurationMs = 8000, onProgress } = options;
   for (const n of [maxCandidates, maxMatches, batchSize]) if (!Number.isSafeInteger(n) || n < 0) throw new RangeError('Search limits must be nonnegative safe integers');
   if (!batchSize) throw new RangeError('batchSize must be positive');
+  if (typeof maxDurationMs !== 'number' || !(maxDurationMs >= 0) || Number.isNaN(maxDurationMs)) throw new RangeError('Search duration must be nonnegative');
+  const started = performance.now(), cache = new Map();
+  // Orient/scale each carrier only once, then translate its exact intervals.
+  const placedGroups = t => {
+    const cacheKey = `${t.scale}:${t.orientation}`;
+    if (!cache.has(cacheKey)) cache.set(cacheKey, groups(transformShape(value.left, { ...t, translation: [0, 0] })));
+    const [tx, ty] = t.translation, result = new Map();
+    for (const line of cache.get(cacheKey).values()) {
+      const offset = line.vertical ? line.offset.add(tx) : line.offset.add(ty).sub(line.slope.mul(tx));
+      const key = line.vertical ? `v:${offset}` : `l:${line.slope}:${offset}`;
+      const shift = line.vertical ? ty : tx;
+      result.set(key, { ...line, key, offset, intervals: line.intervals.map(([lo, hi]) => [lo.add(shift), hi.add(shift)]) });
+    }
+    return result;
+  };
   const matches = []; let checked = 0, reason = null;
   const regions = new Set(), results = new Set();
   for (const t of transformations(d)) {
     if (signal?.aborted) { reason = 'cancelled'; break; }
     if (checked >= maxCandidates) { reason = 'candidate-limit'; break; }
-    const region = transformShape(value.left, t); checked++;
-    if (covered(groups(region), hostGroups)) {
+    if (performance.now() - started >= maxDurationMs) { reason = 'duration-limit'; break; }
+    const placed = placedGroups(t); checked++;
+    if (covered(placed, hostGroups)) {
       if (matches.length >= maxMatches) { reason = 'match-limit'; break; }
+      const region = fromGroups(placed);
       const result = sum(difference(host, region), transformShape(value.right, t));
       matches.push(Object.freeze({ transform: t, region, result }));
       regions.add(shapeKey(region)); results.add(shapeKey(result));

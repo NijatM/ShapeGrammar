@@ -28,7 +28,7 @@ def local_only(path):
              '*agent-prompt*.md', '*agent-instructions*.md', 'agents*.md',
              'claude*.md', 'gemini*.md', 'skill.md', 'copilot-instructions.md',
              '*.agent.md', '*.instructions.md', '*.prompt.md', '*.chatmode.md', '.aider*',
-             'shapegrammar-workspace*.json', 'shapegrammar-derivation*.json')
+             'shapegrammar-workspace*.json', 'shapegrammar-derivation*.json', 'shapegrammar-study*.json')
     dirs = {'.agents', '.codex', '.claude', '.gemini', '.cursor', '.continue'}
     if any(part in dirs or fnmatch.fnmatchcase(part, '.aider*') for part in parts):
         return True
@@ -90,9 +90,14 @@ def validate():
                 assert len(data) == f['bytes'], 'Byte count mismatch'
                 assert hashlib.sha256(data).hexdigest() == f['sha256'], 'Checksum mismatch'
             for f in d.get('existing_local_files', []):
-                fp = checked_path(f['path'])
-                assert hashlib.sha256(fp.read_bytes()).hexdigest() == f['sha256'], 'Preserved user file changed'
                 assert f['public_candidate'] is False
+                # A local-only original is deliberately absent from public clones/builds.
+                # Preserve and verify it when present, without requiring redistribution.
+                fp = (ROOT / f['path']).resolve()
+                assert fp.is_relative_to(ROOT), 'Unsafe preserved-file path'
+                if fp.exists():
+                    assert fp.is_file(), 'Preserved path is not a file'
+                    assert hashlib.sha256(fp.read_bytes()).hexdigest() == f['sha256'], 'Preserved user file changed'
         except (AssertionError, ValueError, KeyError, TypeError) as e:
             errors.append(f'{p.relative_to(ROOT)}: {e}')
     for p in ROOT.glob('*/originals/*'):
@@ -213,7 +218,7 @@ if __name__ == '__main__':
             check_links()
         else:
             rows, originals = validate()
-            print(f'PASS: {len(rows)} canonical records; {len(originals)} original checksums; coverage IDs and preserved user-file checksum.')
+            print(f'PASS: {len(rows)} canonical records; {len(originals)} original checksums; coverage IDs; optional local-only files checked when present.')
     except (ValueError, json.JSONDecodeError) as e:
         print(str(e), file=sys.stderr)
         sys.exit(1)

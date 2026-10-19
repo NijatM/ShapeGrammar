@@ -1,28 +1,32 @@
-# Initial browser laboratory verification
+# Browser laboratory verification
 
-Checked on 18 October 2026. The implementation uses local HTML, CSS and JavaScript modules with no installed package dependencies or external asset requests. Start with `npm run dev` and open `http://127.0.0.1:8765/`. Stop the server with Control-C.
+Updated 19 October 2026. The production application uses local HTML, CSS and JavaScript modules, with an optional Google Fonts stylesheet and no installed package dependencies. [Release validation](RELEASE_VALIDATION.md) covers the complete learning site.
 
-Observed checks:
+## Observed Safari interactions
 
-- Local HTTP entry point returned 200.
-- JavaScript syntax check passed; all 13 existing engine tests passed.
-- Safari loaded the laboratory and completed the emergence example’s 56-transform domain: 20 witnesses, five distinct parts and 10 distinct results.
-- Applying the selected rule changed step 0 / 0 with one maximal line to step 1 / 1 with two maximal lines.
-- Undo restored step 0 / 1 with one maximal line and enabled redo.
-- Desktop layout was inspected in Safari; the drawing and rule previews rendered.
+- The emergence preset completed all 56 declared transformations and reported 20 witnesses, five distinct parts and 10 distinct results.
+- Applying its selected rule advanced step 0/0 with one maximal line to step 1/1 with two maximal lines.
+- Undo restored step 0/1 and enabled redo. Editing B to `[]`, searching and applying deletion produced a new step 1/1 and removed the old redo future.
+- The deletion rule reported 20 witnesses, five distinct parts and five distinct results in that preset.
+- The history list displayed the initial shape and exact selected orientation, scale and translation.
+- The rule draft form accepted `1/2` coordinates, displayed an exact vertical right-side segment and activated it through Use this rule.
+- The shared dark layout, grid and rule previews were visually inspected on desktop. The laboratory's stacked layout and native controls were inspected at 390×844 CSS pixels through Safari Responsive Design Mode.
+- Earlier local save/restore testing saved a workspace with a redo branch, started a new drawing, and restored one maximal line at step 0/1 with redo enabled.
 
-The interface also implements line drawing, exact coordinate entry, rule editing, domain settings, manual alignment, fit view, cancellation, witness selection and JSON download. These additional paths have not all received browser interaction checks in this pass. Mobile layouts, comprehensive keyboard/screen-reader use, other browsers and a browser-console audit remain unverified. Core search cancellation, ambiguity, finite limits, arithmetic and history have separate [engine test evidence](ENGINE_VALIDATION.md).
+Pointer drawing, manual alignment, pan/zoom and Fit view are implemented. They have code/model checks and inspected controls, but not every pointer sequence and coordinate extreme has been manually exercised. The native file-picker import path and persistence across a full browser restart are not claimed as manual evidence. Exact interchange, replay, input budgets, cancellation and storage-failure behavior have automated tests.
 
-Browser search explicitly limits work to 50,000 candidates and 2,000 retained witnesses, with incomplete-result messages when either cap or cancellation interrupts enumeration. These limits are narrower than the core defaults. Geometry is retained outside the view; Fit view includes the selected result. Search-domain changes begin a new derivation from the current shape. Rule application clears old search results so they cannot be applied to a changed host.
+## Search behavior
 
-## Save/restore update — 19 October 2026
+Search uses a module worker where supported. The UI explicitly caps work at 50,000 candidates, 2,000 retained witnesses and eight seconds. Cancellation terminates the worker and discards intermediate witnesses. If worker setup fails, a yielding asynchronous fallback uses the same core. Every protective limit yields incomplete results, never a false exhaustion claim. Time is checked between candidates; it is not a hard real-time guarantee for one unusually expensive operation.
 
-Explicit local save/restore and workspace import/export are implemented. The complete test suite now passes **18 tests**: the original 13 engine checks and five workspace checks covering exact round trips, selected orientation preservation, undo/redo branches, legacy files, tampered replay, malformed/future formats, input budgets and storage failures.
+The visible canvas does not determine the domain. Changing the domain starts a new derivation from the current shape. Rule application clears stale matches. Rule draft changes require activation before searching or checking manual alignment, so the visible draft cannot silently be searched as the previous rule. Query-string presets also select the corresponding example control.
 
-Safari verification: saved a test workspace with a redo branch, started a new empty drawing, then restored one maximal line at step 0 / 1 with redo enabled. The browser displayed successful save and restore messages. The file-picker import path and persistence across a browser restart have not received manual browser checks; decoding/replay and storage boundaries have unit-test evidence.
+## Workspace format and privacy
 
-The version-1 `ShapeGrammar.lab` envelope includes the core derivation and selected rule. Older `ShapeGrammar.derivation` files remain accepted; when an old file has no rule history, the current editor rule is retained and the interface says so. Import budgets are 1 MiB, 200 steps, 256 segments per shape, 128 characters per rational coordinate and 32 scales. These are browser interchange limits, separate from the core's larger history limit. Live work exceeding these limits stays open but cannot be saved/exported through this bounded format until reduced. Very large or closely spaced coordinates can exceed display precision even though engine arithmetic remains exact; grid rendering uses a bounded loop.
+Version-1 `ShapeGrammar.lab` includes the core derivation and selected rule. Older `ShapeGrammar.derivation` files remain accepted; when an old file has no rule history, the current editor rule is retained and the interface explains this.
 
-One saved copy is stored under `ShapeGrammar.lab.v1` in localStorage for the current origin. Nothing is automatically restored or overwritten on startup. Explicit Save replaces the previous saved copy; editing or loading an example does not. Use the same host/port to access the same local copy, and download a file for portability. Applied rules/domain are retained; unsubmitted editor changes, matches and viewport are not saved. Unavailable browser storage produces a visible error, and download remains an alternative.
+Browser limits are 1 MiB per file, 200 steps, 256 segments per shape, 128 characters per rational coordinate and 32 scales. A replacement is parsed, bounded and replayed before the current workspace changes. Exact geometry remains independent of display rounding; very large or closely spaced coordinates may exceed screen precision. Grid rendering uses bounded loops.
 
-Nothing has been published or deployed, and no Git operations were performed.
+One saved workspace is stored under `ShapeGrammar.lab.v1` on the current origin. Nothing is automatically restored on startup. Explicit Save replaces that copy; editing and examples do not. Download backups for portability. Applied rules/domain, steps and undo cursor are retained; unsubmitted rule drafts, match lists and viewport are not. Failed storage produces a visible error and leaves download available.
+
+The interface matches the personal HTMAA website's dark palette, IBM Plex Mono stack, 300px sidebar and compact typography. The original website was read without modification. No Git operations or publication were performed.

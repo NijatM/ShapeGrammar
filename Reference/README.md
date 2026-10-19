@@ -1,6 +1,6 @@
 # ShapeGrammar reference library
 
-Curated on **18 October 2026** for Nijat Mahamaliyev. This collection provides research references and study notes. It does not implement the application or certify release readiness.
+Curated on **18–19 October 2026** for Nijat Mahamaliyev. This collection provides research references and study notes for the [learning application](../index.html). The [release report](../docs/RELEASE_VALIDATION.md) separately records application checks.
 
 Start with [the catalogue](CATALOGUE.md), then [lesson coverage](COVERAGE.md). The library contains **98 canonical sources** and **20 downloaded, unmodified PDFs**. Browse the parallel [George Stiny](authors/george-stiny/README.md) and [Terry Knight](authors/terry-knight/README.md) indexes. Knight has 55 associated records across research, editorial roles and teaching; the [coverage audit](authors/terry-knight/COVERAGE_AUDIT.md) records unresolved versions and limits to completeness. Bibliographic verification, reading a selected passage, and reviewing a complete mathematical argument are different activities; each record states which occurred.
 

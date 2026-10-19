@@ -1,0 +1,2420 @@
+[
+  {
+    "id": "SG-01",
+    "track": "shape-grammar",
+    "number": 1,
+    "title": "Seeing parts beyond the strokes",
+    "minutes": 8,
+    "objectives": [
+      "Distinguish a drawing history from the shape it represents.",
+      "Explain your answer using the worked example, then test a variation."
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "heading": "The idea",
+        "body": "A drawing records actions: a pen travels, stops and starts again. A line shape records the resulting line content. These are different descriptions. Two adjacent collinear strokes may produce one maximal segment, while a shorter segment that was never drawn separately may still be visible as a part."
+      },
+      {
+        "heading": "Why the distinction matters",
+        "body": "This makes shape computation perceptual. A rule need not select an object that was stored when the drawing was made. It may recognize a part spanning several earlier strokes. Here emergence means such alternative geometric parts, not an extra line appearing without an operation."
+      }
+    ],
+    "worked": {
+      "prompt": "Draw (0,0)–(3,0), then (3,0)–(6,0). Is (2,0)–(4,0) present?",
+      "steps": [
+        "The strokes cover the entire interval from x=0 to x=6.",
+        "The query uses x=2 through x=4, which is fully covered.",
+        "Its interior crosses the earlier stop at x=3. That stop does not create a gap."
+      ],
+      "result": "Yes. Two drawing actions represent one maximal line with the query embedded in it."
+    },
+    "checks": [
+      {
+        "prompt": "How many maximal segments remain after the two adjacent strokes fuse?",
+        "options": [
+          "1",
+          "2",
+          "3"
+        ],
+        "answer": 0,
+        "explanation": "They have the same carrier line and touch, so their union is one maximal segment."
+      },
+      {
+        "prompt": "Must a recognized part be an original stroke?",
+        "options": [
+          "Yes, always",
+          "No; it can span original strokes",
+          "Only if it is vertical"
+        ],
+        "answer": 1,
+        "explanation": "Embedding tests line coverage, not membership in the original stroke list."
+      }
+    ],
+    "practice": {
+      "task": "Draw the same length-six line in three pieces. Locate a length-two part that spans two joins.",
+      "hint": "Put joins at x=2 and x=3.",
+      "solution": "The query [1.5,3.5] spans both joins. Use fractions 3/2 and 7/2 in exact coordinate entry. Normalization still gives [0,6]."
+    },
+    "explore": {
+      "type": "shape",
+      "instruction": "Move the query along the line. Compare its position with the old stroke boundary."
+    },
+    "sources": [
+      {
+        "id": "stiny-1980-introduction",
+        "locator": "Printed pp. 343–344 and 347; definitions and rule formula"
+      },
+      {
+        "id": "stiny-2018-calculating-excerpts",
+        "locator": "OCW Q1 and Q4; visual computation context"
+      }
+    ]
+  },
+  {
+    "id": "SG-02",
+    "track": "shape-grammar",
+    "number": 2,
+    "title": "Line elements and the planar setting",
+    "minutes": 8,
+    "objectives": [
+      "Explain what the two indices in U₁₂ describe.",
+      "Explain your answer using the worked example, then test a variation."
+    ],
+    "prerequisites": [
+      "SG-01"
+    ],
+    "sections": [
+      {
+        "heading": "The idea",
+        "body": "The subscript in Uᵢⱼ separates the dimension of the basic elements from the dimension of the space containing them. U₁₂ uses one-dimensional line elements in a two-dimensional containing space. A line segment can be diagonal in the plane without becoming a two-dimensional region."
+      },
+      {
+        "heading": "Why the distinction matters",
+        "body": "This lab represents finite unlabelled straight-line shapes with rational endpoints. Rational coordinates and the finite menu of transformations are implementation restrictions. They are not the definition of every element of U₁₂. Points, filled regions, labels, weights and curves require other representations or extensions."
+      }
+    ],
+    "worked": {
+      "prompt": "Compare a diagonal segment, a filled triangle and a crossing point.",
+      "steps": [
+        "A diagonal segment has length but no area: it is one-dimensional.",
+        "A filled triangle has a two-dimensional interior.",
+        "A crossing point has dimension zero, even when two line elements meet there."
+      ],
+      "result": "The straight segment fits the lab’s line elements. A filled triangle or isolated point does not."
+    },
+    "checks": [
+      {
+        "prompt": "In U₁₂, the 2 denotes…",
+        "options": [
+          "Two endpoints",
+          "Containing-space dimension",
+          "Number of rules"
+        ],
+        "answer": 1,
+        "explanation": "The first index is element dimension; the second is containing-space dimension."
+      },
+      {
+        "prompt": "Does the lab implement every real-coordinate line shape?",
+        "options": [
+          "Yes",
+          "No, its endpoints are rational",
+          "Only in a large viewport"
+        ],
+        "answer": 1,
+        "explanation": "Exact rational arithmetic is a deliberate subset of the full real-coordinate setting."
+      }
+    ],
+    "practice": {
+      "task": "Represent the boundary of a triangle using line segments. Explain why this differs from a filled triangle.",
+      "hint": "Separate boundary from interior.",
+      "solution": "Three segments form a one-dimensional boundary. They do not encode the two-dimensional interior."
+    },
+    "explore": {
+      "type": "shape",
+      "instruction": "Move the query along the line. Compare its position with the old stroke boundary."
+    },
+    "sources": [
+      {
+        "id": "stouffs-2016-interpreter",
+        "locator": "Printed p. 331, dimensional convention"
+      },
+      {
+        "id": "stiny-1980-introduction",
+        "locator": "Printed pp. 343–344 and 347; definitions and rule formula"
+      }
+    ]
+  },
+  {
+    "id": "SG-03",
+    "track": "shape-grammar",
+    "number": 3,
+    "title": "Parthood and geometric embedding",
+    "minutes": 8,
+    "objectives": [
+      "Use non-strict parthood to recognize a proper subsegment.",
+      "Explain your answer using the worked example, then test a variation."
+    ],
+    "prerequisites": [
+      "SG-02"
+    ],
+    "sections": [
+      {
+        "heading": "The idea",
+        "body": "Write A ≤ S when the line content of A is contained in S. Equality is allowed, so this is non-strict parthood. The empty shape is a part of every shape. For a nonempty query, each of its positive-length line intervals must be covered by the host."
+      },
+      {
+        "heading": "Why the distinction matters",
+        "body": "Parthood is not the same as membership in a list of segments. It is also distinct from the notation A ⊆ B used for sets. Geometric coverage can succeed even when query endpoints do not coincide with stored endpoints. A genuine gap, however small, makes a spanning query fail."
+      }
+    ],
+    "worked": {
+      "prompt": "Let S be [0,6] on the x axis. Compare queries [1,5], [0,6] and [5,7].",
+      "steps": [
+        "[1,5] lies wholly within the host.",
+        "[0,6] is equal to the host and is still a part.",
+        "[5,7] extends past x=6, so some line content is missing."
+      ],
+      "result": "The first two queries are parts; the third is not."
+    },
+    "checks": [
+      {
+        "prompt": "Is S ≤ S?",
+        "options": [
+          "Yes",
+          "No; only smaller shapes are parts",
+          "Only for empty S"
+        ],
+        "answer": 0,
+        "explanation": "The relation is non-strict."
+      },
+      {
+        "prompt": "Does [2,4] embed in [0,5/2] + [3,6]?",
+        "options": [
+          "Yes, because both endpoints are covered",
+          "No, because there is a gap",
+          "Yes, after changing the viewport"
+        ],
+        "answer": 1,
+        "explanation": "Coverage of endpoints alone is insufficient; the interval between 5/2 and 3 is missing."
+      }
+    ],
+    "practice": {
+      "task": "Find a proper part of a diagonal segment (0,0)–(4,4), then give a nearby non-part.",
+      "hint": "Stay on the same carrier line for the part.",
+      "solution": "(1,1)–(3,3) is a part. (1,1)–(3,4) leaves the carrier and is not."
+    },
+    "explore": {
+      "type": "shape",
+      "instruction": "Move the query along the line. Compare its position with the old stroke boundary."
+    },
+    "sources": [
+      {
+        "id": "stiny-1980-introduction",
+        "locator": "Printed pp. 343–344 and 347; definitions and rule formula"
+      }
+    ]
+  },
+  {
+    "id": "SG-04",
+    "track": "shape-grammar",
+    "number": 4,
+    "title": "Maximal lines, overlap and fusion",
+    "minutes": 8,
+    "objectives": [
+      "Normalize equivalent stroke descriptions into the same shape.",
+      "Explain your answer using the worked example, then test a variation."
+    ],
+    "prerequisites": [
+      "SG-03"
+    ],
+    "sections": [
+      {
+        "heading": "The idea",
+        "body": "A maximal segment cannot be extended along its carrier using further line content already in the shape. Normalization merges overlapping or touching collinear intervals. It also removes duplicate coverage and ignores the direction in which endpoints were listed."
+      },
+      {
+        "heading": "Why the distinction matters",
+        "body": "Crossing segments do not fuse into one straight segment because their carriers differ. Nor does a small gap disappear through normalization. The representation must preserve geometric distinctions while eliminating irrelevant differences caused by drawing order or redundant strokes."
+      }
+    ],
+    "worked": {
+      "prompt": "Normalize the intervals [0,3], [2,5], [5,6] and [4,1] on the x axis.",
+      "steps": [
+        "Reverse [4,1] to compare its coverage as [1,4].",
+        "The intervals overlap or touch in a connected chain.",
+        "Their smallest starting coordinate is 0 and largest ending coordinate is 6."
+      ],
+      "result": "All four strokes normalize to the single maximal interval [0,6]."
+    },
+    "checks": [
+      {
+        "prompt": "Which change preserves the represented shape?",
+        "options": [
+          "Reverse a segment’s endpoints",
+          "Fill a gap",
+          "Move a line to another carrier"
+        ],
+        "answer": 0,
+        "explanation": "Endpoint order does not change the segment’s line content."
+      },
+      {
+        "prompt": "Do perpendicular lines fuse into one maximal straight segment?",
+        "options": [
+          "Yes",
+          "No",
+          "Only at the origin"
+        ],
+        "answer": 1,
+        "explanation": "They occupy different carrier lines."
+      }
+    ],
+    "practice": {
+      "task": "Give two different stroke lists representing [0,8], and one list that almost does but has a gap.",
+      "hint": "Overlaps and subdivision are harmless; missing intervals are not.",
+      "solution": "[0,4]+[4,8] and [0,6]+[2,8] are equivalent. [0,3]+[4,8] is missing (3,4)."
+    },
+    "explore": {
+      "type": "shape",
+      "instruction": "Move the query along the line. Compare its position with the old stroke boundary."
+    },
+    "sources": [
+      {
+        "id": "stiny-1980-introduction",
+        "locator": "Printed pp. 343–344 and 347; definitions and rule formula"
+      }
+    ]
+  },
+  {
+    "id": "SG-05",
+    "track": "shape-grammar",
+    "number": 5,
+    "title": "Shape arithmetic",
+    "minutes": 8,
+    "objectives": [
+      "Compute sum, common part and difference for line shapes.",
+      "Explain your answer using the worked example, then test a variation."
+    ],
+    "prerequisites": [
+      "SG-04"
+    ],
+    "sections": [
+      {
+        "heading": "The idea",
+        "body": "Shape sum combines line content, followed by fusion. The common part retains positive-length intervals shared by both shapes. Difference removes shared line intervals and represents the remaining line content with closed residual segments. The empty line shape is written 0_shape here."
+      },
+      {
+        "heading": "Why the distinction matters",
+        "body": "These operations are dimensional. Two transverse lines can meet as point sets while sharing no one-dimensional line shape. Difference also keeps the residual segment boundaries; it is not literal point-set subtraction with open endpoints. Keeping this convention explicit prevents accidental conversion between point sets and line algebras."
+      }
+    ],
+    "worked": {
+      "prompt": "Let A=[0,6] and B=[2,4] on the x axis.",
+      "steps": [
+        "A+B is [0,6], because B adds no new line content.",
+        "The common part of A and B is [2,4].",
+        "A−B is represented by [0,2] and [4,6]. Adding B back fuses the whole line."
+      ],
+      "result": "Sum, common part and difference perform different jobs; all preserve the line-shape convention."
+    },
+    "checks": [
+      {
+        "prompt": "What is the common one-dimensional shape of perpendicular segments crossing at one point?",
+        "options": [
+          "A point segment",
+          "The empty line shape",
+          "Both full segments"
+        ],
+        "answer": 1,
+        "explanation": "A point has no positive line length."
+      },
+      {
+        "prompt": "What is [0,6] − [2,4] in this lab?",
+        "options": [
+          "[0,2] + [4,6]",
+          "[2,4]",
+          "A list of all points except 2 and 4"
+        ],
+        "answer": 0,
+        "explanation": "Closed residual segments represent line-shape difference."
+      }
+    ],
+    "practice": {
+      "task": "Remove [1,5] from [0,6]. Then add [2,4] to the result.",
+      "hint": "Compute the removal before the addition.",
+      "solution": "The removal gives [0,1]+[5,6]. Adding [2,4] gives three separated maximal segments."
+    },
+    "explore": {
+      "type": "shape",
+      "instruction": "Move the query along the line. Compare its position with the old stroke boundary."
+    },
+    "sources": [
+      {
+        "id": "stiny-1980-introduction",
+        "locator": "Printed pp. 343–344 and 347; definitions and rule formula"
+      }
+    ]
+  },
+  {
+    "id": "SG-06",
+    "track": "shape-grammar",
+    "number": 6,
+    "title": "Transformations and the finite menu",
+    "minutes": 8,
+    "objectives": [
+      "Apply scaling, orientation and translation in the declared order.",
+      "Explain your answer using the worked example, then test a variation."
+    ],
+    "prerequisites": [
+      "SG-05"
+    ],
+    "sections": [
+      {
+        "heading": "The idea",
+        "body": "The lab uses t(p)=sMp+v: first apply the orientation matrix M to a point, then multiply by a positive scale s, then add translation v. The eight orientation matrices form D₄, the order-eight symmetry group of a square. R is a counterclockwise quarter turn; F reflects across the horizontal axis."
+      },
+      {
+        "heading": "Why the distinction matters",
+        "body": "The lab names RᵏF as f0, f90, f180 and f270; reflection acts first. Its bounded translation grid and finite scale menu generally do not form a group, because composition can leave the menu. The visible canvas is only a view and does not determine which transformations are admissible."
+      }
+    ],
+    "worked": {
+      "prompt": "Transform p=(2,0) using scale 1/2, r90 and translation (1,1).",
+      "steps": [
+        "r90 sends (2,0) to (0,2).",
+        "Scaling by 1/2 produces (0,1).",
+        "Translation adds (1,1), producing (1,2)."
+      ],
+      "result": "The transformed point is (1,2); changing operation order can change this result."
+    },
+    "checks": [
+      {
+        "prompt": "Which operation is applied last in sMp+v?",
+        "options": [
+          "Scaling",
+          "Translation",
+          "Reflection"
+        ],
+        "answer": 1,
+        "explanation": "The translation vector is added after orientation and scaling."
+      },
+      {
+        "prompt": "Is a bounded translation menu automatically a group?",
+        "options": [
+          "Yes",
+          "No; it may not be closed under composition",
+          "Only if it is drawn as a square"
+        ],
+        "answer": 1,
+        "explanation": "Two allowed translations can compose to one outside the bounds."
+      }
+    ],
+    "practice": {
+      "task": "Transform (1,1) with f0 and then r90. Compare with the reversed order.",
+      "hint": "f0 changes the sign of y.",
+      "solution": "R F(1,1)=(1,1), while F R(1,1)=(-1,-1)."
+    },
+    "explore": {
+      "type": "symmetry",
+      "instruction": "Compare operation orders and inspect the vertex positions."
+    },
+    "sources": [
+      {
+        "id": "stiny-1980-introduction",
+        "locator": "Printed pp. 343–344 and 347; definitions and rule formula"
+      },
+      {
+        "id": "judson-abstract-algebra",
+        "locator": "Sections 3.1–3.3 and 5.2; groups and square symmetries"
+      }
+    ]
+  },
+  {
+    "id": "SG-07",
+    "track": "shape-grammar",
+    "number": 7,
+    "title": "One rule, one shared transformation",
+    "minutes": 8,
+    "objectives": [
+      "Apply the same transformation to both sides of a rule.",
+      "Explain your answer using the worked example, then test a variation."
+    ],
+    "prerequisites": [
+      "SG-06"
+    ],
+    "sections": [
+      {
+        "heading": "The idea",
+        "body": "A shape rule has a left side A and a right side B. A transformation t is a witness for its application when t(A) ≤ S. The resulting shape is S′=(S−t(A))+t(B). The same transformation must act on both sides; independently moving B changes the rule rather than applying it."
+      },
+      {
+        "heading": "Why the distinction matters",
+        "body": "The host may contain more than the matched part. That context survives unless it overlaps line content removed by the rule. Reintroducing part or all of A on the right side is a way to retain it. An empty right side deletes a matched part. This lab deliberately disallows an empty left side."
+      }
+    ],
+    "worked": {
+      "prompt": "A is [0,2] on the x axis; B retains it and adds a stem at x=1. Place A by translating (3,0).",
+      "steps": [
+        "The matched part is [3,5].",
+        "Remove that part from the host.",
+        "Translate B by the same (3,0): restore [3,5] and add the stem at x=4."
+      ],
+      "result": "The new stem is at x=4, not at x=1 or at an independently chosen position."
+    },
+    "checks": [
+      {
+        "prompt": "May B use a different translation from A during one application?",
+        "options": [
+          "Yes",
+          "No",
+          "Only if B contains a stem"
+        ],
+        "answer": 1,
+        "explanation": "One shared transformation defines the application."
+      },
+      {
+        "prompt": "How can a rule preserve its matched line while adding another?",
+        "options": [
+          "Include the line again in B",
+          "Skip the embedding check",
+          "Move B independently"
+        ],
+        "answer": 0,
+        "explanation": "The formula removes A and then adds the whole transformed right side."
+      }
+    ],
+    "practice": {
+      "task": "Apply the same rule at scale 1/2 with no translation. Locate the stem and its height.",
+      "hint": "Scale every coordinate on both sides.",
+      "solution": "The matched base is [0,1], the stem is at x=1/2 and its height is 1/2."
+    },
+    "explore": {
+      "type": "shape",
+      "instruction": "Move the query along the line. Compare its position with the old stroke boundary."
+    },
+    "sources": [
+      {
+        "id": "stiny-1980-introduction",
+        "locator": "Printed pp. 343–344 and 347; definitions and rule formula"
+      }
+    ]
+  },
+  {
+    "id": "SG-08",
+    "track": "shape-grammar",
+    "number": 8,
+    "title": "The embed–replace–fuse cycle",
+    "minutes": 8,
+    "objectives": [
+      "Explain why matching must be repeated after each application.",
+      "Explain your answer using the worked example, then test a variation."
+    ],
+    "prerequisites": [
+      "SG-07"
+    ],
+    "sections": [
+      {
+        "heading": "The idea",
+        "body": "A derivation is a sequence of rule applications. At each step, recognize a transformed left side in the current shape, remove its line content, add the transformed right side and normalize. The resulting maximal segments can expose parts that were not separate drawing actions before."
+      },
+      {
+        "heading": "Why the distinction matters",
+        "body": "A match list belongs to a particular host and domain. Once either changes, old witnesses must be checked again. Undo returns to an earlier geometric state; it does not reverse the meaning of the rule. Redo replays the recorded branch. A new application after undo creates a new branch and discards the old redo future."
+      }
+    ],
+    "worked": {
+      "prompt": "Add a stem to a base, undo, then apply a deletion rule instead.",
+      "steps": [
+        "The addition produces a new state containing base and stem.",
+        "Undo restores the preceding state.",
+        "Applying deletion from that state branches the derivation; the earlier stem addition is no longer the redo future."
+      ],
+      "result": "History is an explicit sequence of geometric states and witnesses."
+    },
+    "checks": [
+      {
+        "prompt": "After an application, should an old match list be assumed valid?",
+        "options": [
+          "Yes",
+          "No, recompute or revalidate it",
+          "Only for small drawings"
+        ],
+        "answer": 1,
+        "explanation": "The host changed, so applicability must be checked again."
+      },
+      {
+        "prompt": "What happens when you apply a new rule after undo?",
+        "options": [
+          "The redo branch is replaced",
+          "Both futures apply at once",
+          "The rule becomes an inverse"
+        ],
+        "answer": 0,
+        "explanation": "A linear undo/redo history branches by replacing the old future."
+      }
+    ],
+    "practice": {
+      "task": "In the lab, apply the stem rule, undo it, then apply a different witness. Explain the retained history.",
+      "hint": "Compare the new stem direction with the old one.",
+      "solution": "The new branch contains the chosen witness and its result; the discarded future is not part of the active redo sequence."
+    },
+    "explore": {
+      "type": "shape",
+      "instruction": "Move the query along the line. Compare its position with the old stroke boundary."
+    },
+    "sources": [
+      {
+        "id": "stiny-1980-introduction",
+        "locator": "Printed pp. 343–344 and 347; definitions and rule formula"
+      },
+      {
+        "id": "stiny-2024-epb",
+        "locator": "Equations (1)–(3), embed–fuse discussion"
+      }
+    ]
+  },
+  {
+    "id": "SG-09",
+    "track": "shape-grammar",
+    "number": 9,
+    "title": "Ambiguity and transformation witnesses",
+    "minutes": 8,
+    "objectives": [
+      "Distinguish a matched region from the transformation that places it.",
+      "Explain your answer using the worked example, then test a variation."
+    ],
+    "prerequisites": [
+      "SG-08"
+    ],
+    "sections": [
+      {
+        "heading": "The idea",
+        "body": "A symmetric left side can occupy the same line region under different transformations. These are different witnesses even when the highlighted region is identical. The right side may break the left side’s symmetry, causing those witnesses to produce different results."
+      },
+      {
+        "heading": "Why the distinction matters",
+        "body": "Counting regions alone loses information. The lab therefore reports witness count, distinct matched-part count and distinct result count separately. This finite menu shows one controlled form of multiplicity; unrestricted continuous matching can have additional, including infinitely many, possibilities."
+      }
+    ],
+    "worked": {
+      "prompt": "A is the horizontal base [0,2]. B adds a unit stem upward at its midpoint. Compare identity with reflection across the x axis at zero translation.",
+      "steps": [
+        "Both transformations place A exactly on [0,2].",
+        "Identity puts the added stem above the base.",
+        "Reflection puts it below the base."
+      ],
+      "result": "There are two witnesses, one matched region and two resulting shapes in this two-witness example."
+    },
+    "checks": [
+      {
+        "prompt": "Can identical highlighted parts lead to different results?",
+        "options": [
+          "Yes",
+          "No",
+          "Only if A has labels"
+        ],
+        "answer": 0,
+        "explanation": "The transformation of B can differ even when the transformed A is the same."
+      },
+      {
+        "prompt": "Which information is sufficient to replay the application?",
+        "options": [
+          "Only the highlighted region",
+          "The rule, host and transformation witness",
+          "Only the result count"
+        ],
+        "answer": 1,
+        "explanation": "The witness specifies how both sides are transformed."
+      }
+    ],
+    "practice": {
+      "task": "Open the ambiguity example and compare the two witnesses. Then make B symmetric above and below. Predict the result count.",
+      "hint": "A symmetric B may remove the difference in consequences.",
+      "solution": "With both upward and downward stems in B, identity and horizontal reflection yield the same result, while remaining different witnesses."
+    },
+    "explore": {
+      "type": "shape",
+      "instruction": "Move the query along the line. Compare its position with the old stroke boundary."
+    },
+    "sources": [
+      {
+        "id": "stiny-1980-introduction",
+        "locator": "Printed pp. 343–344 and 347; definitions and rule formula"
+      },
+      {
+        "id": "knight-2003-computing-with-ambiguity",
+        "locator": "Further reading; bibliography verified, interior not used as proof here"
+      }
+    ]
+  },
+  {
+    "id": "SG-10",
+    "track": "shape-grammar",
+    "number": 10,
+    "title": "Identity rules and recognition",
+    "minutes": 8,
+    "objectives": [
+      "Separate a geometric change from a choice of interpretation.",
+      "Explain your answer using the worked example, then test a variation."
+    ],
+    "prerequisites": [
+      "SG-09"
+    ],
+    "sections": [
+      {
+        "heading": "The idea",
+        "body": "An identity rule A→A can recognize a part while leaving the total geometry unchanged. Its application still has a witness and can record an interpretive choice. It should not be confused with the identity transformation, which is one specific transformation of all points."
+      },
+      {
+        "heading": "Why the distinction matters",
+        "body": "A useful interface must not infer that an unchanged shape means nothing happened in the derivation. It can record the rule application, selected part and witness even when before and after shapes are equal. The simple lab does not attach further semantic labels to that interpretation."
+      }
+    ],
+    "worked": {
+      "prompt": "Apply A→A to the middle interval [2,4] of [0,6].",
+      "steps": [
+        "The interval is embedded in the host.",
+        "Subtracting it splits the host into residual segments.",
+        "Adding the same interval back fuses the original [0,6]."
+      ],
+      "result": "The geometry is unchanged, while the recorded application identifies a selected part."
+    },
+    "checks": [
+      {
+        "prompt": "Does A→A necessarily alter line content?",
+        "options": [
+          "Yes",
+          "No",
+          "Only with integer coordinates"
+        ],
+        "answer": 1,
+        "explanation": "Subtracting and restoring the same matched shape leaves the geometry equal."
+      },
+      {
+        "prompt": "Is an identity rule the same thing as an identity transformation?",
+        "options": [
+          "Yes",
+          "No; a rule and a transformation play different roles",
+          "Only for a square"
+        ],
+        "answer": 1,
+        "explanation": "A rule compares two shapes; a transformation maps points."
+      }
+    ],
+    "practice": {
+      "task": "Edit both rule sides to the same segment, apply it and inspect the step counter.",
+      "hint": "An unchanged result may still be a recorded step.",
+      "solution": "The derivation gains one application even though its current geometry is equal to the preceding shape."
+    },
+    "explore": {
+      "type": "shape",
+      "instruction": "Move the query along the line. Compare its position with the old stroke boundary."
+    },
+    "sources": [
+      {
+        "id": "stiny-1980-introduction",
+        "locator": "Printed pp. 343–344 and 347; definitions and rule formula"
+      },
+      {
+        "id": "stiny-2024-epb",
+        "locator": "Equation (2), recognition through an identity rule"
+      }
+    ]
+  },
+  {
+    "id": "SG-11",
+    "track": "shape-grammar",
+    "number": 11,
+    "title": "Recursion and grammar construction",
+    "minutes": 8,
+    "objectives": [
+      "Describe an initial shape, rules and repeated application separately.",
+      "Explain your answer using the worked example, then test a variation."
+    ],
+    "prerequisites": [
+      "SG-10"
+    ],
+    "sections": [
+      {
+        "heading": "The idea",
+        "body": "A grammar combines a starting shape with rules that can be applied repeatedly. Recursion means that generated shapes can enable further applications of the same rule. A grammar describes a family of derivations; a single finished drawing is only one possible outcome."
+      },
+      {
+        "heading": "Why the distinction matters",
+        "body": "Construction involves choosing more than a pleasing motif. Specify what can match, which transformations are permitted and what counts as an acceptable stopping state. Labels can control rule application in richer grammars; this lab’s unlabelled model cannot implement every such control strategy."
+      }
+    ],
+    "worked": {
+      "prompt": "Consider a rule that preserves a unit horizontal segment and adds the next unit segment to its right.",
+      "steps": [
+        "Begin with [0,1].",
+        "Apply the rule to extend coverage to [0,2].",
+        "Translate the rule to the rightmost unit part and extend again. Fusion yields [0,3]."
+      ],
+      "result": "Repeated applications can grow a line, although the search menu may bound which placements the lab can discover."
+    },
+    "checks": [
+      {
+        "prompt": "What makes the extension rule recursive?",
+        "options": [
+          "It can enable another application of itself",
+          "It has two endpoints",
+          "It is drawn twice"
+        ],
+        "answer": 0,
+        "explanation": "Its generated geometry contains suitable parts for further applications."
+      },
+      {
+        "prompt": "Does one generated drawing specify every possible derivation?",
+        "options": [
+          "Yes",
+          "No",
+          "Only if it is symmetric"
+        ],
+        "answer": 1,
+        "explanation": "The rule system can admit choices and multiple derivation paths."
+      }
+    ],
+    "practice": {
+      "task": "Design a rule that grows a staircase instead of a straight line. State a stopping policy.",
+      "hint": "Preserve a recognizable terminal segment and add a translated copy with a connector.",
+      "solution": "Many rules work. Explain which part enables the next step, and use a step bound as an explicit policy rather than claiming the grammar inherently terminates."
+    },
+    "explore": {
+      "type": "domain",
+      "instruction": "Change the translation bounds and count the candidate transformations."
+    },
+    "sources": [
+      {
+        "id": "stiny-1980-introduction",
+        "locator": "Printed pp. 343–344 and 347; definitions and rule formula"
+      }
+    ]
+  },
+  {
+    "id": "SG-12",
+    "track": "shape-grammar",
+    "number": 12,
+    "title": "Termination and finite search",
+    "minutes": 8,
+    "objectives": [
+      "Distinguish a finished match search from a terminating grammar.",
+      "Explain your answer using the worked example, then test a variation."
+    ],
+    "prerequisites": [
+      "SG-11"
+    ],
+    "sections": [
+      {
+        "heading": "The idea",
+        "body": "A finite candidate menu makes one match search finite in principle. It does not prove that repeated rule application must stop. An identity rule can apply indefinitely without changing geometry; a growth rule can continue creating new opportunities where its transformation permissions allow."
+      },
+      {
+        "heading": "Why the distinction matters",
+        "body": "A derivation policy may stop after a fixed number of steps, after a design criterion is met, or when no allowed rule can apply. These are different claims. Protective candidate and match limits also differ from exhausting the declared search domain: an interrupted search is incomplete, not evidence that no other matches exist."
+      }
+    ],
+    "worked": {
+      "prompt": "A search checks 50 of 100 declared transformations before cancellation.",
+      "steps": [
+        "The 50 inspected candidates may contain valid witnesses.",
+        "The remaining 50 have not been checked.",
+        "Neither zero found matches nor cancellation establishes exhaustion."
+      ],
+      "result": "Report incomplete results. This says nothing by itself about termination of repeated rewriting."
+    },
+    "checks": [
+      {
+        "prompt": "Does exhaustive finite matching prove every derivation terminates?",
+        "options": [
+          "Yes",
+          "No",
+          "Only with reflections disabled"
+        ],
+        "answer": 1,
+        "explanation": "Matching at one state and repeated rewriting are separate processes."
+      },
+      {
+        "prompt": "Can an identity rule support an infinite derivation?",
+        "options": [
+          "Yes",
+          "No",
+          "Only if the geometry grows"
+        ],
+        "answer": 0,
+        "explanation": "It can be applied repeatedly while leaving the shape unchanged."
+      }
+    ],
+    "practice": {
+      "task": "Give one reason to stop a derivation and one reason to stop a search. Keep their meanings distinct.",
+      "hint": "A design criterion concerns the derivation; cancellation concerns computation.",
+      "solution": "For example, stop a derivation after ten chosen applications, and stop a search on cancellation. Neither establishes that no further mathematical application exists."
+    },
+    "explore": {
+      "type": "domain",
+      "instruction": "Change the translation bounds and count the candidate transformations."
+    },
+    "sources": [
+      {
+        "id": "stiny-1980-introduction",
+        "locator": "Printed pp. 343–344 and 347; definitions and rule formula"
+      }
+    ]
+  },
+  {
+    "id": "SG-13",
+    "track": "shape-grammar",
+    "number": 13,
+    "title": "From motifs to new examples",
+    "minutes": 8,
+    "objectives": [
+      "Build and explain an original geometric rule without copying a diagram.",
+      "Explain your answer using the worked example, then test a variation."
+    ],
+    "prerequisites": [
+      "SG-12"
+    ],
+    "sections": [
+      {
+        "heading": "The idea",
+        "body": "A small rule can be studied by changing one decision at a time: its initial shape, right side, orientation menu or scale menu. This helps identify why a pattern appears. Start with exact coordinates and an explicit rule before making claims about the generated family."
+      },
+      {
+        "heading": "Why the distinction matters",
+        "body": "The examples in this course are original teaching fixtures. They demonstrate selected concepts rather than reproducing a historical grammar. A picture resembling a traditional pattern is not enough to establish that it follows the same grammar or constraints as the historical work."
+      }
+    ],
+    "worked": {
+      "prompt": "Keep a length-two base and add a perpendicular stem. Compare a midpoint stem with one placed at an endpoint.",
+      "steps": [
+        "Both rules can retain the same left side.",
+        "A midpoint stem creates a reflection-symmetric right side about a vertical line.",
+        "An endpoint stem changes that symmetry and the relation between overlapping applications."
+      ],
+      "result": "A small coordinate edit changes the rule’s consequences even when its left side is unchanged."
+    },
+    "checks": [
+      {
+        "prompt": "What should accompany a generated example?",
+        "options": [
+          "Only its picture",
+          "The initial shape, rule and chosen applications",
+          "Only a style name"
+        ],
+        "answer": 1,
+        "explanation": "These make the computation reproducible."
+      },
+      {
+        "prompt": "Does visual similarity prove two grammars are equivalent?",
+        "options": [
+          "Yes",
+          "No",
+          "Only for monochrome drawings"
+        ],
+        "answer": 1,
+        "explanation": "Equivalent output appearance does not establish identical rules or generated languages."
+      }
+    ],
+    "practice": {
+      "task": "Make two rules with the same A but different B. Compare their complete match lists on the same host.",
+      "hint": "Applicability depends on A and the domain, while consequences depend on B.",
+      "solution": "The witnesses agree when A, host and domain agree; the resulting shapes can differ."
+    },
+    "explore": {
+      "type": "shape",
+      "instruction": "Move the query along the line. Compare its position with the old stroke boundary."
+    },
+    "sources": [
+      {
+        "id": "stiny-1980-introduction",
+        "locator": "Printed pp. 343–344 and 347; definitions and rule formula"
+      }
+    ]
+  },
+  {
+    "id": "SG-14",
+    "track": "shape-grammar",
+    "number": 14,
+    "title": "Architectural languages and design analysis",
+    "minutes": 8,
+    "objectives": [
+      "Separate analysis of precedents from generation of new designs.",
+      "Explain your answer using the worked example, then test a variation."
+    ],
+    "prerequisites": [
+      "SG-13"
+    ],
+    "sections": [
+      {
+        "heading": "The idea",
+        "body": "A descriptive grammar can model regularities in an existing collection of designs. A generative exercise can instead seek new designs from chosen rules. Both require explicit scope: which examples are included, what the rules encode and which design properties lie outside the model."
+      },
+      {
+        "heading": "Why the distinction matters",
+        "body": "Stiny and Mitchell’s Palladian work and Knight’s chair-back and design-language studies are historical reading paths. This lesson does not claim to reconstruct their complete rule sets. Geometry alone does not establish architectural function, structural feasibility, cultural context or historical authorship."
+      }
+    ],
+    "worked": {
+      "prompt": "Invent a small window-pattern language on a rectangular frame.",
+      "steps": [
+        "Choose a corpus boundary: for example, your own three sketches.",
+        "Describe a repeated relation, such as equal vertical subdivisions.",
+        "Write an original rule and test whether it generates those sketches and unintended alternatives."
+      ],
+      "result": "The analysis is accountable to its examples; generation can explore beyond them."
+    },
+    "checks": [
+      {
+        "prompt": "What supports a claim that a grammar models a precedent corpus?",
+        "options": [
+          "A resemblance in one picture",
+          "Explicit scope and comparison with the corpus",
+          "A very large number of outputs"
+        ],
+        "answer": 1,
+        "explanation": "Coverage and limits must be examined against the selected examples."
+      },
+      {
+        "prompt": "Does a geometric derivation establish structural safety?",
+        "options": [
+          "Yes",
+          "No",
+          "Only for symmetric plans"
+        ],
+        "answer": 1,
+        "explanation": "Structural properties require additional models and evidence."
+      }
+    ],
+    "practice": {
+      "task": "Draw three related patterns. State one regularity and one feature your proposed grammar will ignore.",
+      "hint": "Scope can be narrow if it is stated clearly.",
+      "solution": "An acceptable answer identifies the examples, explicit geometric regularity and an omitted property such as material or function."
+    },
+    "explore": {
+      "type": "shape",
+      "instruction": "Move the query along the line. Compare its position with the old stroke boundary."
+    },
+    "sources": [
+      {
+        "id": "stiny-1980-introduction",
+        "locator": "Printed pp. 343–344 and 347; definitions and rule formula"
+      },
+      {
+        "id": "stiny-mitchell-1978-palladian",
+        "locator": "Historical example; read the original before claiming its full grammar"
+      },
+      {
+        "id": "knight-1980-the-generation-of-hepplewhite-style-chair-back-designs",
+        "locator": "Historical example; bibliography verified"
+      }
+    ]
+  },
+  {
+    "id": "SG-15",
+    "track": "shape-grammar",
+    "number": 15,
+    "title": "Capstone: emergence and correct application",
+    "minutes": 8,
+    "objectives": [
+      "Produce a reproducible example that spans a stroke boundary.",
+      "Explain your answer using the worked example, then test a variation."
+    ],
+    "prerequisites": [
+      "SG-14"
+    ],
+    "sections": [
+      {
+        "heading": "The idea",
+        "body": "This capstone combines coverage, transformation and rule application. The key evidence is not merely a highlighted line: explain the host, the left and right sides, the witness and the resulting geometry. Use exact coordinates so another learner can reproduce the application."
+      },
+      {
+        "heading": "Why the distinction matters",
+        "body": "Compare two drawing histories representing the same shape. A shape-based matcher should return the same complete witness set for both under the same domain. If a representation boundary changes applicability, the implementation is treating stored strokes as fixed symbols rather than the intended fused geometry."
+      }
+    ],
+    "worked": {
+      "prompt": "Use [0,3]+[3,6] as the host and the stem rule with translation (2,0).",
+      "steps": [
+        "The transformed base is [2,4], which spans the old join at 3.",
+        "Removing and then restoring that base preserves [0,6].",
+        "The new stem is placed at x=3 because the local stem was at x=1."
+      ],
+      "result": "The final shape is the length-six base plus the unit stem at x=3."
+    },
+    "checks": [
+      {
+        "prompt": "Where is the stem after translating the rule by (2,0)?",
+        "options": [
+          "x=1",
+          "x=3",
+          "x=5"
+        ],
+        "answer": 1,
+        "explanation": "Its local x coordinate 1 becomes 1+2=3."
+      },
+      {
+        "prompt": "Should replacing the host strokes with a single [0,6] change the complete witness set?",
+        "options": [
+          "Yes",
+          "No",
+          "Only for half scales"
+        ],
+        "answer": 1,
+        "explanation": "The normalized line content is identical."
+      }
+    ],
+    "practice": {
+      "task": "Export a workspace demonstrating the application, then import it and verify the same geometry and witness history.",
+      "hint": "Use the exact transform rather than identifying only the result.",
+      "solution": "The imported derivation should replay from the initial shape and preserve the selected application. Replacing the stroke representation by an equal shape should preserve matching."
+    },
+    "explore": {
+      "type": "shape",
+      "instruction": "Move the query along the line. Compare its position with the old stroke boundary."
+    },
+    "sources": [
+      {
+        "id": "stiny-1980-introduction",
+        "locator": "Printed pp. 343–344 and 347; definitions and rule formula"
+      }
+    ]
+  },
+  {
+    "id": "SG-16",
+    "track": "shape-grammar",
+    "number": 16,
+    "title": "Capstone: explain a small grammar",
+    "minutes": 8,
+    "objectives": [
+      "Specify a small rule system and discuss its expressive limits.",
+      "Explain your answer using the worked example, then test a variation."
+    ],
+    "prerequisites": [
+      "SG-15"
+    ],
+    "sections": [
+      {
+        "heading": "The idea",
+        "body": "A clear grammar presentation states its initial shape, rules, allowed transformations and intended outputs. A good explanation also separates what the grammar guarantees from choices made by the person applying it. Show more than one derivation when choices matter."
+      },
+      {
+        "heading": "Why the distinction matters",
+        "body": "Knight’s work emphasizes designing grammars and learning through manual, reflective activity. Use the lab to test exact consequences, then explain what you saw and chose. Color, material and making grammars extend beyond this unlabelled line engine; their broader concepts should not be reduced to adding a display color."
+      }
+    ],
+    "worked": {
+      "prompt": "Present a two-rule system with one growth rule and one deletion rule.",
+      "steps": [
+        "State which geometry each left side can recognize.",
+        "Give two short derivations that use different witnesses or rule orders.",
+        "Describe a stopping policy and one property the rules do not guarantee."
+      ],
+      "result": "A reproducible rule system includes both its computational specification and a discussion of its limits."
+    },
+    "checks": [
+      {
+        "prompt": "Which statement is a justified implementation limit?",
+        "options": [
+          "This lab supports every material grammar",
+          "The engine handles unlabelled rational straight-line shapes",
+          "Any pattern can be generated with one rule"
+        ],
+        "answer": 1,
+        "explanation": "This accurately states the model used here."
+      },
+      {
+        "prompt": "Why show two derivations?",
+        "options": [
+          "To prove all outputs are equal",
+          "To expose consequences of rule and witness choices",
+          "To replace the grammar specification"
+        ],
+        "answer": 1,
+        "explanation": "Comparisons help distinguish the system’s permissions from a chosen path."
+      }
+    ],
+    "practice": {
+      "task": "Write a short grammar report: initial shape, two rules, domain, two derivations, stopping policy and one limitation.",
+      "hint": "Use your private lesson notes and export your lab workspace.",
+      "solution": "Assess completeness of the specification and correctness of each embedding. Aesthetics and practical suitability remain questions to discuss, not results proved by enumeration."
+    },
+    "explore": {
+      "type": "domain",
+      "instruction": "Change the translation bounds and count the candidate transformations."
+    },
+    "sources": [
+      {
+        "id": "stiny-1980-introduction",
+        "locator": "Printed pp. 343–344 and 347; definitions and rule formula"
+      },
+      {
+        "id": "knight-2025-visual-computing-syllabus",
+        "locator": "PDF pp. 1–2; slow computing and basic/complex/making grammar teaching"
+      },
+      {
+        "id": "knight-2012-slow-computing",
+        "locator": "Further pedagogical reading; bibliography verified"
+      }
+    ]
+  },
+  {
+    "id": "ST-01",
+    "track": "set-theory",
+    "number": 1,
+    "title": "Membership and notation",
+    "minutes": 8,
+    "objectives": [
+      "Distinguish an element from a subset.",
+      "Explain your answer using the worked example, then test a variation."
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "heading": "The idea",
+        "body": "A set is specified by which elements it contains. Write x ∈ A for membership and x ∉ A for nonmembership. In a finite roster, order and repeated entries do not create different sets. Thus {a,b,a} and {b,a} name the same set."
+      },
+      {
+        "heading": "Why the distinction matters",
+        "body": "A set can itself be an element of another set. Do not flatten nested braces: 2 and {2} are different objects. This distinction becomes useful when discussing collections of shapes, equivalence classes or families of rules. The elements depend on the chosen mathematical model."
+      }
+    ],
+    "worked": {
+      "prompt": "Let A={1,2} and B={A,3}. Determine whether 1 and A belong to B.",
+      "steps": [
+        "B has two elements: the set A and the number 3.",
+        "The number 1 belongs to A, but that does not make 1 an element of B.",
+        "A itself belongs to B."
+      ],
+      "result": "A ∈ B, while 1 ∉ B. Membership is not automatically transitive."
+    },
+    "checks": [
+      {
+        "prompt": "Which set equals {a,b,a}?",
+        "options": [
+          "{a,b}",
+          "{a,b,c}",
+          "{{a},b}"
+        ],
+        "answer": 0,
+        "explanation": "Repeated entries in a roster do not add elements."
+      },
+      {
+        "prompt": "Is 2 the same object as {2}?",
+        "options": [
+          "Yes",
+          "No",
+          "Only in a finite set"
+        ],
+        "answer": 1,
+        "explanation": "The first is a number; the second is a set containing that number."
+      }
+    ],
+    "practice": {
+      "task": "List the elements of C={∅,{∅}} and count them.",
+      "hint": "The empty set and a set containing it are different.",
+      "solution": "C has two elements: ∅ and {∅}. The latter has one element, even though its element is empty."
+    },
+    "explore": {
+      "type": "sets",
+      "instruction": "Change the elements of A and B, then compare the resulting operations."
+    },
+    "sources": [
+      {
+        "id": "hammack-book-of-proof",
+        "locator": "Chapter 1; sets and operations"
+      }
+    ]
+  },
+  {
+    "id": "ST-02",
+    "track": "set-theory",
+    "number": 2,
+    "title": "Subsets, equality and power sets",
+    "minutes": 8,
+    "objectives": [
+      "Use inclusion and count subsets of a finite set.",
+      "Explain your answer using the worked example, then test a variation."
+    ],
+    "prerequisites": [
+      "ST-01"
+    ],
+    "sections": [
+      {
+        "heading": "The idea",
+        "body": "A ⊆ B means that every element of A belongs to B. Equality can be proved by showing both A ⊆ B and B ⊆ A. The empty set is a subset of every set because there is no element in it that could violate inclusion."
+      },
+      {
+        "heading": "Why the distinction matters",
+        "body": "The power set P(A) contains all subsets of A. If A has n distinct elements, it has 2ⁿ subsets: each element is either included or excluded. The empty subset and the whole set are included. Membership and inclusion remain different relations even when their symbols look similar."
+      }
+    ],
+    "worked": {
+      "prompt": "Find P({a,b}).",
+      "steps": [
+        "Choose neither element: ∅.",
+        "Choose exactly one: {a} or {b}.",
+        "Choose both: {a,b}."
+      ],
+      "result": "P({a,b})={∅,{a},{b},{a,b}}, containing four subsets."
+    },
+    "checks": [
+      {
+        "prompt": "How many subsets does a three-element set have?",
+        "options": [
+          "3",
+          "6",
+          "8"
+        ],
+        "answer": 2,
+        "explanation": "Each of three elements gives two independent inclusion choices, so 2³=8."
+      },
+      {
+        "prompt": "How can you prove A=B?",
+        "options": [
+          "Show only A⊆B",
+          "Show both inclusions",
+          "Show they share one element"
+        ],
+        "answer": 1,
+        "explanation": "Mutual inclusion establishes exactly the same elements."
+      }
+    ],
+    "practice": {
+      "task": "For A={red,blue,green}, list the subsets of size two. Explain why there are fewer than all subsets.",
+      "hint": "Choose which one of the three elements to omit.",
+      "solution": "They are {red,blue}, {red,green} and {blue,green}. The other five subsets have sizes zero, one or three."
+    },
+    "explore": {
+      "type": "sets",
+      "instruction": "Change the elements of A and B, then compare the resulting operations."
+    },
+    "sources": [
+      {
+        "id": "hammack-book-of-proof",
+        "locator": "Chapter 1; sets and operations"
+      }
+    ]
+  },
+  {
+    "id": "ST-03",
+    "track": "set-theory",
+    "number": 3,
+    "title": "Union, intersection and difference",
+    "minutes": 8,
+    "objectives": [
+      "Compute finite set operations and distinguish them from line-shape operations.",
+      "Explain your answer using the worked example, then test a variation."
+    ],
+    "prerequisites": [
+      "ST-02"
+    ],
+    "sections": [
+      {
+        "heading": "The idea",
+        "body": "Union A∪B contains elements belonging to at least one set. Intersection A∩B contains elements belonging to both. Difference A∖B contains elements of A that do not belong to B. Union and intersection are commutative; difference generally is not."
+      },
+      {
+        "heading": "Why the distinction matters",
+        "body": "An element either belongs or does not belong to a set, under the selected definition. The lab’s line-shape arithmetic uses related ideas but has dimensional conventions: a transverse crossing point is not a common line element, and line difference retains closed residual segments. Do not silently substitute point-set operations for those conventions."
+      }
+    ],
+    "worked": {
+      "prompt": "Let A={1,2,3} and B={3,4}.",
+      "steps": [
+        "Collect all distinct elements for A∪B: {1,2,3,4}.",
+        "Keep the elements present in both for A∩B: {3}.",
+        "Remove B’s elements from A for A∖B: {1,2}."
+      ],
+      "result": "B∖A={4}, showing that reversing a difference can change the answer."
+    },
+    "checks": [
+      {
+        "prompt": "For these A and B, what is A∩B?",
+        "options": [
+          "{1,2}",
+          "{3}",
+          "{4}"
+        ],
+        "answer": 1,
+        "explanation": "Only 3 belongs to both sets."
+      },
+      {
+        "prompt": "Which operation is generally not commutative?",
+        "options": [
+          "Union",
+          "Intersection",
+          "Difference"
+        ],
+        "answer": 2,
+        "explanation": "For example, A∖B={1,2} while B∖A={4}."
+      }
+    ],
+    "practice": {
+      "task": "Find an example where A∖B=∅ but B∖A is nonempty.",
+      "hint": "Choose A as a proper subset of B.",
+      "solution": "For A={1} and B={1,2}, A∖B=∅ and B∖A={2}."
+    },
+    "explore": {
+      "type": "sets",
+      "instruction": "Change the elements of A and B, then compare the resulting operations."
+    },
+    "sources": [
+      {
+        "id": "hammack-book-of-proof",
+        "locator": "Chapter 1; sets and operations"
+      }
+    ]
+  },
+  {
+    "id": "ST-04",
+    "track": "set-theory",
+    "number": 4,
+    "title": "Ordered pairs and products",
+    "minutes": 8,
+    "objectives": [
+      "Explain why Cartesian products retain coordinate order.",
+      "Explain your answer using the worked example, then test a variation."
+    ],
+    "prerequisites": [
+      "ST-03"
+    ],
+    "sections": [
+      {
+        "heading": "The idea",
+        "body": "An ordered pair (a,b) records a first and a second component. Equality requires corresponding components to agree. The Cartesian product A×B is the set of pairs with first component from A and second from B. In general A×B and B×A are different sets."
+      },
+      {
+        "heading": "Why the distinction matters",
+        "body": "Coordinates and parameter menus use ordered products. A transformation menu may combine a scale choice, an orientation choice and a translation pair. Counting the product gives a number of parameter combinations; it does not establish that different parameters act differently on every shape."
+      }
+    ],
+    "worked": {
+      "prompt": "Let A={a,b} and B={0,1}. List A×B.",
+      "steps": [
+        "For first component a, the possibilities are (a,0) and (a,1).",
+        "For first component b, the possibilities are (b,0) and (b,1).",
+        "There are 2×2=4 ordered pairs."
+      ],
+      "result": "A×B={(a,0),(a,1),(b,0),(b,1)}."
+    },
+    "checks": [
+      {
+        "prompt": "When are (a,b) and (c,d) equal?",
+        "options": [
+          "When a=c and b=d",
+          "When they have the same two elements in any order",
+          "Whenever a=d"
+        ],
+        "answer": 0,
+        "explanation": "The first and second components have separate roles."
+      },
+      {
+        "prompt": "If finite A has 3 elements and B has 4, how large is A×B?",
+        "options": [
+          "7",
+          "12",
+          "64"
+        ],
+        "answer": 1,
+        "explanation": "There are four second-component choices for each of three first components."
+      }
+    ],
+    "practice": {
+      "task": "Count a menu with two scales, eight orientations and nine translations. Does that count distinct outcomes on one shape?",
+      "hint": "Parameter combinations and their effects are different counts.",
+      "solution": "There are 2×8×9=144 transformations. Symmetries can make some effects coincide, so the outcome count need not be 144."
+    },
+    "explore": {
+      "type": "domain",
+      "instruction": "Change the translation bounds and count the candidate transformations."
+    },
+    "sources": [
+      {
+        "id": "hammack-book-of-proof",
+        "locator": "Chapter 1; sets and operations"
+      }
+    ]
+  },
+  {
+    "id": "ST-05",
+    "track": "set-theory",
+    "number": 5,
+    "title": "Functions and their declared sets",
+    "minutes": 8,
+    "objectives": [
+      "Distinguish domain, codomain, image and preimage.",
+      "Explain your answer using the worked example, then test a variation."
+    ],
+    "prerequisites": [
+      "ST-04"
+    ],
+    "sections": [
+      {
+        "heading": "The idea",
+        "body": "A function f:A→B assigns exactly one element of B to every element of A. A is its domain and B is its declared codomain. Its image f(A) is the subset of values actually attained. The codomain may contain unused values."
+      },
+      {
+        "heading": "Why the distinction matters",
+        "body": "For a subset C of B, the preimage f⁻¹(C) is {a∈A : f(a)∈C}. This notation does not require f to have an inverse function. A preimage can contain several elements or be empty. Specifying the domain and codomain is part of specifying the function, not optional decoration."
+      }
+    ],
+    "worked": {
+      "prompt": "Let f:{−1,0,1}→{0,1,2} send x to x².",
+      "steps": [
+        "The domain has three integers.",
+        "The attained values are 0 and 1, so the image is {0,1}.",
+        "Both −1 and 1 map into {1}; therefore f⁻¹({1})={−1,1}."
+      ],
+      "result": "The codomain has three elements, while the image has two."
+    },
+    "checks": [
+      {
+        "prompt": "What is the image of this f?",
+        "options": [
+          "{−1,0,1}",
+          "{0,1}",
+          "{0,1,2}"
+        ],
+        "answer": 1,
+        "explanation": "Only 0 and 1 are reached."
+      },
+      {
+        "prompt": "Does preimage notation require an inverse function?",
+        "options": [
+          "Yes",
+          "No",
+          "Only for infinite domains"
+        ],
+        "answer": 1,
+        "explanation": "Preimage of a set is defined for every function."
+      }
+    ],
+    "practice": {
+      "task": "For the same function, compute f⁻¹({2}) and f⁻¹({0,1}).",
+      "hint": "Ask which domain elements land in the selected codomain subset.",
+      "solution": "The answers are ∅ and {−1,0,1}, respectively."
+    },
+    "explore": {
+      "type": "sets",
+      "instruction": "Change the elements of A and B, then compare the resulting operations."
+    },
+    "sources": [
+      {
+        "id": "hammack-book-of-proof",
+        "locator": "Sections 12.1 and 12.6"
+      }
+    ]
+  },
+  {
+    "id": "ST-06",
+    "track": "set-theory",
+    "number": 6,
+    "title": "Composition, bijections and inverses",
+    "minutes": 8,
+    "objectives": [
+      "Use injectivity and surjectivity to decide whether an inverse exists.",
+      "Explain your answer using the worked example, then test a variation."
+    ],
+    "prerequisites": [
+      "ST-05"
+    ],
+    "sections": [
+      {
+        "heading": "The idea",
+        "body": "A function is injective when different domain elements have different images. It is surjective when its image is the entire declared codomain. A bijection has both properties and admits an inverse function from codomain back to domain."
+      },
+      {
+        "heading": "Why the distinction matters",
+        "body": "Composition g∘f means apply f first, then g, provided the values of f lie in the domain of g. Order matters. The existence of an inverse is about the full declared function: changing the codomain can change surjectivity, while restricting the domain can change injectivity."
+      }
+    ],
+    "worked": {
+      "prompt": "Take f:ℝ→[0,∞), f(x)=x². Then restrict its domain to [0,∞).",
+      "steps": [
+        "The original f is surjective onto [0,∞).",
+        "It is not injective: f(−1)=f(1).",
+        "After restricting to nonnegative inputs, the function is bijective with inverse square root."
+      ],
+      "result": "A changed domain can turn this function into one with an inverse."
+    },
+    "checks": [
+      {
+        "prompt": "If f(x)=x+1 and g(x)=2x, what is (g∘f)(3)?",
+        "options": [
+          "7",
+          "8",
+          "6"
+        ],
+        "answer": 1,
+        "explanation": "First f(3)=4, then g(4)=8."
+      },
+      {
+        "prompt": "Which functions have two-sided inverse functions on their declared sets?",
+        "options": [
+          "All surjections",
+          "All injections",
+          "Bijections"
+        ],
+        "answer": 2,
+        "explanation": "Both one-to-one and onto are needed."
+      }
+    ],
+    "practice": {
+      "task": "For f(x)=x+1 and g(x)=2x on ℝ, compare f∘g and g∘f.",
+      "hint": "Write both formulas before substituting a value.",
+      "solution": "(f∘g)(x)=2x+1, while (g∘f)(x)=2x+2. They are different functions."
+    },
+    "explore": {
+      "type": "symmetry",
+      "instruction": "Compare operation orders and inspect the vertex positions."
+    },
+    "sources": [
+      {
+        "id": "hammack-book-of-proof",
+        "locator": "Sections 12.2 and 12.4–12.5"
+      }
+    ]
+  },
+  {
+    "id": "ST-07",
+    "track": "set-theory",
+    "number": 7,
+    "title": "Equivalence, partitions and quotients",
+    "minutes": 8,
+    "objectives": [
+      "Build equivalence classes from a reflexive, symmetric and transitive relation.",
+      "Explain your answer using the worked example, then test a variation."
+    ],
+    "prerequisites": [
+      "ST-06"
+    ],
+    "sections": [
+      {
+        "heading": "The idea",
+        "body": "A relation on A is an equivalence relation when it is reflexive, symmetric and transitive. The equivalence class [a] contains all elements related to a. These classes partition A: they cover A and distinct classes do not overlap."
+      },
+      {
+        "heading": "Why the distinction matters",
+        "body": "A quotient set collects the classes rather than their individual members. For a valid group action, being in the same orbit is an equivalence relation. Declaring two shapes equivalent under an arbitrary finite transformation menu need not work: if the menu is not closed under composition or inverses, symmetry or transitivity can fail."
+      }
+    ],
+    "worked": {
+      "prompt": "On the integers, declare a~b when a−b is divisible by 3.",
+      "steps": [
+        "Every integer differs from itself by a multiple of 3.",
+        "Negating a multiple preserves divisibility, giving symmetry.",
+        "Adding two multiples gives a multiple, giving transitivity."
+      ],
+      "result": "There are three classes, represented by residues 0, 1 and 2 modulo 3."
+    },
+    "checks": [
+      {
+        "prompt": "Which property is required for an equivalence relation?",
+        "options": [
+          "Transitivity",
+          "A numerical distance",
+          "Exactly two classes"
+        ],
+        "answer": 0,
+        "explanation": "Reflexivity, symmetry and transitivity are the three requirements."
+      },
+      {
+        "prompt": "Can two distinct equivalence classes overlap?",
+        "options": [
+          "Yes",
+          "No",
+          "Only in infinite sets"
+        ],
+        "answer": 1,
+        "explanation": "If classes share an element, transitivity implies they are the same class."
+      }
+    ],
+    "practice": {
+      "task": "Show that being connected by an allowed translation from {−1,0,1} is not transitive on the integers.",
+      "hint": "Compare 0, 1 and 2.",
+      "solution": "0 relates to 1 and 1 relates to 2, but translation 2 is not allowed, so 0 does not relate to 2 under that menu."
+    },
+    "explore": {
+      "type": "sets",
+      "instruction": "Change the elements of A and B, then compare the resulting operations."
+    },
+    "sources": [
+      {
+        "id": "hammack-book-of-proof",
+        "locator": "Sections 11.1–11.4"
+      }
+    ]
+  },
+  {
+    "id": "ST-08",
+    "track": "set-theory",
+    "number": 8,
+    "title": "Finite counting and infinity",
+    "minutes": 8,
+    "objectives": [
+      "Distinguish finite enumeration from mathematical finiteness of a larger space.",
+      "Explain your answer using the worked example, then test a variation."
+    ],
+    "prerequisites": [
+      "ST-07"
+    ],
+    "sections": [
+      {
+        "heading": "The idea",
+        "body": "Finite products can be counted by multiplying independent choice counts. Power sets have 2ⁿ elements for finite n-element sets. Infinite sets require different arguments: a bijection can show that a proper subset has the same cardinality as the whole."
+      },
+      {
+        "heading": "Why the distinction matters",
+        "body": "The function n↦2n is a bijection from the nonnegative integers to the nonnegative even integers. A computer can enumerate any bounded initial range, but completing that range is not an enumeration of the infinite set. The same distinction separates the lab’s finite rational menu from unrestricted geometric possibilities."
+      }
+    ],
+    "worked": {
+      "prompt": "Compare a grid with x,y∈{−1,0,1} and the set of all rational translations.",
+      "steps": [
+        "The finite grid contains 3×3=9 translations.",
+        "Allowing any rational x and y gives infinitely many translations.",
+        "A successful search on the nine-point grid makes a claim only about those nine placements."
+      ],
+      "result": "The search can be complete for its declared finite scope without being universal."
+    },
+    "checks": [
+      {
+        "prompt": "How many subsets does a five-element set have?",
+        "options": [
+          "10",
+          "25",
+          "32"
+        ],
+        "answer": 2,
+        "explanation": "Each of five elements gives an include/exclude choice: 2⁵=32."
+      },
+      {
+        "prompt": "What does a complete search of a declared finite menu establish?",
+        "options": [
+          "All unrestricted matches were found",
+          "All candidates in that menu were checked",
+          "The space of all shapes is finite"
+        ],
+        "answer": 1,
+        "explanation": "Completeness is relative to the stated domain."
+      }
+    ],
+    "practice": {
+      "task": "Explain why the positive even integers can be matched one-to-one with the positive integers, although some positive integers are not even.",
+      "hint": "Use n↦2n and its inverse on even values.",
+      "solution": "Each positive integer gives one positive even integer, and each positive even integer has exactly one such preimage. Proper inclusion does not imply smaller cardinality for infinite sets."
+    },
+    "explore": {
+      "type": "domain",
+      "instruction": "Change the translation bounds and count the candidate transformations."
+    },
+    "sources": [
+      {
+        "id": "hammack-book-of-proof",
+        "locator": "Chapter 14; infinite sets; Chapter 1 for finite counting"
+      }
+    ]
+  },
+  {
+    "id": "GT-01",
+    "track": "group-theory",
+    "number": 1,
+    "title": "Square symmetry and composition",
+    "minutes": 8,
+    "objectives": [
+      "Identify the eight rigid symmetries of a square.",
+      "Explain your answer using the worked example, then test a variation."
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "heading": "The idea",
+        "body": "An unmarked square is preserved by four rotations and four reflections. The rotations are by 0°, 90°, 180° and 270°. The reflection axes pass through opposite vertices or through midpoints of opposite sides. These eight transformations form D₄ in this course’s convention."
+      },
+      {
+        "heading": "Why the distinction matters",
+        "body": "Composition means performing one symmetry after another. We use column vectors and write AB for applying B first, then A. The identity leaves every point fixed. A symmetry can preserve the square as a set while moving its labelled vertices, so labels are useful for seeing what the transformation does."
+      }
+    ],
+    "worked": {
+      "prompt": "Rotate the square with vertices (1,1), (−1,1), (−1,−1), (1,−1) by 90° counterclockwise.",
+      "steps": [
+        "Use R(x,y)=(−y,x).",
+        "The first vertex moves from (1,1) to (−1,1).",
+        "All vertices remain vertices of the original square."
+      ],
+      "result": "The square is preserved, while the vertex labels cycle."
+    },
+    "checks": [
+      {
+        "prompt": "How many elements are in D₄ here?",
+        "options": [
+          "4",
+          "8",
+          "16"
+        ],
+        "answer": 1,
+        "explanation": "The course uses D₄ for the order-eight square symmetry group."
+      },
+      {
+        "prompt": "In AB, which transformation acts first?",
+        "options": [
+          "A",
+          "B",
+          "Both simultaneously"
+        ],
+        "answer": 1,
+        "explanation": "For column-vector composition, the rightmost transformation acts first."
+      }
+    ],
+    "practice": {
+      "task": "Apply r90 four times in the symmetry explorer. Track one labelled vertex.",
+      "hint": "Follow its position, not just the unmarked outline.",
+      "solution": "Every vertex returns to its original position after four quarter turns."
+    },
+    "explore": {
+      "type": "symmetry",
+      "instruction": "Compare operation orders and inspect the vertex positions."
+    },
+    "sources": [
+      {
+        "id": "judson-abstract-algebra",
+        "locator": "Sections 3.1–3.3 and 5.2; groups and square symmetries"
+      }
+    ]
+  },
+  {
+    "id": "GT-02",
+    "track": "group-theory",
+    "number": 2,
+    "title": "Permutations and operation tables",
+    "minutes": 8,
+    "objectives": [
+      "Represent a symmetry by how it permutes labelled vertices.",
+      "Explain your answer using the worked example, then test a variation."
+    ],
+    "prerequisites": [
+      "GT-01"
+    ],
+    "sections": [
+      {
+        "heading": "The idea",
+        "body": "A permutation is a bijection from a set to itself. A square symmetry therefore induces a permutation of the four labelled vertices. Permutations can be composed, and an operation table records the result for each ordered pair of group elements."
+      },
+      {
+        "heading": "Why the distinction matters",
+        "body": "Not every permutation of four vertices preserves the square’s geometric adjacency. There are 4!=24 permutations, but only eight square symmetries. The labels help distinguish transformations; the geometry determines which permutations belong to this symmetry group."
+      }
+    ],
+    "worked": {
+      "prompt": "Label the square vertices A,B,C,D counterclockwise, starting at (1,1).",
+      "steps": [
+        "A quarter turn sends A→B, B→C, C→D, D→A.",
+        "A half turn sends A→C and B→D.",
+        "The induced permutation of the quarter turn cycles all four labels."
+      ],
+      "result": "The geometric action gives a concrete permutation representation of D₄."
+    },
+    "checks": [
+      {
+        "prompt": "How many permutations are there of four labels?",
+        "options": [
+          "8",
+          "16",
+          "24"
+        ],
+        "answer": 2,
+        "explanation": "There are 4×3×2×1=24 bijections."
+      },
+      {
+        "prompt": "Must every permutation of the vertices preserve square adjacency?",
+        "options": [
+          "Yes",
+          "No",
+          "Only if labels are letters"
+        ],
+        "answer": 1,
+        "explanation": "Square symmetries form only an eight-element subset of the 24 permutations."
+      }
+    ],
+    "practice": {
+      "task": "Find an operation-table entry for r90 composed with r180. Check it on vertex A.",
+      "hint": "Add rotation angles modulo 360°.",
+      "solution": "r90 r180=r270. Both send A to the vertex reached after a 270° counterclockwise turn."
+    },
+    "explore": {
+      "type": "symmetry",
+      "instruction": "Compare operation orders and inspect the vertex positions."
+    },
+    "sources": [
+      {
+        "id": "judson-abstract-algebra",
+        "locator": "Sections 5.1–5.2"
+      }
+    ]
+  },
+  {
+    "id": "GT-03",
+    "track": "group-theory",
+    "number": 3,
+    "title": "Group axioms",
+    "minutes": 8,
+    "objectives": [
+      "Check closure, associativity, identity and inverses in examples.",
+      "Explain your answer using the worked example, then test a variation."
+    ],
+    "prerequisites": [
+      "GT-02"
+    ],
+    "sections": [
+      {
+        "heading": "The idea",
+        "body": "A group is a set with a binary operation that is closed and associative, has an identity and gives every element an inverse. Closure keeps results inside the set. Associativity concerns parentheses, not the order of factors. Commutativity is an additional property, not a group axiom."
+      },
+      {
+        "heading": "Why the distinction matters",
+        "body": "The integers under addition form a group: zero is the identity and −n is the inverse of n. The nonnegative integers under addition fail the inverse requirement for positive elements. A bounded interval of integer translations also fails closure if addition can leave its bounds."
+      }
+    ],
+    "worked": {
+      "prompt": "Test {−1,0,1} under ordinary integer addition.",
+      "steps": [
+        "Zero is present and acts as an identity.",
+        "Each listed element has its additive inverse in the list.",
+        "But 1+1=2 is not in the list, so closure fails."
+      ],
+      "result": "The finite set is not a group under ordinary addition."
+    },
+    "checks": [
+      {
+        "prompt": "Is commutativity required for every group?",
+        "options": [
+          "Yes",
+          "No",
+          "Only for finite groups"
+        ],
+        "answer": 1,
+        "explanation": "Groups can be noncommutative."
+      },
+      {
+        "prompt": "Which axiom fails for positive integers under addition?",
+        "options": [
+          "Associativity",
+          "Existence of an identity within the set",
+          "Addition being defined"
+        ],
+        "answer": 1,
+        "explanation": "Zero would be the additive identity, but it is not positive; inverses also fail."
+      }
+    ],
+    "practice": {
+      "task": "Compare integers under addition with nonzero rational numbers under multiplication. Name identity and inverse in each.",
+      "hint": "The identity depends on the operation.",
+      "solution": "For integer addition: identity 0, inverse of n is −n. For nonzero rational multiplication: identity 1, inverse of a/b is b/a."
+    },
+    "explore": {
+      "type": "symmetry",
+      "instruction": "Compare operation orders and inspect the vertex positions."
+    },
+    "sources": [
+      {
+        "id": "judson-abstract-algebra",
+        "locator": "Section 3.2"
+      }
+    ]
+  },
+  {
+    "id": "GT-04",
+    "track": "group-theory",
+    "number": 4,
+    "title": "Cyclic and dihedral groups",
+    "minutes": 8,
+    "objectives": [
+      "Use generators and verify that square reflections need not commute with rotations.",
+      "Explain your answer using the worked example, then test a variation."
+    ],
+    "prerequisites": [
+      "GT-03"
+    ],
+    "sections": [
+      {
+        "heading": "The idea",
+        "body": "A cyclic group is generated by repeated powers of one element. The rotations of a square form the cyclic subgroup ⟨R⟩={e,R,R²,R³}, where R⁴=e. Adding a reflection F gives the dihedral group, with F²=e and FR=R⁻¹F."
+      },
+      {
+        "heading": "Why the distinction matters",
+        "body": "A square’s rotation subgroup is commutative, but the full square symmetry group is not. Changing the order of a quarter turn and a reflection can move the same point to different locations. This is why the lab documents the order in its names f90=RF."
+      }
+    ],
+    "worked": {
+      "prompt": "Compare RF and FR on p=(1,0), taking F(x,y)=(x,−y).",
+      "steps": [
+        "RF applies F first: (1,0) stays fixed, then R sends it to (0,1).",
+        "FR applies R first: (1,0)→(0,1), then F gives (0,−1).",
+        "The two results differ."
+      ],
+      "result": "RF≠FR, so D₄ is noncommutative."
+    },
+    "checks": [
+      {
+        "prompt": "What is the order of the subgroup generated by a square’s quarter turn?",
+        "options": [
+          "2",
+          "4",
+          "8"
+        ],
+        "answer": 1,
+        "explanation": "The powers e,R,R²,R³ are distinct, then R⁴=e."
+      },
+      {
+        "prompt": "For a quarter turn R and reflection F in D₄, is RF=FR?",
+        "options": [
+          "Always",
+          "No",
+          "Only when the square is unlabelled"
+        ],
+        "answer": 1,
+        "explanation": "The transformations differ, even if both preserve the unmarked square."
+      }
+    ],
+    "practice": {
+      "task": "Use the explorer to find RF and FR as named orientation matrices.",
+      "hint": "Use the rightmost-first convention.",
+      "solution": "RF is f90 and FR is f270 under this lab’s names."
+    },
+    "explore": {
+      "type": "symmetry",
+      "instruction": "Compare operation orders and inspect the vertex positions."
+    },
+    "sources": [
+      {
+        "id": "judson-abstract-algebra",
+        "locator": "Sections 4.1 and 5.2"
+      }
+    ]
+  },
+  {
+    "id": "GT-05",
+    "track": "group-theory",
+    "number": 5,
+    "title": "Subgroups, generators and orders",
+    "minutes": 8,
+    "objectives": [
+      "Distinguish the size of a group from the order of an element.",
+      "Explain your answer using the worked example, then test a variation."
+    ],
+    "prerequisites": [
+      "GT-04"
+    ],
+    "sections": [
+      {
+        "heading": "The idea",
+        "body": "A subgroup is a subset that is itself a group under the inherited operation. It contains the identity and is closed under products and inverses. A set of generators produces the subgroup through products and inverses; it need not list all elements individually."
+      },
+      {
+        "heading": "Why the distinction matters",
+        "body": "The order of a finite group is its number of elements. The order of an element g is the smallest positive n with gⁿ=e, when such n exists. These are different uses of the word order. In D₄, the group has order eight, a quarter turn has order four and a reflection has order two."
+      }
+    ],
+    "worked": {
+      "prompt": "Consider H={e,R²} inside D₄.",
+      "steps": [
+        "The identity is in H.",
+        "R²R²=R⁴=e, so multiplication stays inside H.",
+        "R² is its own inverse."
+      ],
+      "result": "H is a subgroup of order two, generated by the half turn."
+    },
+    "checks": [
+      {
+        "prompt": "What is the order of r180?",
+        "options": [
+          "1",
+          "2",
+          "4"
+        ],
+        "answer": 1,
+        "explanation": "Two half turns give the identity, while one does not."
+      },
+      {
+        "prompt": "Does a subgroup have to contain the identity?",
+        "options": [
+          "Yes",
+          "No",
+          "Only when finite"
+        ],
+        "answer": 0,
+        "explanation": "It must itself satisfy the group axioms using the inherited operation."
+      }
+    ],
+    "practice": {
+      "task": "Generate a subgroup from one reflection. Then generate one from a quarter turn.",
+      "hint": "List powers until the identity returns.",
+      "solution": "A reflection generates {e,F}; a quarter turn generates {e,R,R²,R³}."
+    },
+    "explore": {
+      "type": "symmetry",
+      "instruction": "Compare operation orders and inspect the vertex positions."
+    },
+    "sources": [
+      {
+        "id": "judson-abstract-algebra",
+        "locator": "Sections 3.3, 4.1 and 5.2"
+      }
+    ]
+  },
+  {
+    "id": "GT-06",
+    "track": "group-theory",
+    "number": 6,
+    "title": "Actions, orbits and stabilizers",
+    "minutes": 8,
+    "objectives": [
+      "Relate orbit size to stabilizer size for a finite action.",
+      "Explain your answer using the worked example, then test a variation."
+    ],
+    "prerequisites": [
+      "GT-05"
+    ],
+    "sections": [
+      {
+        "heading": "The idea",
+        "body": "A group action assigns transformations of a set in a way compatible with group multiplication and identity. The orbit of x contains all positions g·x. The stabilizer Gₓ contains elements fixing x. For a finite group, the orbit–stabilizer theorem states |G|=|orbit(x)|·|Gₓ|."
+      },
+      {
+        "heading": "Why the distinction matters",
+        "body": "The object acted on matters. D₄ acts transitively on a square’s four vertices. A chosen vertex has an orbit of size four and a stabilizer of size two. Acting on the entire unmarked square gives an orbit of size one and stabilizer all of D₄. Do not swap these objects mid-calculation."
+      }
+    ],
+    "worked": {
+      "prompt": "Take the vertex A=(1,1) in the square.",
+      "steps": [
+        "The square symmetries can move A to any of the four vertices.",
+        "Exactly identity and reflection in y=x fix A.",
+        "The sizes satisfy 8=4×2."
+      ],
+      "result": "Orbit and stabilizer count different aspects of the same action."
+    },
+    "checks": [
+      {
+        "prompt": "What is the D₄ orbit size of one square vertex?",
+        "options": [
+          "1",
+          "4",
+          "8"
+        ],
+        "answer": 1,
+        "explanation": "Each of the four vertices can be reached."
+      },
+      {
+        "prompt": "What is the stabilizer size of the entire unmarked square under D₄?",
+        "options": [
+          "1",
+          "2",
+          "8"
+        ],
+        "answer": 2,
+        "explanation": "Every element preserves the square as a set."
+      }
+    ],
+    "practice": {
+      "task": "Use the explorer to compare a marked vertex and the whole unmarked square. Explain both products.",
+      "hint": "State the acted-on object before counting.",
+      "solution": "For a vertex: 8=4×2. For the unmarked square: 8=1×8."
+    },
+    "explore": {
+      "type": "symmetry",
+      "instruction": "Compare operation orders and inspect the vertex positions."
+    },
+    "sources": [
+      {
+        "id": "judson-abstract-algebra",
+        "locator": "Section 14.1"
+      }
+    ]
+  },
+  {
+    "id": "GT-07",
+    "track": "group-theory",
+    "number": 7,
+    "title": "Homomorphisms and kernels",
+    "minutes": 8,
+    "objectives": [
+      "Check preservation of an operation and identify a kernel.",
+      "Explain your answer using the worked example, then test a variation."
+    ],
+    "prerequisites": [
+      "GT-06"
+    ],
+    "sections": [
+      {
+        "heading": "The idea",
+        "body": "A group homomorphism φ:G→H preserves the operation: φ(ab)=φ(a)φ(b). The kernel consists of elements sent to the identity of H. A homomorphism sends identity to identity and respects inverses; its kernel is a normal subgroup."
+      },
+      {
+        "heading": "Why the distinction matters",
+        "body": "One example maps each square symmetry to the determinant of its matrix. Rotations have determinant +1 and reflections −1. Multiplication of signs forms a two-element group. The kernel is the rotation subgroup, because those are exactly the symmetries mapped to +1."
+      }
+    ],
+    "worked": {
+      "prompt": "Multiply two reflections and inspect determinants.",
+      "steps": [
+        "Each reflection has determinant −1.",
+        "The determinant of a product is the product of determinants.",
+        "The product has determinant +1 and is a square rotation."
+      ],
+      "result": "The determinant map preserves multiplication; its kernel consists of four rotations."
+    },
+    "checks": [
+      {
+        "prompt": "What is a kernel?",
+        "options": [
+          "Elements sent to the target identity",
+          "Every element in the target",
+          "Only elements that move a point"
+        ],
+        "answer": 0,
+        "explanation": "It is a subset of the source group defined by the identity preimage."
+      },
+      {
+        "prompt": "What determinant does a product of two reflections have?",
+        "options": [
+          "−1",
+          "0",
+          "+1"
+        ],
+        "answer": 2,
+        "explanation": "The product of two −1 determinants is +1."
+      }
+    ],
+    "practice": {
+      "task": "Find the kernel of the reduction map from integer addition to addition modulo 3.",
+      "hint": "Which integers map to residue zero?",
+      "solution": "The kernel is 3ℤ, all integer multiples of 3."
+    },
+    "explore": {
+      "type": "symmetry",
+      "instruction": "Compare operation orders and inspect the vertex positions."
+    },
+    "sources": [
+      {
+        "id": "judson-abstract-algebra",
+        "locator": "Section 11.1"
+      }
+    ]
+  },
+  {
+    "id": "GT-08",
+    "track": "group-theory",
+    "number": 8,
+    "title": "Normal subgroups",
+    "minutes": 8,
+    "objectives": [
+      "Use conjugation invariance rather than assuming every subgroup is normal.",
+      "Explain your answer using the worked example, then test a variation."
+    ],
+    "prerequisites": [
+      "GT-07"
+    ],
+    "sections": [
+      {
+        "heading": "The idea",
+        "body": "A subgroup N is normal in G when gNg⁻¹=N for every g∈G. This condition allows multiplication of its cosets to be well defined. Every subgroup of an abelian group is normal, but subgroups of noncommutative groups require checking."
+      },
+      {
+        "heading": "Why the distinction matters",
+        "body": "In D₄, the rotation subgroup is normal: conjugating a rotation by a reflection reverses its direction but keeps it a rotation. A subgroup generated by one reflection is generally not normal in D₄: conjugation can produce a different reflection axis."
+      }
+    ],
+    "worked": {
+      "prompt": "Let N=⟨R⟩ and use FRF⁻¹=R⁻¹.",
+      "steps": [
+        "Conjugation by F sends the generator R to R⁻¹, which belongs to N.",
+        "Conjugation sends powers of R to powers of R.",
+        "The set of rotations is preserved."
+      ],
+      "result": "The rotation subgroup is normal, even though D₄ itself is not commutative."
+    },
+    "checks": [
+      {
+        "prompt": "Which condition defines normality?",
+        "options": [
+          "gNg⁻¹=N for every g",
+          "Every element of N fixes every point",
+          "N contains exactly half the elements"
+        ],
+        "answer": 0,
+        "explanation": "Conjugation invariance is the defining condition."
+      },
+      {
+        "prompt": "Is every subgroup of an abelian group normal?",
+        "options": [
+          "Yes",
+          "No",
+          "Only if its order is two"
+        ],
+        "answer": 0,
+        "explanation": "Commutativity makes gng⁻¹=n for each element."
+      }
+    ],
+    "practice": {
+      "task": "Explain why the determinant kernel from the previous lesson must be normal.",
+      "hint": "Use the general kernel property or determinants of a conjugate.",
+      "solution": "If det(n)=1, then det(gng⁻¹)=det(g)·1·det(g)⁻¹=1, so conjugation stays in the kernel."
+    },
+    "explore": {
+      "type": "symmetry",
+      "instruction": "Compare operation orders and inspect the vertex positions."
+    },
+    "sources": [
+      {
+        "id": "judson-abstract-algebra",
+        "locator": "Sections 10.1 and 11.1"
+      }
+    ]
+  },
+  {
+    "id": "GT-09",
+    "track": "group-theory",
+    "number": 9,
+    "title": "Quotient groups",
+    "minutes": 8,
+    "objectives": [
+      "Distinguish a quotient set from a quotient group.",
+      "Explain your answer using the worked example, then test a variation."
+    ],
+    "prerequisites": [
+      "GT-08"
+    ],
+    "sections": [
+      {
+        "heading": "The idea",
+        "body": "Cosets of a subgroup partition a group. If N is normal, the set G/N of cosets forms a group under (aN)(bN)=abN. Normality makes this operation independent of the representatives chosen. A quotient element is a whole coset, not an arbitrary single original element."
+      },
+      {
+        "heading": "Why the distinction matters",
+        "body": "For D₄ modulo its four rotations, there are two cosets: rotations and reflections. Their multiplication follows the sign pattern rotation·rotation=rotation, rotation·reflection=reflection, and reflection·reflection=rotation. The quotient has order two."
+      }
+    ],
+    "worked": {
+      "prompt": "Compute the quotient of integer addition by 3ℤ.",
+      "steps": [
+        "The cosets are the three residue classes modulo 3.",
+        "Add representatives and reduce to their residue class.",
+        "For example, [2]+[2]=[4]=[1]."
+      ],
+      "result": "The quotient is the three-element additive group ℤ/3ℤ."
+    },
+    "checks": [
+      {
+        "prompt": "How many elements are in D₄/⟨R⟩?",
+        "options": [
+          "2",
+          "4",
+          "8"
+        ],
+        "answer": 0,
+        "explanation": "There are two cosets, each containing four original symmetries."
+      },
+      {
+        "prompt": "Why is normality needed for the usual coset multiplication?",
+        "options": [
+          "To make it independent of representatives",
+          "To make every element a rotation",
+          "To remove the identity"
+        ],
+        "answer": 0,
+        "explanation": "Otherwise different representative choices can give different resulting cosets."
+      }
+    ],
+    "practice": {
+      "task": "Explain why a quotient does not simply delete the elements of its subgroup.",
+      "hint": "Think grouping, not subtraction.",
+      "solution": "The subgroup becomes the identity coset, and other elements are grouped into cosets. They are not merely removed from the original element list."
+    },
+    "explore": {
+      "type": "symmetry",
+      "instruction": "Compare operation orders and inspect the vertex positions."
+    },
+    "sources": [
+      {
+        "id": "judson-abstract-algebra",
+        "locator": "Sections 10.1 and 11.2"
+      }
+    ]
+  },
+  {
+    "id": "GT-10",
+    "track": "group-theory",
+    "number": 10,
+    "title": "Capstone: preserving and breaking symmetry",
+    "minutes": 8,
+    "objectives": [
+      "Compute stabilizers and explain what a visual edit changes.",
+      "Explain your answer using the worked example, then test a variation."
+    ],
+    "prerequisites": [
+      "GT-09"
+    ],
+    "sections": [
+      {
+        "heading": "The idea",
+        "body": "A shape’s stabilizer consists of transformations preserving it in the chosen action. Adding a feature can preserve some symmetries and break others. The relevant group, coordinates and meaning of equality must be stated: an unmarked outline and a labelled object can have different stabilizers."
+      },
+      {
+        "heading": "Why the distinction matters",
+        "body": "This gives a useful bridge to shape rules. A symmetric left side can have several stabilizing witnesses; an asymmetric right side may distinguish their outcomes. It does not follow that every rule preserves the host’s symmetry, or that every perceptually similar pattern belongs to the same orbit under the chosen group."
+      }
+    ],
+    "worked": {
+      "prompt": "Start with the square centred at the origin and mark its top-right vertex.",
+      "steps": [
+        "The unmarked square is preserved by all eight D₄ elements.",
+        "The marked vertex must also stay fixed.",
+        "Only identity and reflection in y=x preserve that marked object."
+      ],
+      "result": "The stabilizer decreases from eight elements to two."
+    },
+    "checks": [
+      {
+        "prompt": "Can adding a marked feature reduce symmetry?",
+        "options": [
+          "Yes",
+          "No",
+          "Only when using colors"
+        ],
+        "answer": 0,
+        "explanation": "The feature imposes additional constraints on transformations preserving the object."
+      },
+      {
+        "prompt": "What must be specified before stating an orbit or stabilizer?",
+        "options": [
+          "The group action and object",
+          "Only the screen resolution",
+          "Only the rule count"
+        ],
+        "answer": 0,
+        "explanation": "The same picture can represent different acted-on objects and equality conventions."
+      }
+    ],
+    "practice": {
+      "task": "Choose a base shape and an added feature. Identify the symmetries before and after, then connect the change to two rule witnesses.",
+      "hint": "Use the square explorer and the lab’s stem example.",
+      "solution": "A sound answer lists the acting group, surviving transformations, and exact reason a broken transformation fails. Compare outcomes without confusing witness count with region count."
+    },
+    "explore": {
+      "type": "symmetry",
+      "instruction": "Compare operation orders and inspect the vertex positions."
+    },
+    "sources": [
+      {
+        "id": "judson-abstract-algebra",
+        "locator": "Sections 12.2 and 14.1"
+      },
+      {
+        "id": "stiny-1980-introduction",
+        "locator": "Printed pp. 343–344 and 347; definitions and rule formula"
+      }
+    ]
+  }
+]

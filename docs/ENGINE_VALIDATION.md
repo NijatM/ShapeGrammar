@@ -1,8 +1,8 @@
 # Engine verification
 
-Checked locally on 18 October 2026 with Node.js v26.11.1. The supported runtime declaration is Node.js ≥20; other runtime versions have not been tested in this pass.
+Updated locally on 19 October 2026 with Node.js v26.11.1. The supported runtime declaration is Node.js ≥20; other runtime versions have not been tested in this pass.
 
-Command: `npm test` (equivalently `node --test test/*.test.mjs`). The suite contains **13 passing tests**.
+Command: `npm test` (equivalently `node --test test/*.test.mjs`). The core contributes **13 tests** to the complete **32 passing tests**. The remaining tests cover curriculum/explorers, study state, worker transport and workspace interchange.
 
 | Area | Evidence |
 | --- | --- |
@@ -21,4 +21,4 @@ Command: `npm test` (equivalently `node --test test/*.test.mjs`). The suite cont
 
 The independent oracle uses doubled integer coordinates for half-grid fixtures, cross products for collinearity, dot-product interval projection and a separately implemented reflection/rotation procedure. It does not call production transformations or geometric predicates. The fixture family exhausts all 64 subsets of six horizontal, vertical and diagonal segments and three query shapes.
 
-This evidence concerns the tested finite domains and fixtures. It is not a proof of correctness on every rational input or a performance guarantee. This report covers the engine milestone. Initial browser checks are now recorded separately in [laboratory validation](LAB_VALIDATION.md). Comprehensive accessibility, large-input import safety, persistence, lessons and deployed behavior remain outside this test evidence. The source convention and engineering restrictions are documented in the [mathematical model](MATHEMATICAL_MODEL.md).
+This evidence concerns the tested finite domains and fixtures. It is not a proof of correctness on every rational input or a performance guarantee. This report covers the engine milestone. Initial browser checks are now recorded separately in [laboratory validation](LAB_VALIDATION.md). Bounded import, persistence, lessons and worker tests now have separate evidence in the [release report](RELEASE_VALIDATION.md). Comprehensive assistive-technology review and deployed behavior remain outside the local evidence. The source convention and engineering restrictions are documented in the [mathematical model](MATHEMATICAL_MODEL.md).

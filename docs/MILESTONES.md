@@ -1,13 +1,13 @@
-# Development milestones
+# Release scope
 
-| Milestone | Current state | Next evidence needed |
-| --- | --- | --- |
-| Research foundation | Versioned source metadata, topic indexes, rights ledger, Stiny and Knight reading paths | Review precise passages before relying on further mathematical claims |
-| Mathematical core | Implemented with exact rational geometry, finite search and derivation replay | Independent review; larger and more varied fixtures as features expand |
-| Browser laboratory | Local interface with drawing, rule editing, finite search, orientation selection, manual alignment, cancellation, history and workspace import/export | Broader browser, mobile, keyboard and interaction testing |
-| Learning content | Source coverage mapped; lessons not authored | 16 shape grammar, 8 set theory and 10 group theory lessons with original examples, exercises and reviewed feedback |
-| Local learning state | Explicit browser workspace save/restore and versioned import/export implemented | Private notes, lesson progress, future format migrations and reset behavior |
-| Usability and accessibility | Not evaluated | Keyboard use, readable mathematics, responsive layout and browser checks |
-| Publication | User manages repository; no application deployment prepared | Reviewable static application and complete checks, then user-controlled deployment |
+| Area | Delivered |
+| --- | --- |
+| Learning | 34 authored micro-lessons, worked examples, 68 checks, practice/hints/solutions, course navigation |
+| Research | 98 canonical records, 20 permitted originals, Stiny and Knight indexes, 10 reading pathways, 33 glossary terms |
+| Geometry | Exact rational line arithmetic, geometric parthood, finite matching, shared-transform rule application and replayable history |
+| Laboratory | Drawing, visual/coordinate rule editing, worker search, manual alignment, witness/part/result counts, history, pan/zoom, local save/restore and validated JSON interchange |
+| Study state | Private lesson/source notes, completion tracking, versioned backups/import, storage-failure feedback and corrupt-data recovery |
+| Interface | Personal-site dark monochrome style, compact sidebar, responsive layout, native form controls and text alternatives |
+| Distribution | Curated static build, local path/private-file checks, manually triggered Pages workflow prepared for the owner |
 
-The next implementation step is to expand browser verification and develop the first reviewed lessons around the local laboratory. Knight’s hand-and-eye pedagogy should inform the interaction and exercises; software enumeration alone does not replace the interpretive practice described in her work. The bibliography also preserves color and material grammar research for later modules without implying that the current unlabelled line engine supports those algebras.
+The [release report](RELEASE_VALIDATION.md) records tests and practical limits. Advanced color/material/weight algebras, unrestricted continuous matching, multiuser synchronization and full scholarly proof review remain beyond this release's stated scope. Nothing has been published by the local build.

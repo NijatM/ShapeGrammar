@@ -1,37 +1,35 @@
 # ShapeGrammar
 
-A reference library and an exact geometric core for studying shape grammars, set theory and symmetry. George Stiny’s foundations and Terry Knight’s work on design languages, emergence, color grammars and computational making provide complementary reading paths.
+A dark, monochrome learning site for shape grammars, sets and symmetry, with parallel reading paths through George Stiny and Terry Knight. The interface follows Nijat Mahamaliyev’s personal HTMAA website.
 
-Start with the [reference catalogue](Reference/CATALOGUE.md), [Terry Knight index](Reference/authors/terry-knight/README.md), or [mathematical model](docs/MATHEMATICAL_MODEL.md).
+The application includes:
 
-## Current implementation
+- **34 short lessons:** 16 shape grammar, 8 set theory and 10 group theory lessons, with worked examples, 68 checked questions, practice prompts, hints and solutions.
+- **An exact line laboratory:** drawing, visual and coordinate rule editing, finite matching, manual alignment, separate witness/part/result counts, pan/zoom, derivation history and validated workspace import/export.
+- **98 reference records:** searchable by topic, author and title; 20 permitted, unmodified PDFs; Stiny and Knight indexes, source locators and explicit review/rights notes.
+- **10 research pathways and a 33-term glossary**, including a guided introduction to the Monster and moonshine with prerequisite boundaries.
+- **Private notes and progress:** automatic browser storage for study notes, portable backups, import validation and explicit laboratory save/restore.
 
-The [browser laboratory](index.html) provides three examples, two-click or coordinate-based line drawing, rule editing, finite-domain search, orientation selection, manual alignment, undo/redo, workspace download/import and explicit local save/restore. Start it locally, then open `http://127.0.0.1:8765/`:
+Start a local preview:
 
 ```bash
 npm run dev
 ```
 
-The lab needs an HTTP server for JavaScript modules; opening the HTML directly as a local file is insufficient. Use **Save & restore** to keep one workspace on this browser, or download a JSON copy. Saved work includes the shape, applied rule, search domain, history and undo cursor. Saving replaces the previous saved copy; examples and edits do not save automatically. Restore/import validates and replays a new workspace before replacing the open one. Changing the search domain starts a new derivation from the current shape. Private notes and lesson progress are not implemented yet.
+Open **http://127.0.0.1:8765/**. The laboratory is at `lab.html`. No package installation is needed; Node.js ≥20 and Python ≥3.9 are sufficient. Modules require HTTP, so opening the HTML as a local file is insufficient.
 
-The dependency-free JavaScript module in [src/engine/core.mjs](src/engine/core.mjs) supports rational planar line shapes, maximal-line normalization, geometric parthood, shape arithmetic, finite-domain matching, rule application and replayable derivation history. It can recognize a subsegment spanning several original strokes. Search reports whether it completed the declared domain and retains distinct transformation witnesses even when their matched regions coincide.
-
-Run the engine checks with Node.js 20 or newer:
+Run verification and create the production folder:
 
 ```bash
-npm test
+npm run check
+npm run build
+node tools/check-site.mjs --dist
 ```
 
-No package installation is needed. The [verification report](docs/ENGINE_VALIDATION.md) describes the independent exhaustive oracle and the limits of the tests.
+The [release validation](docs/RELEASE_VALIDATION.md) records actual tests, browser observations, performance measurements and remaining limits. The [mathematical model](docs/MATHEMATICAL_MODEL.md) states exact geometry conventions and the finite search scope. The [deployment guide](docs/DEPLOYMENT.md) explains the prepared, manually triggered GitHub Pages workflow. Publication remains owner-controlled.
 
-Validate the research records and original-file checksums with Python 3.9 or newer:
+The engine uses rational arithmetic and geometric coverage rather than matching original stroke objects. A subsegment can span old drawing boundaries. Searches run in a worker where supported and explicitly report cancellation, time, candidate or witness limits as incomplete results. This restricted model handles unlabelled straight-line shapes; color, material, curved, free-angle and higher-dimensional algebras remain reading topics.
 
-```bash
-python3 Reference/tools/library.py validate
-```
+Start the scholarly reading route with the [catalogue](Reference/CATALOGUE.md), [George Stiny index](Reference/authors/george-stiny/README.md), [Terry Knight index](Reference/authors/terry-knight/README.md), and [curriculum coverage](Reference/COVERAGE.md). Knight’s 55 associated records include byline work, editorial roles and named contributions; unresolved leads are documented rather than described as a complete collected works.
 
-## Development status
-
-This is a research, engine and initial laboratory milestone. The full learning website, authored lessons, browser storage and deployment are still to be built. See the [milestones](docs/MILESTONES.md) and [laboratory validation](docs/LAB_VALIDATION.md).
-
-Third-party publications retain their own rights. The [attribution ledger](Reference/RIGHTS_AND_ATTRIBUTION.md) identifies permitted originals and their conditions; a reading link alone does not grant permission to republish a work.
+Notes stay on the browser’s current origin and are not sent to a server. Export backups before moving between localhost and Pages. The optional IBM Plex Mono font is requested from Google Fonts with local fallbacks. Third-party publications retain their own rights: the [attribution ledger](Reference/RIGHTS_AND_ATTRIBUTION.md) governs saved originals; a reading link does not itself grant permission to republish a work.

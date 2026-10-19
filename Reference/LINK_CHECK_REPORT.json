@@ -2,8 +2,16 @@
   "note": "HTTP success checks reachability only. 403/406 may be access filtering; source verification scope is recorded separately. No paywalls or access controls were bypassed.",
   "results": [
     {
+      "url": "https://architecture.mit.edu/sites/default/files/course-documents/25sp-4.520%2B4.521-syll-knight.pdf",
+      "checked_at_utc": "2026-10-19T06:56:52.324045+00:00",
+      "status": 200,
+      "final_url": "https://architecture.mit.edu/sites/default/files/course-documents/25sp-4.520%2B4.521-syll-knight.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true
+    },
+    {
       "url": "https://arxiv.org/abs/0901.0827",
-      "checked_at_utc": "2026-10-19T01:28:00.328247+00:00",
+      "checked_at_utc": "2026-10-19T06:56:52.324658+00:00",
       "status": 200,
       "final_url": "https://arxiv.org/abs/0901.0827",
       "content_type": "text/html; charset=utf-8",
@@ -11,7 +19,7 @@
     },
     {
       "url": "https://arxiv.org/abs/2012.10949",
-      "checked_at_utc": "2026-10-19T01:28:00.328574+00:00",
+      "checked_at_utc": "2026-10-19T06:56:52.324859+00:00",
       "status": 200,
       "final_url": "https://arxiv.org/abs/2012.10949",
       "content_type": "text/html; charset=utf-8",
@@ -19,7 +27,7 @@
     },
     {
       "url": "https://arxiv.org/abs/2012.10949v3",
-      "checked_at_utc": "2026-10-19T01:28:00.328710+00:00",
+      "checked_at_utc": "2026-10-19T06:56:52.325030+00:00",
       "status": 200,
       "final_url": "https://arxiv.org/abs/2012.10949v3",
       "content_type": "text/html; charset=utf-8",
@@ -27,7 +35,7 @@
     },
     {
       "url": "https://arxiv.org/abs/math/0402345",
-      "checked_at_utc": "2026-10-19T01:28:00.328826+00:00",
+      "checked_at_utc": "2026-10-19T06:56:52.459345+00:00",
       "status": 200,
       "final_url": "https://arxiv.org/abs/math/0402345",
       "content_type": "text/html; charset=utf-8",
@@ -35,7 +43,7 @@
     },
     {
       "url": "https://arxiv.org/abs/math/0402345v2",
-      "checked_at_utc": "2026-10-19T01:28:00.429613+00:00",
+      "checked_at_utc": "2026-10-19T06:56:52.460515+00:00",
       "status": 200,
       "final_url": "https://arxiv.org/abs/math/0402345v2",
       "content_type": "text/html; charset=utf-8",
@@ -43,136 +51,522 @@
     },
     {
       "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/M/",
-      "checked_at_utc": "2026-10-19T01:28:00.430470+00:00",
+      "checked_at_utc": "2026-10-19T06:56:52.465469+00:00",
       "status": 200,
       "final_url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/M/",
       "content_type": "text/html; charset=UTF-8",
       "pdf_header": false
     },
     {
+      "url": "https://computationalmaking.mit.edu/publications/",
+      "checked_at_utc": "2026-10-19T06:56:52.491994+00:00",
+      "status": 200,
+      "final_url": "https://computationalmaking.mit.edu/publications/",
+      "content_type": "text/html; charset=UTF-8",
+      "pdf_header": false
+    },
+    {
       "url": "https://discrete.openmathbooks.org/dmoi4.html",
-      "checked_at_utc": "2026-10-19T01:28:00.431770+00:00",
+      "checked_at_utc": "2026-10-19T06:56:52.538276+00:00",
       "status": 200,
       "final_url": "https://discrete.openmathbooks.org/dmoi4.html",
       "content_type": "text/html",
       "pdf_header": false
     },
     {
+      "url": "https://dl.designresearchsociety.org/drs-conference-papers/drs2018/editorials/2/",
+      "checked_at_utc": "2026-10-19T06:56:52.539416+00:00",
+      "status": 200,
+      "final_url": "https://dl.designresearchsociety.org/drs-conference-papers/drs2018/editorials/2/",
+      "content_type": "text/html; charset=UTF-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://dl.designresearchsociety.org/drs-conference-papers/drs2024/conversations/20/",
+      "checked_at_utc": "2026-10-19T06:56:52.765043+00:00",
+      "status": 200,
+      "final_url": "https://dl.designresearchsociety.org/drs-conference-papers/drs2024/conversations/20/",
+      "content_type": "text/html; charset=UTF-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://doi.org/10.1007/978-3-030-21935-2_23",
+      "checked_at_utc": "2026-10-19T06:56:52.925670+00:00",
+      "status": 200,
+      "final_url": "https://link.springer.com/chapter/10.1007/978-3-030-21935-2_23?error=cookies_not_supported&code=1c1b4c8c-2ffb-4b2f-bb0a-5c55a87b08d5",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://doi.org/10.1007/978-3-031-81623-9_6",
+      "checked_at_utc": "2026-10-19T06:56:53.036832+00:00",
+      "status": 200,
+      "final_url": "https://link.springer.com/chapter/10.1007/978-3-031-81623-9_6?error=cookies_not_supported&code=b6be15f5-e920-442b-a9a8-b22682d3a6ea",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://doi.org/10.1007/978-3-032-30846-7_7",
+      "checked_at_utc": "2026-10-19T06:56:53.082271+00:00",
+      "status": 200,
+      "final_url": "https://link.springer.com/chapter/10.1007/978-3-032-30846-7_7?error=cookies_not_supported&code=217e62f2-1fd1-4286-8cb9-2aa4076fc501",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://doi.org/10.1007/978-94-011-5121-4_26",
+      "checked_at_utc": "2026-10-19T06:56:53.102252+00:00",
+      "status": 200,
+      "final_url": "https://link.springer.com/chapter/10.1007/978-94-011-5121-4_26?error=cookies_not_supported&code=b9cb336e-8013-4de0-bebc-25cf7063e0df",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://doi.org/10.1007/978-981-10-8189-7_16",
+      "checked_at_utc": "2026-10-19T06:56:54.457274+00:00",
+      "status": 200,
+      "final_url": "https://link.springer.com/chapter/10.1007/978-981-10-8189-7_16?error=cookies_not_supported&code=cbb00012-57a0-4492-8dc8-7387b32b9141",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://doi.org/10.1007/s00004-015-0267-3",
+      "checked_at_utc": "2026-10-19T06:56:54.520777+00:00",
+      "status": 200,
+      "final_url": "https://link.springer.com/article/10.1007/s00004-015-0267-3?error=cookies_not_supported&code=849979a2-c39f-48fc-9d54-bde6538e2d96",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://doi.org/10.1016/j.autcon.2011.05.019",
+      "checked_at_utc": "2026-10-19T06:56:54.679031+00:00",
+      "status": 200,
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0926580511001087",
+      "content_type": "text/html;charset=UTF-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://doi.org/10.1016/j.destud.2015.08.006",
+      "checked_at_utc": "2026-10-19T06:56:54.935336+00:00",
+      "status": 200,
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0142694X15000605",
+      "content_type": "text/html;charset=UTF-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://doi.org/10.1016/j.destud.2015.09.003",
+      "checked_at_utc": "2026-10-19T06:56:55.009762+00:00",
+      "status": 200,
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0142694X15000721",
+      "content_type": "text/html;charset=UTF-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://doi.org/10.1017/dsj.2025.10026",
+      "checked_at_utc": "2026-10-19T06:56:55.144580+00:00",
+      "status": 200,
+      "final_url": "https://www.cambridge.org/core/journals/design-science/article/design-science-why-what-and-how-revisited/75E30B42E451F82466818FDD4525D6EF",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://doi.org/10.1017/s0890060409990126",
+      "checked_at_utc": "2026-10-19T06:56:55.214956+00:00",
+      "status": 200,
+      "final_url": "https://www.cambridge.org/core/journals/ai-edam/article/abs/looks-count-computing-and-constructing-visually-expressive-mass-customized-housing/3F0A6B5A94C2D2037A2AA44ADA21BA35",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://doi.org/10.1017/s1359135502001410",
+      "checked_at_utc": "2026-10-19T06:56:56.056435+00:00",
+      "status": 403,
+      "final_url": "https://www.liverpooluniversitypress.co.uk/doi/10.1017/s1359135502001410",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://doi.org/10.1068/b070227",
+      "checked_at_utc": "2026-10-19T06:56:56.167035+00:00",
+      "status": 403,
+      "final_url": "https://journals.sagepub.com/doi/10.1068/b070227",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://doi.org/10.1068/b080213",
+      "checked_at_utc": "2026-10-19T06:56:56.195818+00:00",
+      "status": 403,
+      "final_url": "https://journals.sagepub.com/doi/10.1068/b080213",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://doi.org/10.1068/b100125",
+      "checked_at_utc": "2026-10-19T06:56:56.373149+00:00",
+      "status": 403,
+      "final_url": "https://journals.sagepub.com/doi/10.1068/b100125",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://doi.org/10.1068/b100129",
+      "checked_at_utc": "2026-10-19T06:56:56.594154+00:00",
+      "status": 403,
+      "final_url": "https://journals.sagepub.com/doi/10.1068/b100129",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://doi.org/10.1068/b100155",
+      "checked_at_utc": "2026-10-19T06:56:57.977598+00:00",
+      "status": 403,
+      "final_url": "https://journals.sagepub.com/doi/10.1068/b100155",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://doi.org/10.1068/b12914",
+      "checked_at_utc": "2026-10-19T06:56:57.981054+00:00",
+      "status": 403,
+      "final_url": "https://journals.sagepub.com/doi/10.1068/b12914",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://doi.org/10.1068/b12915",
+      "checked_at_utc": "2026-10-19T06:56:57.985402+00:00",
+      "status": 403,
+      "final_url": "https://journals.sagepub.com/doi/10.1068/b12915",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://doi.org/10.1068/b12927",
+      "checked_at_utc": "2026-10-19T06:56:57.987353+00:00",
+      "status": 403,
+      "final_url": "https://journals.sagepub.com/doi/10.1068/b12927",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://doi.org/10.1068/b150073",
+      "checked_at_utc": "2026-10-19T06:56:58.165563+00:00",
+      "status": 403,
+      "final_url": "https://journals.sagepub.com/doi/10.1068/b150073",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://doi.org/10.1068/b160051",
+      "checked_at_utc": "2026-10-19T06:56:58.166949+00:00",
+      "status": 403,
+      "final_url": "https://journals.sagepub.com/doi/10.1068/b160051",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://doi.org/10.1068/b160417",
+      "checked_at_utc": "2026-10-19T06:56:58.168091+00:00",
+      "status": 403,
+      "final_url": "https://journals.sagepub.com/doi/10.1068/b160417",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://doi.org/10.1068/b210705",
+      "checked_at_utc": "2026-10-19T06:56:58.221752+00:00",
+      "status": 403,
+      "final_url": "https://journals.sagepub.com/doi/10.1068/b210705",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://doi.org/10.1068/b220419",
+      "checked_at_utc": "2026-10-19T06:56:58.402960+00:00",
+      "status": 403,
+      "final_url": "https://journals.sagepub.com/doi/10.1068/b220419",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://doi.org/10.1068/b260005",
+      "checked_at_utc": "2026-10-19T06:56:58.410534+00:00",
+      "status": 403,
+      "final_url": "https://epb.sagepub.com/lookup/doi/10.1068/b260005",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://doi.org/10.1068/b260477",
+      "checked_at_utc": "2026-10-19T06:56:58.411432+00:00",
+      "status": 403,
+      "final_url": "https://journals.sagepub.com/doi/10.1068/b260477",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://doi.org/10.1080/10464883.1994.10734613",
+      "checked_at_utc": "2026-10-19T06:56:58.467912+00:00",
+      "status": 403,
+      "final_url": "https://www.tandfonline.com/doi/full/10.1080/10464883.1994.10734613",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://doi.org/10.1145/1400385.1400412",
+      "checked_at_utc": "2026-10-19T06:56:58.572909+00:00",
+      "status": 403,
+      "final_url": "https://dl.acm.org/doi/10.1145/1400385.1400412",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://doi.org/10.1177/239980839802500714",
+      "checked_at_utc": "2026-10-19T06:56:58.579734+00:00",
+      "status": 403,
+      "final_url": "https://journals.sagepub.com/doi/10.1177/239980839802500714",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://doi.org/10.14195/1647-8681_5_1",
+      "checked_at_utc": "2026-10-19T06:56:58.644304+00:00",
+      "status": 200,
+      "final_url": "https://impactum-journals.uc.pt/joelho/article/view/_5_1",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://doi.org/10.21606/drs.2018.002",
+      "checked_at_utc": "2026-10-19T06:56:58.652555+00:00",
+      "status": 200,
+      "final_url": "https://dl.designresearchsociety.org/drs-conference-papers/drs2018/editorials/2/",
+      "content_type": "text/html; charset=UTF-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://doi.org/10.21606/drs.2024.1630",
+      "checked_at_utc": "2026-10-19T06:56:58.738680+00:00",
+      "status": 200,
+      "final_url": "https://dl.designresearchsociety.org/drs-conference-papers/drs2024/conversations/20/",
+      "content_type": "text/html; charset=UTF-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://doi.org/10.2307/1575896",
+      "checked_at_utc": "2026-10-19T06:56:58.896630+00:00",
+      "status": 200,
+      "final_url": "https://www.jstor.org/stable/1575896?origin=crossref",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://doi.org/10.2307/1576670",
+      "checked_at_utc": "2026-10-19T06:56:59.107091+00:00",
+      "status": 200,
+      "final_url": "https://www.jstor.org/stable/1576670?origin=crossref",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://doi.org/10.4018/978-1-61350-180-1.ch003",
+      "checked_at_utc": "2026-10-19T06:56:59.277467+00:00",
+      "status": 429,
+      "final_url": "http://services.igi-global.com/resolvedoi/resolve.aspx?doi=10.4018/978-1-61350-180-1.ch003",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://doi.org/10.52842/conf.acadia.2023.3.091",
+      "checked_at_utc": "2026-10-19T06:56:59.441764+00:00",
+      "status": 200,
+      "final_url": "https://papers.cumincad.org/verification.php?return_url=%2Fcgi-bin%2Fworks%2Fpaper%2Facadia23_v3_91",
+      "content_type": "text/html; charset=UTF-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://doi.org/10.52842/conf.ecaade.2004.119",
+      "checked_at_utc": "2026-10-19T06:56:59.444781+00:00",
+      "status": 200,
+      "final_url": "https://papers.cumincad.org/verification.php?return_url=%2Fcgi-bin%2Fworks%2Fpaper%2F2004_119",
+      "content_type": "text/html; charset=UTF-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://doi.org/10.52842/conf.ecaade.2009.475",
+      "checked_at_utc": "2026-10-19T06:56:59.537724+00:00",
+      "status": 200,
+      "final_url": "https://papers.cumincad.org/verification.php?return_url=%2Fcgi-bin%2Fworks%2Fpaper%2Fecaade2009_044",
+      "content_type": "text/html; charset=UTF-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://doi.org/10.59490/footprint.4.1.715",
+      "checked_at_utc": "2026-10-19T06:56:59.961828+00:00",
+      "status": 200,
+      "final_url": "https://journals.open.tudelft.nl/footprint/article/view/715",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://doi.org/10.59490/footprint.8.2.807",
+      "checked_at_utc": "2026-10-19T06:57:01.051985+00:00",
+      "status": 200,
+      "final_url": "https://journals.open.tudelft.nl/footprint/article/view/807",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false
+    },
+    {
       "url": "https://doi.org/10.7551/mitpress/14469.001.0001",
-      "checked_at_utc": "2026-10-19T01:28:00.433072+00:00",
+      "checked_at_utc": "2026-10-19T06:57:01.171221+00:00",
       "status": 403,
       "final_url": "https://direct.mit.edu/books/book/5489/Shapes-of-ImaginationCalculating-in-Coleridge-s",
       "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://hdl.handle.net/2345/1564",
-      "checked_at_utc": "2026-10-19T01:28:00.517705+00:00",
+      "checked_at_utc": "2026-10-19T06:57:01.253467+00:00",
       "status": 403,
       "final_url": "https://ur.bc.edu/islandora/object/bc-ir:102769",
       "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://hefferon.net/linearalgebra/",
-      "checked_at_utc": "2026-10-19T01:28:00.649797+00:00",
+      "checked_at_utc": "2026-10-19T06:57:01.265884+00:00",
       "status": 200,
       "final_url": "https://hefferon.net/linearalgebra/",
       "content_type": "text/html",
       "pdf_header": false
     },
     {
+      "url": "https://impactum-journals.uc.pt/joelho/article/view/_5_1",
+      "checked_at_utc": "2026-10-19T06:57:01.344361+00:00",
+      "status": 200,
+      "final_url": "https://impactum-journals.uc.pt/joelho/article/view/_5_1",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://journals.open.tudelft.nl/footprint/article/view/715",
+      "checked_at_utc": "2026-10-19T06:57:01.450251+00:00",
+      "status": 200,
+      "final_url": "https://journals.open.tudelft.nl/footprint/article/view/715",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://journals.open.tudelft.nl/footprint/article/view/807",
+      "checked_at_utc": "2026-10-19T06:57:01.573995+00:00",
+      "status": 200,
+      "final_url": "https://journals.open.tudelft.nl/footprint/article/view/807",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://journals.open.tudelft.nl/footprint/issue/view/378",
+      "checked_at_utc": "2026-10-19T06:57:01.678073+00:00",
+      "status": 200,
+      "final_url": "https://journals.open.tudelft.nl/footprint/issue/view/378",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://journals.open.tudelft.nl/footprint/issue/view/394",
+      "checked_at_utc": "2026-10-19T06:57:01.755287+00:00",
+      "status": 200,
+      "final_url": "https://journals.open.tudelft.nl/footprint/issue/view/394",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false
+    },
+    {
       "url": "https://journals.sagepub.com/doi/10.1068/b030187",
-      "checked_at_utc": "2026-10-19T01:28:00.738467+00:00",
+      "checked_at_utc": "2026-10-19T06:57:01.858469+00:00",
       "status": 403,
       "final_url": "https://journals.sagepub.com/doi/10.1068/b030187",
       "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://journals.sagepub.com/doi/10.1068/b050005",
-      "checked_at_utc": "2026-10-19T01:28:00.816593+00:00",
+      "checked_at_utc": "2026-10-19T06:57:01.937032+00:00",
       "status": 403,
       "final_url": "https://journals.sagepub.com/doi/10.1068/b050005",
       "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://journals.sagepub.com/doi/10.1068/b070343",
-      "checked_at_utc": "2026-10-19T01:28:00.826364+00:00",
+      "checked_at_utc": "2026-10-19T06:57:02.019670+00:00",
       "status": 403,
       "final_url": "https://journals.sagepub.com/doi/10.1068/b070343",
       "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://journals.sagepub.com/doi/10.1068/b070409",
-      "checked_at_utc": "2026-10-19T01:28:00.909324+00:00",
+      "checked_at_utc": "2026-10-19T06:57:02.078009+00:00",
       "status": 403,
       "final_url": "https://journals.sagepub.com/doi/10.1068/b070409",
       "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://journals.sagepub.com/doi/10.1068/b070463",
-      "checked_at_utc": "2026-10-19T01:28:00.916546+00:00",
+      "checked_at_utc": "2026-10-19T06:57:02.095091+00:00",
       "status": 403,
       "final_url": "https://journals.sagepub.com/doi/10.1068/b070463",
       "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://journals.sagepub.com/doi/10.1068/b080005",
-      "checked_at_utc": "2026-10-19T01:28:00.977758+00:00",
+      "checked_at_utc": "2026-10-19T06:57:02.165275+00:00",
       "status": 403,
       "final_url": "https://journals.sagepub.com/doi/10.1068/b080005",
       "error": "HTTP Error 403: Forbidden"
     },
     {
+      "url": "https://journals.sagepub.com/doi/10.1068/b080097",
+      "checked_at_utc": "2026-10-19T06:57:02.166601+00:00",
+      "status": 403,
+      "final_url": "https://journals.sagepub.com/doi/10.1068/b080097",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://journals.sagepub.com/doi/10.1068/b170073",
+      "checked_at_utc": "2026-10-19T06:57:02.228579+00:00",
+      "status": 403,
+      "final_url": "https://journals.sagepub.com/doi/10.1068/b170073",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
       "url": "https://journals.sagepub.com/doi/10.1068/b190413",
-      "checked_at_utc": "2026-10-19T01:28:00.991116+00:00",
+      "checked_at_utc": "2026-10-19T06:57:02.245416+00:00",
       "status": 403,
       "final_url": "https://journals.sagepub.com/doi/10.1068/b190413",
       "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://journals.sagepub.com/doi/10.1068/b21S049",
-      "checked_at_utc": "2026-10-19T01:28:00.992303+00:00",
+      "checked_at_utc": "2026-10-19T06:57:02.246750+00:00",
       "status": 403,
       "final_url": "https://journals.sagepub.com/doi/10.1068/b21S049",
       "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://journals.sagepub.com/doi/10.1068/b230235",
-      "checked_at_utc": "2026-10-19T01:28:00.995250+00:00",
+      "checked_at_utc": "2026-10-19T06:57:02.301525+00:00",
       "status": 403,
       "final_url": "https://journals.sagepub.com/doi/10.1068/b230235",
       "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://journals.sagepub.com/doi/10.1068/b240359",
-      "checked_at_utc": "2026-10-19T01:28:01.070842+00:00",
+      "checked_at_utc": "2026-10-19T06:57:02.304485+00:00",
       "status": 403,
       "final_url": "https://journals.sagepub.com/doi/10.1068/b240359",
       "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://journals.sagepub.com/doi/10.1068/b260015",
-      "checked_at_utc": "2026-10-19T01:28:01.083926+00:00",
+      "checked_at_utc": "2026-10-19T06:57:02.327751+00:00",
       "status": 403,
       "final_url": "https://journals.sagepub.com/doi/10.1068/b260015",
       "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://journals.sagepub.com/doi/10.1068/b38227",
-      "checked_at_utc": "2026-10-19T01:28:01.084671+00:00",
+      "checked_at_utc": "2026-10-19T06:57:02.328548+00:00",
       "status": 403,
       "final_url": "https://journals.sagepub.com/doi/10.1068/b38227",
       "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://journals.sagepub.com/doi/10.1177/23998083241246668",
-      "checked_at_utc": "2026-10-19T01:28:01.097668+00:00",
+      "checked_at_utc": "2026-10-19T06:57:02.380213+00:00",
       "status": 403,
       "final_url": "https://journals.sagepub.com/doi/10.1177/23998083241246668",
       "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://judsonbooks.org/abstract-algebra-theory-and-applications/",
-      "checked_at_utc": "2026-10-19T01:28:01.165364+00:00",
+      "checked_at_utc": "2026-10-19T06:57:02.383476+00:00",
       "status": 200,
       "final_url": "https://judsonbooks.org/abstract-algebra-theory-and-applications/",
       "content_type": "text/html; charset=UTF-8",
@@ -180,38 +574,38 @@
     },
     {
       "url": "https://link.springer.com/article/10.1007/BF01578998",
-      "checked_at_utc": "2026-10-19T01:28:01.181591+00:00",
+      "checked_at_utc": "2026-10-19T06:57:02.406624+00:00",
       "status": 200,
-      "final_url": "https://link.springer.com/article/10.1007/BF01578998?error=cookies_not_supported&code=5af74bf6-ff7b-4c25-8e19-b1f1efb12356",
+      "final_url": "https://link.springer.com/article/10.1007/BF01578998?error=cookies_not_supported&code=a29ef499-502a-4934-ac0e-eece4cd7e611",
       "content_type": "text/html; charset=utf-8",
       "pdf_header": false
     },
     {
       "url": "https://link.springer.com/article/10.1007/s00004-011-0056-6",
-      "checked_at_utc": "2026-10-19T01:28:01.187201+00:00",
+      "checked_at_utc": "2026-10-19T06:57:02.409183+00:00",
       "status": 200,
-      "final_url": "https://link.springer.com/article/10.1007/s00004-011-0056-6?error=cookies_not_supported&code=68566053-7d36-4472-8977-d2a5bec63831",
+      "final_url": "https://link.springer.com/article/10.1007/s00004-011-0056-6?error=cookies_not_supported&code=09b12cab-33be-49fc-a397-9db5b374d95d",
       "content_type": "text/html; charset=utf-8",
       "pdf_header": false
     },
     {
       "url": "https://link.springer.com/book/10.1007/978-3-0348-6879-2",
-      "checked_at_utc": "2026-10-19T01:28:01.189255+00:00",
+      "checked_at_utc": "2026-10-19T06:57:02.452183+00:00",
       "status": 200,
-      "final_url": "https://link.springer.com/book/10.1007/978-3-0348-6879-2?error=cookies_not_supported&code=2222c10d-4b35-4b20-bc1b-19d0612f4c09",
+      "final_url": "https://link.springer.com/book/10.1007/978-3-0348-6879-2?error=cookies_not_supported&code=a4260db5-b9c1-4b5a-9bca-0a5325288ab2",
       "content_type": "text/html; charset=utf-8",
       "pdf_header": false
     },
     {
       "url": "https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/blms/11.3.308",
-      "checked_at_utc": "2026-10-19T01:28:02.059306+00:00",
+      "checked_at_utc": "2026-10-19T06:57:03.480466+00:00",
       "status": 403,
       "final_url": "https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/blms/11.3.308",
       "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://math.berkeley.edu/~reb/papers/iccm/iccm.pdf",
-      "checked_at_utc": "2026-10-19T01:28:02.193024+00:00",
+      "checked_at_utc": "2026-10-19T06:57:03.499144+00:00",
       "status": 200,
       "final_url": "https://math.berkeley.edu/~reb/papers/iccm/iccm.pdf",
       "content_type": "application/pdf",
@@ -219,7 +613,7 @@
     },
     {
       "url": "https://math.berkeley.edu/~reb/papers/icm98/icm98.pdf",
-      "checked_at_utc": "2026-10-19T01:28:02.519205+00:00",
+      "checked_at_utc": "2026-10-19T06:57:03.503328+00:00",
       "status": 200,
       "final_url": "https://math.berkeley.edu/~reb/papers/icm98/icm98.pdf",
       "content_type": "application/pdf",
@@ -227,7 +621,7 @@
     },
     {
       "url": "https://math.berkeley.edu/~reb/papers/monster/monster.pdf",
-      "checked_at_utc": "2026-10-19T01:28:02.542048+00:00",
+      "checked_at_utc": "2026-10-19T06:57:03.887044+00:00",
       "status": 200,
       "final_url": "https://math.berkeley.edu/~reb/papers/monster/monster.pdf",
       "content_type": "application/pdf",
@@ -235,7 +629,7 @@
     },
     {
       "url": "https://math.berkeley.edu/~reb/papers/whatismonster/whatismonster.pdf",
-      "checked_at_utc": "2026-10-19T01:28:02.555726+00:00",
+      "checked_at_utc": "2026-10-19T06:57:03.890455+00:00",
       "status": 200,
       "final_url": "https://math.berkeley.edu/~reb/papers/whatismonster/whatismonster.pdf",
       "content_type": "application/pdf",
@@ -243,7 +637,7 @@
     },
     {
       "url": "https://mitpress.mit.edu/9780262544139/shapes-of-imagination/",
-      "checked_at_utc": "2026-10-19T01:28:02.836359+00:00",
+      "checked_at_utc": "2026-10-19T06:57:04.204472+00:00",
       "status": 200,
       "final_url": "https://mitpress.mit.edu/9780262544139/shapes-of-imagination/",
       "content_type": "text/html; charset=UTF-8",
@@ -251,7 +645,7 @@
     },
     {
       "url": "https://mitpress.mit.edu/9780262693677/shape/",
-      "checked_at_utc": "2026-10-19T01:28:02.850042+00:00",
+      "checked_at_utc": "2026-10-19T06:57:04.207456+00:00",
       "status": 200,
       "final_url": "https://mitpress.mit.edu/9780262693677/shape/",
       "content_type": "text/html; charset=UTF-8",
@@ -259,7 +653,7 @@
     },
     {
       "url": "https://ocw.mit.edu/courses/18-701-algebra-i-fall-2010/",
-      "checked_at_utc": "2026-10-19T01:28:02.863383+00:00",
+      "checked_at_utc": "2026-10-19T06:57:04.526595+00:00",
       "status": 200,
       "final_url": "https://ocw.mit.edu/courses/18-701-algebra-i-fall-2010/",
       "content_type": "text/html",
@@ -267,7 +661,7 @@
     },
     {
       "url": "https://ocw.mit.edu/courses/18-703-modern-algebra-spring-2013/",
-      "checked_at_utc": "2026-10-19T01:28:02.939456+00:00",
+      "checked_at_utc": "2026-10-19T06:57:04.627487+00:00",
       "status": 200,
       "final_url": "https://ocw.mit.edu/courses/18-703-modern-algebra-spring-2013/",
       "content_type": "text/html",
@@ -275,7 +669,7 @@
     },
     {
       "url": "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/pages/course-texts/",
-      "checked_at_utc": "2026-10-19T01:28:02.946981+00:00",
+      "checked_at_utc": "2026-10-19T06:57:04.707525+00:00",
       "status": 200,
       "final_url": "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/pages/course-texts/",
       "content_type": "text/html",
@@ -283,7 +677,7 @@
     },
     {
       "url": "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/pages/lecture-slides-and-supplemental-readings/",
-      "checked_at_utc": "2026-10-19T01:28:03.014649+00:00",
+      "checked_at_utc": "2026-10-19T06:57:04.771628+00:00",
       "status": 200,
       "final_url": "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/pages/lecture-slides-and-supplemental-readings/",
       "content_type": "text/html",
@@ -291,23 +685,39 @@
     },
     {
       "url": "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/resources/mit4_540f18_lectureslides/",
-      "checked_at_utc": "2026-10-19T01:28:03.095900+00:00",
+      "checked_at_utc": "2026-10-19T06:57:04.784082+00:00",
       "status": 200,
       "final_url": "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/resources/mit4_540f18_lectureslides/",
       "content_type": "text/html",
       "pdf_header": false
     },
     {
+      "url": "https://ocw.mit.edu/courses/4-580-inquiry-into-computation-and-design-fall-2006/",
+      "checked_at_utc": "2026-10-19T06:57:04.857572+00:00",
+      "status": 200,
+      "final_url": "https://ocw.mit.edu/courses/4-580-inquiry-into-computation-and-design-fall-2006/",
+      "content_type": "text/html",
+      "pdf_header": false
+    },
+    {
       "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_textbook/",
-      "checked_at_utc": "2026-10-19T01:28:03.159728+00:00",
+      "checked_at_utc": "2026-10-19T06:57:04.859949+00:00",
       "status": 200,
       "final_url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_textbook/",
       "content_type": "text/html",
       "pdf_header": false
     },
     {
+      "url": "https://pure.tudelft.nl/ws/portalfiles/portal/12909097/Stouffs_eCAADe2016_volume2.pdf",
+      "checked_at_utc": "2026-10-19T06:57:04.940405+00:00",
+      "status": 200,
+      "final_url": "https://pure.tudelft.nl/ws/portalfiles/portal/12909097/Stouffs_eCAADe2016_volume2.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true
+    },
+    {
       "url": "https://richardhammack.github.io/BookOfProof/",
-      "checked_at_utc": "2026-10-19T01:28:03.246531+00:00",
+      "checked_at_utc": "2026-10-19T06:57:05.009018+00:00",
       "status": 200,
       "final_url": "https://richardhammack.github.io/BookOfProof/",
       "content_type": "text/html; charset=utf-8",
@@ -315,7 +725,7 @@
     },
     {
       "url": "https://shapemachine.gatech.edu/tutorials/tutorials/2_indeterminate_matching_and_rule_sequences.html",
-      "checked_at_utc": "2026-10-19T01:28:03.295802+00:00",
+      "checked_at_utc": "2026-10-19T06:57:05.120223+00:00",
       "status": 200,
       "final_url": "https://shapemachine.gatech.edu/tutorials/tutorials/2_indeterminate_matching_and_rule_sequences.html",
       "content_type": "text/html",
@@ -323,7 +733,7 @@
     },
     {
       "url": "https://slc.openlogicproject.org/",
-      "checked_at_utc": "2026-10-19T01:28:03.354145+00:00",
+      "checked_at_utc": "2026-10-19T06:57:05.215747+00:00",
       "status": 200,
       "final_url": "https://slc.openlogicproject.org/",
       "content_type": "text/html",
@@ -331,7 +741,7 @@
     },
     {
       "url": "https://st.openlogicproject.org/",
-      "checked_at_utc": "2026-10-19T01:28:03.419184+00:00",
+      "checked_at_utc": "2026-10-19T06:57:05.319948+00:00",
       "status": 200,
       "final_url": "https://st.openlogicproject.org/",
       "content_type": "text/html",
@@ -339,15 +749,23 @@
     },
     {
       "url": "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb070463-arithmeticOfShapes.pdf",
-      "checked_at_utc": "2026-10-19T01:28:03.505938+00:00",
+      "checked_at_utc": "2026-10-19T06:57:05.481651+00:00",
       "status": 200,
       "final_url": "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb070463-arithmeticOfShapes.pdf",
       "content_type": "application/pdf",
       "pdf_header": true
     },
     {
+      "url": "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb220689-grammarTaiwaneseHouses.pdf",
+      "checked_at_utc": "2026-10-19T06:57:05.618458+00:00",
+      "status": 200,
+      "final_url": "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb220689-grammarTaiwaneseHouses.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true
+    },
+    {
       "url": "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/pre-publication/TractableShapeGrammars-epb38227.pdf",
-      "checked_at_utc": "2026-10-19T01:28:03.507801+00:00",
+      "checked_at_utc": "2026-10-19T06:57:05.736331+00:00",
       "status": 200,
       "final_url": "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/pre-publication/TractableShapeGrammars-epb38227.pdf",
       "content_type": "application/pdf",
@@ -355,22 +773,38 @@
     },
     {
       "url": "https://www.andrew.cmu.edu/user/ramesh/teaching/course/48-747/subFrames/readings/Stiny-1980-EPB7_343-351.IntroductionToShapeAndShapeGrammars.pdf",
-      "checked_at_utc": "2026-10-19T01:28:03.568430+00:00",
+      "checked_at_utc": "2026-10-19T06:57:05.854066+00:00",
       "status": 200,
       "final_url": "https://www.andrew.cmu.edu/user/ramesh/teaching/course/48-747/subFrames/readings/Stiny-1980-EPB7_343-351.IntroductionToShapeAndShapeGrammars.pdf",
       "content_type": "application/pdf",
       "pdf_header": true
     },
     {
+      "url": "https://www.cambridge.org/core/journals/design-science/article/design-science-why-what-and-how/A575D750B05AE57AAF9E7CA07E44FEF4",
+      "checked_at_utc": "2026-10-19T06:57:05.963152+00:00",
+      "status": 200,
+      "final_url": "https://www.cambridge.org/core/journals/design-science/article/design-science-why-what-and-how/A575D750B05AE57AAF9E7CA07E44FEF4",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://www.cca.qc.ca/fr/recherche/details/library/publication/26361509",
+      "checked_at_utc": "2026-10-19T06:57:06.363057+00:00",
+      "status": 200,
+      "final_url": "https://www.cca.qc.ca/fr/recherche/details/library/publication/26361509",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false
+    },
+    {
       "url": "https://www.iucr.org/what-we-do/education/pamphlets/symmetry",
-      "checked_at_utc": "2026-10-19T01:28:03.656798+00:00",
+      "checked_at_utc": "2026-10-19T06:57:06.841081+00:00",
       "status": 403,
       "final_url": "https://www.iucr.org/what-we-do/education/pamphlets/symmetry",
       "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
-      "checked_at_utc": "2026-10-19T01:28:03.661332+00:00",
+      "checked_at_utc": "2026-10-19T06:57:07.034393+00:00",
       "status": 200,
       "final_url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
       "content_type": "application/pdf",
@@ -378,9 +812,33 @@
     },
     {
       "url": "https://www.jmilne.org/math/CourseNotes/gt.html",
-      "checked_at_utc": "2026-10-19T01:28:03.683891+00:00",
+      "checked_at_utc": "2026-10-19T06:57:07.084699+00:00",
       "status": 200,
       "final_url": "https://www.jmilne.org/math/CourseNotes/gt.html",
+      "content_type": "text/html",
+      "pdf_header": false
+    },
+    {
+      "url": "https://www.mit.edu/~tknight/IJDC/",
+      "checked_at_utc": "2026-10-19T06:57:07.177100+00:00",
+      "status": 200,
+      "final_url": "https://www.mit.edu/~tknight/IJDC/",
+      "content_type": "text/html",
+      "pdf_header": false
+    },
+    {
+      "url": "https://www.mit.edu/~tknight/IJDC/page_history_design_tr.htm",
+      "checked_at_utc": "2026-10-19T06:57:07.196106+00:00",
+      "status": 200,
+      "final_url": "https://www.mit.edu/~tknight/IJDC/page_history_design_tr.htm",
+      "content_type": "text/html",
+      "pdf_header": false
+    },
+    {
+      "url": "https://www.mit.edu/~tknight/IJDC/page_references.htm",
+      "checked_at_utc": "2026-10-19T06:57:07.197125+00:00",
+      "status": 200,
+      "final_url": "https://www.mit.edu/~tknight/IJDC/page_references.htm",
       "content_type": "text/html",
       "pdf_header": false
     }

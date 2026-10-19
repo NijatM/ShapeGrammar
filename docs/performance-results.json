@@ -1,0 +1,34 @@
+{
+  "runtime": "v26.11.1",
+  "platform": "darwin",
+  "architecture": "arm64",
+  "scenarios": [
+    {
+      "name": "Default finite menu",
+      "domain": "10584",
+      "checked": 10584,
+      "witnesses": 112,
+      "complete": true,
+      "reason": null,
+      "ms": 100
+    },
+    {
+      "name": "50,000-candidate empty-host stress",
+      "domain": "62424",
+      "checked": 50000,
+      "witnesses": 0,
+      "complete": false,
+      "reason": "candidate-limit",
+      "ms": 345.1
+    },
+    {
+      "name": "Dense mixed-carrier host",
+      "domain": "10584",
+      "checked": 3684,
+      "witnesses": 2000,
+      "complete": false,
+      "reason": "match-limit",
+      "ms": 435.5
+    }
+  ]
+}

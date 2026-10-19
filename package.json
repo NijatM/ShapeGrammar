@@ -1,9 +1,17 @@
 {
   "name": "shapegrammar",
   "private": true,
-  "version": "0.1.0",
+  "version": "1.0.0",
   "type": "module",
-  "description": "ShapeGrammar mathematical core; application under development",
-  "engines": { "node": ">=20" },
-  "scripts": { "test": "node --test test/*.test.mjs", "dev": "python3 -m http.server 8765 --bind 127.0.0.1" }
+  "description": "ShapeGrammar learning courses, reference library and exact geometric laboratory",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "dev": "python3 -m http.server 8765 --bind 127.0.0.1",
+    "build": "node tools/build.mjs",
+    "benchmark": "node tools/benchmark.mjs",
+    "check": "npm test && python3 Reference/tools/library.py validate && node tools/check-site.mjs"
+  }
 }

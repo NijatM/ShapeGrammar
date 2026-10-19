@@ -1,6 +1,6 @@
 # Reference collection validation
 
-Checked on **18 October 2026, America/New_York**. Link report timestamps are UTC and therefore show 19 October for this evening session. This report describes the research collection, not a mathematical application release.
+Collection checks updated **19 October 2026, America/New_York**. Link report timestamps are UTC. Application evidence is recorded separately in the [release report](../docs/RELEASE_VALIDATION.md).
 
 | Check | Observed result |
 | --- | --- |
@@ -15,11 +15,11 @@ Checked on **18 October 2026, America/New_York**. Link report timestamps are UTC
 | Bibliography evidence | Publisher/author/institutional pages, arXiv version histories and selected Crossref metadata checked; individual scope recorded per source |
 | Dimensional convention | Stouffs 2016 printed p. 331 rendered/visually checked for Uᵢⱼ and U₁₂; implementation restrictions documented separately |
 | Curriculum mapping | 16 shape grammar, 8 set theory and 10 group theory entries, plus 10 research strands; all mapped source IDs exist |
-| HTTP link check | Initial 43-source snapshot: 50 URLs, 33 HTTP 200 and 17 HTTP 403, in `LINK_CHECK_REPORT.json`. This report predates the Knight expansion; it is not a full link check of all 98 records |
+| HTTP link check | All 110 unique stable/reading URLs across 98 records checked: 71 HTTP 200, 38 HTTP 403, 1 HTTP 429; see `LINK_CHECK_REPORT.json` |
 | Rights | Original-file license/front-matter notices inspected; attribution ledger records NC/ND/SA/GFDL conditions and separate cover rights |
 | Exclusions | Pre-existing 1980 PDF, MIT lecture slides with explicit third-party exclusions and unlicensed-to-mirror reading copies omitted from public manifest |
 | Public candidate list | 240 explicit reference paths in `PUBLIC_FILES.txt`; local-only/configuration exclusions and unknown-rights user PDF exclusion checked |
-| Local Markdown links | 350 local link targets across public reference and project documentation checked; all exist |
+| Local Markdown links | Local link checker covers public reference and project documentation; see the release report for the current count |
 | Git/GitHub boundary | No Git/gh commands, Git internals, repository/account APIs, remote mutations, commits or publication actions performed |
 | Public documentation | Reference catalogue, topic notes, rights, research gaps and validation documentation are included; local prompts and assistant instructions are excluded |
 
@@ -30,8 +30,8 @@ The two Open Logic PDFs produce pypdf warnings about repeated internal dictionar
 - HTTP 200 does not verify the correctness of a paper or its license. HTTP 403 does not establish a missing citation; many affected publisher pages were accessible through separate web research. Failed direct checks remain failed in the report.
 - Bibliography inclusion does not mean every proof, figure, formula or exercise has been checked. Metadata distinguishes full-text, selected-passage, front-matter, contents and bibliography checks.
 - Rights inspection includes text-layer notices; it is not an exhaustive image-by-image rights audit. No separately marked excluded content was found in the ten saved OCW manuscripts. The lecture slides did contain explicit exclusions and were kept as a link.
-- The U₁₂ dimensional convention is verified through Stouffs 2016. Full-book locators and the original Stiny 1991 passage still require review. An initial engine now has [separate verification evidence](../docs/ENGINE_VALIDATION.md); complete course authoring, browser accessibility, application builds and live deployment checks remain later milestones.
-- No repository state was inspected. The file manifest and ignore rule are preparation, not proof that an existing repository has no previously tracked sensitive or restricted files. The guide has the user inspect this before staging.
+- The U₁₂ dimensional convention is verified through Stouffs 2016. Full-book locators and the original Stiny 1991 passage still require review. The authored introductory lessons use reviewed definitions and original examples. [Content review](../docs/CONTENT_REVIEW.md) and [release validation](../docs/RELEASE_VALIDATION.md) state the application evidence; full original-paper proof review and live deployment remain outside these checks.
+- No repository state was inspected. The file manifest and ignore rule are preparation, not proof that an existing repository has no previously tracked sensitive or restricted files. The deployment guide asks the owner to inspect the staged file list.
 
 Reproduce the offline checks from the project root:
 

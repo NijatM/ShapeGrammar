@@ -1,0 +1,134 @@
+[
+  {
+    "id": "R-01",
+    "title": "Shape arithmetic and matching",
+    "body": "Compare a shape’s geometric content with its stored representation. Recognition must admit parts spanning collinear strokes, while preserving actual gaps. Continuous families of placements require care; a finite grid gives a declared computational scope rather than a universal matcher.",
+    "task": "Reproduce the same host with different stroke subdivisions. Compare complete witness sets under the same menu.",
+    "question": "What changes when transformations vary continuously rather than over the lab’s finite menu?",
+    "source_ids": [
+      "stiny-1980-introduction",
+      "krishnamurti-1980-arithmetic",
+      "krishnamurti-1981-construction",
+      "gatech-indeterminate-matching",
+      "stouffs-2016-interpreter"
+    ],
+    "locator": "1980 definitions selected; algorithm details pending; Stouffs pp. 331–334 selected sections read"
+  },
+  {
+    "id": "R-02",
+    "title": "From line shapes to weights and color",
+    "body": "Labels, weights and color algebras add formal structure; they are not merely presentation choices. Knight’s color work and Stiny’s weights offer paths beyond unlabelled lines. A colored SVG alone does not implement a color grammar: one must define the elements, comparison relations, operations and transformation behavior.",
+    "task": "Choose one additional property, such as thickness. Specify what it means for one weighted part to embed in another before proposing a rule.",
+    "question": "Which operations must be redefined when a geometric region also carries an ordered property?",
+    "source_ids": [
+      "stiny-1991-algebras",
+      "stiny-1992-weights",
+      "knight-1989-color-grammars-designing-with-lines-and-colors",
+      "knight-2015-shapes-and-other-things"
+    ],
+    "locator": "full definitions/locators pending"
+  },
+  {
+    "id": "R-03",
+    "title": "Continuity and retrospective topology",
+    "body": "A shape derivation can change which parts are recognized and how earlier stages are interpreted. The continuity literature studies formal relations associated with such computations. It should not be reduced to animation smoothness, nor inferred merely from a continuous-looking drawing.",
+    "task": "Read the opening definitions in the continuity preprint and keep a notation table separating shapes, parts, maps and topologies.",
+    "question": "What extra mathematical structure is needed beyond the lab’s sequence of snapshots?",
+    "source_ids": [
+      "stiny-1994-closure",
+      "haridis-stiny-continuity",
+      "krishnamurti-stouffs-1997-spatial"
+    ],
+    "locator": "2022 preprint opening pp. 1–3 read; proofs pending"
+  },
+  {
+    "id": "R-04",
+    "title": "The Monster: a different scale of symmetry",
+    "body": "The Monster is the largest sporadic finite simple group. Its order is 808017424794512875886459904961710757005754368000000000, as recorded by ATLAS. An element is an algebraic symmetry; the name does not refer to a gigantic drawing. This is an advanced direction from group theory, not a consequence implemented by the line laboratory.",
+    "task": "Compare what a group order counts in D₄ with what it counts for the Monster. A large order alone does not specify an efficient representation.",
+    "question": "How does the choice of representation affect the practicality of group computation?",
+    "source_ids": [
+      "atlas-monster",
+      "borcherds-2002-monster",
+      "borcherds-1998-moonshine"
+    ],
+    "locator": "ATLAS opening order; 1998 survey first page"
+  },
+  {
+    "id": "R-05",
+    "title": "Moonshine: observations, structures and proof",
+    "body": "The numerical observation 196884 = 1 + 196883 connects a coefficient of the modular j-function with dimensions associated with Monster representations. The broader moonshine theory concerns much more than this equality, including graded structures and trace functions. The coefficient coincidence is a motivation, not a proof.",
+    "task": "Read Borcherds’s short introduction, then separate the historical observation, the conjectural statements and the later proof.",
+    "question": "What additional objects must be defined before a numerical pattern becomes a precise theorem?",
+    "source_ids": [
+      "conway-norton-1979-moonshine",
+      "borcherds-1992-moonshine-proof",
+      "gannon-2004-moonshine-survey"
+    ],
+    "locator": "1992 Theorem 1.1 and §9; proof not reviewed"
+  },
+  {
+    "id": "R-06",
+    "title": "Representations, actions and patterns",
+    "body": "A representation realizes a group through invertible linear maps that respect multiplication. This makes linear algebra a prerequisite. Pattern symmetries offer another bridge from visual examples to abstract actions. Similar diagrams can illustrate different mathematical structures; the operation and action must be specified.",
+    "task": "Represent the square symmetries with the matrices used by the explorer. Verify one product by matrix multiplication.",
+    "question": "What information is preserved or lost when the same abstract group is represented in different ways?",
+    "source_ids": [
+      "etingof-representation-theory",
+      "hefferon-linear-algebra",
+      "iucr-symmetry",
+      "knight-1998-infinite-patterns-and-their-symmetries"
+    ],
+    "locator": "prerequisites and topic scope verified; course-specific sections pending"
+  },
+  {
+    "id": "R-07",
+    "title": "Reading historical research questions",
+    "body": "A problem list is tied to its publication date. Do not present a question from a historical survey as currently open without checking subsequent literature. Learning to establish a problem’s precise statement, assumptions and status is part of research practice.",
+    "task": "Choose a historical question, record the original statement and date, then identify what newer primary evidence would be needed for a current-status claim.",
+    "question": "What would count as evidence that a problem was solved, reformulated or remains open?",
+    "source_ids": [
+      "borcherds-1998-problems"
+    ],
+    "locator": "2001 proceedings of 1998 meeting; current problem status unchecked"
+  },
+  {
+    "id": "R-08",
+    "title": "Axiomatic foundations",
+    "body": "Elementary set operations can be introduced informally, but a foundational account asks which set-existence principles are assumed. Axiomatic set theory also distinguishes informal collections from sets admitted by a particular theory. This pathway is optional after the introductory set course.",
+    "task": "Read an axiomatic treatment of separation and pairing, and compare its stated assumptions with the roster examples in the course.",
+    "question": "Why does an unrestricted rule that every property defines a set create difficulties?",
+    "source_ids": [
+      "button-set-theory"
+    ],
+    "locator": "Part II Chs. 2–5; later iterative conception chapters"
+  },
+  {
+    "id": "R-09",
+    "title": "Computational making and materials",
+    "body": "Knight and Stiny’s making work brings material, sensory and improvisational activity into computational accounts. A line drawing can describe an aspect of making without fully representing the material process. The present lab supplies geometric experiments; it does not simulate material behavior or validate fabrication.",
+    "task": "Perform a small paper or string-making process. Record actions, material changes and observations that a line diagram alone fails to capture.",
+    "question": "Which parts of the activity are visual, tactile, temporal or dependent on the material’s behavior?",
+    "source_ids": [
+      "knight-2015-making-grammars-from-computing-with-shapes-to-computing-with-things",
+      "knight-2018-craft-performance-and-grammars",
+      "knight-2015-computational-making"
+    ],
+    "locator": "publisher/author bibliography checked; exact teaching locators pending"
+  },
+  {
+    "id": "R-10",
+    "title": "Transforming design languages",
+    "body": "A design language can be studied through rules and through transformations of those rules. Knight’s work provides a historical and methodological route from analyzing precedents to exploring new design families. A transformed rule system must be checked on its own consequences rather than judged only by one attractive output.",
+    "task": "Create two related rule systems, keeping the initial shape and transformation menu fixed. Compare their outputs and state what changed.",
+    "question": "How can a grammar transformation change a design language while retaining some recognizable relationships?",
+    "source_ids": [
+      "knight-1994-transformations-in-design",
+      "knight-1983-transformations-of-languages-of-designs-part-1",
+      "knight-1983-transformations-of-languages-of-designs-part-2",
+      "knight-1983-transformations-of-languages-of-designs-part-3",
+      "knight-2014-regarding-rules-from-rimini-to-rio"
+    ],
+    "locator": "Regarding Rules printed pp. 12–13 and 26–27 selected; book/1983 interiors pending"
+  }
+]

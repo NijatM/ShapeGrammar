@@ -9,7 +9,9 @@
     ],
     "locator": "OCW Q1 and Q4; Shape interior locator pending",
     "evidence_status": "selected-text; book bibliography only; added Knight sources bibliography-only unless stated in source record",
-    "lesson_status": "not-authored-in-this-delivery"
+    "lesson_status": "authored-original-micro-lesson-two-checks-and-practice",
+    "lesson_file": "../data/lessons.json",
+    "assessment_status": "worked-example-and-answer-key-reviewed; computed-fixtures-tested-where-applicable; no-independent-expert-review"
   },
   {
     "id": "SG-02",
@@ -21,7 +23,9 @@
     ],
     "locator": "Stiny 1980 p. 343; Stouffs 2016 p. 331 for U12 dimensions",
     "evidence_status": "selected passages verified; Stouffs p. 331 image verified; Stiny 1991 original passage pending",
-    "lesson_status": "not-authored-in-this-delivery"
+    "lesson_status": "authored-original-micro-lesson-two-checks-and-practice",
+    "lesson_file": "../data/lessons.json",
+    "assessment_status": "worked-example-and-answer-key-reviewed; computed-fixtures-tested-where-applicable; no-independent-expert-review"
   },
   {
     "id": "SG-03",
@@ -32,7 +36,9 @@
     ],
     "locator": "1980 pp. 343–344",
     "evidence_status": "selected-passage and p. 344 image verified; added Knight sources bibliography-only unless stated in source record",
-    "lesson_status": "not-authored-in-this-delivery"
+    "lesson_status": "authored-original-micro-lesson-two-checks-and-practice",
+    "lesson_file": "../data/lessons.json",
+    "assessment_status": "worked-example-and-answer-key-reviewed; computed-fixtures-tested-where-applicable; no-independent-expert-review"
   },
   {
     "id": "SG-04",
@@ -43,7 +49,9 @@
     ],
     "locator": "1980 pp. 343–344; arithmetic algorithms require full-text review",
     "evidence_status": "selected-passage verified; algorithm candidate",
-    "lesson_status": "not-authored-in-this-delivery"
+    "lesson_status": "authored-original-micro-lesson-two-checks-and-practice",
+    "lesson_file": "../data/lessons.json",
+    "assessment_status": "worked-example-and-answer-key-reviewed; computed-fixtures-tested-where-applicable; no-independent-expert-review"
   },
   {
     "id": "SG-05",
@@ -54,7 +62,9 @@
     ],
     "locator": "1980 pp. 343–344",
     "evidence_status": "selected-passage and p. 344 image verified",
-    "lesson_status": "not-authored-in-this-delivery"
+    "lesson_status": "authored-original-micro-lesson-two-checks-and-practice",
+    "lesson_file": "../data/lessons.json",
+    "assessment_status": "worked-example-and-answer-key-reviewed; computed-fixtures-tested-where-applicable; no-independent-expert-review"
   },
   {
     "id": "SG-06",
@@ -65,7 +75,9 @@
     ],
     "locator": "1980 pp. 344–345; Judson §5.2",
     "evidence_status": "selected passages verified",
-    "lesson_status": "not-authored-in-this-delivery"
+    "lesson_status": "authored-original-micro-lesson-two-checks-and-practice",
+    "lesson_file": "../data/lessons.json",
+    "assessment_status": "worked-example-and-answer-key-reviewed; computed-fixtures-tested-where-applicable; no-independent-expert-review"
   },
   {
     "id": "SG-07",
@@ -76,7 +88,9 @@
     ],
     "locator": "1980 p. 347; tutorial Formal Definition",
     "evidence_status": "formula and p. 347 image verified",
-    "lesson_status": "not-authored-in-this-delivery"
+    "lesson_status": "authored-original-micro-lesson-two-checks-and-practice",
+    "lesson_file": "../data/lessons.json",
+    "assessment_status": "worked-example-and-answer-key-reviewed; computed-fixtures-tested-where-applicable; no-independent-expert-review"
   },
   {
     "id": "SG-08",
@@ -87,7 +101,9 @@
     ],
     "locator": "2024 equations (1)–(3) and cycle discussion; 1980 p. 347",
     "evidence_status": "publisher text and selected passage verified",
-    "lesson_status": "not-authored-in-this-delivery"
+    "lesson_status": "authored-original-micro-lesson-two-checks-and-practice",
+    "lesson_file": "../data/lessons.json",
+    "assessment_status": "worked-example-and-answer-key-reviewed; computed-fixtures-tested-where-applicable; no-independent-expert-review"
   },
   {
     "id": "SG-09",
@@ -99,7 +115,9 @@
     ],
     "locator": "tutorial Single Line Case; 1997 detailed cases pending",
     "evidence_status": "tutorial checked; research candidate; added Knight sources bibliography-only unless stated in source record",
-    "lesson_status": "not-authored-in-this-delivery"
+    "lesson_status": "authored-original-micro-lesson-two-checks-and-practice",
+    "lesson_file": "../data/lessons.json",
+    "assessment_status": "worked-example-and-answer-key-reviewed; computed-fixtures-tested-where-applicable; no-independent-expert-review"
   },
   {
     "id": "SG-10",
@@ -110,7 +128,9 @@
     ],
     "locator": "1996 abstract; 2024 equation (2)",
     "evidence_status": "abstract/full 2024 text; 1996 interior pending",
-    "lesson_status": "not-authored-in-this-delivery"
+    "lesson_status": "authored-original-micro-lesson-two-checks-and-practice",
+    "lesson_file": "../data/lessons.json",
+    "assessment_status": "worked-example-and-answer-key-reviewed; computed-fixtures-tested-where-applicable; no-independent-expert-review"
   },
   {
     "id": "SG-11",
@@ -122,7 +142,9 @@
     ],
     "locator": "1980 p. 347 and examples pp. 348–351; 1976 full text pending",
     "evidence_status": "selected text verified; candidate; added Knight sources bibliography-only unless stated in source record",
-    "lesson_status": "not-authored-in-this-delivery"
+    "lesson_status": "authored-original-micro-lesson-two-checks-and-practice",
+    "lesson_file": "../data/lessons.json",
+    "assessment_status": "worked-example-and-answer-key-reviewed; computed-fixtures-tested-where-applicable; no-independent-expert-review"
   },
   {
     "id": "SG-12",
@@ -132,7 +154,9 @@
     ],
     "locator": "abstract and author preprint; formal complexity statements need review",
     "evidence_status": "bibliographic and abstract candidate",
-    "lesson_status": "not-authored-in-this-delivery"
+    "lesson_status": "authored-original-micro-lesson-two-checks-and-practice",
+    "lesson_file": "../data/lessons.json",
+    "assessment_status": "worked-example-and-answer-key-reviewed; computed-fixtures-tested-where-applicable; no-independent-expert-review"
   },
   {
     "id": "SG-13",
@@ -143,7 +167,9 @@
     ],
     "locator": "OCW Exhibit 2; 1980 figures 1–3 with source/rights review before adaptation",
     "evidence_status": "text selected; figures not comprehensively audited",
-    "lesson_status": "not-authored-in-this-delivery"
+    "lesson_status": "authored-original-micro-lesson-two-checks-and-practice",
+    "lesson_file": "../data/lessons.json",
+    "assessment_status": "worked-example-and-answer-key-reviewed; computed-fixtures-tested-where-applicable; no-independent-expert-review"
   },
   {
     "id": "SG-14",
@@ -156,7 +182,9 @@
     ],
     "locator": "1978 and 1980 primary articles; example-specific locators pending",
     "evidence_status": "bibliographic candidates; added Knight sources bibliography-only unless stated in source record",
-    "lesson_status": "not-authored-in-this-delivery"
+    "lesson_status": "authored-original-micro-lesson-two-checks-and-practice",
+    "lesson_file": "../data/lessons.json",
+    "assessment_status": "worked-example-and-answer-key-reviewed; computed-fixtures-tested-where-applicable; no-independent-expert-review"
   },
   {
     "id": "SG-15",
@@ -166,8 +194,10 @@
       "stiny-2018-calculating-excerpts"
     ],
     "locator": "1980 pp. 343–344, 347; project-authored emergence fixture",
-    "evidence_status": "selected source concepts verified; assessment not authored",
-    "lesson_status": "not-authored-in-this-delivery"
+    "evidence_status": "selected source concepts verified",
+    "lesson_status": "authored-original-micro-lesson-two-checks-and-practice",
+    "lesson_file": "../data/lessons.json",
+    "assessment_status": "worked-example-and-answer-key-reviewed; computed-fixtures-tested-where-applicable; no-independent-expert-review"
   },
   {
     "id": "SG-16",
@@ -181,7 +211,9 @@
     ],
     "locator": "1980 p. 347; 2011/1999 detailed rule-design locators pending",
     "evidence_status": "mixed selected passage and candidate sources; added Knight sources bibliography-only unless stated in source record",
-    "lesson_status": "not-authored-in-this-delivery"
+    "lesson_status": "authored-original-micro-lesson-two-checks-and-practice",
+    "lesson_file": "../data/lessons.json",
+    "assessment_status": "worked-example-and-answer-key-reviewed; computed-fixtures-tested-where-applicable; no-independent-expert-review"
   },
   {
     "id": "ST-01",
@@ -191,8 +223,10 @@
       "zach-sets-logic-computation"
     ],
     "locator": "Hammack Chapter 1; Zach §§1.1–1.2",
-    "evidence_status": "contents/locators verified; full lesson proof and feedback review pending",
-    "lesson_status": "not-authored-in-this-delivery"
+    "evidence_status": "contents/locators verified",
+    "lesson_status": "authored-original-micro-lesson-two-checks-and-practice",
+    "lesson_file": "../data/lessons.json",
+    "assessment_status": "worked-example-and-answer-key-reviewed; computed-fixtures-tested-where-applicable; no-independent-expert-review"
   },
   {
     "id": "ST-02",
@@ -202,8 +236,10 @@
       "zach-sets-logic-computation"
     ],
     "locator": "Hammack Chapter 1; Zach §§1.1–1.2",
-    "evidence_status": "contents/locators verified; full lesson proof and feedback review pending",
-    "lesson_status": "not-authored-in-this-delivery"
+    "evidence_status": "contents/locators verified",
+    "lesson_status": "authored-original-micro-lesson-two-checks-and-practice",
+    "lesson_file": "../data/lessons.json",
+    "assessment_status": "worked-example-and-answer-key-reviewed; computed-fixtures-tested-where-applicable; no-independent-expert-review"
   },
   {
     "id": "ST-03",
@@ -213,8 +249,10 @@
       "zach-sets-logic-computation"
     ],
     "locator": "Hammack Chapter 1; Zach §1.4",
-    "evidence_status": "contents/locators verified; full lesson proof and feedback review pending",
-    "lesson_status": "not-authored-in-this-delivery"
+    "evidence_status": "contents/locators verified",
+    "lesson_status": "authored-original-micro-lesson-two-checks-and-practice",
+    "lesson_file": "../data/lessons.json",
+    "assessment_status": "worked-example-and-answer-key-reviewed; computed-fixtures-tested-where-applicable; no-independent-expert-review"
   },
   {
     "id": "ST-04",
@@ -224,8 +262,10 @@
       "zach-sets-logic-computation"
     ],
     "locator": "Hammack Chapter 1; Zach §1.5",
-    "evidence_status": "contents/locators verified; full lesson proof and feedback review pending",
-    "lesson_status": "not-authored-in-this-delivery"
+    "evidence_status": "contents/locators verified",
+    "lesson_status": "authored-original-micro-lesson-two-checks-and-practice",
+    "lesson_file": "../data/lessons.json",
+    "assessment_status": "worked-example-and-answer-key-reviewed; computed-fixtures-tested-where-applicable; no-independent-expert-review"
   },
   {
     "id": "ST-05",
@@ -235,8 +275,10 @@
       "zach-sets-logic-computation"
     ],
     "locator": "Hammack §§12.1, 12.6; Zach §3.1",
-    "evidence_status": "contents/locators verified; full lesson proof and feedback review pending",
-    "lesson_status": "not-authored-in-this-delivery"
+    "evidence_status": "contents/locators verified",
+    "lesson_status": "authored-original-micro-lesson-two-checks-and-practice",
+    "lesson_file": "../data/lessons.json",
+    "assessment_status": "worked-example-and-answer-key-reviewed; computed-fixtures-tested-where-applicable; no-independent-expert-review"
   },
   {
     "id": "ST-06",
@@ -246,8 +288,10 @@
       "zach-sets-logic-computation"
     ],
     "locator": "Hammack §§12.2, 12.4–12.5; Zach §§3.2, 3.4–3.5",
-    "evidence_status": "contents/locators verified; full lesson proof and feedback review pending",
-    "lesson_status": "not-authored-in-this-delivery"
+    "evidence_status": "contents/locators verified",
+    "lesson_status": "authored-original-micro-lesson-two-checks-and-practice",
+    "lesson_file": "../data/lessons.json",
+    "assessment_status": "worked-example-and-answer-key-reviewed; computed-fixtures-tested-where-applicable; no-independent-expert-review"
   },
   {
     "id": "ST-07",
@@ -257,8 +301,10 @@
       "zach-sets-logic-computation"
     ],
     "locator": "Hammack §§11.1–11.4; Zach §§2.1–2.3",
-    "evidence_status": "contents/locators verified; full lesson proof and feedback review pending",
-    "lesson_status": "not-authored-in-this-delivery"
+    "evidence_status": "contents/locators verified",
+    "lesson_status": "authored-original-micro-lesson-two-checks-and-practice",
+    "lesson_file": "../data/lessons.json",
+    "assessment_status": "worked-example-and-answer-key-reviewed; computed-fixtures-tested-where-applicable; no-independent-expert-review"
   },
   {
     "id": "ST-08",
@@ -270,8 +316,10 @@
       "mit-mathematics-computer-science"
     ],
     "locator": "Hammack proof Chapters 4–10 and cardinality Chapter 14; Zach Chapter 4; other claim locators pending",
-    "evidence_status": "contents/locators verified; full lesson proof and feedback review pending",
-    "lesson_status": "not-authored-in-this-delivery"
+    "evidence_status": "contents/locators verified",
+    "lesson_status": "authored-original-micro-lesson-two-checks-and-practice",
+    "lesson_file": "../data/lessons.json",
+    "assessment_status": "worked-example-and-answer-key-reviewed; computed-fixtures-tested-where-applicable; no-independent-expert-review"
   },
   {
     "id": "GT-01",
@@ -281,8 +329,10 @@
       "milne-group-theory"
     ],
     "locator": "§§3.1 and 5.2; project square-coordinate example",
-    "evidence_status": "Judson contents verified; dihedral/action passages read; full assessment review pending",
-    "lesson_status": "not-authored-in-this-delivery"
+    "evidence_status": "Judson contents verified; dihedral/action passages read",
+    "lesson_status": "authored-original-micro-lesson-two-checks-and-practice",
+    "lesson_file": "../data/lessons.json",
+    "assessment_status": "worked-example-and-answer-key-reviewed; computed-fixtures-tested-where-applicable; no-independent-expert-review"
   },
   {
     "id": "GT-02",
@@ -292,8 +342,10 @@
       "milne-group-theory"
     ],
     "locator": "§§3.2 and 5.1",
-    "evidence_status": "Judson contents verified; dihedral/action passages read; full assessment review pending",
-    "lesson_status": "not-authored-in-this-delivery"
+    "evidence_status": "Judson contents verified; dihedral/action passages read",
+    "lesson_status": "authored-original-micro-lesson-two-checks-and-practice",
+    "lesson_file": "../data/lessons.json",
+    "assessment_status": "worked-example-and-answer-key-reviewed; computed-fixtures-tested-where-applicable; no-independent-expert-review"
   },
   {
     "id": "GT-03",
@@ -303,8 +355,10 @@
       "milne-group-theory"
     ],
     "locator": "§3.2",
-    "evidence_status": "Judson contents verified; dihedral/action passages read; full assessment review pending",
-    "lesson_status": "not-authored-in-this-delivery"
+    "evidence_status": "Judson contents verified; dihedral/action passages read",
+    "lesson_status": "authored-original-micro-lesson-two-checks-and-practice",
+    "lesson_file": "../data/lessons.json",
+    "assessment_status": "worked-example-and-answer-key-reviewed; computed-fixtures-tested-where-applicable; no-independent-expert-review"
   },
   {
     "id": "GT-04",
@@ -314,8 +368,10 @@
       "milne-group-theory"
     ],
     "locator": "§§4.1 and 5.2, pp. 93–94 for D_n order 2n",
-    "evidence_status": "Judson contents verified; dihedral/action passages read; full assessment review pending",
-    "lesson_status": "not-authored-in-this-delivery"
+    "evidence_status": "Judson contents verified; dihedral/action passages read",
+    "lesson_status": "authored-original-micro-lesson-two-checks-and-practice",
+    "lesson_file": "../data/lessons.json",
+    "assessment_status": "worked-example-and-answer-key-reviewed; computed-fixtures-tested-where-applicable; no-independent-expert-review"
   },
   {
     "id": "GT-05",
@@ -325,8 +381,10 @@
       "milne-group-theory"
     ],
     "locator": "§§3.3, 4.1 and 5.2",
-    "evidence_status": "Judson contents verified; dihedral/action passages read; full assessment review pending",
-    "lesson_status": "not-authored-in-this-delivery"
+    "evidence_status": "Judson contents verified; dihedral/action passages read",
+    "lesson_status": "authored-original-micro-lesson-two-checks-and-practice",
+    "lesson_file": "../data/lessons.json",
+    "assessment_status": "worked-example-and-answer-key-reviewed; computed-fixtures-tested-where-applicable; no-independent-expert-review"
   },
   {
     "id": "GT-06",
@@ -336,8 +394,10 @@
       "milne-group-theory"
     ],
     "locator": "§14.1, beginning p. 239",
-    "evidence_status": "Judson contents verified; dihedral/action passages read; full assessment review pending",
-    "lesson_status": "not-authored-in-this-delivery"
+    "evidence_status": "Judson contents verified; dihedral/action passages read",
+    "lesson_status": "authored-original-micro-lesson-two-checks-and-practice",
+    "lesson_file": "../data/lessons.json",
+    "assessment_status": "worked-example-and-answer-key-reviewed; computed-fixtures-tested-where-applicable; no-independent-expert-review"
   },
   {
     "id": "GT-07",
@@ -347,8 +407,10 @@
       "milne-group-theory"
     ],
     "locator": "§11.1, beginning p. 196",
-    "evidence_status": "Judson contents verified; dihedral/action passages read; full assessment review pending",
-    "lesson_status": "not-authored-in-this-delivery"
+    "evidence_status": "Judson contents verified; dihedral/action passages read",
+    "lesson_status": "authored-original-micro-lesson-two-checks-and-practice",
+    "lesson_file": "../data/lessons.json",
+    "assessment_status": "worked-example-and-answer-key-reviewed; computed-fixtures-tested-where-applicable; no-independent-expert-review"
   },
   {
     "id": "GT-08",
@@ -358,8 +420,10 @@
       "milne-group-theory"
     ],
     "locator": "§10.1, beginning p. 183",
-    "evidence_status": "Judson contents verified; dihedral/action passages read; full assessment review pending",
-    "lesson_status": "not-authored-in-this-delivery"
+    "evidence_status": "Judson contents verified; dihedral/action passages read",
+    "lesson_status": "authored-original-micro-lesson-two-checks-and-practice",
+    "lesson_file": "../data/lessons.json",
+    "assessment_status": "worked-example-and-answer-key-reviewed; computed-fixtures-tested-where-applicable; no-independent-expert-review"
   },
   {
     "id": "GT-09",
@@ -369,8 +433,10 @@
       "milne-group-theory"
     ],
     "locator": "§10.1; connection with §11.2",
-    "evidence_status": "Judson contents verified; dihedral/action passages read; full assessment review pending",
-    "lesson_status": "not-authored-in-this-delivery"
+    "evidence_status": "Judson contents verified; dihedral/action passages read",
+    "lesson_status": "authored-original-micro-lesson-two-checks-and-practice",
+    "lesson_file": "../data/lessons.json",
+    "assessment_status": "worked-example-and-answer-key-reviewed; computed-fixtures-tested-where-applicable; no-independent-expert-review"
   },
   {
     "id": "GT-10",
@@ -381,8 +447,10 @@
       "knight-1995-constructive-symmetry"
     ],
     "locator": "§§12.2 and 14.1; project-authored investigation",
-    "evidence_status": "Judson contents verified; dihedral/action passages read; full assessment review pending; added Knight sources bibliography-only unless stated in source record",
-    "lesson_status": "not-authored-in-this-delivery"
+    "evidence_status": "Judson contents verified; dihedral/action passages read; added Knight sources bibliography-only unless stated in source record",
+    "lesson_status": "authored-original-micro-lesson-two-checks-and-practice",
+    "lesson_file": "../data/lessons.json",
+    "assessment_status": "worked-example-and-answer-key-reviewed; computed-fixtures-tested-where-applicable; no-independent-expert-review"
   },
   {
     "id": "R-01",
@@ -396,7 +464,7 @@
     ],
     "locator": "1980 definitions selected; algorithm details pending; Stouffs pp. 331–334 selected sections read",
     "evidence_status": "research roadmap; no new theorem or full course claimed; added Knight sources bibliography-only unless stated in source record",
-    "lesson_status": "not-authored-in-this-delivery"
+    "lesson_status": "authored-research-reading-path-not-proof-course"
   },
   {
     "id": "R-02",
@@ -409,7 +477,7 @@
     ],
     "locator": "full definitions/locators pending",
     "evidence_status": "research roadmap; no new theorem or full course claimed; added Knight sources bibliography-only unless stated in source record",
-    "lesson_status": "not-authored-in-this-delivery"
+    "lesson_status": "authored-research-reading-path-not-proof-course"
   },
   {
     "id": "R-03",
@@ -421,7 +489,7 @@
     ],
     "locator": "2022 preprint opening pp. 1–3 read; proofs pending",
     "evidence_status": "research roadmap; no new theorem or full course claimed",
-    "lesson_status": "not-authored-in-this-delivery"
+    "lesson_status": "authored-research-reading-path-not-proof-course"
   },
   {
     "id": "R-04",
@@ -433,7 +501,7 @@
     ],
     "locator": "ATLAS opening order; 1998 survey first page",
     "evidence_status": "research roadmap; no new theorem or full course claimed",
-    "lesson_status": "not-authored-in-this-delivery"
+    "lesson_status": "authored-research-reading-path-not-proof-course"
   },
   {
     "id": "R-05",
@@ -445,7 +513,7 @@
     ],
     "locator": "1992 Theorem 1.1 and §9; proof not reviewed",
     "evidence_status": "research roadmap; no new theorem or full course claimed",
-    "lesson_status": "not-authored-in-this-delivery"
+    "lesson_status": "authored-research-reading-path-not-proof-course"
   },
   {
     "id": "R-06",
@@ -458,7 +526,7 @@
     ],
     "locator": "prerequisites and topic scope verified; course-specific sections pending",
     "evidence_status": "research roadmap; no new theorem or full course claimed; added Knight sources bibliography-only unless stated in source record",
-    "lesson_status": "not-authored-in-this-delivery"
+    "lesson_status": "authored-research-reading-path-not-proof-course"
   },
   {
     "id": "R-07",
@@ -468,7 +536,7 @@
     ],
     "locator": "2001 proceedings of 1998 meeting; current problem status unchecked",
     "evidence_status": "research roadmap; no new theorem or full course claimed",
-    "lesson_status": "not-authored-in-this-delivery"
+    "lesson_status": "authored-research-reading-path-not-proof-course"
   },
   {
     "id": "R-08",
@@ -478,7 +546,7 @@
     ],
     "locator": "Part II Chs. 2–5; later iterative conception chapters",
     "evidence_status": "research roadmap; no new theorem or full course claimed",
-    "lesson_status": "not-authored-in-this-delivery"
+    "lesson_status": "authored-research-reading-path-not-proof-course"
   },
   {
     "id": "R-09",
@@ -490,7 +558,7 @@
     ],
     "locator": "publisher/author bibliography checked; exact teaching locators pending",
     "evidence_status": "research roadmap; scope stated per source",
-    "lesson_status": "not-authored-in-this-delivery"
+    "lesson_status": "authored-research-reading-path-not-proof-course"
   },
   {
     "id": "R-10",
@@ -504,6 +572,6 @@
     ],
     "locator": "Regarding Rules printed pp. 12–13 and 26–27 selected; book/1983 interiors pending",
     "evidence_status": "research roadmap; scope stated per source",
-    "lesson_status": "not-authored-in-this-delivery"
+    "lesson_status": "authored-research-reading-path-not-proof-course"
   }
 ]

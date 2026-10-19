@@ -37,3 +37,7 @@ copilot-instructions.md
 
 # Pre-existing reference: redistribution permission and exact provenance unknown.
 /Reference/1980-Stiny_Introduction to shape and shape grammars.pdf
+
+# Generated site and private learning exports.
+dist/
+ShapeGrammar-study*.json
