@@ -2,6 +2,10 @@
 __pycache__/
 *.pyc
 
+# Private laboratory downloads.
+ShapeGrammar-workspace*.json
+ShapeGrammar-derivation*.json
+
 # Local prompts, terminal handoff, and AI assistant configuration.
 shapegrammar-agent-prompt.md
 VSCODE_TERMINAL_COMMANDS.md

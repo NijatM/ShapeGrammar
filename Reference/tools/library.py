@@ -27,7 +27,8 @@ def local_only(path):
     names = ('shapegrammar-agent-prompt.md', 'vscode_terminal_commands.md',
              '*agent-prompt*.md', '*agent-instructions*.md', 'agents*.md',
              'claude*.md', 'gemini*.md', 'skill.md', 'copilot-instructions.md',
-             '*.agent.md', '*.instructions.md', '*.prompt.md', '*.chatmode.md', '.aider*')
+             '*.agent.md', '*.instructions.md', '*.prompt.md', '*.chatmode.md', '.aider*',
+             'shapegrammar-workspace*.json', 'shapegrammar-derivation*.json')
     dirs = {'.agents', '.codex', '.claude', '.gemini', '.cursor', '.continue'}
     if any(part in dirs or fnmatch.fnmatchcase(part, '.aider*') for part in parts):
         return True
