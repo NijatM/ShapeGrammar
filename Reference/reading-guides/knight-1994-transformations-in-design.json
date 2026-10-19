@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-1994-transformations-in-design",
+  "kind": "research monograph",
+  "review": {
+    "level": "bibliographic-only",
+    "material": "Read the Canadian Centre for Architecture catalogue description and contents, corroborated by the author’s institutional bibliography.",
+    "limitations": "The complete book was not read. A catalogue description and chapter list do not establish detailed arguments or conclusions.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://www.cca.qc.ca/fr/recherche/details/library/publication/26361509",
+        "locator": "Catalogue summary and table of contents",
+        "description": "Book scope and named chapters"
+      },
+      {
+        "url": "https://www.mit.edu/~tknight/IJDC/page_references.htm",
+        "locator": "References, K: Transformations in Design, 1994",
+        "description": "Author/publisher/year corroboration"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://www.cca.qc.ca/fr/recherche/details/library/publication/26361509",
+    "label": "Library record and book contents — not full book",
+    "type": "publication-record"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Book orientation",
+      "text": "The catalogue describes a formal approach to stylistic change: styles are represented by shape grammars and changes through transformations of those grammars.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "What the contents promise",
+      "text": "The sequence moves from traditional accounts of style to grammar normal form, recursive structures and transformations, followed by studies of Greek meander motifs, De Stijl paintings and Wright houses.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "Review boundary",
+      "text": "These are catalogue-level descriptions, not findings verified across the book. No experimental methodology or validation result is claimed here.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "Suggested use",
+      "text": "Read the theory chapters before the case studies. The separately reviewed 1983 articles provide accessible background, but cannot substitute for checking this later book’s treatment.",
+      "evidence": [
+        0
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Inspect the contents and find library access",
+      "locator": "Catalogue summary, table of contents and holdings",
+      "url": "https://www.cca.qc.ca/fr/recherche/details/library/publication/26361509"
+    }
+  ],
+  "terms": []
+}

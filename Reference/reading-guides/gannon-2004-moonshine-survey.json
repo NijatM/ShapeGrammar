@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "source_id": "gannon-2004-moonshine-survey",
+  "kind": "survey",
+  "review": {
+    "level": "selected-sections",
+    "material": "ArXiv v2 introduction, §2.1, selected §3.1–3.3 material and §§4.2–4.4 (especially pp.1–2, 6–8 and 14–17) read. The order formula on p.2 was visually checked against ATLAS.",
+    "limitations": "Selected survey sections only; full cited proofs and later extensions were not reviewed. Research-status statements belong to the 2004 preprint/2006 publication context, not today.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://arxiv.org/pdf/math/0402345v2",
+        "locator": "Introduction; §2.1; §3, especially pp.1–2 and 6–8",
+        "description": "Scope, conjecture and trace-series formulation"
+      },
+      {
+        "url": "https://arxiv.org/pdf/math/0402345v2",
+        "locator": "§§4.2–4.4, pp.14–17",
+        "description": "Vertex algebra, Monster Lie algebra and proof overview"
+      },
+      {
+        "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/M/",
+        "locator": "Opening Monster order and factorization",
+        "description": "Independent primary-reference check of the 2-power"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://arxiv.org/pdf/math/0402345v2",
+    "label": "Read the inspected arXiv v2 PDF",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What this survey contributes",
+      "text": "A historical map of moonshine connecting finite groups, modular functions, vertex algebras and mathematical physics. It prioritizes breadth and references over complete derivations.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "The main conceptual distinction",
+      "text": "A graded dimension records sizes; a graded character records how group elements act. The latter produces McKay–Thompson series and carries the stronger genus-zero claim.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "How the explanation is organized",
+      "text": "The survey moves from numerical clues and precise conjectures to the Moonshine module, the associated Lie algebra, denominator identities and modular equations.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "What the proof discussion clarifies",
+      "text": "Recurrence and modular-equation arguments explain how algebraic structure constrains entire series. The survey also distinguishes proving the identity from finding a satisfying conceptual explanation.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "A concrete correction while reading",
+      "text": "Equation 2.1 prints 2^45 in the Monster order. ATLAS gives 2^46; use that corrected factorization. The discrepancy is visible in the PDF and is not merely text-extraction loss.",
+      "evidence": [
+        0,
+        2
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "How to use it",
+      "text": "Use the section references to identify prerequisite subjects and primary proofs. Do not treat its historical conjecture statements as a current open-problem list.",
+      "evidence": [
+        0,
+        1
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Scope, conjecture and trace-series formulation",
+      "locator": "Introduction; §2.1; §3, especially pp.1–2 and 6–8",
+      "url": "https://arxiv.org/pdf/math/0402345v2"
+    },
+    {
+      "label": "Vertex algebra, Monster Lie algebra and proof overview",
+      "locator": "§§4.2–4.4, pp.14–17",
+      "url": "https://arxiv.org/pdf/math/0402345v2"
+    },
+    {
+      "label": "Independent primary-reference check of the 2-power",
+      "locator": "Opening Monster order and factorization",
+      "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/M/"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Graded character",
+      "meaning": "Character information collected over the graded pieces."
+    },
+    {
+      "term": "Modular equation",
+      "meaning": "An algebraic relation connecting transformed function values."
+    }
+  ]
+}

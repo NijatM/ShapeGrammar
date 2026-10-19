@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-2010-looks-count-computing-and-constructing-visually-expressive-mass-customized",
+  "kind": "prototype-based design research",
+  "review": {
+    "level": "abstract-only",
+    "material": "The complete public Cambridge publisher abstract was read.",
+    "limitations": "The 21-page paper’s individual pilot studies, fabrication details and evaluation criteria were not available for close reading.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://doi.org/10.1017/S0890060409990126",
+        "locator": "Publisher abstract",
+        "description": "Primary abstract distinguishes initial pilot work from long-term objectives."
+      }
+    ]
+  },
+  "original": {
+    "url": "https://doi.org/10.1017/S0890060409990126",
+    "label": "Read original source",
+    "type": "publication-record"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What it is about",
+      "text": "Knight and Sass investigate visually expressive, customizable building assemblies. Shape grammars develop the visual language; digital fabrication develops physical components that can interlock and be assembled by hand.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "Premise",
+      "text": "Can housing assemblies incorporate culturally meaningful decorative variation while also addressing material and structural requirements? The abstract motivates affordability and local relevance as research goals.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "Method reported",
+      "text": "This paper reports a first phase of pilot studies for prototype systems using vernacular visual languages. The longer-term ambition is visual–physical grammars that generate complete CAD/CAM information for full-scale fabrication.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "Reported outcome",
+      "text": "The authors report promising prototypes and multiple strategies for incorporating visual properties in structural systems. The public abstract supplies no shared cost measure, structural test protocol or occupied-housing evaluation.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "Claims to keep separate",
+      "text": "Low-cost housing and post-disaster applications are intended benefits if the research succeeds, not demonstrated population-level outcomes in this abstract. The individual prototypes require the full paper to assess.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "What to look for in the paper",
+      "text": "Trace how a decorative rule affects component geometry, assembly and fabrication. Ask which constraints were tested physically and which remain future objectives.",
+      "evidence": [
+        0
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Start here",
+      "locator": "Publisher abstract",
+      "url": "https://doi.org/10.1017/S0890060409990126"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Visual–physical grammar",
+      "meaning": "Rules connecting visual design variation with physical assembly and fabrication requirements."
+    },
+    {
+      "term": "Mass customization",
+      "meaning": "Producing variations for differing requirements within a coordinated production system."
+    }
+  ]
+}

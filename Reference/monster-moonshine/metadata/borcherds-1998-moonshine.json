@@ -34,14 +34,30 @@
   },
   "local_files": [],
   "existing_local_files": [],
-  "locators": [],
+  "locators": [
+    {
+      "locator": "PDF pp.1–3",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://math.berkeley.edu/~reb/papers/icm98/icm98.pdf"
+    },
+    {
+      "locator": "PDF pp.4–6",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://math.berkeley.edu/~reb/papers/icm98/icm98.pdf"
+    },
+    {
+      "locator": "PDF pp.6–8",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://math.berkeley.edu/~reb/papers/icm98/icm98.pdf"
+    }
+  ],
   "verification": {
-    "scope": "Author publication list and PDF verified; reading copy pagination need not match the proceedings layout.",
+    "scope": "All eight pages of the author-hosted 1998 ICM reading copy read. The exposition is a proof sketch and historical survey, not an independently checked proof. Its statements about unproved extensions describe the period of writing.",
     "source_urls": [
       "https://math.berkeley.edu/~reb/papers/icm98/icm98.pdf",
       "https://math.berkeley.edu/~reb/papers/index.html"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "full-text"
   },
   "annotation_file": "monster-moonshine/notes/borcherds-1998-moonshine.md"
 }

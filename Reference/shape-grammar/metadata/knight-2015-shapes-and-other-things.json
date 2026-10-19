@@ -7,7 +7,7 @@
     "Terry Knight"
   ],
   "year": 2015,
-  "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+  "edition_version": "Published version; dates from publisher-deposited DOI metadata. See the reading guide for the exact material inspected.",
   "doi": "10.1007/s00004-015-0267-3",
   "stable_url": "https://doi.org/10.1007/s00004-015-0267-3",
   "reading_url": "https://doi.org/10.1007/s00004-015-0267-3",
@@ -23,7 +23,7 @@
   "prerequisites": [
     "Elementary sets and functions; some proof reading"
   ],
-  "access_date": "2026-10-18",
+  "access_date": "2026-10-19",
   "license_redistribution": {
     "status": "link-only",
     "license": null,
@@ -32,15 +32,29 @@
   },
   "local_files": [],
   "existing_local_files": [],
-  "locators": [],
+  "locators": [
+    {
+      "locator": "Introduction and Shapes/Shapes and Other Descriptions, pp. 963–971",
+      "status": "full-text-inspected"
+    },
+    {
+      "locator": "Complications, pp. 972–974; Figs. 3–4",
+      "status": "full-text-inspected"
+    },
+    {
+      "locator": "Things and Discussion, pp. 974–978; Figs. 5–7",
+      "status": "full-text-inspected"
+    }
+  ],
   "verification": {
-    "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+    "scope": "Original reading guide reviewed 2026-10-19. The full public publisher text and 18-page PDF were read, including historical approaches, Complications, Things and Discussion. The cube-subtraction figure was inspected. Earlier works are discussed through Knight’s review, not independently re-reviewed in this guide. The knotting example is a conceptual demonstration, not a performance trial.",
     "source_urls": [
       "https://api.crossref.org/works/10.1007/s00004-015-0267-3",
       "https://architecture.mit.edu/people/terry-knight",
-      "https://computationalmaking.mit.edu/publications/"
+      "https://computationalmaking.mit.edu/publications/",
+      "https://link.springer.com/article/10.1007/s00004-015-0267-3"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "full-text"
   },
   "annotation_file": "shape-grammar/notes/knight-2015-shapes-and-other-things.md",
   "publication_type": "journal-article",

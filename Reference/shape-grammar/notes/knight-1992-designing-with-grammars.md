@@ -1,24 +1,41 @@
 # Designing with Grammars
 
-Source ID: `knight-1992-designing-with-grammars`. Year: 1992. Contributors as recorded: Terry W. Knight.
+Source ID: `knight-1992-designing-with-grammars`. 1992.
 
-Type: book-chapter. Venue: In G. N. Schmitt (ed.), Computer-Aided Architectural Design; Vieweg. Pages: 33–48.
+[Canonical metadata](../metadata/knight-1992-designing-with-grammars.json) · [Original chapter record — access may require verification](https://papers.cumincad.org/cgi-bin/works/paper/2559)
 
-[Canonical metadata](../metadata/knight-1992-designing-with-grammars.json) · [Source / publication record](https://www.mit.edu/~tknight/IJDC/page_references.htm) · [Reading path](https://www.mit.edu/~tknight/IJDC/page_references.htm)
+## Review scope
 
-1992 book-chapter citation in author-hosted bibliography. A conference index lists a same-title version at pp. 19–34; edition relationship remains unresolved.
+**bibliographic-only.** Checked the chapter citation in Knight’s institutional bibliography and read her later institutional discussion of the program. CUMINCAD required human verification. The 1992 chapter itself was not retrieved; the later discussion is related evidence, not a substitute for its text.
 
-## Reading purpose
+## What is identified
 
-Terry Knight author corpus: Designing with Grammars. Citation coverage; full text requires separate review. This is a bibliographic entry and reading prompt, not a summary of an unreviewed argument.
+A chapter in the CAAD Futures ’91 volume, published in 1992, addresses designing with grammars.
 
-## Verification
+Evidence: [References, K: Designing with Grammars, 1992, pp. 33–48](https://www.mit.edu/~tknight/IJDC/page_references.htm).
 
-Title, author, year and venue checked in institutional bibliography; exact text not inspected.
+## Related account from the author
 
-## Locators
+Knight’s later discussion describes starting with a vocabulary and spatial relations, developing restricted basic grammars and extending them toward architectural designs. This summarizes that later account, not a verified reading of the chapter.
 
-Exact claim locators require further full-text review.
+Evidence: [History of Applications: Design applications of shape grammars; Knight’s programme](https://www.mit.edu/~tknight/IJDC/page_history_design_sg.htm).
+
+## What remains unverified
+
+The original chapter’s complete exercises, illustrations, argument and conclusions have not been checked. Its CUMINCAD access route is retained without bypassing the site’s verification.
+
+Evidence: [References, K: Designing with Grammars, 1992, pp. 33–48](https://www.mit.edu/~tknight/IJDC/page_references.htm).
+
+## How to continue
+
+Read the author’s accessible later explanation for orientation, then consult the original chapter to distinguish its particular exercises and examples.
+
+Evidence: [History of Applications: Design applications of shape grammars; Knight’s programme](https://www.mit.edu/~tknight/IJDC/page_history_design_sg.htm).
+
+## Reading path
+
+- [Read the author’s later explanation](https://www.mit.edu/~tknight/IJDC/page_history_design_sg.htm): Design applications of shape grammars; Knight’s programme.
+- [Locate the original chapter](https://papers.cumincad.org/cgi-bin/works/paper/2559): CUMINCAD record 2559; access may require verification.
 
 ## Originals and rights
 

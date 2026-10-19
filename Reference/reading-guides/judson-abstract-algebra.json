@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "source_id": "judson-abstract-algebra",
+  "kind": "textbook",
+  "review": {
+    "level": "selected-sections",
+    "material": "Annual Edition 2025 local PDF: preface; §§3.1–3.2 selected triangle and group definitions; §5.2 opening; §14.1 action, orbit and equivalence discussion read.",
+    "limitations": "Later quotient, representation, ring and field arguments and most exercises were not reviewed. This guide covers selected group-theory entry points, not the entire book.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://judsonbooks.org/aata-files/aata-20250801.pdf",
+        "locator": "Preface; §§3.1–3.2, printed pp.43–44",
+        "description": "Triangle symmetries and group axioms"
+      },
+      {
+        "url": "https://judsonbooks.org/aata-files/aata-20250801.pdf",
+        "locator": "§5.2, pp.93–94, Theorems 5.2.2–5.2.3",
+        "description": "Dihedral group size and generators"
+      },
+      {
+        "url": "https://judsonbooks.org/aata-files/aata-20250801.pdf",
+        "locator": "§14.1, pp.239–240",
+        "description": "Actions and their orbits"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://judsonbooks.org/abstract-algebra-theory-and-applications/",
+    "label": "Read the original source",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What this book is about",
+      "text": "A broad undergraduate algebra text combining proof, worked examples and applications. The selected route begins with rigid motions of a triangle, abstracts their shared laws into a group, then studies polygon symmetries and actions on sets.",
+      "evidence": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "The essential structure",
+      "text": "A group consists of a set and an associative binary operation with an identity and inverses. Commutativity is extra, not required. Composing two triangle motions in reverse orders can produce different results, showing why the operation must be specified.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "How the explanation develops",
+      "text": "Concrete symmetry permutations motivate a multiplication table before the axioms are stated. For a regular n-gon, choosing the first vertex image and one of two neighboring images for the second counts 2n motions. Rotation and reflection generate the resulting group.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "Actions turn algebra into motion",
+      "text": "A left action obeys ex=x and (gh)x=g(hx). Objects connected by some group element are equivalent; their equivalence classes are orbits. This separates a group element from the particular point or configuration on which it acts.",
+      "evidence": [
+        2
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "Notation worth checking",
+      "text": "Judson writes D_n for the n-gon symmetry group of order 2n; other authors use different subscripts. Function composition applies the rightmost map first. Retain these conventions when comparing the book with the square explorer.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "A useful reading task",
+      "text": "Reproduce two triangle compositions and see whether they commute. Then identify the group, acted-on set and orbit for one square example. A list of visually similar drawings alone does not specify a group action.",
+      "evidence": [
+        0,
+        2
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Triangle symmetries and group axioms",
+      "locator": "Preface; §§3.1–3.2, printed pp.43–44",
+      "url": "https://judsonbooks.org/aata-files/aata-20250801.pdf"
+    },
+    {
+      "label": "Dihedral group size and generators",
+      "locator": "§5.2, pp.93–94, Theorems 5.2.2–5.2.3",
+      "url": "https://judsonbooks.org/aata-files/aata-20250801.pdf"
+    },
+    {
+      "label": "Actions and their orbits",
+      "locator": "§14.1, pp.239–240",
+      "url": "https://judsonbooks.org/aata-files/aata-20250801.pdf"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Group action",
+      "meaning": "A compatible rule for a group to transform a set."
+    },
+    {
+      "term": "Orbit",
+      "meaning": "All images of one object under an action."
+    },
+    {
+      "term": "Dihedral group",
+      "meaning": "The rotations and reflections of a regular polygon."
+    }
+  ]
+}

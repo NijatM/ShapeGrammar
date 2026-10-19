@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-2015-making-grammars-from-computing-with-shapes-to-computing-with-things",
+  "kind": "theoretical framework paper",
+  "review": {
+    "level": "abstract-only",
+    "material": "The complete author/institutional abstract and publisher highlights were read. The MIT repository identifies an author-final manuscript, but its download was rate-limited during review.",
+    "limitations": "The detailed algebras, examples and proofs in the full article were not inspected; this guide does not substitute for them.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://dspace.mit.edu/entities/publication/7a52ee9e-621c-4e1b-b11f-22a7c73e6622",
+        "locator": "Repository abstract; author-final-manuscript version statement",
+        "description": "Primary institutional record and abstract."
+      },
+      {
+        "url": "https://www.sciencedirect.com/science/article/pii/S0142694X15000605",
+        "locator": "Abstract and highlights",
+        "description": "Primary publisher account of the proposal."
+      }
+    ]
+  },
+  "original": {
+    "url": "https://dspace.mit.edu/entities/publication/7a52ee9e-621c-4e1b-b11f-22a7c73e6622",
+    "label": "Read original source",
+    "type": "publication-record"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Short overview",
+      "text": "Knight and Stiny propose making grammars as a computational theory of making. They extend shape grammar’s relationship between perception and action to activities involving material things.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "question",
+      "title": "Premise and claim",
+      "text": "Can the principles supporting visual shape computation describe doing and sensing with materials? The proposal starts from the improvisational features of shape grammars rather than equating making with automated fabrication.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "Method reported",
+      "text": "The authors modify algebras for shape elements into algebras for materials, then adapt grammars from computing shapes to computing things. The abstract says examples illustrate both the grammars and their supporting algebras.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "Reported contribution",
+      "text": "The contribution is a proposed formal framework and a reframing of designing and making. The abstract reports no controlled experiment or general fabrication-performance result.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "What needs the full paper",
+      "text": "The actual definitions and example computations remain unchecked here. An algebra tailored to an activity should not be assumed to model every physical behaviour of its material.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "What to ask while reading",
+      "text": "Identify the material, the actions, the sensory decisions and the operations the algebra permits. Separate a useful formal description from a physically validated simulation.",
+      "evidence": [
+        0,
+        1
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Start here",
+      "locator": "Repository abstract; author-final-manuscript version statement",
+      "url": "https://dspace.mit.edu/entities/publication/7a52ee9e-621c-4e1b-b11f-22a7c73e6622"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Making grammar",
+      "meaning": "Here, shape-grammar principles adapted for computing or making material things."
+    }
+  ]
+}

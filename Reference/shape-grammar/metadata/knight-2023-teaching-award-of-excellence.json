@@ -7,7 +7,7 @@
     "Terry Knight"
   ],
   "year": 2023,
-  "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+  "edition_version": "Published version; dates from publisher-deposited DOI metadata. See the reading guide for the exact material inspected.",
   "doi": "10.52842/conf.acadia.2023.3.091",
   "stable_url": "https://doi.org/10.52842/conf.acadia.2023.3.091",
   "reading_url": "https://doi.org/10.52842/conf.acadia.2023.3.091",
@@ -25,7 +25,7 @@
   "prerequisites": [
     "Elementary sets and functions; some proof reading"
   ],
-  "access_date": "2026-10-18",
+  "access_date": "2026-10-19",
   "license_redistribution": {
     "status": "link-only",
     "license": null,
@@ -34,14 +34,25 @@
   },
   "local_files": [],
   "existing_local_files": [],
-  "locators": [],
+  "locators": [
+    {
+      "locator": "ACADIA 2023 proceedings, pp. 91–94: record",
+      "status": "bibliographic-only-inspected"
+    },
+    {
+      "locator": "Past Recipients: Terry Knight, Teaching Award of Excellence, 2023",
+      "status": "bibliographic-only-inspected"
+    }
+  ],
   "verification": {
-    "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+    "scope": "Original reading guide reviewed 2026-10-19. The proceedings DOI record was inspected, and ACADIA’s official award-recipient list independently confirms Knight’s 2023 Teaching Award of Excellence. The four-page proceedings contribution was not accessible. The award record verifies recognition, not the full content or authorship role of every passage in the proceedings contribution. No learning-effectiveness experiment is inferred.",
     "source_urls": [
       "https://api.crossref.org/works/10.52842/conf.acadia.2023.3.091",
-      "https://architecture.mit.edu/people/terry-knight"
+      "https://architecture.mit.edu/people/terry-knight",
+      "https://doi.org/10.52842/conf.acadia.2023.3.091",
+      "https://www.acadia.org/awards/recipients"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "bibliographic-only"
   },
   "annotation_file": "shape-grammar/notes/knight-2023-teaching-award-of-excellence.md",
   "publication_type": "proceedings-article",

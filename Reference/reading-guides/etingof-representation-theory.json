@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "source_id": "etingof-representation-theory",
+  "kind": "lecture-notes",
+  "review": {
+    "level": "selected-sections",
+    "material": "ArXiv v5 reading copy: introduction and §§1.2–1.3 (pp.5–8), §§3.1–3.3 (pp.33–35) read. Title image inspected: arXiv stamp says 1 February 2011 while interior title says 26 November 2024.",
+    "limitations": "Selected sections only; later representation classifications and exercises were not reviewed. The two date labels are reported as encountered rather than interpreted as a verified new edition.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://arxiv.org/pdf/0901.0827v5",
+        "locator": "Title page; §§1.2–1.3, pp.7–8",
+        "description": "Version labels, algebras and representations"
+      },
+      {
+        "url": "https://arxiv.org/pdf/0901.0827v5",
+        "locator": "§§3.1–3.3, pp.33–35, Theorem 3.1",
+        "description": "Finite-group decomposition, characters and S3 example"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://arxiv.org/pdf/0901.0827v5",
+    "label": "Read the inspected arXiv PDF",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What this text studies",
+      "text": "Representation theory studies algebraic structures through their linear actions on vector spaces. The selected pages introduce modules and invariant subspaces, then specialize to finite groups.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "Main result in this reading",
+      "text": "For finite groups over complex numbers, representations decompose into irreducible pieces. Characters record traces and distinguish these decompositions; the regular representation yields the sum-of-squared-dimensions formula.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "Proof and example",
+      "text": "Maschke’s proof averages an arbitrary projector to obtain one compatible with the group action. For S3, three conjugacy classes lead to irreducible dimensions 1, 1 and 2, with 1²+1²+2²=6.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "Hypotheses and version labels",
+      "text": "Maschke’s general field condition excludes characteristic dividing group order. The inspected PDF also has a 2011 arXiv stamp and 2024 interior date; use its page and section labels when following this guide.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "Why it matters for moonshine",
+      "text": "A dimension gives one number; traces of group elements carry finer information. This distinction prepares the reader for graded character series rather than isolated numerical coincidences.",
+      "evidence": [
+        1
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Version labels, algebras and representations",
+      "locator": "Title page; §§1.2–1.3, pp.7–8",
+      "url": "https://arxiv.org/pdf/0901.0827v5"
+    },
+    {
+      "label": "Finite-group decomposition, characters and S3 example",
+      "locator": "§§3.1–3.3, pp.33–35, Theorem 3.1",
+      "url": "https://arxiv.org/pdf/0901.0827v5"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Irreducible",
+      "meaning": "A nonzero representation with no proper nonzero invariant subspace."
+    },
+    {
+      "term": "Character",
+      "meaning": "The function assigning each group element its representation trace."
+    }
+  ]
+}

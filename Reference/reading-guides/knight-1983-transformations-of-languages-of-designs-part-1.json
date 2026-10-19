@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-1983-transformations-of-languages-of-designs-part-1",
+  "kind": "conceptual introduction",
+  "review": {
+    "level": "abstract-only",
+    "material": "Publisher abstract read; complete original not retrieved.",
+    "limitations": "Only the official abstract and references were read. No particular historical comparison or formal result is independently established by this short overview.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://journals.sagepub.com/doi/10.1068/b100125",
+        "locator": "Abstract",
+        "description": "Primary abstract; it does not establish unreported technical details"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://journals.sagepub.com/doi/10.1068/b100125",
+    "label": "Read abstract and original access options",
+    "type": "publication-record"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "In brief",
+      "text": "The first part introduces a rule-based account of changing entire design languages.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "Question or aim",
+      "text": "How can stylistic relationships and innovation be stated through transformations?",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "Approach described",
+      "text": "It sketches a formal model and compares the approach with traditional, informal accounts of design change.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "What the abstract supports",
+      "text": "The proposed model is intended both to relate historical styles and to construct new styles from known ones. Detailed formal development belongs to Part 2.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "What remains unverified",
+      "text": "Only the official abstract and references were read. No particular historical comparison or formal result is independently established by this short overview.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "Why it may help",
+      "text": "Read it as the motivation for the trilogy; continue to Part 2 for definitions and Part 3 for an architectural case study.",
+      "evidence": [
+        0
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Read the abstract and locate the original",
+      "locator": "Abstract",
+      "url": "https://journals.sagepub.com/doi/10.1068/b100125"
+    }
+  ],
+  "terms": []
+}

@@ -19,7 +19,7 @@
     "implementation",
     "matching"
   ],
-  "relevance": "Primary computational shape-recognition reference; review its transformation assumptions before borrowing algorithms.",
+  "relevance": "This companion to The Arithmetic of Shapes tackles the harder step in applying a rule: finding transformations that embed its left-hand shape in a drawing. It turns geometric recognition into registration and checking procedures.",
   "prerequisite_level": "intermediate",
   "prerequisites": [
     "Elementary sets and functions; some proof reading"
@@ -33,13 +33,27 @@
   },
   "local_files": [],
   "existing_local_files": [],
-  "locators": [],
+  "locators": [
+    {
+      "locator": "pp. 5–8: formulation and shape representation",
+      "status": "selected-sections-reviewed"
+    },
+    {
+      "locator": "pp. 18–21: provisos and soundness discussion",
+      "status": "selected-sections-reviewed"
+    },
+    {
+      "locator": "pp. 21–39: transformation and registration procedures",
+      "status": "selected-sections-reviewed"
+    }
+  ],
   "verification": {
-    "scope": "Crossref bibliographic record inspected; full text not reviewed.",
+    "scope": "Author-hosted paper: introduction, transformation and registration algorithms, and finite/infinite matching discussion. Selected primary sections reviewed, including pp. 18–21. No implementation benchmark or independent proof verification is claimed.",
     "source_urls": [
-      "https://journals.sagepub.com/doi/10.1068/b080005"
+      "https://journals.sagepub.com/doi/10.1068/b080005",
+      "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb080005-constructionOfShapes.pdf"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "selected-sections"
   },
   "annotation_file": "shape-grammar/notes/krishnamurti-1981-construction.md"
 }

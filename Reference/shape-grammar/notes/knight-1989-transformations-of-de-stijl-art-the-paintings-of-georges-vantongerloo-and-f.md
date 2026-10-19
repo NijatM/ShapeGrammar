@@ -1,24 +1,52 @@
 # Transformations of De Stijl Art: The Paintings of Georges Vantongerloo and Fritz Glarner
 
-Source ID: `knight-1989-transformations-of-de-stijl-art-the-paintings-of-georges-vantongerloo-and-f`. Year: 1989. Contributors as recorded: T W Knight.
+Source ID: `knight-1989-transformations-of-de-stijl-art-the-paintings-of-georges-vantongerloo-and-f`. 1989.
 
-Type: journal-article. Venue: Environment and Planning B: Planning and Design. Pages: 51-98.
+[Canonical metadata](../metadata/knight-1989-transformations-of-de-stijl-art-the-paintings-of-georges-vantongerloo-and-f.json) · [Read abstract and original access options](https://journals.sagepub.com/doi/10.1068/b160051)
 
-[Canonical metadata](../metadata/knight-1989-transformations-of-de-stijl-art-the-paintings-of-georges-vantongerloo-and-f.json) · [Source / publication record](https://doi.org/10.1068/b160051) · [Reading path](https://doi.org/10.1068/b160051)
+## Review scope
 
-Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.
+**abstract-only.** Publisher abstract read; complete original not retrieved. Only the official abstract and bibliography were read. The paintings selected, diagrammatic decompositions and historical interpretation remain unverified here.
 
-## Reading purpose
+## In brief
 
-Terry Knight author corpus: shape grammar theory, design, implementation, or teaching. This is a bibliographic entry and reading prompt, not a summary of an unreviewed argument.
+A formal model of stylistic change is applied to De Stijl painting, specifically works by Georges Vantongerloo and Fritz Glarner.
 
-## Verification
+Evidence: [Abstract](https://journals.sagepub.com/doi/10.1068/b160051).
 
-Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.
+## Question or aim
 
-## Locators
+How can transformations of a style be described through a formal design-language framework?
 
-Exact claim locators require further full-text review.
+Evidence: [Abstract](https://journals.sagepub.com/doi/10.1068/b160051).
+
+## Approach described
+
+The abstract identifies a comparative formal analysis of two artists’ paintings.
+
+Evidence: [Abstract](https://journals.sagepub.com/doi/10.1068/b160051).
+
+## What the abstract supports
+
+It establishes the paper’s subject and analytical approach; it does not state the individual transformation rules or detailed conclusions.
+
+Evidence: [Abstract](https://journals.sagepub.com/doi/10.1068/b160051).
+
+## What remains unverified
+
+Only the official abstract and bibliography were read. The paintings selected, diagrammatic decompositions and historical interpretation remain unverified here.
+
+Evidence: [Abstract](https://journals.sagepub.com/doi/10.1068/b160051).
+
+## Why it may help
+
+This connects grammar transformation with visual art, showing where to look beyond architectural examples.
+
+Evidence: [Abstract](https://journals.sagepub.com/doi/10.1068/b160051).
+
+## Reading path
+
+- [Read the abstract and locate the original](https://journals.sagepub.com/doi/10.1068/b160051): Abstract.
 
 ## Originals and rights
 

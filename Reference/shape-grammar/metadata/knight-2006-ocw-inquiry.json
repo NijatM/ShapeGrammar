@@ -25,7 +25,7 @@
   "prerequisites": [
     "Elementary sets and functions; some proof reading"
   ],
-  "access_date": "2026-10-18",
+  "access_date": "2026-10-19",
   "license_redistribution": {
     "status": "licensed-link-only",
     "license": "CC BY-NC-SA 4.0 (OCW-authored material; exclusions apply)",
@@ -36,14 +36,15 @@
   "existing_local_files": [],
   "locators": [
     {
-      "locator": "Syllabus; Lecture Notes inventory",
-      "status": "official-page-inspected"
+      "locator": "Syllabus: Course Overview and Prerequisites",
+      "status": "selected-sections-inspected"
     }
   ],
   "verification": {
-    "scope": "Official course landing page, syllabus and lecture-note inventory inspected; guest contributions are not attributed to Knight. Individual lecture PDFs have not received a rights/content audit.",
+    "scope": "Original reading guide reviewed 2026-10-19. The official syllabus page was read in full. The course landing page and existing lecture-note inventory were inspected; individual guest lectures and linked readings were not treated as Knight-authored texts. This guide describes the public teaching framework, not the contents or effectiveness of the entire course.",
     "source_urls": [
-      "https://ocw.mit.edu/courses/4-580-inquiry-into-computation-and-design-fall-2006/"
+      "https://ocw.mit.edu/courses/4-580-inquiry-into-computation-and-design-fall-2006/",
+      "https://ocw.mit.edu/courses/4-580-inquiry-into-computation-and-design-fall-2006/pages/syllabus/"
     ],
     "content_review": "selected-sections"
   },

@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "source_id": "stiny-mitchell-1978-palladian",
+  "kind": "Generative architectural case study",
+  "review": {
+    "level": "selected-sections",
+    "material": "Primary scan: motivation, eight-stage programme, selected rules and Villa Malcontenta derivation, biaxial extension and discussion.",
+    "limitations": "The complete paper was available; selected rules and the argument were reviewed rather than independently executing every derivation. Parametric details are not fully specified in the paper.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Stiny&Mitchell.thePalladianGrammar.pdf",
+        "locator": "pp. 5–8: corpus, eight stages and grid",
+        "description": "Quattro Libri villa plans, bilateral symmetry and parameterization caveat."
+      },
+      {
+        "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Stiny&Mitchell.thePalladianGrammar.pdf",
+        "locator": "pp. 9–16: rule stages and Malcontenta example",
+        "description": "From wall and room layout to entrances, openings and termination."
+      },
+      {
+        "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Stiny&Mitchell.thePalladianGrammar.pdf",
+        "locator": "pp. 16–18: biaxial extension and discussion",
+        "description": "Partial style definition, corpus choices and limitations."
+      }
+    ]
+  },
+  "original": {
+    "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Stiny&Mitchell.thePalladianGrammar.pdf",
+    "label": "Read original text",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "In brief",
+      "text": "A parametric grammar reconstructs main features of Palladio’s villa ground plans. The worked Villa Malcontenta example makes an architectural style explicit as a generative process.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "question",
+      "title": "The question",
+      "text": "Can a style description both explain existing plans and provide rules for producing further plans with related structure?",
+      "evidence": [
+        0,
+        2
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "Main idea or claim",
+      "text": "A generative account should support description, recognition and synthesis. The proposed grammar is a partial definition of Palladian style based on plans in the Quattro Libri.",
+      "evidence": [
+        2
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "How the work approaches it",
+      "text": "Eight stages define a grid, exterior walls, rooms, wall realignment, entrances, exterior ornamentation, windows/doors and termination. Labels and parameter constraints preserve relationships such as bilateral symmetry.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "Evidence and examples",
+      "text": "Rules are motivated by Palladio’s stated prescriptions and published plan examples. A full illustrated derivation produces Malcontenta’s plan; the discussion sketches extension to biaxial villas.",
+      "evidence": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "What comes out of it",
+      "text": "The case demonstrates how a finite rule repertoire can explain an existing plan and define a larger design language. It shows a constructive model of style rather than only a visual resemblance classification.",
+      "evidence": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "Limits to keep in mind",
+      "text": "Facades and a complete proportional system are outside scope. The precise parameterization is not supplied. The authors acknowledge corpus choices, drawing inconsistencies and judgments about minor variations; this is not evidence of Palladio’s actual mental design sequence.",
+      "evidence": [
+        0,
+        2
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "What to take from it",
+      "text": "Read the rules alongside the source plans. Separate what the grammar reproduces, what it deliberately simplifies, and which new plans it allows beyond the historical corpus.",
+      "evidence": [
+        0,
+        2
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "pp. 5–8: corpus, eight stages and grid",
+      "locator": "Quattro Libri villa plans, bilateral symmetry and parameterization caveat.",
+      "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Stiny&Mitchell.thePalladianGrammar.pdf"
+    },
+    {
+      "label": "pp. 9–16: rule stages and Malcontenta example",
+      "locator": "From wall and room layout to entrances, openings and termination.",
+      "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Stiny&Mitchell.thePalladianGrammar.pdf"
+    },
+    {
+      "label": "pp. 16–18: biaxial extension and discussion",
+      "locator": "Partial style definition, corpus choices and limitations.",
+      "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Stiny&Mitchell.thePalladianGrammar.pdf"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Parametric grammar",
+      "meaning": "Rule schemas instantiated through permitted numerical assignments."
+    },
+    {
+      "term": "Corpus",
+      "meaning": "The selected examples that a proposed style model is meant to explain."
+    }
+  ]
+}

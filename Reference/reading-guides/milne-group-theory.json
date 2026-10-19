@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "source_id": "milne-group-theory",
+  "kind": "lecture-notes",
+  "review": {
+    "level": "selected-sections",
+    "material": "Version 4.01 PDF: front matter, Chapter 4 pp.57–59 and Chapter 7 pp.101–105 read, including both Maschke proof approaches.",
+    "limitations": "No full-book review is claimed; later character theory, classifications and exercise solutions were not checked. Definitions and proof architecture were read, not formally verified.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+        "locator": "Chapter 4 pp.57–59, Definitions 4.1 and stabilizers",
+        "description": "Actions as permutation homomorphisms; orbits and kernels"
+      },
+      {
+        "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+        "locator": "Chapter 7 pp.101–105, Theorem 7.4 and proofs",
+        "description": "Representations and invariant complements"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+    "label": "Read the original source",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What this reference adds",
+      "text": "A concise algebra reference for readers already comfortable with undergraduate groups. The selected pages connect set actions to linear representations and explain why finite-group representations often break into simpler invariant pieces.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "Two distinctions worth retaining",
+      "text": "An action is faithful when no nonidentity element fixes everything. It is free when every point stabilizer is trivial. These are different requirements. A representation is an action by invertible linear maps.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "How the proof works",
+      "text": "Maschke’s theorem constructs an invariant complement to an invariant subspace by averaging a projector over the group. Over real or complex spaces, averaging an appropriate positive-definite form provides another approach.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "Conclusion and hypothesis",
+      "text": "For finite G, if the field characteristic does not divide |G|, every invariant subspace has an invariant complement. The division by |G| in the averaging formula explains why that field condition matters.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "Why this is a useful bridge",
+      "text": "An action gives a homomorphism into permutations; requiring linear maps gives a homomorphism into GL(V). This is the transition from visual symmetry to the representation language used in moonshine.",
+      "evidence": [
+        0,
+        1
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Actions as permutation homomorphisms; orbits and kernels",
+      "locator": "Chapter 4 pp.57–59, Definitions 4.1 and stabilizers",
+      "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf"
+    },
+    {
+      "label": "Representations and invariant complements",
+      "locator": "Chapter 7 pp.101–105, Theorem 7.4 and proofs",
+      "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Faithful",
+      "meaning": "Distinct group elements induce distinct transformations."
+    },
+    {
+      "term": "Invariant subspace",
+      "meaning": "A subspace preserved by every group element."
+    },
+    {
+      "term": "Projector",
+      "meaning": "A linear map P satisfying P²=P."
+    }
+  ]
+}

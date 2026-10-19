@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-2003-computing-with-emergence",
+  "kind": "theoretical paper",
+  "review": {
+    "level": "abstract-only",
+    "material": "The complete primary publisher abstract was read.",
+    "limitations": "The full 31-page paper, formal rule definitions and detailed computations were not inspected in this review.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://journals.sagepub.com/doi/10.1068/b12914",
+        "locator": "Public abstract",
+        "description": "Primary description of the paper’s scope and claimed contribution."
+      }
+    ]
+  },
+  "original": {
+    "url": "https://journals.sagepub.com/doi/10.1068/b12914",
+    "label": "Read original source",
+    "type": "publication-record"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Short overview",
+      "text": "Knight studies emergence in shape grammars: a computation can produce shapes not explicitly predefined, and these can then become inputs for further computation.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "Question and premise",
+      "text": "How can a grammar act on something its author did not anticipate? The abstract distinguishes anticipated, possible and unanticipated emergence in relation to the grammar author or user.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "Method reported",
+      "text": "The paper combines historical discussion with a theoretical classification and proposed special rules. It describes examples both within one grammar and across parallel grammars.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "Reported contribution",
+      "text": "For some problems, an action can be specified in advance even when its eventual shape target is not. The proposed rules bring certain operations previously performed outside a grammar into the grammar itself.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "What remains unchecked",
+      "text": "The abstract does not establish that every unanticipated shape can be handled by a predefined rule. The definitions and detailed examples need full-text review.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "Why it matters here",
+      "text": "Distinguish seeing a new shape from having a rule that can act on it. Keep track of which possibilities your grammar anticipates and which require new choices.",
+      "evidence": [
+        0
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Start here",
+      "locator": "Public abstract",
+      "url": "https://journals.sagepub.com/doi/10.1068/b12914"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Emergence",
+      "meaning": "In this paper’s framing, shapes not predefined in a grammar becoming available during computation."
+    },
+    {
+      "term": "Extragrammatical operation",
+      "meaning": "An operation carried out outside the grammar’s specified rules."
+    }
+  ]
+}

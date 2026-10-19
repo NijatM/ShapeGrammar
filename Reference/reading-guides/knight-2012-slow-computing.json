@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-2012-slow-computing",
+  "kind": "pedagogical book chapter",
+  "review": {
+    "level": "abstract-only",
+    "material": "The publisher-deposited abstract in Crossref was read in full. The publisher page was rate-limited.",
+    "limitations": "The complete chapter, its exercises and any detailed assessment evidence were not inspected.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://api.crossref.org/works/10.4018/978-1-61350-180-1.ch003",
+        "locator": "Publisher-deposited abstract",
+        "description": "Primary abstract deposited with the DOI record."
+      },
+      {
+        "url": "https://doi.org/10.4018/978-1-61350-180-1.ch003",
+        "locator": "Published chapter record",
+        "description": "Original publication link; full chapter not reviewed."
+      }
+    ]
+  },
+  "original": {
+    "url": "https://doi.org/10.4018/978-1-61350-180-1.ch003",
+    "label": "Read published chapter",
+    "type": "publication-record"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What it is about",
+      "text": "Knight presents teaching shape grammars through reflective visual and manual computation. Slow refers to an approach to understanding and exploration, not to inefficient code.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "Premise",
+      "text": "The chapter argues that expressive, perceptual and interpretive aspects of shape grammars deserve attention alongside fast automated generation.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "Teaching approach reported",
+      "text": "The abstract describes manual work within a collaborative learning-by-making environment and an overview of teaching at MIT. It considers opportunities and difficulties in combining slow human computation with machine computation.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "Stated contribution",
+      "text": "The contribution is a pedagogical account and discussion. The abstract supplies no participant numbers, assessment scores or controlled comparison of educational outcomes.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "Reading boundary",
+      "text": "Specific exercises and any qualifications in the chapter remain unreviewed. The abstract is insufficient evidence that manual computation is always educationally superior.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "A practical reading prompt",
+      "text": "Try carrying out one rule application by hand and explain the perception and transformation decisions you made. Then ask what automation would reveal, hide or make easier.",
+      "evidence": [
+        0
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Start here",
+      "locator": "Publisher-deposited abstract",
+      "url": "https://api.crossref.org/works/10.4018/978-1-61350-180-1.ch003"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Slow computing",
+      "meaning": "Reflective, manually performed visual computation, as framed in this pedagogical chapter."
+    }
+  ]
+}

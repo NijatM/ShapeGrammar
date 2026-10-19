@@ -13,7 +13,7 @@
   "reading_url": "https://doi.org/10.2307/1575896",
   "download_url": null,
   "venue": "Leonardo",
-  "pages": "117",
+  "pages": "117–124",
   "tags": [
     "shape-grammar",
     "author-terry-knight",
@@ -25,7 +25,7 @@
   "prerequisites": [
     "Elementary sets and functions; some proof reading"
   ],
-  "access_date": "2026-10-18",
+  "access_date": "2026-10-19",
   "license_redistribution": {
     "status": "link-only",
     "license": null,
@@ -34,14 +34,21 @@
   },
   "local_files": [],
   "existing_local_files": [],
-  "locators": [],
+  "locators": [
+    {
+      "locator": "Publication list: Color Grammars: The Representation of Form and Color in Designs (1993)",
+      "status": "abstract-only-reviewed"
+    }
+  ],
   "verification": {
-    "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+    "scope": "Read the abstract excerpt listed under this title on Knight’s public author profile; also checked the official JSTOR issue pagination. Only a truncated abstract excerpt was accessible. Full methods, examples and conclusions were not reviewed.",
     "source_urls": [
       "https://api.crossref.org/works/10.2307/1575896",
-      "https://architecture.mit.edu/people/terry-knight"
+      "https://architecture.mit.edu/people/terry-knight",
+      "https://www.researchgate.net/profile/Terry-Knight",
+      "https://www.jstor.org/stable/i270963"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "abstract-only"
   },
   "annotation_file": "shape-grammar/notes/knight-1993-color-grammars-the-representation-of-form-and-color-in-designs.md",
   "publication_type": "journal-article",

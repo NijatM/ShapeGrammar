@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-1986-transformations-dissertation",
+  "kind": "dissertation citation",
+  "review": {
+    "level": "secondary-citation-only",
+    "material": "Inspected the dissertation citation in Knight’s 1989 De Stijl article bibliography, alongside the existing institutional degree evidence.",
+    "limitations": "The dissertation title page, abstract and full text have not been retrieved. A citation in another paper is not the dissertation.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://journals.sagepub.com/doi/10.1068/b160051",
+        "locator": "References: Knight T W, 1986, Transformations of Languages of Designs, PhD thesis, UCLA",
+        "description": "Author’s later paper cites the dissertation"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://journals.sagepub.com/doi/10.1068/b160051",
+    "label": "Dissertation citation in another paper — not thesis text",
+    "type": "citation-evidence"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What is verified",
+      "text": "A 1989 paper by Knight cites a 1986 UCLA PhD thesis titled Transformations of Languages of Designs.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "What this entry does not provide",
+      "text": "The linked evidence is another article’s bibliography. The previously stored CMU link also points to a citing paper, not to the thesis. Neither should be labeled as the dissertation’s full text.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "How to continue",
+      "text": "The thesis’s premise, methods and conclusions cannot be accurately summarized from this citation. Obtain the original through a library catalogue; the reviewed 1983 trilogy offers accessible related work, not an interchangeable edition.",
+      "evidence": [
+        0
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Check the dissertation citation",
+      "locator": "1989 article bibliography, Knight 1986 entry",
+      "url": "https://journals.sagepub.com/doi/10.1068/b160051"
+    }
+  ],
+  "terms": []
+}

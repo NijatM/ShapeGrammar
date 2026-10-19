@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-2015-shapes-and-other-things",
+  "kind": "historical and theoretical review",
+  "review": {
+    "level": "full-text",
+    "material": "The full public publisher text and 18-page PDF were read, including historical approaches, Complications, Things and Discussion. The cube-subtraction figure was inspected.",
+    "limitations": "Earlier works are discussed through Knight’s review, not independently re-reviewed in this guide. The knotting example is a conceptual demonstration, not a performance trial.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://link.springer.com/article/10.1007/s00004-015-0267-3",
+        "locator": "Introduction and Shapes/Shapes and Other Descriptions, pp. 963–971",
+        "description": "Primary historical account of shape-based material descriptions."
+      },
+      {
+        "url": "https://link.springer.com/article/10.1007/s00004-015-0267-3",
+        "locator": "Complications, pp. 972–974; Figs. 3–4",
+        "description": "Examples expose differences between spatial fusion and physical-object identity."
+      },
+      {
+        "url": "https://link.springer.com/article/10.1007/s00004-015-0267-3",
+        "locator": "Things and Discussion, pp. 974–978; Figs. 5–7",
+        "description": "Making grammar proposal, knotting example and qualified future directions."
+      }
+    ]
+  },
+  "original": {
+    "url": "https://link.springer.com/article/10.1007/s00004-015-0267-3",
+    "label": "Read original source",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What it is about",
+      "text": "Knight traces how shape-grammar research has represented physical things and material properties. The paper then proposes reversing the usual starting point: begin with what materials do and how makers sense them, rather than making every material object behave first like a visual shape.",
+      "evidence": [
+        0,
+        2
+      ]
+    },
+    {
+      "id": "question",
+      "title": "Premise and claim",
+      "text": "Visual shape operations are useful for creative perception, but may be misleading for physical objects. Knight argues that a computational theory of making should preserve the relevant behaviour of its materials while retaining shape grammar’s open-ended relationship between perception and action.",
+      "evidence": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "Method of argument",
+      "text": "A historical review distinguishes set-based objects, parallel descriptions and integrated properties such as colours or weights. Counterexamples reveal problems with using shape operations indiscriminately. The paper then summarizes Knight and Stiny’s making-grammar framework through doing, sensing, stuff and things.",
+      "evidence": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "Examples that carry the argument",
+      "text": "Subtracting the line representation of one adjacent cube also removes a shared face-edge structure from the other; conversely, adjoining solids can merge and lose their separate identities. Knotting supplies a contrasting model: strings stay distinct when combined, and sensing rules move hand grasps without necessarily changing the string’s configuration.",
+      "evidence": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "Proposed conclusion",
+      "text": "Shapes become one kind of thing that a grammar can make, rather than the mandatory foundation for every material description. Designing with shapes can itself be understood as making: seeing and drawing are specialized sensory and active engagements.",
+      "evidence": [
+        2
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "Limits and unfinished directions",
+      "text": "The knotting grammar is deliberately schematic. Watercolour painting is described as a more complex prospective case, not a completed formalization. Choosing an algebra for a material is not the same as predicting all its physical properties or demonstrating a working fabrication system.",
+      "evidence": [
+        2
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "What this changes for a model",
+      "text": "Ask whether elements should fuse, stay discrete, deform, or acquire irreversible changes. Identify the doing and sensing actions your rules express. A useful representation depends on the activity being studied; visually identical geometry may correspond to materially different things.",
+      "evidence": [
+        1,
+        2
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Start here",
+      "locator": "Introduction and Shapes/Shapes and Other Descriptions, pp. 963–971",
+      "url": "https://link.springer.com/article/10.1007/s00004-015-0267-3"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Making grammar",
+      "meaning": "A rule system for doing and sensing with materials to make things."
+    },
+    {
+      "term": "Stuff",
+      "meaning": "In this framework, materials with activity-relevant properties, including abstract spatial elements."
+    },
+    {
+      "term": "Sensing rule",
+      "meaning": "A rule representing attention or perceptual action that need not physically change the thing."
+    }
+  ]
+}

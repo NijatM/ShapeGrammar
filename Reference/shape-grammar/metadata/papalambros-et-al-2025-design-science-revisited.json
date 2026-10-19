@@ -63,7 +63,7 @@
   "prerequisites": [
     "Elementary sets and functions; some proof reading"
   ],
-  "access_date": "2026-10-18",
+  "access_date": "2026-10-19",
   "license_redistribution": {
     "status": "downloaded-with-conditions",
     "license": "CC BY 4.0",
@@ -85,14 +85,19 @@
   "existing_local_files": [],
   "locators": [
     {
-      "locator": "PDF p. 1, byline/license; pp. 26–27, Terry Knight contribution",
-      "status": "selected-text-inspected"
+      "locator": "pp. 2–4: Abstract, Introduction and opening Editors-in-Chief reflections",
+      "status": "selected-sections-reviewed"
+    },
+    {
+      "locator": "pp. 26–27: Terry Knight",
+      "status": "selected-sections-reviewed"
     }
   ],
   "verification": {
-    "scope": "Publisher page, complete byline and MIT affiliation checked; original first-page license and Knight’s named contribution inspected. Full editorial arguments of every coauthor not reviewed.",
+    "scope": "Read the abstract, introduction, opening editors-in-chief discussion and Knight’s complete named contribution on pp. 26–27 in the licensed original. Other individual reflections were not reviewed in full. The article intentionally leaves synthesis to readers; this guide does not present the contributions as an agreed conclusion.",
     "source_urls": [
-      "https://doi.org/10.1017/dsj.2025.10026"
+      "https://doi.org/10.1017/dsj.2025.10026",
+      "https://strathprints.strath.ac.uk/94756/1/Papalambros-etal-DS-2025-Design-science-why-what-and-how-revisited.pdf"
     ],
     "content_review": "selected-sections"
   },

@@ -1,29 +1,49 @@
 # An Algebraic Approach to Implementing a Shape Grammar Interpreter
 
-Source ID: `stouffs-2016-interpreter`. Year: 2016. Contributors as recorded: Rudi Stouffs.
+Rudi Stouffs · 2016
 
-Type: conference-paper. Venue: Proceedings of the 34th eCAADe Conference, volume 2. Pages: 329–338.
+Review basis: selected-sections. Institutional author PDF: problem statement, algebraic constructions and concluding interpreter discussion.
 
-[Canonical metadata](../metadata/stouffs-2016-interpreter.json) · [Source / publication record](https://pure.tudelft.nl/ws/portalfiles/portal/12909097/Stouffs_eCAADe2016_volume2.pdf) · [Reading path](https://pure.tudelft.nl/ws/portalfiles/portal/12909097/Stouffs_eCAADe2016_volume2.pdf)
+Selected technical sections reviewed. The paper proposes a general architecture; the guide does not infer a complete implementation or measured performance.
 
-Bibliographic citation; no downloadable edition pinned
+## In brief
 
-## Reading purpose
+Stouffs asks how to build a shape grammar interpreter that can accommodate different geometric elements and additional information, rather than being tied to one drawing representation. [1](https://pure.tudelft.nl/ws/portalfiles/portal/12909097/Stouffs_eCAADe2016_volume2.pdf)
 
-Printed p. 331 identifies U_ij by element and containing-space dimensions, including planar line shapes U_12. This supports the project’s dimensional convention. The finite rational geometry and transformation menu are additional project restrictions, not definitions quoted from this paper.
+## The question
 
-## Verification
+How can a common interpreter operate on points, lines or higher-dimensional shapes while also handling labels, weights and other attributes? [1](https://pure.tudelft.nl/ws/portalfiles/portal/12909097/Stouffs_eCAADe2016_volume2.pdf) [2](https://pure.tudelft.nl/ws/portalfiles/portal/12909097/Stouffs_eCAADe2016_volume2.pdf)
 
-Institutional repository cover and complete relevant sections inspected. Printed p. 331 rendered and visually checked for U_ij dimensional convention; pp. 332–334 read for operations/interface.
+## Main idea or claim
 
-## Locators
+A modular algebraic foundation can separate general rule application from the particular objects and operations used by a grammar. Attribution adds a way to attach nonspatial descriptions to spatial elements. [2](https://pure.tudelft.nl/ws/portalfiles/portal/12909097/Stouffs_eCAADe2016_volume2.pdf) [3](https://pure.tudelft.nl/ws/portalfiles/portal/12909097/Stouffs_eCAADe2016_volume2.pdf)
 
-- p. 331, Shape Algebras: U_ij and U_12 dimensional convention (text-and-rendered-page-verified).
-- pp. 332–334, algebra interface and spatial elements (selected-text-inspected).
+## How the work approaches it
 
-## Originals and rights
+The paper combines basic shape algebras through direct products and attribution. These are different constructions: a product keeps descriptions in parallel, whereas attribution associates information with elements. Procedural abstraction hides representation-specific operations behind a common interface. [2](https://pure.tudelft.nl/ws/portalfiles/portal/12909097/Stouffs_eCAADe2016_volume2.pdf) [3](https://pure.tudelft.nl/ws/portalfiles/portal/12909097/Stouffs_eCAADe2016_volume2.pdf)
 
-Reading link only; no local original mirrored.
+## Evidence and examples
 
-No general redistribution license established. TU Delft cover explicitly limits redistribution without consent unless an open license applies. Read temporarily only; no original mirrored.
-[Rights evidence](https://pure.tudelft.nl/ws/portalfiles/portal/12909097/Stouffs_eCAADe2016_volume2.pdf).
+Worked algebraic examples include labels, numerical weights and composite attributes. These demonstrate expressive possibilities and how modules could be assembled; they are not a comparative runtime experiment. [2](https://pure.tudelft.nl/ws/portalfiles/portal/12909097/Stouffs_eCAADe2016_volume2.pdf) [3](https://pure.tudelft.nl/ws/portalfiles/portal/12909097/Stouffs_eCAADe2016_volume2.pdf)
+
+## What comes out of it
+
+The result is a framework for extending interpreter scope while reusing common mechanisms. Supporting a new representation still requires appropriate part relations, operations and transformations. [2](https://pure.tudelft.nl/ws/portalfiles/portal/12909097/Stouffs_eCAADe2016_volume2.pdf) [3](https://pure.tudelft.nl/ws/portalfiles/portal/12909097/Stouffs_eCAADe2016_volume2.pdf)
+
+## Limits to keep in mind
+
+Formal expressiveness is not evidence that every matching problem has been solved. This reading does not establish production completeness, usability results or a universal performance bound. [3](https://pure.tudelft.nl/ws/portalfiles/portal/12909097/Stouffs_eCAADe2016_volume2.pdf)
+
+## What to take from it
+
+Ask whether information is attached to elements or maintained as a parallel description. That choice changes how overlaps, matching and rule application should behave. [2](https://pure.tudelft.nl/ws/portalfiles/portal/12909097/Stouffs_eCAADe2016_volume2.pdf)
+
+## Where to read
+
+- [pp. 329–331: objectives and shape algebras](https://pure.tudelft.nl/ws/portalfiles/portal/12909097/Stouffs_eCAADe2016_volume2.pdf) — Why an interpreter should support multiple kinds of spatial and nonspatial description.
+- [pp. 331–336: product and attribution constructions](https://pure.tudelft.nl/ws/portalfiles/portal/12909097/Stouffs_eCAADe2016_volume2.pdf) — Formal distinction between parallel descriptions and attached attributes.
+- [pp. 337–338: discussion and conclusion](https://pure.tudelft.nl/ws/portalfiles/portal/12909097/Stouffs_eCAADe2016_volume2.pdf) — Modularity, procedural abstraction and intended interpreter generality.
+
+## Rights
+
+TU Delft cover explicitly limits redistribution without consent unless an open license applies. Read temporarily only; no original mirrored.

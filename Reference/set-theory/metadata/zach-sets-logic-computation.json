@@ -49,17 +49,28 @@
   "existing_local_files": [],
   "locators": [
     {
-      "locator": "Part I, Chapters 1–4; §§1.1–1.5, 2.1–2.3, 3.1–3.5, 4.1–4.10",
-      "status": "downloaded-table-of-contents-verified"
+      "locator": "§§1.1–1.2, pp.2–4; §§2.2–2.3, pp.19–20",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://slc.openlogicproject.org/archives/f25/slc-screen.pdf"
+    },
+    {
+      "locator": "§3.2, pp.35–36",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://slc.openlogicproject.org/archives/f25/slc-screen.pdf"
+    },
+    {
+      "locator": "§4.10 and chapter summary, pp.66–67",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://slc.openlogicproject.org/archives/f25/slc-screen.pdf"
     }
   ],
   "verification": {
-    "scope": "Bibliographic record or official landing page inspected; full text and exact claim locators not reviewed.",
+    "scope": "Fall 2025 pinned PDF: Part I selected definitions in §§1.1–1.2, 2.2–2.3, 3.2 and the discussion around §§4.9–4.10 reviewed. The later metalogic, completeness and computability developments were not reviewed. Schröder–Bernstein is stated without proof in this introductory passage; this guide does not supply or certify that proof.",
     "source_urls": [
       "https://slc.openlogicproject.org/",
       "https://slc.openlogicproject.org/archives/f25/slc-screen.pdf"
     ],
-    "content_review": "front-matter-rights-and-contents"
+    "content_review": "selected-sections"
   },
   "annotation_file": "set-theory/notes/zach-sets-logic-computation.md"
 }

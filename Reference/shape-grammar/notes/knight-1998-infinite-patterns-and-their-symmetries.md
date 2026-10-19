@@ -1,24 +1,52 @@
 # Infinite Patterns and Their Symmetries
 
-Source ID: `knight-1998-infinite-patterns-and-their-symmetries`. Year: 1998. Contributors as recorded: Terry W. Knight.
+Source ID: `knight-1998-infinite-patterns-and-their-symmetries`. 1998.
 
-Type: journal-article. Venue: Leonardo. Pages: 305–312.
+[Canonical metadata](../metadata/knight-1998-infinite-patterns-and-their-symmetries.json) · [Original article record and access options](https://www.jstor.org/stable/1576670)
 
-[Canonical metadata](../metadata/knight-1998-infinite-patterns-and-their-symmetries.json) · [Source / publication record](https://doi.org/10.2307/1576670) · [Reading path](https://doi.org/10.2307/1576670)
+## Review scope
 
-Leonardo 31(4), 1998. DOI deposit lists only opening page 305; the author’s 2003 bibliography supplies 305–312.
+**abstract-only.** Read the abstract excerpt for this title on Knight’s public author profile; full original not retrieved. The full article and complete abstract were not available here. Particular symmetry claims and examples remain unverified.
 
-## Reading purpose
+## In brief
 
-Terry Knight author corpus: symmetry and pattern construction. This is a bibliographic entry and reading prompt, not a summary of an unreviewed argument.
+Knight examines ambiguities in representing, constructing and classifying infinite patterns, focusing on friezes.
 
-## Verification
+Evidence: [Publication list: Infinite Patterns and Their Symmetries (1998)](https://www.researchgate.net/profile/Terry-Knight).
 
-Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed. Page range corroborated in author’s 2003 bibliography available through indexed primary-paper text; full original not reviewed.
+## Question or aim
 
-## Locators
+What changes when patterns are understood through the rules that construct them?
 
-Exact claim locators require further full-text review.
+Evidence: [Publication list: Infinite Patterns and Their Symmetries (1998)](https://www.researchgate.net/profile/Terry-Knight).
+
+## Approach described
+
+The abstract excerpt describes a generative reading of frieze patterns.
+
+Evidence: [Publication list: Infinite Patterns and Their Symmetries (1998)](https://www.researchgate.net/profile/Terry-Knight).
+
+## What the abstract supports
+
+It identifies a conceptual investigation, but the excerpt does not specify the unusual properties or conclusions.
+
+Evidence: [Publication list: Infinite Patterns and Their Symmetries (1998)](https://www.researchgate.net/profile/Terry-Knight).
+
+## What remains unverified
+
+The full article and complete abstract were not available here. Particular symmetry claims and examples remain unverified.
+
+Evidence: [Publication list: Infinite Patterns and Their Symmetries (1998)](https://www.researchgate.net/profile/Terry-Knight).
+
+## Why it may help
+
+It is a reading target for connecting rule-based construction with group-theoretic classification.
+
+Evidence: [Publication list: Infinite Patterns and Their Symmetries (1998)](https://www.researchgate.net/profile/Terry-Knight).
+
+## Reading path
+
+- [Read the original pattern analysis](https://www.jstor.org/stable/1576670): Leonardo 31(4), pp. 305–312.
 
 ## Originals and rights
 

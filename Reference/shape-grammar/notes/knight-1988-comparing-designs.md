@@ -1,24 +1,52 @@
 # Comparing Designs
 
-Source ID: `knight-1988-comparing-designs`. Year: 1988. Contributors as recorded: T W Knight.
+Source ID: `knight-1988-comparing-designs`. 1988.
 
-Type: journal-article. Venue: Environment and Planning B: Planning and Design. Pages: 73-110.
+[Canonical metadata](../metadata/knight-1988-comparing-designs.json) · [Publisher record and original access options](https://doi.org/10.1068/b150073)
 
-[Canonical metadata](../metadata/knight-1988-comparing-designs.json) · [Source / publication record](https://doi.org/10.1068/b150073) · [Reading path](https://doi.org/10.1068/b150073)
+## Review scope
 
-Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.
+**abstract-only.** Publisher-deposited abstract read directly through the public Crossref record; full article not retrieved. Only the publisher-deposited Crossref abstract was read. The exact similarity formula, worked cases and qualifications require the complete article; no perceptual validation or statistical performance is established here.
 
-## Reading purpose
+## In brief
 
-Terry Knight author corpus: shape grammar theory, design, implementation, or teaching. This is a bibliographic entry and reading prompt, not a summary of an unreviewed argument.
+Knight extends grammar-based comparison from whole styles to individual designs.
 
-## Verification
+Evidence: [message.abstract (publisher-deposited abstract)](https://api.crossref.org/works/10.1068/b150073).
 
-Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.
+## Question or aim
 
-## Locators
+How can two designs be compared through their constructive organization?
 
-Exact claim locators require further full-text review.
+Evidence: [message.abstract (publisher-deposited abstract)](https://api.crossref.org/works/10.1068/b150073).
+
+## Approach described
+
+Represent each design as a decomposition into shapes and spatial relations; align comparable elements and trace shape-by-shape transformations.
+
+Evidence: [message.abstract (publisher-deposited abstract)](https://api.crossref.org/works/10.1068/b150073).
+
+## What the abstract supports
+
+The abstract reports a framework for exposing design relationships and proposes a simple similarity measure.
+
+Evidence: [message.abstract (publisher-deposited abstract)](https://api.crossref.org/works/10.1068/b150073).
+
+## What remains unverified
+
+Only the publisher-deposited Crossref abstract was read. The exact similarity formula, worked cases and qualifications require the complete article; no perceptual validation or statistical performance is established here.
+
+Evidence: [message.abstract (publisher-deposited abstract)](https://api.crossref.org/works/10.1068/b150073).
+
+## Why it may help
+
+It suggests comparing how designs are assembled, alongside comparing their visible outlines.
+
+Evidence: [message.abstract (publisher-deposited abstract)](https://api.crossref.org/works/10.1068/b150073).
+
+## Reading path
+
+- [Read the original article through the publisher](https://doi.org/10.1068/b150073): Article pp. 73–110; full-text access may be required.
 
 ## Originals and rights
 

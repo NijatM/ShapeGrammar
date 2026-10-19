@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "source_id": "zach-sets-logic-computation",
+  "kind": "textbook",
+  "review": {
+    "level": "selected-sections",
+    "material": "Fall 2025 pinned PDF: Part I selected definitions in §§1.1–1.2, 2.2–2.3, 3.2 and the discussion around §§4.9–4.10 reviewed.",
+    "limitations": "The later metalogic, completeness and computability developments were not reviewed. Schröder–Bernstein is stated without proof in this introductory passage; this guide does not supply or certify that proof.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://slc.openlogicproject.org/archives/f25/slc-screen.pdf",
+        "locator": "§§1.1–1.2, pp.2–4; §§2.2–2.3, pp.19–20",
+        "description": "Sets and relational properties"
+      },
+      {
+        "url": "https://slc.openlogicproject.org/archives/f25/slc-screen.pdf",
+        "locator": "§3.2, pp.35–36",
+        "description": "Surjective and injective maps"
+      },
+      {
+        "url": "https://slc.openlogicproject.org/archives/f25/slc-screen.pdf",
+        "locator": "§4.10 and chapter summary, pp.66–67",
+        "description": "Comparison of sizes and limits of enumerations"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://slc.openlogicproject.org/",
+    "label": "Read the original source",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What this book provides",
+      "text": "A foundations text leading toward the study of logic itself. Its opening set-theory material supplies a shared language for collections, relations, functions and infinite sizes. These selected pages are useful independently of the later technical logic.",
+      "evidence": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "Key distinctions",
+      "text": "Symmetric and antisymmetric are not opposites: equality satisfies both. Equivalence requires reflexivity, symmetry and transitivity and produces classes of related elements. A surjection reaches its entire declared codomain; an injection never sends distinct inputs to the same output.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "How the text reasons",
+      "text": "Precise quantified definitions are followed by tests on examples. The identity, successor and constant maps on natural numbers separate function properties. Cardinal comparison is then recast using maps, making statements about infinite sizes meaningful without finishing a count.",
+      "evidence": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "Conclusions in the selected material",
+      "text": "A bijection expresses equal cardinality. Injections each way imply one exists by Schröder–Bernstein, which the introductory section asks readers to accept without proof. Diagonal arguments defeat supposed exhaustive lists by constructing a missing object.",
+      "evidence": [
+        2
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "What to take into an experiment",
+      "text": "State the underlying set whenever you define a relation, and check each required property separately. For a transformation, distinguish its allowed inputs, allowed outputs and reached outputs. These habits clarify when a collection of transformations really acts on a set.",
+      "evidence": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Sets and relational properties",
+      "locator": "§§1.1–1.2, pp.2–4; §§2.2–2.3, pp.19–20",
+      "url": "https://slc.openlogicproject.org/archives/f25/slc-screen.pdf"
+    },
+    {
+      "label": "Surjective and injective maps",
+      "locator": "§3.2, pp.35–36",
+      "url": "https://slc.openlogicproject.org/archives/f25/slc-screen.pdf"
+    },
+    {
+      "label": "Comparison of sizes and limits of enumerations",
+      "locator": "§4.10 and chapter summary, pp.66–67",
+      "url": "https://slc.openlogicproject.org/archives/f25/slc-screen.pdf"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Antisymmetric",
+      "meaning": "If xRy and yRx, then x=y."
+    },
+    {
+      "term": "Quotient set",
+      "meaning": "The set of equivalence classes."
+    },
+    {
+      "term": "Equinumerous",
+      "meaning": "Admitting a bijection between the sets."
+    }
+  ]
+}

@@ -13,7 +13,7 @@
     "Elena Yudovina"
   ],
   "year": 2011,
-  "edition_version": "arXiv:0901.0827v5, 1 February 2011; initial submission 2009",
+  "edition_version": "arXiv:0901.0827v5 stamp 1 February 2011; inspected PDF interior title dated 26 November 2024; date discrepancy retained without inferring a new edition",
   "doi": null,
   "stable_url": "https://arxiv.org/abs/0901.0827",
   "reading_url": "https://arxiv.org/abs/0901.0827",
@@ -41,13 +41,25 @@
   },
   "local_files": [],
   "existing_local_files": [],
-  "locators": [],
+  "locators": [
+    {
+      "locator": "Title page; §§1.2–1.3, pp.7–8",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://arxiv.org/pdf/0901.0827v5"
+    },
+    {
+      "locator": "§§3.1–3.3, pp.33–35, Theorem 3.1",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://arxiv.org/pdf/0901.0827v5"
+    }
+  ],
   "verification": {
-    "scope": "arXiv author list, version history and prerequisites inspected; interior locators not asserted.",
+    "scope": "ArXiv v5 reading copy: introduction and §§1.2–1.3 (pp.5–8), §§3.1–3.3 (pp.33–35) read. Title image inspected: arXiv stamp says 1 February 2011 while interior title says 26 November 2024. Selected sections only; later representation classifications and exercises were not reviewed. The two date labels are reported as encountered rather than interpreted as a verified new edition.",
     "source_urls": [
-      "https://arxiv.org/abs/0901.0827"
+      "https://arxiv.org/abs/0901.0827",
+      "https://arxiv.org/pdf/0901.0827v5"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "selected-sections"
   },
   "annotation_file": "bridges/notes/etingof-representation-theory.md"
 }

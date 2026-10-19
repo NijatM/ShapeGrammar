@@ -25,7 +25,7 @@
   "prerequisites": [
     "Elementary sets and functions; some proof reading"
   ],
-  "access_date": "2026-10-18",
+  "access_date": "2026-10-19",
   "license_redistribution": {
     "status": "link-only",
     "license": null,
@@ -34,14 +34,23 @@
   },
   "local_files": [],
   "existing_local_files": [],
-  "locators": [],
+  "locators": [
+    {
+      "locator": "Catalogue summary and table of contents",
+      "status": "bibliographic-only-reviewed"
+    },
+    {
+      "locator": "References, K: Transformations in Design, 1994",
+      "status": "bibliographic-only-reviewed"
+    }
+  ],
   "verification": {
-    "scope": "MIT author bibliography verifies author/year/publisher; Canadian Centre for Architecture library record verifies full title and collation.",
+    "scope": "Read the Canadian Centre for Architecture catalogue description and contents, corroborated by the author’s institutional bibliography. The complete book was not read. A catalogue description and chapter list do not establish detailed arguments or conclusions.",
     "source_urls": [
       "https://www.cca.qc.ca/fr/recherche/details/library/publication/26361509",
       "https://www.mit.edu/~tknight/IJDC/page_references.htm"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "bibliographic-only"
   },
   "annotation_file": "shape-grammar/notes/knight-1994-transformations-in-design.md",
   "publication_type": "book",

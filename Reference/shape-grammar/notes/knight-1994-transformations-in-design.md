@@ -1,24 +1,40 @@
 # Transformations in Design: A Formal Approach to Stylistic Change and Innovation in the Visual Arts
 
-Source ID: `knight-1994-transformations-in-design`. Year: 1994. Contributors as recorded: Terry W. Knight.
+Source ID: `knight-1994-transformations-in-design`. 1994.
 
-Type: book. Venue: Cambridge University Press. Pages: xvii + 258.
+[Canonical metadata](../metadata/knight-1994-transformations-in-design.json) · [Library record and book contents — not full book](https://www.cca.qc.ca/fr/recherche/details/library/publication/26361509)
 
-[Canonical metadata](../metadata/knight-1994-transformations-in-design.json) · [Source / publication record](https://www.cca.qc.ca/fr/recherche/details/library/publication/26361509) · [Reading path](https://www.cca.qc.ca/fr/recherche/details/library/publication/26361509)
+## Review scope
 
-1994 edition. Library counts xvii + 258; other discovery services report 276 total pages. Preserve the library collation.
+**bibliographic-only.** Read the Canadian Centre for Architecture catalogue description and contents, corroborated by the author’s institutional bibliography. The complete book was not read. A catalogue description and chapter list do not establish detailed arguments or conclusions.
 
-## Reading purpose
+## Book orientation
 
-Terry Knight author corpus: Transformations in Design: A Formal Approach to Stylistic Change and Innovation in the Visual Arts. Citation coverage; full text requires separate review. This is a bibliographic entry and reading prompt, not a summary of an unreviewed argument.
+The catalogue describes a formal approach to stylistic change: styles are represented by shape grammars and changes through transformations of those grammars.
 
-## Verification
+Evidence: [Catalogue summary and table of contents](https://www.cca.qc.ca/fr/recherche/details/library/publication/26361509).
 
-MIT author bibliography verifies author/year/publisher; Canadian Centre for Architecture library record verifies full title and collation.
+## What the contents promise
 
-## Locators
+The sequence moves from traditional accounts of style to grammar normal form, recursive structures and transformations, followed by studies of Greek meander motifs, De Stijl paintings and Wright houses.
 
-Exact claim locators require further full-text review.
+Evidence: [Catalogue summary and table of contents](https://www.cca.qc.ca/fr/recherche/details/library/publication/26361509).
+
+## Review boundary
+
+These are catalogue-level descriptions, not findings verified across the book. No experimental methodology or validation result is claimed here.
+
+Evidence: [Catalogue summary and table of contents](https://www.cca.qc.ca/fr/recherche/details/library/publication/26361509).
+
+## Suggested use
+
+Read the theory chapters before the case studies. The separately reviewed 1983 articles provide accessible background, but cannot substitute for checking this later book’s treatment.
+
+Evidence: [Catalogue summary and table of contents](https://www.cca.qc.ca/fr/recherche/details/library/publication/26361509).
+
+## Reading path
+
+- [Inspect the contents and find library access](https://www.cca.qc.ca/fr/recherche/details/library/publication/26361509): Catalogue summary, table of contents and holdings.
 
 ## Originals and rights
 

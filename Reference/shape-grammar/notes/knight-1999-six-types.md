@@ -1,24 +1,52 @@
 # Shape Grammars: Six Types
 
-Source ID: `knight-1999-six-types`. Year: 1999. Contributors as recorded: Terry W. Knight.
+Source ID: `knight-1999-six-types`. 1999.
 
-Type: journal article. Venue: Environment and Planning B 26(1). Pages: 15–31.
+[Canonical metadata](../metadata/knight-1999-six-types.json) · [Read abstract and original access options](https://journals.sagepub.com/doi/10.1068/b260015)
 
-[Canonical metadata](../metadata/knight-1999-six-types.json) · [Source / publication record](https://journals.sagepub.com/doi/10.1068/b260015) · [Reading path](https://journals.sagepub.com/doi/10.1068/b260015)
+## Review scope
 
-Version of record unless otherwise noted
+**abstract-only.** Official abstract and publisher-deposited abstract reviewed; full original not retrieved. The official abstract was read, including its publisher-deposited form. Exact class definitions and claimed decision results need the complete article; this guide does not infer them from secondary lists.
 
-## Reading purpose
+## In brief
 
-Classification of grammar types for later comparisons and design exercises. This is a bibliographic entry and reading prompt, not a summary of an unreviewed argument.
+Knight defines six types of shape grammars by imposing different restrictions on rule format and rule ordering.
 
-## Verification
+Evidence: [Abstract](https://journals.sagepub.com/doi/10.1068/b260015).
 
-Bibliographic record or official landing page inspected; full text and exact claim locators not reviewed.
+## Question or aim
 
-## Locators
+How do restrictions alter generative possibilities and practical use?
 
-Exact claim locators require further full-text review.
+Evidence: [Abstract](https://journals.sagepub.com/doi/10.1068/b260015).
+
+## Approach described
+
+This paper develops the classification side of decidability; a companion paper examines which questions about the classes can be answered.
+
+Evidence: [Abstract](https://journals.sagepub.com/doi/10.1068/b260015).
+
+## What the abstract supports
+
+The abstract reports comparing generative power, practicality and pedagogical value across the classes.
+
+Evidence: [Abstract](https://journals.sagepub.com/doi/10.1068/b260015).
+
+## What remains unverified
+
+The official abstract was read, including its publisher-deposited form. Exact class definitions and claimed decision results need the complete article; this guide does not infer them from secondary lists.
+
+Evidence: [Abstract](https://journals.sagepub.com/doi/10.1068/b260015).
+
+## Why it may help
+
+A useful starting distinction is rule format versus rule sequence. Restricting a grammar can make its behavior easier to understand, but each precise claim needs its stated conditions.
+
+Evidence: [Abstract](https://journals.sagepub.com/doi/10.1068/b260015).
+
+## Reading path
+
+- [Read the abstract and locate the original](https://journals.sagepub.com/doi/10.1068/b260015): Abstract.
 
 ## Originals and rights
 

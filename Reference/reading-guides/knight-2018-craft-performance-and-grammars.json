@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-2018-craft-performance-and-grammars",
+  "kind": "conceptual craft case study",
+  "review": {
+    "level": "abstract-only",
+    "material": "The complete publisher abstract for the 2018 chapter was read. A related 2017 author-linked URL returned a website page instead of its PDF, and was not treated as the chapter text.",
+    "limitations": "The kolam rules and comparative computations were not inspected. The 2017 presentation and 2018 chapter are not asserted to be identical.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://link.springer.com/chapter/10.1007/978-981-10-8189-7_16",
+        "locator": "Public abstract",
+        "description": "Primary abstract of the published 2018 chapter."
+      }
+    ]
+  },
+  "original": {
+    "url": "https://link.springer.com/chapter/10.1007/978-981-10-8189-7_16",
+    "label": "Read original source",
+    "type": "publication-record"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What it is about",
+      "text": "Knight examines craft as performance in time, using traditional Indian kolam pattern making. The focus is on how making unfolds, alongside the design left behind.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "Premise",
+      "text": "Can grammars represent temporal actions and the social, aesthetic or creative importance of performance, rather than treating process merely as a way to obtain a product?",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "Method reported",
+      "text": "The chapter compares making grammars for craft performance with shape grammars for craft designs through the kolam case. It is a conceptual comparison, not a controlled experiment.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "Reported conclusion",
+      "text": "The abstract says the comparison reveals different generative strategies. It does not give enough detail to reconstruct those strategies here.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "Reading boundary",
+      "text": "Full-text rules, case selection and supporting discussion remain unreviewed. The abstract does not establish a universal model of every kolam maker’s practice.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "Why follow the original",
+      "text": "A final pattern does not record every action that made it. Look for what changes when you describe both material configuration and the maker’s sequence of actions.",
+      "evidence": [
+        0
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Start here",
+      "locator": "Public abstract",
+      "url": "https://link.springer.com/chapter/10.1007/978-981-10-8189-7_16"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Kolam",
+      "meaning": "The Indian pattern-making craft used as this chapter’s case study."
+    },
+    {
+      "term": "Craft performance",
+      "meaning": "The embodied, temporal activity of making, distinguished from only its final artifact."
+    }
+  ]
+}

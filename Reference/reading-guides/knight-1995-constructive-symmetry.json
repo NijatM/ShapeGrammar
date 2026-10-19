@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-1995-constructive-symmetry",
+  "kind": "symmetry and generative rules",
+  "review": {
+    "level": "abstract-only",
+    "material": "Publisher-deposited abstract read directly through the public Crossref record; full article not retrieved.",
+    "limitations": "Only the publisher-deposited abstract was reviewed. Exact conditions, groups, proofs and counterexamples are unverified. The abstract does not justify assuming that every symmetric rule preserves the same symmetry in every output.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://api.crossref.org/works/10.1068/b220419",
+        "locator": "message.abstract (publisher-deposited abstract)",
+        "description": "Primary abstract; it does not establish unreported technical details"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://doi.org/10.1068/b220419",
+    "label": "Publisher record and original access options",
+    "type": "publication-record"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "In brief",
+      "text": "Knight investigates relationships between symmetries of rules and symmetries of the designs those rules generate.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "Question or aim",
+      "text": "What can a designer anticipate about a grammar’s results by examining its rules?",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "Approach described",
+      "text": "The abstract reports establishing correlations between properties of generative rules and their outputs.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "What the abstract supports",
+      "text": "The stated contribution is explanatory and theoretical: understanding grammar behavior and obtaining results about symmetry.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "What remains unverified",
+      "text": "Only the publisher-deposited abstract was reviewed. Exact conditions, groups, proofs and counterexamples are unverified. The abstract does not justify assuming that every symmetric rule preserves the same symmetry in every output.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "Why it may help",
+      "text": "It connects group-theoretic symmetry with the practical question of what a rule can produce.",
+      "evidence": [
+        0
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Read the full symmetry argument",
+      "locator": "Article pp. 419–450; full-text access may be required",
+      "url": "https://doi.org/10.1068/b220419"
+    }
+  ],
+  "terms": []
+}

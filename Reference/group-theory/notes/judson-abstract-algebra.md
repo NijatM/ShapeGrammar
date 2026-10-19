@@ -1,29 +1,49 @@
 # Abstract Algebra: Theory and Applications
 
-Source ID: `judson-abstract-algebra`. Authors: Thomas W. Judson, Robert A. Beezer (Sage material). Year: 2025.
+## Reading guide
 
-Primary beginner group course text: axioms, cyclic/permutation groups, cosets, homomorphisms and actions.
+Review: **selected-sections**, 2026-10-19. Annual Edition 2025 local PDF: preface; §§3.1–3.2 selected triangle and group definitions; §5.2 opening; §14.1 action, orbit and equivalence discussion read.
 
-[Canonical/verification page](https://judsonbooks.org/abstract-algebra-theory-and-applications/) · [Lawful reading link](https://judsonbooks.org/abstract-algebra-theory-and-applications/).
+Later quotient, representation, ring and field arguments and most exercises were not reviewed. This guide covers selected group-theory entry points, not the entire book.
 
-Version: Annual Edition 2025, 1 August 2025 PDF; newer 2026 file also listed on author page.
+## What this book is about
 
-Review scope: Bibliographic record or official landing page inspected; full text and exact claim locators not reviewed.
+A broad undergraduate algebra text combining proof, worked examples and applications. The selected route begins with rigid motions of a triangle, abstracts their shared laws into a group, then studies polygon symmetries and actions on sets. [1](https://judsonbooks.org/aata-files/aata-20250801.pdf) [2](https://judsonbooks.org/aata-files/aata-20250801.pdf) [3](https://judsonbooks.org/aata-files/aata-20250801.pdf)
 
-## Reading locators
+## The essential structure
 
-- §§3.1–3.3: symmetries, group definitions, subgroups (pp. 39–50) — downloaded-PDF-table-of-contents-verified; full definitions require lesson review
-- §4.1: cyclic subgroups (p. 64); §§5.1–5.2: permutations and dihedral groups (pp. 87–98) — downloaded-PDF-table-of-contents-verified; full definitions require lesson review
-- §10.1: normal subgroups and factor groups (p. 183); §11.1: homomorphisms (p. 196) — downloaded-PDF-table-of-contents-verified; full definitions require lesson review
-- §§12.1–12.2: matrix groups and symmetry (pp. 210–223) — downloaded-PDF-table-of-contents-verified; full definitions require lesson review
-- §§14.1–14.3: actions, class equation, Burnside (pp. 239–249) — downloaded-PDF-table-of-contents-verified; full definitions require lesson review
+A group consists of a set and an associative binary operation with an identity and inverses. Commutativity is extra, not required. Composing two triangle motions in reverse orders can produce different results, showing why the operation must be specified. [1](https://judsonbooks.org/aata-files/aata-20250801.pdf)
 
-## Local originals
+## How the explanation develops
 
-- [judson-abstract-algebra.pdf](../../group-theory/originals/judson-abstract-algebra.pdf) — SHA-256 `4f74587b61861b4790d613f2adb64699f90fd1d07760204f1d8fc9fcaf63d14f`
+Concrete symmetry permutations motivate a multiplication table before the axioms are stated. For a regular n-gon, choosing the first vertex image and one of two neighboring images for the second counts 2n motions. Rotation and reflection generate the resulting group. [1](https://judsonbooks.org/aata-files/aata-20250801.pdf) [2](https://judsonbooks.org/aata-files/aata-20250801.pdf)
 
-## Rights
+## Actions turn algebra into motion
 
-GNU Free Documentation License 1.2 or later. No Invariant Sections, Front-Cover Texts or Back-Cover Texts. Preserve unmodified PDF, title and copyright notices and complete GFDL appendix. See GFDL for distribution requirements.
+A left action obeys ex=x and (gh)x=g(hx). Objects connected by some group element are equivalent; their equivalence classes are orbits. This separates a group element from the particular point or configuration on which it acts. [3](https://judsonbooks.org/aata-files/aata-20250801.pdf)
 
-This is a public editorial reference annotation. Bibliographic inclusion does not certify every claim in the work, complete a lesson, or establish a connection to the Monster.
+## Notation worth checking
+
+Judson writes D_n for the n-gon symmetry group of order 2n; other authors use different subscripts. Function composition applies the rightmost map first. Retain these conventions when comparing the book with the square explorer. [1](https://judsonbooks.org/aata-files/aata-20250801.pdf) [2](https://judsonbooks.org/aata-files/aata-20250801.pdf)
+
+## A useful reading task
+
+Reproduce two triangle compositions and see whether they commute. Then identify the group, acted-on set and orbit for one square example. A list of visually similar drawings alone does not specify a group action. [1](https://judsonbooks.org/aata-files/aata-20250801.pdf) [3](https://judsonbooks.org/aata-files/aata-20250801.pdf)
+
+## Key terms
+
+- **Group action**: A compatible rule for a group to transform a set.
+- **Orbit**: All images of one object under an action.
+- **Dihedral group**: The rotations and reflections of a regular polygon.
+
+## Read next
+
+- [Triangle symmetries and group axioms](https://judsonbooks.org/aata-files/aata-20250801.pdf): Preface; §§3.1–3.2, printed pp.43–44
+- [Dihedral group size and generators](https://judsonbooks.org/aata-files/aata-20250801.pdf): §5.2, pp.93–94, Theorems 5.2.2–5.2.3
+- [Actions and their orbits](https://judsonbooks.org/aata-files/aata-20250801.pdf): §14.1, pp.239–240
+
+## Access and preservation
+
+No Invariant Sections, Front-Cover Texts or Back-Cover Texts. Preserve unmodified PDF, title and copyright notices and complete GFDL appendix. See GFDL for distribution requirements.
+
+This annotation is an original reading aid. Consult the linked text for complete arguments, notation and qualifications.

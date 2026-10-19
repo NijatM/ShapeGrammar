@@ -1,24 +1,52 @@
 # The Forty-One Steps
 
-Source ID: `knight-1981-forty-one-steps`. Year: 1981. Contributors as recorded: T Weissman Knight.
+Source ID: `knight-1981-forty-one-steps`. 1981.
 
-Type: journal-article. Venue: Environment and Planning B. Pages: 97–114.
+[Canonical metadata](../metadata/knight-1981-forty-one-steps.json) · [Read abstract and original access options](https://journals.sagepub.com/doi/10.1068/b080097)
 
-[Canonical metadata](../metadata/knight-1981-forty-one-steps.json) · [Source / publication record](https://journals.sagepub.com/doi/10.1068/b080097) · [Reading path](https://journals.sagepub.com/doi/10.1068/b080097)
+## Review scope
 
-Published journal article; historic author name T. Weissman Knight / T. W. Knight.
+**abstract-only.** Publisher abstract read; complete original not retrieved. The abstract does not expose the forty-one steps, corpus size, parameter conditions or individual plan derivations. These have not been checked here.
 
-## Reading purpose
+## In brief
 
-Terry Knight author corpus: The Forty-One Steps. Citation coverage; full text requires separate review. This is a bibliographic entry and reading prompt, not a summary of an unreviewed argument.
+A parameterized shape grammar describes Japanese tearoom floor plans.
 
-## Verification
+Evidence: [Abstract](https://journals.sagepub.com/doi/10.1068/b080097).
 
-Publisher bibliographic record checked; 1981 title/year/pages and author affiliation directly inspected. Full text not reviewed.
+## Question or aim
 
-## Locators
+How can one generative language accommodate several tearoom styles?
 
-Exact claim locators require further full-text review.
+Evidence: [Abstract](https://journals.sagepub.com/doi/10.1068/b080097).
+
+## Approach described
+
+The paper presents a grammar whose variable forms can generate different plans.
+
+Evidence: [Abstract](https://journals.sagepub.com/doi/10.1068/b080097).
+
+## What the abstract supports
+
+The author claims a general language covering a diversity of tearoom styles across four centuries.
+
+Evidence: [Abstract](https://journals.sagepub.com/doi/10.1068/b080097).
+
+## What remains unverified
+
+The abstract does not expose the forty-one steps, corpus size, parameter conditions or individual plan derivations. These have not been checked here.
+
+Evidence: [Abstract](https://journals.sagepub.com/doi/10.1068/b080097).
+
+## Why it may help
+
+This is a promising architectural example of variation within one design language, rather than a universal model of every Japanese building.
+
+Evidence: [Abstract](https://journals.sagepub.com/doi/10.1068/b080097).
+
+## Reading path
+
+- [Read the abstract and locate the original](https://journals.sagepub.com/doi/10.1068/b080097): Abstract.
 
 ## Originals and rights
 

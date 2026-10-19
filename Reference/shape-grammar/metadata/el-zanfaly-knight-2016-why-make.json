@@ -21,7 +21,7 @@
     "computational-making",
     "materiality"
   ],
-  "relevance": "Terry Knight author corpus: Why to Make (almost) Anything: A Human-centered Learning Approach. Citation coverage; full text requires separate review.",
+  "relevance": "El-Zanfaly and Knight propose a guided learning process that connects fabrication skills with independent design and making.",
   "prerequisite_level": "intermediate",
   "prerequisites": [
     "Elementary sets and functions; some proof reading"
@@ -35,13 +35,24 @@
   },
   "local_files": [],
   "existing_local_files": [],
-  "locators": [],
+  "locators": [
+    {
+      "locator": "Opening page: Introduction; Learning through making; Role of the instructor",
+      "status": "selected-sections-reviewed"
+    },
+    {
+      "locator": "ISAM 2016 paper listing",
+      "status": "selected-sections-reviewed"
+    }
+  ],
   "verification": {
-    "scope": "Title, author, year and venue checked in institutional bibliography; exact text not inspected.",
+    "scope": "Indexed primary-text excerpt: introduction and the Learning through making and Role of the instructor sections. The old PDF address currently redirects to the lab homepage. Only the indexed primary excerpt was readable; later examples and any concluding evaluation were not inspected.",
     "source_urls": [
-      "https://computationalmaking.mit.edu/publications/"
+      "https://computationalmaking.mit.edu/publications/",
+      "https://compmaking.scripts.mit.edu/index/wp-content/uploads/2018/08/El-Zanfaly-Knight-Why-to-make.pdf",
+      "https://ijamm.pubpub.org/isam2016"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "selected-sections"
   },
   "annotation_file": "shape-grammar/notes/el-zanfaly-knight-2016-why-make.md",
   "publication_type": "conference-paper"

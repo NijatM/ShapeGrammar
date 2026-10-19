@@ -19,7 +19,7 @@
     "shape-algebras",
     "U12"
   ],
-  "relevance": "Source candidate for U_ij algebras and dimensions; obtain and inspect the defining section before formalizing U_12.",
+  "relevance": "Stiny develops a common algebraic language for drawings, models and symbolic descriptions. It explains why shapes can have recognizable parts that are absent from their stored list of maximal elements.",
   "prerequisite_level": "intermediate",
   "prerequisites": [
     "Elementary sets and functions; some proof reading"
@@ -33,13 +33,27 @@
   },
   "local_files": [],
   "existing_local_files": [],
-  "locators": [],
+  "locators": [
+    {
+      "locator": "pp. 171–174: algebras, maximality and operations",
+      "status": "selected-sections-reviewed"
+    },
+    {
+      "locator": "pp. 174–178: rules, emergence and indeterminacy",
+      "status": "selected-sections-reviewed"
+    },
+    {
+      "locator": "pp. 180–181: languages and coordinated descriptions",
+      "status": "selected-sections-reviewed"
+    }
+  ],
   "verification": {
-    "scope": "Bibliographic record or official landing page inspected; full text and exact claim locators not reviewed.",
+    "scope": "Publisher PDF: shape representation and operations, grammar mechanism, emergence and indeterminacy examples, concluding cross-domain discussion. Selected technical sections and examples were reviewed. The detailed classification of indeterminacy was read for context, not independently proved.",
     "source_urls": [
-      "https://link.springer.com/article/10.1007/BF01578998"
+      "https://link.springer.com/article/10.1007/BF01578998",
+      "https://link.springer.com/content/pdf/10.1007/BF01578998.pdf"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "selected-sections"
   },
   "annotation_file": "shape-grammar/notes/stiny-1991-algebras.md"
 }

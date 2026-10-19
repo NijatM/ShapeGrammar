@@ -36,16 +36,23 @@
   "existing_local_files": [],
   "locators": [
     {
-      "locator": "Chapter 1: Basic Definitions and Results; Chapter 4: Groups Acting on Sets; Chapter 7: Representations of Finite Groups",
-      "status": "web-PDF-contents-verified"
+      "locator": "Chapter 4 pp.57–59, Definitions 4.1 and stabilizers",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf"
+    },
+    {
+      "locator": "Chapter 7 pp.101–105, Theorem 7.4 and proofs",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf"
     }
   ],
   "verification": {
-    "scope": "Author page and PDF front matter inspected through web tool. Direct HTTP download returned 406; no local PDF claimed.",
+    "scope": "Version 4.01 PDF: front matter, Chapter 4 pp.57–59 and Chapter 7 pp.101–105 read, including both Maschke proof approaches. No full-book review is claimed; later character theory, classifications and exercise solutions were not checked. Definitions and proof architecture were read, not formally verified.",
     "source_urls": [
-      "https://www.jmilne.org/math/CourseNotes/gt.html"
+      "https://www.jmilne.org/math/CourseNotes/gt.html",
+      "https://www.jmilne.org/math/CourseNotes/GT.pdf"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "selected-sections"
   },
   "annotation_file": "group-theory/notes/milne-group-theory.md"
 }

@@ -1,24 +1,52 @@
 # Shape Grammars and Color Grammars in Design
 
-Source ID: `knight-1994-shape-grammars-and-color-grammars-in-design`. Year: 1994. Contributors as recorded: T W Knight.
+Source ID: `knight-1994-shape-grammars-and-color-grammars-in-design`. 1994.
 
-Type: journal-article. Venue: Environment and Planning B: Planning and Design. Pages: 705-735.
+[Canonical metadata](../metadata/knight-1994-shape-grammars-and-color-grammars-in-design.json) · [Read abstract and original access options](https://journals.sagepub.com/doi/10.1068/b210705)
 
-[Canonical metadata](../metadata/knight-1994-shape-grammars-and-color-grammars-in-design.json) · [Source / publication record](https://doi.org/10.1068/b210705) · [Reading path](https://doi.org/10.1068/b210705)
+## Review scope
 
-Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.
+**abstract-only.** Publisher abstract read; complete original not retrieved. Only the official abstract was read. Specific exercises, design examples and their evaluation have not been checked; the abstract reports no controlled test or quantitative outcome.
 
-## Reading purpose
+## In brief
 
-Terry Knight author corpus: color and material extensions of grammar research. This is a bibliographic entry and reading prompt, not a summary of an unreviewed argument.
+The paper moves from using grammars to analyze existing designs toward developing original grammars and designs.
 
-## Verification
+Evidence: [Abstract](https://journals.sagepub.com/doi/10.1068/b210705).
 
-Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.
+## Question or aim
 
-## Locators
+How can ideas for making new shape grammars extend to color grammars?
 
-Exact claim locators require further full-text review.
+Evidence: [Abstract](https://journals.sagepub.com/doi/10.1068/b210705).
+
+## Approach described
+
+Knight presents recent original design work, then extends the underlying ideas to grammars that also handle color.
+
+Evidence: [Abstract](https://journals.sagepub.com/doi/10.1068/b210705).
+
+## What the abstract supports
+
+The abstract supports a methodological extension from shape-grammar construction to color-grammar construction.
+
+Evidence: [Abstract](https://journals.sagepub.com/doi/10.1068/b210705).
+
+## What remains unverified
+
+Only the official abstract was read. Specific exercises, design examples and their evaluation have not been checked; the abstract reports no controlled test or quantitative outcome.
+
+Evidence: [Abstract](https://journals.sagepub.com/doi/10.1068/b210705).
+
+## Why it may help
+
+It is a useful reading target when moving from reconstructing a known style to inventing your own rule system.
+
+Evidence: [Abstract](https://journals.sagepub.com/doi/10.1068/b210705).
+
+## Reading path
+
+- [Read the abstract and locate the original](https://journals.sagepub.com/doi/10.1068/b210705): Abstract.
 
 ## Originals and rights
 

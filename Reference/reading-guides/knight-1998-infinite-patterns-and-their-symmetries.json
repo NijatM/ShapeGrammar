@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-1998-infinite-patterns-and-their-symmetries",
+  "kind": "generative symmetry analysis",
+  "review": {
+    "level": "abstract-only",
+    "material": "Read the abstract excerpt for this title on Knight’s public author profile; full original not retrieved.",
+    "limitations": "The full article and complete abstract were not available here. Particular symmetry claims and examples remain unverified.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://www.researchgate.net/profile/Terry-Knight",
+        "locator": "Publication list: Infinite Patterns and Their Symmetries (1998)",
+        "description": "Primary abstract; it does not establish unreported technical details"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://www.jstor.org/stable/1576670",
+    "label": "Original article record and access options",
+    "type": "publication-record"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "In brief",
+      "text": "Knight examines ambiguities in representing, constructing and classifying infinite patterns, focusing on friezes.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "Question or aim",
+      "text": "What changes when patterns are understood through the rules that construct them?",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "Approach described",
+      "text": "The abstract excerpt describes a generative reading of frieze patterns.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "What the abstract supports",
+      "text": "It identifies a conceptual investigation, but the excerpt does not specify the unusual properties or conclusions.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "What remains unverified",
+      "text": "The full article and complete abstract were not available here. Particular symmetry claims and examples remain unverified.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "Why it may help",
+      "text": "It is a reading target for connecting rule-based construction with group-theoretic classification.",
+      "evidence": [
+        0
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Read the original pattern analysis",
+      "locator": "Leonardo 31(4), pp. 305–312",
+      "url": "https://www.jstor.org/stable/1576670"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "source_id": "stiny-1975-pictorial",
+  "kind": "monograph",
+  "review": {
+    "level": "abstract-only",
+    "material": "Publisher-hosted Introduction and pictorial/formal chapter abstracts read, alongside the official contents.",
+    "limitations": "Full chapters, formal proofs, painting specifications and aesthetic-system examples were not accessible in this review. This is a guide to the stated research program, not a verified summary of the whole book.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://link.springer.com/chapter/10.1007/978-3-0348-6879-2_1",
+        "locator": "Introduction abstract, chapter pp.1–2",
+        "description": "Author’s overview of the two-part research program"
+      },
+      {
+        "url": "https://link.springer.com/chapter/10.1007/978-3-0348-6879-2_2",
+        "locator": "Pictorial Model abstract, chapter pp.4–116",
+        "description": "Visual development of shapes, relations and generation"
+      },
+      {
+        "url": "https://link.springer.com/chapter/10.1007/978-3-0348-6879-2_3",
+        "locator": "Formal Model abstract, chapter pp.117–288",
+        "description": "Scope of the formal model"
+      },
+      {
+        "url": "https://link.springer.com/book/10.1007/978-3-0348-6879-2",
+        "locator": "Table of contents",
+        "description": "Locations of painting, aesthetic-system and algorithm chapters"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://link.springer.com/book/10.1007/978-3-0348-6879-2",
+    "label": "Open publisher record and chapter access",
+    "type": "publication-record"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What the book sets out to do",
+      "text": "Develop shape grammars through both visual and formal accounts, then connect generative descriptions of paintings with algorithmic approaches to criticism and design.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "The stated premise",
+      "text": "Definitions should be visually persuasive while supporting productive formal reasoning. The pictorial account studies shapes, relations and generation; the formal counterpart treats languages of two-dimensional rectilinear shapes.",
+      "evidence": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "How the project is organized",
+      "text": "A visual introduction precedes a mathematical development requiring formal-language and automata knowledge. Later chapters introduce generative specifications of paintings, define aesthetic systems, and combine them with criticism and design algorithms.",
+      "evidence": [
+        0,
+        3
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "What the accessible material does not show",
+      "text": "The abstracts describe the project’s architecture but do not expose enough detail to check its proofs, algorithms or concrete examples. In particular, no computational-universality result is asserted here from a chapter heading alone.",
+      "evidence": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "A useful route into the original",
+      "text": "Begin with the pictorial model for intuition; follow the formal model to inspect definitions and assumptions. Then ask how the painting specifications and aesthetic system depend on those choices.",
+      "evidence": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Author’s overview of the two-part research program",
+      "locator": "Introduction abstract, chapter pp.1–2",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-0348-6879-2_1"
+    },
+    {
+      "label": "Visual development of shapes, relations and generation",
+      "locator": "Pictorial Model abstract, chapter pp.4–116",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-0348-6879-2_2"
+    },
+    {
+      "label": "Scope of the formal model",
+      "locator": "Formal Model abstract, chapter pp.117–288",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-0348-6879-2_3"
+    },
+    {
+      "label": "Locations of painting, aesthetic-system and algorithm chapters",
+      "locator": "Table of contents",
+      "url": "https://link.springer.com/book/10.1007/978-3-0348-6879-2"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Generative specification",
+      "meaning": "A procedural account of how an artwork or class of artworks is produced."
+    },
+    {
+      "term": "Formal language",
+      "meaning": "A collection of expressions or shapes characterized by explicit rules."
+    }
+  ]
+}

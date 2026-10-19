@@ -25,7 +25,7 @@
   "prerequisites": [
     "Elementary sets and functions; some proof reading"
   ],
-  "access_date": "2026-10-18",
+  "access_date": "2026-10-19",
   "license_redistribution": {
     "status": "link-only",
     "license": null,
@@ -34,15 +34,20 @@
   },
   "local_files": [],
   "existing_local_files": [],
-  "locators": [],
+  "locators": [
+    {
+      "locator": "message.abstract (publisher-deposited abstract)",
+      "status": "abstract-only-reviewed"
+    }
+  ],
   "verification": {
-    "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+    "scope": "Publisher-deposited abstract read directly through the public Crossref record; full article not retrieved. Only the publisher-deposited Crossref abstract was read. The exact similarity formula, worked cases and qualifications require the complete article; no perceptual validation or statistical performance is established here.",
     "source_urls": [
       "https://api.crossref.org/works/10.1068/b150073",
       "https://architecture.mit.edu/people/terry-knight",
       "https://www.mit.edu/~tknight/IJDC/page_references.htm"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "abstract-only"
   },
   "annotation_file": "shape-grammar/notes/knight-1988-comparing-designs.md",
   "publication_type": "journal-article",

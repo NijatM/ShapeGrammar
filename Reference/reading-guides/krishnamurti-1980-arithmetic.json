@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "source_id": "krishnamurti-1980-arithmetic",
+  "kind": "Algorithmic paper",
+  "review": {
+    "level": "selected-sections",
+    "material": "Author-hosted original inspected for rational coordinates, line representation, Boolean algorithms and data structures; printed pp. 470–471 also checked as page images.",
+    "limitations": "The pseudocode was read for its structure, not independently implemented or formally verified. Operation-count bounds are not modern machine benchmarks.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb070463-arithmeticOfShapes.pdf#page=1",
+        "locator": "pp. 463–467: rational shapes and representation",
+        "description": "Defines exact rational coordinates and ordered maximal-line lists."
+      },
+      {
+        "url": "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb070463-arithmeticOfShapes.pdf#page=6",
+        "locator": "pp. 468–473: algorithms and their bounds",
+        "description": "Derives union, difference, intersection, parthood and equality procedures."
+      },
+      {
+        "url": "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb070463-arithmeticOfShapes.pdf#page=12",
+        "locator": "pp. 474–484: decomposition and data structures",
+        "description": "Explains ordered-list/tree organization and implementation routines."
+      }
+    ]
+  },
+  "original": {
+    "url": "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb070463-arithmeticOfShapes.pdf#page=1",
+    "label": "Read original text",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "In brief",
+      "text": "Krishnamurti turns shape arithmetic into algorithms: combine line content, remove it, keep common intervals, test parthood and compare shapes. The emphasis is choosing a representation that makes geometric coverage computable.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "question",
+      "title": "The question",
+      "text": "How can a program manipulate shapes geometrically, including parts that were never separate drawing objects, without relying on approximate coordinate equality?",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "Main idea or claim",
+      "text": "Exact rational coordinates and maximal-line organization support systematic Boolean operations on shapes and labelled shapes. Drawing order is replaced by geometric ordering.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "How the work approaches it",
+      "text": "Group collinear maximal segments by their supporting-line descriptor, then order their endpoints. Compare compatible lists with advancing scans; handle labelled points through corresponding set operations. Later routines organize updates with linked lists and balanced trees.",
+      "evidence": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "Evidence and examples",
+      "text": "The paper supplies pseudocode, correctness arguments and interval-case diagrams. Figure 5 distinguishes shortening, splitting and deleting a line during subtraction; Figure 6 gives the corresponding intersections.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "What comes out of it",
+      "text": "For already ordered, same-carrier lists, union, difference and intersection have linear operation-count bounds in the combined list lengths. These local bounds should not be read as a universal bound for unrestricted rule matching.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "Limits to keep in mind",
+      "text": "This is analytical algorithm development, not a user experiment or timing study. Rational line shapes and labelled points are the stated setting; finding the transformations for rule application is pursued in the 1981 companion paper.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "What to take from it",
+      "text": "Think coverage and maximal segments rather than original strokes. Read representation first, then trace subtraction on two overlapping intervals before tackling the implementation data structures.",
+      "evidence": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "pp. 463–467: rational shapes and representation",
+      "locator": "Defines exact rational coordinates and ordered maximal-line lists.",
+      "url": "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb070463-arithmeticOfShapes.pdf#page=1"
+    },
+    {
+      "label": "pp. 468–473: algorithms and their bounds",
+      "locator": "Derives union, difference, intersection, parthood and equality procedures.",
+      "url": "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb070463-arithmeticOfShapes.pdf#page=6"
+    },
+    {
+      "label": "pp. 474–484: decomposition and data structures",
+      "locator": "Explains ordered-list/tree organization and implementation routines.",
+      "url": "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb070463-arithmeticOfShapes.pdf#page=12"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Maximal line",
+      "meaning": "A segment not extendable using additional collinear content already in the shape."
+    },
+    {
+      "term": "Supporting-line descriptor",
+      "meaning": "The slope/intercept information that groups segments lying on the same infinite line."
+    }
+  ]
+}

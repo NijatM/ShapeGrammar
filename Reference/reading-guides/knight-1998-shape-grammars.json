@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-1998-shape-grammars",
+  "kind": "anniversary journal contribution",
+  "review": {
+    "level": "bibliographic-only",
+    "material": "Bibliographic identity corroborated by the author’s publication list and the publisher-deposited record already held in the catalogue.",
+    "limitations": "No original text or substantive official abstract was retrieved. The generic title is insufficient for a content summary.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://www.researchgate.net/profile/Terry-Knight",
+        "locator": "Publication list: Shape Grammars, December 1998",
+        "description": "Author-profile listing corroborates the item"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://journals.sagepub.com/doi/10.1177/239980839802500714",
+    "label": "Publisher record — text not reviewed",
+    "type": "publication-record"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What is identified",
+      "text": "A six-page contribution titled Shape Grammars appears in the journal’s 1998 anniversary issue, pp. 86–91.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "What is still unavailable",
+      "text": "Its detailed purpose, claims, method and conclusion were not verified. Descriptions of other Knight papers should not be used to fill these gaps.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "How to continue",
+      "text": "Follow the publisher record for the original. This item differs from the 1998 chapter Designing a Shape Grammar and from the 1999 classification papers.",
+      "evidence": [
+        0
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Locate the anniversary contribution",
+      "locator": "1998 anniversary issue, pp. 86–91",
+      "url": "https://journals.sagepub.com/doi/10.1177/239980839802500714"
+    }
+  ],
+  "terms": []
+}

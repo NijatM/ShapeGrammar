@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "source_id": "borcherds-1998-problems",
+  "kind": "historical-problem-survey",
+  "review": {
+    "level": "full-text",
+    "material": "All eight pages of the author-hosted text read, including Problems 1–15 and references.",
+    "limitations": "Historical research agenda associated with the 1998 meeting and 2001 publication. No listed problem is asserted to remain open today; proposed solutions and cited constructions were not independently checked.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://math.berkeley.edu/~reb/papers/iccm/iccm.pdf",
+        "locator": "PDF pp.1–2, opening and Problems 1–2",
+        "description": "Background and questions about natural and integral constructions"
+      },
+      {
+        "url": "https://math.berkeley.edu/~reb/papers/iccm/iccm.pdf",
+        "locator": "PDF pp.3–4, Problems 3–10",
+        "description": "Generalizations, Lie algebras and reflection groups"
+      },
+      {
+        "url": "https://math.berkeley.edu/~reb/papers/iccm/iccm.pdf",
+        "locator": "PDF pp.5–6, Problems 11–15",
+        "description": "Geometric and analytic research directions"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://math.berkeley.edu/~reb/papers/iccm/iccm.pdf",
+    "label": "Read the original source",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Purpose of the paper",
+      "text": "A research agenda explaining what Borcherds found unsatisfactory or unexplained after the original moonshine theorem.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "Central questions",
+      "text": "Can the Monster vertex algebra be constructed more naturally? Can suitable integral forms connect its characteristic-zero and modular behavior? How far can moonshine extend?",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "How problems are developed",
+      "text": "Each numbered question combines known constructions, a precise desired improvement and possible routes forward. Some proposals are deliberately speculative, especially links to geometry and physics.",
+      "evidence": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "Examples of the agenda",
+      "text": "Problem 4 concerns commuting pairs rather than single group elements. Problems 6–8 seek classifications and natural realizations of generalized Kac–Moody algebras and related reflection groups.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "Outcome and how to use it",
+      "text": "The outcome is fifteen questions, not fifteen proved results or experiments. Read it to understand how anomalies become research programs; trace subsequent literature before treating any question as unresolved.",
+      "evidence": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Background and questions about natural and integral constructions",
+      "locator": "PDF pp.1–2, opening and Problems 1–2",
+      "url": "https://math.berkeley.edu/~reb/papers/iccm/iccm.pdf"
+    },
+    {
+      "label": "Generalizations, Lie algebras and reflection groups",
+      "locator": "PDF pp.3–4, Problems 3–10",
+      "url": "https://math.berkeley.edu/~reb/papers/iccm/iccm.pdf"
+    },
+    {
+      "label": "Geometric and analytic research directions",
+      "locator": "PDF pp.5–6, Problems 11–15",
+      "url": "https://math.berkeley.edu/~reb/papers/iccm/iccm.pdf"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Integral form",
+      "meaning": "A compatible structure over integers underlying a rational or complex one."
+    },
+    {
+      "term": "Centralizer",
+      "meaning": "The subgroup commuting with a chosen element."
+    }
+  ]
+}

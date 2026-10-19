@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "source_id": "krishnamurti-stouffs-1997-spatial",
+  "kind": "Formal research paper",
+  "review": {
+    "level": "selected-sections",
+    "material": "Author-hosted paper: introduction and the sections on continuity, reversibility and recognition.",
+    "limitations": "The central arguments and illustrative cases were reviewed; the full technical case classification has not been independently verified.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb240359-spatialChange.pdf",
+        "locator": "pp. 359–364: spatial change and continuity",
+        "description": "Rule application and compatible descriptions of successive shapes."
+      },
+      {
+        "url": "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb240359-spatialChange.pdf",
+        "locator": "pp. 369–371: reversibility",
+        "description": "Loss of overlap information and requirements for reversing a change."
+      },
+      {
+        "url": "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb240359-spatialChange.pdf",
+        "locator": "pp. 372–383: recognition",
+        "description": "Geometric constraints on recognizing rule instances."
+      }
+    ]
+  },
+  "original": {
+    "url": "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb240359-spatialChange.pdf",
+    "label": "Read original text",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "In brief",
+      "text": "Spatial change is examined through three connected questions: can successive descriptions remain compatible, can a change be reversed, and can the part to change be recognized? Shape arithmetic links these questions.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "The question",
+      "text": "What must a computational description preserve when a rule removes an embedded part and adds another? Geometry alone can conceal the distinctions needed to explain or reverse a computation.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "Main idea or claim",
+      "text": "A rule application can be written S − t(A) + t(B), but its structural description, reversibility and recognition conditions require separate analysis. Fused geometry does not automatically retain its construction history.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "How the work approaches it",
+      "text": "The authors work with shape algebras and products, introduce compatible finite part descriptions for continuity, analyze inverse changes algebraically, and classify geometric configurations by the constraints they impose on transformations.",
+      "evidence": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "Evidence and examples",
+      "text": "Support comes from equations, geometric cases and architectural illustrations, including emergent readings of a Leonardo plan. It is a formal investigation, rather than a statistical evaluation of design users.",
+      "evidence": [
+        0,
+        2
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "What comes out of it",
+      "text": "Continuity concerns relations between chosen descriptions. Reversing the arrow is insufficient when overlap has erased provenance; recording the relevant overlap information can support reversal. Recognition depends on the freedoms remaining after geometric constraints are imposed.",
+      "evidence": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "Limits to keep in mind",
+      "text": "Topological continuity here does not mean smooth animation. A history-based undo operation is also different from proving a rule globally invertible. The exact algebra and host-shape conditions determine which claims apply.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "What to take from it",
+      "text": "When designing a shape system, keep geometry, the interpretation of its parts, and its recorded history distinct. Each answers a different question about the same visible change.",
+      "evidence": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "pp. 359–364: spatial change and continuity",
+      "locator": "Rule application and compatible descriptions of successive shapes.",
+      "url": "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb240359-spatialChange.pdf"
+    },
+    {
+      "label": "pp. 369–371: reversibility",
+      "locator": "Loss of overlap information and requirements for reversing a change.",
+      "url": "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb240359-spatialChange.pdf"
+    },
+    {
+      "label": "pp. 372–383: recognition",
+      "locator": "Geometric constraints on recognizing rule instances.",
+      "url": "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb240359-spatialChange.pdf"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Continuity",
+      "meaning": "Compatibility of structural descriptions across a rule application."
+    },
+    {
+      "term": "Reversibility",
+      "meaning": "Whether the earlier shape can be recovered under stated information and algebraic conditions."
+    }
+  ]
+}

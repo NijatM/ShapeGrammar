@@ -1,25 +1,47 @@
 # Useless Rules
 
-Source ID: `stiny-1996-useless`. Authors: George Stiny. Year: 1996.
+Source ID: `stiny-1996-useless`. Year: 1996. Contributors as recorded: George Stiny.
 
-Identity rules provide a route to discussing recognition without geometric change.
+[Canonical metadata](../metadata/stiny-1996-useless.json) · [Structured reading guide](../../reading-guides/stiny-1996-useless.json) · [Original source](https://journals.sagepub.com/doi/10.1068/b230235)
 
-[Canonical/verification page](https://journals.sagepub.com/doi/10.1068/b230235) · [Lawful reading link](https://journals.sagepub.com/doi/10.1068/b230235).
+## Material inspected
 
-Version: Version of record unless otherwise noted.
+The complete publisher-deposited abstract and official publication record were read.
 
-Review scope: Bibliographic record or official landing page inspected; full text and exact claim locators not reviewed.
+Review level: **abstract-only**. The three-page argument and examples were inaccessible.
 
-## Reading locators
+## What it is about
 
-- Exact claim/page locators still require full-text review.
+The note concerns identity rules A → A: rules whose two sides are the same shape.
 
-## Local originals
+[Public abstract](https://journals.sagepub.com/doi/10.1068/b230235) · [Publisher-deposited abstract](https://api.crossref.org/works/10.1068/b230235)
 
-- Reading link only; no new original mirrored here.
+## Central claim
 
-## Rights
+Stiny’s abstract says an identity can restructure a shape while leaving the shape itself unchanged. Geometric output and the structure recognized in it are distinguished.
 
-No redistribution license verified. No public redistribution permission verified; citation and lawful reading link only.
+[Public abstract](https://journals.sagepub.com/doi/10.1068/b230235) · [Publisher-deposited abstract](https://api.crossref.org/works/10.1068/b230235)
 
-This is a public editorial reference annotation. Bibliographic inclusion does not certify every claim in the work, complete a lesson, or establish a connection to the Monster.
+## What remains to be read
+
+The abstract states the idea but does not give the note’s formal account or worked diagrams. These cannot be reconstructed responsibly from the title alone.
+
+[Public abstract](https://journals.sagepub.com/doi/10.1068/b230235) · [Publisher-deposited abstract](https://api.crossref.org/works/10.1068/b230235)
+
+## Reading boundary
+
+No full-text definitions, proof or examples were inspected. The title is not a claim that identities have no perceptual role.
+
+[Public abstract](https://journals.sagepub.com/doi/10.1068/b230235) · [Publisher-deposited abstract](https://api.crossref.org/works/10.1068/b230235)
+
+## A small reading prompt
+
+Look at an unchanged drawing in two different ways and record the parts you recognize each time. This is a suggested exploration of the distinction, not an example attributed to the paper.
+
+[Public abstract](https://journals.sagepub.com/doi/10.1068/b230235) · [Publisher-deposited abstract](https://api.crossref.org/works/10.1068/b230235)
+
+## Originals and rights
+
+No public redistribution permission verified; citation and lawful reading link only.
+
+[Rights evidence](https://journals.sagepub.com/doi/10.1068/b230235).

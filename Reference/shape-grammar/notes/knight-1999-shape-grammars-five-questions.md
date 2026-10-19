@@ -1,24 +1,52 @@
 # Shape Grammars: Five Questions
 
-Source ID: `knight-1999-shape-grammars-five-questions`. Year: 1999. Contributors as recorded: T W Knight.
+Source ID: `knight-1999-shape-grammars-five-questions`. 1999.
 
-Type: journal-article. Venue: Environment and Planning B: Planning and Design. Pages: 477-501.
+[Canonical metadata](../metadata/knight-1999-shape-grammars-five-questions.json) · [Read abstract and original access options](https://journals.sagepub.com/doi/10.1068/b260477)
 
-[Canonical metadata](../metadata/knight-1999-shape-grammars-five-questions.json) · [Source / publication record](https://doi.org/10.1068/b260477) · [Reading path](https://doi.org/10.1068/b260477)
+## Review scope
 
-Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.
+**abstract-only.** Publisher abstract read; complete original not retrieved. Only the official abstract was reviewed. It does not enumerate the five questions or state their individual answers; no decision table or algorithmic guarantee is invented here.
 
-## Reading purpose
+## In brief
 
-Terry Knight author corpus: shape grammar theory, design, implementation, or teaching. This is a bibliographic entry and reading prompt, not a summary of an unreviewed argument.
+The companion to “Six Types” examines five questions for each grammar class.
 
-## Verification
+Evidence: [Abstract](https://journals.sagepub.com/doi/10.1068/b260477).
 
-Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.
+## Question or aim
 
-## Locators
+Which practically useful questions about a grammar are answerable or solvable?
 
-Exact claim locators require further full-text review.
+Evidence: [Abstract](https://journals.sagepub.com/doi/10.1068/b260477).
+
+## Approach described
+
+The paper studies each question against the six classes previously defined through restrictions on rule format and ordering.
+
+Evidence: [Abstract](https://journals.sagepub.com/doi/10.1068/b260477).
+
+## What the abstract supports
+
+The abstract identifies a class-by-question analysis motivated by design constraints as well as theoretical interest.
+
+Evidence: [Abstract](https://journals.sagepub.com/doi/10.1068/b260477).
+
+## What remains unverified
+
+Only the official abstract was reviewed. It does not enumerate the five questions or state their individual answers; no decision table or algorithmic guarantee is invented here.
+
+Evidence: [Abstract](https://journals.sagepub.com/doi/10.1068/b260477).
+
+## Why it may help
+
+Read “Six Types” first. Classification and decidability are different tasks: identifying a class is not itself an answer to every question about its designs.
+
+Evidence: [Abstract](https://journals.sagepub.com/doi/10.1068/b260477).
+
+## Reading path
+
+- [Read the abstract and locate the original](https://journals.sagepub.com/doi/10.1068/b260477): Abstract.
 
 ## Originals and rights
 

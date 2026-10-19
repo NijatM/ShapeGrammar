@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "source_id": "button-set-theory",
+  "kind": "textbook",
+  "review": {
+    "level": "selected-sections",
+    "material": "Pinned local PDF: §§2.1, 2.6, 5.8 and 8.1–8.4 read, including the extensionality, Russell and Cantor arguments and the iterative-conception discussion.",
+    "limitations": "The axiomatic development after this selected discussion, ordinal theory and later independence topics were not reviewed. The philosophical motivation is not a formal consistency proof.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://st.openlogicproject.org/settheory-screen.pdf",
+        "locator": "§2.1 pp.14–15; §2.6 pp.24–25 (printed pagination)",
+        "description": "Extensionality and limits of unrestricted set formation"
+      },
+      {
+        "url": "https://st.openlogicproject.org/settheory-screen.pdf",
+        "locator": "§5.8 pp.63–64, Theorem 5.16",
+        "description": "Cantor’s theorem and diagonal construction"
+      },
+      {
+        "url": "https://st.openlogicproject.org/settheory-screen.pdf",
+        "locator": "§§8.1–8.4, especially pp.109–111 and 114–115",
+        "description": "From Russell’s contradiction to cumulative stages"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://st.openlogicproject.org/",
+    "label": "Read the original source",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What this book is about",
+      "text": "The selected route asks both how sets behave and which collections may legitimately be sets. It begins with familiar membership-based reasoning, exposes a contradiction in unrestricted set formation, and motivates a staged picture for more disciplined foundations.",
+      "evidence": [
+        0,
+        2
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "Premise and main claims",
+      "text": "Extensionality says sets with exactly the same members are identical; it does not guarantee that every description defines an existing set. Russell’s proposed collection of all non-self-membered sets yields a contradiction when tested for membership in itself.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "Method of argument",
+      "text": "The text separates definitions, existence assumptions and logical consequences. In Cantor’s argument, assume a bijection g from A onto its power set and form D={x∈A:x∉g(x)}. No proposed image g(y)=D can survive the membership test at y.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "Results and interpretation",
+      "text": "The singleton map injects A into its power set, while diagonalization rules out a bijection: the power set is strictly larger. Later, cumulative stages motivate forming sets from already available members rather than collecting everything described by an arbitrary predicate.",
+      "evidence": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "What this does not establish",
+      "text": "Avoiding Russell’s particular contradiction does not by itself prove an entire axiom system consistent. The stage story is conceptual motivation. The formal axioms and their later consequences require their own careful reading.",
+      "evidence": [
+        2
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "Why read it alongside the app",
+      "text": "Use this when elementary set notation starts feeling deceptively unrestricted. Keep three questions separate: what a collection would contain, whether it exists as a set, and how its size compares with another set.",
+      "evidence": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Extensionality and limits of unrestricted set formation",
+      "locator": "§2.1 pp.14–15; §2.6 pp.24–25 (printed pagination)",
+      "url": "https://st.openlogicproject.org/settheory-screen.pdf"
+    },
+    {
+      "label": "Cantor’s theorem and diagonal construction",
+      "locator": "§5.8 pp.63–64, Theorem 5.16",
+      "url": "https://st.openlogicproject.org/settheory-screen.pdf"
+    },
+    {
+      "label": "From Russell’s contradiction to cumulative stages",
+      "locator": "§§8.1–8.4, especially pp.109–111 and 114–115",
+      "url": "https://st.openlogicproject.org/settheory-screen.pdf"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Extensionality",
+      "meaning": "Set identity determined by membership."
+    },
+    {
+      "term": "Unrestricted comprehension",
+      "meaning": "The inconsistent proposal that every predicate determines a set."
+    },
+    {
+      "term": "Diagonalization",
+      "meaning": "Building an object that differs from every proposed representative."
+    }
+  ]
+}

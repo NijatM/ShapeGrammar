@@ -1,24 +1,52 @@
 # Constructive Symmetry
 
-Source ID: `knight-1995-constructive-symmetry`. Year: 1995. Contributors as recorded: T W Knight.
+Source ID: `knight-1995-constructive-symmetry`. 1995.
 
-Type: journal-article. Venue: Environment and Planning B: Planning and Design. Pages: 419-450.
+[Canonical metadata](../metadata/knight-1995-constructive-symmetry.json) · [Publisher record and original access options](https://doi.org/10.1068/b220419)
 
-[Canonical metadata](../metadata/knight-1995-constructive-symmetry.json) · [Source / publication record](https://doi.org/10.1068/b220419) · [Reading path](https://doi.org/10.1068/b220419)
+## Review scope
 
-Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.
+**abstract-only.** Publisher-deposited abstract read directly through the public Crossref record; full article not retrieved. Only the publisher-deposited abstract was reviewed. Exact conditions, groups, proofs and counterexamples are unverified. The abstract does not justify assuming that every symmetric rule preserves the same symmetry in every output.
 
-## Reading purpose
+## In brief
 
-Terry Knight author corpus: symmetry and pattern construction. This is a bibliographic entry and reading prompt, not a summary of an unreviewed argument.
+Knight investigates relationships between symmetries of rules and symmetries of the designs those rules generate.
 
-## Verification
+Evidence: [message.abstract (publisher-deposited abstract)](https://api.crossref.org/works/10.1068/b220419).
 
-Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.
+## Question or aim
 
-## Locators
+What can a designer anticipate about a grammar’s results by examining its rules?
 
-Exact claim locators require further full-text review.
+Evidence: [message.abstract (publisher-deposited abstract)](https://api.crossref.org/works/10.1068/b220419).
+
+## Approach described
+
+The abstract reports establishing correlations between properties of generative rules and their outputs.
+
+Evidence: [message.abstract (publisher-deposited abstract)](https://api.crossref.org/works/10.1068/b220419).
+
+## What the abstract supports
+
+The stated contribution is explanatory and theoretical: understanding grammar behavior and obtaining results about symmetry.
+
+Evidence: [message.abstract (publisher-deposited abstract)](https://api.crossref.org/works/10.1068/b220419).
+
+## What remains unverified
+
+Only the publisher-deposited abstract was reviewed. Exact conditions, groups, proofs and counterexamples are unverified. The abstract does not justify assuming that every symmetric rule preserves the same symmetry in every output.
+
+Evidence: [message.abstract (publisher-deposited abstract)](https://api.crossref.org/works/10.1068/b220419).
+
+## Why it may help
+
+It connects group-theoretic symmetry with the practical question of what a rule can produce.
+
+Evidence: [message.abstract (publisher-deposited abstract)](https://api.crossref.org/works/10.1068/b220419).
+
+## Reading path
+
+- [Read the full symmetry argument](https://doi.org/10.1068/b220419): Article pp. 419–450; full-text access may be required.
 
 ## Originals and rights
 

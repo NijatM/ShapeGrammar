@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "source_id": "hefferon-linear-algebra",
+  "kind": "textbook",
+  "review": {
+    "level": "selected-sections",
+    "material": "Fourth-edition author-hosted PDF (preface dated April 26, 2020): preface and selected pages 84–85, 191–192 and 212–213 read.",
+    "limitations": "Not a complete book review. Later determinant/eigenvalue arguments and exercise solutions were not reviewed. The author site may offer newer builds; locators refer to the inspected fourth-edition reading copy.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://jheffero.w3.uvm.edu/linearalgebra/book.pdf",
+        "locator": "Preface; Chapter Two I.1, pp.84–85",
+        "description": "Developmental approach and vector-space structure"
+      },
+      {
+        "url": "https://jheffero.w3.uvm.edu/linearalgebra/book.pdf",
+        "locator": "Chapter Three II.1, pp.191–192",
+        "description": "Linear maps, projection and counterexamples"
+      },
+      {
+        "url": "https://jheffero.w3.uvm.edu/linearalgebra/book.pdf",
+        "locator": "Chapter Three III.1, pp.212–213",
+        "description": "Matrix representation using chosen bases"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://jheffero.w3.uvm.edu/linearalgebra/book.pdf",
+    "label": "Read inspected fourth-edition PDF",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What this book provides",
+      "text": "A first linear-algebra text that develops proof alongside computation. The selected route explains what vectors and linear maps preserve before introducing matrices as coordinate descriptions.",
+      "evidence": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "The main ideas",
+      "text": "A vector space carries addition and scalar multiplication satisfying explicit laws. A linear map preserves both. Such a map need not be invertible: projection can preserve linear structure while losing information.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "How the examples teach the distinction",
+      "text": "The text verifies closure for a line through the origin and checks projection directly. A nonzero constant offset gives a contrasting map that fails linearity. Definitions therefore distinguish superficially similar formulas.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "Why matrices enter",
+      "text": "A linear map is determined by its images on a basis. Express those images in the target basis and place their coordinate columns in a matrix; multiplication then computes image coordinates.",
+      "evidence": [
+        2
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "Connection to symmetry",
+      "text": "Keep the abstract transformation separate from its matrix in a chosen basis. This prepares for group representations, where transformations must compose consistently and be invertible, not merely be arbitrary matrices.",
+      "evidence": [
+        1,
+        2
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Developmental approach and vector-space structure",
+      "locator": "Preface; Chapter Two I.1, pp.84–85",
+      "url": "https://jheffero.w3.uvm.edu/linearalgebra/book.pdf"
+    },
+    {
+      "label": "Linear maps, projection and counterexamples",
+      "locator": "Chapter Three II.1, pp.191–192",
+      "url": "https://jheffero.w3.uvm.edu/linearalgebra/book.pdf"
+    },
+    {
+      "label": "Matrix representation using chosen bases",
+      "locator": "Chapter Three III.1, pp.212–213",
+      "url": "https://jheffero.w3.uvm.edu/linearalgebra/book.pdf"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Linear map",
+      "meaning": "A map preserving addition and scalar multiplication."
+    },
+    {
+      "term": "Basis",
+      "meaning": "Independent vectors spanning the space."
+    },
+    {
+      "term": "Matrix representation",
+      "meaning": "A coordinate description relative to specified bases."
+    }
+  ]
+}

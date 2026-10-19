@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "source_id": "stiny-1976-exercises",
+  "kind": "Foundational composition paper",
+  "review": {
+    "level": "selected-sections",
+    "material": "Primary paper: definitions in §2, both exercises in §3, and conclusions; selected illustrated constructions.",
+    "limitations": "The central framework and both exercises were reviewed. The many illustrated rule variants were sampled rather than exhaustively checked.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://www.andrew.cmu.edu/user/ramesh/teaching/course/48-747/subFrames/readings/Stiny-1976-EPB3_187-210.TwoExerciseInFormalComposition.pdf",
+        "locator": "pp. 188–194, §2: shape, spatial relations and grammars",
+        "description": "The formal vocabulary for recurring geometric arrangements."
+      },
+      {
+        "url": "https://www.andrew.cmu.edu/user/ramesh/teaching/course/48-747/subFrames/readings/Stiny-1976-EPB3_187-210.TwoExerciseInFormalComposition.pdf",
+        "locator": "pp. 194–203, §3.1: Exercise 1",
+        "description": "Constructing languages from a chosen vocabulary and edge relations."
+      },
+      {
+        "url": "https://www.andrew.cmu.edu/user/ramesh/teaching/course/48-747/subFrames/readings/Stiny-1976-EPB3_187-210.TwoExerciseInFormalComposition.pdf",
+        "locator": "pp. 203–209, §3.2 and conclusions",
+        "description": "Inferring grammars from an existing arrangement and its possible decompositions."
+      }
+    ]
+  },
+  "original": {
+    "url": "https://www.andrew.cmu.edu/user/ramesh/teaching/course/48-747/subFrames/readings/Stiny-1976-EPB3_187-210.TwoExerciseInFormalComposition.pdf",
+    "label": "Read original text",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "In brief",
+      "text": "Two complementary exercises show how to explore families of shapes: start with elements and allowable relations, or start with a drawing and infer rules that generate it and related drawings.",
+      "evidence": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "question",
+      "title": "The question",
+      "text": "How can formal composition be investigated systematically while retaining a direct visual connection between rules and the shapes they produce?",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "Main idea or claim",
+      "text": "Shape grammars make recurring spatial relations explicit. Different choices of vocabulary, relations and decomposition can define different languages, even when they begin with the same visible example.",
+      "evidence": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "How the work approaches it",
+      "text": "Exercise 1 chooses polygons, enumerates ways they can share an edge, and turns these relations into recursive rules. Exercise 2 decomposes an existing polygon arrangement, extracts relations, and constructs grammars that also produce further arrangements.",
+      "evidence": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "Evidence and examples",
+      "text": "Polygon and triangle constructions illustrate rule variants and finite or infinite generated families. One shape is read as five squares or as two L-shaped components, showing why parsing affects the inferred grammar.",
+      "evidence": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "What comes out of it",
+      "text": "A compact rule system can describe both an existing example and a larger family. Recursion supplies constructive explanations of form, rather than only a catalogue of completed drawings.",
+      "evidence": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "Limits to keep in mind",
+      "text": "The paper calls the exercises suggestive. Its common-grammar account of style is a modeling assumption, not an empirical test of historical style or proof that functional design requirements are satisfied.",
+      "evidence": [
+        2
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "What to take from it",
+      "text": "Try both directions: generate from relations, then infer alternative relations from a result. Compare the languages each choice permits instead of assuming one decomposition is definitive.",
+      "evidence": [
+        1,
+        2
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "pp. 188–194, §2: shape, spatial relations and grammars",
+      "locator": "The formal vocabulary for recurring geometric arrangements.",
+      "url": "https://www.andrew.cmu.edu/user/ramesh/teaching/course/48-747/subFrames/readings/Stiny-1976-EPB3_187-210.TwoExerciseInFormalComposition.pdf"
+    },
+    {
+      "label": "pp. 194–203, §3.1: Exercise 1",
+      "locator": "Constructing languages from a chosen vocabulary and edge relations.",
+      "url": "https://www.andrew.cmu.edu/user/ramesh/teaching/course/48-747/subFrames/readings/Stiny-1976-EPB3_187-210.TwoExerciseInFormalComposition.pdf"
+    },
+    {
+      "label": "pp. 203–209, §3.2 and conclusions",
+      "locator": "Inferring grammars from an existing arrangement and its possible decompositions.",
+      "url": "https://www.andrew.cmu.edu/user/ramesh/teaching/course/48-747/subFrames/readings/Stiny-1976-EPB3_187-210.TwoExerciseInFormalComposition.pdf"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Spatial relation",
+      "meaning": "A specified arrangement of shapes, considered under the allowed transformations."
+    },
+    {
+      "term": "Language",
+      "meaning": "The set of outputs generated under a grammar’s stated conventions."
+    }
+  ]
+}

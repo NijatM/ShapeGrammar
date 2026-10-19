@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "source_id": "papalambros-2015-design-science-knight-contribution",
+  "kind": "editorial with named contribution",
+  "review": {
+    "level": "selected-sections",
+    "material": "Read the opening editorial, Knight’s complete named statement on pp. 20–21, Gero’s synthesis and the beginning of How in the licensed original.",
+    "limitations": "Papalambros is the article’s byline author; Knight is a named section contributor. Other board statements were not reviewed individually. This is an editorial discussion, not an empirical test.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A575D750B05AE57AAF9E7CA07E44FEF4/S2053470115000013a.pdf/div-class-title-design-science-why-what-and-how-div.pdf",
+        "locator": "pp. 1–2: opening editorial, Why and What",
+        "description": "Papalambros’s framing and invitation to the editorial board"
+      },
+      {
+        "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A575D750B05AE57AAF9E7CA07E44FEF4/S2053470115000013a.pdf/div-class-title-design-science-why-what-and-how-div.pdf",
+        "locator": "pp. 20–21: Terry Knight",
+        "description": "Complete named contribution; p. 20 visually checked"
+      },
+      {
+        "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A575D750B05AE57AAF9E7CA07E44FEF4/S2053470115000013a.pdf/div-class-title-design-science-why-what-and-how-div.pdf",
+        "locator": "pp. 35–37: What—John Gero’s Synthesis; How",
+        "description": "Synthesis and cross-disciplinary accessibility rationale"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://www.cambridge.org/core/journals/design-science/article/design-science-why-what-and-how/A575D750B05AE57AAF9E7CA07E44FEF4",
+    "label": "Read the complete editorial and named contributions",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "In brief",
+      "text": "Papalambros introduces a journal intended to connect design researchers across disciplinary boundaries. Individual editorial-board statements give different views of what design science should study.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "Questions and scope",
+      "text": "Why establish this venue, what should design science address, and how can research become accessible beyond its home discipline? This guide focuses especially on Knight’s response.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "Knight’s position",
+      "text": "Knight treats design science as the study of design. She argues for rigor that respects improvisation, material exploration and the uncertainty of real design situations, rather than imposing one narrow model of scientific practice.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "How the editorial develops",
+      "text": "The board was invited to contribute individual statements without harmonizing opinions. Gero then offers an explicit synthesis. Knight reasons from educational observations, established design scholarship and a list of qualities valuable in designing.",
+      "evidence": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "What Knight draws on",
+      "text": "Her examples include growing interest in design at MIT, hands-on perception and action, experimentation, prototyping, accessible tools, collaboration and sensitivity to context. These illustrate her position; they are not measured learning outcomes.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "Concluding direction",
+      "text": "Knight calls for integrating these traditional strengths of design with new technologies. The article’s wider editorial framing asks researchers to explain terms and background so that other disciplines can enter the discussion.",
+      "evidence": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "Limits",
+      "text": "The named statements are perspectives and research agendas. Knight’s observations do not independently demonstrate educational effectiveness, and the guide does not attribute every contributor’s position to her.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "Why read it",
+      "text": "It helps understand why a rigorous grammar-based exploration can still involve play, judgment and hands-on making. Formal methods are one part of a broader study of designing.",
+      "evidence": [
+        1
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Read Knight’s complete contribution",
+      "locator": "PDF pp. 20–21",
+      "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A575D750B05AE57AAF9E7CA07E44FEF4/S2053470115000013a.pdf/div-class-title-design-science-why-what-and-how-div.pdf#page=20"
+    },
+    {
+      "label": "Understand the editorial structure",
+      "locator": "PDF pp. 1–2",
+      "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A575D750B05AE57AAF9E7CA07E44FEF4/S2053470115000013a.pdf/div-class-title-design-science-why-what-and-how-div.pdf#page=1"
+    },
+    {
+      "label": "Compare Gero’s synthesis",
+      "locator": "PDF pp. 35–37",
+      "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A575D750B05AE57AAF9E7CA07E44FEF4/S2053470115000013a.pdf/div-class-title-design-science-why-what-and-how-div.pdf#page=35"
+    }
+  ],
+  "terms": []
+}

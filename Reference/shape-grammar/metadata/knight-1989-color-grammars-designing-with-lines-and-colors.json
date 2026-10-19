@@ -10,7 +10,7 @@
   "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
   "doi": "10.1068/b160417",
   "stable_url": "https://doi.org/10.1068/b160417",
-  "reading_url": "https://doi.org/10.1068/b160417",
+  "reading_url": "https://www.researchgate.net/publication/23540671_Color_grammars_Designing_with_lines_and_colors",
   "download_url": null,
   "venue": "Environment and Planning B: Planning and Design",
   "pages": "417-449",
@@ -25,7 +25,7 @@
   "prerequisites": [
     "Elementary sets and functions; some proof reading"
   ],
-  "access_date": "2026-10-18",
+  "access_date": "2026-10-19",
   "license_redistribution": {
     "status": "link-only",
     "license": null,
@@ -34,15 +34,34 @@
   },
   "local_files": [],
   "existing_local_files": [],
-  "locators": [],
+  "locators": [
+    {
+      "locator": "pp. 417–420: Representing form and qualities; opening informal discussion",
+      "status": "selected-sections-reviewed"
+    },
+    {
+      "locator": "Color grammars: an informal discussion; rankings and Figures 12–16",
+      "status": "selected-sections-reviewed"
+    },
+    {
+      "locator": "pp. 436–439: Color grammar A; Figures 25–27",
+      "status": "selected-sections-reviewed"
+    },
+    {
+      "locator": "p. 449: Conclusions",
+      "status": "selected-sections-reviewed"
+    }
+  ],
   "verification": {
-    "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+    "scope": "Read introductory definitions, the informal account of overlap/rankings, the comparison around Figures 25–27, and conclusions in Knight’s publicly uploaded original. Not all formal operations and illustrated derivations were checked. The public upload is a reading source, not permission to mirror the PDF.",
     "source_urls": [
       "https://api.crossref.org/works/10.1068/b160417",
       "https://architecture.mit.edu/people/terry-knight",
-      "https://www.mit.edu/~tknight/IJDC/page_references.htm"
+      "https://www.mit.edu/~tknight/IJDC/page_references.htm",
+      "https://journals.sagepub.com/doi/10.1068/b160417",
+      "https://www.researchgate.net/publication/23540671_Color_grammars_Designing_with_lines_and_colors"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "selected-sections"
   },
   "annotation_file": "shape-grammar/notes/knight-1989-color-grammars-designing-with-lines-and-colors.md",
   "publication_type": "journal-article",

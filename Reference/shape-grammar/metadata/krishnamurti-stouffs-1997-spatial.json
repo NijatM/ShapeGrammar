@@ -22,7 +22,7 @@
     "reversibility",
     "U12"
   ],
-  "relevance": "Primary connection among shape replacement, reversibility and emergent-shape recognition.",
+  "relevance": "Spatial change is examined through three connected questions: can successive descriptions remain compatible, can a change be reversed, and can the part to change be recognized? Shape arithmetic links these questions.",
   "prerequisite_level": "advanced",
   "prerequisites": [
     "Undergraduate algebra and linear algebra; additional prerequisites in topic notes"
@@ -36,13 +36,27 @@
   },
   "local_files": [],
   "existing_local_files": [],
-  "locators": [],
+  "locators": [
+    {
+      "locator": "pp. 359–364: spatial change and continuity",
+      "status": "selected-sections-reviewed"
+    },
+    {
+      "locator": "pp. 369–371: reversibility",
+      "status": "selected-sections-reviewed"
+    },
+    {
+      "locator": "pp. 372–383: recognition",
+      "status": "selected-sections-reviewed"
+    }
+  ],
   "verification": {
-    "scope": "Publisher abstract and bibliographic details inspected; detailed recognition cases require full-text review.",
+    "scope": "Author-hosted paper: introduction and the sections on continuity, reversibility and recognition. The central arguments and illustrative cases were reviewed; the full technical case classification has not been independently verified.",
     "source_urls": [
-      "https://journals.sagepub.com/doi/10.1068/b240359"
+      "https://journals.sagepub.com/doi/10.1068/b240359",
+      "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb240359-spatialChange.pdf"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "selected-sections"
   },
   "annotation_file": "shape-grammar/notes/krishnamurti-stouffs-1997-spatial.md"
 }

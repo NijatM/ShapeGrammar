@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "source_id": "stouffs-2016-interpreter",
+  "kind": "Interpreter architecture paper",
+  "review": {
+    "level": "selected-sections",
+    "material": "Institutional author PDF: problem statement, algebraic constructions and concluding interpreter discussion.",
+    "limitations": "Selected technical sections reviewed. The paper proposes a general architecture; the guide does not infer a complete implementation or measured performance.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://pure.tudelft.nl/ws/portalfiles/portal/12909097/Stouffs_eCAADe2016_volume2.pdf",
+        "locator": "pp. 329–331: objectives and shape algebras",
+        "description": "Why an interpreter should support multiple kinds of spatial and nonspatial description."
+      },
+      {
+        "url": "https://pure.tudelft.nl/ws/portalfiles/portal/12909097/Stouffs_eCAADe2016_volume2.pdf",
+        "locator": "pp. 331–336: product and attribution constructions",
+        "description": "Formal distinction between parallel descriptions and attached attributes."
+      },
+      {
+        "url": "https://pure.tudelft.nl/ws/portalfiles/portal/12909097/Stouffs_eCAADe2016_volume2.pdf",
+        "locator": "pp. 337–338: discussion and conclusion",
+        "description": "Modularity, procedural abstraction and intended interpreter generality."
+      }
+    ]
+  },
+  "original": {
+    "url": "https://pure.tudelft.nl/ws/portalfiles/portal/12909097/Stouffs_eCAADe2016_volume2.pdf",
+    "label": "Read original text",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "In brief",
+      "text": "Stouffs asks how to build a shape grammar interpreter that can accommodate different geometric elements and additional information, rather than being tied to one drawing representation.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "The question",
+      "text": "How can a common interpreter operate on points, lines or higher-dimensional shapes while also handling labels, weights and other attributes?",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "Main idea or claim",
+      "text": "A modular algebraic foundation can separate general rule application from the particular objects and operations used by a grammar. Attribution adds a way to attach nonspatial descriptions to spatial elements.",
+      "evidence": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "How the work approaches it",
+      "text": "The paper combines basic shape algebras through direct products and attribution. These are different constructions: a product keeps descriptions in parallel, whereas attribution associates information with elements. Procedural abstraction hides representation-specific operations behind a common interface.",
+      "evidence": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "Evidence and examples",
+      "text": "Worked algebraic examples include labels, numerical weights and composite attributes. These demonstrate expressive possibilities and how modules could be assembled; they are not a comparative runtime experiment.",
+      "evidence": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "What comes out of it",
+      "text": "The result is a framework for extending interpreter scope while reusing common mechanisms. Supporting a new representation still requires appropriate part relations, operations and transformations.",
+      "evidence": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "Limits to keep in mind",
+      "text": "Formal expressiveness is not evidence that every matching problem has been solved. This reading does not establish production completeness, usability results or a universal performance bound.",
+      "evidence": [
+        2
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "What to take from it",
+      "text": "Ask whether information is attached to elements or maintained as a parallel description. That choice changes how overlaps, matching and rule application should behave.",
+      "evidence": [
+        1
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "pp. 329–331: objectives and shape algebras",
+      "locator": "Why an interpreter should support multiple kinds of spatial and nonspatial description.",
+      "url": "https://pure.tudelft.nl/ws/portalfiles/portal/12909097/Stouffs_eCAADe2016_volume2.pdf"
+    },
+    {
+      "label": "pp. 331–336: product and attribution constructions",
+      "locator": "Formal distinction between parallel descriptions and attached attributes.",
+      "url": "https://pure.tudelft.nl/ws/portalfiles/portal/12909097/Stouffs_eCAADe2016_volume2.pdf"
+    },
+    {
+      "label": "pp. 337–338: discussion and conclusion",
+      "locator": "Modularity, procedural abstraction and intended interpreter generality.",
+      "url": "https://pure.tudelft.nl/ws/portalfiles/portal/12909097/Stouffs_eCAADe2016_volume2.pdf"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Direct product",
+      "meaning": "Combining descriptions as coordinated components."
+    },
+    {
+      "term": "Attribution",
+      "meaning": "Associating attribute values with elements of another algebra."
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-1981-forty-one-steps",
+  "kind": "analytical architectural grammar",
+  "review": {
+    "level": "abstract-only",
+    "material": "Publisher abstract read; complete original not retrieved.",
+    "limitations": "The abstract does not expose the forty-one steps, corpus size, parameter conditions or individual plan derivations. These have not been checked here.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://journals.sagepub.com/doi/10.1068/b080097",
+        "locator": "Abstract",
+        "description": "Primary abstract; it does not establish unreported technical details"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://journals.sagepub.com/doi/10.1068/b080097",
+    "label": "Read abstract and original access options",
+    "type": "publication-record"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "In brief",
+      "text": "A parameterized shape grammar describes Japanese tearoom floor plans.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "Question or aim",
+      "text": "How can one generative language accommodate several tearoom styles?",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "Approach described",
+      "text": "The paper presents a grammar whose variable forms can generate different plans.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "What the abstract supports",
+      "text": "The author claims a general language covering a diversity of tearoom styles across four centuries.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "What remains unverified",
+      "text": "The abstract does not expose the forty-one steps, corpus size, parameter conditions or individual plan derivations. These have not been checked here.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "Why it may help",
+      "text": "This is a promising architectural example of variation within one design language, rather than a universal model of every Japanese building.",
+      "evidence": [
+        0
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Read the abstract and locate the original",
+      "locator": "Abstract",
+      "url": "https://journals.sagepub.com/doi/10.1068/b080097"
+    }
+  ],
+  "terms": []
+}

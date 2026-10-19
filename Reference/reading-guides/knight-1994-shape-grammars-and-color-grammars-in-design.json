@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-1994-shape-grammars-and-color-grammars-in-design",
+  "kind": "generative design and color grammars",
+  "review": {
+    "level": "abstract-only",
+    "material": "Publisher abstract read; complete original not retrieved.",
+    "limitations": "Only the official abstract was read. Specific exercises, design examples and their evaluation have not been checked; the abstract reports no controlled test or quantitative outcome.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://journals.sagepub.com/doi/10.1068/b210705",
+        "locator": "Abstract",
+        "description": "Primary abstract; it does not establish unreported technical details"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://journals.sagepub.com/doi/10.1068/b210705",
+    "label": "Read abstract and original access options",
+    "type": "publication-record"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "In brief",
+      "text": "The paper moves from using grammars to analyze existing designs toward developing original grammars and designs.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "Question or aim",
+      "text": "How can ideas for making new shape grammars extend to color grammars?",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "Approach described",
+      "text": "Knight presents recent original design work, then extends the underlying ideas to grammars that also handle color.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "What the abstract supports",
+      "text": "The abstract supports a methodological extension from shape-grammar construction to color-grammar construction.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "What remains unverified",
+      "text": "Only the official abstract was read. Specific exercises, design examples and their evaluation have not been checked; the abstract reports no controlled test or quantitative outcome.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "Why it may help",
+      "text": "It is a useful reading target when moving from reconstructing a known style to inventing your own rule system.",
+      "evidence": [
+        0
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Read the abstract and locate the original",
+      "locator": "Abstract",
+      "url": "https://journals.sagepub.com/doi/10.1068/b210705"
+    }
+  ],
+  "terms": []
+}

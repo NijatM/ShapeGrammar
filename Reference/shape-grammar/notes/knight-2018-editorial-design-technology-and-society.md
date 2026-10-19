@@ -2,29 +2,34 @@
 
 Source ID: `knight-2018-editorial-design-technology-and-society`. Year: 2018. Contributors as recorded: Daniel Cardoso Llach, Terry Knight.
 
-Type: proceedings-article. Venue: Proceedings of DRS; DRS2018: Design as a catalyst for change. Pages: not independently established.
+[Canonical metadata](../metadata/knight-2018-editorial-design-technology-and-society.json) · [Structured reading guide](../../reading-guides/knight-2018-editorial-design-technology-and-society.json) · [Original source](https://dl.designresearchsociety.org/drs-conference-papers/drs2018/editorials/2/)
 
-[Canonical metadata](../metadata/knight-2018-editorial-design-technology-and-society.json) · [Source / publication record](https://doi.org/10.21606/drs.2018.002) · [Reading path](https://dl.designresearchsociety.org/drs-conference-papers/drs2018/editorials/2/)
+## Material inspected
 
-Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.
+The official DRS publication record was read, including authors, venue and license. Its download returned HTTP 403.
 
-## Reading purpose
+Review level: **bibliographic-only**. No abstract is provided on the inspected record, and the editorial text could not be read.
 
-Terry Knight author corpus: shape grammar theory, design, implementation, or teaching. This is a bibliographic entry and reading prompt, not a summary of an unreviewed argument.
+## What is verified
 
-## Verification
+Cardoso Llach and Knight contributed this editorial to DRS2018. Its subject is identified by the title Design, Technology and Society; the record establishes authorship and publication context, not a checked account of its argument.
 
-Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.
+[DRS2018 Editorials: official record](https://dl.designresearchsociety.org/drs-conference-papers/drs2018/editorials/2/)
 
-## Locators
+## Reading boundary
 
-Exact claim locators require further full-text review.
+The full editorial was not accessible through the official download in this review. No premise, methodology, test result or conclusion has been inferred from the title.
+
+[DRS2018 Editorials: official record](https://dl.designresearchsociety.org/drs-conference-papers/drs2018/editorials/2/)
+
+## How to use the original
+
+Open the official source to read its framing of the relationship among design, technology and society. Treat editorial perspectives separately from evidence reported in any research papers they introduce.
+
+[DRS2018 Editorials: official record](https://dl.designresearchsociety.org/drs-conference-papers/drs2018/editorials/2/)
 
 ## Originals and rights
 
-Reading link only; no local original mirrored.
+Publisher page identifies CC BY-NC 4.0; direct download returned HTTP 403. No local original claimed.
 
-CC BY-NC 4.0. Publisher page identifies CC BY-NC 4.0; direct download returned HTTP 403. No local original claimed.
 [Rights evidence](https://dl.designresearchsociety.org/drs-conference-papers/drs2018/editorials/2/).
-
-[Terry Knight author index](../../authors/terry-knight/README.md).

@@ -12,7 +12,7 @@
     "Madeline Gannon"
   ],
   "year": 2024,
-  "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+  "edition_version": "Published version; dates from publisher-deposited DOI metadata. See the reading guide for the exact material inspected.",
   "doi": "10.21606/drs.2024.1630",
   "stable_url": "https://doi.org/10.21606/drs.2024.1630",
   "reading_url": "https://dl.designresearchsociety.org/drs-conference-papers/drs2024/conversations/20/",
@@ -30,7 +30,7 @@
   "prerequisites": [
     "Elementary sets and functions; some proof reading"
   ],
-  "access_date": "2026-10-18",
+  "access_date": "2026-10-19",
   "license_redistribution": {
     "status": "licensed-link-only",
     "license": "CC BY-NC 4.0",
@@ -39,14 +39,20 @@
   },
   "local_files": [],
   "existing_local_files": [],
-  "locators": [],
+  "locators": [
+    {
+      "locator": "DRS2024 Conversations: official record and keywords",
+      "status": "bibliographic-only-inspected"
+    }
+  ],
   "verification": {
-    "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+    "scope": "Original reading guide reviewed 2026-10-19. The official DRS2024 record was read, including its Conversation classification, six contributors, keywords and license. The PDF download returned HTTP 403. The conversation text and any outcomes or examples it contains were not inspected. The record is not treated as a completed controlled robotics experiment.",
     "source_urls": [
       "https://api.crossref.org/works/10.21606/drs.2024.1630",
-      "https://architecture.mit.edu/people/terry-knight"
+      "https://architecture.mit.edu/people/terry-knight",
+      "https://dl.designresearchsociety.org/drs-conference-papers/drs2024/conversations/20/"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "bibliographic-only"
   },
   "annotation_file": "shape-grammar/notes/knight-2024-robotics-in-design-and-the-makings-of-embodied-interfaces.md",
   "publication_type": "proceedings-article",

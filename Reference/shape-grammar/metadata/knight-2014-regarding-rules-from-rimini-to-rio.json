@@ -23,7 +23,7 @@
   "prerequisites": [
     "Elementary sets and functions; some proof reading"
   ],
-  "access_date": "2026-10-18",
+  "access_date": "2026-10-19",
   "license_redistribution": {
     "status": "downloaded-with-conditions",
     "license": "CC BY 4.0",
@@ -45,18 +45,27 @@
   "existing_local_files": [],
   "locators": [
     {
-      "locator": "Printed pp. 12–13, introduction; pp. 26–27, references and conclusion",
-      "status": "selected-text-inspected"
+      "locator": "pp. 13–18: Alberti, shape grammars and four strategies; Fig. 4",
+      "status": "full-text-inspected"
+    },
+    {
+      "locator": "pp. 18–25: strategies and cases; Figs. 5–9",
+      "status": "full-text-inspected"
+    },
+    {
+      "locator": "pp. 26–27: Rocinha study and next steps; Fig. 10",
+      "status": "full-text-inspected"
     }
   ],
   "verification": {
-    "scope": "Publisher DOI metadata, official landing-page license, PDF byline and printed pagination inspected. Text layer read for introductory context and references; figures and all arguments not exhaustively reviewed.",
+    "scope": "Original reading guide reviewed 2026-10-19. The complete article was read, including four strategies, illustrated case descriptions and the Rocinha work-in-progress. The diagram of four strategies was inspected. Historical and design examples support a comparative argument; this is not a new controlled trial of housing outcomes.",
     "source_urls": [
       "https://api.crossref.org/works/10.14195/1647-8681_5_1",
       "https://architecture.mit.edu/people/terry-knight",
-      "https://impactum-journals.uc.pt/joelho/article/view/_5_1"
+      "https://impactum-journals.uc.pt/joelho/article/view/_5_1",
+      "https://impactum-journals.uc.pt/joelho/article/download/_5_1/1645"
     ],
-    "content_review": "selected-text-and-rights"
+    "content_review": "full-text"
   },
   "annotation_file": "shape-grammar/notes/knight-2014-regarding-rules-from-rimini-to-rio.md",
   "publication_type": "journal-article",

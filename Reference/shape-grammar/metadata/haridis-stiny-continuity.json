@@ -21,7 +21,7 @@
     "topology",
     "research"
   ],
-  "relevance": "Research follow-up on rule mappings and retrospective continuity; not an introductory theorem shortcut.",
+  "relevance": "Haridis and Stiny explain how a recorded shape computation can acquire compatible structural descriptions afterwards. Their continuity is a relation between finite topologies of parts, not smooth motion of a drawing.",
   "prerequisite_level": "advanced",
   "prerequisites": [
     "Undergraduate algebra and linear algebra; additional prerequisites in topic notes"
@@ -37,16 +37,25 @@
   "existing_local_files": [],
   "locators": [
     {
-      "locator": "Analysis of a computation; Continuity is retrospective (preprint pp. 1–3)",
-      "status": "selected-full-text-inspected"
+      "locator": "pp. 1–8: continuity and suitable mappings",
+      "status": "selected-sections-reviewed"
+    },
+    {
+      "locator": "pp. 9–14: worked analyses and Tables 2–5",
+      "status": "selected-sections-reviewed"
+    },
+    {
+      "locator": "pp. 14–17: computing topologies and discussion",
+      "status": "selected-sections-reviewed"
     }
   ],
   "verification": {
-    "scope": "arXiv metadata, version history and nonexclusive distribution license inspected; first three PDF pages read temporarily. Journal issue pagination not asserted.",
+    "scope": "Author manuscript, arXiv v3: definitions, mapping selection, worked continuity analyses, computation of topologies and discussion. The technical core was reviewed, with appendices used for context rather than a complete independent proof audit. Manuscript page numbers are used.",
     "source_urls": [
-      "https://arxiv.org/abs/2012.10949"
+      "https://arxiv.org/abs/2012.10949",
+      "https://arxiv.org/pdf/2012.10949v3"
     ],
-    "content_review": "selected-preprint-sections"
+    "content_review": "selected-sections"
   },
   "annotation_file": "shape-grammar/notes/haridis-stiny-continuity.md"
 }

@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "source_id": "krishnamurti-1981-construction",
+  "kind": "Algorithmic research paper",
+  "review": {
+    "level": "selected-sections",
+    "material": "Author-hosted paper: introduction, transformation and registration algorithms, and finite/infinite matching discussion.",
+    "limitations": "Selected primary sections reviewed, including pp. 18–21. No implementation benchmark or independent proof verification is claimed.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb080005-constructionOfShapes.pdf",
+        "locator": "pp. 5–8: formulation and shape representation",
+        "description": "The recognition problem and relationship to shape arithmetic."
+      },
+      {
+        "url": "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb080005-constructionOfShapes.pdf",
+        "locator": "pp. 18–21: provisos and soundness discussion",
+        "description": "Distinguishes finite solutions from representative choices in infinite cases."
+      },
+      {
+        "url": "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb080005-constructionOfShapes.pdf",
+        "locator": "pp. 21–39: transformation and registration procedures",
+        "description": "Algorithmic construction using correspondences and admissible transformations."
+      }
+    ]
+  },
+  "original": {
+    "url": "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb080005-constructionOfShapes.pdf",
+    "label": "Read original text",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "In brief",
+      "text": "This companion to The Arithmetic of Shapes tackles the harder step in applying a rule: finding transformations that embed its left-hand shape in a drawing. It turns geometric recognition into registration and checking procedures.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "The question",
+      "text": "Given shapes A and S, which translations, rotations, reflections and changes of scale make t(A) a part of S? One suitable transformation must subsequently govern both sides of a rule.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "Main idea or claim",
+      "text": "Distinguishable geometric features can constrain a transformation. Candidate registrations can then be checked with the arithmetic and part relation developed in the earlier paper.",
+      "evidence": [
+        0,
+        2
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "How the work approaches it",
+      "text": "The paper represents shapes with maximal straight elements and labelled points, derives useful registration features from their geometry, and separates configurations by how much freedom remains. Matching corresponding features determines candidate transformations; containment tests reject invalid ones.",
+      "evidence": [
+        0,
+        2
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "Evidence and examples",
+      "text": "The support is mathematical case analysis, worked geometric configurations and detailed algorithmic procedures. The discussion explicitly considers configurations admitting finitely many matches and those admitting infinitely many.",
+      "evidence": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "What comes out of it",
+      "text": "The algorithm covers finite cases under its stated conditions. For infinite families, additional provisos choose representative placements, for example by aligning endpoints. These conventions make computation manageable without enumerating every continuous placement.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "Limits to keep in mind",
+      "text": "Its soundness discussion must not be read as a finite enumeration of all transformations in every case. The provisos matter. This is an algorithmic treatment of specified shape representations, without a reported modern performance benchmark.",
+      "evidence": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "What to take from it",
+      "text": "Separate candidate generation from exact containment checking. Always ask whether a matching configuration determines finitely many transformations or leaves a continuous freedom that needs an explicit convention.",
+      "evidence": [
+        1,
+        2
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "pp. 5–8: formulation and shape representation",
+      "locator": "The recognition problem and relationship to shape arithmetic.",
+      "url": "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb080005-constructionOfShapes.pdf"
+    },
+    {
+      "label": "pp. 18–21: provisos and soundness discussion",
+      "locator": "Distinguishes finite solutions from representative choices in infinite cases.",
+      "url": "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb080005-constructionOfShapes.pdf"
+    },
+    {
+      "label": "pp. 21–39: transformation and registration procedures",
+      "locator": "Algorithmic construction using correspondences and admissible transformations.",
+      "url": "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb080005-constructionOfShapes.pdf"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Registration",
+      "meaning": "Using corresponding features to determine a geometric transformation."
+    },
+    {
+      "term": "Indeterminate matching",
+      "meaning": "A pattern leaves freedom for infinitely many admissible placements."
+    }
+  ]
+}

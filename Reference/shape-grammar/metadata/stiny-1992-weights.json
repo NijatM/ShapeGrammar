@@ -19,7 +19,7 @@
     "weights",
     "extensions"
   ],
-  "relevance": "Primary extension beyond unweighted line shapes; later research rather than first engine scope.",
+  "relevance": "Weights extends shape computation beyond bare geometry. Labels classify elements; weights let properties such as line thickness or tone participate in matching and combination.",
   "prerequisite_level": "advanced",
   "prerequisites": [
     "Undergraduate algebra and linear algebra; additional prerequisites in topic notes"
@@ -33,13 +33,27 @@
   },
   "local_files": [],
   "existing_local_files": [],
-  "locators": [],
+  "locators": [
+    {
+      "locator": "pp. 413–415: shapes and labels",
+      "status": "selected-sections-reviewed"
+    },
+    {
+      "locator": "pp. 415–419: weights and their operations",
+      "status": "selected-sections-reviewed"
+    },
+    {
+      "locator": "pp. 425–429: coordinated descriptions",
+      "status": "selected-sections-reviewed"
+    }
+  ],
   "verification": {
-    "scope": "Bibliographic record or official landing page inspected; full text and exact claim locators not reviewed.",
+    "scope": "Primary scan: shape and label foundations, numerical-weight operations, weighted part relations, and the final coordinated-description example. Selected definitions and examples were reviewed with OCR and visual checking of p. 416. Other property algebras are not assumed to behave identically to the numerical example.",
     "source_urls": [
-      "https://journals.sagepub.com/doi/10.1068/b190413"
+      "https://journals.sagepub.com/doi/10.1068/b190413",
+      "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Stiny.weights.pdf"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "selected-sections"
   },
   "annotation_file": "shape-grammar/notes/stiny-1992-weights.md"
 }

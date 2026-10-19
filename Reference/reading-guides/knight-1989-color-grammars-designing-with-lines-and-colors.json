@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-1989-color-grammars-designing-with-lines-and-colors",
+  "kind": "color-grammar formalism",
+  "review": {
+    "level": "selected-sections",
+    "material": "Read introductory definitions, the informal account of overlap/rankings, the comparison around Figures 25–27, and conclusions in Knight’s publicly uploaded original.",
+    "limitations": "Not all formal operations and illustrated derivations were checked. The public upload is a reading source, not permission to mirror the PDF.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://www.researchgate.net/publication/23540671_Color_grammars_Designing_with_lines_and_colors",
+        "locator": "pp. 417–420: Representing form and qualities; opening informal discussion",
+        "description": "Author-uploaded original text distinguishes lines and quality fields"
+      },
+      {
+        "url": "https://www.researchgate.net/publication/23540671_Color_grammars_Designing_with_lines_and_colors",
+        "locator": "Color grammars: an informal discussion; rankings and Figures 12–16",
+        "description": "How overlapping qualities differ from coincident uncolored lines"
+      },
+      {
+        "url": "https://www.researchgate.net/publication/23540671_Color_grammars_Designing_with_lines_and_colors",
+        "locator": "pp. 436–439: Color grammar A; Figures 25–27",
+        "description": "Different rankings change outputs for the same derivation"
+      },
+      {
+        "url": "https://www.researchgate.net/publication/23540671_Color_grammars_Designing_with_lines_and_colors",
+        "locator": "p. 449: Conclusions",
+        "description": "Generalization to materials and scope of the formalism"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://www.researchgate.net/publication/23540671_Color_grammars_Designing_with_lines_and_colors",
+    "label": "Read original paper",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "In brief",
+      "text": "Color grammars extend shape rules with quality-filled regions, allowing geometry and qualities to be generated together.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "Question",
+      "text": "What happens when differently colored—or otherwise qualified—regions overlap?",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "Main idea",
+      "text": "A quality field adds information that bare lines cannot carry. Its overlap needs an explicit convention rather than automatic geometric fusion.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "Method",
+      "text": "Add a color-field component to labeled shapes and rules. Rankings determine which coincident qualities dominate or combine, alongside spatial operations.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "Worked evidence",
+      "text": "The same rule sequence in Figures 26 and 27 produces different designs under different rankings: one separates into layers, while the other forms a weave.",
+      "evidence": [
+        2
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "Conclusion",
+      "text": "Color is one example of a more general quality. Knight explains how an overlap convention could also decide material intersections in an architectural design.",
+      "evidence": [
+        3
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "Limits",
+      "text": "These are formal constructions and illustrative interpretations, not empirical tests of painting, materials or buildability. The relation between rankings and apparent layering is not straightforward for every grammar.",
+      "evidence": [
+        3
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "Why read it",
+      "text": "Color can participate in computation rather than merely decorate the finished drawing. Geometry alone does not settle how overlapping attributes should behave.",
+      "evidence": [
+        0,
+        3
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Understand the extension",
+      "locator": "pp. 419–420",
+      "url": "https://www.researchgate.net/publication/23540671_Color_grammars_Designing_with_lines_and_colors"
+    },
+    {
+      "label": "Compare rankings in one example",
+      "locator": "pp. 436–439; Figures 25–27",
+      "url": "https://www.researchgate.net/publication/23540671_Color_grammars_Designing_with_lines_and_colors"
+    },
+    {
+      "label": "Read the architectural generalization",
+      "locator": "p. 449: Conclusions",
+      "url": "https://www.researchgate.net/publication/23540671_Color_grammars_Designing_with_lines_and_colors"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Quality field",
+      "meaning": "A spatial region supplied with qualities such as color; it may be continuous or disconnected."
+    },
+    {
+      "term": "Ranking",
+      "meaning": "A rule for resolving or combining qualities in coincident regions."
+    }
+  ]
+}

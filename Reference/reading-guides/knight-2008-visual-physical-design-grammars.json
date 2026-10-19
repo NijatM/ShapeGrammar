@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-2008-visual-physical-design-grammars",
+  "kind": "exhibition/conference contribution",
+  "review": {
+    "level": "bibliographic-only",
+    "material": "Publisher-deposited DOI metadata for the two-page SIGGRAPH Art Gallery contribution was inspected. The exact contribution’s abstract and full text were not accessible.",
+    "limitations": "A similarly titled four-author SIGraDi paper concerns related work but is a different publication; its results are not attributed automatically to this six-author record.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://doi.org/10.1145/1400385.1400412",
+        "locator": "SIGGRAPH Art Gallery 2008, pp. 50–51: publication record",
+        "description": "Original publication identity; full content not reviewed."
+      },
+      {
+        "url": "https://api.crossref.org/works/10.1145/1400385.1400412",
+        "locator": "DOI metadata: title, six authors, venue and pages",
+        "description": "Publisher-deposited bibliographic evidence."
+      }
+    ]
+  },
+  "original": {
+    "url": "https://doi.org/10.1145/1400385.1400412",
+    "label": "Read original publication record",
+    "type": "publication-record"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What is verified",
+      "text": "This is a short contribution to the ACM SIGGRAPH 2008 Art Gallery, credited to Knight, Sass, Griffith, Kamath, Preston and Goldenberg. Its two-page format should be distinguished from longer research reports about visual–physical grammars.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "What cannot yet be summarized",
+      "text": "The exact text was not accessible in this review. Its premise, methods, demonstrated artifact and conclusions therefore remain unverified; no detailed abstract has been invented from its title.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "How to follow it",
+      "text": "Use the original record for this exhibition contribution. When reading related visual–physical grammar work, compare title, authors, venue and year before treating two texts as the same study.",
+      "evidence": [
+        0,
+        1
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Start here",
+      "locator": "SIGGRAPH Art Gallery 2008, pp. 50–51: publication record",
+      "url": "https://doi.org/10.1145/1400385.1400412"
+    }
+  ],
+  "terms": []
+}

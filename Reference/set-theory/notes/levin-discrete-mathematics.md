@@ -1,25 +1,49 @@
 # Discrete Mathematics: An Open Introduction
 
-Source ID: `levin-discrete-mathematics`. Authors: Oscar Levin. Year: 2025.
+## Reading guide
 
-Alternative introductory exercises and explanations of discrete structures and proofs.
+Review: **selected-sections**, 2026-10-19. Fourth-edition local PDF: preface; §0.2.2–0.2.3, selected §1.5.3 discussion, and §3.3 two-set counting result read.
 
-[Canonical/verification page](https://discrete.openmathbooks.org/dmoi4.html) · [Lawful reading link](https://discrete.openmathbooks.org/dmoi4.html).
+No full-text or exercise-solution review is claimed. The book’s teaching aims and examples do not establish measured learning gains; no education experiment is reported here.
 
-Version: Fourth edition, copyright 2013–2025; current PDF snapshot on access date.
+## What this book is about
 
-Review scope: Bibliographic record or official landing page inspected; full text and exact claim locators not reviewed.
+An introductory discrete-mathematics text organized around problems and explanations. Sets, functions and other structures provide tools for answering concrete questions. The fourth edition aims to support inquiry and proof writing rather than treating definitions as an isolated list. [1](https://discrete.openmathbooks.org/pdfs/dmoi4.pdf)
 
-## Reading locators
+## Main ideas in these pages
 
-- Exact claim/page locators still require full-text review.
+A set depends on membership, not order or repetition. A function gives each domain element exactly one output in its codomain. Injectivity prohibits collisions, so a finite domain cannot inject into a smaller codomain. [1](https://discrete.openmathbooks.org/pdfs/dmoi4.pdf) [2](https://discrete.openmathbooks.org/pdfs/dmoi4.pdf)
 
-## Local originals
+## How an answer becomes an argument
 
-- [levin-discrete-mathematics.pdf](../../set-theory/originals/levin-discrete-mathematics.pdf) — SHA-256 `da85572c79111d63ce90e18a116e0551732c6a3725b7bc08aa16b3f4557d55ac`
+The reader investigates a problem, identifies a suitable structure, and explains the result from definitions. Counting uses classifications of possible outcomes; proofs check why the classification includes everything and whether any outcome has been counted more than once. [1](https://discrete.openmathbooks.org/pdfs/dmoi4.pdf) [2](https://discrete.openmathbooks.org/pdfs/dmoi4.pdf) [3](https://discrete.openmathbooks.org/pdfs/dmoi4.pdf)
 
-## Rights
+## Two useful examples
 
-CC BY-NC-SA 4.0. Oscar Levin attribution; unmodified PDF and notice retained; noncommercial use and ShareAlike. Fourth edition adds NonCommercial; do not inherit the third-edition license.
+Mapping students to birth months makes the pigeonhole principle concrete: 25 students cannot occupy 12 months without a repeated month. In counting bit strings satisfying either of two conditions, subtracting their overlap corrects duplicate counting. [2](https://discrete.openmathbooks.org/pdfs/dmoi4.pdf) [3](https://discrete.openmathbooks.org/pdfs/dmoi4.pdf)
 
-This is a public editorial reference annotation. Bibliographic inclusion does not certify every claim in the work, complete a lesson, or establish a connection to the Monster.
+## What follows
+
+For finite sets, |A∪B|=|A|+|B|−|A∩B|. The reason is structural: shared elements entered the first sum twice. This is a mathematical derivation with worked examples, not a statistical test. [3](https://discrete.openmathbooks.org/pdfs/dmoi4.pdf)
+
+## How to read it here
+
+Try the motivating problem before reading its solution. Translate your own finite search into sets of outcomes, decide whether order matters, and identify overlaps before adding counts. Keep a proof of the counting method alongside the computed answer. [1](https://discrete.openmathbooks.org/pdfs/dmoi4.pdf) [3](https://discrete.openmathbooks.org/pdfs/dmoi4.pdf)
+
+## Key terms
+
+- **Injective**: Distinct inputs always give distinct outputs.
+- **Codomain**: The declared set of allowable outputs.
+- **Inclusion–exclusion**: Correcting counts for overlaps between sets.
+
+## Read next
+
+- [Inquiry-based approach and basic discrete structures](https://discrete.openmathbooks.org/pdfs/dmoi4.pdf): Preface; §§0.2.2–0.2.3, printed pp.5–7
+- [Function properties and pigeonhole reasoning](https://discrete.openmathbooks.org/pdfs/dmoi4.pdf): §1.5.3, printed pp.87–88
+- [Counting overlapping alternatives](https://discrete.openmathbooks.org/pdfs/dmoi4.pdf): §3.3, printed p.223, Theorem 3.3.5 and Example 3.3.6
+
+## Access and preservation
+
+Oscar Levin attribution; unmodified PDF and notice retained; noncommercial use and ShareAlike. Fourth edition adds NonCommercial; do not inherit the third-edition license.
+
+This annotation is an original reading aid. Consult the linked text for complete arguments, notation and qualifications.

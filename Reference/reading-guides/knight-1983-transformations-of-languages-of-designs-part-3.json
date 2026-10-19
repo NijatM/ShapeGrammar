@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-1983-transformations-of-languages-of-designs-part-3",
+  "kind": "architectural transformation case study",
+  "review": {
+    "level": "selected-sections",
+    "material": "Read the opening comparison, stated shape/state changes, final house examples and conclusions in the CMU scan.",
+    "limitations": "Not every parameterized rule or derivation was independently reconstructed; the article presents schematic architectural analyses.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Knight.transformationOfLanguagesOfDesignsPart3.pdf",
+        "locator": "pp. 155–156: From butterflies to polliwogs",
+        "description": "Prairie/Usonian comparison and restricted scope"
+      },
+      {
+        "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Knight.transformationOfLanguagesOfDesignsPart3.pdf",
+        "locator": "pp. 162–164: Spatial relations and state labels",
+        "description": "Explicit changes to core composition and rule ordering"
+      },
+      {
+        "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Knight.transformationOfLanguagesOfDesignsPart3.pdf",
+        "locator": "pp. 175–177: Figures 11–12 and Conclusions",
+        "description": "Worked houses, interpretive alternatives and constraints"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Knight.transformationOfLanguagesOfDesignsPart3.pdf",
+    "label": "Read original paper",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "In brief",
+      "text": "The Part 2 framework is applied to Wright’s Prairie and L-shaped Usonian houses.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "Question",
+      "text": "Can their apparent formal differences be explained through explicit changes to a generative organization?",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "Main claim",
+      "text": "Basic Usonian compositions can be interpreted as transformations of the Prairie grammar, while maintaining related rule dependencies.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "Method",
+      "text": "Rewrite a modified subset of Koning–Eizenberg’s Prairie grammar in normal form. Change the fireplace into an interior kitchen/fireplace workspace, rearrange zones and make extensions optional.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "Examples",
+      "text": "A Garrison-house derivation and plans for Jacobs, Lusk, Newman, Rosenbaum and Pope illustrate compositions elaborated with ornamentation rules.",
+      "evidence": [
+        2
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "Conclusion",
+      "text": "A block-based interpretation connects the two languages explicitly. Knight argues that linked grammars can strengthen an analysis of style while allowing alternative interpretations.",
+      "evidence": [
+        2
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "Limits",
+      "text": "The normal-form Prairie grammar omits some original rules and admits some additional possibilities. A formal connection is an interpretation, not proof that Wright followed this exact procedure.",
+      "evidence": [
+        0,
+        2
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "Why read it",
+      "text": "Changing control can matter as much as changing shape: obligatory versus optional extensions changes the organization of possible plans.",
+      "evidence": [
+        1
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Read the architectural comparison",
+      "locator": "pp. 155–156",
+      "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Knight.transformationOfLanguagesOfDesignsPart3.pdf"
+    },
+    {
+      "label": "Identify geometry versus control changes",
+      "locator": "p. 162",
+      "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Knight.transformationOfLanguagesOfDesignsPart3.pdf"
+    },
+    {
+      "label": "Read the interpretive cautions",
+      "locator": "pp. 176–177",
+      "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Knight.transformationOfLanguagesOfDesignsPart3.pdf"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Partial transformation",
+      "meaning": "A change applied to a selected subset of a grammar rather than every rule."
+    }
+  ]
+}

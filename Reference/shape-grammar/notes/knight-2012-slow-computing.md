@@ -2,29 +2,52 @@
 
 Source ID: `knight-2012-slow-computing`. Year: 2012. Contributors as recorded: Terry Knight.
 
-Type: book-chapter. Venue: Computational Design Methods and Technologies. Pages: 34-55.
+[Canonical metadata](../metadata/knight-2012-slow-computing.json) · [Structured reading guide](../../reading-guides/knight-2012-slow-computing.json) · [Original source](https://api.crossref.org/works/10.4018/978-1-61350-180-1.ch003)
 
-[Canonical metadata](../metadata/knight-2012-slow-computing.json) · [Source / publication record](https://doi.org/10.4018/978-1-61350-180-1.ch003) · [Reading path](https://doi.org/10.4018/978-1-61350-180-1.ch003)
+## Material inspected
 
-2012 chapter; registry title Slow Computing; extended title Slow Computing: Teaching Generative Design with Shape Grammars appears in author profile. Registry year is missing, so 2012 comes from profile/book context.
+The publisher-deposited abstract in Crossref was read in full. The publisher page was rate-limited.
 
-## Reading purpose
+Review level: **abstract-only**. The complete chapter, its exercises and any detailed assessment evidence were not inspected.
 
-Terry Knight author corpus: shape grammar theory, design, implementation, or teaching. This is a bibliographic entry and reading prompt, not a summary of an unreviewed argument.
+## What it is about
 
-## Verification
+Knight presents teaching shape grammars through reflective visual and manual computation. Slow refers to an approach to understanding and exploration, not to inefficient code.
 
-Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.
+[Publisher-deposited abstract](https://api.crossref.org/works/10.4018/978-1-61350-180-1.ch003)
 
-## Locators
+## Premise
 
-Exact claim locators require further full-text review.
+The chapter argues that expressive, perceptual and interpretive aspects of shape grammars deserve attention alongside fast automated generation.
+
+[Publisher-deposited abstract](https://api.crossref.org/works/10.4018/978-1-61350-180-1.ch003)
+
+## Teaching approach reported
+
+The abstract describes manual work within a collaborative learning-by-making environment and an overview of teaching at MIT. It considers opportunities and difficulties in combining slow human computation with machine computation.
+
+[Publisher-deposited abstract](https://api.crossref.org/works/10.4018/978-1-61350-180-1.ch003)
+
+## Stated contribution
+
+The contribution is a pedagogical account and discussion. The abstract supplies no participant numbers, assessment scores or controlled comparison of educational outcomes.
+
+[Publisher-deposited abstract](https://api.crossref.org/works/10.4018/978-1-61350-180-1.ch003)
+
+## Reading boundary
+
+Specific exercises and any qualifications in the chapter remain unreviewed. The abstract is insufficient evidence that manual computation is always educationally superior.
+
+[Publisher-deposited abstract](https://api.crossref.org/works/10.4018/978-1-61350-180-1.ch003) · [Published chapter record](https://doi.org/10.4018/978-1-61350-180-1.ch003)
+
+## A practical reading prompt
+
+Try carrying out one rule application by hand and explain the perception and transformation decisions you made. Then ask what automation would reveal, hide or make easier.
+
+[Publisher-deposited abstract](https://api.crossref.org/works/10.4018/978-1-61350-180-1.ch003)
 
 ## Originals and rights
 
-Reading link only; no local original mirrored.
+No general redistribution permission verified for this exact work; retain citation and lawful reading link.
 
-No general redistribution license established. No general redistribution permission verified for this exact work; retain citation and lawful reading link.
 [Rights evidence](https://doi.org/10.4018/978-1-61350-180-1.ch003).
-
-[Terry Knight author index](../../authors/terry-knight/README.md).

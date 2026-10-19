@@ -20,7 +20,7 @@
     "architecture",
     "parametric-grammars"
   ],
-  "relevance": "Primary architectural application; parametric design example with added prerequisites.",
+  "relevance": "A parametric grammar reconstructs main features of Palladio’s villa ground plans. The worked Villa Malcontenta example makes an architectural style explicit as a generative process.",
   "prerequisite_level": "intermediate",
   "prerequisites": [
     "Elementary sets and functions; some proof reading"
@@ -34,13 +34,27 @@
   },
   "local_files": [],
   "existing_local_files": [],
-  "locators": [],
+  "locators": [
+    {
+      "locator": "pp. 5–8: corpus, eight stages and grid",
+      "status": "selected-sections-reviewed"
+    },
+    {
+      "locator": "pp. 9–16: rule stages and Malcontenta example",
+      "status": "selected-sections-reviewed"
+    },
+    {
+      "locator": "pp. 16–18: biaxial extension and discussion",
+      "status": "selected-sections-reviewed"
+    }
+  ],
   "verification": {
-    "scope": "Bibliographic record or official landing page inspected; full text and exact claim locators not reviewed.",
+    "scope": "Primary scan: motivation, eight-stage programme, selected rules and Villa Malcontenta derivation, biaxial extension and discussion. The complete paper was available; selected rules and the argument were reviewed rather than independently executing every derivation. Parametric details are not fully specified in the paper.",
     "source_urls": [
-      "https://journals.sagepub.com/doi/10.1068/b050005"
+      "https://journals.sagepub.com/doi/10.1068/b050005",
+      "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Stiny&Mitchell.thePalladianGrammar.pdf"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "selected-sections"
   },
   "annotation_file": "shape-grammar/notes/stiny-mitchell-1978-palladian.md"
 }

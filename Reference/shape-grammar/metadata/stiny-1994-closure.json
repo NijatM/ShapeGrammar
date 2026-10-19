@@ -25,7 +25,7 @@
   "prerequisites": [
     "Undergraduate algebra and linear algebra; additional prerequisites in topic notes"
   ],
-  "access_date": "2026-10-18",
+  "access_date": "2026-10-19",
   "license_redistribution": {
     "status": "link-only",
     "license": null,
@@ -34,13 +34,23 @@
   },
   "local_files": [],
   "existing_local_files": [],
-  "locators": [],
+  "locators": [
+    {
+      "locator": "Public abstract",
+      "status": "abstract-only-inspected"
+    },
+    {
+      "locator": "Publisher-deposited abstract",
+      "status": "abstract-only-inspected"
+    }
+  ],
   "verification": {
-    "scope": "Bibliographic record or official landing page inspected; full text and exact claim locators not reviewed.",
+    "scope": "Original reading guide reviewed 2026-10-19. The complete publisher-deposited abstract and official record were read. Full definitions and proofs were inaccessible.",
     "source_urls": [
-      "https://journals.sagepub.com/doi/10.1068/b21S049"
+      "https://journals.sagepub.com/doi/10.1068/b21S049",
+      "https://api.crossref.org/works/10.1068/b21S049"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "abstract-only"
   },
   "annotation_file": "shape-grammar/notes/stiny-1994-closure.md"
 }

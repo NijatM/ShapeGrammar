@@ -25,7 +25,7 @@
   "prerequisites": [
     "Elementary sets and functions; some proof reading"
   ],
-  "access_date": "2026-10-18",
+  "access_date": "2026-10-19",
   "license_redistribution": {
     "status": "link-only",
     "license": null,
@@ -34,15 +34,21 @@
   },
   "local_files": [],
   "existing_local_files": [],
-  "locators": [],
+  "locators": [
+    {
+      "locator": "References: Knight T W, 1986, Transformations of Languages of Designs, PhD thesis, UCLA",
+      "status": "secondary-citation-only-reviewed"
+    }
+  ],
   "verification": {
-    "scope": "Citation verified in Chiou–Krishnamurti 1995 primary-paper bibliography; MIT faculty profile independently verifies UCLA PhD year 1986. Exact thesis title-page spelling and access remain unverified.",
+    "scope": "Inspected the dissertation citation in Knight’s 1989 De Stijl article bibliography, alongside the existing institutional degree evidence. The dissertation title page, abstract and full text have not been retrieved. A citation in another paper is not the dissertation.",
     "source_urls": [
       "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb220689-grammarTaiwaneseHouses.pdf",
       "https://journals.sagepub.com/doi/10.1068/b160417",
-      "https://ilpstex.mit.edu/content/faculty-profiles/terry-w-knight"
+      "https://ilpstex.mit.edu/content/faculty-profiles/terry-w-knight",
+      "https://journals.sagepub.com/doi/10.1068/b160051"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "secondary-citation-only"
   },
   "annotation_file": "shape-grammar/notes/knight-1986-transformations-dissertation.md",
   "publication_type": "dissertation-citation"

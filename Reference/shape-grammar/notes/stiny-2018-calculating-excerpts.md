@@ -1,34 +1,52 @@
 # Calculating: Beyond Fancy in Imagination’s Magical Realm — OCW Excerpts
 
-Source ID: `stiny-2018-calculating-excerpts`. Authors: George Stiny. Year: 2018.
+## Reading guide
 
-Public course manuscript excerpts: preface, seven questions, coda and Exhibit 2; preserve as a 2018 teaching version.
+Review: **selected-sections**, 2026-10-19. Selected local course-hosted manuscript material read: Preface pp.1–3; Q1, Q2, Q5–Q7 and Coda substantive text; Exhibit 2 pp.1–5. Selected Q1, Preface and Exhibit 2 diagrams visually inspected.
 
-[Canonical/verification page](https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/pages/course-texts/) · [Lawful reading link](https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/pages/course-texts/).
+This guide does not review all ten excerpt PDFs in full, and does not transfer their wording or page numbers to the final 2022 book. Claims about creativity and professional use are the author’s arguments and testimony, not independent empirical findings.
 
-Version: Fall 2018 course manuscript excerpts, ten separate PDFs; do not equate with the final 2022 book.
+## What these excerpts are about
 
-Review scope: Course page and all ten PDF text layers inspected for attribution/exclusion notices; course footer preserved. A general text review is not a full visual audit of all figures.
+Stiny explains shape grammars through questions about definition, expressive scope, use and creative interpretation. The reviewed examples emphasize calculation as repeatedly seeing a part, changing it, and seeing the fused result afresh. [1](https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/5f02efa46b231bd8e72595f39e791110_MIT4_540F18_qa1.pdf) [2](https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/fec4103db325fcc94329804f753e4be2_MIT4_540F18_qa2.pdf) [3](https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/d787db51029cf4478fcb8fb8c7d7c79c_MIT4_540F18_exhibit2.pdf) [5](https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/b3bca87a4467600070bee7693e10e9ce_MIT4_540F18_qa7.pdf)
 
-## Reading locators
+## The main premise
 
-- Exact claim/page locators still require full-text review.
+A drawing need not retain the decomposition used to create it. The next rule can identify other parts, so a fixed symbolic inventory is not the sole available description. Even an identity rule can reveal a part or symmetry without changing the drawing. [1](https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/5f02efa46b231bd8e72595f39e791110_MIT4_540F18_qa1.pdf) [2](https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/fec4103db325fcc94329804f753e4be2_MIT4_540F18_qa2.pdf)
 
-## Local originals
+## Method and worked example
 
-- [stiny-ocw-preface.pdf](../../shape-grammar/originals/stiny-ocw-preface.pdf) — SHA-256 `1fcbffa2e15f4a18928196a8780a9500bb8cb6f5e36a7fe2afa526b18fb389c7`
-- [stiny-ocw-qa1.pdf](../../shape-grammar/originals/stiny-ocw-qa1.pdf) — SHA-256 `99d2008f95eb5411138ed317aa2c93e3611adef1c12317532b7dfc2d71df6aac`
-- [stiny-ocw-qa2.pdf](../../shape-grammar/originals/stiny-ocw-qa2.pdf) — SHA-256 `d41e46470bf0ba9f5c01a77858eef8f7e82f8e11c062e7eead43ddc5a77b7389`
-- [stiny-ocw-qa3.pdf](../../shape-grammar/originals/stiny-ocw-qa3.pdf) — SHA-256 `eaedb0a94783e8bdd46e4da7b82d09f7e6c24923c3fc21363883aa03c5ae2031`
-- [stiny-ocw-qa4.pdf](../../shape-grammar/originals/stiny-ocw-qa4.pdf) — SHA-256 `6f1fec6aabb7ce2fa9bd69c22c56446f588ea67fbdba9311f72d858f5c33baf3`
-- [stiny-ocw-qa5.pdf](../../shape-grammar/originals/stiny-ocw-qa5.pdf) — SHA-256 `87a6799d3581e72c67860b53f150cd13883488fe71f0bdd1735e7f8192c7adcf`
-- [stiny-ocw-qa6.pdf](../../shape-grammar/originals/stiny-ocw-qa6.pdf) — SHA-256 `2756ee9cdc1a526ef9e1b54ef4e7b344df1ae1782fa1b08eeb2cb43d3fdb12e7`
-- [stiny-ocw-qa7.pdf](../../shape-grammar/originals/stiny-ocw-qa7.pdf) — SHA-256 `23a0e7d0c937cc699d62e3e2ccf95d065f2487802f1ffa715d3ee1bdb029747e`
-- [stiny-ocw-coda.pdf](../../shape-grammar/originals/stiny-ocw-coda.pdf) — SHA-256 `f916d30866a65c0d5faa18a536e4d4b5dd93d8e0bbc6e810807000f0ffb0ef5c`
-- [stiny-ocw-exhibit2.pdf](../../shape-grammar/originals/stiny-ocw-exhibit2.pdf) — SHA-256 `ec477d5cdf8935b782e883abf3345518c3465db6d605c42ed9cec8bfa3218283`
+In Q1, a square rule adds an inscribed square: match a transformed left side and replace it using the same transformation on the right. Exhibit 2 follows triangle rotations through configurations read as three triangles, then two, then three again. [1](https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/5f02efa46b231bd8e72595f39e791110_MIT4_540F18_qa1.pdf) [3](https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/d787db51029cf4478fcb8fb8c7d7c79c_MIT4_540F18_exhibit2.pdf)
 
-## Rights
+## What the example demonstrates
 
-CC BY-NC-SA 4.0. George Stiny, 4.540 Introduction to Shape Grammars I, Fall 2018, MIT OpenCourseWare. Unmodified course PDFs with terms footer retained; noncommercial use, attribution and ShareAlike. No individually marked CC exclusions found in these ten PDF text layers. Check third-party rights before extracting figures.
+A rule rotating a selected triangle about its own center can participate in a larger calculation whose original triangle centers move. There is no contradiction: the calculation reselects different triangles instead of tracking permanent objects through every step. [3](https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/d787db51029cf4478fcb8fb8c7d7c79c_MIT4_540F18_exhibit2.pdf)
 
-This is a public editorial reference annotation. Bibliographic inclusion does not certify every claim in the work, complete a lesson, or establish a connection to the Monster.
+## Evidence and limits
+
+The examples are visual arguments, not participant experiments. In Q6, Stiny reports professional use but declines to identify projects, so that passage does not supply independently checkable adoption evidence. No universal claim about all software follows from these examples. [3](https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/d787db51029cf4478fcb8fb8c7d7c79c_MIT4_540F18_exhibit2.pdf) [4](https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/ddd3004d20a21e7979fe0cf4dcbeabc6_MIT4_540F18_qa6.pdf)
+
+## How to read and experiment
+
+Try an identity rule first to mark alternative parts, then a changing rule. After each step, ask what can be seen now rather than only what was drawn before. Keep this course-hosted manuscript distinct from the final 2022 publication. [1](https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/5f02efa46b231bd8e72595f39e791110_MIT4_540F18_qa1.pdf) [2](https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/fec4103db325fcc94329804f753e4be2_MIT4_540F18_qa2.pdf) [5](https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/b3bca87a4467600070bee7693e10e9ce_MIT4_540F18_qa7.pdf) [6](https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/pages/course-texts/)
+
+## Key terms
+
+- **Identity rule**: A rule whose two sides are the same, useful for recognizing parts.
+- **Embed–fuse cycle**: Find a part, replace it and reconsider the combined geometry.
+- **Parsing**: Describing a shape through selected parts and relationships.
+
+## Read next
+
+- [Rule matching, replacement and fusion](https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/5f02efa46b231bd8e72595f39e791110_MIT4_540F18_qa1.pdf): Q1, substantive pp.1–3
+- [Identity rules for symmetry and parsing](https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/fec4103db325fcc94329804f753e4be2_MIT4_540F18_qa2.pdf): Q2, substantive pp.1–2
+- [Changing triangle decompositions in the pinwheel calculation](https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/d787db51029cf4478fcb8fb8c7d7c79c_MIT4_540F18_exhibit2.pdf): Exhibit 2, pp.1–5, Example 1
+- [Author’s account of professional use and interpretation](https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/ddd3004d20a21e7979fe0cf4dcbeabc6_MIT4_540F18_qa6.pdf): Q6, substantive pp.1–2
+- [Open-ended design and relation to Shape](https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/b3bca87a4467600070bee7693e10e9ce_MIT4_540F18_qa7.pdf): Q7, substantive pp.1–2
+- [Course identifies the pieces as forthcoming-book material](https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/pages/course-texts/): Calculating: Beyond Fancy in Imagination’s Magical Realm heading
+
+## Access and preservation
+
+George Stiny, 4.540 Introduction to Shape Grammars I, Fall 2018, MIT OpenCourseWare. Unmodified course PDFs with terms footer retained; noncommercial use, attribution and ShareAlike. No individually marked CC exclusions found in these ten PDF text layers. Check third-party rights before extracting figures.
+
+This annotation is an original reading aid. Consult the linked text for complete arguments, notation and qualifications.

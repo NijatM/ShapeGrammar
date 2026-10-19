@@ -34,14 +34,32 @@
   },
   "local_files": [],
   "existing_local_files": [],
-  "locators": [],
+  "locators": [
+    {
+      "locator": "Introduction; §2.1; §3, especially pp.1–2 and 6–8",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://arxiv.org/pdf/math/0402345v2"
+    },
+    {
+      "locator": "§§4.2–4.4, pp.14–17",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://arxiv.org/pdf/math/0402345v2"
+    },
+    {
+      "locator": "Opening Monster order and factorization",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/M/"
+    }
+  ],
   "verification": {
-    "scope": "arXiv v2 metadata and journal publisher record verified. No general redistribution permission established.",
+    "scope": "ArXiv v2 introduction, §2.1, selected §3.1–3.3 material and §§4.2–4.4 (especially pp.1–2, 6–8 and 14–17) read. The order formula on p.2 was visually checked against ATLAS. Selected survey sections only; full cited proofs and later extensions were not reviewed. Research-status statements belong to the 2004 preprint/2006 publication context, not today.",
     "source_urls": [
       "https://arxiv.org/abs/math/0402345",
-      "https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/S0024609305018217"
+      "https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/S0024609305018217",
+      "https://arxiv.org/pdf/math/0402345v2",
+      "https://brauer.maths.qmul.ac.uk/Atlas/spor/M/"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "selected-sections"
   },
   "annotation_file": "monster-moonshine/notes/gannon-2004-moonshine-survey.md"
 }

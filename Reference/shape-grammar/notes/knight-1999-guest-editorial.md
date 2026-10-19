@@ -1,24 +1,65 @@
 # Guest Editorial
 
-Source ID: `knight-1999-guest-editorial`. Year: 1999. Contributors as recorded: L March, T Knight.
+Source ID: `knight-1999-guest-editorial`. 1999.
 
-Type: journal-article. Venue: Environment and Planning B: Planning and Design. Pages: 5-6.
+[Canonical metadata](../metadata/knight-1999-guest-editorial.json) · [Read original paper](https://journals.sagepub.com/doi/pdf/10.1068/b260005?download=true)
 
-[Canonical metadata](../metadata/knight-1999-guest-editorial.json) · [Source / publication record](https://doi.org/10.1068/b260005) · [Reading path](https://doi.org/10.1068/b260005)
+## Review scope
 
-Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.
+**full-text.** Read the complete two-page March–Knight editorial from the publisher. This is the editors’ historical perspective and research agenda, not an experiment or proof of the papers it introduces.
 
-## Reading purpose
+## In brief
 
-Terry Knight author corpus: shape grammar theory, design, implementation, or teaching. This is a bibliographic entry and reading prompt, not a summary of an unreviewed argument.
+March and Knight introduce a theme issue by tracing shape computation from Gips and Stiny’s collaboration through UCLA’s teaching and research program.
 
-## Verification
+Evidence: [p. 5: historical development and UCLA program](https://journals.sagepub.com/doi/pdf/10.1068/b260005?download=true).
 
-Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.
+## Editorial purpose
 
-## Locators
+What has the research program established, and what theoretical and practical work should follow?
 
-Exact claim locators require further full-text review.
+Evidence: [p. 5: historical development and UCLA program](https://journals.sagepub.com/doi/pdf/10.1068/b260005?download=true).
+
+## Position
+
+Shape computation joins geometric rules, transformations and nonshape attributes. Its development includes stylistic analysis, design applications, pedagogy and implementation.
+
+Evidence: [p. 5: historical development and UCLA program](https://journals.sagepub.com/doi/pdf/10.1068/b260005?download=true).
+
+## How the argument develops
+
+The editors combine a historical narrative with a map of the issue’s contributions. This is an interpretive introduction, not a systematic literature review.
+
+Evidence: [p. 5: historical development and UCLA program](https://journals.sagepub.com/doi/pdf/10.1068/b260005?download=true); [p. 6: theme-issue contributions and open implementation concerns](https://journals.sagepub.com/doi/pdf/10.1068/b260005?download=true).
+
+## Examples discussed
+
+The editorial points to Prairie-house analysis, grammar implementation, algebraic foundations, Froebel symmetry and Knight’s grammar classifications.
+
+Evidence: [p. 5: historical development and UCLA program](https://journals.sagepub.com/doi/pdf/10.1068/b260005?download=true); [p. 6: theme-issue contributions and open implementation concerns](https://journals.sagepub.com/doi/pdf/10.1068/b260005?download=true).
+
+## Concluding emphasis
+
+Implementation remains a central problem. Useful interfaces and understanding what rule systems can predict are presented as practical concerns for designers.
+
+Evidence: [p. 6: theme-issue contributions and open implementation concerns](https://journals.sagepub.com/doi/pdf/10.1068/b260005?download=true).
+
+## Limits
+
+The account reflects 1999 priorities. A book described as forthcoming or a workshop described as planned should not be read as a current status report.
+
+Evidence: [p. 6: theme-issue contributions and open implementation concerns](https://journals.sagepub.com/doi/pdf/10.1068/b260005?download=true).
+
+## Why read it
+
+Use this short article as a map of related research questions before opening the more technical papers.
+
+Evidence: [p. 6: theme-issue contributions and open implementation concerns](https://journals.sagepub.com/doi/pdf/10.1068/b260005?download=true).
+
+## Reading path
+
+- [Read the historical account](https://journals.sagepub.com/doi/pdf/10.1068/b260005?download=true): p. 5.
+- [Follow the issue’s research map](https://journals.sagepub.com/doi/pdf/10.1068/b260005?download=true): p. 6.
 
 ## Originals and rights
 

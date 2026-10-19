@@ -20,7 +20,7 @@
     "shape-algebras",
     "U12"
   ],
-  "relevance": "Primary definition of U_ij dimensions and an algebra interface for shape-grammar interpretation; supports the planar line-engine convention.",
+  "relevance": "Stouffs asks how to build a shape grammar interpreter that can accommodate different geometric elements and additional information, rather than being tied to one drawing representation.",
   "prerequisite_level": "intermediate",
   "prerequisites": [
     "Elementary sets and functions; some proof reading"
@@ -36,20 +36,24 @@
   "existing_local_files": [],
   "locators": [
     {
-      "locator": "p. 331, Shape Algebras: U_ij and U_12 dimensional convention",
-      "status": "text-and-rendered-page-verified"
+      "locator": "pp. 329–331: objectives and shape algebras",
+      "status": "selected-sections-reviewed"
     },
     {
-      "locator": "pp. 332–334, algebra interface and spatial elements",
-      "status": "selected-text-inspected"
+      "locator": "pp. 331–336: product and attribution constructions",
+      "status": "selected-sections-reviewed"
+    },
+    {
+      "locator": "pp. 337–338: discussion and conclusion",
+      "status": "selected-sections-reviewed"
     }
   ],
   "verification": {
-    "scope": "Institutional repository cover and complete relevant sections inspected. Printed p. 331 rendered and visually checked for U_ij dimensional convention; pp. 332–334 read for operations/interface.",
+    "scope": "Institutional author PDF: problem statement, algebraic constructions and concluding interpreter discussion. Selected technical sections reviewed. The paper proposes a general architecture; the guide does not infer a complete implementation or measured performance.",
     "source_urls": [
       "https://pure.tudelft.nl/ws/portalfiles/portal/12909097/Stouffs_eCAADe2016_volume2.pdf"
     ],
-    "content_review": "selected-sections-and-page-image"
+    "content_review": "selected-sections"
   },
   "annotation_file": "shape-grammar/notes/stouffs-2016-interpreter.md",
   "publication_type": "conference-paper"

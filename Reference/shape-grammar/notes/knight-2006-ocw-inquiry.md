@@ -2,29 +2,52 @@
 
 Source ID: `knight-2006-ocw-inquiry`. Year: 2006. Contributors as recorded: Terry Knight.
 
-Type: course-material-bundle. Venue: MIT OpenCourseWare, Fall 2006. Pages: not independently established.
+[Canonical metadata](../metadata/knight-2006-ocw-inquiry.json) · [Structured reading guide](../../reading-guides/knight-2006-ocw-inquiry.json) · [Original source](https://ocw.mit.edu/courses/4-580-inquiry-into-computation-and-design-fall-2006/pages/syllabus/)
 
-[Canonical metadata](../metadata/knight-2006-ocw-inquiry.json) · [Source / publication record](https://ocw.mit.edu/courses/4-580-inquiry-into-computation-and-design-fall-2006/) · [Reading path](https://ocw.mit.edu/courses/4-580-inquiry-into-computation-and-design-fall-2006/)
+## Material inspected
 
-Fall 2006 course; Knight is the instructor. Guest lectures and third-party readings have their own authors.
+The official syllabus page was read in full. The course landing page and existing lecture-note inventory were inspected; individual guest lectures and linked readings were not treated as Knight-authored texts.
 
-## Reading purpose
+Review level: **selected-sections**. This guide describes the public teaching framework, not the contents or effectiveness of the entire course.
 
-The course provides public syllabus, reading and lecture-note inventories. Attribute guest materials separately. A course bibliography can guide discovery without making its listed works Knight-authored.
+## What it is about
 
-## Verification
+This public MIT OCW collection introduces varied approaches to computation and design. The syllabus includes computing performed both by machine and by hand, and treats design broadly: activities, designers, artifacts and the environments where design happens.
 
-Official course landing page, syllabus and lecture-note inventory inspected; guest contributions are not attributed to Knight. Individual lecture PDFs have not received a rights/content audit.
+[Syllabus: Course Overview and Prerequisites](https://ocw.mit.edu/courses/4-580-inquiry-into-computation-and-design-fall-2006/pages/syllabus/)
 
-## Locators
+## The organizing question
 
-- Syllabus; Lecture Notes inventory (official-page-inspected).
+Which metaphors shape the way we think about computation? Knight asks how a familiar domain helps people understand an abstract one, while making some possibilities visible and marginalizing others.
+
+[Syllabus: Course Overview and Prerequisites](https://ocw.mit.edu/courses/4-580-inquiry-into-computation-and-design-fall-2006/pages/syllabus/)
+
+## How the subject approaches it
+
+The semester is organized into thematic modules with guest faculty speakers, readings and team-based assignments. The stated aim is critical awareness of computational design beyond a particular technique or software tool.
+
+[Syllabus: Course Overview and Prerequisites](https://ocw.mit.edu/courses/4-580-inquiry-into-computation-and-design-fall-2006/pages/syllabus/)
+
+## What this source establishes
+
+The syllabus documents an intellectual framework and teaching plan. It does not report research participants, experimental results or evidence that a specific tool is best. Guest lectures retain their individual authorship.
+
+[Syllabus: Course Overview and Prerequisites](https://ocw.mit.edu/courses/4-580-inquiry-into-computation-and-design-fall-2006/pages/syllabus/)
+
+## What was not read
+
+This review does not cover every lecture PDF or external reading. Their detailed claims and reuse conditions must be checked individually; the course-wide open license does not automatically apply to every linked work.
+
+[Syllabus: Course Overview and Prerequisites](https://ocw.mit.edu/courses/4-580-inquiry-into-computation-and-design-fall-2006/pages/syllabus/)
+
+## How to read it actively
+
+Choose a computational method you already use and name the metaphor behind it: language, machine, growth, conversation or another model. Write what the metaphor makes easy to describe and what it leaves difficult to see. This is a suggested reflection based on the syllabus’s purpose.
+
+[Syllabus: Course Overview and Prerequisites](https://ocw.mit.edu/courses/4-580-inquiry-into-computation-and-design-fall-2006/pages/syllabus/)
 
 ## Originals and rights
 
-Reading link only; no local original mirrored.
+Course-wide OCW license does not override individually excluded material or external readings. No complete course archive or lecture PDF mirrored in this pass.
 
-CC BY-NC-SA 4.0 (OCW-authored material; exclusions apply). Course-wide OCW license does not override individually excluded material or external readings. No complete course archive or lecture PDF mirrored in this pass.
 [Rights evidence](https://ocw.mit.edu/pages/privacy-and-terms-of-use/).
-
-[Terry Knight author index](../../authors/terry-knight/README.md).

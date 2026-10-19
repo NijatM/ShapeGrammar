@@ -24,7 +24,7 @@
   "prerequisites": [
     "Elementary sets and functions; some proof reading"
   ],
-  "access_date": "2026-10-18",
+  "access_date": "2026-10-19",
   "license_redistribution": {
     "status": "downloaded-with-conditions",
     "license": "CC BY 4.0",
@@ -46,18 +46,23 @@
   "existing_local_files": [],
   "locators": [
     {
-      "locator": "Printed p. 1, introduction and byline",
-      "status": "selected-text-inspected"
+      "locator": "pp. 1–3: design, materialisation and use",
+      "status": "full-text-inspected"
+    },
+    {
+      "locator": "pp. 3–6: authors’ contributions; pp. 6–8: notes",
+      "status": "full-text-inspected"
     }
   ],
   "verification": {
-    "scope": "Publisher DOI metadata, official landing-page license, PDF byline and printed pagination inspected. Text layer read for introductory context and references; figures and all arguments not exhaustively reviewed.",
+    "scope": "Original reading guide reviewed 2026-10-19. All eight printed pages (1–8), including conceptual framing, five article descriptions and notes, were read. This is an issue introduction. Claims reported from its contributors are not independent empirical tests by the editors.",
     "source_urls": [
       "https://api.crossref.org/works/10.59490/footprint.8.2.807",
       "https://architecture.mit.edu/people/terry-knight",
-      "https://journals.open.tudelft.nl/footprint/article/view/807"
+      "https://journals.open.tudelft.nl/footprint/article/view/807",
+      "https://journals.open.tudelft.nl/footprint/article/download/807/990"
     ],
-    "content_review": "selected-text-and-rights"
+    "content_review": "full-text"
   },
   "annotation_file": "shape-grammar/notes/knight-2014-data-driven-design-to-production-and-operation.md",
   "publication_type": "journal-article",

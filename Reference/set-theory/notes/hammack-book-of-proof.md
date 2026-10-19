@@ -1,25 +1,49 @@
 # Book of Proof
 
-Source ID: `hammack-book-of-proof`. Authors: Richard Hammack. Year: 2018.
+## Reading guide
 
-Beginner core for sets, proof methods, relations, functions and cardinality.
+Review: **selected-sections**, 2026-10-19. Third-edition revision 3.4 PDF: selected discussion in §§1.3–1.5, 11.3, 12.2 and 14.1 read.
 
-[Canonical/verification page](https://richardhammack.github.io/BookOfProof/) · [Lawful reading link](https://richardhammack.github.io/BookOfProof/).
+The whole textbook, later proofs and exercise solutions were not reviewed. This is a route through its foundational ideas, not a report of an experiment.
 
-Version: Third edition, revision 3.4 (5 February 2025); copyright 2018.
+## What this book helps you understand
 
-Review scope: Bibliographic record or official landing page inspected; full text and exact claim locators not reviewed.
+A bridge from calculating answers to explaining why mathematical statements hold. The selected pages develop sets, relations and functions as tools for precise reasoning, then use functions to compare finite and infinite collections. [1](https://richardhammack.github.io/BookOfProof/Main.pdf) [2](https://richardhammack.github.io/BookOfProof/Main.pdf) [3](https://richardhammack.github.io/BookOfProof/Main.pdf)
 
-## Reading locators
+## Central ideas
 
-- Chapter 1: Sets; Chapters 4–10: proof methods; Chapter 11: Relations; Chapter 12: Functions; Chapter 14: Cardinality — author-contents-and-downloaded-PDF-verified
+Membership and containment answer different questions: an object may be an element without being a subset. A power set collects every subset; a finite n-element set has 2^n subsets. Equivalence relations formalize a chosen notion of sameness through reflexivity, symmetry and transitivity. [1](https://richardhammack.github.io/BookOfProof/Main.pdf) [2](https://richardhammack.github.io/BookOfProof/Main.pdf)
 
-## Local originals
+## How the explanation works
 
-- [hammack-book-of-proof.pdf](../../set-theory/originals/hammack-book-of-proof.pdf) — SHA-256 `e0e471ca794ddda7bc46704b22885e1582350b7fc5881f8ba9a61b3747ec79fd`
+Definitions are unpacked through small examples, diagrams and counterexamples. Subsets arise by choosing whether to include each element. Equivalence classes group related objects. Functions distinguish domain, codomain and actual range before injectivity and surjectivity are tested. [1](https://richardhammack.github.io/BookOfProof/Main.pdf) [2](https://richardhammack.github.io/BookOfProof/Main.pdf)
 
-## Rights
+## Examples to keep in mind
 
-CC BY-NC-ND 4.0. Unmodified PDF; Richard Hammack attribution and embedded notice retained. Noncommercial redistribution only; no distributed modified version.
+The book contrasts squaring R→R, which misses negative values and identifies opposite inputs, with cubing, which is bijective. Changing the squaring function’s codomain to nonnegative reals makes it onto. Thus a formula alone does not determine all function properties. [2](https://richardhammack.github.io/BookOfProof/Main.pdf)
 
-This is a public editorial reference annotation. Bibliographic inclusion does not certify every claim in the work, complete a lesson, or establish a connection to the Monster.
+## Where it leads
+
+Equal cardinality means that a bijection exists, not that an endless counting process finishes. A systematic pairing matches natural numbers with integers. The diagonal argument then explains why no enumeration can capture all real numbers. [3](https://richardhammack.github.io/BookOfProof/Main.pdf)
+
+## How to use it here
+
+Check the chosen universe and codomain before operating on sets or functions. Read the explicit definitions, reconstruct one example yourself, and use the exercises to expose notation mistakes before moving to group actions. [1](https://richardhammack.github.io/BookOfProof/Main.pdf) [2](https://richardhammack.github.io/BookOfProof/Main.pdf) [3](https://richardhammack.github.io/BookOfProof/Main.pdf)
+
+## Key terms
+
+- **Power set**: The set of all subsets of a given set.
+- **Equivalence class**: All objects related to one chosen object.
+- **Bijection**: A function that is both one-to-one and onto.
+
+## Read next
+
+- [Subsets, power sets and set operations](https://richardhammack.github.io/BookOfProof/Main.pdf): §§1.3–1.5, printed pp.12–19 (PDF pp.24–31)
+- [Equivalence relations and function properties](https://richardhammack.github.io/BookOfProof/Main.pdf): §11.3, printed pp.210–212; §12.2, pp.228–229
+- [Cardinality via bijections and diagonal argument opening](https://richardhammack.github.io/BookOfProof/Main.pdf): §14.1, printed pp.269–271
+
+## Access and preservation
+
+Unmodified PDF; Richard Hammack attribution and embedded notice retained. Noncommercial redistribution only; no distributed modified version.
+
+This annotation is an original reading aid. Consult the linked text for complete arguments, notation and qualifications.

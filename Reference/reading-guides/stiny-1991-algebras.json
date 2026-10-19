@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "source_id": "stiny-1991-algebras",
+  "kind": "Algebraic foundations paper",
+  "review": {
+    "level": "selected-sections",
+    "material": "Publisher PDF: shape representation and operations, grammar mechanism, emergence and indeterminacy examples, concluding cross-domain discussion.",
+    "limitations": "Selected technical sections and examples were reviewed. The detailed classification of indeterminacy was read for context, not independently proved.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://link.springer.com/content/pdf/10.1007/BF01578998.pdf",
+        "locator": "pp. 171–174: algebras, maximality and operations",
+        "description": "Distinguishes shape operations from ordinary set operations on their stored elements."
+      },
+      {
+        "url": "https://link.springer.com/content/pdf/10.1007/BF01578998.pdf",
+        "locator": "pp. 174–178: rules, emergence and indeterminacy",
+        "description": "Shared-transform replacement, chevron examples and finite/infinite placement issues."
+      },
+      {
+        "url": "https://link.springer.com/content/pdf/10.1007/BF01578998.pdf",
+        "locator": "pp. 180–181: languages and coordinated descriptions",
+        "description": "Products connect different descriptive domains."
+      }
+    ]
+  },
+  "original": {
+    "url": "https://link.springer.com/content/pdf/10.1007/BF01578998.pdf",
+    "label": "Read original text",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "In brief",
+      "text": "Stiny develops a common algebraic language for drawings, models and symbolic descriptions. It explains why shapes can have recognizable parts that are absent from their stored list of maximal elements.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "The question",
+      "text": "How can one computational formalism work across different geometric dimensions and connect spatial and symbolic descriptions without fixing every possible part in advance?",
+      "evidence": [
+        0,
+        2
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "Main idea or claim",
+      "text": "Part relations, sum, difference and transformations organize shape computation. Products of suitable algebras can coordinate descriptions while embedding permits parts to be recognized anew during a derivation.",
+      "evidence": [
+        0,
+        2
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "How the work approaches it",
+      "text": "The paper develops straight-line examples, generalizes by element and ambient dimension, introduces labels and decompositions, and states the rule mechanism through matching followed by transformed replacement.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "Evidence and examples",
+      "text": "Two-square and chevron constructions show the difference between stored elements and emergent parts. Other examples examine how extra points can constrain a rule and how configurations can leave infinitely many placements.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "What comes out of it",
+      "text": "A unique maximal-element representation does not force a unique interpretation into parts. Coordinates and labels can restrict a computation, but the geometry can still support alternative readings under other rules.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "Limits to keep in mind",
+      "text": "Different algebras have different properties and recognition conditions. The paper’s broad cross-domain promise is conceptual, not a demonstrated general software system or a benchmark establishing practical speed.",
+      "evidence": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "What to take from it",
+      "text": "Do not equate a set of maximal segments with the set of all meaningful parts. Use the algebra’s geometric operations, then state explicitly which labels or product components constrain the rules.",
+      "evidence": [
+        0,
+        1
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "pp. 171–174: algebras, maximality and operations",
+      "locator": "Distinguishes shape operations from ordinary set operations on their stored elements.",
+      "url": "https://link.springer.com/content/pdf/10.1007/BF01578998.pdf"
+    },
+    {
+      "label": "pp. 174–178: rules, emergence and indeterminacy",
+      "locator": "Shared-transform replacement, chevron examples and finite/infinite placement issues.",
+      "url": "https://link.springer.com/content/pdf/10.1007/BF01578998.pdf"
+    },
+    {
+      "label": "pp. 180–181: languages and coordinated descriptions",
+      "locator": "Products connect different descriptive domains.",
+      "url": "https://link.springer.com/content/pdf/10.1007/BF01578998.pdf"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Shape algebra",
+      "meaning": "A domain of shapes equipped with a part relation, operations and transformations."
+    },
+    {
+      "term": "Product algebra",
+      "meaning": "A way to coordinate separate descriptions in one computation."
+    }
+  ]
+}

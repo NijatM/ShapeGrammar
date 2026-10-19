@@ -9,7 +9,7 @@
     "Takehiko Nagakura"
   ],
   "year": 2026,
-  "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+  "edition_version": "Published version; dates from publisher-deposited DOI metadata. See the reading guide for the exact material inspected.",
   "doi": "10.1007/978-3-032-30846-7_7",
   "stable_url": "https://doi.org/10.1007/978-3-032-30846-7_7",
   "reading_url": "https://doi.org/10.1007/978-3-032-30846-7_7",
@@ -27,7 +27,7 @@
   "prerequisites": [
     "Elementary sets and functions; some proof reading"
   ],
-  "access_date": "2026-10-18",
+  "access_date": "2026-10-19",
   "license_redistribution": {
     "status": "link-only",
     "license": null,
@@ -36,14 +36,28 @@
   },
   "local_files": [],
   "existing_local_files": [],
-  "locators": [],
+  "locators": [
+    {
+      "locator": "Sections 1–4: post-generative grounding and IIGenAI system",
+      "status": "full-text-inspected"
+    },
+    {
+      "locator": "Section 5: participants, conditions, measures and procedure",
+      "status": "full-text-inspected"
+    },
+    {
+      "locator": "Sections 6–8: findings, discussion and limitations",
+      "status": "full-text-inspected"
+    }
+  ],
   "verification": {
-    "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+    "scope": "Original reading guide reviewed 2026-10-19. The public full publisher text and 17-page PDF were read, including system architecture, study design, results, limitations and conclusion. The measures page was inspected. Reported statistics were read, not recomputed from participant data. Several measures are descriptive or labelled synthetic evaluation; the system’s material-identification accuracy was not independently validated.",
     "source_urls": [
       "https://api.crossref.org/works/10.1007/978-3-032-30846-7_7",
-      "https://architecture.mit.edu/people/terry-knight"
+      "https://architecture.mit.edu/people/terry-knight",
+      "https://link.springer.com/chapter/10.1007/978-3-032-30846-7_7"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "full-text"
   },
   "annotation_file": "shape-grammar/notes/knight-2026-beyond-the-render-grounding-generative-ai-with-real-world-material-data-for.md",
   "publication_type": "book-chapter",

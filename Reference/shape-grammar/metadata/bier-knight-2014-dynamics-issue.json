@@ -9,7 +9,7 @@
   ],
   "year": 2014,
   "edition_version": "Themed issue associated with Bier–Knight editorial; publication container recorded separately from the editorial article. Do not attribute every contributed paper to the issue editors.",
-  "doi": null,
+  "doi": "10.7480/footprint.8.2",
   "stable_url": "https://journals.open.tudelft.nl/footprint/issue/view/394",
   "reading_url": "https://journals.open.tudelft.nl/footprint/issue/view/394",
   "download_url": null,
@@ -24,7 +24,7 @@
   "prerequisites": [
     "Elementary sets and functions; some proof reading"
   ],
-  "access_date": "2026-10-18",
+  "access_date": "2026-10-19",
   "license_redistribution": {
     "status": "link-only",
     "license": null,
@@ -33,13 +33,22 @@
   },
   "local_files": [],
   "existing_local_files": [],
-  "locators": [],
+  "locators": [
+    {
+      "locator": "Issue #15, Autumn 2014: opening description",
+      "status": "selected-sections-reviewed"
+    },
+    {
+      "locator": "Contents: opening editorial and five contributed papers",
+      "status": "selected-sections-reviewed"
+    }
+  ],
   "verification": {
-    "scope": "Official issue page and corresponding Bier–Knight editorial checked. This is an edited publication context, not a newly authored research paper.",
+    "scope": "Read the official issue introduction and complete contents. This is an edited collection, distinct from the Bier–Knight editorial within it. Individual papers’ methods, results and conclusions were not reviewed as a complete collection; no shared experimental outcome is asserted.",
     "source_urls": [
       "https://journals.open.tudelft.nl/footprint/issue/view/394"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "selected-sections"
   },
   "annotation_file": "shape-grammar/notes/bier-knight-2014-dynamics-issue.md",
   "publication_type": "edited-issue",

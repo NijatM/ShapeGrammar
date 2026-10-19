@@ -25,7 +25,7 @@
   "prerequisites": [
     "Elementary sets and functions; some proof reading"
   ],
-  "access_date": "2026-10-18",
+  "access_date": "2026-10-19",
   "license_redistribution": {
     "status": "link-only",
     "license": null,
@@ -36,16 +36,20 @@
   "existing_local_files": [],
   "locators": [
     {
-      "locator": "PDF p. 1, course approach; PDF p. 2, calendar",
-      "status": "selected-text-inspected"
+      "locator": "PDF p. 1: approach and prerequisites",
+      "status": "full-text-inspected"
+    },
+    {
+      "locator": "PDF p. 2: calendar",
+      "status": "full-text-inspected"
     }
   ],
   "verification": {
-    "scope": "Official two-page syllabus inspected: course approach on PDF p. 1 and calendar on PDF p. 2. Public syllabus only; linked Canvas course not accessed.",
+    "scope": "Original reading guide reviewed 2026-10-19. Both pages of the official Spring 2025 syllabus were read: teaching approach and prerequisites on page 1, calendar on page 2. Only the public syllabus was reviewed; Canvas materials, student work and learning outcomes were not accessed.",
     "source_urls": [
       "https://architecture.mit.edu/sites/default/files/course-documents/25sp-4.520%2B4.521-syll-knight.pdf"
     ],
-    "content_review": "selected-sections"
+    "content_review": "full-text"
   },
   "annotation_file": "shape-grammar/notes/knight-2025-visual-computing-syllabus.md",
   "publication_type": "course-syllabus"

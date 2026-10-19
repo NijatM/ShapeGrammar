@@ -25,7 +25,7 @@
   "prerequisites": [
     "Elementary sets and functions; some proof reading"
   ],
-  "access_date": "2026-10-18",
+  "access_date": "2026-10-19",
   "license_redistribution": {
     "status": "link-only",
     "license": null,
@@ -34,15 +34,21 @@
   },
   "local_files": [],
   "existing_local_files": [],
-  "locators": [],
+  "locators": [
+    {
+      "locator": "Publication list: Infinite Patterns and Their Symmetries (1998)",
+      "status": "abstract-only-reviewed"
+    }
+  ],
   "verification": {
-    "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed. Page range corroborated in author’s 2003 bibliography available through indexed primary-paper text; full original not reviewed.",
+    "scope": "Read the abstract excerpt for this title on Knight’s public author profile; full original not retrieved. The full article and complete abstract were not available here. Particular symmetry claims and examples remain unverified.",
     "source_urls": [
       "https://api.crossref.org/works/10.2307/1576670",
       "https://architecture.mit.edu/people/terry-knight",
-      "https://citeseerx.ist.psu.edu/document?doi=120bbf606e518f8ea4bdf044362dfbb6b71c6cf9&repid=rep1&type=pdf"
+      "https://citeseerx.ist.psu.edu/document?doi=120bbf606e518f8ea4bdf044362dfbb6b71c6cf9&repid=rep1&type=pdf",
+      "https://www.researchgate.net/profile/Terry-Knight"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "abstract-only"
   },
   "annotation_file": "shape-grammar/notes/knight-1998-infinite-patterns-and-their-symmetries.md",
   "publication_type": "journal-article",

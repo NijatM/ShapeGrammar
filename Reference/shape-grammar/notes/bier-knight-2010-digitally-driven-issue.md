@@ -1,26 +1,66 @@
 # Digitally-Driven Architecture — Footprint Issue 6
 
-Source ID: `bier-knight-2010-digitally-driven-issue`. Year: 2010. Contributors as recorded: Henriette Bier, Terry Knight.
+Source ID: `bier-knight-2010-digitally-driven-issue`. 2010.
 
-Type: edited-issue. Venue: Footprint, themed issue. Pages: not independently established.
+[Canonical metadata](../metadata/bier-knight-2010-digitally-driven-issue.json) · [Read the issue introduction and choose an article](https://journals.open.tudelft.nl/footprint/issue/view/378)
 
-[Canonical metadata](../metadata/bier-knight-2010-digitally-driven-issue.json) · [Source / publication record](https://journals.open.tudelft.nl/footprint/issue/view/378) · [Reading path](https://journals.open.tudelft.nl/footprint/issue/view/378)
+## Review scope
 
-Themed issue associated with Bier–Knight editorial; publication container recorded separately from the editorial article. Do not attribute every contributed paper to the issue editors. Spring 2010 is the issue designation; web platform displays publication timestamp 2014-07-31. The original editorial footer confirms Spring 2010.
+**selected-sections.** Read the official issue introduction and complete contents. Bier and Knight are the issue editors; individual papers retain their own authors. The contributed articles were not collectively reviewed. This container has no single experiment, method or tested conclusion.
 
-## Reading purpose
+## In brief
 
-Terry Knight author corpus: Digitally-Driven Architecture — Footprint Issue 6. Citation coverage; full text requires separate review. This is a bibliographic entry and reading prompt, not a summary of an unreviewed argument.
+This collection examines digital processes in architecture, spanning design generation, fabrication and buildings that sense or respond to their surroundings.
 
-## Verification
+Evidence: [Issue #6, Spring 2010: opening description](https://journals.open.tudelft.nl/footprint/issue/view/378).
 
-Official issue page and corresponding Bier–Knight editorial checked. This is an edited publication context, not a newly authored research paper.
+## Organizing question
 
-Roles: Henriette Bier — Issue editor; Terry Knight — Issue editor.
+How do digital tools change architecture both as ways of conceiving and constructing form and as means of operating interactive environments?
 
-## Locators
+Evidence: [Issue #6, Spring 2010: opening description](https://journals.open.tudelft.nl/footprint/issue/view/378).
 
-Exact claim locators require further full-text review.
+## Editorial premise
+
+The introduction links a move beyond standardized production with complex customized forms. It also treats data about environmental behavior and content as relevant to architectural design.
+
+Evidence: [Issue #6, Spring 2010: opening description](https://journals.open.tudelft.nl/footprint/issue/view/378).
+
+## How the issue is organized
+
+An opening Bier–Knight editorial is followed by five independently authored contributions. The issue combines historical, conceptual and design-project perspectives; those methods must be checked article by article.
+
+Evidence: [Contents: editorial and five contributed articles](https://journals.open.tudelft.nl/footprint/issue/view/378).
+
+## Useful reading examples
+
+Fox discusses interactive-environment history; Rosenberg addresses transformable scissor-pair structures; Gullström examines framing and transparency in mediated windows. These are separate investigations, not examples tested by one common protocol.
+
+Evidence: [Contents: editorial and five contributed articles](https://journals.open.tudelft.nl/footprint/issue/view/378).
+
+## What can be concluded here
+
+The collection connects digital generation and fabrication with sensing and actuation. The issue introduction establishes a research agenda, not proof that these systems improve every building.
+
+Evidence: [Issue #6, Spring 2010: opening description](https://journals.open.tudelft.nl/footprint/issue/view/378).
+
+## Limits and dates
+
+Spring 2010 is the issue designation. The platform displays a 2014 posting date. This guide summarizes the editors’ framing and contents, not the results of every paper.
+
+Evidence: [Issue #6, Spring 2010: opening description](https://journals.open.tudelft.nl/footprint/issue/view/378).
+
+## Why browse it
+
+It broadens a grammar-focused perspective: generating geometry is one part of a larger design–fabrication–interaction process.
+
+Evidence: [Issue #6, Spring 2010: opening description](https://journals.open.tudelft.nl/footprint/issue/view/378).
+
+## Reading path
+
+- [Read the editorial first](https://journals.open.tudelft.nl/footprint/article/view/715): Bier and Knight, pp. 1–4.
+- [Explore a transformable structure example](https://journals.open.tudelft.nl/footprint/article/view/717): Rosenberg, pp. 19–40.
+- [Browse all independently authored contributions](https://journals.open.tudelft.nl/footprint/issue/view/378): Issue contents.
 
 ## Originals and rights
 

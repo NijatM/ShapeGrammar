@@ -12,6 +12,6 @@
     "dev": "python3 -m http.server 8765 --bind 127.0.0.1",
     "build": "node tools/build.mjs",
     "benchmark": "node tools/benchmark.mjs",
-    "check": "npm test && python3 Reference/tools/library.py validate && node tools/check-site.mjs"
+    "check": "npm test && python3 Reference/tools/library.py validate && node tools/check-readings.mjs && node tools/check-site.mjs"
   }
 }

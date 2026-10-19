@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "source_id": "borcherds-1992-moonshine-proof",
+  "kind": "research-paper",
+  "review": {
+    "level": "selected-sections",
+    "material": "Author-hosted PDF: abstract and §1 introduction/proof outline (pp.1–5), plus §9 completion of Theorem 1.1 (pp.27–29) read.",
+    "limitations": "The full 41-page paper was not reviewed. In particular the technical constructions and intermediate proofs in §§3–8 and the second family of algebras in §§10–14 were not independently checked.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://math.berkeley.edu/~reb/papers/monster/monster.pdf",
+        "locator": "§1, Theorem 1.1 and proof outline, PDF pp.1–5",
+        "description": "Precise moonshine claim and construction strategy"
+      },
+      {
+        "url": "https://math.berkeley.edu/~reb/papers/monster/monster.pdf",
+        "locator": "§9, PDF pp.27–29, equations 9.1–9.2 and concluding paragraph",
+        "description": "Recursion plus initial character comparison"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://math.berkeley.edu/~reb/papers/monster/monster.pdf",
+    "label": "Read the original source",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What the theorem establishes",
+      "text": "The element-trace series of the Frenkel–Lepowsky–Meurman Monster module are genus-zero Hauptmoduls, proving the main Conway–Norton moonshine conjecture.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "Proof architecture",
+      "text": "The vertex algebra and no-ghost theorem produce the Monster Lie algebra. Its twisted denominator identities constrain trace coefficients. Section 9 compares these recurrences with those of the proposed modular functions.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "Why finite checking suffices here",
+      "text": "Recurrences propagate appropriate initial character information, including information for powers of group elements, to all coefficients. The paper does not infer an infinite identity merely from several matching numerical terms.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "Conclusion",
+      "text": "Character decompositions determine the needed initial values; recursion then identifies the entire series. This is a proof conditional on the established constructions and earlier results, not a statistical experiment.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "Reading boundary",
+      "text": "This guide explains the introduction and final comparison. It does not reproduce the no-ghost argument or verify every intermediate algebraic construction.",
+      "evidence": [
+        0,
+        1
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Precise moonshine claim and construction strategy",
+      "locator": "§1, Theorem 1.1 and proof outline, PDF pp.1–5",
+      "url": "https://math.berkeley.edu/~reb/papers/monster/monster.pdf"
+    },
+    {
+      "label": "Recursion plus initial character comparison",
+      "locator": "§9, PDF pp.27–29, equations 9.1–9.2 and concluding paragraph",
+      "url": "https://math.berkeley.edu/~reb/papers/monster/monster.pdf"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Graded trace",
+      "meaning": "Trace computed separately on indexed vector-space components."
+    },
+    {
+      "term": "Denominator identity",
+      "meaning": "A root-product identity encoding Lie-algebra structure."
+    }
+  ]
+}

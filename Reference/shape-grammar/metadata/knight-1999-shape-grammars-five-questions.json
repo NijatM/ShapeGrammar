@@ -23,7 +23,7 @@
   "prerequisites": [
     "Elementary sets and functions; some proof reading"
   ],
-  "access_date": "2026-10-18",
+  "access_date": "2026-10-19",
   "license_redistribution": {
     "status": "link-only",
     "license": null,
@@ -32,14 +32,20 @@
   },
   "local_files": [],
   "existing_local_files": [],
-  "locators": [],
+  "locators": [
+    {
+      "locator": "Abstract",
+      "status": "abstract-only-reviewed"
+    }
+  ],
   "verification": {
-    "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+    "scope": "Publisher abstract read; complete original not retrieved. Only the official abstract was reviewed. It does not enumerate the five questions or state their individual answers; no decision table or algorithmic guarantee is invented here.",
     "source_urls": [
       "https://api.crossref.org/works/10.1068/b260477",
-      "https://architecture.mit.edu/people/terry-knight"
+      "https://architecture.mit.edu/people/terry-knight",
+      "https://journals.sagepub.com/doi/10.1068/b260477"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "abstract-only"
   },
   "annotation_file": "shape-grammar/notes/knight-1999-shape-grammars-five-questions.md",
   "publication_type": "journal-article",

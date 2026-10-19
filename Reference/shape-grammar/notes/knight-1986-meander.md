@@ -1,24 +1,34 @@
 # Transformations of the Meander Motif on Greek Geometric Pottery
 
-Source ID: `knight-1986-meander`. Year: 1986. Contributors as recorded: Terry W. Knight.
+Source ID: `knight-1986-meander`. 1986.
 
-Type: journal-article. Venue: Design Computing 1. Pages: 29–67.
+[Canonical metadata](../metadata/knight-1986-meander.json) · [Author bibliography — citation only](https://www.mit.edu/~tknight/IJDC/page_references.htm)
 
-[Canonical metadata](../metadata/knight-1986-meander.json) · [Source / publication record](https://www.mit.edu/~tknight/IJDC/page_references.htm) · [Reading path](https://www.mit.edu/~tknight/IJDC/page_references.htm)
+## Review scope
 
-Bibliographic citation; no downloadable edition pinned
+**bibliographic-only.** Checked Knight’s institutional bibliography entry. The original article and an official abstract were not located; no paper-level content review is claimed.
 
-## Reading purpose
+## What is identified
 
-Terry Knight author corpus: Transformations of the Meander Motif on Greek Geometric Pottery. Citation coverage; full text requires separate review. This is a bibliographic entry and reading prompt, not a summary of an unreviewed argument.
+Knight’s bibliography lists this 1986 Design Computing article on transformations of the meander motif, pp. 29–67.
 
-## Verification
+Evidence: [References, K: Transformations of the Meander Motif on Greek Geometric Pottery](https://www.mit.edu/~tknight/IJDC/page_references.htm).
 
-Title, author, year and venue checked in institutional bibliography; exact text not inspected.
+## What cannot yet be summarized
 
-## Locators
+The title identifies the subject but does not establish the corpus, transformation operations, methodology or findings. Those details require the original article.
 
-Exact claim locators require further full-text review.
+Evidence: [References, K: Transformations of the Meander Motif on Greek Geometric Pottery](https://www.mit.edu/~tknight/IJDC/page_references.htm).
+
+## How to continue
+
+Use the citation to request the article through a library. Do not substitute findings from the similarly titled chapter in the later book without checking the versions.
+
+Evidence: [References, K: Transformations of the Meander Motif on Greek Geometric Pottery](https://www.mit.edu/~tknight/IJDC/page_references.htm).
+
+## Reading path
+
+- [Verify the citation](https://www.mit.edu/~tknight/IJDC/page_references.htm): References, K.
 
 ## Originals and rights
 

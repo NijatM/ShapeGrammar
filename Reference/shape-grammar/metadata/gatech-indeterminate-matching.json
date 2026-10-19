@@ -6,8 +6,8 @@
   "authors": [
     "Georgia Tech Shape Computation Lab"
   ],
-  "year": 2024,
-  "edition_version": "Living tutorial; footer copyright 2024, no revision date verified",
+  "year": null,
+  "edition_version": "Living developer tutorial; retrieved 2026-10-19. Current footer copyright 2025; no publication or revision date verified.",
   "doi": null,
   "stable_url": "https://shapemachine.gatech.edu/tutorials/tutorials/2_indeterminate_matching_and_rule_sequences.html",
   "reading_url": "https://shapemachine.gatech.edu/tutorials/tutorials/2_indeterminate_matching_and_rule_sequences.html",
@@ -25,7 +25,7 @@
   "prerequisites": [
     "Elementary sets and functions; some proof reading"
   ],
-  "access_date": "2026-10-18",
+  "access_date": "2026-10-19",
   "license_redistribution": {
     "status": "link-only",
     "license": null,
@@ -40,16 +40,16 @@
       "status": "full-text-inspected"
     },
     {
-      "locator": "Part 2: Indeterminate Matching → Single Line Case",
+      "locator": "Part 2: Scale, Angle and Single Line Case; parameter summary table",
       "status": "full-text-inspected"
     }
   ],
   "verification": {
-    "scope": "Developer documentation read; its software conventions are not asserted as universal theorems.",
+    "scope": "Original reading guide reviewed 2026-10-19. The complete public tutorial, parameter table and exercises were read. The exercises were not executed in Shape Machine. Parameter and registration-point claims describe that implementation, not universal properties of every shape formalism.",
     "source_urls": [
       "https://shapemachine.gatech.edu/tutorials/tutorials/2_indeterminate_matching_and_rule_sequences.html"
     ],
-    "content_review": "web-full-text"
+    "content_review": "full-text"
   },
   "annotation_file": "shape-grammar/notes/gatech-indeterminate-matching.md"
 }

@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "source_id": "stiny-2022-imagination",
+  "kind": "monograph",
+  "review": {
+    "level": "abstract-only",
+    "material": "MIT Press book description, publication data and Open Access section read; publisher DOI/open-access route returned HTTP 403 during this review.",
+    "limitations": "Publisher-description-only review. The final 2022 book was not read and is not treated as identical to the OCW manuscript excerpts. The publisher’s philosophical/computational claims are not independently established results here.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://mitpress.mit.edu/9780262544139/shapes-of-imagination/",
+        "locator": "Description and edition information",
+        "description": "Final book’s stated argument and publication identity"
+      },
+      {
+        "url": "https://mitpress.mit.edu/9780262544139/shapes-of-imagination/#tab-9",
+        "locator": "Open Access, license and DOI link",
+        "description": "Lawful route to the final publication"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://doi.org/10.7551/mitpress/14469.001.0001",
+    "label": "Read final 2022 open-access book at publisher",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What the published book addresses",
+      "text": "Stiny connects visual calculation in shape grammars with art and design, using Coleridge’s contrast between imagination and fancy to frame the discussion.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "The stated premise",
+      "text": "The publisher describes imagination as seeing that can reorganize a whole, in contrast to rearranging already fixed units. Shape grammars are presented as a way for calculation to accommodate changing appearances.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "What is reported about the approach",
+      "text": "The description brings together shape-rule reasoning, literary ideas and visual examples to challenge accounts of creativity based only on predetermined descriptions. This identifies the author’s argument, not a controlled experiment.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "What still requires the final text",
+      "text": "Detailed examples, derivations, qualifications and conclusions were not checked in the 2022 publication. Claims about exceeding computer-based accounts should be read in their precise context rather than treated here as a proved complexity theorem.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "Version and reading route",
+      "text": "Use the publisher’s open-access link for this 2022 book. The earlier course collection has a different title and manuscript status; it provides related material but cannot verify the final book’s exact wording or organization.",
+      "evidence": [
+        0,
+        1
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Final book’s stated argument and publication identity",
+      "locator": "Description and edition information",
+      "url": "https://mitpress.mit.edu/9780262544139/shapes-of-imagination/"
+    },
+    {
+      "label": "Lawful route to the final publication",
+      "locator": "Open Access, license and DOI link",
+      "url": "https://mitpress.mit.edu/9780262544139/shapes-of-imagination/#tab-9"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Fancy",
+      "meaning": "Coleridge’s recombination of given, fixed materials."
+    },
+    {
+      "term": "Imagination",
+      "meaning": "The contrasting power to reshape or unify experience in new ways."
+    }
+  ]
+}

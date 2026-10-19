@@ -33,14 +33,30 @@
   },
   "local_files": [],
   "existing_local_files": [],
-  "locators": [],
+  "locators": [
+    {
+      "locator": "PDF pp.1–2, opening and Problems 1–2",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://math.berkeley.edu/~reb/papers/iccm/iccm.pdf"
+    },
+    {
+      "locator": "PDF pp.3–4, Problems 3–10",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://math.berkeley.edu/~reb/papers/iccm/iccm.pdf"
+    },
+    {
+      "locator": "PDF pp.5–6, Problems 11–15",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://math.berkeley.edu/~reb/papers/iccm/iccm.pdf"
+    }
+  ],
   "verification": {
-    "scope": "Author publication list and author PDF references inspected; current status of listed problems not checked.",
+    "scope": "All eight pages of the author-hosted text read, including Problems 1–15 and references. Historical research agenda associated with the 1998 meeting and 2001 publication. No listed problem is asserted to remain open today; proposed solutions and cited constructions were not independently checked.",
     "source_urls": [
       "https://math.berkeley.edu/~reb/papers/iccm/iccm.pdf",
       "https://math.berkeley.edu/~reb/papers/index.html"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "full-text"
   },
   "annotation_file": "monster-moonshine/notes/borcherds-1998-problems.md"
 }

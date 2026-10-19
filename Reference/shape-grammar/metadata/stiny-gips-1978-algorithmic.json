@@ -34,14 +34,26 @@
   },
   "local_files": [],
   "existing_local_files": [],
-  "locators": [],
+  "locators": [
+    {
+      "locator": "Supplemental Readings: Stiny and Gips 1978",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/pages/lecture-slides-and-supplemental-readings/"
+    },
+    {
+      "locator": "Q3 footnote 1, substantive pp.13–14",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/87aee62d973cca8346b2f105a6d97bf6_MIT4_540F18_qa3.pdf"
+    }
+  ],
   "verification": {
-    "scope": "MIT OCW bibliography supplies authors, year, title, ISBN, and institutional handle; repository access checked separately.",
+    "scope": "MIT OCW bibliography and Stiny’s later course-hosted retrospective in Q3 pp.13–14 read. The institutional book handle returned HTTP 403 and its former author site did not resolve. The original 1978 book was not accessible in this review. Detailed original algorithms, evaluation measures, examples and conclusions remain unverified; the account below is explicitly a later author retrospective.",
     "source_urls": [
       "https://hdl.handle.net/2345/1564",
-      "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/pages/lecture-slides-and-supplemental-readings/"
+      "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/pages/lecture-slides-and-supplemental-readings/",
+      "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/87aee62d973cca8346b2f105a6d97bf6_MIT4_540F18_qa3.pdf"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "secondary-citation-only"
   },
   "annotation_file": "shape-grammar/notes/stiny-gips-1978-algorithmic.md"
 }

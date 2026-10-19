@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "source_id": "mit-mathematics-computer-science",
+  "kind": "textbook",
+  "review": {
+    "level": "selected-sections",
+    "material": "MIT OCW May 18, 2015 PDF: introductory proof discussion, Chapter 4 selected sets/functions/relations definitions (pp.81–89), and §5.4 opening robot invariant example (pp.130–132) read.",
+    "limitations": "The 920-page text and its later proofs, counting and probability chapters were not reviewed. Textbook examples illustrate mathematical reasoning; no new empirical test is reported.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf",
+        "locator": "Introduction and §1.1, printed pp.3–6; Chapter 4 pp.81–89",
+        "description": "Proof versus examples; mathematical data types"
+      },
+      {
+        "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf",
+        "locator": "§5.4, printed pp.130–132, Lemma 5.4.1",
+        "description": "State transitions and a parity invariant"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_textbook/",
+    "label": "Read the original source",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What the selected text explains",
+      "text": "How sets, functions, relations and proofs describe computational processes precisely. The useful connection here is between a sequence of rule applications and a mathematical transition system.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "The essential distinction",
+      "text": "Many successful examples do not prove a universal statement. The text’s initially promising polynomial n²+n+41 fails to be prime at n=40. A preserved invariant instead supports an argument covering every permitted step.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "Method and worked example",
+      "text": "Model a robot’s position as an integer pair and its moves as transitions to diagonal neighbors. The coordinate sum starts even and each move changes it by −2, 0 or 2. Consequently the robot cannot reach (1,0).",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "What this gives you",
+      "text": "Invariants can rule out entire families of outcomes without enumerating every path. The claim concerns the stated transition model; changing the allowed moves changes the argument.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "A convention to notice",
+      "text": "This text allows partial functions and calls a function total when defined throughout its domain. Other introductory sources here use “function” for total functions. Check that convention before comparing definitions.",
+      "evidence": [
+        0
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Proof versus examples; mathematical data types",
+      "locator": "Introduction and §1.1, printed pp.3–6; Chapter 4 pp.81–89",
+      "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf"
+    },
+    {
+      "label": "State transitions and a parity invariant",
+      "locator": "§5.4, printed pp.130–132, Lemma 5.4.1",
+      "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Invariant",
+      "meaning": "A property preserved by every allowed transition."
+    },
+    {
+      "term": "Partial function",
+      "meaning": "A single-valued rule that may be undefined at some inputs."
+    }
+  ]
+}

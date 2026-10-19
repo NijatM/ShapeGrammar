@@ -9,7 +9,7 @@
   ],
   "year": 2010,
   "edition_version": "Themed issue associated with Bier–Knight editorial; publication container recorded separately from the editorial article. Do not attribute every contributed paper to the issue editors. Spring 2010 is the issue designation; web platform displays publication timestamp 2014-07-31. The original editorial footer confirms Spring 2010.",
-  "doi": null,
+  "doi": "10.7480/footprint.4.1",
   "stable_url": "https://journals.open.tudelft.nl/footprint/issue/view/378",
   "reading_url": "https://journals.open.tudelft.nl/footprint/issue/view/378",
   "download_url": null,
@@ -24,7 +24,7 @@
   "prerequisites": [
     "Elementary sets and functions; some proof reading"
   ],
-  "access_date": "2026-10-18",
+  "access_date": "2026-10-19",
   "license_redistribution": {
     "status": "link-only",
     "license": null,
@@ -33,13 +33,22 @@
   },
   "local_files": [],
   "existing_local_files": [],
-  "locators": [],
+  "locators": [
+    {
+      "locator": "Issue #6, Spring 2010: opening description",
+      "status": "selected-sections-reviewed"
+    },
+    {
+      "locator": "Contents: editorial and five contributed articles",
+      "status": "selected-sections-reviewed"
+    }
+  ],
   "verification": {
-    "scope": "Official issue page and corresponding Bier–Knight editorial checked. This is an edited publication context, not a newly authored research paper.",
+    "scope": "Read the official issue introduction and complete contents. Bier and Knight are the issue editors; individual papers retain their own authors. The contributed articles were not collectively reviewed. This container has no single experiment, method or tested conclusion.",
     "source_urls": [
       "https://journals.open.tudelft.nl/footprint/issue/view/378"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "selected-sections"
   },
   "annotation_file": "shape-grammar/notes/bier-knight-2010-digitally-driven-issue.md",
   "publication_type": "edited-issue",

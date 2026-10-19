@@ -33,14 +33,20 @@
   },
   "local_files": [],
   "existing_local_files": [],
-  "locators": [],
+  "locators": [
+    {
+      "locator": "Author PDF pp.1–3 (journal version pp.1076–1077)",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://math.berkeley.edu/~reb/papers/whatismonster/whatismonster.pdf"
+    }
+  ],
   "verification": {
-    "scope": "Author publication list verifies title, year, journal and pages; author-hosted reading link retained.",
+    "scope": "All three pages of the author-hosted reading copy read. Expository review, not independent verification of the constructions it cites. Statements about subgroup knowledge and computing resources are historical to this article.",
     "source_urls": [
       "https://math.berkeley.edu/~reb/papers/whatismonster/whatismonster.pdf",
       "https://math.berkeley.edu/~reb/papers/index.html"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "full-text"
   },
   "annotation_file": "monster-moonshine/notes/borcherds-2002-monster.md"
 }

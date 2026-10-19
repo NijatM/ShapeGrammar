@@ -4,12 +4,15 @@ import {fileURLToPath} from 'node:url';
 import path from 'node:path';
 const root=fileURLToPath(new URL('../',import.meta.url)),dist=path.join(root,'dist');
 execFileSync('python3',['Reference/tools/library.py','validate'],{cwd:root,stdio:'inherit'});
+execFileSync(process.execPath,['tools/check-readings.mjs'],{cwd:root,stdio:'inherit'});
 const sourceFiles=(await readdir(path.join(root,'Reference'),{withFileTypes:true})).filter(e=>e.isDirectory());
 const records=[];
 for(const topic of sourceFiles){const folder=path.join(root,'Reference',topic.name,'metadata');try{for(const name of await readdir(folder))if(name.endsWith('.json'))records.push(JSON.parse(await readFile(path.join(folder,name),'utf8')));}catch(error){if(error.code!=='ENOENT')throw error;}}
 records.sort((a,b)=>a.id.localeCompare(b.id));
 const keys=['id','topic','title','authors','year','doi','reading_url','stable_url','tags','relevance','license_redistribution','local_files','locators','verification','pages','venue','publication_type','editors','contributors','contributor_roles','edition_version','annotation_file'];
-await writeFile(path.join(root,'data/references.json'),JSON.stringify(records.map(d=>Object.fromEntries(keys.map(k=>[k,d[k]??null]))))+'\n');
+const compact=[];
+for(const d of records){const guide=JSON.parse(await readFile(path.join(root,'Reference/reading-guides',`${d.id}.json`),'utf8'));const overview=guide.sections.find(s=>s.id==='overview').text;const preview=overview.length>180?overview.slice(0,177).replace(/\s+\S*$/,'')+'…':overview;compact.push({...Object.fromEntries(keys.map(k=>[k,d[k]??null])),reading_guide:{level:guide.review.level,kind:guide.kind,preview}});}
+await writeFile(path.join(root,'data/references.json'),JSON.stringify(compact)+'\n');
 await writeFile(path.join(root,'data/source-ids.json'),JSON.stringify(records.map(d=>d.id))+'\n');
 try{await access(dist);await access(path.join(dist,'.shapegrammar-build.json'));await rm(dist,{recursive:true});}catch(error){if(error.code!=='ENOENT')throw error;if(await stat(dist).catch(()=>null))throw new Error('Refusing to overwrite an existing unmarked dist folder.');}
 await mkdir(dist,{recursive:true});

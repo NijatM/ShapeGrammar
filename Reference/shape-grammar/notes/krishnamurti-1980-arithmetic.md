@@ -1,25 +1,49 @@
 # The Arithmetic of Shapes
 
-Source ID: `krishnamurti-1980-arithmetic`. Authors: Ramesh Krishnamurti. Year: 1980.
+Ramesh Krishnamurti · 1980
 
-Primary algorithmic treatment of shape operations and relations.
+Review basis: selected-sections. Author-hosted original inspected for rational coordinates, line representation, Boolean algorithms and data structures; printed pp. 470–471 also checked as page images.
 
-[Canonical/verification page](https://journals.sagepub.com/doi/10.1068/b070463) · [Lawful reading link](https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb070463-arithmeticOfShapes.pdf).
+The pseudocode was read for its structure, not independently implemented or formally verified. Operation-count bounds are not modern machine benchmarks.
 
-Version: Version of record unless otherwise noted.
+## In brief
 
-Review scope: Crossref metadata and author-hosted primary PDF search result inspected. Correct start page is 463; a secondary citation reported 464.
+Krishnamurti turns shape arithmetic into algorithms: combine line content, remove it, keep common intervals, test parthood and compare shapes. The emphasis is choosing a representation that makes geometric coverage computable. [1](https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb070463-arithmeticOfShapes.pdf#page=1) [2](https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb070463-arithmeticOfShapes.pdf#page=6)
 
-## Reading locators
+## The question
 
-- Exact claim/page locators still require full-text review.
+How can a program manipulate shapes geometrically, including parts that were never separate drawing objects, without relying on approximate coordinate equality? [1](https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb070463-arithmeticOfShapes.pdf#page=1)
 
-## Local originals
+## Main idea or claim
 
-- Reading link only; no new original mirrored here.
+Exact rational coordinates and maximal-line organization support systematic Boolean operations on shapes and labelled shapes. Drawing order is replaced by geometric ordering. [1](https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb070463-arithmeticOfShapes.pdf#page=1)
+
+## How the work approaches it
+
+Group collinear maximal segments by their supporting-line descriptor, then order their endpoints. Compare compatible lists with advancing scans; handle labelled points through corresponding set operations. Later routines organize updates with linked lists and balanced trees. [1](https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb070463-arithmeticOfShapes.pdf#page=1) [2](https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb070463-arithmeticOfShapes.pdf#page=6) [3](https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb070463-arithmeticOfShapes.pdf#page=12)
+
+## Evidence and examples
+
+The paper supplies pseudocode, correctness arguments and interval-case diagrams. Figure 5 distinguishes shortening, splitting and deleting a line during subtraction; Figure 6 gives the corresponding intersections. [2](https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb070463-arithmeticOfShapes.pdf#page=6)
+
+## What comes out of it
+
+For already ordered, same-carrier lists, union, difference and intersection have linear operation-count bounds in the combined list lengths. These local bounds should not be read as a universal bound for unrestricted rule matching. [2](https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb070463-arithmeticOfShapes.pdf#page=6)
+
+## Limits to keep in mind
+
+This is analytical algorithm development, not a user experiment or timing study. Rational line shapes and labelled points are the stated setting; finding the transformations for rule application is pursued in the 1981 companion paper. [1](https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb070463-arithmeticOfShapes.pdf#page=1) [2](https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb070463-arithmeticOfShapes.pdf#page=6)
+
+## What to take from it
+
+Think coverage and maximal segments rather than original strokes. Read representation first, then trace subtraction on two overlapping intervals before tackling the implementation data structures. [1](https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb070463-arithmeticOfShapes.pdf#page=1) [2](https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb070463-arithmeticOfShapes.pdf#page=6) [3](https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb070463-arithmeticOfShapes.pdf#page=12)
+
+## Where to read
+
+- [pp. 463–467: rational shapes and representation](https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb070463-arithmeticOfShapes.pdf#page=1) — Defines exact rational coordinates and ordered maximal-line lists.
+- [pp. 468–473: algorithms and their bounds](https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb070463-arithmeticOfShapes.pdf#page=6) — Derives union, difference, intersection, parthood and equality procedures.
+- [pp. 474–484: decomposition and data structures](https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb070463-arithmeticOfShapes.pdf#page=12) — Explains ordered-list/tree organization and implementation routines.
 
 ## Rights
 
-No redistribution license verified. No public redistribution permission verified; citation and lawful reading link only.
-
-This is a public editorial reference annotation. Bibliographic inclusion does not certify every claim in the work, complete a lesson, or establish a connection to the Monster.
+No public redistribution permission verified; citation and lawful reading link only.

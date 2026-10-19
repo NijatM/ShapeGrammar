@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "source_id": "borcherds-2002-monster",
+  "kind": "expository-article",
+  "review": {
+    "level": "full-text",
+    "material": "All three pages of the author-hosted reading copy read.",
+    "limitations": "Expository review, not independent verification of the constructions it cites. Statements about subgroup knowledge and computing resources are historical to this article.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://math.berkeley.edu/~reb/papers/whatismonster/whatismonster.pdf",
+        "locator": "Author PDF pp.1–3 (journal version pp.1076–1077)",
+        "description": "Four complementary descriptions of the Monster"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://math.berkeley.edu/~reb/papers/whatismonster/whatismonster.pdf",
+    "label": "Read the original source",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What it explains",
+      "text": "Borcherds introduces the Monster through finite groups, representations and algebraic structures it preserves.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "The organizing idea",
+      "text": "Knowing a group’s size gives less structural understanding than realizing it as automorphisms of an algebra. The article presents the Griess algebra, Monster vertex algebra and Monster Lie algebra as complementary perspectives.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "How the explanation develops",
+      "text": "The exposition follows numerical clues into graded representations and then trace series. Vertex-algebra structure and a no-ghost construction connect those series to Lie-algebra denominator identities.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "The motivating clue",
+      "text": "The equality 196884=196883+1 connects a modular-function coefficient with representation dimensions. It motivates moonshine but is not, by itself, its proof.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "Conclusion and limits",
+      "text": "The Monster vertex algebra provides a particularly informative realization. Borcherds nevertheless finds its construction conceptually unsatisfying. The short article sketches explanations; it does not reproduce their full proofs.",
+      "evidence": [
+        0
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Four complementary descriptions of the Monster",
+      "locator": "Author PDF pp.1–3 (journal version pp.1076–1077)",
+      "url": "https://math.berkeley.edu/~reb/papers/whatismonster/whatismonster.pdf"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Automorphism",
+      "meaning": "An invertible map preserving the specified structure."
+    },
+    {
+      "term": "Trace series",
+      "meaning": "A generating series recording traces on graded pieces."
+    }
+  ]
+}

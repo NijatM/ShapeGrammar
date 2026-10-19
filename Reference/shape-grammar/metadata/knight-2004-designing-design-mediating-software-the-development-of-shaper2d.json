@@ -8,7 +8,7 @@
     "Terry Knight"
   ],
   "year": 2004,
-  "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+  "edition_version": "Published version; dates from publisher-deposited DOI metadata. See the reading guide for the exact material inspected.",
   "doi": "10.52842/conf.ecaade.2004.119",
   "stable_url": "https://doi.org/10.52842/conf.ecaade.2004.119",
   "reading_url": "https://doi.org/10.52842/conf.ecaade.2004.119",
@@ -26,7 +26,7 @@
   "prerequisites": [
     "Elementary sets and functions; some proof reading"
   ],
-  "access_date": "2026-10-18",
+  "access_date": "2026-10-19",
   "license_redistribution": {
     "status": "link-only",
     "license": null,
@@ -35,14 +35,24 @@
   },
   "local_files": [],
   "existing_local_files": [],
-  "locators": [],
+  "locators": [
+    {
+      "locator": "pp. 119–122: interface rationale and comparisons",
+      "status": "full-text-inspected"
+    },
+    {
+      "locator": "pp. 123–127: interface, versions, conclusion and future releases; Figs. 2–6",
+      "status": "full-text-inspected"
+    }
+  ],
   "verification": {
-    "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+    "scope": "Original reading guide reviewed 2026-10-19. All nine pages (119–127) of the primary conference PDF were read, including interface descriptions, feature limits and future work. Interface figure pages were inspected. The paper describes design decisions and demonstrations. It does not report a controlled usability study or measured learning gains.",
     "source_urls": [
       "https://api.crossref.org/works/10.52842/conf.ecaade.2004.119",
-      "https://architecture.mit.edu/people/terry-knight"
+      "https://architecture.mit.edu/people/terry-knight",
+      "https://papers.cumincad.org/data/works/att/2004_119.content.pdf"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "full-text"
   },
   "annotation_file": "shape-grammar/notes/knight-2004-designing-design-mediating-software-the-development-of-shaper2d.md",
   "publication_type": "proceedings-article",

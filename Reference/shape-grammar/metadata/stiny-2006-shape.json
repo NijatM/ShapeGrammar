@@ -34,13 +34,25 @@
   },
   "local_files": [],
   "existing_local_files": [],
-  "locators": [],
+  "locators": [
+    {
+      "locator": "Description; hardcover and paperback publication information",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://mitpress.mit.edu/9780262693677/shape/"
+    },
+    {
+      "locator": "Shape: Talking about Seeing and Doing section",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/pages/course-texts/"
+    }
+  ],
   "verification": {
-    "scope": "MIT Press explicitly distinguishes 2006 hardcover and 2008 paperback. No exact interior-page claims made.",
+    "scope": "MIT Press description and edition information read. The OCW-recommended Internet Archive route was checked, but interior book pages were not reviewed. Publisher-description-only review. The 432-page book, its formal details, visual demonstrations and design applications were not examined directly. No empirical efficacy or computational-superiority finding is inferred.",
     "source_urls": [
-      "https://mitpress.mit.edu/9780262693677/shape/"
+      "https://mitpress.mit.edu/9780262693677/shape/",
+      "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/pages/course-texts/"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "abstract-only"
   },
   "annotation_file": "shape-grammar/notes/stiny-2006-shape.md"
 }

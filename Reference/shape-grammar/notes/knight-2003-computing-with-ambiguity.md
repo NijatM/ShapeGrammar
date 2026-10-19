@@ -2,29 +2,52 @@
 
 Source ID: `knight-2003-computing-with-ambiguity`. Year: 2003. Contributors as recorded: Terry Knight.
 
-Type: journal-article. Venue: Environment and Planning B: Planning and Design. Pages: 165-180.
+[Canonical metadata](../metadata/knight-2003-computing-with-ambiguity.json) · [Structured reading guide](../../reading-guides/knight-2003-computing-with-ambiguity.json) · [Original source](https://journals.sagepub.com/doi/10.1068/b12915)
 
-[Canonical metadata](../metadata/knight-2003-computing-with-ambiguity.json) · [Source / publication record](https://doi.org/10.1068/b12915) · [Reading path](https://doi.org/10.1068/b12915)
+## Material inspected
 
-Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.
+The publisher’s complete public abstract was read; the full paper was restricted.
 
-## Reading purpose
+Review level: **abstract-only**. The guide does not verify the proposed algebra definitions, worked examples or proofs in the paper.
 
-Terry Knight author corpus: shape grammar theory, design, implementation, or teaching. This is a bibliographic entry and reading prompt, not a summary of an unreviewed argument.
+## Short overview
 
-## Verification
+Knight distinguishes two ambiguities: the different parts one can see within a shape, and the different kinds of things its elements can represent. The paper concentrates on the second.
 
-Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.
+[Public abstract](https://journals.sagepub.com/doi/10.1068/b12915)
 
-## Locators
+## Premise and question
 
-Exact claim locators require further full-text review.
+Can computational representations preserve fluid interpretation of points, lines, planes and solids as material, conceptual or symbolic entities, rather than fixing their meaning prematurely?
+
+[Public abstract](https://journals.sagepub.com/doi/10.1068/b12915)
+
+## Approach reported in the abstract
+
+Examples from Kandinsky and Klee motivate proposals for new shape algebras supporting representational ambiguity. This is theoretical development rather than a controlled experiment.
+
+[Public abstract](https://journals.sagepub.com/doi/10.1068/b12915)
+
+## Reported contribution
+
+The abstract announces proposed algebras; it does not expose enough detail to check their operations or demonstrate their scope here.
+
+[Public abstract](https://journals.sagepub.com/doi/10.1068/b12915)
+
+## Reading boundary
+
+Full-text definitions and examples remain unreviewed. No performance, user-study or comparative-success claim is inferred.
+
+[Public abstract](https://journals.sagepub.com/doi/10.1068/b12915)
+
+## Why read further
+
+Ask separately what parts you see and what those parts stand for. Read the paper for its formal treatment before implementing a system based on this distinction.
+
+[Public abstract](https://journals.sagepub.com/doi/10.1068/b12915)
 
 ## Originals and rights
 
-Reading link only; no local original mirrored.
+No general redistribution permission verified for this exact work; retain citation and lawful reading link.
 
-No general redistribution license established. No general redistribution permission verified for this exact work; retain citation and lawful reading link.
 [Rights evidence](https://doi.org/10.1068/b12915).
-
-[Terry Knight author index](../../authors/terry-knight/README.md).

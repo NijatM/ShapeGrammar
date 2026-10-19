@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-2014-data-driven-design-to-production-and-operation",
+  "kind": "editorial",
+  "review": {
+    "level": "full-text",
+    "material": "All eight printed pages (1–8), including conceptual framing, five article descriptions and notes, were read.",
+    "limitations": "This is an issue introduction. Claims reported from its contributors are not independent empirical tests by the editors.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://journals.open.tudelft.nl/footprint/article/download/807/990",
+        "locator": "pp. 1–3: design, materialisation and use",
+        "description": "Primary introduction defines its data-driven design scope."
+      },
+      {
+        "url": "https://journals.open.tudelft.nl/footprint/article/download/807/990",
+        "locator": "pp. 3–6: authors’ contributions; pp. 6–8: notes",
+        "description": "Primary overview compares contributions and documents references."
+      }
+    ]
+  },
+  "original": {
+    "url": "https://journals.open.tudelft.nl/footprint/article/download/807/990",
+    "label": "Read original source",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What it is about",
+      "text": "This introduction connects data-driven design with production and the later operation of buildings or artifacts. Data may be measured in real time or assumed to describe a design requirement; it is not restricted to numerical measurements. The concern is how those representations shape design thinking.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "Question and premise",
+      "text": "Can digital drawing, parametric modelling and simulation form a continuing feedback loop from an initial concept to fabrication and use? The editors argue that computational and material systems increasingly converge, making the designer responsible for processes as well as final forms.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "Method of discussion",
+      "text": "The text develops a conceptual framework around parametric models, time-based simulation, self-organisation and multi-agent systems. It then places five issue contributions in conversation: swarming, robotic art, intuition and formalism, digital literalism, and locally specific performance-oriented design.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "Examples and disagreements",
+      "text": "An instructive contrast concerns agency. The Artsbot example seeks autonomy during robotic painting, while a discussion of architectural swarms stresses the designer’s role in choosing rules, intervening and evaluating results. Another contrast concerns whether numerical representations lose meaning or enable precise translations into physical production.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "Main conclusion",
+      "text": "A shared data representation can connect conceptualisation, production and operation, but its value depends on interpretation and use. The articles disagree productively about authorship, autonomy and representation; the editorial presents this range rather than offering one optimized design method.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "What this does not establish",
+      "text": "The introduction contains no common benchmark or controlled comparison of the five approaches. Examples of generative emergence, optimization and situated performance should not be treated as interchangeable. Nor does a parametric model by itself verify the physical behaviour of the thing built from it.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "Useful questions for your own work",
+      "text": "Record where each input comes from: observation, assumption or design preference. Separate generating alternatives from evaluating them. Ask who chooses rules and selects outcomes, and identify which measurements from fabrication or actual use could revise the initial model.",
+      "evidence": [
+        0,
+        1
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Start here",
+      "locator": "pp. 1–3: design, materialisation and use",
+      "url": "https://journals.open.tudelft.nl/footprint/article/download/807/990"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Self-organisation",
+      "meaning": "System-level organisation arising from local component interactions."
+    },
+    {
+      "term": "Multi-agent system",
+      "meaning": "A model with interacting agents whose local behaviour contributes to a larger outcome."
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "source_id": "atlas-monster",
+  "kind": "reference-database",
+  "review": {
+    "level": "selected-sections",
+    "material": "Opening invariants, Standard generators, Black box algorithms and dated representation/subgroup context inspected on the ATLAS page.",
+    "limitations": "Generator-checking programs and representation files were not executed. The page contains historical updates and incomplete-looking statements; no current subgroup-completeness or computing-availability claim is made.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/M/",
+        "locator": "Opening order; Standard generators",
+        "description": "Group size and named-generator conventions"
+      },
+      {
+        "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/M/",
+        "locator": "Black box algorithms; dated Representations updates; Maximal subgroups opening",
+        "description": "Computational recipes and historical context"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/M/",
+    "label": "Read the original source",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What this resource is",
+      "text": "A computational reference entry for the Monster, with invariants, generator conventions and links to algorithms and subgroup data.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "Facts to look up",
+      "text": "Its order is 808017424794512875886459904961710757005754368000000000. Standard generators are chosen with a in class 2A, b in class 3B, and ab of order 29.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "How the reference supports computation",
+      "text": "Black-box recipes seek elements in suitable classes, conjugate them and test product orders. Additional checks distinguish acceptable standard generators; the opening order conditions are not a freestanding construction of the Monster.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "Reading the evidence correctly",
+      "text": "This is a data-and-algorithm resource rather than a paper reporting an experiment. Several representation notes are dated 1997–2000. Treat their machine timings and availability statements historically.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "Best use here",
+      "text": "Use the entry to verify exact group size and notation before reading moonshine surveys. Do not infer a complete modern subgroup classification from this page alone.",
+      "evidence": [
+        0,
+        1
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Group size and named-generator conventions",
+      "locator": "Opening order; Standard generators",
+      "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/M/"
+    },
+    {
+      "label": "Computational recipes and historical context",
+      "locator": "Black box algorithms; dated Representations updates; Maximal subgroups opening",
+      "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/M/"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Order",
+      "meaning": "Number of elements in a finite group, or least positive identity power of an element."
+    },
+    {
+      "term": "Conjugacy class",
+      "meaning": "Elements related by changing coordinates through conjugation."
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-2012-cradle-molding-device-an-automated-cad-cam-molding-system-for-manufacturing",
+  "kind": "fabrication research article",
+  "review": {
+    "level": "bibliographic-only",
+    "material": "The publisher-deposited Crossref bibliographic record was read. The publisher’s public page and abstract service could not be retrieved.",
+    "limitations": "Neither a primary abstract nor the full seven-page article was inspected. Related moulding publications were not substituted for this exact paper.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://doi.org/10.1016/j.autcon.2011.05.019",
+        "locator": "Automation in Construction 21, pp. 114–120: original article",
+        "description": "Primary publication link."
+      },
+      {
+        "url": "https://api.crossref.org/works/10.1016/j.autcon.2011.05.019",
+        "locator": "Title, authors, pagination and publisher links",
+        "description": "Publisher-deposited bibliographic evidence."
+      }
+    ]
+  },
+  "original": {
+    "url": "https://doi.org/10.1016/j.autcon.2011.05.019",
+    "label": "Read original publication record",
+    "type": "publication-record"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Verified subject",
+      "text": "The article’s title identifies a CAD/CAM moulding device for producing customizable composite assembly units, with rural application as its intended context. This identifies the subject; it does not establish what was tested or achieved.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "question",
+      "title": "Questions for a full reading",
+      "text": "Look for how the device is constructed, which composites and geometries are tested, and how customization changes tooling. These are questions prompted by the stated subject, not claims that this review has verified in the article.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "What remains unknown",
+      "text": "The exact manufacturing protocol, test specimens, quantitative results and conclusion could not be checked. No claim of affordability, strength, field adoption or rural benefit is inferred from the title.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "Reading priority",
+      "text": "Before applying the work, locate its test conditions and limitations in the original. Separate a proposed application from a reported deployment, and a successful moulded part from a validated building assembly.",
+      "evidence": [
+        0,
+        1
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Start here",
+      "locator": "Automation in Construction 21, pp. 114–120: original article",
+      "url": "https://doi.org/10.1016/j.autcon.2011.05.019"
+    }
+  ],
+  "terms": []
+}

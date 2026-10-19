@@ -48,17 +48,28 @@
   "existing_local_files": [],
   "locators": [
     {
-      "locator": "Part II, Chapters 2–5; §§2.1–2.5, 3.1–3.4, 4.1–4.5",
-      "status": "downloaded-table-of-contents-verified"
+      "locator": "§2.1 pp.14–15; §2.6 pp.24–25 (printed pagination)",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://st.openlogicproject.org/settheory-screen.pdf"
+    },
+    {
+      "locator": "§5.8 pp.63–64, Theorem 5.16",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://st.openlogicproject.org/settheory-screen.pdf"
+    },
+    {
+      "locator": "§§8.1–8.4, especially pp.109–111 and 114–115",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://st.openlogicproject.org/settheory-screen.pdf"
     }
   ],
   "verification": {
-    "scope": "Bibliographic record or official landing page inspected; full text and exact claim locators not reviewed.",
+    "scope": "Pinned local PDF: §§2.1, 2.6, 5.8 and 8.1–8.4 read, including the extensionality, Russell and Cantor arguments and the iterative-conception discussion. The axiomatic development after this selected discussion, ordinal theory and later independence topics were not reviewed. The philosophical motivation is not a formal consistency proof.",
     "source_urls": [
       "https://st.openlogicproject.org/",
       "https://st.openlogicproject.org/settheory-screen.pdf"
     ],
-    "content_review": "front-matter-rights-and-contents"
+    "content_review": "selected-sections"
   },
   "annotation_file": "set-theory/notes/button-set-theory.md"
 }

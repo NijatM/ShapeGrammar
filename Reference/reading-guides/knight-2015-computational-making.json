@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-2015-computational-making",
+  "kind": "editorial",
+  "review": {
+    "level": "bibliographic-only",
+    "material": "The MIT Computational Making publications list and publisher-deposited DOI metadata were inspected. The editorial body was unavailable.",
+    "limitations": "The seven-page editorial was not read. Abstracts of other articles in its special issue were not treated as this editorial’s text.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://www.sciencedirect.com/science/article/pii/S0142694X15000721",
+        "locator": "Design Studies 41, Part A, pp. 1–7: editorial record",
+        "description": "Original editorial link."
+      },
+      {
+        "url": "https://computationalmaking.mit.edu/publications/",
+        "locator": "Journal Articles: Computational making (Editorial)",
+        "description": "Primary institutional bibliography identifies Knight and Vardouli and the special issue."
+      }
+    ]
+  },
+  "original": {
+    "url": "https://www.sciencedirect.com/science/article/pii/S0142694X15000721",
+    "label": "Read original publication record",
+    "type": "publication-record"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What is verified",
+      "text": "Knight and Vardouli wrote the opening editorial for the 2015 Computational Making special issue of Design Studies. It is an editorial associated with a collection of research articles, not itself identified here as an experimental study.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "What is not yet reviewed",
+      "text": "The editorial’s definitions, argument, article comparisons and conclusions cannot be accurately condensed without its text. The collection’s title is not evidence that all of its papers use the same definition or method.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "How to place it in a reading path",
+      "text": "Read the editorial for the collection’s framing, then read the individual articles for their own arguments and evidence. The separate Making grammars record concerns Knight and Stiny’s theoretical proposal and should not be conflated with this editorial.",
+      "evidence": [
+        0,
+        1
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Start here",
+      "locator": "Design Studies 41, Part A, pp. 1–7: editorial record",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0142694X15000721"
+    }
+  ],
+  "terms": []
+}

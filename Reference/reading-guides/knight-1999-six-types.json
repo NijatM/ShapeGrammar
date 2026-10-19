@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-1999-six-types",
+  "kind": "grammar classification",
+  "review": {
+    "level": "abstract-only",
+    "material": "Official abstract and publisher-deposited abstract reviewed; full original not retrieved.",
+    "limitations": "The official abstract was read, including its publisher-deposited form. Exact class definitions and claimed decision results need the complete article; this guide does not infer them from secondary lists.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://journals.sagepub.com/doi/10.1068/b260015",
+        "locator": "Abstract",
+        "description": "Primary abstract; it does not establish unreported technical details"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://journals.sagepub.com/doi/10.1068/b260015",
+    "label": "Read abstract and original access options",
+    "type": "publication-record"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "In brief",
+      "text": "Knight defines six types of shape grammars by imposing different restrictions on rule format and rule ordering.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "Question or aim",
+      "text": "How do restrictions alter generative possibilities and practical use?",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "Approach described",
+      "text": "This paper develops the classification side of decidability; a companion paper examines which questions about the classes can be answered.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "What the abstract supports",
+      "text": "The abstract reports comparing generative power, practicality and pedagogical value across the classes.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "What remains unverified",
+      "text": "The official abstract was read, including its publisher-deposited form. Exact class definitions and claimed decision results need the complete article; this guide does not infer them from secondary lists.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "Why it may help",
+      "text": "A useful starting distinction is rule format versus rule sequence. Restricting a grammar can make its behavior easier to understand, but each precise claim needs its stated conditions.",
+      "evidence": [
+        0
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Read the abstract and locate the original",
+      "locator": "Abstract",
+      "url": "https://journals.sagepub.com/doi/10.1068/b260015"
+    }
+  ],
+  "terms": []
+}

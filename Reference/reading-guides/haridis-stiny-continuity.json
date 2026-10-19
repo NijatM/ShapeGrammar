@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "source_id": "haridis-stiny-continuity",
+  "kind": "Formal topology paper",
+  "review": {
+    "level": "selected-sections",
+    "material": "Author manuscript, arXiv v3: definitions, mapping selection, worked continuity analyses, computation of topologies and discussion.",
+    "limitations": "The technical core was reviewed, with appendices used for context rather than a complete independent proof audit. Manuscript page numbers are used.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://arxiv.org/pdf/2012.10949v3",
+        "locator": "pp. 1–8: continuity and suitable mappings",
+        "description": "Finite shape topologies, preimages and exclusion of unsuitable mapping forms."
+      },
+      {
+        "url": "https://arxiv.org/pdf/2012.10949v3",
+        "locator": "pp. 9–14: worked analyses and Tables 2–5",
+        "description": "Different mappings and open parts yield different compatible descriptions."
+      },
+      {
+        "url": "https://arxiv.org/pdf/2012.10949v3",
+        "locator": "pp. 14–17: computing topologies and discussion",
+        "description": "Backward refinement, closure equations and reduced bases."
+      }
+    ]
+  },
+  "original": {
+    "url": "https://arxiv.org/pdf/2012.10949v3",
+    "label": "Read original text",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "In brief",
+      "text": "Haridis and Stiny explain how a recorded shape computation can acquire compatible structural descriptions afterwards. Their continuity is a relation between finite topologies of parts, not smooth motion of a drawing.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "The question",
+      "text": "If parts can emerge while rules are applied, how can we describe successive shapes without forcing all their possible parts into a fixed representation beforehand?",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "Main idea or claim",
+      "text": "Continuity analysis requires a suitable mapping for what a rule does, together with finite topologies. Some plausible mapping forms are inherently discontinuous or uninformative, so choosing the mapping is substantive.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "How the work approaches it",
+      "text": "The paper defines open parts and tests continuity through preimages. It then analyzes example computations and propagates required open parts backwards from later shapes, refining earlier topologies with closure equations.",
+      "evidence": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "Evidence and examples",
+      "text": "Tables compare alternative descriptions of the same rule activity and an example using multiple mappings. A reduced-basis example replaces eight open-part preimage calculations with four, without claiming a universal speedup.",
+      "evidence": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "What comes out of it",
+      "text": "Finite compatible topologies can be computed for the reviewed mapping forms. Reduced bases can avoid redundant work when they are smaller than the topology they generate. Structural analysis can therefore follow creative computation instead of prescribing it.",
+      "evidence": [
+        2
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "Limits to keep in mind",
+      "text": "There can be multiple valid descriptions. A fixed kit of parts can make continuity automatic but explain little about emergent seeing. The benefit of a reduced basis depends on the example; a basis may be as large as its topology.",
+      "evidence": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "What to take from it",
+      "text": "First ask what the rule distinguishes and preserves. Then ask which later open parts require corresponding earlier parts. This explains the role of topology more clearly than treating continuity as a visual animation effect.",
+      "evidence": [
+        0,
+        2
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "pp. 1–8: continuity and suitable mappings",
+      "locator": "Finite shape topologies, preimages and exclusion of unsuitable mapping forms.",
+      "url": "https://arxiv.org/pdf/2012.10949v3"
+    },
+    {
+      "label": "pp. 9–14: worked analyses and Tables 2–5",
+      "locator": "Different mappings and open parts yield different compatible descriptions.",
+      "url": "https://arxiv.org/pdf/2012.10949v3"
+    },
+    {
+      "label": "pp. 14–17: computing topologies and discussion",
+      "locator": "Backward refinement, closure equations and reduced bases.",
+      "url": "https://arxiv.org/pdf/2012.10949v3"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Open part",
+      "meaning": "A selected part belonging to a finite topology on a shape."
+    },
+    {
+      "term": "Preimage",
+      "meaning": "The largest qualifying earlier part mapped into a specified later part, when defined."
+    },
+    {
+      "term": "Reduced basis",
+      "meaning": "A minimal collection of parts generating the topology by the specified operations."
+    }
+  ]
+}

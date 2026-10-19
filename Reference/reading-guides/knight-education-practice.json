@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-education-practice",
+  "kind": "historical and pedagogical survey",
+  "review": {
+    "level": "selected-sections",
+    "material": "Read the author-hosted abstract, introduction, four history sections, both role sections, and the pedagogy/computer/authoring sections by following the legacy frames.",
+    "limitations": "The historical report is not a controlled evaluation of teaching effectiveness. Linked publications, animations and student-project models were not all independently inspected. The exact original issue date remains unresolved.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://www.mit.edu/~tknight/IJDC/page_introduction.htm",
+        "locator": "Introduction: two exercises, emergence and grammar extensions",
+        "description": "General framework and original-design/analysis distinction"
+      },
+      {
+        "url": "https://www.mit.edu/~tknight/IJDC/page_history_design_sg.htm",
+        "locator": "History: Original Design—Shape Grammars",
+        "description": "Vocabulary, spatial relations and basic-grammar program"
+      },
+      {
+        "url": "https://www.mit.edu/~tknight/IJDC/page_roles_design.htm",
+        "locator": "Roles: Original Design",
+        "description": "Externalizing intentions, choosing alternatives and the origin of rules"
+      },
+      {
+        "url": "https://www.mit.edu/~tknight/IJDC/page_roles_analysis.htm",
+        "locator": "Roles: Analysis",
+        "description": "Compositional explanations versus historical processes"
+      },
+      {
+        "url": "https://www.mit.edu/~tknight/IJDC/page_issues_pedagogy.htm",
+        "locator": "Issues: Pedagogy",
+        "description": "Concrete, collaborative exercises and abstract/interpreted grammar choices"
+      },
+      {
+        "url": "https://www.mit.edu/~tknight/IJDC/page_issues_computer.htm",
+        "locator": "Issues: Computer Implementation",
+        "description": "Manual understanding, interface design and rapid exploration"
+      },
+      {
+        "url": "https://www.mit.edu/~tknight/IJDC/page_issues_authoring.htm",
+        "locator": "Issues: Authoring a Shape Grammar",
+        "description": "Goals, predictability, local/global dependencies and parallel descriptions"
+      },
+      {
+        "url": "https://www.mit.edu/~tknight/IJDC/page_history_design_cg.htm",
+        "locator": "History: Original Design—Color Grammars; final paragraphs",
+        "description": "Basic grammars described as restricted additive set grammars without emergence"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://www.mit.edu/~tknight/IJDC/page_introduction.htm",
+    "label": "Read original paper",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "In brief",
+      "text": "Knight surveys how grammars have been used to understand existing design languages and to invent new ones, then asks what makes those approaches useful in education and practice.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "Central question",
+      "text": "What do rules help a learner or designer understand, and what difficulties remain when a grammar must serve real design goals?",
+      "evidence": [
+        2,
+        4,
+        6
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "Main argument",
+      "text": "Rules make design intentions explicit and create alternatives that can be compared. They do not eliminate intuition: creative decisions move into the making and revision of rules.",
+      "evidence": [
+        2
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "How the discussion works",
+      "text": "Historical applications, the author’s classroom experience and examples of student work support an analytical discussion. It is a reasoned survey of practices and open issues, rather than a uniform experimental study.",
+      "evidence": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "Examples and distinctions",
+      "text": "The basic-grammar program starts with shapes and spatial relations, explores additive rules and labels, and elaborates selected results. Analytic examples reveal recurring strategies such as subdivision, grids and addition. A grammar can explain a composition without reproducing its historical designer’s process.",
+      "evidence": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "Practical conclusions",
+      "text": "Knight favors concrete collaborative exercises for understanding rule application. Computers can accelerate exploration, but can also obscure how results arose. A usable grammar must connect its spatial rules to project goals and present choices in an order meaningful to its users.",
+      "evidence": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "Important boundaries",
+      "text": "Original design and analysis overlap. The report’s statements about implementation availability describe its historical moment. Its restricted basic grammars are set-based and lack the emergence capabilities of unrestricted shape grammars.",
+      "evidence": [
+        0,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "A useful way to apply it",
+      "text": "Try a rule by hand, explain its choices, compare alternative outputs and revise the rule deliberately. When evaluating a grammar, distinguish compositional explanation, practical usability and historical evidence.",
+      "evidence": [
+        2,
+        3,
+        4,
+        6
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Start with the illustrated introduction",
+      "locator": "Introduction",
+      "url": "https://www.mit.edu/~tknight/IJDC/page_introduction.htm"
+    },
+    {
+      "label": "Read why rules help",
+      "locator": "Roles: Original Design",
+      "url": "https://www.mit.edu/~tknight/IJDC/page_roles_design.htm"
+    },
+    {
+      "label": "Read the pedagogical cautions",
+      "locator": "Issues: Pedagogy and Computer Implementation",
+      "url": "https://www.mit.edu/~tknight/IJDC/page_issues_pedagogy.htm"
+    },
+    {
+      "label": "Connect rules to goals",
+      "locator": "Issues: Authoring a Shape Grammar",
+      "url": "https://www.mit.edu/~tknight/IJDC/page_issues_authoring.htm"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Analytic grammar",
+      "meaning": "A grammar developed to describe a given language or corpus of designs."
+    },
+    {
+      "term": "Original design",
+      "meaning": "Using and changing generative rules to develop new design possibilities."
+    }
+  ]
+}

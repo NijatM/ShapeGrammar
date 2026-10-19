@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-1993-color-grammars-the-representation-of-form-and-color-in-designs",
+  "kind": "color-grammar overview",
+  "review": {
+    "level": "abstract-only",
+    "material": "Read the abstract excerpt listed under this title on Knight’s public author profile; also checked the official JSTOR issue pagination.",
+    "limitations": "Only a truncated abstract excerpt was accessible. Full methods, examples and conclusions were not reviewed.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://www.researchgate.net/profile/Terry-Knight",
+        "locator": "Publication list: Color Grammars: The Representation of Form and Color in Designs (1993)",
+        "description": "Primary abstract; it does not establish unreported technical details"
+      },
+      {
+        "url": "https://www.jstor.org/stable/i270963",
+        "locator": "Leonardo 26(2), 1993; pp. 117–124",
+        "description": "Official issue contents verify the complete page range"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://www.jstor.org/stable/1575896",
+    "label": "Original article record and access options",
+    "type": "publication-record"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "In brief",
+      "text": "An overview of formal grammars in design, emphasizing the representation of spatial composition and an extension of shape grammars.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "Question or aim",
+      "text": "How can the representation of form be extended?",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "Approach described",
+      "text": "The visible author-profile abstract excerpt introduces a survey and an extension; its description is truncated.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "What the abstract supports",
+      "text": "The excerpt supports the broad purpose, not a reconstruction of the extension’s definitions.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "What remains unverified",
+      "text": "Only a truncated abstract excerpt was accessible. Full methods, examples and conclusions were not reviewed.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "Why it may help",
+      "text": "Consult the original before relying on its account of color or other design qualities.",
+      "evidence": [
+        0
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Locate the original article",
+      "locator": "Leonardo 26(2), pp. 117–124",
+      "url": "https://www.jstor.org/stable/1575896"
+    }
+  ],
+  "terms": []
+}

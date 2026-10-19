@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "source_id": "stiny-1992-weights",
+  "kind": "Algebraic extension paper",
+  "review": {
+    "level": "selected-sections",
+    "material": "Primary scan: shape and label foundations, numerical-weight operations, weighted part relations, and the final coordinated-description example.",
+    "limitations": "Selected definitions and examples were reviewed with OCR and visual checking of p. 416. Other property algebras are not assumed to behave identically to the numerical example.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Stiny.weights.pdf",
+        "locator": "pp. 413–415: shapes and labels",
+        "description": "Labels distinguish collections whose elements interact by matching labels."
+      },
+      {
+        "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Stiny.weights.pdf",
+        "locator": "pp. 415–419: weights and their operations",
+        "description": "Numerical order, maximum/minimum, truncated subtraction and geometric subdivision."
+      },
+      {
+        "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Stiny.weights.pdf",
+        "locator": "pp. 425–429: coordinated descriptions",
+        "description": "A row of cubes is related to plans, elevations and shaded-area descriptions."
+      }
+    ]
+  },
+  "original": {
+    "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Stiny.weights.pdf",
+    "label": "Read original text",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "In brief",
+      "text": "Weights extends shape computation beyond bare geometry. Labels classify elements; weights let properties such as line thickness or tone participate in matching and combination.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "question",
+      "title": "The question",
+      "text": "How should extra properties interact where shapes overlap, and how can several descriptions refer consistently to the same design?",
+      "evidence": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "Main idea or claim",
+      "text": "Properties need algebraic rules of their own. Geometrically identical shapes may behave differently because their labels or weights differ; multiple descriptions can be coordinated through a grammar.",
+      "evidence": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "How the work approaches it",
+      "text": "For numerical weights, the paper uses maximum for sum, minimum for product and subtraction clipped at zero for difference. Geometry is divided into overlap and non-overlap pieces before assigning the appropriate result weights.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "Evidence and examples",
+      "text": "Line-thickness and shaded-region examples explain the operations. The concluding cube-row construction coordinates plan, elevation and shaded-area descriptions, using labels and rules to maintain their relationship.",
+      "evidence": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "What comes out of it",
+      "text": "Weighted part relations compare both geometry and property values. Coordinated grammars can change one description while requiring corresponding changes in others; geometry alone does not carry all the design information.",
+      "evidence": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "Limits to keep in mind",
+      "text": "These weights are formal properties, not physical mass or a universal model of ink blending. Maximum-based addition does not mean arithmetic accumulation. The paper provides constructions rather than measured software or fabrication tests.",
+      "evidence": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "What to take from it",
+      "text": "Before adding colour or thickness to a shape system, decide how values compare, combine and disappear. Merely drawing a different stroke width leaves the computational meaning unspecified.",
+      "evidence": [
+        1
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "pp. 413–415: shapes and labels",
+      "locator": "Labels distinguish collections whose elements interact by matching labels.",
+      "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Stiny.weights.pdf"
+    },
+    {
+      "label": "pp. 415–419: weights and their operations",
+      "locator": "Numerical order, maximum/minimum, truncated subtraction and geometric subdivision.",
+      "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Stiny.weights.pdf"
+    },
+    {
+      "label": "pp. 425–429: coordinated descriptions",
+      "locator": "A row of cubes is related to plans, elevations and shaded-area descriptions.",
+      "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Stiny.weights.pdf"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Weight",
+      "meaning": "An associated value with explicit comparison and combination operations."
+    },
+    {
+      "term": "Weighted parthood",
+      "meaning": "Containment that checks the relevant property order as well as geometric embedding."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-2024-robotics-in-design-and-the-makings-of-embodied-interfaces",
+  "kind": "conference conversation contribution",
+  "review": {
+    "level": "bibliographic-only",
+    "material": "The official DRS2024 record was read, including its Conversation classification, six contributors, keywords and license. The PDF download returned HTTP 403.",
+    "limitations": "The conversation text and any outcomes or examples it contains were not inspected. The record is not treated as a completed controlled robotics experiment.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://dl.designresearchsociety.org/drs-conference-papers/drs2024/conversations/20/",
+        "locator": "DRS2024 Conversations: official record and keywords",
+        "description": "Primary publisher record identifies its format and contributors."
+      }
+    ]
+  },
+  "original": {
+    "url": "https://dl.designresearchsociety.org/drs-conference-papers/drs2024/conversations/20/",
+    "label": "Read original publication record",
+    "type": "publication-record"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What is verified",
+      "text": "This contribution appears in the Conversations track of DRS2024. Its six listed contributors include Knight, and the publisher supplies embodied interfaces, robotics and computational making as keywords.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "What to look for",
+      "text": "The title invites a reading about how embodied interfaces are made and understood in robotic design. Check the original to learn its actual questions, proposed discussion format and examples; those details cannot be verified from the record alone.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "What cannot be claimed",
+      "text": "The full contribution was unavailable in this review. No robot design, participant study, performance result or collective conclusion has been invented. A conference conversation may have a different purpose from an empirical paper.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "Reading use",
+      "text": "Use the official source to follow the conversation and its cited projects. Distinguish proposals and participant perspectives from results supported by a documented experiment.",
+      "evidence": [
+        0
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Start here",
+      "locator": "DRS2024 Conversations: official record and keywords",
+      "url": "https://dl.designresearchsociety.org/drs-conference-papers/drs2024/conversations/20/"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "source_id": "bier-knight-2014-dynamics-issue",
+  "kind": "edited journal issue",
+  "review": {
+    "level": "selected-sections",
+    "material": "Read the official issue introduction and complete contents. This is an edited collection, distinct from the Bier–Knight editorial within it.",
+    "limitations": "Individual papers’ methods, results and conclusions were not reviewed as a complete collection; no shared experimental outcome is asserted.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://journals.open.tudelft.nl/footprint/issue/view/394",
+        "locator": "Issue #15, Autumn 2014: opening description",
+        "description": "Editorial framing of data-driven design, production and operation"
+      },
+      {
+        "url": "https://journals.open.tudelft.nl/footprint/issue/view/394",
+        "locator": "Contents: opening editorial and five contributed papers",
+        "description": "Independent contributions and their authors"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://journals.open.tudelft.nl/footprint/issue/view/394",
+    "label": "Read the issue introduction and choose an article",
+    "type": "publication-record"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "In brief",
+      "text": "The collection examines how data-driven drawing, modeling and simulation relate to artistic and architectural design.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "Organizing question",
+      "text": "What happens when computational representations participate in conceptual design, physical production and the subsequent operation of an artifact or building?",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "Editorial premise",
+      "text": "The introduction emphasizes convergence between computational and material systems, including several possible outcomes from one representation and feedback from users or environments.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "How it is organized",
+      "text": "Bier and Knight’s opening editorial introduces five contributions from media studies, art and architecture. Their theoretical discussions and practical experiments remain separate arguments.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "Reading routes",
+      "text": "Vehlken examines computational swarming; Moura and Pereira discuss collective robotics in art; Mennan addresses formalism and intuition; Hensel and Sørensen connect data-driven design with local performance-oriented architecture.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "What this framing establishes",
+      "text": "The editors propose a feedback loop linking design, production and operation. The collection should be used to compare approaches, rather than treated as one test validating that loop universally.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "Limits",
+      "text": "An issue description cannot establish the empirical strength of every contribution. Read each paper for its specific evidence, assumptions and scope.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "Why browse it",
+      "text": "It helps separate a computational representation from its multiple realized outputs and from the later interactions that may change them.",
+      "evidence": [
+        0
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Start with the editorial",
+      "locator": "Data-Driven Design to Production and Operation, pp. 1–8",
+      "url": "https://journals.open.tudelft.nl/footprint/article/view/807"
+    },
+    {
+      "label": "Compare formalism and intuition",
+      "locator": "Mennan, pp. 33–42",
+      "url": "https://journals.open.tudelft.nl/footprint/article/view/810"
+    },
+    {
+      "label": "Browse the complete issue",
+      "locator": "Contents and article links",
+      "url": "https://journals.open.tudelft.nl/footprint/issue/view/394"
+    }
+  ],
+  "terms": []
+}

@@ -25,7 +25,7 @@
   "prerequisites": [
     "Elementary sets and functions; some proof reading"
   ],
-  "access_date": "2026-10-18",
+  "access_date": "2026-10-19",
   "license_redistribution": {
     "status": "link-only",
     "license": null,
@@ -34,13 +34,18 @@
   },
   "local_files": [],
   "existing_local_files": [],
-  "locators": [],
+  "locators": [
+    {
+      "locator": "Abstract",
+      "status": "abstract-only-reviewed"
+    }
+  ],
   "verification": {
-    "scope": "Bibliographic record or official landing page inspected; full text and exact claim locators not reviewed.",
+    "scope": "Official abstract and publisher-deposited abstract reviewed; full original not retrieved. The official abstract was read, including its publisher-deposited form. Exact class definitions and claimed decision results need the complete article; this guide does not infer them from secondary lists.",
     "source_urls": [
       "https://journals.sagepub.com/doi/10.1068/b260015"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "abstract-only"
   },
   "annotation_file": "shape-grammar/notes/knight-1999-six-types.md"
 }

@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-1990-mughul-gardens",
+  "kind": "landscape color-grammar application",
+  "review": {
+    "level": "abstract-only",
+    "material": "Publisher-deposited abstract read directly through the public Crossref record; full article not retrieved.",
+    "limitations": "Only the publisher-deposited abstract was reviewed. Garden corpus, planting categories, rule definitions and generated alternatives require the full paper.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://api.crossref.org/works/10.1068/b170073",
+        "locator": "message.abstract (publisher-deposited abstract)",
+        "description": "Primary abstract; it does not establish unreported technical details"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://doi.org/10.1068/b170073",
+    "label": "Publisher record and original access options",
+    "type": "publication-record"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "In brief",
+      "text": "A color grammar is used to discuss the organization and landscaping of Mughul gardens.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "Question or aim",
+      "text": "How can one formal description address spatial composition together with landscape qualities?",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "Approach described",
+      "text": "The deposited abstract names a color-grammar application to gardens.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "What the abstract supports",
+      "text": "Its one-sentence description supports the topic and method category, but provides no specific tested result.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "What remains unverified",
+      "text": "Only the publisher-deposited abstract was reviewed. Garden corpus, planting categories, rule definitions and generated alternatives require the full paper.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "Why it may help",
+      "text": "It is a relevant bridge from geometric grammar to attributes attached to regions in a design.",
+      "evidence": [
+        0
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Read the original garden study",
+      "locator": "Article pp. 73–84; full-text access may be required",
+      "url": "https://doi.org/10.1068/b170073"
+    }
+  ],
+  "terms": []
+}

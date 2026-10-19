@@ -36,15 +36,21 @@
   "locators": [
     {
       "locator": "Opening order; Standard generators",
-      "status": "web-full-text-inspected"
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/M/"
+    },
+    {
+      "locator": "Black box algorithms; dated Representations updates; Maximal subgroups opening",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/M/"
     }
   ],
   "verification": {
-    "scope": "Page read. Its maximal-subgroup discussion and computer-resource updates are historical; do not use those as current completeness claims.",
+    "scope": "Opening invariants, Standard generators, Black box algorithms and dated representation/subgroup context inspected on the ATLAS page. Generator-checking programs and representation files were not executed. The page contains historical updates and incomplete-looking statements; no current subgroup-completeness or computing-availability claim is made.",
     "source_urls": [
       "https://brauer.maths.qmul.ac.uk/Atlas/spor/M/"
     ],
-    "content_review": "selected-web-sections"
+    "content_review": "selected-sections"
   },
   "annotation_file": "monster-moonshine/notes/atlas-monster.md"
 }

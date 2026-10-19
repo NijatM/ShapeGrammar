@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-1992-designing-with-grammars",
+  "kind": "design methodology chapter",
+  "review": {
+    "level": "bibliographic-only",
+    "material": "Checked the chapter citation in Knight’s institutional bibliography and read her later institutional discussion of the program. CUMINCAD required human verification.",
+    "limitations": "The 1992 chapter itself was not retrieved; the later discussion is related evidence, not a substitute for its text.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://www.mit.edu/~tknight/IJDC/page_references.htm",
+        "locator": "References, K: Designing with Grammars, 1992, pp. 33–48",
+        "description": "Author bibliography identifies the chapter"
+      },
+      {
+        "url": "https://www.mit.edu/~tknight/IJDC/page_history_design_sg.htm",
+        "locator": "History of Applications: Design applications of shape grammars; Knight’s programme",
+        "description": "Later author-authored description of the teaching approach"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://papers.cumincad.org/cgi-bin/works/paper/2559",
+    "label": "Original chapter record — access may require verification",
+    "type": "publication-record"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What is identified",
+      "text": "A chapter in the CAAD Futures ’91 volume, published in 1992, addresses designing with grammars.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "Related account from the author",
+      "text": "Knight’s later discussion describes starting with a vocabulary and spatial relations, developing restricted basic grammars and extending them toward architectural designs. This summarizes that later account, not a verified reading of the chapter.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "What remains unverified",
+      "text": "The original chapter’s complete exercises, illustrations, argument and conclusions have not been checked. Its CUMINCAD access route is retained without bypassing the site’s verification.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "How to continue",
+      "text": "Read the author’s accessible later explanation for orientation, then consult the original chapter to distinguish its particular exercises and examples.",
+      "evidence": [
+        1
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Read the author’s later explanation",
+      "locator": "Design applications of shape grammars; Knight’s programme",
+      "url": "https://www.mit.edu/~tknight/IJDC/page_history_design_sg.htm"
+    },
+    {
+      "label": "Locate the original chapter",
+      "locator": "CUMINCAD record 2559; access may require verification",
+      "url": "https://papers.cumincad.org/cgi-bin/works/paper/2559"
+    }
+  ],
+  "terms": []
+}

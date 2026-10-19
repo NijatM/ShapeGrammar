@@ -1,24 +1,52 @@
 # Color Grammars: The Representation of Form and Color in Designs
 
-Source ID: `knight-1993-color-grammars-the-representation-of-form-and-color-in-designs`. Year: 1993. Contributors as recorded: Terry W. Knight.
+Source ID: `knight-1993-color-grammars-the-representation-of-form-and-color-in-designs`. 1993.
 
-Type: journal-article. Venue: Leonardo. Pages: 117.
+[Canonical metadata](../metadata/knight-1993-color-grammars-the-representation-of-form-and-color-in-designs.json) · [Original article record and access options](https://www.jstor.org/stable/1575896)
 
-[Canonical metadata](../metadata/knight-1993-color-grammars-the-representation-of-form-and-color-in-designs.json) · [Source / publication record](https://doi.org/10.2307/1575896) · [Reading path](https://doi.org/10.2307/1575896)
+## Review scope
 
-Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.
+**abstract-only.** Read the abstract excerpt listed under this title on Knight’s public author profile; also checked the official JSTOR issue pagination. Only a truncated abstract excerpt was accessible. Full methods, examples and conclusions were not reviewed.
 
-## Reading purpose
+## In brief
 
-Terry Knight author corpus: color and material extensions of grammar research. This is a bibliographic entry and reading prompt, not a summary of an unreviewed argument.
+An overview of formal grammars in design, emphasizing the representation of spatial composition and an extension of shape grammars.
 
-## Verification
+Evidence: [Publication list: Color Grammars: The Representation of Form and Color in Designs (1993)](https://www.researchgate.net/profile/Terry-Knight).
 
-Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.
+## Question or aim
 
-## Locators
+How can the representation of form be extended?
 
-Exact claim locators require further full-text review.
+Evidence: [Publication list: Color Grammars: The Representation of Form and Color in Designs (1993)](https://www.researchgate.net/profile/Terry-Knight).
+
+## Approach described
+
+The visible author-profile abstract excerpt introduces a survey and an extension; its description is truncated.
+
+Evidence: [Publication list: Color Grammars: The Representation of Form and Color in Designs (1993)](https://www.researchgate.net/profile/Terry-Knight).
+
+## What the abstract supports
+
+The excerpt supports the broad purpose, not a reconstruction of the extension’s definitions.
+
+Evidence: [Publication list: Color Grammars: The Representation of Form and Color in Designs (1993)](https://www.researchgate.net/profile/Terry-Knight).
+
+## What remains unverified
+
+Only a truncated abstract excerpt was accessible. Full methods, examples and conclusions were not reviewed.
+
+Evidence: [Publication list: Color Grammars: The Representation of Form and Color in Designs (1993)](https://www.researchgate.net/profile/Terry-Knight).
+
+## Why it may help
+
+Consult the original before relying on its account of color or other design qualities.
+
+Evidence: [Publication list: Color Grammars: The Representation of Form and Color in Designs (1993)](https://www.researchgate.net/profile/Terry-Knight).
+
+## Reading path
+
+- [Locate the original article](https://www.jstor.org/stable/1575896): Leonardo 26(2), pp. 117–124.
 
 ## Originals and rights
 

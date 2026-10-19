@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "source_id": "stiny-1980-introduction",
+  "kind": "Foundational definition paper",
+  "review": {
+    "level": "selected-sections",
+    "material": "Primary paper: shape operations and labels, formal grammar definition, square derivation and parametric extension.",
+    "limitations": "The main definitions and worked examples were reviewed; no independent verification of every formal detail is implied. This uses the public teaching copy, not the unrelated local-only PDF.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://www.andrew.cmu.edu/user/ramesh/teaching/course/48-747/subFrames/readings/Stiny-1980-EPB7_343-351.IntroductionToShapeAndShapeGrammars.pdf",
+        "locator": "pp. 343–346: shapes, operations and labelled shapes",
+        "description": "Maximal-line representation and geometric part relations."
+      },
+      {
+        "url": "https://www.andrew.cmu.edu/user/ramesh/teaching/course/48-747/subFrames/readings/Stiny-1980-EPB7_343-351.IntroductionToShapeAndShapeGrammars.pdf",
+        "locator": "pp. 347–349: grammar definition and square example",
+        "description": "A shared transformation for recognition and replacement; labels guide a derivation."
+      },
+      {
+        "url": "https://www.andrew.cmu.edu/user/ramesh/teaching/course/48-747/subFrames/readings/Stiny-1980-EPB7_343-351.IntroductionToShapeAndShapeGrammars.pdf",
+        "locator": "pp. 349–351: parametric grammars",
+        "description": "Parameter assignments instantiate a rule schema before application."
+      }
+    ]
+  },
+  "original": {
+    "url": "https://www.andrew.cmu.edu/user/ramesh/teaching/course/48-747/subFrames/readings/Stiny-1980-EPB7_343-351.IntroductionToShapeAndShapeGrammars.pdf",
+    "label": "Read original text",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "In brief",
+      "text": "A compact reference for what a shape grammar formally contains and how a rule acts. The paper connects geometric parts, labels, recursive derivation and parametric rule families.",
+      "evidence": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "question",
+      "title": "The question",
+      "text": "How can an algorithm be stated directly with drawings while precisely specifying matching, replacement and which outputs belong to its language?",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "Main idea or claim",
+      "text": "A rule recognizes an embedded geometric part under a transformation and replaces it using the same transformation. Labels can direct this process without becoming permanent features of the final drawing.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "How the work approaches it",
+      "text": "Stiny defines shapes and operations, adds labelled points, specifies a grammar’s components, and derives a nested-square example. The parametric extension assigns coordinates under constraints to obtain a particular rule from a schema.",
+      "evidence": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "Evidence and examples",
+      "text": "In the square example, a marker identifies the square to elaborate. One rule inscribes another square and moves the marker; another removes the marker to produce an unlabelled language member.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "What comes out of it",
+      "text": "The formula C′ = (C − t(A)) + t(B) unifies erasing and adding. Parametric grammars extend variation beyond a shape’s location, orientation and scale to permitted changes in its proportions or geometry.",
+      "evidence": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "Limits to keep in mind",
+      "text": "This is a definitional introduction, not an efficiency or usability study. Its general transformation possibilities exceed this app’s finite search menu. Parameter assignment and geometric placement are distinct operations.",
+      "evidence": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "What to take from it",
+      "text": "Track three things separately: the pattern being recognized, its transformation, and the rule’s replacement. Ask whether a visible label is a construction control or a desired final feature.",
+      "evidence": [
+        1,
+        2
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "pp. 343–346: shapes, operations and labelled shapes",
+      "locator": "Maximal-line representation and geometric part relations.",
+      "url": "https://www.andrew.cmu.edu/user/ramesh/teaching/course/48-747/subFrames/readings/Stiny-1980-EPB7_343-351.IntroductionToShapeAndShapeGrammars.pdf"
+    },
+    {
+      "label": "pp. 347–349: grammar definition and square example",
+      "locator": "A shared transformation for recognition and replacement; labels guide a derivation.",
+      "url": "https://www.andrew.cmu.edu/user/ramesh/teaching/course/48-747/subFrames/readings/Stiny-1980-EPB7_343-351.IntroductionToShapeAndShapeGrammars.pdf"
+    },
+    {
+      "label": "pp. 349–351: parametric grammars",
+      "locator": "Parameter assignments instantiate a rule schema before application.",
+      "url": "https://www.andrew.cmu.edu/user/ramesh/teaching/course/48-747/subFrames/readings/Stiny-1980-EPB7_343-351.IntroductionToShapeAndShapeGrammars.pdf"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Maximal line",
+      "meaning": "A segment extended as far as the drawing continues along its carrier without a gap."
+    },
+    {
+      "term": "Rule schema",
+      "meaning": "A parameterized description that yields particular rules after admissible assignments."
+    }
+  ]
+}

@@ -26,6 +26,7 @@ The download URLs and checksums for each individual file are recorded in canonic
 - Author-hosted Borcherds papers, journal articles and ATLAS data: lawful reading links are retained; no general redistribution license was established here.
 - *Shapes of Imagination*: publisher identifies CC BY-NC-ND 4.0 and a lawful OA DOI, but a complete download was not retrieved. Its record preserves the link and rights evidence.
 - Milne v4.01: web PDF was readable, direct download returned HTTP 406, and its license paragraph explicitly names v4.0. Link retained; no local file claimed.
+- *Mathematics for Computer Science*, May 2015: the inspected PDF states CC BY-NC-SA 3.0. The record uses that item-specific notice rather than a newer course-wide license. It remains link-only in this collection.
 - Knight books and other journal/conference papers without verified mirroring permission remain citation/reading links. The 2018 and 2024 DRS pages identify CC BY-NC 4.0, but PDF download requests returned HTTP 403. The 2006 OCW course has a course-wide license with individual exclusions; its lecture files have not been separately audited or mirrored. The 2025 Architecture syllabus is publicly readable, with no complete-file redistribution license established here.
 - Stouffs 2016: institutional cover restricts further distribution without permission unless an open license applies. Selected pages were read/rendered temporarily; the paper is not saved among public originals.
 

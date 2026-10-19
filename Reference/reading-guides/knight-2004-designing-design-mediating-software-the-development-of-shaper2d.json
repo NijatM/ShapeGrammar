@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-2004-designing-design-mediating-software-the-development-of-shaper2d",
+  "kind": "software design case study",
+  "review": {
+    "level": "full-text",
+    "material": "All nine pages (119–127) of the primary conference PDF were read, including interface descriptions, feature limits and future work. Interface figure pages were inspected.",
+    "limitations": "The paper describes design decisions and demonstrations. It does not report a controlled usability study or measured learning gains.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://papers.cumincad.org/data/works/att/2004_119.content.pdf",
+        "locator": "pp. 119–122: interface rationale and comparisons",
+        "description": "Correct byline and title were verified in the PDF."
+      },
+      {
+        "url": "https://papers.cumincad.org/data/works/att/2004_119.content.pdf",
+        "locator": "pp. 123–127: interface, versions, conclusion and future releases; Figs. 2–6",
+        "description": "Primary software feature and limitation descriptions."
+      }
+    ]
+  },
+  "original": {
+    "url": "https://papers.cumincad.org/data/works/att/2004_119.content.pdf",
+    "label": "Read original source",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What it is about",
+      "text": "McGill and Knight describe Shaper2D, a visual tool intended to help designers learn shape grammars by experimenting. Its central contribution is an interface design argument: the program should respond to the way a designer explores shapes, rather than expose the implementation’s internal structure.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "Problem and premise",
+      "text": "Earlier interpreters could be powerful yet awkward for novices or slow to provide visual feedback. The authors ask whether deliberately restricted functions and immediate updates can make grammar exploration easier to follow. They retain the value of working by hand to understand spatial rule applications.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "Development method",
+      "text": "The paper compares Shaper2D with 3D Shaper and GEdit, then explains the interface and the reasoning behind its restrictions. Spatial-relation, rule and design panels update together as a user manipulates shapes or labels; an optional label display helps step through a derivation.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "What the software demonstrates",
+      "text": "The basic application supports saving/loading rules, exporting DXF and placing a design over a background image. The advanced version adds shape substitution while retaining the reference shape’s symmetry. Screenshots document these operations. The Java applet and desktop versions have different capabilities.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "Authors’ conclusion",
+      "text": "The authors argue that quick, visual feedback supports persistence and exploration as designs become complex. They also acknowledge that automation hides part of the computation: physically rotating or reflecting a tracing-paper drawing exposes transformations in a way software may not.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "Limits of the reported result",
+      "text": "The authors do not supply participant counts, a controlled comparison or learning scores. General multiple-rule and user-chosen nonlinear applications are listed as future releases, not established features. Historical Java/browser compatibility statements describe the 2004 software environment, not current availability.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "What to bring to this project",
+      "text": "Use clear visual feedback and a small initial set of controls, then reveal complexity gradually. Let a learner inspect intermediate steps as well as the final pattern. Test usability with users rather than assuming the interface rationale itself proves educational effectiveness.",
+      "evidence": [
+        0,
+        1
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Start here",
+      "locator": "pp. 119–122: interface rationale and comparisons",
+      "url": "https://papers.cumincad.org/data/works/att/2004_119.content.pdf"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Shape substitution",
+      "meaning": "Replacing a reference shape with another design while retaining specified symmetry behaviour."
+    },
+    {
+      "term": "Derivation",
+      "meaning": "A sequence of rule applications producing a design."
+    }
+  ]
+}

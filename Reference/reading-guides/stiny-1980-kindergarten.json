@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "source_id": "stiny-1980-kindergarten",
+  "kind": "Constructive design framework",
+  "review": {
+    "level": "selected-sections",
+    "material": "Scanned primary paper: opening discussion; five-stage programme; selected spatial-relation and grammar examples; conclusions on pp. 459–461.",
+    "limitations": "Selected pages of the 54-page paper were read with OCR and scan inspection. This is a framework and illustrated argument, not a measured comparison of children’s learning.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Stiny.kindergartenGrammars.pdf",
+        "locator": "pp. 409–420: gifts and constructive programme",
+        "description": "Froebel’s building gifts and the five stages for defining design languages."
+      },
+      {
+        "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Stiny.kindergartenGrammars.pdf",
+        "locator": "p. 428 and selected later examples",
+        "description": "Recurrence of spatial relations, emergence and alternative rule choices."
+      },
+      {
+        "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Stiny.kindergartenGrammars.pdf",
+        "locator": "pp. 459–461: conclusions",
+        "description": "Advantages claimed for explicit rules and the additional interpretation required for design use."
+      }
+    ]
+  },
+  "original": {
+    "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Stiny.kindergartenGrammars.pdf",
+    "label": "Read original text",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "In brief",
+      "text": "Froebel’s building blocks become a setting for constructing whole languages of designs. Stiny shifts attention from producing one composition to stating rules that make its possibilities understandable and reusable.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "The question",
+      "text": "How can simple pieces and spatial relations become an explicit constructive basis for varied designs?",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "Main idea or claim",
+      "text": "A small collection of rules can generate complicated designs and make their construction shareable. The paper argues for this constructive approach over relying solely on intuitive categories or inspiration.",
+      "evidence": [
+        0,
+        2
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "How the work approaches it",
+      "text": "The programme chooses a vocabulary, specifies spatial relations, derives rules, forms initial shapes, and defines grammars. Each stage permits multiple choices; the path does not determine a single inevitable language.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "Evidence and examples",
+      "text": "Examples use the cubes and related blocks of gifts 3–6, selected relation catalogues and hand-applied grammars. Some examples use earlier constructions as scaffolds that can later be erased.",
+      "evidence": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "What comes out of it",
+      "text": "Repeated relations and rule choices explain how families can share structure while allowing variation and emergent readings. Explicit construction also allows systematic modification of a language.",
+      "evidence": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "Limits to keep in mind",
+      "text": "Claims about originality or educational value are argued through examples, without a controlled learning study. A generated language still needs interpretation, ordering and connection to purpose and production before it becomes a complete design method.",
+      "evidence": [
+        2
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "What to take from it",
+      "text": "Make the choices at each stage visible. Then compare what different rules allow with the same pieces, rather than treating the pieces themselves as the whole explanation of a design.",
+      "evidence": [
+        0,
+        2
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "pp. 409–420: gifts and constructive programme",
+      "locator": "Froebel’s building gifts and the five stages for defining design languages.",
+      "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Stiny.kindergartenGrammars.pdf"
+    },
+    {
+      "label": "p. 428 and selected later examples",
+      "locator": "Recurrence of spatial relations, emergence and alternative rule choices.",
+      "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Stiny.kindergartenGrammars.pdf"
+    },
+    {
+      "label": "pp. 459–461: conclusions",
+      "locator": "Advantages claimed for explicit rules and the additional interpretation required for design use.",
+      "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Stiny.kindergartenGrammars.pdf"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Constructive understanding",
+      "meaning": "Understanding a design through rules that can produce it and related designs."
+    },
+    {
+      "term": "Vocabulary",
+      "meaning": "A chosen collection of shapes used to establish a particular exploration."
+    }
+  ]
+}

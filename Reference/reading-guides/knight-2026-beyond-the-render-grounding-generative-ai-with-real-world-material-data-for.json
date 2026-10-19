@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-2026-beyond-the-render-grounding-generative-ai-with-real-world-material-data-for",
+  "kind": "exploratory human–AI interaction study",
+  "review": {
+    "level": "full-text",
+    "material": "The public full publisher text and 17-page PDF were read, including system architecture, study design, results, limitations and conclusion. The measures page was inspected.",
+    "limitations": "Reported statistics were read, not recomputed from participant data. Several measures are descriptive or labelled synthetic evaluation; the system’s material-identification accuracy was not independently validated.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://link.springer.com/chapter/10.1007/978-3-032-30846-7_7",
+        "locator": "Sections 1–4: post-generative grounding and IIGenAI system",
+        "description": "Primary system description and motivation."
+      },
+      {
+        "url": "https://link.springer.com/chapter/10.1007/978-3-032-30846-7_7",
+        "locator": "Section 5: participants, conditions, measures and procedure",
+        "description": "Primary account of the exploratory within-subjects study."
+      },
+      {
+        "url": "https://link.springer.com/chapter/10.1007/978-3-032-30846-7_7",
+        "locator": "Sections 6–8: findings, discussion and limitations",
+        "description": "Results include author interpretations and explicitly identified limitations."
+      }
+    ]
+  },
+  "original": {
+    "url": "https://link.springer.com/chapter/10.1007/978-3-032-30846-7_7",
+    "label": "Read original source",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What it is about",
+      "text": "Gupta, Knight and Nagakura investigate adding material information after an AI image has been generated. Their IIGenAI prototype pairs generated interior images with predicted material identities and database carbon values, so designers can reconsider an attractive image in light of material consequences.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "Premise and claim",
+      "text": "A plausible image does not establish buildability or environmental performance. The paper proposes post-generative grounding as a feedback layer that leaves initial image generation open but supplies structured information for later revisions.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "System and study method",
+      "text": "The described pipeline combines DALL-E generation, vision-language material identification and Material2050 database matching. Nine participants with architecture/interior-design backgrounds each complete three counterbalanced conditions: unrestricted generation, a sustainability goal without material data, and the goal with carbon feedback. Each condition has five prompt iterations.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "What was observed",
+      "text": "The researchers analyze prompts and reflections: sustainability mentions, material-specific vocabulary, type-token ratios and CLIP text-embedding similarity. They report more material-specific language and greater prompt divergence with grounding, alongside reduced satisfaction. The study is exploratory and reports descriptive comparisons rather than parametric significance tests.",
+      "evidence": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "Conclusion and interpretation",
+      "text": "The results suggest that showing material data can change how participants iterate, moving attention toward explicit material choices. The authors interpret lower satisfaction as increased engagement with trade-offs; that interpretation is not itself proof that frustration improves design or that outputs became physically feasible.",
+      "evidence": [
+        2
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "What to read critically",
+      "text": "The sample is small, material predictions were not checked against expert annotations, and database units caused difficulties. Carbon values alone do not validate structural safety, total building impact or sourcing. Some workload/creativity figures are labelled synthetic evaluation; several reported percentages lack clear participant-count denominators. Treat them cautiously.",
+      "evidence": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "Practical lesson",
+      "text": "Keep generated appearance, inferred material identity and verified database properties visibly distinct. Show uncertainty and units, allow correction, and compare alternatives on compatible bases. This paper supports testing informative feedback, not accepting an image-plus-carbon label as a complete construction assessment.",
+      "evidence": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Start here",
+      "locator": "Sections 1–4: post-generative grounding and IIGenAI system",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-032-30846-7_7"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Post-generative grounding",
+      "meaning": "Checking or augmenting a generated output with structured domain information after generation."
+    },
+    {
+      "term": "Embodied carbon",
+      "meaning": "Emissions associated with material production and related life-cycle processes, whose boundary and unit must be specified."
+    },
+    {
+      "term": "Within-subjects study",
+      "meaning": "A design in which the same participants experience each comparison condition."
+    }
+  ]
+}

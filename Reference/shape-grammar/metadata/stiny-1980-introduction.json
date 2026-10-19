@@ -21,7 +21,7 @@
     "shape-arithmetic",
     "rules"
   ],
-  "relevance": "Core source for maximal lines, embedding, operations, transformations, rules and derivations.",
+  "relevance": "A compact reference for what a shape grammar formally contains and how a rule acts. The paper connects geometric parts, labels, recursive derivation and parametric rule families.",
   "prerequisite_level": "beginner",
   "prerequisites": [
     "High-school arithmetic; notation introduced gradually"
@@ -45,28 +45,25 @@
   ],
   "locators": [
     {
-      "locator": "p. 343: Shape; maximal lines and empty shape",
-      "status": "local-full-text-inspected"
+      "locator": "pp. 343–346: shapes, operations and labelled shapes",
+      "status": "selected-sections-reviewed"
     },
     {
-      "locator": "p. 344: Subshape and identity relations; Boolean operations; Transformations",
-      "status": "local-text-and-page-image-verified"
+      "locator": "pp. 347–349: grammar definition and square example",
+      "status": "selected-sections-reviewed"
     },
     {
-      "locator": "p. 347: Shape grammars; applicability and replacement formula",
-      "status": "local-text-and-page-image-verified"
-    },
-    {
-      "locator": "pp. 349–351: Parametric shape grammars",
-      "status": "local-text-inspected"
+      "locator": "pp. 349–351: parametric grammars",
+      "status": "selected-sections-reviewed"
     }
   ],
   "verification": {
-    "scope": "Publisher metadata and user-provided nine-page PDF inspected. Printed pp. 344 and 347 visually checked; extraction alone was not used for the parthood sign.",
+    "scope": "Primary paper: shape operations and labels, formal grammar definition, square derivation and parametric extension. The main definitions and worked examples were reviewed; no independent verification of every formal detail is implied. This uses the public teaching copy, not the unrelated local-only PDF.",
     "source_urls": [
-      "https://journals.sagepub.com/doi/10.1068/b070343"
+      "https://journals.sagepub.com/doi/10.1068/b070343",
+      "https://www.andrew.cmu.edu/user/ramesh/teaching/course/48-747/subFrames/readings/Stiny-1980-EPB7_343-351.IntroductionToShapeAndShapeGrammars.pdf"
     ],
-    "content_review": "selected-sections-and-page-images"
+    "content_review": "selected-sections"
   },
   "annotation_file": "shape-grammar/notes/stiny-1980-introduction.md"
 }

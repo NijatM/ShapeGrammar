@@ -19,7 +19,7 @@
     "rule-schemas",
     "rules"
   ],
-  "relevance": "Primary discussion of rule choice and schemas for the grammar-construction strand.",
+  "relevance": "Instead of prescribing the right rule for a design problem, Stiny offers a small repertoire of ways to make rules. Their power depends on recognizing embedded parts anew when rules are used.",
   "prerequisite_level": "intermediate",
   "prerequisites": [
     "Elementary sets and functions; some proof reading"
@@ -33,13 +33,27 @@
   },
   "local_files": [],
   "existing_local_files": [],
-  "locators": [],
+  "locators": [
+    {
+      "locator": "pp. 15–20: questions and schema lattice",
+      "status": "selected-sections-reviewed"
+    },
+    {
+      "locator": "pp. 20–23: inverses and compound schemas",
+      "status": "selected-sections-reviewed"
+    },
+    {
+      "locator": "pp. 39–45: schemas, interpretation and education",
+      "status": "selected-sections-reviewed"
+    }
+  ],
   "verification": {
-    "scope": "Bibliographic record or official landing page inspected; full text and exact claim locators not reviewed.",
+    "scope": "Publisher PDF: opening questions, schema lattice and operators, inverse/composite constructions, and concluding art/design discussion. Selected framework sections were reviewed. The essay’s extensive historical examples were sampled; its studio-education claims are arguments, not reported controlled trials.",
     "source_urls": [
-      "https://link.springer.com/article/10.1007/s00004-011-0056-6"
+      "https://link.springer.com/article/10.1007/s00004-011-0056-6",
+      "https://link.springer.com/content/pdf/10.1007/s00004-011-0056-6.pdf"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "selected-sections"
   },
   "annotation_file": "shape-grammar/notes/stiny-2011-rules.md"
 }

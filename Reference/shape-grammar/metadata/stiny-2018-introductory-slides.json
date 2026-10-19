@@ -33,13 +33,30 @@
   },
   "local_files": [],
   "existing_local_files": [],
-  "locators": [],
+  "locators": [
+    {
+      "locator": "PDF pp.5–7",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/e30a7279edca537998b17385065593f4_MIT4_540F18_lectureslides.pdf"
+    },
+    {
+      "locator": "PDF pp.19–22 and 30–32",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/e30a7279edca537998b17385065593f4_MIT4_540F18_lectureslides.pdf"
+    },
+    {
+      "locator": "PDF pp.37, 43 and 46",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/e30a7279edca537998b17385065593f4_MIT4_540F18_lectureslides.pdf"
+    }
+  ],
   "verification": {
-    "scope": "PDF text inspected, including explicit third-party copyright exclusions on PDF pages 4, 38, 44.",
+    "scope": "Complete 48-page PDF text layer read; selected diagrams on PDF pp.5–7, 21–22, 30–32 and 46 visually inspected. This is a selection of visual demonstrations, not a full audit of every artwork or diagram. Philosophical claims and teaching examples are not a controlled user study or proof that an implementation exceeds Turing computation. PDF remains link-only because it contains excluded third-party images.",
     "source_urls": [
-      "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/resources/mit4_540f18_lectureslides/"
+      "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/resources/mit4_540f18_lectureslides/",
+      "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/e30a7279edca537998b17385065593f4_MIT4_540F18_lectureslides.pdf"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "selected-sections"
   },
   "annotation_file": "shape-grammar/notes/stiny-2018-introductory-slides.md"
 }

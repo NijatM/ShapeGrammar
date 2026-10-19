@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-2014-regarding-rules-from-rimini-to-rio",
+  "kind": "conceptual essay with comparative design cases",
+  "review": {
+    "level": "full-text",
+    "material": "The complete article was read, including four strategies, illustrated case descriptions and the Rocinha work-in-progress. The diagram of four strategies was inspected.",
+    "limitations": "Historical and design examples support a comparative argument; this is not a new controlled trial of housing outcomes.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://impactum-journals.uc.pt/joelho/article/download/_5_1/1645",
+        "locator": "pp. 13–18: Alberti, shape grammars and four strategies; Fig. 4",
+        "description": "Primary article introduces its analytical framework."
+      },
+      {
+        "url": "https://impactum-journals.uc.pt/joelho/article/download/_5_1/1645",
+        "locator": "pp. 18–25: strategies and cases; Figs. 5–9",
+        "description": "Primary descriptions of Malagueira, Vantongerloo, hayat houses and rehabilitation."
+      },
+      {
+        "url": "https://impactum-journals.uc.pt/joelho/article/download/_5_1/1645",
+        "locator": "pp. 26–27: Rocinha study and next steps; Fig. 10",
+        "description": "The favela grammar is explicitly work in progress."
+      }
+    ]
+  },
+  "original": {
+    "url": "https://impactum-journals.uc.pt/joelho/article/download/_5_1/1645",
+    "label": "Read original source",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What it is about",
+      "text": "Knight asks how studying existing design rules can lead to new work. Alberti’s adaptations of classical architecture introduce a comparison with shape grammars: precedents supply resources for design, while rules can be reused, altered or redirected toward new circumstances.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "Central question",
+      "text": "How do we move from analysis to design without merely copying a precedent? The article treats the boundary as flexible: an analytical grammar may already generate new designs, and further transformations can move beyond the original style or change existing buildings directly.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "Four distinct strategies",
+      "text": "First, use an analysis grammar to generate additional designs within its language. Second, transform that grammar’s rules to generate a changed language. Third, generate or describe existing designs and apply transformation rules to those designs. Fourth, transform existing designs directly without first building an analysis grammar.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "How the argument is developed",
+      "text": "The strategies are extracted from earlier shape-grammar studies and explained through concise cases. The comparison distinguishes transforming rules from transforming the designs produced by rules. It is a conceptual organization of prior research, not a claim that one strategy always works best.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "Examples that clarify the differences",
+      "text": "Duarte’s Malagueira grammar illustrates new client-specific designs within an existing style. Knight’s analysis of Vantongerloo illustrates changes between successive rule systems. Colakoglu’s hayat-house transformations adapt traditional plans, while Eloy’s rehabilitation rules modify existing Lisbon housing without an initial generative grammar.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "Conclusion and unfinished work",
+      "text": "All four strategies can connect precedent with new design intentions; the appropriate choice depends on the problem. The Rocinha investigation is an emerging application: early rules describe building and circulation patterns, but the team still needs a deeper grammar and an account of which socially valuable features to preserve.",
+      "evidence": [
+        2
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "Boundaries of the evidence",
+      "text": "The illustrative grammars are deliberately summarized rather than fully specified here; their original studies are needed to reconstruct or test them. Rocinha’s longer-term design interventions are proposed aims, not completed or evaluated outcomes in this paper.",
+      "evidence": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "How to use this distinction",
+      "text": "Before editing a grammar, decide what should change: its language, its rules or an individual existing design. State which contextual and cultural properties you want to retain. A rule’s ability to generate a novel configuration does not by itself establish that the configuration fits contemporary needs.",
+      "evidence": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Start here",
+      "locator": "pp. 13–18: Alberti, shape grammars and four strategies; Fig. 4",
+      "url": "https://impactum-journals.uc.pt/joelho/article/download/_5_1/1645"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Analysis grammar",
+      "meaning": "Rules constructed to describe and generate an existing family of designs."
+    },
+    {
+      "term": "Rule transformation",
+      "meaning": "A change to a grammar’s rules, which can change the language of designs."
+    },
+    {
+      "term": "Design transformation",
+      "meaning": "A rule acting on an existing design to modify it."
+    }
+  ]
+}

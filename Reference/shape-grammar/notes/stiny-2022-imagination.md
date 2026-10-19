@@ -1,25 +1,43 @@
 # Shapes of Imagination: Calculating in Coleridge’s Magical Realm
 
-Source ID: `stiny-2022-imagination`. Authors: George Stiny. Year: 2022.
+## Reading guide
 
-Later primary book on seeing, ambiguity, art and design.
+Review: **abstract-only**, 2026-10-19. MIT Press book description, publication data and Open Access section read; publisher DOI/open-access route returned HTTP 403 during this review.
 
-[Canonical/verification page](https://mitpress.mit.edu/9780262544139/shapes-of-imagination/) · [Lawful reading link](https://doi.org/10.7551/mitpress/14469.001.0001).
+Publisher-description-only review. The final 2022 book was not read and is not treated as identical to the OCW manuscript excerpts. The publisher’s philosophical/computational claims are not independently established results here.
 
-Version: 2022; paperback ISBN 9780262544139; electronic ISBN 9780262370660.
+## What the published book addresses
 
-Review scope: Bibliographic record or official landing page inspected; full text and exact claim locators not reviewed.
+Stiny connects visual calculation in shape grammars with art and design, using Coleridge’s contrast between imagination and fancy to frame the discussion. [1](https://mitpress.mit.edu/9780262544139/shapes-of-imagination/)
 
-## Reading locators
+## The stated premise
 
-- Exact claim/page locators still require full-text review.
+The publisher describes imagination as seeing that can reorganize a whole, in contrast to rearranging already fixed units. Shape grammars are presented as a way for calculation to accommodate changing appearances. [1](https://mitpress.mit.edu/9780262544139/shapes-of-imagination/)
 
-## Local originals
+## What is reported about the approach
 
-- Reading link only; no new original mirrored here.
+The description brings together shape-rule reasoning, literary ideas and visual examples to challenge accounts of creativity based only on predetermined descriptions. This identifies the author’s argument, not a controlled experiment. [1](https://mitpress.mit.edu/9780262544139/shapes-of-imagination/)
 
-## Rights
+## What still requires the final text
 
-CC BY-NC-ND 4.0. Publisher identifies this open-access license. Full-book download was not retrieved; retain lawful OA link. Check any separately credited third-party material before reuse.
+Detailed examples, derivations, qualifications and conclusions were not checked in the 2022 publication. Claims about exceeding computer-based accounts should be read in their precise context rather than treated here as a proved complexity theorem. [1](https://mitpress.mit.edu/9780262544139/shapes-of-imagination/)
 
-This is a public editorial reference annotation. Bibliographic inclusion does not certify every claim in the work, complete a lesson, or establish a connection to the Monster.
+## Version and reading route
+
+Use the publisher’s open-access link for this 2022 book. The earlier course collection has a different title and manuscript status; it provides related material but cannot verify the final book’s exact wording or organization. [1](https://mitpress.mit.edu/9780262544139/shapes-of-imagination/) [2](https://mitpress.mit.edu/9780262544139/shapes-of-imagination/#tab-9)
+
+## Key terms
+
+- **Fancy**: Coleridge’s recombination of given, fixed materials.
+- **Imagination**: The contrasting power to reshape or unify experience in new ways.
+
+## Read next
+
+- [Final book’s stated argument and publication identity](https://mitpress.mit.edu/9780262544139/shapes-of-imagination/): Description and edition information
+- [Lawful route to the final publication](https://mitpress.mit.edu/9780262544139/shapes-of-imagination/#tab-9): Open Access, license and DOI link
+
+## Access and preservation
+
+Publisher identifies this open-access license. Full-book download was not retrieved; retain lawful OA link. Check any separately credited third-party material before reuse.
+
+This annotation is an original reading aid. Consult the linked text for complete arguments, notation and qualifications.

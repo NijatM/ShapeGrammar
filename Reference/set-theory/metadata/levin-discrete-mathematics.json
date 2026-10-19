@@ -46,14 +46,30 @@
     }
   ],
   "existing_local_files": [],
-  "locators": [],
+  "locators": [
+    {
+      "locator": "Preface; §§0.2.2–0.2.3, printed pp.5–7",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://discrete.openmathbooks.org/pdfs/dmoi4.pdf"
+    },
+    {
+      "locator": "§1.5.3, printed pp.87–88",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://discrete.openmathbooks.org/pdfs/dmoi4.pdf"
+    },
+    {
+      "locator": "§3.3, printed p.223, Theorem 3.3.5 and Example 3.3.6",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://discrete.openmathbooks.org/pdfs/dmoi4.pdf"
+    }
+  ],
   "verification": {
-    "scope": "Bibliographic record or official landing page inspected; full text and exact claim locators not reviewed.",
+    "scope": "Fourth-edition local PDF: preface; §0.2.2–0.2.3, selected §1.5.3 discussion, and §3.3 two-set counting result read. No full-text or exercise-solution review is claimed. The book’s teaching aims and examples do not establish measured learning gains; no education experiment is reported here.",
     "source_urls": [
       "https://discrete.openmathbooks.org/dmoi4.html",
       "https://discrete.openmathbooks.org/pdfs/dmoi4.pdf"
     ],
-    "content_review": "front-matter-rights-and-contents"
+    "content_review": "selected-sections"
   },
   "annotation_file": "set-theory/notes/levin-discrete-mathematics.md"
 }

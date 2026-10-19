@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-2006-ocw-inquiry",
+  "kind": "public educational collection",
+  "review": {
+    "level": "selected-sections",
+    "material": "The official syllabus page was read in full. The course landing page and existing lecture-note inventory were inspected; individual guest lectures and linked readings were not treated as Knight-authored texts.",
+    "limitations": "This guide describes the public teaching framework, not the contents or effectiveness of the entire course.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://ocw.mit.edu/courses/4-580-inquiry-into-computation-and-design-fall-2006/pages/syllabus/",
+        "locator": "Syllabus: Course Overview and Prerequisites",
+        "description": "Official primary account of the subject’s aims and organization."
+      }
+    ]
+  },
+  "original": {
+    "url": "https://ocw.mit.edu/courses/4-580-inquiry-into-computation-and-design-fall-2006/pages/syllabus/",
+    "label": "Read original source",
+    "type": "publication-record"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What it is about",
+      "text": "This public MIT OCW collection introduces varied approaches to computation and design. The syllabus includes computing performed both by machine and by hand, and treats design broadly: activities, designers, artifacts and the environments where design happens.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "The organizing question",
+      "text": "Which metaphors shape the way we think about computation? Knight asks how a familiar domain helps people understand an abstract one, while making some possibilities visible and marginalizing others.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "How the subject approaches it",
+      "text": "The semester is organized into thematic modules with guest faculty speakers, readings and team-based assignments. The stated aim is critical awareness of computational design beyond a particular technique or software tool.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "What this source establishes",
+      "text": "The syllabus documents an intellectual framework and teaching plan. It does not report research participants, experimental results or evidence that a specific tool is best. Guest lectures retain their individual authorship.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "What was not read",
+      "text": "This review does not cover every lecture PDF or external reading. Their detailed claims and reuse conditions must be checked individually; the course-wide open license does not automatically apply to every linked work.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "How to read it actively",
+      "text": "Choose a computational method you already use and name the metaphor behind it: language, machine, growth, conversation or another model. Write what the metaphor makes easy to describe and what it leaves difficult to see. This is a suggested reflection based on the syllabus’s purpose.",
+      "evidence": [
+        0
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Start here",
+      "locator": "Syllabus: Course Overview and Prerequisites",
+      "url": "https://ocw.mit.edu/courses/4-580-inquiry-into-computation-and-design-fall-2006/pages/syllabus/"
+    }
+  ],
+  "terms": []
+}

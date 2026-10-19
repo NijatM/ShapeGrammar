@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "source_id": "borcherds-1998-moonshine",
+  "kind": "survey",
+  "review": {
+    "level": "full-text",
+    "material": "All eight pages of the author-hosted 1998 ICM reading copy read.",
+    "limitations": "The exposition is a proof sketch and historical survey, not an independently checked proof. Its statements about unproved extensions describe the period of writing.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://math.berkeley.edu/~reb/papers/icm98/icm98.pdf",
+        "locator": "PDF pp.1–3",
+        "description": "Numerical clues, modular functions and trace series"
+      },
+      {
+        "url": "https://math.berkeley.edu/~reb/papers/icm98/icm98.pdf",
+        "locator": "PDF pp.4–6",
+        "description": "Four-step proof sketch and denominator identities"
+      },
+      {
+        "url": "https://math.berkeley.edu/~reb/papers/icm98/icm98.pdf",
+        "locator": "PDF pp.6–8",
+        "description": "Historical extensions and bibliography"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://math.berkeley.edu/~reb/papers/icm98/icm98.pdf",
+    "label": "Read the original source",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What this survey asks",
+      "text": "Why should Monster representations and modular functions share numerical information? The survey turns a surprising coefficient match into a structural question.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "The key distinction",
+      "text": "Matching dimensions alone is weak: even trivial actions can have chosen dimensions. Moonshine concerns traces of every Monster element on a specific graded module and the resulting genus-zero functions.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "Proof architecture",
+      "text": "Start with the Frenkel–Lepowsky–Meurman vertex algebra. Apply the no-ghost theorem to construct the Monster Lie algebra. Twisted denominator identities constrain trace coefficients; modular-function results identify the series.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "Example and outcome",
+      "text": "The classes 2A and 2B have different trace series despite both containing involutions. Coefficient recurrences connect Lie-algebra structure to modular behavior, going beyond isolated numerical coincidences.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "What remains historical",
+      "text": "Later pages discuss generalized and modular moonshine and Dynkin-diagram observations. Their then-open status is not a current research-status claim.",
+      "evidence": [
+        2
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Numerical clues, modular functions and trace series",
+      "locator": "PDF pp.1–3",
+      "url": "https://math.berkeley.edu/~reb/papers/icm98/icm98.pdf"
+    },
+    {
+      "label": "Four-step proof sketch and denominator identities",
+      "locator": "PDF pp.4–6",
+      "url": "https://math.berkeley.edu/~reb/papers/icm98/icm98.pdf"
+    },
+    {
+      "label": "Historical extensions and bibliography",
+      "locator": "PDF pp.6–8",
+      "url": "https://math.berkeley.edu/~reb/papers/icm98/icm98.pdf"
+    }
+  ],
+  "terms": [
+    {
+      "term": "McKay–Thompson series",
+      "meaning": "A graded generating series of group-element traces."
+    },
+    {
+      "term": "Hauptmodul",
+      "meaning": "A generator for a genus-zero modular function field."
+    }
+  ]
+}

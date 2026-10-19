@@ -36,17 +36,23 @@
   "existing_local_files": [],
   "locators": [
     {
-      "locator": "§1 Introduction, Theorem 1.1; §9 The moonshine conjectures",
-      "status": "author-PDF-opening-and-contents-verified"
+      "locator": "§1, Theorem 1.1 and proof outline, PDF pp.1–5",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://math.berkeley.edu/~reb/papers/monster/monster.pdf"
+    },
+    {
+      "locator": "§9, PDF pp.27–29, equations 9.1–9.2 and concluding paragraph",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://math.berkeley.edu/~reb/papers/monster/monster.pdf"
     }
   ],
   "verification": {
-    "scope": "Author-hosted paper opening and author publication list inspected; full proof not reviewed.",
+    "scope": "Author-hosted PDF: abstract and §1 introduction/proof outline (pp.1–5), plus §9 completion of Theorem 1.1 (pp.27–29) read. The full 41-page paper was not reviewed. In particular the technical constructions and intermediate proofs in §§3–8 and the second family of algebras in §§10–14 were not independently checked.",
     "source_urls": [
       "https://math.berkeley.edu/~reb/papers/monster/monster.pdf",
       "https://math.berkeley.edu/~reb/papers/index.html"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "selected-sections"
   },
   "annotation_file": "monster-moonshine/notes/borcherds-1992-moonshine-proof.md"
 }

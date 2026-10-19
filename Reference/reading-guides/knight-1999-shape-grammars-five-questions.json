@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-1999-shape-grammars-five-questions",
+  "kind": "decidability analysis",
+  "review": {
+    "level": "abstract-only",
+    "material": "Publisher abstract read; complete original not retrieved.",
+    "limitations": "Only the official abstract was reviewed. It does not enumerate the five questions or state their individual answers; no decision table or algorithmic guarantee is invented here.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://journals.sagepub.com/doi/10.1068/b260477",
+        "locator": "Abstract",
+        "description": "Primary abstract; it does not establish unreported technical details"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://journals.sagepub.com/doi/10.1068/b260477",
+    "label": "Read abstract and original access options",
+    "type": "publication-record"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "In brief",
+      "text": "The companion to “Six Types” examines five questions for each grammar class.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "Question or aim",
+      "text": "Which practically useful questions about a grammar are answerable or solvable?",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "Approach described",
+      "text": "The paper studies each question against the six classes previously defined through restrictions on rule format and ordering.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "What the abstract supports",
+      "text": "The abstract identifies a class-by-question analysis motivated by design constraints as well as theoretical interest.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "What remains unverified",
+      "text": "Only the official abstract was reviewed. It does not enumerate the five questions or state their individual answers; no decision table or algorithmic guarantee is invented here.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "Why it may help",
+      "text": "Read “Six Types” first. Classification and decidability are different tasks: identifying a class is not itself an answer to every question about its designs.",
+      "evidence": [
+        0
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Read the abstract and locate the original",
+      "locator": "Abstract",
+      "url": "https://journals.sagepub.com/doi/10.1068/b260477"
+    }
+  ],
+  "terms": []
+}

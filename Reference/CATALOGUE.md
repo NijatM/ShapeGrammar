@@ -11,7 +11,7 @@ Search this file or `catalogue.csv` in VS Code. Years and versions are separate;
 | [Digitally-Driven Architecture — Footprint Issue 6](shape-grammar/notes/bier-knight-2010-digitally-driven-issue.md) | Henriette Bier, Terry Knight (editors) / 2010 | intermediate | reading link |
 | [Dynamics of Data-Driven Design — Footprint Issue 15](shape-grammar/notes/bier-knight-2014-dynamics-issue.md) | Henriette Bier, Terry Knight (editors) / 2014 | intermediate | reading link |
 | [Why to Make (almost) Anything: A Human-centered Learning Approach](shape-grammar/notes/el-zanfaly-knight-2016-why-make.md) | Dina El-Zanfaly, Terry Knight / 2016 | intermediate | reading link |
-| [Indeterminate Matching](shape-grammar/notes/gatech-indeterminate-matching.md) | Georgia Tech Shape Computation Lab / 2024 | intermediate | reading link |
+| [Indeterminate Matching](shape-grammar/notes/gatech-indeterminate-matching.md) | Georgia Tech Shape Computation Lab / undated | intermediate | reading link |
 | [Analysis of Shape Grammars: Continuity of Rules](shape-grammar/notes/haridis-stiny-continuity.md) | Alexandros Haridis, George Stiny / 2022 | advanced | reading link |
 | [The Generation of Hepplewhite-Style Chair-Back Designs](shape-grammar/notes/knight-1980-the-generation-of-hepplewhite-style-chair-back-designs.md) | T Weissman Knight / 1980 | intermediate | reading link |
 | [The Forty-One Steps](shape-grammar/notes/knight-1981-forty-one-steps.md) | T Weissman Knight / 1981 | intermediate | reading link |

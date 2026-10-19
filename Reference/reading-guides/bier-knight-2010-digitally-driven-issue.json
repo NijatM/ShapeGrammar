@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "source_id": "bier-knight-2010-digitally-driven-issue",
+  "kind": "edited journal issue",
+  "review": {
+    "level": "selected-sections",
+    "material": "Read the official issue introduction and complete contents. Bier and Knight are the issue editors; individual papers retain their own authors.",
+    "limitations": "The contributed articles were not collectively reviewed. This container has no single experiment, method or tested conclusion.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://journals.open.tudelft.nl/footprint/issue/view/378",
+        "locator": "Issue #6, Spring 2010: opening description",
+        "description": "Editors’ description of the theme and its scope"
+      },
+      {
+        "url": "https://journals.open.tudelft.nl/footprint/issue/view/378",
+        "locator": "Contents: editorial and five contributed articles",
+        "description": "Contributors, titles and reading routes"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://journals.open.tudelft.nl/footprint/issue/view/378",
+    "label": "Read the issue introduction and choose an article",
+    "type": "publication-record"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "In brief",
+      "text": "This collection examines digital processes in architecture, spanning design generation, fabrication and buildings that sense or respond to their surroundings.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "Organizing question",
+      "text": "How do digital tools change architecture both as ways of conceiving and constructing form and as means of operating interactive environments?",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "Editorial premise",
+      "text": "The introduction links a move beyond standardized production with complex customized forms. It also treats data about environmental behavior and content as relevant to architectural design.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "How the issue is organized",
+      "text": "An opening Bier–Knight editorial is followed by five independently authored contributions. The issue combines historical, conceptual and design-project perspectives; those methods must be checked article by article.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "Useful reading examples",
+      "text": "Fox discusses interactive-environment history; Rosenberg addresses transformable scissor-pair structures; Gullström examines framing and transparency in mediated windows. These are separate investigations, not examples tested by one common protocol.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "What can be concluded here",
+      "text": "The collection connects digital generation and fabrication with sensing and actuation. The issue introduction establishes a research agenda, not proof that these systems improve every building.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "Limits and dates",
+      "text": "Spring 2010 is the issue designation. The platform displays a 2014 posting date. This guide summarizes the editors’ framing and contents, not the results of every paper.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "Why browse it",
+      "text": "It broadens a grammar-focused perspective: generating geometry is one part of a larger design–fabrication–interaction process.",
+      "evidence": [
+        0
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Read the editorial first",
+      "locator": "Bier and Knight, pp. 1–4",
+      "url": "https://journals.open.tudelft.nl/footprint/article/view/715"
+    },
+    {
+      "label": "Explore a transformable structure example",
+      "locator": "Rosenberg, pp. 19–40",
+      "url": "https://journals.open.tudelft.nl/footprint/article/view/717"
+    },
+    {
+      "label": "Browse all independently authored contributions",
+      "locator": "Issue contents",
+      "url": "https://journals.open.tudelft.nl/footprint/issue/view/378"
+    }
+  ],
+  "terms": []
+}

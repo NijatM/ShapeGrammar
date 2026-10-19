@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-2001-classical-and-non-classical-computation",
+  "kind": "conceptual taxonomy and illustrated argument",
+  "review": {
+    "level": "selected-sections",
+    "material": "The opening framework (pp. 355–358) and discussion of emergence and ambiguity (pp. 364, 367–370) were read in a public CMU-hosted copy. The taxonomy/grammar figure page was inspected.",
+    "limitations": "The remaining examples and all cited systems were not exhaustively reviewed. No experimental efficacy or performance claim is established by this reading.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Knight%26Stiny.classicalAndNonClassicalComputation.pdf",
+        "locator": "pp. 355–358: representation, process and four-way taxonomy; Figs. 1–5",
+        "description": "Primary published text hosted in an academic reading collection."
+      },
+      {
+        "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Knight%26Stiny.classicalAndNonClassicalComputation.pdf",
+        "locator": "pp. 364, 367–370: emergence and ambiguity; Figs. 19–22",
+        "description": "Selected primary theoretical examples."
+      }
+    ]
+  },
+  "original": {
+    "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Knight%26Stiny.classicalAndNonClassicalComputation.pdf",
+    "label": "Read published article (academic copy)",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What it is about",
+      "text": "Knight and Stiny separate two questions often collapsed in discussions of computational design: how things are represented and how a process is understood or evaluated. Their classical/non-classical taxonomy is not a distinction between using and avoiding computers.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "Central premise",
+      "text": "A system can pursue surprising outcomes while still representing everything with fixed primitives. Conversely, it can use visually reinterpretable shapes within an explicit, understandable rule process. The authors argue that these combinations matter for supporting design.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "The four categories",
+      "text": "Classical representation uses defined primitives and fixed combinations; non-classical representation leaves shapes open to reinterpretation. Classical process values explicit explanatory rules; non-classical process emphasizes results without requiring a comparable explanation. Crossing the two dimensions yields four categories, with boundaries the authors acknowledge are not always hard.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "How the argument is made",
+      "text": "The selected passages compare language-like representations, spatial examples and shape-grammar computations. A square-and-diamond drawing can be seen as different collections of figures, while the text distinguishes a rule system’s descriptive explanation from the usefulness of its results.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "An example worth following",
+      "text": "Emergent hexagons or fish can become targets for later rules. The distinction among anticipated, possible and unanticipated emergence depends on what the grammar author or user expected and prepared for. Ambiguity allows a current figure to be seen through different parts rather than preserving only its original assembly.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "What the selected argument supports",
+      "text": "Shape computation provides a formal way to act on newly perceived parts. Explaining a design with one fixed decomposition need not exhaust what can be seen in it. This is a conceptual account supported by worked diagrams, not a controlled comparison of creative performance.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "Reading boundary",
+      "text": "Only the stated sections received close reading. The taxonomy describes emphases in representation and process, not a universal ranking of software, an empirical psychology of every designer or a claim about quantum computation.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "A useful two-question check",
+      "text": "When evaluating a design tool, ask what its representation fixes in advance, then ask what explanation its process makes available. Those questions are independent. A visually displayed model may still have fixed symbolic parts underneath.",
+      "evidence": [
+        0,
+        1
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Start here",
+      "locator": "pp. 355–358: representation, process and four-way taxonomy; Figs. 1–5",
+      "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Knight%26Stiny.classicalAndNonClassicalComputation.pdf"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Non-classical representation",
+      "meaning": "Here, a representation whose perceived parts are not confined to fixed primitives."
+    },
+    {
+      "term": "Classical process",
+      "meaning": "Here, computation valued for explicit, understandable rules and explanation."
+    }
+  ]
+}

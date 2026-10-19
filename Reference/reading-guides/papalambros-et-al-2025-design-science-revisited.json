@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "source_id": "papalambros-et-al-2025-design-science-revisited",
+  "kind": "multi-author retrospective editorial",
+  "review": {
+    "level": "selected-sections",
+    "material": "Read the abstract, introduction, opening editors-in-chief discussion and Knight’s complete named contribution on pp. 26–27 in the licensed original.",
+    "limitations": "Other individual reflections were not reviewed in full. The article intentionally leaves synthesis to readers; this guide does not present the contributions as an agreed conclusion.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://strathprints.strath.ac.uk/94756/1/Papalambros-etal-DS-2025-Design-science-why-what-and-how-revisited.pdf",
+        "locator": "pp. 2–4: Abstract, Introduction and opening Editors-in-Chief reflections",
+        "description": "Invited individual contributions; deliberately no synthesized consensus"
+      },
+      {
+        "url": "https://strathprints.strath.ac.uk/94756/1/Papalambros-etal-DS-2025-Design-science-why-what-and-how-revisited.pdf",
+        "locator": "pp. 26–27: Terry Knight",
+        "description": "Knight’s complete reflection; p. 27 visually checked"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://doi.org/10.1017/dsj.2025.10026",
+    "label": "Read the complete retrospective and individual reflections",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "In brief",
+      "text": "Past and present editors reflect on the journal and the design-science field ten years after the inaugural editorial. Knight is one of the credited authors.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "Retrospective question",
+      "text": "What has the journal and its community accomplished, and what challenges should design research address next?",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "Knight’s position",
+      "text": "Knight again interprets design science as studying design. She defends the field’s own history and diverse methods, including systematic analysis and improvisational practice, while emphasizing social, intellectual, bodily and perceptual human capacities.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "How the contribution was assembled",
+      "text": "Editors were invited to reflect independently, with constraints on length and references. The authors explicitly declined to harmonize or synthesize the statements, unlike the 2015 editorial.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "Knight’s examples",
+      "text": "She points to an expanded range of design-related disciplines at MIT and describes teaching generative work through shape and making grammars using hand, eye and touch.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "Her concluding direction",
+      "text": "Knight argues that studying these human forms of designing can contribute to broader efforts in design research. Her remarks about automation are a reflective position and teaching observation, not a benchmark comparing people with AI.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "Limits",
+      "text": "There is no single experimental method or consensus conclusion across this editorial. Claims from one contributor should not be attributed to every author. The opening retrospective does not substitute for a systematic evaluation of the field.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "Why read it",
+      "text": "Compare Knight’s 2015 and 2025 statements: the commitment to broad, rigorous design study continues, with renewed attention to what human generative activity involves.",
+      "evidence": [
+        1
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Read Knight’s reflection",
+      "locator": "PDF pp. 26–27",
+      "url": "https://strathprints.strath.ac.uk/94756/1/Papalambros-etal-DS-2025-Design-science-why-what-and-how-revisited.pdf#page=26"
+    },
+    {
+      "label": "Check the collection’s explicit scope",
+      "locator": "PDF pp. 2–4",
+      "url": "https://strathprints.strath.ac.uk/94756/1/Papalambros-etal-DS-2025-Design-science-why-what-and-how-revisited.pdf#page=2"
+    }
+  ],
+  "terms": []
+}

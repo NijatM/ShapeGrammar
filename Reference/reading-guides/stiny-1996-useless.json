@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "source_id": "stiny-1996-useless",
+  "kind": "theoretical note",
+  "review": {
+    "level": "abstract-only",
+    "material": "The complete publisher-deposited abstract and official publication record were read.",
+    "limitations": "The three-page argument and examples were inaccessible.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://journals.sagepub.com/doi/10.1068/b230235",
+        "locator": "Public abstract",
+        "description": "Primary summary of the note."
+      },
+      {
+        "url": "https://api.crossref.org/works/10.1068/b230235",
+        "locator": "Publisher-deposited abstract",
+        "description": "The abstract states the role of identity rules."
+      }
+    ]
+  },
+  "original": {
+    "url": "https://journals.sagepub.com/doi/10.1068/b230235",
+    "label": "Read original source",
+    "type": "publication-record"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What it is about",
+      "text": "The note concerns identity rules A → A: rules whose two sides are the same shape.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "Central claim",
+      "text": "Stiny’s abstract says an identity can restructure a shape while leaving the shape itself unchanged. Geometric output and the structure recognized in it are distinguished.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "What remains to be read",
+      "text": "The abstract states the idea but does not give the note’s formal account or worked diagrams. These cannot be reconstructed responsibly from the title alone.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "Reading boundary",
+      "text": "No full-text definitions, proof or examples were inspected. The title is not a claim that identities have no perceptual role.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "A small reading prompt",
+      "text": "Look at an unchanged drawing in two different ways and record the parts you recognize each time. This is a suggested exploration of the distinction, not an example attributed to the paper.",
+      "evidence": [
+        0,
+        1
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Start here",
+      "locator": "Public abstract",
+      "url": "https://journals.sagepub.com/doi/10.1068/b230235"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Identity rule",
+      "meaning": "A rule A → A, with identical left and right shapes."
+    }
+  ]
+}

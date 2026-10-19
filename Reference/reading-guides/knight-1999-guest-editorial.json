@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-1999-guest-editorial",
+  "kind": "historical editorial",
+  "review": {
+    "level": "full-text",
+    "material": "Read the complete two-page March–Knight editorial from the publisher.",
+    "limitations": "This is the editors’ historical perspective and research agenda, not an experiment or proof of the papers it introduces.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://journals.sagepub.com/doi/pdf/10.1068/b260005?download=true",
+        "locator": "p. 5: historical development and UCLA program",
+        "description": "Editorial account of the research lineage"
+      },
+      {
+        "url": "https://journals.sagepub.com/doi/pdf/10.1068/b260005?download=true",
+        "locator": "p. 6: theme-issue contributions and open implementation concerns",
+        "description": "Research agenda and purposes of the contributions"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://journals.sagepub.com/doi/pdf/10.1068/b260005?download=true",
+    "label": "Read original paper",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "In brief",
+      "text": "March and Knight introduce a theme issue by tracing shape computation from Gips and Stiny’s collaboration through UCLA’s teaching and research program.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "Editorial purpose",
+      "text": "What has the research program established, and what theoretical and practical work should follow?",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "Position",
+      "text": "Shape computation joins geometric rules, transformations and nonshape attributes. Its development includes stylistic analysis, design applications, pedagogy and implementation.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "How the argument develops",
+      "text": "The editors combine a historical narrative with a map of the issue’s contributions. This is an interpretive introduction, not a systematic literature review.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "Examples discussed",
+      "text": "The editorial points to Prairie-house analysis, grammar implementation, algebraic foundations, Froebel symmetry and Knight’s grammar classifications.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "Concluding emphasis",
+      "text": "Implementation remains a central problem. Useful interfaces and understanding what rule systems can predict are presented as practical concerns for designers.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "Limits",
+      "text": "The account reflects 1999 priorities. A book described as forthcoming or a workshop described as planned should not be read as a current status report.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "Why read it",
+      "text": "Use this short article as a map of related research questions before opening the more technical papers.",
+      "evidence": [
+        1
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Read the historical account",
+      "locator": "p. 5",
+      "url": "https://journals.sagepub.com/doi/pdf/10.1068/b260005?download=true"
+    },
+    {
+      "label": "Follow the issue’s research map",
+      "locator": "p. 6",
+      "url": "https://journals.sagepub.com/doi/pdf/10.1068/b260005?download=true"
+    }
+  ],
+  "terms": []
+}

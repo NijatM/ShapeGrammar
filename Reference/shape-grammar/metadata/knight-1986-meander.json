@@ -25,7 +25,7 @@
   "prerequisites": [
     "Elementary sets and functions; some proof reading"
   ],
-  "access_date": "2026-10-18",
+  "access_date": "2026-10-19",
   "license_redistribution": {
     "status": "link-only",
     "license": null,
@@ -34,13 +34,18 @@
   },
   "local_files": [],
   "existing_local_files": [],
-  "locators": [],
+  "locators": [
+    {
+      "locator": "References, K: Transformations of the Meander Motif on Greek Geometric Pottery",
+      "status": "bibliographic-only-reviewed"
+    }
+  ],
   "verification": {
-    "scope": "Title, author, year and venue checked in institutional bibliography; exact text not inspected.",
+    "scope": "Checked Knight’s institutional bibliography entry. The original article and an official abstract were not located; no paper-level content review is claimed.",
     "source_urls": [
       "https://www.mit.edu/~tknight/IJDC/page_references.htm"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "bibliographic-only"
   },
   "annotation_file": "shape-grammar/notes/knight-1986-meander.md",
   "publication_type": "journal-article"

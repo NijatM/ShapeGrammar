@@ -8,7 +8,7 @@
     "George Stiny"
   ],
   "year": 2001,
-  "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+  "edition_version": "Published version; dates from publisher-deposited DOI metadata. See the reading guide for the exact material inspected.",
   "doi": "10.1017/s1359135502001410",
   "stable_url": "https://doi.org/10.1017/s1359135502001410",
   "reading_url": "https://doi.org/10.1017/s1359135502001410",
@@ -24,7 +24,7 @@
   "prerequisites": [
     "Elementary sets and functions; some proof reading"
   ],
-  "access_date": "2026-10-18",
+  "access_date": "2026-10-19",
   "license_redistribution": {
     "status": "link-only",
     "license": null,
@@ -33,14 +33,24 @@
   },
   "local_files": [],
   "existing_local_files": [],
-  "locators": [],
+  "locators": [
+    {
+      "locator": "pp. 355–358: representation, process and four-way taxonomy; Figs. 1–5",
+      "status": "selected-sections-inspected"
+    },
+    {
+      "locator": "pp. 364, 367–370: emergence and ambiguity; Figs. 19–22",
+      "status": "selected-sections-inspected"
+    }
+  ],
   "verification": {
-    "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+    "scope": "Original reading guide reviewed 2026-10-19. The opening framework (pp. 355–358) and discussion of emergence and ambiguity (pp. 364, 367–370) were read in a public CMU-hosted copy. The taxonomy/grammar figure page was inspected. The remaining examples and all cited systems were not exhaustively reviewed. No experimental efficacy or performance claim is established by this reading.",
     "source_urls": [
       "https://api.crossref.org/works/10.1017/s1359135502001410",
-      "https://architecture.mit.edu/people/terry-knight"
+      "https://architecture.mit.edu/people/terry-knight",
+      "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Knight%26Stiny.classicalAndNonClassicalComputation.pdf"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "selected-sections"
   },
   "annotation_file": "shape-grammar/notes/knight-2001-classical-and-non-classical-computation.md",
   "publication_type": "journal-article",

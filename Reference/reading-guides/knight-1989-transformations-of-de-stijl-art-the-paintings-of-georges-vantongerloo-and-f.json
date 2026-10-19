@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-1989-transformations-of-de-stijl-art-the-paintings-of-georges-vantongerloo-and-f",
+  "kind": "stylistic analysis",
+  "review": {
+    "level": "abstract-only",
+    "material": "Publisher abstract read; complete original not retrieved.",
+    "limitations": "Only the official abstract and bibliography were read. The paintings selected, diagrammatic decompositions and historical interpretation remain unverified here.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://journals.sagepub.com/doi/10.1068/b160051",
+        "locator": "Abstract",
+        "description": "Primary abstract; it does not establish unreported technical details"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://journals.sagepub.com/doi/10.1068/b160051",
+    "label": "Read abstract and original access options",
+    "type": "publication-record"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "In brief",
+      "text": "A formal model of stylistic change is applied to De Stijl painting, specifically works by Georges Vantongerloo and Fritz Glarner.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "Question or aim",
+      "text": "How can transformations of a style be described through a formal design-language framework?",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "Approach described",
+      "text": "The abstract identifies a comparative formal analysis of two artists’ paintings.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "What the abstract supports",
+      "text": "It establishes the paper’s subject and analytical approach; it does not state the individual transformation rules or detailed conclusions.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "What remains unverified",
+      "text": "Only the official abstract and bibliography were read. The paintings selected, diagrammatic decompositions and historical interpretation remain unverified here.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "Why it may help",
+      "text": "This connects grammar transformation with visual art, showing where to look beyond architectural examples.",
+      "evidence": [
+        0
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Read the abstract and locate the original",
+      "locator": "Abstract",
+      "url": "https://journals.sagepub.com/doi/10.1068/b160051"
+    }
+  ],
+  "terms": []
+}

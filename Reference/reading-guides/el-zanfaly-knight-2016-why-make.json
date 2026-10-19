@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "source_id": "el-zanfaly-knight-2016-why-make",
+  "kind": "Making and learning proposal",
+  "review": {
+    "level": "selected-sections",
+    "material": "Indexed primary-text excerpt: introduction and the Learning through making and Role of the instructor sections.",
+    "limitations": "The old PDF address currently redirects to the lab homepage. Only the indexed primary excerpt was readable; later examples and any concluding evaluation were not inspected.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://compmaking.scripts.mit.edu/index/wp-content/uploads/2018/08/El-Zanfaly-Knight-Why-to-make.pdf",
+        "locator": "Opening page: Introduction; Learning through making; Role of the instructor",
+        "description": "Search-indexed author-hosted excerpt; the direct address currently redirects."
+      },
+      {
+        "url": "https://ijamm.pubpub.org/isam2016",
+        "locator": "ISAM 2016 paper listing",
+        "description": "The conference archive confirms the paper and authors; its individual record was access-restricted during this review."
+      }
+    ]
+  },
+  "original": {
+    "url": "https://ijamm.pubpub.org/pub/dy0mbbnm",
+    "label": "View conference paper record",
+    "type": "publication-record"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "In brief",
+      "text": "El-Zanfaly and Knight propose a guided learning process that connects fabrication skills with independent design and making.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "The question",
+      "text": "Technical machine training alone, they argue, can leave students unable to create beyond simple exercises.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "How the work approaches it",
+      "text": "Their I3 process moves from imitation, through constrained iteration, to improvisation. Students first make an existing example, then change one aspect at a time, and finally develop their own work.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "Evidence and examples",
+      "text": "The inspected introduction explains the instructional sequence and the instructor’s role. Later cases or evaluation results were unavailable in the readable excerpt.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "What comes out of it",
+      "text": "The proposal treats learning to operate tools and learning through material engagement as connected activities. It does not establish measured effectiveness in the inspected passage.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "Limits to keep in mind",
+      "text": "No sample size, comparison group or learning outcome can be verified from this excerpt. The related 2015 I3 article must not be substituted for this paper’s missing sections.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "What to take from it",
+      "text": "Use the sequence as a reading lens: identify what the learner imitates, what changes between iterations, and when independent decisions become possible.",
+      "evidence": [
+        0
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Conference paper record",
+      "locator": "ISAM 2016; individual record may require access",
+      "url": "https://ijamm.pubpub.org/pub/dy0mbbnm"
+    },
+    {
+      "label": "Author bibliography",
+      "locator": "2016 conference-paper entry; legacy PDF link currently redirects",
+      "url": "https://computationalmaking.mit.edu/publications/"
+    }
+  ],
+  "terms": []
+}

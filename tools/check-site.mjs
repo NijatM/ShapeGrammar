@@ -2,6 +2,7 @@ import {readFile,stat,readdir,rm} from 'node:fs/promises';
 import {fileURLToPath} from 'node:url';
 import path from 'node:path';
 import {execFileSync} from 'node:child_process';
+import {validateReadingGuide} from '../src/reading-guide.mjs';
 const root=fileURLToPath(new URL('../',import.meta.url));
 const lessons=JSON.parse(await readFile(path.join(root,'data/lessons.json'),'utf8'));
 const lessonIDs=new Set(lessons.map(l=>l.id)),tracks=new Set(lessons.map(l=>l.track));
@@ -31,7 +32,12 @@ if(process.argv.includes('--dist')){
   for(const rel of expected)if(!observed.has(rel))failures.push(`Missing declared distribution file: ${rel}`);
   if(declared.publicFiles!==observed.size)failures.push('Distribution file count differs from build manifest.');
   if(await stat(path.join(dist,'Reference/1980-Stiny_Introduction to shape and shape grammars.pdf')).catch(()=>null))failures.push('Unregistered pre-existing PDF in distribution.');
-  for(const file of ['index.html','lab.html','src/search-worker.mjs','data/lessons.json','.nojekyll'])if(!await stat(path.join(dist,file)).catch(()=>null))failures.push(`Missing distribution file ${file}`);
+  for(const file of ['index.html','lab.html','src/search-worker.mjs','src/reading-guide.mjs','data/lessons.json','.nojekyll'])if(!await stat(path.join(dist,file)).catch(()=>null))failures.push(`Missing distribution file ${file}`);
+  const builtRefs=JSON.parse(await readFile(path.join(dist,'data/references.json'),'utf8'));
+  for(const id of sourceIDs){
+    const guide=validateReadingGuide(JSON.parse(await readFile(path.join(dist,'Reference/reading-guides',`${id}.json`),'utf8')),id);
+    if(builtRefs.find(d=>d.id===id)?.reading_guide?.level!==guide.review.level)failures.push(`Built reading preview disagrees with guide: ${id}`);
+  }
   execFileSync('python3',[path.join(dist,'Reference/tools/library.py'),'validate'],{cwd:dist,stdio:'inherit'});
 }
 if(failures.length)throw new Error(failures.join('\n'));

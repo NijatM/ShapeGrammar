@@ -36,16 +36,22 @@
   "existing_local_files": [],
   "locators": [
     {
-      "locator": "Heading, Teaching aims, Level; §1 Simple symmetry operations",
-      "status": "official-web-text-inspected"
+      "locator": "Teaching aims; §1 Simple symmetry operations, Figures 1.2–1.4",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://www.iucr.org/what-we-do/education/pamphlets/symmetry"
+    },
+    {
+      "locator": "§2 Combination of symmetry elements in finite groups",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://www.iucr.org/what-we-do/education/pamphlets/symmetry"
     }
   ],
   "verification": {
-    "scope": "Official IUCr full text accessed; author and teaching aims verified at page heading. Publication year not established.",
+    "scope": "IUCr web text teaching aims and §§1–2 read, including figure captions and the discussion of crystallographic restrictions and point groups. The later sections, all diagram geometry and full crystallographic tables were not independently checked. This is introductory exposition, not an experimental study or a complete wallpaper-group classification.",
     "source_urls": [
       "https://www.iucr.org/what-we-do/education/pamphlets/symmetry"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "selected-sections"
   },
   "annotation_file": "bridges/notes/iucr-symmetry.md"
 }

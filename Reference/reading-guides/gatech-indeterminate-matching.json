@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "source_id": "gatech-indeterminate-matching",
+  "kind": "software tutorial",
+  "review": {
+    "level": "full-text",
+    "material": "The complete public tutorial, parameter table and exercises were read.",
+    "limitations": "The exercises were not executed in Shape Machine. Parameter and registration-point claims describe that implementation, not universal properties of every shape formalism.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://shapemachine.gatech.edu/tutorials/tutorials/2_indeterminate_matching_and_rule_sequences.html",
+        "locator": "Part 1: Anatomy of a Replacement Rule → Formal Definition",
+        "description": "Primary developer documentation defines matching and replacement."
+      },
+      {
+        "url": "https://shapemachine.gatech.edu/tutorials/tutorials/2_indeterminate_matching_and_rule_sequences.html",
+        "locator": "Part 2: Scale, Angle and Single Line Case; parameter summary table",
+        "description": "Primary developer documentation explains indeterminate transformations and software controls."
+      }
+    ]
+  },
+  "original": {
+    "url": "https://shapemachine.gatech.edu/tutorials/tutorials/2_indeterminate_matching_and_rule_sequences.html",
+    "label": "Read original source",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What it is about",
+      "text": "This tutorial explains how Shape Machine handles rules whose matching transformation is not completely determined by the query geometry. A continuum of valid transformations may remain unless the user or software supplies further choices.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "question",
+      "title": "The underlying problem",
+      "text": "Finding a part and choosing a placement are related but different tasks. A single line can fit inside another line at multiple positions and scales; a circle can leave rotational freedom even when its size and centre are fixed.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "The rule application to keep clear",
+      "text": "For u → v in a design w, choose one transformation f with f(u) ≤ w, then compute w′ = w − f(u) + f(v). The same f transforms both sides. Independently placing the replacement is not the rule application described here.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "How the tutorial teaches it",
+      "text": "Examples match a K-shaped query within a double square, add a diameter to a circle, delete a line and offset lines. Exercises vary transformation modes and parameters to expose which geometric freedoms remain.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "What the software parameters do",
+      "text": "The tutorial describes scale and angle choices, and a max setting that selects a largest fitting scale rather than a user-specified one. Under affinity, degree distinguishes directional stretching from uniform scaling. Registration points are explicitly an internal speed-up device, not part of the abstract definition of shape.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "What follows",
+      "text": "A matching result depends on the permitted transformation family and on how free parameters are resolved. The examples show why software needs explicit conventions when the mathematically possible family is not finite.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "What was not demonstrated here",
+      "text": "This review reads documentation; it does not benchmark or independently validate the software. The tutorial’s broad wording about normal finite matching and single-line cases needs its stated transformation context. Finite sampling in this project does not enumerate every continuously variable match.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "How to use it in your experiments",
+      "text": "State the transformation family before counting matches. Change one parameter at a time, and distinguish the transformations allowed in principle from those searched by a particular implementation. Use the source tutorial to compare conventions with this project’s deliberately bounded search.",
+      "evidence": [
+        0,
+        1
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Start here",
+      "locator": "Part 1: Anatomy of a Replacement Rule → Formal Definition",
+      "url": "https://shapemachine.gatech.edu/tutorials/tutorials/2_indeterminate_matching_and_rule_sequences.html"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Indeterminate matching",
+      "meaning": "Matching with geometric freedoms left unresolved, potentially giving infinitely many transformations."
+    },
+    {
+      "term": "Registration point",
+      "meaning": "A Shape Machine implementation construct used to help determine transformations."
+    },
+    {
+      "term": "Affinity",
+      "meaning": "A family including shear and nonuniform scaling that preserves straightness and parallelism."
+    }
+  ]
+}

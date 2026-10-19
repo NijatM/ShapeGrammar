@@ -1,25 +1,45 @@
 # Sets, Logic, Computation: An Open Introduction to Metalogic
 
-Source ID: `zach-sets-logic-computation`. Authors: Richard Zach, Open Logic Project. Year: 2025.
+## Reading guide
 
-Independent foundations for sets, relations, functions and infinite cardinalities; later logic is optional.
+Review: **selected-sections**, 2026-10-19. Fall 2025 pinned PDF: Part I selected definitions in §§1.1–1.2, 2.2–2.3, 3.2 and the discussion around §§4.9–4.10 reviewed.
 
-[Canonical/verification page](https://slc.openlogicproject.org/) · [Lawful reading link](https://slc.openlogicproject.org/).
+The later metalogic, completeness and computability developments were not reviewed. Schröder–Bernstein is stated without proof in this introductory passage; this guide does not supply or certify that proof.
 
-Version: Fall 2025 archive; revision 38828e6 and content revision 0c1e9e3, both 2025-07-01.
+## What this book provides
 
-Review scope: Bibliographic record or official landing page inspected; full text and exact claim locators not reviewed.
+A foundations text leading toward the study of logic itself. Its opening set-theory material supplies a shared language for collections, relations, functions and infinite sizes. These selected pages are useful independently of the later technical logic. [1](https://slc.openlogicproject.org/archives/f25/slc-screen.pdf) [2](https://slc.openlogicproject.org/archives/f25/slc-screen.pdf) [3](https://slc.openlogicproject.org/archives/f25/slc-screen.pdf)
 
-## Reading locators
+## Key distinctions
 
-- Part I, Chapters 1–4; §§1.1–1.5, 2.1–2.3, 3.1–3.5, 4.1–4.10 — downloaded-table-of-contents-verified
+Symmetric and antisymmetric are not opposites: equality satisfies both. Equivalence requires reflexivity, symmetry and transitivity and produces classes of related elements. A surjection reaches its entire declared codomain; an injection never sends distinct inputs to the same output. [1](https://slc.openlogicproject.org/archives/f25/slc-screen.pdf) [2](https://slc.openlogicproject.org/archives/f25/slc-screen.pdf)
 
-## Local originals
+## How the text reasons
 
-- [zach-sets-logic-computation.pdf](../../set-theory/originals/zach-sets-logic-computation.pdf) — SHA-256 `298d6bc2866d2a882e6307c815ea19ee6c92e990f9c86c52bc9e19167d82681a`
+Precise quantified definitions are followed by tests on examples. The identity, successor and constant maps on natural numbers separate function properties. Cardinal comparison is then recast using maps, making statements about infinite sizes meaningful without finishing a count. [2](https://slc.openlogicproject.org/archives/f25/slc-screen.pdf) [3](https://slc.openlogicproject.org/archives/f25/slc-screen.pdf)
 
-## Rights
+## Conclusions in the selected material
 
-CC BY 4.0 (text); CC BY-NC 4.0 (Matthew Leadbeater cover illustrations). Richard Zach and Open Logic Project attribution retained. Cover illustrations impose an additional noncommercial condition on this complete PDF.
+A bijection expresses equal cardinality. Injections each way imply one exists by Schröder–Bernstein, which the introductory section asks readers to accept without proof. Diagonal arguments defeat supposed exhaustive lists by constructing a missing object. [3](https://slc.openlogicproject.org/archives/f25/slc-screen.pdf)
 
-This is a public editorial reference annotation. Bibliographic inclusion does not certify every claim in the work, complete a lesson, or establish a connection to the Monster.
+## What to take into an experiment
+
+State the underlying set whenever you define a relation, and check each required property separately. For a transformation, distinguish its allowed inputs, allowed outputs and reached outputs. These habits clarify when a collection of transformations really acts on a set. [1](https://slc.openlogicproject.org/archives/f25/slc-screen.pdf) [2](https://slc.openlogicproject.org/archives/f25/slc-screen.pdf) [3](https://slc.openlogicproject.org/archives/f25/slc-screen.pdf)
+
+## Key terms
+
+- **Antisymmetric**: If xRy and yRx, then x=y.
+- **Quotient set**: The set of equivalence classes.
+- **Equinumerous**: Admitting a bijection between the sets.
+
+## Read next
+
+- [Sets and relational properties](https://slc.openlogicproject.org/archives/f25/slc-screen.pdf): §§1.1–1.2, pp.2–4; §§2.2–2.3, pp.19–20
+- [Surjective and injective maps](https://slc.openlogicproject.org/archives/f25/slc-screen.pdf): §3.2, pp.35–36
+- [Comparison of sizes and limits of enumerations](https://slc.openlogicproject.org/archives/f25/slc-screen.pdf): §4.10 and chapter summary, pp.66–67
+
+## Access and preservation
+
+Richard Zach and Open Logic Project attribution retained. Cover illustrations impose an additional noncommercial condition on this complete PDF.
+
+This annotation is an original reading aid. Consult the linked text for complete arguments, notation and qualifications.

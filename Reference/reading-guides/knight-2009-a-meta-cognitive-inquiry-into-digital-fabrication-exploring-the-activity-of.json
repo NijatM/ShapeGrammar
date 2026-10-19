@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-2009-a-meta-cognitive-inquiry-into-digital-fabrication-exploring-the-activity-of",
+  "kind": "reflective design case study",
+  "review": {
+    "level": "full-text",
+    "material": "The complete eight-page paper (printed pp. 475–482) was read in the official eCAADe 2009 proceedings. The final-prototype and assembly figure page was inspected.",
+    "limitations": "This is author Arpak’s self-observation during one design project; the authors explicitly acknowledge potential bias. No independent user cohort or comparative learning test is reported.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://ecaade.org/current/wp-content/uploads/2022/03/eCAADe_2009.pdf",
+        "locator": "printed pp. 475–476: research question and experiment",
+        "description": "Primary paper identifies self-reflection by one author as its method."
+      },
+      {
+        "url": "https://ecaade.org/current/wp-content/uploads/2022/03/eCAADe_2009.pdf",
+        "locator": "printed pp. 477–480: iterative phases and prototypes; Figs. 1–10",
+        "description": "Design decisions and observed changes are documented."
+      },
+      {
+        "url": "https://ecaade.org/current/wp-content/uploads/2022/03/eCAADe_2009.pdf",
+        "locator": "printed pp. 480–482: conclusion, limitations and references",
+        "description": "Primary discussion distinguishes observations and hoped-for research value."
+      }
+    ]
+  },
+  "original": {
+    "url": "https://ecaade.org/current/wp-content/uploads/2022/03/eCAADe_2009.pdf",
+    "label": "Read original source",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What it is about",
+      "text": "Arpak, Sass and Knight follow the design and making of a patterned wall screen to explore the interaction of visual reasoning, material behaviour and assembly. The intended object is a self-supporting timber system, while the reported final prototypes are small laser-cut cardboard assemblies.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "question",
+      "title": "Research question",
+      "text": "Can a designer observe and reconsider her own decisions while moving between drawing, modelling and fabrication? The concern is metacognition: stepping back from an action to reinterpret the process and learn from it.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "How the study was carried out",
+      "text": "Arpak reflects on her own project. The report retrospectively organizes overlapping activity into pattern selection and decomposition, structural explorations, material/joint refinement, and final prototyping/assembly. Rapid prototypes and laser-cut models provide feedback that revises visual decisions.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "Concrete observations",
+      "text": "Three Islamic architectural patterns provide initial visual material. Structural interlocking introduces new decompositions and layering; a three-layer arrangement separates a tessellated structural layer from external units. Four-inch and twelve-inch cardboard prototypes reveal opportunities for varied edges, openings, customized pieces and assembly sequences.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "What the authors conclude",
+      "text": "Visual analysis helps produce components and assemblies, while structural constraints generate unexpected visual alternatives. Material choices, structure, assembly order and production techniques create productive conflicts throughout the project; making is part of design rather than only its final execution.",
+      "evidence": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "What remains unproven",
+      "text": "The self-reflective observations may be biased and are not a general cognitive experiment. The article’s suggestion of faster learning is not backed by a comparative learning-time measure. Small prototypes do not establish full-scale timber performance, cost, durability or structural compliance.",
+      "evidence": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "How to try the method",
+      "text": "Keep a decision log while making a small prototype. Record the visual intention, the physical conflict encountered, the revision made and what prompted it. Distinguish a new visual possibility from a verified construction solution, and test at the relevant scale before making a stronger claim.",
+      "evidence": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Start here",
+      "locator": "printed pp. 475–476: research question and experiment",
+      "url": "https://ecaade.org/current/wp-content/uploads/2022/03/eCAADe_2009.pdf"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Metacognition",
+      "meaning": "Reflection on and reinterpretation of one’s own thinking or actions."
+    },
+    {
+      "term": "Visual decomposition",
+      "meaning": "Seeing a pattern as a particular arrangement of parts that can guide design or making."
+    }
+  ]
+}

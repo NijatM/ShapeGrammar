@@ -1,25 +1,44 @@
 # Problems in Moonshine
 
-Source ID: `borcherds-1998-problems`. Authors: Richard E. Borcherds. Year: 2001.
+## Reading guide
 
-Historical research questions; useful evidence for how problems are formulated, not a current open-problem list.
+Review: **full-text**, 2026-10-19. All eight pages of the author-hosted text read, including Problems 1–15 and references.
 
-[Canonical/verification page](https://math.berkeley.edu/~reb/papers/iccm/iccm.pdf) · [Lawful reading link](https://math.berkeley.edu/~reb/papers/iccm/iccm.pdf).
+Historical research agenda associated with the 1998 meeting and 2001 publication. No listed problem is asserted to remain open today; proposed solutions and cited constructions were not independently checked.
 
-Version: Proceedings of First ICCM (Beijing 1998), published 2001; historical problem status.
+## Purpose of the paper
 
-Review scope: Author publication list and author PDF references inspected; current status of listed problems not checked.
+A research agenda explaining what Borcherds found unsatisfactory or unexplained after the original moonshine theorem. [1](https://math.berkeley.edu/~reb/papers/iccm/iccm.pdf)
 
-## Reading locators
+## Central questions
 
-- Exact claim/page locators still require full-text review.
+Can the Monster vertex algebra be constructed more naturally? Can suitable integral forms connect its characteristic-zero and modular behavior? How far can moonshine extend? [1](https://math.berkeley.edu/~reb/papers/iccm/iccm.pdf) [2](https://math.berkeley.edu/~reb/papers/iccm/iccm.pdf)
 
-## Local originals
+## How problems are developed
 
-- Reading link only; no new original mirrored here.
+Each numbered question combines known constructions, a precise desired improvement and possible routes forward. Some proposals are deliberately speculative, especially links to geometry and physics. [1](https://math.berkeley.edu/~reb/papers/iccm/iccm.pdf) [2](https://math.berkeley.edu/~reb/papers/iccm/iccm.pdf) [3](https://math.berkeley.edu/~reb/papers/iccm/iccm.pdf)
 
-## Rights
+## Examples of the agenda
 
-No redistribution license verified. No public redistribution permission verified; citation and lawful reading link only.
+Problem 4 concerns commuting pairs rather than single group elements. Problems 6–8 seek classifications and natural realizations of generalized Kac–Moody algebras and related reflection groups. [2](https://math.berkeley.edu/~reb/papers/iccm/iccm.pdf)
 
-This is a public editorial reference annotation. Bibliographic inclusion does not certify every claim in the work, complete a lesson, or establish a connection to the Monster.
+## Outcome and how to use it
+
+The outcome is fifteen questions, not fifteen proved results or experiments. Read it to understand how anomalies become research programs; trace subsequent literature before treating any question as unresolved. [1](https://math.berkeley.edu/~reb/papers/iccm/iccm.pdf) [2](https://math.berkeley.edu/~reb/papers/iccm/iccm.pdf) [3](https://math.berkeley.edu/~reb/papers/iccm/iccm.pdf)
+
+## Key terms
+
+- **Integral form**: A compatible structure over integers underlying a rational or complex one.
+- **Centralizer**: The subgroup commuting with a chosen element.
+
+## Read next
+
+- [Background and questions about natural and integral constructions](https://math.berkeley.edu/~reb/papers/iccm/iccm.pdf): PDF pp.1–2, opening and Problems 1–2
+- [Generalizations, Lie algebras and reflection groups](https://math.berkeley.edu/~reb/papers/iccm/iccm.pdf): PDF pp.3–4, Problems 3–10
+- [Geometric and analytic research directions](https://math.berkeley.edu/~reb/papers/iccm/iccm.pdf): PDF pp.5–6, Problems 11–15
+
+## Access and preservation
+
+No public redistribution permission verified; citation and lawful reading link only.
+
+This annotation is an original reading aid. Consult the linked text for complete arguments, notation and qualifications.

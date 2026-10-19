@@ -1,24 +1,52 @@
 # Mughul Gardens Revisited
 
-Source ID: `knight-1990-mughul-gardens`. Year: 1990. Contributors as recorded: T W Knight.
+Source ID: `knight-1990-mughul-gardens`. 1990.
 
-Type: journal-article. Venue: Environment and Planning B. Pages: 73–84.
+[Canonical metadata](../metadata/knight-1990-mughul-gardens.json) · [Publisher record and original access options](https://doi.org/10.1068/b170073)
 
-[Canonical metadata](../metadata/knight-1990-mughul-gardens.json) · [Source / publication record](https://journals.sagepub.com/doi/10.1068/b170073) · [Reading path](https://journals.sagepub.com/doi/10.1068/b170073)
+## Review scope
 
-Published journal article; historic author name T. Weissman Knight / T. W. Knight.
+**abstract-only.** Publisher-deposited abstract read directly through the public Crossref record; full article not retrieved. Only the publisher-deposited abstract was reviewed. Garden corpus, planting categories, rule definitions and generated alternatives require the full paper.
 
-## Reading purpose
+## In brief
 
-Terry Knight author corpus: Mughul Gardens Revisited. Citation coverage; full text requires separate review. This is a bibliographic entry and reading prompt, not a summary of an unreviewed argument.
+A color grammar is used to discuss the organization and landscaping of Mughul gardens.
 
-## Verification
+Evidence: [message.abstract (publisher-deposited abstract)](https://api.crossref.org/works/10.1068/b170073).
 
-Title, author, year and pp. 73–84 corroborated by Knight’s 1994 article bibliography on the publisher website. Direct landing page could not be retrieved; no direct record or full-text review claimed.
+## Question or aim
 
-## Locators
+How can one formal description address spatial composition together with landscape qualities?
 
-Exact claim locators require further full-text review.
+Evidence: [message.abstract (publisher-deposited abstract)](https://api.crossref.org/works/10.1068/b170073).
+
+## Approach described
+
+The deposited abstract names a color-grammar application to gardens.
+
+Evidence: [message.abstract (publisher-deposited abstract)](https://api.crossref.org/works/10.1068/b170073).
+
+## What the abstract supports
+
+Its one-sentence description supports the topic and method category, but provides no specific tested result.
+
+Evidence: [message.abstract (publisher-deposited abstract)](https://api.crossref.org/works/10.1068/b170073).
+
+## What remains unverified
+
+Only the publisher-deposited abstract was reviewed. Garden corpus, planting categories, rule definitions and generated alternatives require the full paper.
+
+Evidence: [message.abstract (publisher-deposited abstract)](https://api.crossref.org/works/10.1068/b170073).
+
+## Why it may help
+
+It is a relevant bridge from geometric grammar to attributes attached to regions in a design.
+
+Evidence: [message.abstract (publisher-deposited abstract)](https://api.crossref.org/works/10.1068/b170073).
+
+## Reading path
+
+- [Read the original garden study](https://doi.org/10.1068/b170073): Article pp. 73–84; full-text access may be required.
 
 ## Originals and rights
 

@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-1981-languages-of-designs-from-known-to-new",
+  "kind": "grammar transformation theory",
+  "review": {
+    "level": "selected-sections",
+    "material": "Read the introduction, formal rule definitions, principal examples and concluding remarks in the CMU-hosted scan.",
+    "limitations": "Detailed example catalogues were not independently regenerated. Historical examples are schematic interpretations, not proof of causal influence.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Knight.languagesOfDesignsFromKnownToNew.pdf",
+        "locator": "pp. 213–217: Languages of designs; defining new languages",
+        "description": "Interpretations of design languages and purpose"
+      },
+      {
+        "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Knight.languagesOfDesignsFromKnownToNew.pdf",
+        "locator": "pp. 217–225: Shape replacement, equivalence rules and schemata",
+        "description": "Formal applicability and replacement definitions"
+      },
+      {
+        "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Knight.languagesOfDesignsFromKnownToNew.pdf",
+        "locator": "pp. 225–238: examples, classes and concluding remarks",
+        "description": "Worked families and scope of historical claims"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Knight.languagesOfDesignsFromKnownToNew.pdf",
+    "label": "Read original paper",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "In brief",
+      "text": "Knight shifts attention from generating designs within a style to generating new design languages by changing the spatial relations that support them.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "Question",
+      "text": "Can existing compositional knowledge become a systematic starting point for invention?",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "Premise and claim",
+      "text": "Replacing constituent shapes inside known spatial relations yields new relations from which new grammars can be constructed.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "How it works",
+      "text": "Define a two-way shape-equivalence rule with a specified geometric alignment. Apply it repeatedly to shapes in a spatial relation; parameterized schemata handle families of shapes.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "Examples",
+      "text": "Square–triangle and rectangle–trapezoid examples produce alternative relation families. Round-to-pointed arch replacement gives a deliberately elementary Romanesque–Gothic comparison.",
+      "evidence": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "What follows",
+      "text": "Repeated replacements can define finite or infinite classes of spatial relations. These supply multiple possible languages, rather than merely variants of one finished drawing.",
+      "evidence": [
+        2
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "Limits",
+      "text": "A design or corpus permits several grammatical interpretations. The paper proposes descriptive possibilities; it does not establish that historical designers consciously used these replacement rules.",
+      "evidence": [
+        0,
+        2
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "Why read it",
+      "text": "Distinguish changing a design with a rule from changing the relations used to design an entire grammar.",
+      "evidence": [
+        0,
+        1
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Understand what a language means here",
+      "locator": "pp. 213–216",
+      "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Knight.languagesOfDesignsFromKnownToNew.pdf"
+    },
+    {
+      "label": "Read the equivalence-rule definition",
+      "locator": "pp. 219–221",
+      "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Knight.languagesOfDesignsFromKnownToNew.pdf"
+    },
+    {
+      "label": "Check the conclusions and generalizations",
+      "locator": "pp. 237–238",
+      "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Knight.languagesOfDesignsFromKnownToNew.pdf"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Shape-equivalence rule",
+      "meaning": "A reversible replacement specifying both shapes and their alignment in a spatial relation."
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-1998-designing-a-shape-grammar",
+  "kind": "grammar design and predictability",
+  "review": {
+    "level": "abstract-only",
+    "material": "Publisher abstract read; complete original not retrieved.",
+    "limitations": "Only the publisher abstract was read. Specific classes, proofs and examples are not reproduced here, and no empirical success rate is reported in the abstract.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://link.springer.com/chapter/10.1007/978-94-011-5121-4_26",
+        "locator": "Abstract",
+        "description": "Primary abstract; it does not establish unreported technical details"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://link.springer.com/chapter/10.1007/978-94-011-5121-4_26",
+    "label": "Read abstract and original access options",
+    "type": "publication-record"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "In brief",
+      "text": "This chapter, subtitled “Problems of Predictability,” studies how restrictions on rules affect grammar behavior.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "Question or aim",
+      "text": "How much can a designer predict before using a grammar to generate designs?",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "Approach described",
+      "text": "Grammars are classified by rule restrictions and their possible behaviors and outcomes are examined.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "What the abstract supports",
+      "text": "The abstract argues that understanding predictability is central to designing useful grammars for creative applications.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "What remains unverified",
+      "text": "Only the publisher abstract was read. Specific classes, proofs and examples are not reproduced here, and no empirical success rate is reported in the abstract.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "Why it may help",
+      "text": "It shifts the design task from choosing a pleasing output toward understanding and shaping the system that produces outputs.",
+      "evidence": [
+        0
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Read the abstract and locate the original",
+      "locator": "Abstract",
+      "url": "https://link.springer.com/chapter/10.1007/978-94-011-5121-4_26"
+    }
+  ],
+  "terms": []
+}

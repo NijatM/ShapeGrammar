@@ -2,29 +2,40 @@
 
 Source ID: `knight-2012-cradle-molding-device-an-automated-cad-cam-molding-system-for-manufacturing`. Year: 2012. Contributors as recorded: K. Griffith, R. Williams, T. Knight, L. Sass, A. Kamath.
 
-Type: journal-article. Venue: Automation in Construction. Pages: 114-120.
+[Canonical metadata](../metadata/knight-2012-cradle-molding-device-an-automated-cad-cam-molding-system-for-manufacturing.json) · [Structured reading guide](../../reading-guides/knight-2012-cradle-molding-device-an-automated-cad-cam-molding-system-for-manufacturing.json) · [Original source](https://doi.org/10.1016/j.autcon.2011.05.019)
 
-[Canonical metadata](../metadata/knight-2012-cradle-molding-device-an-automated-cad-cam-molding-system-for-manufacturing.json) · [Source / publication record](https://doi.org/10.1016/j.autcon.2011.05.019) · [Reading path](https://doi.org/10.1016/j.autcon.2011.05.019)
+## Material inspected
 
-Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.
+The publisher-deposited Crossref bibliographic record was read. The publisher’s public page and abstract service could not be retrieved.
 
-## Reading purpose
+Review level: **bibliographic-only**. Neither a primary abstract nor the full seven-page article was inspected. Related moulding publications were not substituted for this exact paper.
 
-Terry Knight author corpus: computational making and material/design practice. This is a bibliographic entry and reading prompt, not a summary of an unreviewed argument.
+## Verified subject
 
-## Verification
+The article’s title identifies a CAD/CAM moulding device for producing customizable composite assembly units, with rural application as its intended context. This identifies the subject; it does not establish what was tested or achieved.
 
-Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.
+[Automation in Construction 21, pp. 114–120: original article](https://doi.org/10.1016/j.autcon.2011.05.019) · [Title, authors, pagination and publisher links](https://api.crossref.org/works/10.1016/j.autcon.2011.05.019)
 
-## Locators
+## Questions for a full reading
 
-Exact claim locators require further full-text review.
+Look for how the device is constructed, which composites and geometries are tested, and how customization changes tooling. These are questions prompted by the stated subject, not claims that this review has verified in the article.
+
+[Automation in Construction 21, pp. 114–120: original article](https://doi.org/10.1016/j.autcon.2011.05.019) · [Title, authors, pagination and publisher links](https://api.crossref.org/works/10.1016/j.autcon.2011.05.019)
+
+## What remains unknown
+
+The exact manufacturing protocol, test specimens, quantitative results and conclusion could not be checked. No claim of affordability, strength, field adoption or rural benefit is inferred from the title.
+
+[Automation in Construction 21, pp. 114–120: original article](https://doi.org/10.1016/j.autcon.2011.05.019) · [Title, authors, pagination and publisher links](https://api.crossref.org/works/10.1016/j.autcon.2011.05.019)
+
+## Reading priority
+
+Before applying the work, locate its test conditions and limitations in the original. Separate a proposed application from a reported deployment, and a successful moulded part from a validated building assembly.
+
+[Automation in Construction 21, pp. 114–120: original article](https://doi.org/10.1016/j.autcon.2011.05.019) · [Title, authors, pagination and publisher links](https://api.crossref.org/works/10.1016/j.autcon.2011.05.019)
 
 ## Originals and rights
 
-Reading link only; no local original mirrored.
+No general redistribution permission verified for this exact work; retain citation and lawful reading link.
 
-No general redistribution license established. No general redistribution permission verified for this exact work; retain citation and lawful reading link.
 [Rights evidence](https://doi.org/10.1016/j.autcon.2011.05.019).
-
-[Terry Knight author index](../../authors/terry-knight/README.md).

@@ -1,25 +1,43 @@
 # Mathematics for Computer Science
 
-Source ID: `mit-mathematics-computer-science`. Authors: Eric Lehman, F. Thomson Leighton, Albert R. Meyer. Year: 2015.
+## Reading guide
 
-Additional proof, induction, sets, relations and counting reference.
+Review: **selected-sections**, 2026-10-19. MIT OCW May 18, 2015 PDF: introductory proof discussion, Chapter 4 selected sets/functions/relations definitions (pp.81–89), and §5.4 opening robot invariant example (pp.130–132) read.
 
-[Canonical/verification page](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_textbook/) · [Lawful reading link](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_textbook/).
+The 920-page text and its later proofs, counting and probability chapters were not reviewed. Textbook examples illustrate mathematical reasoning; no new empirical test is reported.
 
-Version: Spring 2015 OCW textbook snapshot.
+## What the selected text explains
 
-Review scope: MIT OCW resource and readings page inspected; download and exact chapter locators reviewed separately.
+How sets, functions, relations and proofs describe computational processes precisely. The useful connection here is between a sequence of rule applications and a mathematical transition system. [1](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf) [2](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf)
 
-## Reading locators
+## The essential distinction
 
-- Exact claim/page locators still require full-text review.
+Many successful examples do not prove a universal statement. The text’s initially promising polynomial n²+n+41 fails to be prime at n=40. A preserved invariant instead supports an argument covering every permitted step. [1](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf) [2](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf)
 
-## Local originals
+## Method and worked example
 
-- Reading link only; no new original mirrored here.
+Model a robot’s position as an integer pair and its moves as transitions to diagonal neighbors. The coordinate sum starts even and each move changes it by −2, 0 or 2. Consequently the robot cannot reach (1,0). [2](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf)
 
-## Rights
+## What this gives you
 
-CC BY-NC-SA 4.0, subject to item-specific notices. MIT OpenCourseWare noncommercial course terms; exact downloaded item license must be checked before redistributing.
+Invariants can rule out entire families of outcomes without enumerating every path. The claim concerns the stated transition model; changing the allowed moves changes the argument. [2](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf)
 
-This is a public editorial reference annotation. Bibliographic inclusion does not certify every claim in the work, complete a lesson, or establish a connection to the Monster.
+## A convention to notice
+
+This text allows partial functions and calls a function total when defined throughout its domain. Other introductory sources here use “function” for total functions. Check that convention before comparing definitions. [1](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf)
+
+## Key terms
+
+- **Invariant**: A property preserved by every allowed transition.
+- **Partial function**: A single-valued rule that may be undefined at some inputs.
+
+## Read next
+
+- [Proof versus examples; mathematical data types](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf): Introduction and §1.1, printed pp.3–6; Chapter 4 pp.81–89
+- [State transitions and a parity invariant](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf): §5.4, printed pp.130–132, Lemma 5.4.1
+
+## Access and preservation
+
+2015 textbook title page states Creative Commons Attribution-NonCommercial-ShareAlike 3.0. Preserve attribution and notice; noncommercial and ShareAlike conditions apply. This record remains link-only; no new public PDF mirror was added.
+
+This annotation is an original reading aid. Consult the linked text for complete arguments, notation and qualifications.

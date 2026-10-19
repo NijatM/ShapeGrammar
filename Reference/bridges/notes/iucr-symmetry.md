@@ -1,25 +1,44 @@
 # Symmetry
 
-Source ID: `iucr-symmetry`. Authors: L. S. Dent Glasser. Year: not asserted.
+## Reading guide
 
-Institutional introductory symmetry reference for the later crystallography and pattern-symmetry branch.
+Review: **selected-sections**, 2026-10-19. IUCr web text teaching aims and §§1–2 read, including figure captions and the discussion of crystallographic restrictions and point groups.
 
-[Canonical/verification page](https://www.iucr.org/what-we-do/education/pamphlets/symmetry) · [Lawful reading link](https://www.iucr.org/what-we-do/education/pamphlets/symmetry).
+The later sections, all diagram geometry and full crystallographic tables were not independently checked. This is introductory exposition, not an experimental study or a complete wallpaper-group classification.
 
-Version: IUCr Teaching Pamphlet 13; publication year not verified.
+## What this pamphlet explains
 
-Review scope: Official IUCr full text accessed; author, teaching aims and §1 heading verified. Publication year not established.
+A visual introduction to symmetry of finite objects and repeating patterns, intended for readers without previous crystallography. [1](https://www.iucr.org/what-we-do/education/pamphlets/symmetry)
 
-## Reading locators
+## The useful distinction
 
-- Exact claim/page locators still require full-text review.
+A symmetry operation moves an object into coincidence with itself. A symmetry element is its geometric reference, such as an axis or mirror plane. Combining operations can force additional symmetries. [1](https://www.iucr.org/what-we-do/education/pamphlets/symmetry) [2](https://www.iucr.org/what-we-do/education/pamphlets/symmetry)
 
-## Local originals
+## How the explanation works
 
-- Reading link only; no new original mirrored here.
+Teacups and repeated human figures motivate mirror symmetry, rotation and inversion. The text then replaces these pictures with conventional symbols to describe groups compactly. [1](https://www.iucr.org/what-we-do/education/pamphlets/symmetry)
 
-## Rights
+## Scope of the classification
 
-No redistribution license verified. No public redistribution permission verified; citation and lawful reading link only.
+Crystallographic periodicity restricts rotational orders to 1, 2, 3, 4 and 6; arbitrary isolated objects need not obey that restriction. The pamphlet describes 32 crystallographic point groups. [1](https://www.iucr.org/what-we-do/education/pamphlets/symmetry) [2](https://www.iucr.org/what-we-do/education/pamphlets/symmetry)
 
-This is a public editorial reference annotation. Bibliographic inclusion does not certify every claim in the work, complete a lesson, or establish a connection to the Monster.
+## What to try while reading
+
+Identify the operation, fixed geometric element and asymmetric unit separately. Check whether the object is finite or periodically repeated before applying crystallographic restrictions. [1](https://www.iucr.org/what-we-do/education/pamphlets/symmetry) [2](https://www.iucr.org/what-we-do/education/pamphlets/symmetry)
+
+## Key terms
+
+- **Asymmetric unit**: A generating portion with no further symmetry of its own.
+- **Point group**: Symmetries sharing a fixed point.
+- **Mirror plane**: The plane fixed by a reflection.
+
+## Read next
+
+- [Operations, elements and asymmetric units](https://www.iucr.org/what-we-do/education/pamphlets/symmetry): Teaching aims; §1 Simple symmetry operations, Figures 1.2–1.4
+- [Point groups and crystal-class context](https://www.iucr.org/what-we-do/education/pamphlets/symmetry): §2 Combination of symmetry elements in finite groups
+
+## Access and preservation
+
+No public redistribution permission verified; citation and lawful reading link only.
+
+This annotation is an original reading aid. Consult the linked text for complete arguments, notation and qualifications.

@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "source_id": "iucr-symmetry",
+  "kind": "teaching-pamphlet",
+  "review": {
+    "level": "selected-sections",
+    "material": "IUCr web text teaching aims and §§1–2 read, including figure captions and the discussion of crystallographic restrictions and point groups.",
+    "limitations": "The later sections, all diagram geometry and full crystallographic tables were not independently checked. This is introductory exposition, not an experimental study or a complete wallpaper-group classification.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://www.iucr.org/what-we-do/education/pamphlets/symmetry",
+        "locator": "Teaching aims; §1 Simple symmetry operations, Figures 1.2–1.4",
+        "description": "Operations, elements and asymmetric units"
+      },
+      {
+        "url": "https://www.iucr.org/what-we-do/education/pamphlets/symmetry",
+        "locator": "§2 Combination of symmetry elements in finite groups",
+        "description": "Point groups and crystal-class context"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://www.iucr.org/what-we-do/education/pamphlets/symmetry",
+    "label": "Read the original source",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What this pamphlet explains",
+      "text": "A visual introduction to symmetry of finite objects and repeating patterns, intended for readers without previous crystallography.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "The useful distinction",
+      "text": "A symmetry operation moves an object into coincidence with itself. A symmetry element is its geometric reference, such as an axis or mirror plane. Combining operations can force additional symmetries.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "How the explanation works",
+      "text": "Teacups and repeated human figures motivate mirror symmetry, rotation and inversion. The text then replaces these pictures with conventional symbols to describe groups compactly.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "Scope of the classification",
+      "text": "Crystallographic periodicity restricts rotational orders to 1, 2, 3, 4 and 6; arbitrary isolated objects need not obey that restriction. The pamphlet describes 32 crystallographic point groups.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "What to try while reading",
+      "text": "Identify the operation, fixed geometric element and asymmetric unit separately. Check whether the object is finite or periodically repeated before applying crystallographic restrictions.",
+      "evidence": [
+        0,
+        1
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Operations, elements and asymmetric units",
+      "locator": "Teaching aims; §1 Simple symmetry operations, Figures 1.2–1.4",
+      "url": "https://www.iucr.org/what-we-do/education/pamphlets/symmetry"
+    },
+    {
+      "label": "Point groups and crystal-class context",
+      "locator": "§2 Combination of symmetry elements in finite groups",
+      "url": "https://www.iucr.org/what-we-do/education/pamphlets/symmetry"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Asymmetric unit",
+      "meaning": "A generating portion with no further symmetry of its own."
+    },
+    {
+      "term": "Point group",
+      "meaning": "Symmetries sharing a fixed point."
+    },
+    {
+      "term": "Mirror plane",
+      "meaning": "The plane fixed by a reflection."
+    }
+  ]
+}

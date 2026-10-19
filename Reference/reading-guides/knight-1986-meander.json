@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-1986-meander",
+  "kind": "bibliographic reference",
+  "review": {
+    "level": "bibliographic-only",
+    "material": "Checked Knight’s institutional bibliography entry.",
+    "limitations": "The original article and an official abstract were not located; no paper-level content review is claimed.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://www.mit.edu/~tknight/IJDC/page_references.htm",
+        "locator": "References, K: Transformations of the Meander Motif on Greek Geometric Pottery",
+        "description": "Author’s bibliography confirms citation"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://www.mit.edu/~tknight/IJDC/page_references.htm",
+    "label": "Author bibliography — citation only",
+    "type": "citation-evidence"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What is identified",
+      "text": "Knight’s bibliography lists this 1986 Design Computing article on transformations of the meander motif, pp. 29–67.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "What cannot yet be summarized",
+      "text": "The title identifies the subject but does not establish the corpus, transformation operations, methodology or findings. Those details require the original article.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "How to continue",
+      "text": "Use the citation to request the article through a library. Do not substitute findings from the similarly titled chapter in the later book without checking the versions.",
+      "evidence": [
+        0
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Verify the citation",
+      "locator": "References, K",
+      "url": "https://www.mit.edu/~tknight/IJDC/page_references.htm"
+    }
+  ],
+  "terms": []
+}

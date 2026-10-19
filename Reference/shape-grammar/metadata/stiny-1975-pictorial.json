@@ -33,20 +33,35 @@
   "existing_local_files": [],
   "locators": [
     {
-      "locator": "Shape and Shape Grammars: A Formal Model, pp. 117–288",
-      "status": "publisher-table-of-contents-verified"
+      "locator": "Introduction abstract, chapter pp.1–2",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-0348-6879-2_1"
     },
     {
-      "locator": "Turing Machines and Shape Grammars, pp. 282–288",
-      "status": "MIT-OCW-bibliography-verified; text not inspected"
+      "locator": "Pictorial Model abstract, chapter pp.4–116",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-0348-6879-2_2"
+    },
+    {
+      "locator": "Formal Model abstract, chapter pp.117–288",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-0348-6879-2_3"
+    },
+    {
+      "locator": "Table of contents",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://link.springer.com/book/10.1007/978-3-0348-6879-2"
     }
   ],
   "verification": {
-    "scope": "Bibliographic record or official landing page inspected; full text and exact claim locators not reviewed.",
+    "scope": "Publisher-hosted Introduction and pictorial/formal chapter abstracts read, alongside the official contents. Full chapters, formal proofs, painting specifications and aesthetic-system examples were not accessible in this review. This is a guide to the stated research program, not a verified summary of the whole book.",
     "source_urls": [
-      "https://link.springer.com/book/10.1007/978-3-0348-6879-2"
+      "https://link.springer.com/book/10.1007/978-3-0348-6879-2",
+      "https://link.springer.com/chapter/10.1007/978-3-0348-6879-2_1",
+      "https://link.springer.com/chapter/10.1007/978-3-0348-6879-2_2",
+      "https://link.springer.com/chapter/10.1007/978-3-0348-6879-2_3"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "abstract-only"
   },
   "annotation_file": "shape-grammar/notes/stiny-1975-pictorial.md"
 }

@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "source_id": "stiny-1994-closure",
+  "kind": "theoretical paper",
+  "review": {
+    "level": "abstract-only",
+    "material": "The complete publisher-deposited abstract and official record were read.",
+    "limitations": "Full definitions and proofs were inaccessible.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://journals.sagepub.com/doi/10.1068/b21S049",
+        "locator": "Public abstract",
+        "description": "Primary statement of the paper’s result."
+      },
+      {
+        "url": "https://api.crossref.org/works/10.1068/b21S049",
+        "locator": "Publisher-deposited abstract",
+        "description": "DOI record corroborates the same abstract."
+      }
+    ]
+  },
+  "original": {
+    "url": "https://journals.sagepub.com/doi/10.1068/b21S049",
+    "label": "Read original source",
+    "type": "publication-record"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Short overview",
+      "text": "Stiny connects shape-grammar computation with topologies constructed through closure operations.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "The stated claim",
+      "text": "The abstract says these topologies structure shapes according to their computations, allowing emergence to coexist with continuity.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "What can be identified",
+      "text": "Closure operations and computation-dependent structure are the announced mathematical devices. Their exact definitions and the continuity argument require the full paper.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "What remains unchecked",
+      "text": "The short abstract provides neither proofs nor worked examples. Continuity here should not be assumed to mean smooth visual motion or a prohibition on new parts.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "Reading question",
+      "text": "Ask which topology is assigned, how the computation determines it and which map is proved continuous. Those are questions for the original, not reconstructed results.",
+      "evidence": [
+        0,
+        1
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Start here",
+      "locator": "Public abstract",
+      "url": "https://journals.sagepub.com/doi/10.1068/b21S049"
+    }
+  ],
+  "terms": []
+}

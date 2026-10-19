@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "source_id": "stiny-2011-rules",
+  "kind": "Theory and design essay",
+  "review": {
+    "level": "selected-sections",
+    "material": "Publisher PDF: opening questions, schema lattice and operators, inverse/composite constructions, and concluding art/design discussion.",
+    "limitations": "Selected framework sections were reviewed. The essay’s extensive historical examples were sampled; its studio-education claims are arguments, not reported controlled trials.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://link.springer.com/content/pdf/10.1007/s00004-011-0056-6.pdf",
+        "locator": "pp. 15–20: questions and schema lattice",
+        "description": "Distinguishes choosing a design from defining ways to make rules."
+      },
+      {
+        "url": "https://link.springer.com/content/pdf/10.1007/s00004-011-0056-6.pdf",
+        "locator": "pp. 20–23: inverses and compound schemas",
+        "description": "Combining parts, transformations and boundaries to extend the repertoire."
+      },
+      {
+        "url": "https://link.springer.com/content/pdf/10.1007/s00004-011-0056-6.pdf",
+        "locator": "pp. 39–45: schemas, interpretation and education",
+        "description": "Assignments, alternatives to fixed hierarchy and the proposed studio role."
+      }
+    ]
+  },
+  "original": {
+    "url": "https://link.springer.com/content/pdf/10.1007/s00004-011-0056-6.pdf",
+    "label": "Read original text",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "In brief",
+      "text": "Instead of prescribing the right rule for a design problem, Stiny offers a small repertoire of ways to make rules. Their power depends on recognizing embedded parts anew when rules are used.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "The question",
+      "text": "How can a designer invent rules that correspond to actions in art and design without needing a fixed vocabulary of components?",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "Main idea or claim",
+      "text": "Part selection, transformation and boundary operations can organize rule schemas in a lattice. Identity rules matter too: seeing a shape differently can change its usable parts even when no line moves.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "How the work approaches it",
+      "text": "The essay develops schemas from simple to general, then constructs inverses and combinations. It connects these operations to examples and interpretations from art, geometry and design.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "Evidence and examples",
+      "text": "The support consists of worked visual examples, algebraic relationships and interpretive comparisons. Generic schemas are distinguished from assignments and predicates that give particular stylistic results.",
+      "evidence": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "What comes out of it",
+      "text": "A small set of operations supports a varied rule repertoire, including rules that divide, transform, complete or reinterpret a shape. Hierarchies can be outcomes of these activities instead of prerequisites.",
+      "evidence": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "Limits to keep in mind",
+      "text": "The essay explicitly does not solve every design problem or guarantee that a chosen rule meets its goals. Its broad educational proposals and artistic interpretations are not experimental effectiveness results.",
+      "evidence": [
+        0,
+        2
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "What to take from it",
+      "text": "When stuck, change the kind of operation or the part you see. A schema supplies a way to act; the designer still chooses assignments and judges the resulting design.",
+      "evidence": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "pp. 15–20: questions and schema lattice",
+      "locator": "Distinguishes choosing a design from defining ways to make rules.",
+      "url": "https://link.springer.com/content/pdf/10.1007/s00004-011-0056-6.pdf"
+    },
+    {
+      "label": "pp. 20–23: inverses and compound schemas",
+      "locator": "Combining parts, transformations and boundaries to extend the repertoire.",
+      "url": "https://link.springer.com/content/pdf/10.1007/s00004-011-0056-6.pdf"
+    },
+    {
+      "label": "pp. 39–45: schemas, interpretation and education",
+      "locator": "Assignments, alternatives to fixed hierarchy and the proposed studio role.",
+      "url": "https://link.springer.com/content/pdf/10.1007/s00004-011-0056-6.pdf"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Schema",
+      "meaning": "A reusable form that defines a family of possible rules."
+    },
+    {
+      "term": "Identity rule",
+      "meaning": "A rule A → A that preserves geometry while making a particular part recognition explicit."
+    }
+  ]
+}

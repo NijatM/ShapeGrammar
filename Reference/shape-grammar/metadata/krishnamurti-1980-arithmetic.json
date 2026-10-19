@@ -20,7 +20,7 @@
     "shape-arithmetic",
     "maximal-lines"
   ],
-  "relevance": "Primary algorithmic treatment of shape operations and relations.",
+  "relevance": "Krishnamurti turns shape arithmetic into algorithms: combine line content, remove it, keep common intervals, test parthood and compare shapes. The emphasis is choosing a representation that makes geometric coverage computable.",
   "prerequisite_level": "intermediate",
   "prerequisites": [
     "Elementary sets and functions; some proof reading"
@@ -34,13 +34,29 @@
   },
   "local_files": [],
   "existing_local_files": [],
-  "locators": [],
+  "locators": [
+    {
+      "locator": "pp. 463–467: rational shapes and representation",
+      "status": "selected-sections-reviewed"
+    },
+    {
+      "locator": "pp. 468–473: algorithms and their bounds",
+      "status": "selected-sections-reviewed"
+    },
+    {
+      "locator": "pp. 474–484: decomposition and data structures",
+      "status": "selected-sections-reviewed"
+    }
+  ],
   "verification": {
-    "scope": "Crossref metadata and author-hosted primary PDF search result inspected. Correct start page is 463; a secondary citation reported 464.",
+    "scope": "Author-hosted original inspected for rational coordinates, line representation, Boolean algorithms and data structures; printed pp. 470–471 also checked as page images. The pseudocode was read for its structure, not independently implemented or formally verified. Operation-count bounds are not modern machine benchmarks.",
     "source_urls": [
-      "https://journals.sagepub.com/doi/10.1068/b070463"
+      "https://journals.sagepub.com/doi/10.1068/b070463",
+      "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb070463-arithmeticOfShapes.pdf#page=1",
+      "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb070463-arithmeticOfShapes.pdf#page=6",
+      "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb070463-arithmeticOfShapes.pdf#page=12"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "selected-sections"
   },
   "annotation_file": "shape-grammar/notes/krishnamurti-1980-arithmetic.md"
 }

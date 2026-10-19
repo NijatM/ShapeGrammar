@@ -25,7 +25,7 @@
   "prerequisites": [
     "Elementary sets and functions; some proof reading"
   ],
-  "access_date": "2026-10-18",
+  "access_date": "2026-10-19",
   "license_redistribution": {
     "status": "link-only",
     "license": null,
@@ -34,14 +34,24 @@
   },
   "local_files": [],
   "existing_local_files": [],
-  "locators": [],
+  "locators": [
+    {
+      "locator": "Publisher-deposited abstract",
+      "status": "abstract-only-inspected"
+    },
+    {
+      "locator": "Published chapter record",
+      "status": "abstract-only-inspected"
+    }
+  ],
   "verification": {
-    "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+    "scope": "Original reading guide reviewed 2026-10-19. The publisher-deposited abstract in Crossref was read in full. The publisher page was rate-limited. The complete chapter, its exercises and any detailed assessment evidence were not inspected.",
     "source_urls": [
       "https://api.crossref.org/works/10.4018/978-1-61350-180-1.ch003",
-      "https://architecture.mit.edu/people/terry-knight"
+      "https://architecture.mit.edu/people/terry-knight",
+      "https://doi.org/10.4018/978-1-61350-180-1.ch003"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "abstract-only"
   },
   "annotation_file": "shape-grammar/notes/knight-2012-slow-computing.md",
   "publication_type": "book-chapter",

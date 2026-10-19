@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-2003-computing-with-ambiguity",
+  "kind": "theoretical paper",
+  "review": {
+    "level": "abstract-only",
+    "material": "The publisher’s complete public abstract was read; the full paper was restricted.",
+    "limitations": "The guide does not verify the proposed algebra definitions, worked examples or proofs in the paper.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://journals.sagepub.com/doi/10.1068/b12915",
+        "locator": "Public abstract",
+        "description": "Primary publisher abstract; full text not available in this review."
+      }
+    ]
+  },
+  "original": {
+    "url": "https://journals.sagepub.com/doi/10.1068/b12915",
+    "label": "Read original source",
+    "type": "publication-record"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Short overview",
+      "text": "Knight distinguishes two ambiguities: the different parts one can see within a shape, and the different kinds of things its elements can represent. The paper concentrates on the second.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "Premise and question",
+      "text": "Can computational representations preserve fluid interpretation of points, lines, planes and solids as material, conceptual or symbolic entities, rather than fixing their meaning prematurely?",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "Approach reported in the abstract",
+      "text": "Examples from Kandinsky and Klee motivate proposals for new shape algebras supporting representational ambiguity. This is theoretical development rather than a controlled experiment.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "Reported contribution",
+      "text": "The abstract announces proposed algebras; it does not expose enough detail to check their operations or demonstrate their scope here.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "Reading boundary",
+      "text": "Full-text definitions and examples remain unreviewed. No performance, user-study or comparative-success claim is inferred.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "Why read further",
+      "text": "Ask separately what parts you see and what those parts stand for. Read the paper for its formal treatment before implementing a system based on this distinction.",
+      "evidence": [
+        0
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Start here",
+      "locator": "Public abstract",
+      "url": "https://journals.sagepub.com/doi/10.1068/b12915"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Part ambiguity",
+      "meaning": "Multiple possible ways of seeing parts in a shape."
+    },
+    {
+      "term": "Representational ambiguity",
+      "meaning": "Fluid interpretation of the kind of entity represented by a shape element."
+    }
+  ]
+}

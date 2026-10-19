@@ -30,19 +30,31 @@
   "access_date": "2026-10-18",
   "license_redistribution": {
     "status": "licensed-link-only",
-    "license": "CC BY-NC-SA 4.0, subject to item-specific notices",
-    "evidence_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/",
-    "conditions": "MIT OpenCourseWare noncommercial course terms; exact downloaded item license must be checked before redistributing."
+    "license": "CC BY-NC-SA 3.0 (2015 textbook notice); general OCW site terms are separate",
+    "evidence_url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf",
+    "conditions": "2015 textbook title page states Creative Commons Attribution-NonCommercial-ShareAlike 3.0. Preserve attribution and notice; noncommercial and ShareAlike conditions apply. This record remains link-only; no new public PDF mirror was added."
   },
   "local_files": [],
   "existing_local_files": [],
-  "locators": [],
+  "locators": [
+    {
+      "locator": "Introduction and §1.1, printed pp.3–6; Chapter 4 pp.81–89",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf"
+    },
+    {
+      "locator": "§5.4, printed pp.130–132, Lemma 5.4.1",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf"
+    }
+  ],
   "verification": {
-    "scope": "MIT OCW resource and readings page inspected; download and exact chapter locators reviewed separately.",
+    "scope": "MIT OCW May 18, 2015 PDF: introductory proof discussion, Chapter 4 selected sets/functions/relations definitions (pp.81–89), and §5.4 opening robot invariant example (pp.130–132) read. The 920-page text and its later proofs, counting and probability chapters were not reviewed. Textbook examples illustrate mathematical reasoning; no new empirical test is reported.",
     "source_urls": [
-      "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_textbook/"
+      "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_textbook/",
+      "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "selected-sections"
   },
   "annotation_file": "set-theory/notes/mit-mathematics-computer-science.md"
 }

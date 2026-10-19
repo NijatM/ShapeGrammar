@@ -19,7 +19,7 @@
     "generative-design",
     "examples"
   ],
-  "relevance": "Historical design example for grammar construction; distinguish its dimensional scope from the planar lab.",
+  "relevance": "Froebel’s building blocks become a setting for constructing whole languages of designs. Stiny shifts attention from producing one composition to stating rules that make its possibilities understandable and reusable.",
   "prerequisite_level": "intermediate",
   "prerequisites": [
     "Elementary sets and functions; some proof reading"
@@ -33,13 +33,27 @@
   },
   "local_files": [],
   "existing_local_files": [],
-  "locators": [],
+  "locators": [
+    {
+      "locator": "pp. 409–420: gifts and constructive programme",
+      "status": "selected-sections-reviewed"
+    },
+    {
+      "locator": "p. 428 and selected later examples",
+      "status": "selected-sections-reviewed"
+    },
+    {
+      "locator": "pp. 459–461: conclusions",
+      "status": "selected-sections-reviewed"
+    }
+  ],
   "verification": {
-    "scope": "Bibliographic record or official landing page inspected; full text and exact claim locators not reviewed.",
+    "scope": "Scanned primary paper: opening discussion; five-stage programme; selected spatial-relation and grammar examples; conclusions on pp. 459–461. Selected pages of the 54-page paper were read with OCR and scan inspection. This is a framework and illustrated argument, not a measured comparison of children’s learning.",
     "source_urls": [
-      "https://journals.sagepub.com/doi/10.1068/b070409"
+      "https://journals.sagepub.com/doi/10.1068/b070409",
+      "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Stiny.kindergartenGrammars.pdf"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "selected-sections"
   },
   "annotation_file": "shape-grammar/notes/stiny-1980-kindergarten.md"
 }

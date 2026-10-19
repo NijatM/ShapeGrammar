@@ -23,7 +23,7 @@
   "prerequisites": [
     "Elementary sets and functions; some proof reading"
   ],
-  "access_date": "2026-10-18",
+  "access_date": "2026-10-19",
   "license_redistribution": {
     "status": "link-only",
     "license": null,
@@ -32,15 +32,25 @@
   },
   "local_files": [],
   "existing_local_files": [],
-  "locators": [],
+  "locators": [
+    {
+      "locator": "Publication record: title, author, pp. 258–260 and online date",
+      "status": "bibliographic-only-reviewed"
+    },
+    {
+      "locator": "Book Review: Possible Palladian Villas",
+      "status": "bibliographic-only-reviewed"
+    }
+  ],
   "verification": {
-    "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+    "scope": "Read the publisher record and issue contents, which classify this item as a book review by Terry Knight. The review text was not accessible. Its judgments and conclusions remain unreviewed.",
     "source_urls": [
       "https://api.crossref.org/works/10.1080/10464883.1994.10734613",
       "https://architecture.mit.edu/people/terry-knight",
-      "https://www.tandfonline.com/doi/abs/10.1080/10464883.1994.10734613"
+      "https://www.tandfonline.com/doi/abs/10.1080/10464883.1994.10734613",
+      "https://www.tandfonline.com/toc/rjae20/47/4"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "bibliographic-only"
   },
   "annotation_file": "shape-grammar/notes/knight-1994-possible-palladian-villas.md",
   "publication_type": "book-review",

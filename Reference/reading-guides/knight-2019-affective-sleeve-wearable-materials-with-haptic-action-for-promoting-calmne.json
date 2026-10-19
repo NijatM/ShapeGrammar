@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-2019-affective-sleeve-wearable-materials-with-haptic-action-for-promoting-calmne",
+  "kind": "controlled pilot study",
+  "review": {
+    "level": "abstract-only",
+    "material": "The full public Springer abstract was read.",
+    "limitations": "The complete paper, participant counts, statistical tests and measurement protocol were not inspected. Later sleeve studies were not substituted for this 2019 study.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://link.springer.com/chapter/10.1007/978-3-030-21935-2_23",
+        "locator": "Public abstract",
+        "description": "Primary abstract for this particular conference paper."
+      }
+    ]
+  },
+  "original": {
+    "url": "https://link.springer.com/chapter/10.1007/978-3-030-21935-2_23",
+    "label": "Read original source",
+    "type": "publication-record"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What it is about",
+      "text": "The authors develop a wearable sleeve that creates rhythmic warmth and slight pressure along the arm. They study whether its haptic pace relates to breathing and perceived calmness.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "Premise",
+      "text": "Material behaviour may provide affective feedback: a wearable’s physical action could influence bodily rhythm and experience.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "Method reported",
+      "text": "A controlled pilot compares haptic pacing with relaxed breathing pace and a pace 25% faster. Quantitative breathing observations are considered alongside qualitative self-reports.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "Reported outcome",
+      "text": "The abstract associates faster haptic action with faster breathing. Self-reports relate slower action to greater calmness and faster action to less calmness.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "What this does not establish",
+      "text": "The abstract omits the full sample and statistical detail. These preliminary associations do not establish treatment effectiveness, lasting anxiety reduction or suitability for every wearer.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "What to look for in the paper",
+      "text": "Separate physiological measurements from subjective reports and clinical outcomes. The material interface is a design-research case, not a medical recommendation.",
+      "evidence": [
+        0
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Start here",
+      "locator": "Public abstract",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-21935-2_23"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Haptic action",
+      "meaning": "Physical sensations delivered through touch, here warmth and slight pressure."
+    },
+    {
+      "term": "Pilot study",
+      "meaning": "An initial, limited investigation that informs further testing."
+    }
+  ]
+}

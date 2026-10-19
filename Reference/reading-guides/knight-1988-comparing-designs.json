@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-1988-comparing-designs",
+  "kind": "formal design comparison",
+  "review": {
+    "level": "abstract-only",
+    "material": "Publisher-deposited abstract read directly through the public Crossref record; full article not retrieved.",
+    "limitations": "Only the publisher-deposited Crossref abstract was read. The exact similarity formula, worked cases and qualifications require the complete article; no perceptual validation or statistical performance is established here.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://api.crossref.org/works/10.1068/b150073",
+        "locator": "message.abstract (publisher-deposited abstract)",
+        "description": "Primary abstract; it does not establish unreported technical details"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://doi.org/10.1068/b150073",
+    "label": "Publisher record and original access options",
+    "type": "publication-record"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "In brief",
+      "text": "Knight extends grammar-based comparison from whole styles to individual designs.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "Question or aim",
+      "text": "How can two designs be compared through their constructive organization?",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "Approach described",
+      "text": "Represent each design as a decomposition into shapes and spatial relations; align comparable elements and trace shape-by-shape transformations.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "What the abstract supports",
+      "text": "The abstract reports a framework for exposing design relationships and proposes a simple similarity measure.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "What remains unverified",
+      "text": "Only the publisher-deposited Crossref abstract was read. The exact similarity formula, worked cases and qualifications require the complete article; no perceptual validation or statistical performance is established here.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "Why it may help",
+      "text": "It suggests comparing how designs are assembled, alongside comparing their visible outlines.",
+      "evidence": [
+        0
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Read the original article through the publisher",
+      "locator": "Article pp. 73–110; full-text access may be required",
+      "url": "https://doi.org/10.1068/b150073"
+    }
+  ],
+  "terms": []
+}

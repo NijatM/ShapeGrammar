@@ -1,24 +1,34 @@
 # Shape Grammars
 
-Source ID: `knight-1998-shape-grammars`. Year: 1998. Contributors as recorded: T W Knight.
+Source ID: `knight-1998-shape-grammars`. 1998.
 
-Type: journal-article. Venue: Environment and Planning B: Planning and Design. Pages: 86-91.
+[Canonical metadata](../metadata/knight-1998-shape-grammars.json) · [Publisher record — text not reviewed](https://journals.sagepub.com/doi/10.1177/239980839802500714)
 
-[Canonical metadata](../metadata/knight-1998-shape-grammars.json) · [Source / publication record](https://doi.org/10.1177/239980839802500714) · [Reading path](https://doi.org/10.1177/239980839802500714)
+## Review scope
 
-Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.
+**bibliographic-only.** Bibliographic identity corroborated by the author’s publication list and the publisher-deposited record already held in the catalogue. No original text or substantive official abstract was retrieved. The generic title is insufficient for a content summary.
 
-## Reading purpose
+## What is identified
 
-Terry Knight author corpus: shape grammar theory, design, implementation, or teaching. This is a bibliographic entry and reading prompt, not a summary of an unreviewed argument.
+A six-page contribution titled Shape Grammars appears in the journal’s 1998 anniversary issue, pp. 86–91.
 
-## Verification
+Evidence: [Publication list: Shape Grammars, December 1998](https://www.researchgate.net/profile/Terry-Knight).
 
-Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.
+## What is still unavailable
 
-## Locators
+Its detailed purpose, claims, method and conclusion were not verified. Descriptions of other Knight papers should not be used to fill these gaps.
 
-Exact claim locators require further full-text review.
+Evidence: [Publication list: Shape Grammars, December 1998](https://www.researchgate.net/profile/Terry-Knight).
+
+## How to continue
+
+Follow the publisher record for the original. This item differs from the 1998 chapter Designing a Shape Grammar and from the 1999 classification papers.
+
+Evidence: [Publication list: Shape Grammars, December 1998](https://www.researchgate.net/profile/Terry-Knight).
+
+## Reading path
+
+- [Locate the anniversary contribution](https://journals.sagepub.com/doi/10.1177/239980839802500714): 1998 anniversary issue, pp. 86–91.
 
 ## Originals and rights
 

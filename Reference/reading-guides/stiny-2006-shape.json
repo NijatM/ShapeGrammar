@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "source_id": "stiny-2006-shape",
+  "kind": "monograph",
+  "review": {
+    "level": "abstract-only",
+    "material": "MIT Press description and edition information read. The OCW-recommended Internet Archive route was checked, but interior book pages were not reviewed.",
+    "limitations": "Publisher-description-only review. The 432-page book, its formal details, visual demonstrations and design applications were not examined directly. No empirical efficacy or computational-superiority finding is inferred.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://mitpress.mit.edu/9780262693677/shape/",
+        "locator": "Description; hardcover and paperback publication information",
+        "description": "Stated argument and development of the book"
+      },
+      {
+        "url": "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/pages/course-texts/",
+        "locator": "Shape: Talking about Seeing and Doing section",
+        "description": "Course reading route to the book"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://mitpress.mit.edu/9780262693677/shape/",
+    "label": "Open publisher record and book access",
+    "type": "publication-record"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What the publisher says the book is about",
+      "text": "Stiny presents designing as calculation with shapes, emphasizing that ambiguity and changing ways of seeing can support creative work.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "The stated argument",
+      "text": "Rule-governed calculation need not be restricted to manipulating numbers or verbal symbols. According to the description, shapes support visual expression whose interpretation can change during design.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "Reported development",
+      "text": "The description outlines a progression from seeing versus counting, through formal shape calculation, to specific design examples. Drawings carry much of the exposition, so a text-only synopsis cannot replace reading them.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "What is not established by this review",
+      "text": "The publisher’s account identifies the argument; it does not independently validate it. The actual formal definitions, example derivations, implementation requirements and practical outcomes need inspection in the book.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "How to approach the original",
+      "text": "Compare what a drawing visibly contains with the particular objects used to describe it. In each illustrated rule application, ask whether a new interpretation becomes possible. Use the formal sections to check the exact permitted operations.",
+      "evidence": [
+        0,
+        1
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Stated argument and development of the book",
+      "locator": "Description; hardcover and paperback publication information",
+      "url": "https://mitpress.mit.edu/9780262693677/shape/"
+    },
+    {
+      "label": "Course reading route to the book",
+      "locator": "Shape: Talking about Seeing and Doing section",
+      "url": "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/pages/course-texts/"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Visual calculation",
+      "meaning": "Applying rules directly to configurations of shapes."
+    },
+    {
+      "term": "Ambiguity",
+      "meaning": "The possibility of more than one interpretation or division into parts."
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-2003-either-or-and",
+  "kind": "conceptual essay",
+  "review": {
+    "level": "abstract-only",
+    "material": "The complete public publisher abstract was read.",
+    "limitations": "The full argument, its particular dualisms and its conclusions were not available for inspection.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://journals.sagepub.com/doi/10.1068/b12927",
+        "locator": "Public abstract",
+        "description": "Primary publisher abstract for the essay."
+      }
+    ]
+  },
+  "original": {
+    "url": "https://journals.sagepub.com/doi/10.1068/b12927",
+    "label": "Read original source",
+    "type": "publication-record"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What it is about",
+      "text": "Knight uses Kandinsky and Klee’s writings as a framework for considering divisions in computational design. Their resistance to rigid oppositions in art provides the starting point.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "Question and premise",
+      "text": "Which apparent either/or choices are helpful, and which obscure how design works? The essay asks whether divisions inherited from debates about abstraction can be reconciled in computational design.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "Method of argument",
+      "text": "The public abstract describes a conceptual comparison between twentieth-century art theory and contemporary computational-design debates. It does not describe an experiment.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "What can be said reliably",
+      "text": "The essay considers reconciliation rather than simply accepting mutually exclusive categories. The abstract does not identify every opposing pair or provide a checked final resolution.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "Reading boundary",
+      "text": "Only the abstract was reviewed. Detailed positions must be checked in the paper; the title alone is not evidence for a formal theorem or an algorithm.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "A question to carry forward",
+      "text": "When choosing a design method, ask whether two approaches must exclude one another or could play complementary roles. That is a reading prompt, not a tested finding of this guide.",
+      "evidence": [
+        0
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Start here",
+      "locator": "Public abstract",
+      "url": "https://journals.sagepub.com/doi/10.1068/b12927"
+    }
+  ],
+  "terms": []
+}

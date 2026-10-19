@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-1994-possible-palladian-villas",
+  "kind": "book review",
+  "review": {
+    "level": "bibliographic-only",
+    "material": "Read the publisher record and issue contents, which classify this item as a book review by Terry Knight.",
+    "limitations": "The review text was not accessible. Its judgments and conclusions remain unreviewed.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/10464883.1994.10734613",
+        "locator": "Publication record: title, author, pp. 258–260 and online date",
+        "description": "Official attribution and publication details"
+      },
+      {
+        "url": "https://www.tandfonline.com/toc/rjae20/47/4",
+        "locator": "Book Review: Possible Palladian Villas",
+        "description": "Official issue classification"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://www.tandfonline.com/doi/abs/10.1080/10464883.1994.10734613",
+    "label": "Book-review record and original access options",
+    "type": "publication-record"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What this source is",
+      "text": "This is Knight’s review of Possible Palladian Villas, not a new villa-generating study authored jointly with Hersey and Freedman.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "How to read this kind of source",
+      "text": "A book review assesses another work. It should be kept distinct from the book’s own methods, results and claims.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "What remains unknown",
+      "text": "The accessible record does not reveal Knight’s assessment, criticism or recommendation. No stance is inferred from the title.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "Useful distinction",
+      "text": "The journal issue is from 1994; the record’s 22 August 2013 date is its later online publication. Use the original review for its actual argument.",
+      "evidence": [
+        0
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Locate the review",
+      "locator": "Journal of Architectural Education 47(4), pp. 258–260",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/10464883.1994.10734613"
+    }
+  ],
+  "terms": []
+}

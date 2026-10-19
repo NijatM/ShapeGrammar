@@ -8,7 +8,7 @@
     "George Stiny"
   ],
   "year": 2015,
-  "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+  "edition_version": "Published version; dates from publisher-deposited DOI metadata. See the reading guide for the exact material inspected.",
   "doi": "10.1016/j.destud.2015.08.006",
   "stable_url": "https://doi.org/10.1016/j.destud.2015.08.006",
   "reading_url": "https://doi.org/10.1016/j.destud.2015.08.006",
@@ -26,7 +26,7 @@
   "prerequisites": [
     "Elementary sets and functions; some proof reading"
   ],
-  "access_date": "2026-10-18",
+  "access_date": "2026-10-19",
   "license_redistribution": {
     "status": "link-only",
     "license": null,
@@ -35,15 +35,26 @@
   },
   "local_files": [],
   "existing_local_files": [],
-  "locators": [],
+  "locators": [
+    {
+      "locator": "Repository abstract; author-final-manuscript version statement",
+      "status": "abstract-only-inspected"
+    },
+    {
+      "locator": "Abstract and highlights",
+      "status": "abstract-only-inspected"
+    }
+  ],
   "verification": {
-    "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+    "scope": "Original reading guide reviewed 2026-10-19. The complete author/institutional abstract and publisher highlights were read. The MIT repository identifies an author-final manuscript, but its download was rate-limited during review. The detailed algebras, examples and proofs in the full article were not inspected; this guide does not substitute for them.",
     "source_urls": [
       "https://api.crossref.org/works/10.1016/j.destud.2015.08.006",
       "https://architecture.mit.edu/people/terry-knight",
-      "https://computationalmaking.mit.edu/publications/"
+      "https://computationalmaking.mit.edu/publications/",
+      "https://dspace.mit.edu/entities/publication/7a52ee9e-621c-4e1b-b11f-22a7c73e6622",
+      "https://www.sciencedirect.com/science/article/pii/S0142694X15000605"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "abstract-only"
   },
   "annotation_file": "shape-grammar/notes/knight-2015-making-grammars-from-computing-with-shapes-to-computing-with-things.md",
   "publication_type": "journal-article",

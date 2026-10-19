@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-1980-the-generation-of-hepplewhite-style-chair-back-designs",
+  "kind": "analytical design grammar",
+  "review": {
+    "level": "full-text",
+    "material": "Read the twelve-page CMU-hosted article through temporary OCR; visually checked Figure 22. Printed pp. 231–232 occur in reversed scan order.",
+    "limitations": "No fabrication, structural testing or user experiment is reported; the curves remain partly interpretive.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Knight.theGenerationOfHepplewhite-styleChair-backDesigns.pdf",
+        "locator": "pp. 227–229: Introduction and analysis of chair-back designs",
+        "description": "Corpus, scope and stylistic constraints"
+      },
+      {
+        "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Knight.theGenerationOfHepplewhite-styleChair-backDesigns.pdf",
+        "locator": "pp. 230–237: grammar, curve procedure and Figures 7, 12, 21–23",
+        "description": "Rule-based construction and worked derivations"
+      },
+      {
+        "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Knight.theGenerationOfHepplewhite-styleChair-backDesigns.pdf",
+        "locator": "p. 238: Conclusion",
+        "description": "Comparison with the historical pattern-book approach"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Knight.theGenerationOfHepplewhite-styleChair-backDesigns.pdf",
+    "label": "Read original paper",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "In brief",
+      "text": "A grammar reconstructs three shield-back chair designs attributed to Samuel McIntyre and generates new variations on the same Hepplewhite paradigm.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "Question",
+      "text": "How can a compact rule system capture recognizable stylistic constraints while allowing variation within them?",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "Premise and claim",
+      "text": "The shared structure is a compositional paradigm. Creativity can elaborate that paradigm rather than invent a completely new style.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "How it works",
+      "text": "Simplify curved backs into straight-line patterns, generate one symmetric half with parameterized rules and labels, reflect it, then replace lines with curves using a separate procedure.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "Evidence and examples",
+      "text": "Figure 22 derives the three starting designs and a new fourth example. Figures 12 and 21 show straight-line alternatives and their curved counterparts.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "What it establishes",
+      "text": "The same grammar produces both reconstructions and additional designs under explicit constraints. Knight compares its compactness and usefulness to a pattern book.",
+      "evidence": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "Limits",
+      "text": "Only one shield-back paradigm is modeled. Seats, legs and carved ornament are excluded; this is a constructive demonstration, not a historical completeness or manufacturing claim.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "Why read it",
+      "text": "It makes the distinction between a rule system, its design language and the final interpretation of geometry unusually concrete.",
+      "evidence": [
+        1
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "See the starting corpus",
+      "locator": "pp. 227–229; Figures 1–4",
+      "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Knight.theGenerationOfHepplewhite-styleChair-backDesigns.pdf"
+    },
+    {
+      "label": "Follow one complete derivation",
+      "locator": "p. 236; Figure 22",
+      "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Knight.theGenerationOfHepplewhite-styleChair-backDesigns.pdf"
+    },
+    {
+      "label": "Check the separate curve interpretation",
+      "locator": "pp. 233–237",
+      "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Knight.theGenerationOfHepplewhite-styleChair-backDesigns.pdf"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Parametric grammar",
+      "meaning": "Rules containing variable dimensions or positions together with conditions on admissible values."
+    }
+  ]
+}

@@ -23,7 +23,7 @@
   "prerequisites": [
     "Elementary sets and functions; some proof reading"
   ],
-  "access_date": "2026-10-18",
+  "access_date": "2026-10-19",
   "license_redistribution": {
     "status": "downloaded-with-conditions",
     "license": "CC BY 4.0",
@@ -45,14 +45,23 @@
   "existing_local_files": [],
   "locators": [
     {
-      "locator": "Section headed Terry Knight; PDF p. 20",
-      "status": "text-inspected"
+      "locator": "pp. 1–2: opening editorial, Why and What",
+      "status": "selected-sections-reviewed"
+    },
+    {
+      "locator": "pp. 20–21: Terry Knight",
+      "status": "selected-sections-reviewed"
+    },
+    {
+      "locator": "pp. 35–37: What—John Gero’s Synthesis; How",
+      "status": "selected-sections-reviewed"
     }
   ],
   "verification": {
-    "scope": "Publisher byline and named Terry Knight section inspected. Papalambros is the credited article author; Knight contributes a separately headed statement within it.",
+    "scope": "Read the opening editorial, Knight’s complete named statement on pp. 20–21, Gero’s synthesis and the beginning of How in the licensed original. Papalambros is the article’s byline author; Knight is a named section contributor. Other board statements were not reviewed individually. This is an editorial discussion, not an empirical test.",
     "source_urls": [
-      "https://www.cambridge.org/core/journals/design-science/article/design-science-why-what-and-how/A575D750B05AE57AAF9E7CA07E44FEF4"
+      "https://www.cambridge.org/core/journals/design-science/article/design-science-why-what-and-how/A575D750B05AE57AAF9E7CA07E44FEF4",
+      "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A575D750B05AE57AAF9E7CA07E44FEF4/S2053470115000013a.pdf/div-class-title-design-science-why-what-and-how-div.pdf"
     ],
     "content_review": "selected-sections"
   },

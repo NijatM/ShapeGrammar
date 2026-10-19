@@ -7,7 +7,7 @@
     "Jim Hefferon"
   ],
   "year": null,
-  "edition_version": "Living author site; PDF edition not pinned in this pass",
+  "edition_version": "Inspected author-hosted fourth-edition PDF; preface 26 April 2020; current author landing page may list newer builds",
   "doi": null,
   "stable_url": "https://hefferon.net/linearalgebra/",
   "reading_url": "https://hefferon.net/linearalgebra/",
@@ -33,13 +33,30 @@
   },
   "local_files": [],
   "existing_local_files": [],
-  "locators": [],
+  "locators": [
+    {
+      "locator": "Preface; Chapter Two I.1, pp.84–85",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://jheffero.w3.uvm.edu/linearalgebra/book.pdf"
+    },
+    {
+      "locator": "Chapter Three II.1, pp.191–192",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://jheffero.w3.uvm.edu/linearalgebra/book.pdf"
+    },
+    {
+      "locator": "Chapter Three III.1, pp.212–213",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://jheffero.w3.uvm.edu/linearalgebra/book.pdf"
+    }
+  ],
   "verification": {
-    "scope": "Official author site read; current download routes through OpenIntro. No PDF downloaded or edition year guessed.",
+    "scope": "Fourth-edition author-hosted PDF (preface dated April 26, 2020): preface and selected pages 84–85, 191–192 and 212–213 read. Not a complete book review. Later determinant/eigenvalue arguments and exercise solutions were not reviewed. The author site may offer newer builds; locators refer to the inspected fourth-edition reading copy.",
     "source_urls": [
-      "https://hefferon.net/linearalgebra/"
+      "https://hefferon.net/linearalgebra/",
+      "https://jheffero.w3.uvm.edu/linearalgebra/book.pdf"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "selected-sections"
   },
   "annotation_file": "bridges/notes/hefferon-linear-algebra.md"
 }

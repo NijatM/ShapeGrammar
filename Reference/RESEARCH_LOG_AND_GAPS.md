@@ -1,6 +1,6 @@
 # Research log, exclusions and remaining work
 
-Research date: 18 October 2026. Scope: research references and evidence supporting the mathematical model. A separate local engine milestone is documented in [the project verification report](../docs/ENGINE_VALIDATION.md).
+Initial research date: 18 October 2026; source-reading update: 19 October 2026. Scope: research references and evidence supporting the mathematical model. A separate local engine milestone is documented in [the project verification report](../docs/ENGINE_VALIDATION.md). The subsequent [source review report](../docs/SOURCE_REVIEW.md) records the new reading guides and their exact review boundaries.
 
 ## Strategy and checks actually performed
 
@@ -29,16 +29,16 @@ The separate link report records actual HTTP results. A 403 or 406 can reflect f
 
 ## Gaps and next research tasks
 
-1. **Original algebra-source review:** the U₁₂ dimension convention is verified in Stouffs 2016 p. 331; Stiny 1991 and Krishnamurti–Stouffs 1997 still require full defining-passage review. The rational-coordinate and finite-menu restrictions in the implemented engine are project choices, not claims of unrestricted shape-grammar support.
+1. **Algebra and implementation scope:** selected primary passages of Stiny 1991 and Krishnamurti–Stouffs 1997 have now been reviewed alongside Stouffs 2016. The rational-coordinate and finite-menu restrictions in the implemented engine remain project choices, not claims of unrestricted shape-grammar support or independent proof verification.
 2. **Full-book locators remain pending** for *Shape* and *Shapes of Imagination*. Their bibliographic/edition and access records are verified, not every interior claim. The MIT OA link for the latter did not yield a full download in this pass.
-3. **Foundational and computational full texts:** 1972, 1975, weights, construction, rule schemas, six types and tractability have bibliographic coverage, with reading paths where verified. Selected results still need full-text checking before teaching or algorithm adoption. The 1978 institutional handle must be checked manually if its server continues to fail.
+3. **Foundational and computational reading:** new guides identify reviewed portions of the 1972 author-uploaded reprint, weights, construction, rule schemas, six types and tractability. The 1975 book remains limited to available publisher material. Detailed algorithm adoption still requires checking all relevant assumptions and proofs. The 1978 institutional handle remains an access gap, described through a clearly labelled later-author citation rather than an invented book summary.
 4. **IUCr pamphlet year** remains unverified. Author L. S. Dent Glasser and the introductory teaching aims were verified on the official page; the publication year is not guessed.
 5. **Current Monster research:** ATLAS contains old resource and maximal-subgroup status statements; do not treat them as current. Gannon’s survey and Borcherds’s problem list are historical. Verify modern problem status before proposing research. Vertex operator algebras, complex analysis, modular forms and finite simple groups need additional module-specific primary sources later.
 6. **No established Stiny–Monster derivation** is claimed. Shape grammar → sets → groups → Monster is a learning path. Any proposed structural bridge needs its own explicit construction and evidence.
 7. **Future modules:** frieze/wallpaper groups, reflection groups, representation theory, group extensions and finite simple groups need additional focused curation. The bridge folder is a prerequisite route, not a finished course in each topic.
 8. **Permissions:** exact provenance and redistribution rights of the existing 1980 PDF are unresolved. Preserve it, but exclude it from public staging. Lecturer slides with explicit third-party exclusions and papers without verified mirroring permission remain links.
 
-This library does not claim exhaustive coverage, expert certification, completed lesson review or a deployable application. The initial tested engine has separate, bounded verification evidence. Knight’s lifetime bibliography is a continuing reconciliation task; identified uncertainties are recorded rather than represented as verified publications.
+The application now has separate [release validation](../docs/RELEASE_VALIDATION.md), including lesson, build and browser checks. This reference library still does not claim exhaustive coverage or expert certification. Knight’s lifetime bibliography is a continuing reconciliation task; identified uncertainties are recorded rather than represented as verified publications.
 
 ## Future literature updates
 

@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "source_id": "yue-krishnamurti-2013-tractable",
+  "kind": "Computational complexity paper",
+  "review": {
+    "level": "selected-sections",
+    "material": "Author-hosted April 2013 prepublication draft: introductory complexity discussion and §4, especially §4.2 on parametric subshape recognition.",
+    "limitations": "Locators refer to the 43-page draft, not the journal pagination. Reduction arguments were read but not independently proved. The paper’s use of NP terminology needs the qualification below.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/pre-publication/TractableShapeGrammars-epb38227.pdf",
+        "locator": "Draft pp. 1–6: motivation and computational issues",
+        "description": "Unrestricted generation, recognition and termination are different problems."
+      },
+      {
+        "url": "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/pre-publication/TractableShapeGrammars-epb38227.pdf",
+        "locator": "Draft §4.2, approximately pp. 30–34",
+        "description": "Parametric recognition, clique reduction and dependence on the number of free parameters."
+      }
+    ]
+  },
+  "original": {
+    "url": "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/pre-publication/TractableShapeGrammars-epb38227.pdf",
+    "label": "Read original text",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "In brief",
+      "text": "This paper investigates why unrestricted shape computation can become computationally difficult and what restrictions make useful practical algorithms possible. Parametric recognition is a central example.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "question",
+      "title": "The question",
+      "text": "Which difficulties arise from the full expressive power of grammars, and which arise when searching for parameters that make a rule match a particular shape?",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "Main idea or claim",
+      "text": "General shape grammars can simulate unrestricted computation, so general termination or language-membership procedures cannot simply be assumed. Parametric matching can also require a rapidly growing search.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "How the work approaches it",
+      "text": "The authors formalize grammar mechanisms, relate their expressive power to Turing computation, and analyze parametric subshape recognition through problem reductions and enumeration of parameter assignments.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "Evidence and examples",
+      "text": "The support is computational argument and worked constructions, including a reduction involving clique. The paper discusses the number of possible assignments rather than presenting a user study or a current hardware benchmark.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "What comes out of it",
+      "text": "A search on n candidate points with k independent choices can grow like n^k. Holding k fixed gives a polynomial bound in n for that enumeration; allowing k to grow changes the conclusion. Restrictions on parameters and rules therefore matter.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "Limits to keep in mind",
+      "text": "The draft sometimes uses NP loosely when arguing hardness. Membership in NP alone does not imply intractability, and P ≠ NP is not proved. Its argument should not be quoted as settling that open problem or guaranteeing that every small grammar is fast.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "What to take from it",
+      "text": "Distinguish worst-case complexity from practical limits. A finite menu, bounded parameters or a restricted grammar can make exploration usable, but its scope must remain visible.",
+      "evidence": [
+        0,
+        1
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Draft pp. 1–6: motivation and computational issues",
+      "locator": "Unrestricted generation, recognition and termination are different problems.",
+      "url": "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/pre-publication/TractableShapeGrammars-epb38227.pdf"
+    },
+    {
+      "label": "Draft §4.2, approximately pp. 30–34",
+      "locator": "Parametric recognition, clique reduction and dependence on the number of free parameters.",
+      "url": "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/pre-publication/TractableShapeGrammars-epb38227.pdf"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Parametric recognition",
+      "meaning": "Finding parameter values and a placement that make a rule pattern part of a host shape."
+    },
+    {
+      "term": "Fixed parameter count",
+      "meaning": "Treating the number of independent choices as a constant when assessing growth in input size."
+    }
+  ]
+}

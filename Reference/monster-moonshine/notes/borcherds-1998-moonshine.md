@@ -1,25 +1,44 @@
 # What Is Moonshine?
 
-Source ID: `borcherds-1998-moonshine`. Authors: Richard E. Borcherds. Year: 1998.
+## Reading guide
 
-Expert survey connecting Monster representation theory with modular functions.
+Review: **full-text**, 2026-10-19. All eight pages of the author-hosted 1998 ICM reading copy read.
 
-[Canonical/verification page](https://math.berkeley.edu/~reb/papers/icm98/icm98.pdf) · [Lawful reading link](https://math.berkeley.edu/~reb/papers/icm98/icm98.pdf).
+The exposition is a proof sketch and historical survey, not an independently checked proof. Its statements about unproved extensions describe the period of writing.
 
-Version: 1998 proceedings; author-hosted PDF has eight pages.
+## What this survey asks
 
-Review scope: Author publication list and PDF verified; reading copy pagination need not match the proceedings layout.
+Why should Monster representations and modular functions share numerical information? The survey turns a surprising coefficient match into a structural question. [1](https://math.berkeley.edu/~reb/papers/icm98/icm98.pdf)
 
-## Reading locators
+## The key distinction
 
-- Exact claim/page locators still require full-text review.
+Matching dimensions alone is weak: even trivial actions can have chosen dimensions. Moonshine concerns traces of every Monster element on a specific graded module and the resulting genus-zero functions. [1](https://math.berkeley.edu/~reb/papers/icm98/icm98.pdf)
 
-## Local originals
+## Proof architecture
 
-- Reading link only; no new original mirrored here.
+Start with the Frenkel–Lepowsky–Meurman vertex algebra. Apply the no-ghost theorem to construct the Monster Lie algebra. Twisted denominator identities constrain trace coefficients; modular-function results identify the series. [2](https://math.berkeley.edu/~reb/papers/icm98/icm98.pdf)
 
-## Rights
+## Example and outcome
 
-No redistribution license verified. No public redistribution permission verified; citation and lawful reading link only.
+The classes 2A and 2B have different trace series despite both containing involutions. Coefficient recurrences connect Lie-algebra structure to modular behavior, going beyond isolated numerical coincidences. [1](https://math.berkeley.edu/~reb/papers/icm98/icm98.pdf) [2](https://math.berkeley.edu/~reb/papers/icm98/icm98.pdf)
 
-This is a public editorial reference annotation. Bibliographic inclusion does not certify every claim in the work, complete a lesson, or establish a connection to the Monster.
+## What remains historical
+
+Later pages discuss generalized and modular moonshine and Dynkin-diagram observations. Their then-open status is not a current research-status claim. [3](https://math.berkeley.edu/~reb/papers/icm98/icm98.pdf)
+
+## Key terms
+
+- **McKay–Thompson series**: A graded generating series of group-element traces.
+- **Hauptmodul**: A generator for a genus-zero modular function field.
+
+## Read next
+
+- [Numerical clues, modular functions and trace series](https://math.berkeley.edu/~reb/papers/icm98/icm98.pdf): PDF pp.1–3
+- [Four-step proof sketch and denominator identities](https://math.berkeley.edu/~reb/papers/icm98/icm98.pdf): PDF pp.4–6
+- [Historical extensions and bibliography](https://math.berkeley.edu/~reb/papers/icm98/icm98.pdf): PDF pp.6–8
+
+## Access and preservation
+
+No public redistribution permission verified; citation and lawful reading link only.
+
+This annotation is an original reading aid. Consult the linked text for complete arguments, notation and qualifications.

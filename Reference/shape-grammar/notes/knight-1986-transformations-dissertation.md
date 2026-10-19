@@ -1,24 +1,34 @@
 # Transformations of Languages of Designs
 
-Source ID: `knight-1986-transformations-dissertation`. Year: 1986. Contributors as recorded: Terry W. Knight.
+Source ID: `knight-1986-transformations-dissertation`. 1986.
 
-Type: dissertation-citation. Venue: PhD dissertation, University of California, Los Angeles. Pages: not independently established.
+[Canonical metadata](../metadata/knight-1986-transformations-dissertation.json) · [Dissertation citation in another paper — not thesis text](https://journals.sagepub.com/doi/10.1068/b160051)
 
-[Canonical metadata](../metadata/knight-1986-transformations-dissertation.json) · [Source / publication record](https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb220689-grammarTaiwaneseHouses.pdf) · [Reading path](https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb220689-grammarTaiwaneseHouses.pdf)
+## Review scope
 
-1986 UCLA PhD dissertation. Plural Designs title corroborated in Knight’s own 1989 bibliography; original thesis title page/catalogue copy not retrieved.
+**secondary-citation-only.** Inspected the dissertation citation in Knight’s 1989 De Stijl article bibliography, alongside the existing institutional degree evidence. The dissertation title page, abstract and full text have not been retrieved. A citation in another paper is not the dissertation.
 
-## Reading purpose
+## What is verified
 
-Terry Knight author corpus: Transformations of Languages of Designs. Citation coverage; full text requires separate review. This is a bibliographic entry and reading prompt, not a summary of an unreviewed argument.
+A 1989 paper by Knight cites a 1986 UCLA PhD thesis titled Transformations of Languages of Designs.
 
-## Verification
+Evidence: [References: Knight T W, 1986, Transformations of Languages of Designs, PhD thesis, UCLA](https://journals.sagepub.com/doi/10.1068/b160051).
 
-Citation verified in Chiou–Krishnamurti 1995 primary-paper bibliography; MIT faculty profile independently verifies UCLA PhD year 1986. Exact thesis title-page spelling and access remain unverified.
+## What this entry does not provide
 
-## Locators
+The linked evidence is another article’s bibliography. The previously stored CMU link also points to a citing paper, not to the thesis. Neither should be labeled as the dissertation’s full text.
 
-Exact claim locators require further full-text review.
+Evidence: [References: Knight T W, 1986, Transformations of Languages of Designs, PhD thesis, UCLA](https://journals.sagepub.com/doi/10.1068/b160051).
+
+## How to continue
+
+The thesis’s premise, methods and conclusions cannot be accurately summarized from this citation. Obtain the original through a library catalogue; the reviewed 1983 trilogy offers accessible related work, not an interchangeable edition.
+
+Evidence: [References: Knight T W, 1986, Transformations of Languages of Designs, PhD thesis, UCLA](https://journals.sagepub.com/doi/10.1068/b160051).
+
+## Reading path
+
+- [Check the dissertation citation](https://journals.sagepub.com/doi/10.1068/b160051): 1989 article bibliography, Knight 1986 entry.
 
 ## Originals and rights
 

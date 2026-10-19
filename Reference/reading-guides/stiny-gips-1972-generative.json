@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "source_id": "stiny-gips-1972-generative",
+  "kind": "foundational formal proposal",
+  "review": {
+    "level": "selected-sections",
+    "material": "The author-uploaded 1972 reprint text, pp. 125–134, was read.",
+    "limitations": "Figures were not reliably available; the proceedings copy was not checked.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://www.researchgate.net/publication/221329330_%27Shape_Grammars_and_the_Generative_Specification_of_Painting_and_Sculpture%27",
+        "locator": "Reprint pp. 125–134",
+        "description": "James Gips’s public author upload; explicitly the Best Computer Papers reprint, not the proceedings pagination."
+      }
+    ]
+  },
+  "original": {
+    "url": "https://www.researchgate.net/publication/221329330_%27Shape_Grammars_and_the_Generative_Specification_of_Painting_and_Sculpture%27",
+    "label": "Read original source",
+    "type": "publication-record"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What it is about",
+      "text": "Stiny and Gips specify families of geometric artworks through shape-generating rules and separate instructions for material realization.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "Premise",
+      "text": "A generative specification can describe a class independently of any one finished artwork.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "The formal machinery",
+      "text": "The reprint defines a grammar with terminals, markers, rules and an initial shape, then adds selection rules, painting instructions and a limiting canvas shape.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "The demonstration",
+      "text": "The Urform example links recursive shape generation with colouring based on level-defined regions. Sculpture extends the arrangement to three dimensions.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "Proposed conclusion",
+      "text": "Artists can choose relationships and determine their consequences algorithmically. The aesthetic discussion proposes relating compact specifications to visual complexity.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "Important historical boundary",
+      "text": "This early definition restricts terminal erasure. It should not be substituted unchanged for later, more general shape arithmetic. No controlled test of artistic quality is reported.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "How to read it",
+      "text": "Separate generating geometry, selecting outcomes and specifying materials. Keep the inspected reprint’s pages distinct from the proceedings citation.",
+      "evidence": [
+        0
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Start here",
+      "locator": "Reprint pp. 125–134",
+      "url": "https://www.researchgate.net/publication/221329330_%27Shape_Grammars_and_the_Generative_Specification_of_Painting_and_Sculpture%27"
+    }
+  ],
+  "terms": []
+}

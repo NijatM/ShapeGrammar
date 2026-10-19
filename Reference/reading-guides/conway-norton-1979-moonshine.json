@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "source_id": "conway-norton-1979-moonshine",
+  "kind": "research-paper",
+  "review": {
+    "level": "secondary-citation-only",
+    "material": "Publisher bibliographic record inspected. Original article content was not accessible in this review; historical explanation is limited to its treatment in Borcherds’s primary proof introduction.",
+    "limitations": "No direct review of the 1979 methods, tables, full conjecture list or conclusions is claimed. Read the original through the publisher when available.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/blms/11.3.308",
+        "locator": "Publication heading and citation information",
+        "description": "Verified original publication record"
+      },
+      {
+        "url": "https://math.berkeley.edu/~reb/papers/monster/monster.pdf",
+        "locator": "§1 Introduction, Theorem 1.1 and following explanation, PDF pp.1–3",
+        "description": "Later proof paper describes the earlier conjecture"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/blms/11.3.308",
+    "label": "Open publisher record / access options",
+    "type": "publication-record"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What can be established here",
+      "text": "This is Conway and Norton’s 1979 paper in Bulletin of the London Mathematical Society, volume 11, pages 308–339.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "Claim described by the later proof",
+      "text": "Borcherds explains their central conjecture as the existence of a graded Monster module whose element-trace series are specified genus-zero Hauptmoduls. His theorem establishes this for the Frenkel–Lepowsky–Meurman module.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "What has not been read",
+      "text": "The original text, numerical tables and detailed argument were unavailable in this pass. A paper-specific method or results summary would exceed the evidence; this guide intentionally does not invent one.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "A useful reading route",
+      "text": "Read the later proof introduction for a precise statement, then consult the original to see the conjectural evidence in its historical form.",
+      "evidence": [
+        1
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Verified original publication record",
+      "locator": "Publication heading and citation information",
+      "url": "https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/blms/11.3.308"
+    },
+    {
+      "label": "Later proof paper describes the earlier conjecture",
+      "locator": "§1 Introduction, Theorem 1.1 and following explanation, PDF pp.1–3",
+      "url": "https://math.berkeley.edu/~reb/papers/monster/monster.pdf"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Graded module",
+      "meaning": "A representation split into indexed vector-space pieces."
+    },
+    {
+      "term": "Hauptmodul",
+      "meaning": "A generator of a genus-zero modular function field."
+    }
+  ]
+}

@@ -25,7 +25,7 @@
   "prerequisites": [
     "Elementary sets and functions; some proof reading"
   ],
-  "access_date": "2026-10-18",
+  "access_date": "2026-10-19",
   "license_redistribution": {
     "status": "link-only",
     "license": null,
@@ -34,14 +34,20 @@
   },
   "local_files": [],
   "existing_local_files": [],
-  "locators": [],
+  "locators": [
+    {
+      "locator": "Reprint pp. 125–134",
+      "status": "selected-sections-inspected"
+    }
+  ],
   "verification": {
-    "scope": "Title, authors, year verified in MIT OCW bibliography; page range corroborated in researcher-authored Sortal bibliography. Full text not reviewed.",
+    "scope": "Original reading guide reviewed 2026-10-19. The author-uploaded 1972 reprint text, pp. 125–134, was read. Figures were not reliably available; the proceedings copy was not checked.",
     "source_urls": [
       "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/pages/lecture-slides-and-supplemental-readings/",
-      "https://sortal.org/grammars/grammar.html"
+      "https://sortal.org/grammars/grammar.html",
+      "https://www.researchgate.net/publication/221329330_%27Shape_Grammars_and_the_Generative_Specification_of_Painting_and_Sculpture%27"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "selected-sections"
   },
   "annotation_file": "shape-grammar/notes/stiny-gips-1972-generative.md"
 }

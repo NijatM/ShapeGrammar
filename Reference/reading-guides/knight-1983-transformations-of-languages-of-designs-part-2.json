@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-1983-transformations-of-languages-of-designs-part-2",
+  "kind": "formal grammar transformation model",
+  "review": {
+    "level": "full-text",
+    "material": "Read all twenty-six pages through temporary OCR; visually checked the recursive definition on printed p. 136.",
+    "limitations": "The worked catalogues illustrate the construction; they are not an empirical performance study or a universal historical account.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Knight.transformationOfLanguagesOfDesignsPart2.pdf",
+        "locator": "pp. 129–135: A normal form for shape grammars",
+        "description": "Spatial relations, spatial labels and state controls"
+      },
+      {
+        "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Knight.transformationOfLanguagesOfDesignsPart2.pdf",
+        "locator": "pp. 135–141: Recursive structures of shape grammars",
+        "description": "Derivation-relative dependency relation; p. 136 visually checked"
+      },
+      {
+        "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Knight.transformationOfLanguagesOfDesignsPart2.pdf",
+        "locator": "pp. 141–154: Transformations and redundant rules",
+        "description": "Independent transformations, isomorphism criterion and examples"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Knight.transformationOfLanguagesOfDesignsPart2.pdf",
+    "label": "Read original paper",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "In brief",
+      "text": "A formal framework relates design languages by transforming the grammars that generate them.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "Question",
+      "text": "What should change—and what should remain connected—when one grammar becomes another?",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "Main idea",
+      "text": "A normal form separates spatial composition from control of rule application. Their independent changes can preserve a meaningful structural relationship.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "Method",
+      "text": "Specify labeled shapes and spatial relations, attach state-label pairs to addition/subtraction rules, then define a recursive dependency relation from selected derivations.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "Worked evidence",
+      "text": "One grammar develops into sixteen transformed examples. Directed graphs show the preserved recursive structure; redundant copies of rules permit multiple changed versions of one original rule.",
+      "evidence": [
+        2
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "Formal outcome",
+      "text": "Shape-change and state-change transformations commute because they act on separate components. Isomorphic recursive structures constrain transformations and transfer understanding of rule dependencies.",
+      "evidence": [
+        2
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "Limits",
+      "text": "Recursive structure depends on a finite catalogue of chosen derivations. Different understandings of a language can therefore produce different dependency relations; the normal form need not be concise.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "Why read it",
+      "text": "Labels can govern where or how rules apply, while state labels govern when. Grammar transformation must consider both geometry and control.",
+      "evidence": [
+        0
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Start with the normal form",
+      "locator": "pp. 129–135",
+      "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Knight.transformationOfLanguagesOfDesignsPart2.pdf"
+    },
+    {
+      "label": "Understand the dependency relation",
+      "locator": "pp. 135–140; Figure 5",
+      "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Knight.transformationOfLanguagesOfDesignsPart2.pdf"
+    },
+    {
+      "label": "Compare a complete family",
+      "locator": "pp. 148–153; Figures 13–14",
+      "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Knight.transformationOfLanguagesOfDesignsPart2.pdf"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Recursive structure",
+      "meaning": "Here, a dependency relation between rules and the initial shape, defined relative to selected derivations."
+    },
+    {
+      "term": "State label",
+      "meaning": "A nonspatial control indicating which stage or state permits a rule application."
+    }
+  ]
+}

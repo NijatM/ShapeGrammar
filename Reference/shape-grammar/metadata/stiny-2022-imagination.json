@@ -34,13 +34,25 @@
   },
   "local_files": [],
   "existing_local_files": [],
-  "locators": [],
+  "locators": [
+    {
+      "locator": "Description and edition information",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://mitpress.mit.edu/9780262544139/shapes-of-imagination/"
+    },
+    {
+      "locator": "Open Access, license and DOI link",
+      "status": "primary-content-reviewed-2026-10-19",
+      "url": "https://mitpress.mit.edu/9780262544139/shapes-of-imagination/#tab-9"
+    }
+  ],
   "verification": {
-    "scope": "Bibliographic record or official landing page inspected; full text and exact claim locators not reviewed.",
+    "scope": "MIT Press book description, publication data and Open Access section read; publisher DOI/open-access route returned HTTP 403 during this review. Publisher-description-only review. The final 2022 book was not read and is not treated as identical to the OCW manuscript excerpts. The publisher’s philosophical/computational claims are not independently established results here.",
     "source_urls": [
-      "https://mitpress.mit.edu/9780262544139/shapes-of-imagination/"
+      "https://mitpress.mit.edu/9780262544139/shapes-of-imagination/",
+      "https://mitpress.mit.edu/9780262544139/shapes-of-imagination/#tab-9"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "abstract-only"
   },
   "annotation_file": "shape-grammar/notes/stiny-2022-imagination.md"
 }

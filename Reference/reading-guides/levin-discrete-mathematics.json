@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "source_id": "levin-discrete-mathematics",
+  "kind": "textbook",
+  "review": {
+    "level": "selected-sections",
+    "material": "Fourth-edition local PDF: preface; §0.2.2–0.2.3, selected §1.5.3 discussion, and §3.3 two-set counting result read.",
+    "limitations": "No full-text or exercise-solution review is claimed. The book’s teaching aims and examples do not establish measured learning gains; no education experiment is reported here.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://discrete.openmathbooks.org/pdfs/dmoi4.pdf",
+        "locator": "Preface; §§0.2.2–0.2.3, printed pp.5–7",
+        "description": "Inquiry-based approach and basic discrete structures"
+      },
+      {
+        "url": "https://discrete.openmathbooks.org/pdfs/dmoi4.pdf",
+        "locator": "§1.5.3, printed pp.87–88",
+        "description": "Function properties and pigeonhole reasoning"
+      },
+      {
+        "url": "https://discrete.openmathbooks.org/pdfs/dmoi4.pdf",
+        "locator": "§3.3, printed p.223, Theorem 3.3.5 and Example 3.3.6",
+        "description": "Counting overlapping alternatives"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://discrete.openmathbooks.org/dmoi4.html",
+    "label": "Read the original source",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What this book is about",
+      "text": "An introductory discrete-mathematics text organized around problems and explanations. Sets, functions and other structures provide tools for answering concrete questions. The fourth edition aims to support inquiry and proof writing rather than treating definitions as an isolated list.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "Main ideas in these pages",
+      "text": "A set depends on membership, not order or repetition. A function gives each domain element exactly one output in its codomain. Injectivity prohibits collisions, so a finite domain cannot inject into a smaller codomain.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "How an answer becomes an argument",
+      "text": "The reader investigates a problem, identifies a suitable structure, and explains the result from definitions. Counting uses classifications of possible outcomes; proofs check why the classification includes everything and whether any outcome has been counted more than once.",
+      "evidence": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "Two useful examples",
+      "text": "Mapping students to birth months makes the pigeonhole principle concrete: 25 students cannot occupy 12 months without a repeated month. In counting bit strings satisfying either of two conditions, subtracting their overlap corrects duplicate counting.",
+      "evidence": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "What follows",
+      "text": "For finite sets, |A∪B|=|A|+|B|−|A∩B|. The reason is structural: shared elements entered the first sum twice. This is a mathematical derivation with worked examples, not a statistical test.",
+      "evidence": [
+        2
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "How to read it here",
+      "text": "Try the motivating problem before reading its solution. Translate your own finite search into sets of outcomes, decide whether order matters, and identify overlaps before adding counts. Keep a proof of the counting method alongside the computed answer.",
+      "evidence": [
+        0,
+        2
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Inquiry-based approach and basic discrete structures",
+      "locator": "Preface; §§0.2.2–0.2.3, printed pp.5–7",
+      "url": "https://discrete.openmathbooks.org/pdfs/dmoi4.pdf"
+    },
+    {
+      "label": "Function properties and pigeonhole reasoning",
+      "locator": "§1.5.3, printed pp.87–88",
+      "url": "https://discrete.openmathbooks.org/pdfs/dmoi4.pdf"
+    },
+    {
+      "label": "Counting overlapping alternatives",
+      "locator": "§3.3, printed p.223, Theorem 3.3.5 and Example 3.3.6",
+      "url": "https://discrete.openmathbooks.org/pdfs/dmoi4.pdf"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Injective",
+      "meaning": "Distinct inputs always give distinct outputs."
+    },
+    {
+      "term": "Codomain",
+      "meaning": "The declared set of allowable outputs."
+    },
+    {
+      "term": "Inclusion–exclusion",
+      "meaning": "Correcting counts for overlaps between sets."
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-2023-teaching-award-of-excellence",
+  "kind": "award/biographical contribution",
+  "review": {
+    "level": "bibliographic-only",
+    "material": "The proceedings DOI record was inspected, and ACADIA’s official award-recipient list independently confirms Knight’s 2023 Teaching Award of Excellence. The four-page proceedings contribution was not accessible.",
+    "limitations": "The award record verifies recognition, not the full content or authorship role of every passage in the proceedings contribution. No learning-effectiveness experiment is inferred.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://doi.org/10.52842/conf.acadia.2023.3.091",
+        "locator": "ACADIA 2023 proceedings, pp. 91–94: record",
+        "description": "Original proceedings contribution link."
+      },
+      {
+        "url": "https://www.acadia.org/awards/recipients",
+        "locator": "Past Recipients: Terry Knight, Teaching Award of Excellence, 2023",
+        "description": "Primary organizational confirmation of the award."
+      }
+    ]
+  },
+  "original": {
+    "url": "https://doi.org/10.52842/conf.acadia.2023.3.091",
+    "label": "Read original publication record",
+    "type": "publication-record"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What this source is",
+      "text": "An award-related contribution in ACADIA’s 2023 proceedings, associated with Knight’s Teaching Award of Excellence. ACADIA’s own recipient list confirms the award and year.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "What the evidence establishes",
+      "text": "The organizational list establishes professional recognition. It does not establish which pedagogical techniques the proceedings text explains, nor supply a controlled assessment of student learning.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "What remains unread",
+      "text": "The four-page proceedings text was unavailable for this review. Its specific narrative, quotations and conclusions are therefore not summarized.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "How to read it",
+      "text": "Use it for historical and biographical context, then follow any cited teaching materials or research papers for methods and evidence. An award citation and an educational effectiveness study answer different questions.",
+      "evidence": [
+        0,
+        1
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Start here",
+      "locator": "ACADIA 2023 proceedings, pp. 91–94: record",
+      "url": "https://doi.org/10.52842/conf.acadia.2023.3.091"
+    }
+  ],
+  "terms": []
+}

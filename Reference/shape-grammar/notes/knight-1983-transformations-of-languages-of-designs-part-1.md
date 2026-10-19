@@ -1,24 +1,52 @@
 # Transformations of Languages of Designs: Part 1
 
-Source ID: `knight-1983-transformations-of-languages-of-designs-part-1`. Year: 1983. Contributors as recorded: T Weissman Knight.
+Source ID: `knight-1983-transformations-of-languages-of-designs-part-1`. 1983.
 
-Type: journal-article. Venue: Environment and Planning B: Planning and Design. Pages: 125-128.
+[Canonical metadata](../metadata/knight-1983-transformations-of-languages-of-designs-part-1.json) · [Read abstract and original access options](https://journals.sagepub.com/doi/10.1068/b100125)
 
-[Canonical metadata](../metadata/knight-1983-transformations-of-languages-of-designs-part-1.json) · [Source / publication record](https://doi.org/10.1068/b100125) · [Reading path](https://doi.org/10.1068/b100125)
+## Review scope
 
-Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.
+**abstract-only.** Publisher abstract read; complete original not retrieved. Only the official abstract and references were read. No particular historical comparison or formal result is independently established by this short overview.
 
-## Reading purpose
+## In brief
 
-Terry Knight author corpus: shape grammar theory, design, implementation, or teaching. This is a bibliographic entry and reading prompt, not a summary of an unreviewed argument.
+The first part introduces a rule-based account of changing entire design languages.
 
-## Verification
+Evidence: [Abstract](https://journals.sagepub.com/doi/10.1068/b100125).
 
-Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.
+## Question or aim
 
-## Locators
+How can stylistic relationships and innovation be stated through transformations?
 
-Exact claim locators require further full-text review.
+Evidence: [Abstract](https://journals.sagepub.com/doi/10.1068/b100125).
+
+## Approach described
+
+It sketches a formal model and compares the approach with traditional, informal accounts of design change.
+
+Evidence: [Abstract](https://journals.sagepub.com/doi/10.1068/b100125).
+
+## What the abstract supports
+
+The proposed model is intended both to relate historical styles and to construct new styles from known ones. Detailed formal development belongs to Part 2.
+
+Evidence: [Abstract](https://journals.sagepub.com/doi/10.1068/b100125).
+
+## What remains unverified
+
+Only the official abstract and references were read. No particular historical comparison or formal result is independently established by this short overview.
+
+Evidence: [Abstract](https://journals.sagepub.com/doi/10.1068/b100125).
+
+## Why it may help
+
+Read it as the motivation for the trilogy; continue to Part 2 for definitions and Part 3 for an architectural case study.
+
+Evidence: [Abstract](https://journals.sagepub.com/doi/10.1068/b100125).
+
+## Reading path
+
+- [Read the abstract and locate the original](https://journals.sagepub.com/doi/10.1068/b100125): Abstract.
 
 ## Originals and rights
 

@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "source_id": "knight-2025-how-is-that-computing-the-temporality-of-drawing",
+  "kind": "speculative computational case study",
+  "review": {
+    "level": "full-text",
+    "material": "The complete public chapter text and 25-page PDF were read. The rule descriptions, relative-time definitions and Fig. 9 computation were inspected.",
+    "limitations": "The author explicitly states that the Glarner process is speculative: no recordings establish how he actually drew. No timed human experiment validates the duration model.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://link.springer.com/chapter/10.1007/978-3-031-81623-9_6",
+        "locator": "Sections 1–4: process, temporal segmentation and Glarner study",
+        "description": "Primary framing and explicit status of the historical reconstruction."
+      },
+      {
+        "url": "https://link.springer.com/chapter/10.1007/978-3-031-81623-9_6",
+        "locator": "Section 5.1–5.2: timing assumptions; Figs. 7–10",
+        "description": "Relative gesture/decision measures and alternative computations."
+      },
+      {
+        "url": "https://link.springer.com/chapter/10.1007/978-3-031-81623-9_6",
+        "locator": "Sections 5.3–5.5 and 6: remaining stages, limitations, reflections",
+        "description": "Further rules and stated need for observation-based studies."
+      }
+    ]
+  },
+  "original": {
+    "url": "https://link.springer.com/chapter/10.1007/978-3-031-81623-9_6",
+    "label": "Read original source",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What it is about",
+      "text": "Knight extends making grammars from describing what happens during drawing to comparing how long alternative sequences might take. A hypothetical grammar for preparatory drawings in Fritz Glarner’s Relational Painting style separates seeing/deciding from drawing/erasing.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "question",
+      "title": "Central question",
+      "text": "Can a grammar represent duration as well as spatial change? The chapter treats creative making as a process unfolding in time, asking how different ways of reaching a similar final drawing can have different temporal structures.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "How the model works",
+      "text": "Five stages establish a boundary, subdivide rectangles, add oblique divisions, add wedge borders and finish. Rules alternate sensing and doing states. Gesture time is approximated by stroke length; decision time uses a provisional visual-complexity measure or assigned constants. These are relative model units, not seconds.",
+      "evidence": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "The worked comparison",
+      "text": "Two sequences create the same orthogonal subdivision with reported relative totals of 1490 and 2082. Different intermediate area distributions change the model’s decision-time cost even when the final drawing agrees. Later examples extend the computation through oblique lines and borders.",
+      "evidence": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "What is demonstrated",
+      "text": "The framework can make the order and duration assumptions of a drawing process explicit. Within this model, alternative sequences can differ in decision cost while keeping gesture length fixed. The result is a demonstration of representational possibilities, not a discovery of Glarner’s real working time.",
+      "evidence": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "Important qualifications",
+      "text": "No empirical record of Glarner’s drawing process is available. The complexity measure is a placeholder; constants are chosen for comparison, and backtracking to earlier stages is excluded. The author says real drawing speed could depend on further factors and would require empirical study.",
+      "evidence": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "How to experiment with it",
+      "text": "Describe a drawing twice: once as a finished composition, once as a sequence of looking, deciding, marking and revising. Label every timing assumption. Compare sequences under the same assumptions, and keep simulated duration separate from observed duration.",
+      "evidence": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Start here",
+      "locator": "Sections 1–4: process, temporal segmentation and Glarner study",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-81623-9_6"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Temporal segmentation",
+      "meaning": "Dividing a continuous making activity into meaningful action intervals."
+    },
+    {
+      "term": "Relative time",
+      "meaning": "A model-dependent duration used for comparison, without an established conversion to real elapsed time."
+    },
+    {
+      "term": "Gesture time",
+      "meaning": "Here, a stroke-length-based proxy for time spent drawing or erasing."
+    }
+  ]
+}

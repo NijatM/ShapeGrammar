@@ -19,7 +19,7 @@
     "spatial-relations",
     "recursion"
   ],
-  "relevance": "Early primary treatment of spatial relations and recursive design.",
+  "relevance": "Two complementary exercises show how to explore families of shapes: start with elements and allowable relations, or start with a drawing and infer rules that generate it and related drawings.",
   "prerequisite_level": "intermediate",
   "prerequisites": [
     "Elementary sets and functions; some proof reading"
@@ -33,13 +33,27 @@
   },
   "local_files": [],
   "existing_local_files": [],
-  "locators": [],
+  "locators": [
+    {
+      "locator": "pp. 188–194, §2: shape, spatial relations and grammars",
+      "status": "selected-sections-reviewed"
+    },
+    {
+      "locator": "pp. 194–203, §3.1: Exercise 1",
+      "status": "selected-sections-reviewed"
+    },
+    {
+      "locator": "pp. 203–209, §3.2 and conclusions",
+      "status": "selected-sections-reviewed"
+    }
+  ],
   "verification": {
-    "scope": "Bibliographic record or official landing page inspected; full text and exact claim locators not reviewed.",
+    "scope": "Primary paper: definitions in §2, both exercises in §3, and conclusions; selected illustrated constructions. The central framework and both exercises were reviewed. The many illustrated rule variants were sampled rather than exhaustively checked.",
     "source_urls": [
-      "https://journals.sagepub.com/doi/10.1068/b030187"
+      "https://journals.sagepub.com/doi/10.1068/b030187",
+      "https://www.andrew.cmu.edu/user/ramesh/teaching/course/48-747/subFrames/readings/Stiny-1976-EPB3_187-210.TwoExerciseInFormalComposition.pdf"
     ],
-    "content_review": "bibliography-only"
+    "content_review": "selected-sections"
   },
   "annotation_file": "shape-grammar/notes/stiny-1976-exercises.md"
 }

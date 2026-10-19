@@ -1,25 +1,42 @@
 # What Is the Monster?
 
-Source ID: `borcherds-2002-monster`. Authors: Richard E. Borcherds. Year: 2002.
+## Reading guide
 
-Accessible expert overview before more technical moonshine sources.
+Review: **full-text**, 2026-10-19. All three pages of the author-hosted reading copy read.
 
-[Canonical/verification page](https://math.berkeley.edu/~reb/papers/whatismonster/whatismonster.pdf) · [Lawful reading link](https://math.berkeley.edu/~reb/papers/whatismonster/whatismonster.pdf).
+Expository review, not independent verification of the constructions it cites. Statements about subgroup knowledge and computing resources are historical to this article.
 
-Version: Version of record unless otherwise noted.
+## What it explains
 
-Review scope: Author publication list verifies title, year, journal and pages; author-hosted reading link retained.
+Borcherds introduces the Monster through finite groups, representations and algebraic structures it preserves. [1](https://math.berkeley.edu/~reb/papers/whatismonster/whatismonster.pdf)
 
-## Reading locators
+## The organizing idea
 
-- Exact claim/page locators still require full-text review.
+Knowing a group’s size gives less structural understanding than realizing it as automorphisms of an algebra. The article presents the Griess algebra, Monster vertex algebra and Monster Lie algebra as complementary perspectives. [1](https://math.berkeley.edu/~reb/papers/whatismonster/whatismonster.pdf)
 
-## Local originals
+## How the explanation develops
 
-- Reading link only; no new original mirrored here.
+The exposition follows numerical clues into graded representations and then trace series. Vertex-algebra structure and a no-ghost construction connect those series to Lie-algebra denominator identities. [1](https://math.berkeley.edu/~reb/papers/whatismonster/whatismonster.pdf)
 
-## Rights
+## The motivating clue
 
-No redistribution license verified. No public redistribution permission verified; citation and lawful reading link only.
+The equality 196884=196883+1 connects a modular-function coefficient with representation dimensions. It motivates moonshine but is not, by itself, its proof. [1](https://math.berkeley.edu/~reb/papers/whatismonster/whatismonster.pdf)
 
-This is a public editorial reference annotation. Bibliographic inclusion does not certify every claim in the work, complete a lesson, or establish a connection to the Monster.
+## Conclusion and limits
+
+The Monster vertex algebra provides a particularly informative realization. Borcherds nevertheless finds its construction conceptually unsatisfying. The short article sketches explanations; it does not reproduce their full proofs. [1](https://math.berkeley.edu/~reb/papers/whatismonster/whatismonster.pdf)
+
+## Key terms
+
+- **Automorphism**: An invertible map preserving the specified structure.
+- **Trace series**: A generating series recording traces on graded pieces.
+
+## Read next
+
+- [Four complementary descriptions of the Monster](https://math.berkeley.edu/~reb/papers/whatismonster/whatismonster.pdf): Author PDF pp.1–3 (journal version pp.1076–1077)
+
+## Access and preservation
+
+No public redistribution permission verified; citation and lawful reading link only.
+
+This annotation is an original reading aid. Consult the linked text for complete arguments, notation and qualifications.

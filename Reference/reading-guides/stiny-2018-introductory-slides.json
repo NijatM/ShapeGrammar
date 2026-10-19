@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "source_id": "stiny-2018-introductory-slides",
+  "kind": "lecture-slides",
+  "review": {
+    "level": "selected-sections",
+    "material": "Complete 48-page PDF text layer read; selected diagrams on PDF pp.5–7, 21–22, 30–32 and 46 visually inspected.",
+    "limitations": "This is a selection of visual demonstrations, not a full audit of every artwork or diagram. Philosophical claims and teaching examples are not a controlled user study or proof that an implementation exceeds Turing computation. PDF remains link-only because it contains excluded third-party images.",
+    "date": "2026-10-19",
+    "evidence": [
+      {
+        "url": "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/e30a7279edca537998b17385065593f4_MIT4_540F18_lectureslides.pdf",
+        "locator": "PDF pp.5–7",
+        "description": "Embedding, alternative parts and figure–ground readings"
+      },
+      {
+        "url": "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/e30a7279edca537998b17385065593f4_MIT4_540F18_lectureslides.pdf",
+        "locator": "PDF pp.19–22 and 30–32",
+        "description": "Schemas, changing decompositions and triangle examples"
+      },
+      {
+        "url": "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/e30a7279edca537998b17385065593f4_MIT4_540F18_lectureslides.pdf",
+        "locator": "PDF pp.37, 43 and 46",
+        "description": "Computational qualifications and embed–fuse cycle"
+      }
+    ]
+  },
+  "original": {
+    "url": "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/e30a7279edca537998b17385065593f4_MIT4_540F18_lectureslides.pdf",
+    "label": "Read original MIT lecture slides",
+    "type": "full-text"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What the slides demonstrate",
+      "text": "A visual introduction to calculation that can discover new parts in a drawing rather than preserve one fixed inventory of pieces.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "Central premise",
+      "text": "A rule can match an embedded shape even when that shape differs from the objects originally drawn. Fusion permits later rules to divide the result differently.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "How the demonstration works",
+      "text": "Nested squares, figure–ground reversals and triangle arrangements alternate with rule schemas. The diagrams contrast the geometry visible now with a retrospective decomposition tree.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "The rule-application mechanism",
+      "text": "For A→B in host C, find t(A)≤C, then calculate (C−t(A))+t(B). The same transformation t places both sides; after fusion, the next match can select different parts.",
+      "evidence": [
+        2
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "How to interpret the outcome",
+      "text": "These are explanatory examples and philosophical arguments. The slides qualify their discussion of symbolic and visual computation; they do not establish a benchmark showing that a particular computer program has unlimited visual insight.",
+      "evidence": [
+        2
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "A practical reading task",
+      "text": "Trace a part that crosses earlier drawing boundaries, apply one rule, then redraw a different decomposition of the result. Compare the geometry with its description tree.",
+      "evidence": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "reading_path": [
+    {
+      "label": "Embedding, alternative parts and figure–ground readings",
+      "locator": "PDF pp.5–7",
+      "url": "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/e30a7279edca537998b17385065593f4_MIT4_540F18_lectureslides.pdf"
+    },
+    {
+      "label": "Schemas, changing decompositions and triangle examples",
+      "locator": "PDF pp.19–22 and 30–32",
+      "url": "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/e30a7279edca537998b17385065593f4_MIT4_540F18_lectureslides.pdf"
+    },
+    {
+      "label": "Computational qualifications and embed–fuse cycle",
+      "locator": "PDF pp.37, 43 and 46",
+      "url": "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/e30a7279edca537998b17385065593f4_MIT4_540F18_lectureslides.pdf"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Schema",
+      "meaning": "A family of rules obtained by assigning values to variables."
+    },
+    {
+      "term": "Embedding",
+      "meaning": "Finding a transformed copy as a geometric part."
+    },
+    {
+      "term": "Fusion",
+      "meaning": "Combining shapes without retaining a required original subdivision."
+    }
+  ]
+}

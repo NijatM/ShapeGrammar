@@ -1,24 +1,40 @@
 # Possible Palladian Villas
 
-Source ID: `knight-1994-possible-palladian-villas`. Year: 1994. Contributors as recorded: Terry Knight.
+Source ID: `knight-1994-possible-palladian-villas`. 1994.
 
-Type: book-review. Venue: Journal of Architectural Education. Pages: 258-260.
+[Canonical metadata](../metadata/knight-1994-possible-palladian-villas.json) · [Book-review record and original access options](https://www.tandfonline.com/doi/abs/10.1080/10464883.1994.10734613)
 
-[Canonical metadata](../metadata/knight-1994-possible-palladian-villas.json) · [Source / publication record](https://doi.org/10.1080/10464883.1994.10734613) · [Reading path](https://doi.org/10.1080/10464883.1994.10734613)
+## Review scope
 
-Journal item credited to Terry Knight in publisher-deposited metadata. Hersey and Freedman named in an aggregate entry appear associated with the book; they are not added as coauthors here. Review of Hersey–Freedman book; 1994 journal issue, later online posting 22 August 2013. The review’s author is Knight.
+**bibliographic-only.** Read the publisher record and issue contents, which classify this item as a book review by Terry Knight. The review text was not accessible. Its judgments and conclusions remain unreviewed.
 
-## Reading purpose
+## What this source is
 
-Terry Knight author corpus: shape grammar theory, design, implementation, or teaching. This is a bibliographic entry and reading prompt, not a summary of an unreviewed argument.
+This is Knight’s review of Possible Palladian Villas, not a new villa-generating study authored jointly with Hersey and Freedman.
 
-## Verification
+Evidence: [Publication record: title, author, pp. 258–260 and online date](https://www.tandfonline.com/doi/abs/10.1080/10464883.1994.10734613); [Book Review: Possible Palladian Villas](https://www.tandfonline.com/toc/rjae20/47/4).
 
-Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.
+## How to read this kind of source
 
-## Locators
+A book review assesses another work. It should be kept distinct from the book’s own methods, results and claims.
 
-Exact claim locators require further full-text review.
+Evidence: [Book Review: Possible Palladian Villas](https://www.tandfonline.com/toc/rjae20/47/4).
+
+## What remains unknown
+
+The accessible record does not reveal Knight’s assessment, criticism or recommendation. No stance is inferred from the title.
+
+Evidence: [Publication record: title, author, pp. 258–260 and online date](https://www.tandfonline.com/doi/abs/10.1080/10464883.1994.10734613).
+
+## Useful distinction
+
+The journal issue is from 1994; the record’s 22 August 2013 date is its later online publication. Use the original review for its actual argument.
+
+Evidence: [Publication record: title, author, pp. 258–260 and online date](https://www.tandfonline.com/doi/abs/10.1080/10464883.1994.10734613).
+
+## Reading path
+
+- [Locate the review](https://www.tandfonline.com/doi/abs/10.1080/10464883.1994.10734613): Journal of Architectural Education 47(4), pp. 258–260.
 
 ## Originals and rights
 
