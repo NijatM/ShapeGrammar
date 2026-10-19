@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "hefferon-linear-algebra",
+  "topic": "bridges",
+  "title": "Linear Algebra",
+  "authors": [
+    "Jim Hefferon"
+  ],
+  "year": null,
+  "edition_version": "Living author site; PDF edition not pinned in this pass",
+  "doi": null,
+  "stable_url": "https://hefferon.net/linearalgebra/",
+  "reading_url": "https://hefferon.net/linearalgebra/",
+  "download_url": null,
+  "venue": null,
+  "pages": null,
+  "tags": [
+    "bridges",
+    "linear-algebra",
+    "representations"
+  ],
+  "relevance": "Preparatory linear systems, vector spaces, linear maps, matrices and eigenvalues.",
+  "prerequisite_level": "intermediate",
+  "prerequisites": [
+    "Elementary sets and functions; some proof reading"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://hefferon.net/linearalgebra/",
+    "conditions": "No public redistribution permission verified; citation and lawful reading link only."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [],
+  "verification": {
+    "scope": "Official author site read; current download routes through OpenIntro. No PDF downloaded or edition year guessed.",
+    "source_urls": [
+      "https://hefferon.net/linearalgebra/"
+    ],
+    "content_review": "bibliography-only"
+  },
+  "annotation_file": "bridges/notes/hefferon-linear-algebra.md"
+}

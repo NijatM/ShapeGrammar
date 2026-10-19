@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "mit-artin-algebra",
+  "topic": "group-theory",
+  "title": "Algebra I (18.701)",
+  "authors": [
+    "Michael Artin"
+  ],
+  "year": 2010,
+  "edition_version": "Fall 2010 course",
+  "doi": null,
+  "stable_url": "https://ocw.mit.edu/courses/18-701-algebra-i-fall-2010/",
+  "reading_url": "https://ocw.mit.edu/courses/18-701-algebra-i-fall-2010/",
+  "download_url": null,
+  "venue": "MIT OpenCourseWare",
+  "pages": null,
+  "tags": [
+    "group-theory",
+    "bridges",
+    "linear-algebra",
+    "symmetry"
+  ],
+  "relevance": "Groups, linear transformations and symmetry as a route to later representation theory.",
+  "prerequisite_level": "intermediate",
+  "prerequisites": [
+    "Elementary sets and functions; some proof reading"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://ocw.mit.edu/courses/18-701-algebra-i-fall-2010/",
+    "conditions": "No public redistribution permission verified; citation and lawful reading link only."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [],
+  "verification": {
+    "scope": "Bibliographic record or official landing page inspected; full text and exact claim locators not reviewed.",
+    "source_urls": [
+      "https://ocw.mit.edu/courses/18-701-algebra-i-fall-2010/"
+    ],
+    "content_review": "bibliography-only"
+  },
+  "annotation_file": "group-theory/notes/mit-artin-algebra.md"
+}

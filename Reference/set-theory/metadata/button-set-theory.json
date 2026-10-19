@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "button-set-theory",
+  "topic": "set-theory",
+  "title": "Set Theory: An Open Introduction",
+  "authors": [
+    "Tim Button",
+    "Open Logic Project"
+  ],
+  "year": 2021,
+  "edition_version": "Fall 2021 label; downloaded build revision 2138a50 (2026-07-11), content 9620cc7 (2026-07-12)",
+  "doi": null,
+  "stable_url": "https://st.openlogicproject.org/",
+  "reading_url": "https://st.openlogicproject.org/",
+  "download_url": "https://st.openlogicproject.org/settheory-screen.pdf",
+  "venue": null,
+  "pages": null,
+  "tags": [
+    "set-theory",
+    "foundations",
+    "ZFC",
+    "infinity"
+  ],
+  "relevance": "Optional foundations branch: naive sets, ordinals, iterative conception and axioms.",
+  "prerequisite_level": "intermediate",
+  "prerequisites": [
+    "Elementary sets and functions; some proof reading"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "downloaded-with-conditions",
+    "license": "CC BY 4.0 (text); CC BY-NC 4.0 (Matthew Leadbeater cover illustrations)",
+    "evidence_url": "https://st.openlogicproject.org/settheory-screen.pdf",
+    "conditions": "Tim Button and Open Logic Project attribution retained. Cover illustrations impose an additional noncommercial condition on the complete PDF. Preserve revision information."
+  },
+  "local_files": [
+    {
+      "path": "set-theory/originals/button-set-theory.pdf",
+      "sha256": "e5acbca92b5c2d0b931014f9e3fcb11fcac4bb7fe301f0d2965f51692807ec63",
+      "bytes": 4044827,
+      "pdf_pages": 263,
+      "download_url": "https://st.openlogicproject.org/settheory-screen.pdf",
+      "resolved_url": "https://st.openlogicproject.org/settheory-screen.pdf",
+      "access_date": "2026-10-18",
+      "unmodified": true
+    }
+  ],
+  "existing_local_files": [],
+  "locators": [
+    {
+      "locator": "Part II, Chapters 2–5; §§2.1–2.5, 3.1–3.4, 4.1–4.5",
+      "status": "downloaded-table-of-contents-verified"
+    }
+  ],
+  "verification": {
+    "scope": "Bibliographic record or official landing page inspected; full text and exact claim locators not reviewed.",
+    "source_urls": [
+      "https://st.openlogicproject.org/",
+      "https://st.openlogicproject.org/settheory-screen.pdf"
+    ],
+    "content_review": "front-matter-rights-and-contents"
+  },
+  "annotation_file": "set-theory/notes/button-set-theory.md"
+}

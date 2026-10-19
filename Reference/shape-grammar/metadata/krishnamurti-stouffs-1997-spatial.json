@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "krishnamurti-stouffs-1997-spatial",
+  "topic": "shape-grammar",
+  "title": "Spatial Change: Continuity, Reversibility, and Emergent Shapes",
+  "authors": [
+    "Ramesh Krishnamurti",
+    "Rudi Stouffs"
+  ],
+  "year": 1997,
+  "edition_version": "Version of record unless otherwise noted",
+  "doi": "10.1068/b240359",
+  "stable_url": "https://journals.sagepub.com/doi/10.1068/b240359",
+  "reading_url": "https://journals.sagepub.com/doi/10.1068/b240359",
+  "download_url": null,
+  "venue": "Environment and Planning B 24(3)",
+  "pages": "359–384",
+  "tags": [
+    "shape-grammar",
+    "matching",
+    "continuity",
+    "reversibility",
+    "U12"
+  ],
+  "relevance": "Primary connection among shape replacement, reversibility and emergent-shape recognition.",
+  "prerequisite_level": "advanced",
+  "prerequisites": [
+    "Undergraduate algebra and linear algebra; additional prerequisites in topic notes"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://journals.sagepub.com/doi/10.1068/b240359",
+    "conditions": "No public redistribution permission verified; citation and lawful reading link only."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [],
+  "verification": {
+    "scope": "Publisher abstract and bibliographic details inspected; detailed recognition cases require full-text review.",
+    "source_urls": [
+      "https://journals.sagepub.com/doi/10.1068/b240359"
+    ],
+    "content_review": "bibliography-only"
+  },
+  "annotation_file": "shape-grammar/notes/krishnamurti-stouffs-1997-spatial.md"
+}

@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "id": "judson-abstract-algebra",
+  "topic": "group-theory",
+  "title": "Abstract Algebra: Theory and Applications",
+  "authors": [
+    "Thomas W. Judson",
+    "Robert A. Beezer (Sage material)"
+  ],
+  "year": 2025,
+  "edition_version": "Annual Edition 2025, 1 August 2025 PDF; newer 2026 file also listed on author page",
+  "doi": null,
+  "stable_url": "https://judsonbooks.org/abstract-algebra-theory-and-applications/",
+  "reading_url": "https://judsonbooks.org/abstract-algebra-theory-and-applications/",
+  "download_url": "https://judsonbooks.org/aata-files/aata-20250801.pdf",
+  "venue": null,
+  "pages": null,
+  "tags": [
+    "group-theory",
+    "set-theory",
+    "groups",
+    "actions",
+    "quotients"
+  ],
+  "relevance": "Primary beginner group course text: axioms, cyclic/permutation groups, cosets, homomorphisms and actions.",
+  "prerequisite_level": "beginner",
+  "prerequisites": [
+    "High-school arithmetic; notation introduced gradually"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "downloaded-with-conditions",
+    "license": "GNU Free Documentation License 1.2 or later",
+    "evidence_url": "https://judsonbooks.org/aata-files/aata-20250801.pdf",
+    "conditions": "No Invariant Sections, Front-Cover Texts or Back-Cover Texts. Preserve unmodified PDF, title and copyright notices and complete GFDL appendix. See GFDL for distribution requirements."
+  },
+  "local_files": [
+    {
+      "path": "group-theory/originals/judson-abstract-algebra.pdf",
+      "sha256": "4f74587b61861b4790d613f2adb64699f90fd1d07760204f1d8fc9fcaf63d14f",
+      "bytes": 2207438,
+      "pdf_pages": 503,
+      "download_url": "https://judsonbooks.org/aata-files/aata-20250801.pdf",
+      "resolved_url": "https://judsonbooks.org/aata-files/aata-20250801.pdf",
+      "access_date": "2026-10-18",
+      "unmodified": true
+    }
+  ],
+  "existing_local_files": [],
+  "locators": [
+    {
+      "locator": "§§3.1–3.3: symmetries, group definitions, subgroups (pp. 39–50)",
+      "status": "downloaded-PDF-table-of-contents-verified; full definitions require lesson review"
+    },
+    {
+      "locator": "§4.1: cyclic subgroups (p. 64); §§5.1–5.2: permutations and dihedral groups (pp. 87–98)",
+      "status": "downloaded-PDF-table-of-contents-verified; full definitions require lesson review"
+    },
+    {
+      "locator": "§10.1: normal subgroups and factor groups (p. 183); §11.1: homomorphisms (p. 196)",
+      "status": "downloaded-PDF-table-of-contents-verified; full definitions require lesson review"
+    },
+    {
+      "locator": "§§12.1–12.2: matrix groups and symmetry (pp. 210–223)",
+      "status": "downloaded-PDF-table-of-contents-verified; full definitions require lesson review"
+    },
+    {
+      "locator": "§§14.1–14.3: actions, class equation, Burnside (pp. 239–249)",
+      "status": "downloaded-PDF-table-of-contents-verified; full definitions require lesson review"
+    }
+  ],
+  "verification": {
+    "scope": "Bibliographic record or official landing page inspected; full text and exact claim locators not reviewed.",
+    "source_urls": [
+      "https://judsonbooks.org/abstract-algebra-theory-and-applications/",
+      "https://judsonbooks.org/aata-files/aata-20250801.pdf"
+    ],
+    "content_review": "front-matter-rights-and-contents"
+  },
+  "annotation_file": "group-theory/notes/judson-abstract-algebra.md"
+}

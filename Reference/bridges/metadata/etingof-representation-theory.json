@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "etingof-representation-theory",
+  "topic": "bridges",
+  "title": "Introduction to Representation Theory",
+  "authors": [
+    "Pavel Etingof",
+    "Oleg Golberg",
+    "Sebastian Hensel",
+    "Tiankai Liu",
+    "Alex Schwendner",
+    "Dmitry Vaintrob",
+    "Elena Yudovina"
+  ],
+  "year": 2011,
+  "edition_version": "arXiv:0901.0827v5, 1 February 2011; initial submission 2009",
+  "doi": null,
+  "stable_url": "https://arxiv.org/abs/0901.0827",
+  "reading_url": "https://arxiv.org/abs/0901.0827",
+  "download_url": null,
+  "venue": null,
+  "pages": null,
+  "tags": [
+    "bridges",
+    "group-theory",
+    "monster-moonshine",
+    "representations",
+    "linear-algebra"
+  ],
+  "relevance": "Prerequisite bridge from groups and linear algebra to representations; eventual moonshine preparation.",
+  "prerequisite_level": "advanced",
+  "prerequisites": [
+    "Undergraduate algebra and linear algebra; additional prerequisites in topic notes"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://arxiv.org/abs/0901.0827",
+    "conditions": "No public redistribution permission verified; citation and lawful reading link only."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [],
+  "verification": {
+    "scope": "arXiv author list, version history and prerequisites inspected; interior locators not asserted.",
+    "source_urls": [
+      "https://arxiv.org/abs/0901.0827"
+    ],
+    "content_review": "bibliography-only"
+  },
+  "annotation_file": "bridges/notes/etingof-representation-theory.md"
+}

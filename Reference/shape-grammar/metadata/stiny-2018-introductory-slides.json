@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "stiny-2018-introductory-slides",
+  "topic": "shape-grammar",
+  "title": "Introductory Lecture Slides — Introduction to Shape Grammars I",
+  "authors": [
+    "George Stiny"
+  ],
+  "year": 2018,
+  "edition_version": "Fall 2018; 48 PDF pages",
+  "doi": null,
+  "stable_url": "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/resources/mit4_540f18_lectureslides/",
+  "reading_url": "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/resources/mit4_540f18_lectureslides/",
+  "download_url": null,
+  "venue": "MIT OpenCourseWare",
+  "pages": null,
+  "tags": [
+    "shape-grammar",
+    "seeing",
+    "open-courseware"
+  ],
+  "relevance": "Visual teaching reference; several reproduced images have explicit CC exclusions.",
+  "prerequisite_level": "beginner",
+  "prerequisites": [
+    "High-school arithmetic; notation introduced gradually"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/resources/mit4_540f18_lectureslides/",
+    "conditions": "LINK ONLY: course license excludes named third-party content (North Holland, Harold Cohen, Andy Warhol). Entire PDF is not proposed for public redistribution."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [],
+  "verification": {
+    "scope": "PDF text inspected, including explicit third-party copyright exclusions on PDF pages 4, 38, 44.",
+    "source_urls": [
+      "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/resources/mit4_540f18_lectureslides/"
+    ],
+    "content_review": "bibliography-only"
+  },
+  "annotation_file": "shape-grammar/notes/stiny-2018-introductory-slides.md"
+}

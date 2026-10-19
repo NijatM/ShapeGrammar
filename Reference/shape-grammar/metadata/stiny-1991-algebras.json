@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "stiny-1991-algebras",
+  "topic": "shape-grammar",
+  "title": "The Algebras of Design",
+  "authors": [
+    "George Stiny"
+  ],
+  "year": 1991,
+  "edition_version": "Version of record unless otherwise noted",
+  "doi": "10.1007/BF01578998",
+  "stable_url": "https://link.springer.com/article/10.1007/BF01578998",
+  "reading_url": "https://link.springer.com/article/10.1007/BF01578998",
+  "download_url": null,
+  "venue": "Research in Engineering Design 2",
+  "pages": "171–181",
+  "tags": [
+    "shape-grammar",
+    "shape-algebras",
+    "U12"
+  ],
+  "relevance": "Source candidate for U_ij algebras and dimensions; obtain and inspect the defining section before formalizing U_12.",
+  "prerequisite_level": "intermediate",
+  "prerequisites": [
+    "Elementary sets and functions; some proof reading"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://link.springer.com/article/10.1007/BF01578998",
+    "conditions": "No public redistribution permission verified; citation and lawful reading link only."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [],
+  "verification": {
+    "scope": "Bibliographic record or official landing page inspected; full text and exact claim locators not reviewed.",
+    "source_urls": [
+      "https://link.springer.com/article/10.1007/BF01578998"
+    ],
+    "content_review": "bibliography-only"
+  },
+  "annotation_file": "shape-grammar/notes/stiny-1991-algebras.md"
+}

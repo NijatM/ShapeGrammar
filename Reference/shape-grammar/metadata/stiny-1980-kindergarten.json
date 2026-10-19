@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "stiny-1980-kindergarten",
+  "topic": "shape-grammar",
+  "title": "Kindergarten Grammars: Designing with Froebel’s Building Gifts",
+  "authors": [
+    "George Stiny"
+  ],
+  "year": 1980,
+  "edition_version": "Version of record unless otherwise noted",
+  "doi": "10.1068/b070409",
+  "stable_url": "https://journals.sagepub.com/doi/10.1068/b070409",
+  "reading_url": "https://journals.sagepub.com/doi/10.1068/b070409",
+  "download_url": null,
+  "venue": "Environment and Planning B 7(4)",
+  "pages": "409–462",
+  "tags": [
+    "shape-grammar",
+    "generative-design",
+    "examples"
+  ],
+  "relevance": "Historical design example for grammar construction; distinguish its dimensional scope from the planar lab.",
+  "prerequisite_level": "intermediate",
+  "prerequisites": [
+    "Elementary sets and functions; some proof reading"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://journals.sagepub.com/doi/10.1068/b070409",
+    "conditions": "No public redistribution permission verified; citation and lawful reading link only."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [],
+  "verification": {
+    "scope": "Bibliographic record or official landing page inspected; full text and exact claim locators not reviewed.",
+    "source_urls": [
+      "https://journals.sagepub.com/doi/10.1068/b070409"
+    ],
+    "content_review": "bibliography-only"
+  },
+  "annotation_file": "shape-grammar/notes/stiny-1980-kindergarten.md"
+}

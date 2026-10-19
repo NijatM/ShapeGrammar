@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "krishnamurti-1980-arithmetic",
+  "topic": "shape-grammar",
+  "title": "The Arithmetic of Shapes",
+  "authors": [
+    "Ramesh Krishnamurti"
+  ],
+  "year": 1980,
+  "edition_version": "Version of record unless otherwise noted",
+  "doi": "10.1068/b070463",
+  "stable_url": "https://journals.sagepub.com/doi/10.1068/b070463",
+  "reading_url": "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb070463-arithmeticOfShapes.pdf",
+  "download_url": null,
+  "venue": "Environment and Planning B 7(4)",
+  "pages": "463–484",
+  "tags": [
+    "shape-grammar",
+    "implementation",
+    "shape-arithmetic",
+    "maximal-lines"
+  ],
+  "relevance": "Primary algorithmic treatment of shape operations and relations.",
+  "prerequisite_level": "intermediate",
+  "prerequisites": [
+    "Elementary sets and functions; some proof reading"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://journals.sagepub.com/doi/10.1068/b070463",
+    "conditions": "No public redistribution permission verified; citation and lawful reading link only."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [],
+  "verification": {
+    "scope": "Crossref metadata and author-hosted primary PDF search result inspected. Correct start page is 463; a secondary citation reported 464.",
+    "source_urls": [
+      "https://journals.sagepub.com/doi/10.1068/b070463"
+    ],
+    "content_review": "bibliography-only"
+  },
+  "annotation_file": "shape-grammar/notes/krishnamurti-1980-arithmetic.md"
+}

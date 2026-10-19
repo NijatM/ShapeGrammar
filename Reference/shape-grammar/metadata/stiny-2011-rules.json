@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "stiny-2011-rules",
+  "topic": "shape-grammar",
+  "title": "What Rule(s) Should I Use?",
+  "authors": [
+    "George Stiny"
+  ],
+  "year": 2011,
+  "edition_version": "Version of record unless otherwise noted",
+  "doi": "10.1007/s00004-011-0056-6",
+  "stable_url": "https://link.springer.com/article/10.1007/s00004-011-0056-6",
+  "reading_url": "https://link.springer.com/article/10.1007/s00004-011-0056-6",
+  "download_url": null,
+  "venue": "Nexus Network Journal 13(1)",
+  "pages": "15–47",
+  "tags": [
+    "shape-grammar",
+    "rule-schemas",
+    "rules"
+  ],
+  "relevance": "Primary discussion of rule choice and schemas for the grammar-construction strand.",
+  "prerequisite_level": "intermediate",
+  "prerequisites": [
+    "Elementary sets and functions; some proof reading"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://link.springer.com/article/10.1007/s00004-011-0056-6",
+    "conditions": "No public redistribution permission verified; citation and lawful reading link only."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [],
+  "verification": {
+    "scope": "Bibliographic record or official landing page inspected; full text and exact claim locators not reviewed.",
+    "source_urls": [
+      "https://link.springer.com/article/10.1007/s00004-011-0056-6"
+    ],
+    "content_review": "bibliography-only"
+  },
+  "annotation_file": "shape-grammar/notes/stiny-2011-rules.md"
+}

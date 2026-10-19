@@ -1,0 +1,388 @@
+{
+  "note": "HTTP success checks reachability only. 403/406 may be access filtering; source verification scope is recorded separately. No paywalls or access controls were bypassed.",
+  "results": [
+    {
+      "url": "https://arxiv.org/abs/0901.0827",
+      "checked_at_utc": "2026-10-19T01:28:00.328247+00:00",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/0901.0827",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2012.10949",
+      "checked_at_utc": "2026-10-19T01:28:00.328574+00:00",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2012.10949",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2012.10949v3",
+      "checked_at_utc": "2026-10-19T01:28:00.328710+00:00",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2012.10949v3",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://arxiv.org/abs/math/0402345",
+      "checked_at_utc": "2026-10-19T01:28:00.328826+00:00",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/math/0402345",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://arxiv.org/abs/math/0402345v2",
+      "checked_at_utc": "2026-10-19T01:28:00.429613+00:00",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/math/0402345v2",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/M/",
+      "checked_at_utc": "2026-10-19T01:28:00.430470+00:00",
+      "status": 200,
+      "final_url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/M/",
+      "content_type": "text/html; charset=UTF-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://discrete.openmathbooks.org/dmoi4.html",
+      "checked_at_utc": "2026-10-19T01:28:00.431770+00:00",
+      "status": 200,
+      "final_url": "https://discrete.openmathbooks.org/dmoi4.html",
+      "content_type": "text/html",
+      "pdf_header": false
+    },
+    {
+      "url": "https://doi.org/10.7551/mitpress/14469.001.0001",
+      "checked_at_utc": "2026-10-19T01:28:00.433072+00:00",
+      "status": 403,
+      "final_url": "https://direct.mit.edu/books/book/5489/Shapes-of-ImaginationCalculating-in-Coleridge-s",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://hdl.handle.net/2345/1564",
+      "checked_at_utc": "2026-10-19T01:28:00.517705+00:00",
+      "status": 403,
+      "final_url": "https://ur.bc.edu/islandora/object/bc-ir:102769",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://hefferon.net/linearalgebra/",
+      "checked_at_utc": "2026-10-19T01:28:00.649797+00:00",
+      "status": 200,
+      "final_url": "https://hefferon.net/linearalgebra/",
+      "content_type": "text/html",
+      "pdf_header": false
+    },
+    {
+      "url": "https://journals.sagepub.com/doi/10.1068/b030187",
+      "checked_at_utc": "2026-10-19T01:28:00.738467+00:00",
+      "status": 403,
+      "final_url": "https://journals.sagepub.com/doi/10.1068/b030187",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://journals.sagepub.com/doi/10.1068/b050005",
+      "checked_at_utc": "2026-10-19T01:28:00.816593+00:00",
+      "status": 403,
+      "final_url": "https://journals.sagepub.com/doi/10.1068/b050005",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://journals.sagepub.com/doi/10.1068/b070343",
+      "checked_at_utc": "2026-10-19T01:28:00.826364+00:00",
+      "status": 403,
+      "final_url": "https://journals.sagepub.com/doi/10.1068/b070343",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://journals.sagepub.com/doi/10.1068/b070409",
+      "checked_at_utc": "2026-10-19T01:28:00.909324+00:00",
+      "status": 403,
+      "final_url": "https://journals.sagepub.com/doi/10.1068/b070409",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://journals.sagepub.com/doi/10.1068/b070463",
+      "checked_at_utc": "2026-10-19T01:28:00.916546+00:00",
+      "status": 403,
+      "final_url": "https://journals.sagepub.com/doi/10.1068/b070463",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://journals.sagepub.com/doi/10.1068/b080005",
+      "checked_at_utc": "2026-10-19T01:28:00.977758+00:00",
+      "status": 403,
+      "final_url": "https://journals.sagepub.com/doi/10.1068/b080005",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://journals.sagepub.com/doi/10.1068/b190413",
+      "checked_at_utc": "2026-10-19T01:28:00.991116+00:00",
+      "status": 403,
+      "final_url": "https://journals.sagepub.com/doi/10.1068/b190413",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://journals.sagepub.com/doi/10.1068/b21S049",
+      "checked_at_utc": "2026-10-19T01:28:00.992303+00:00",
+      "status": 403,
+      "final_url": "https://journals.sagepub.com/doi/10.1068/b21S049",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://journals.sagepub.com/doi/10.1068/b230235",
+      "checked_at_utc": "2026-10-19T01:28:00.995250+00:00",
+      "status": 403,
+      "final_url": "https://journals.sagepub.com/doi/10.1068/b230235",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://journals.sagepub.com/doi/10.1068/b240359",
+      "checked_at_utc": "2026-10-19T01:28:01.070842+00:00",
+      "status": 403,
+      "final_url": "https://journals.sagepub.com/doi/10.1068/b240359",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://journals.sagepub.com/doi/10.1068/b260015",
+      "checked_at_utc": "2026-10-19T01:28:01.083926+00:00",
+      "status": 403,
+      "final_url": "https://journals.sagepub.com/doi/10.1068/b260015",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://journals.sagepub.com/doi/10.1068/b38227",
+      "checked_at_utc": "2026-10-19T01:28:01.084671+00:00",
+      "status": 403,
+      "final_url": "https://journals.sagepub.com/doi/10.1068/b38227",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://journals.sagepub.com/doi/10.1177/23998083241246668",
+      "checked_at_utc": "2026-10-19T01:28:01.097668+00:00",
+      "status": 403,
+      "final_url": "https://journals.sagepub.com/doi/10.1177/23998083241246668",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://judsonbooks.org/abstract-algebra-theory-and-applications/",
+      "checked_at_utc": "2026-10-19T01:28:01.165364+00:00",
+      "status": 200,
+      "final_url": "https://judsonbooks.org/abstract-algebra-theory-and-applications/",
+      "content_type": "text/html; charset=UTF-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/BF01578998",
+      "checked_at_utc": "2026-10-19T01:28:01.181591+00:00",
+      "status": 200,
+      "final_url": "https://link.springer.com/article/10.1007/BF01578998?error=cookies_not_supported&code=5af74bf6-ff7b-4c25-8e19-b1f1efb12356",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s00004-011-0056-6",
+      "checked_at_utc": "2026-10-19T01:28:01.187201+00:00",
+      "status": 200,
+      "final_url": "https://link.springer.com/article/10.1007/s00004-011-0056-6?error=cookies_not_supported&code=68566053-7d36-4472-8977-d2a5bec63831",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://link.springer.com/book/10.1007/978-3-0348-6879-2",
+      "checked_at_utc": "2026-10-19T01:28:01.189255+00:00",
+      "status": 200,
+      "final_url": "https://link.springer.com/book/10.1007/978-3-0348-6879-2?error=cookies_not_supported&code=2222c10d-4b35-4b20-bc1b-19d0612f4c09",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/blms/11.3.308",
+      "checked_at_utc": "2026-10-19T01:28:02.059306+00:00",
+      "status": 403,
+      "final_url": "https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/blms/11.3.308",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://math.berkeley.edu/~reb/papers/iccm/iccm.pdf",
+      "checked_at_utc": "2026-10-19T01:28:02.193024+00:00",
+      "status": 200,
+      "final_url": "https://math.berkeley.edu/~reb/papers/iccm/iccm.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true
+    },
+    {
+      "url": "https://math.berkeley.edu/~reb/papers/icm98/icm98.pdf",
+      "checked_at_utc": "2026-10-19T01:28:02.519205+00:00",
+      "status": 200,
+      "final_url": "https://math.berkeley.edu/~reb/papers/icm98/icm98.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true
+    },
+    {
+      "url": "https://math.berkeley.edu/~reb/papers/monster/monster.pdf",
+      "checked_at_utc": "2026-10-19T01:28:02.542048+00:00",
+      "status": 200,
+      "final_url": "https://math.berkeley.edu/~reb/papers/monster/monster.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true
+    },
+    {
+      "url": "https://math.berkeley.edu/~reb/papers/whatismonster/whatismonster.pdf",
+      "checked_at_utc": "2026-10-19T01:28:02.555726+00:00",
+      "status": 200,
+      "final_url": "https://math.berkeley.edu/~reb/papers/whatismonster/whatismonster.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true
+    },
+    {
+      "url": "https://mitpress.mit.edu/9780262544139/shapes-of-imagination/",
+      "checked_at_utc": "2026-10-19T01:28:02.836359+00:00",
+      "status": 200,
+      "final_url": "https://mitpress.mit.edu/9780262544139/shapes-of-imagination/",
+      "content_type": "text/html; charset=UTF-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://mitpress.mit.edu/9780262693677/shape/",
+      "checked_at_utc": "2026-10-19T01:28:02.850042+00:00",
+      "status": 200,
+      "final_url": "https://mitpress.mit.edu/9780262693677/shape/",
+      "content_type": "text/html; charset=UTF-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://ocw.mit.edu/courses/18-701-algebra-i-fall-2010/",
+      "checked_at_utc": "2026-10-19T01:28:02.863383+00:00",
+      "status": 200,
+      "final_url": "https://ocw.mit.edu/courses/18-701-algebra-i-fall-2010/",
+      "content_type": "text/html",
+      "pdf_header": false
+    },
+    {
+      "url": "https://ocw.mit.edu/courses/18-703-modern-algebra-spring-2013/",
+      "checked_at_utc": "2026-10-19T01:28:02.939456+00:00",
+      "status": 200,
+      "final_url": "https://ocw.mit.edu/courses/18-703-modern-algebra-spring-2013/",
+      "content_type": "text/html",
+      "pdf_header": false
+    },
+    {
+      "url": "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/pages/course-texts/",
+      "checked_at_utc": "2026-10-19T01:28:02.946981+00:00",
+      "status": 200,
+      "final_url": "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/pages/course-texts/",
+      "content_type": "text/html",
+      "pdf_header": false
+    },
+    {
+      "url": "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/pages/lecture-slides-and-supplemental-readings/",
+      "checked_at_utc": "2026-10-19T01:28:03.014649+00:00",
+      "status": 200,
+      "final_url": "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/pages/lecture-slides-and-supplemental-readings/",
+      "content_type": "text/html",
+      "pdf_header": false
+    },
+    {
+      "url": "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/resources/mit4_540f18_lectureslides/",
+      "checked_at_utc": "2026-10-19T01:28:03.095900+00:00",
+      "status": 200,
+      "final_url": "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/resources/mit4_540f18_lectureslides/",
+      "content_type": "text/html",
+      "pdf_header": false
+    },
+    {
+      "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_textbook/",
+      "checked_at_utc": "2026-10-19T01:28:03.159728+00:00",
+      "status": 200,
+      "final_url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_textbook/",
+      "content_type": "text/html",
+      "pdf_header": false
+    },
+    {
+      "url": "https://richardhammack.github.io/BookOfProof/",
+      "checked_at_utc": "2026-10-19T01:28:03.246531+00:00",
+      "status": 200,
+      "final_url": "https://richardhammack.github.io/BookOfProof/",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://shapemachine.gatech.edu/tutorials/tutorials/2_indeterminate_matching_and_rule_sequences.html",
+      "checked_at_utc": "2026-10-19T01:28:03.295802+00:00",
+      "status": 200,
+      "final_url": "https://shapemachine.gatech.edu/tutorials/tutorials/2_indeterminate_matching_and_rule_sequences.html",
+      "content_type": "text/html",
+      "pdf_header": false
+    },
+    {
+      "url": "https://slc.openlogicproject.org/",
+      "checked_at_utc": "2026-10-19T01:28:03.354145+00:00",
+      "status": 200,
+      "final_url": "https://slc.openlogicproject.org/",
+      "content_type": "text/html",
+      "pdf_header": false
+    },
+    {
+      "url": "https://st.openlogicproject.org/",
+      "checked_at_utc": "2026-10-19T01:28:03.419184+00:00",
+      "status": 200,
+      "final_url": "https://st.openlogicproject.org/",
+      "content_type": "text/html",
+      "pdf_header": false
+    },
+    {
+      "url": "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb070463-arithmeticOfShapes.pdf",
+      "checked_at_utc": "2026-10-19T01:28:03.505938+00:00",
+      "status": 200,
+      "final_url": "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb070463-arithmeticOfShapes.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true
+    },
+    {
+      "url": "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/pre-publication/TractableShapeGrammars-epb38227.pdf",
+      "checked_at_utc": "2026-10-19T01:28:03.507801+00:00",
+      "status": 200,
+      "final_url": "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/pre-publication/TractableShapeGrammars-epb38227.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true
+    },
+    {
+      "url": "https://www.andrew.cmu.edu/user/ramesh/teaching/course/48-747/subFrames/readings/Stiny-1980-EPB7_343-351.IntroductionToShapeAndShapeGrammars.pdf",
+      "checked_at_utc": "2026-10-19T01:28:03.568430+00:00",
+      "status": 200,
+      "final_url": "https://www.andrew.cmu.edu/user/ramesh/teaching/course/48-747/subFrames/readings/Stiny-1980-EPB7_343-351.IntroductionToShapeAndShapeGrammars.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true
+    },
+    {
+      "url": "https://www.iucr.org/what-we-do/education/pamphlets/symmetry",
+      "checked_at_utc": "2026-10-19T01:28:03.656798+00:00",
+      "status": 403,
+      "final_url": "https://www.iucr.org/what-we-do/education/pamphlets/symmetry",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+      "checked_at_utc": "2026-10-19T01:28:03.661332+00:00",
+      "status": 200,
+      "final_url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true
+    },
+    {
+      "url": "https://www.jmilne.org/math/CourseNotes/gt.html",
+      "checked_at_utc": "2026-10-19T01:28:03.683891+00:00",
+      "status": 200,
+      "final_url": "https://www.jmilne.org/math/CourseNotes/gt.html",
+      "content_type": "text/html",
+      "pdf_header": false
+    }
+  ]
+}

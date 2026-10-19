@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "id": "stiny-1975-pictorial",
+  "topic": "shape-grammar",
+  "title": "Pictorial and Formal Aspects of Shape and Shape Grammars",
+  "authors": [
+    "George Stiny"
+  ],
+  "year": 1975,
+  "edition_version": "First edition, copyright 1975; Springer lists softcover publication 1976 and electronic publication 2013",
+  "doi": "10.1007/978-3-0348-6879-2",
+  "stable_url": "https://link.springer.com/book/10.1007/978-3-0348-6879-2",
+  "reading_url": "https://link.springer.com/book/10.1007/978-3-0348-6879-2",
+  "download_url": null,
+  "venue": "Birkhäuser Basel",
+  "pages": "xv + 403",
+  "tags": [
+    "shape-grammar"
+  ],
+  "relevance": "Formal foundations and pictorial development; includes Turing machines and shape grammars.",
+  "prerequisite_level": "advanced",
+  "prerequisites": [
+    "Undergraduate algebra and linear algebra; additional prerequisites in topic notes"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://link.springer.com/book/10.1007/978-3-0348-6879-2",
+    "conditions": "No public redistribution permission verified; citation and lawful reading link only."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [
+    {
+      "locator": "Shape and Shape Grammars: A Formal Model, pp. 117–288",
+      "status": "publisher-table-of-contents-verified"
+    },
+    {
+      "locator": "Turing Machines and Shape Grammars, pp. 282–288",
+      "status": "MIT-OCW-bibliography-verified; text not inspected"
+    }
+  ],
+  "verification": {
+    "scope": "Bibliographic record or official landing page inspected; full text and exact claim locators not reviewed.",
+    "source_urls": [
+      "https://link.springer.com/book/10.1007/978-3-0348-6879-2"
+    ],
+    "content_review": "bibliography-only"
+  },
+  "annotation_file": "shape-grammar/notes/stiny-1975-pictorial.md"
+}

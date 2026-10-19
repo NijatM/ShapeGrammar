@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "stiny-1996-useless",
+  "topic": "shape-grammar",
+  "title": "Useless Rules",
+  "authors": [
+    "George Stiny"
+  ],
+  "year": 1996,
+  "edition_version": "Version of record unless otherwise noted",
+  "doi": "10.1068/b230235",
+  "stable_url": "https://journals.sagepub.com/doi/10.1068/b230235",
+  "reading_url": "https://journals.sagepub.com/doi/10.1068/b230235",
+  "download_url": null,
+  "venue": "Environment and Planning B 23(2)",
+  "pages": "235–237",
+  "tags": [
+    "shape-grammar",
+    "identity-rules",
+    "emergence"
+  ],
+  "relevance": "Identity rules provide a route to discussing recognition without geometric change.",
+  "prerequisite_level": "intermediate",
+  "prerequisites": [
+    "Elementary sets and functions; some proof reading"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://journals.sagepub.com/doi/10.1068/b230235",
+    "conditions": "No public redistribution permission verified; citation and lawful reading link only."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [],
+  "verification": {
+    "scope": "Bibliographic record or official landing page inspected; full text and exact claim locators not reviewed.",
+    "source_urls": [
+      "https://journals.sagepub.com/doi/10.1068/b230235"
+    ],
+    "content_review": "bibliography-only"
+  },
+  "annotation_file": "shape-grammar/notes/stiny-1996-useless.md"
+}

@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "id": "gatech-indeterminate-matching",
+  "topic": "shape-grammar",
+  "title": "Indeterminate Matching",
+  "authors": [
+    "Georgia Tech Shape Computation Lab"
+  ],
+  "year": 2024,
+  "edition_version": "Living tutorial; footer copyright 2024, no revision date verified",
+  "doi": null,
+  "stable_url": "https://shapemachine.gatech.edu/tutorials/tutorials/2_indeterminate_matching_and_rule_sequences.html",
+  "reading_url": "https://shapemachine.gatech.edu/tutorials/tutorials/2_indeterminate_matching_and_rule_sequences.html",
+  "download_url": null,
+  "venue": null,
+  "pages": null,
+  "tags": [
+    "shape-grammar",
+    "implementation",
+    "matching",
+    "transformations"
+  ],
+  "relevance": "Implementation comparison: shared rule transformation, indeterminate cases, and software-specific registration points.",
+  "prerequisite_level": "intermediate",
+  "prerequisites": [
+    "Elementary sets and functions; some proof reading"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://shapemachine.gatech.edu/tutorials/tutorials/2_indeterminate_matching_and_rule_sequences.html",
+    "conditions": "No public redistribution permission verified; citation and lawful reading link only."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [
+    {
+      "locator": "Part 1: Anatomy of a Replacement Rule → Formal Definition",
+      "status": "full-text-inspected"
+    },
+    {
+      "locator": "Part 2: Indeterminate Matching → Single Line Case",
+      "status": "full-text-inspected"
+    }
+  ],
+  "verification": {
+    "scope": "Developer documentation read; its software conventions are not asserted as universal theorems.",
+    "source_urls": [
+      "https://shapemachine.gatech.edu/tutorials/tutorials/2_indeterminate_matching_and_rule_sequences.html"
+    ],
+    "content_review": "web-full-text"
+  },
+  "annotation_file": "shape-grammar/notes/gatech-indeterminate-matching.md"
+}

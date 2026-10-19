@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "stiny-gips-1978-algorithmic",
+  "topic": "shape-grammar",
+  "title": "Algorithmic Aesthetics: Computer Models for Criticism and Design in the Arts",
+  "authors": [
+    "George Stiny",
+    "James Gips"
+  ],
+  "year": 1978,
+  "edition_version": "1978 edition; ISBN 0520034678",
+  "doi": null,
+  "stable_url": "https://hdl.handle.net/2345/1564",
+  "reading_url": "https://hdl.handle.net/2345/1564",
+  "download_url": null,
+  "venue": "University of California Press",
+  "pages": null,
+  "tags": [
+    "shape-grammar",
+    "history",
+    "generative-design"
+  ],
+  "relevance": "Historical primary book on computational criticism and design.",
+  "prerequisite_level": "intermediate",
+  "prerequisites": [
+    "Elementary sets and functions; some proof reading"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://hdl.handle.net/2345/1564",
+    "conditions": "No public redistribution permission verified; citation and lawful reading link only."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [],
+  "verification": {
+    "scope": "MIT OCW bibliography supplies authors, year, title, ISBN, and institutional handle; repository access checked separately.",
+    "source_urls": [
+      "https://hdl.handle.net/2345/1564",
+      "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/pages/lecture-slides-and-supplemental-readings/"
+    ],
+    "content_review": "bibliography-only"
+  },
+  "annotation_file": "shape-grammar/notes/stiny-gips-1978-algorithmic.md"
+}

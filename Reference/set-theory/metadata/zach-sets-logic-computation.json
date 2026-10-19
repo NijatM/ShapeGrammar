@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "zach-sets-logic-computation",
+  "topic": "set-theory",
+  "title": "Sets, Logic, Computation: An Open Introduction to Metalogic",
+  "authors": [
+    "Richard Zach",
+    "Open Logic Project"
+  ],
+  "year": 2025,
+  "edition_version": "Fall 2025 archive; revision 38828e6 and content revision 0c1e9e3, both 2025-07-01",
+  "doi": null,
+  "stable_url": "https://slc.openlogicproject.org/",
+  "reading_url": "https://slc.openlogicproject.org/",
+  "download_url": "https://slc.openlogicproject.org/archives/f25/slc-screen.pdf",
+  "venue": null,
+  "pages": null,
+  "tags": [
+    "set-theory",
+    "functions",
+    "relations",
+    "infinity",
+    "logic"
+  ],
+  "relevance": "Independent foundations for sets, relations, functions and infinite cardinalities; later logic is optional.",
+  "prerequisite_level": "intermediate",
+  "prerequisites": [
+    "Elementary sets and functions; some proof reading"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "downloaded-with-conditions",
+    "license": "CC BY 4.0 (text); CC BY-NC 4.0 (Matthew Leadbeater cover illustrations)",
+    "evidence_url": "https://slc.openlogicproject.org/archives/f25/slc-screen.pdf",
+    "conditions": "Richard Zach and Open Logic Project attribution retained. Cover illustrations impose an additional noncommercial condition on this complete PDF."
+  },
+  "local_files": [
+    {
+      "path": "set-theory/originals/zach-sets-logic-computation.pdf",
+      "sha256": "298d6bc2866d2a882e6307c815ea19ee6c92e990f9c86c52bc9e19167d82681a",
+      "bytes": 4993912,
+      "pdf_pages": 437,
+      "download_url": "https://slc.openlogicproject.org/archives/f25/slc-screen.pdf",
+      "resolved_url": "https://slc.openlogicproject.org/archives/f25/slc-screen.pdf",
+      "access_date": "2026-10-18",
+      "unmodified": true
+    }
+  ],
+  "existing_local_files": [],
+  "locators": [
+    {
+      "locator": "Part I, Chapters 1–4; §§1.1–1.5, 2.1–2.3, 3.1–3.5, 4.1–4.10",
+      "status": "downloaded-table-of-contents-verified"
+    }
+  ],
+  "verification": {
+    "scope": "Bibliographic record or official landing page inspected; full text and exact claim locators not reviewed.",
+    "source_urls": [
+      "https://slc.openlogicproject.org/",
+      "https://slc.openlogicproject.org/archives/f25/slc-screen.pdf"
+    ],
+    "content_review": "front-matter-rights-and-contents"
+  },
+  "annotation_file": "set-theory/notes/zach-sets-logic-computation.md"
+}

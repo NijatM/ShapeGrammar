@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "mit-mckernan-modern-algebra",
+  "topic": "group-theory",
+  "title": "Modern Algebra (18.703)",
+  "authors": [
+    "James McKernan"
+  ],
+  "year": 2013,
+  "edition_version": "Spring 2013 course",
+  "doi": null,
+  "stable_url": "https://ocw.mit.edu/courses/18-703-modern-algebra-spring-2013/",
+  "reading_url": "https://ocw.mit.edu/courses/18-703-modern-algebra-spring-2013/",
+  "download_url": null,
+  "venue": "MIT OpenCourseWare",
+  "pages": null,
+  "tags": [
+    "group-theory",
+    "groups",
+    "proofs"
+  ],
+  "relevance": "Independent undergraduate course with lecture notes and exercises for algebra study.",
+  "prerequisite_level": "intermediate",
+  "prerequisites": [
+    "Elementary sets and functions; some proof reading"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://ocw.mit.edu/courses/18-703-modern-algebra-spring-2013/",
+    "conditions": "No public redistribution permission verified; citation and lawful reading link only."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [],
+  "verification": {
+    "scope": "Bibliographic record or official landing page inspected; full text and exact claim locators not reviewed.",
+    "source_urls": [
+      "https://ocw.mit.edu/courses/18-703-modern-algebra-spring-2013/"
+    ],
+    "content_review": "bibliography-only"
+  },
+  "annotation_file": "group-theory/notes/mit-mckernan-modern-algebra.md"
+}

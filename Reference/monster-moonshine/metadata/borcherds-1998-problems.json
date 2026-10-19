@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "borcherds-1998-problems",
+  "topic": "monster-moonshine",
+  "title": "Problems in Moonshine",
+  "authors": [
+    "Richard E. Borcherds"
+  ],
+  "year": 2001,
+  "edition_version": "Proceedings of First ICCM (Beijing 1998), published 2001; historical problem status",
+  "doi": null,
+  "stable_url": "https://math.berkeley.edu/~reb/papers/iccm/iccm.pdf",
+  "reading_url": "https://math.berkeley.edu/~reb/papers/iccm/iccm.pdf",
+  "download_url": null,
+  "venue": "AMS/IP Studies in Advanced Mathematics 20",
+  "pages": "3–10",
+  "tags": [
+    "monster-moonshine",
+    "research",
+    "moonshine"
+  ],
+  "relevance": "Historical research questions; useful evidence for how problems are formulated, not a current open-problem list.",
+  "prerequisite_level": "advanced",
+  "prerequisites": [
+    "Undergraduate algebra and linear algebra; additional prerequisites in topic notes"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://math.berkeley.edu/~reb/papers/iccm/iccm.pdf",
+    "conditions": "No public redistribution permission verified; citation and lawful reading link only."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [],
+  "verification": {
+    "scope": "Author publication list and author PDF references inspected; current status of listed problems not checked.",
+    "source_urls": [
+      "https://math.berkeley.edu/~reb/papers/iccm/iccm.pdf",
+      "https://math.berkeley.edu/~reb/papers/index.html"
+    ],
+    "content_review": "bibliography-only"
+  },
+  "annotation_file": "monster-moonshine/notes/borcherds-1998-problems.md"
+}

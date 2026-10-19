@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "id": "haridis-stiny-continuity",
+  "topic": "shape-grammar",
+  "title": "Analysis of Shape Grammars: Continuity of Rules",
+  "authors": [
+    "Alexandros Haridis",
+    "George Stiny"
+  ],
+  "year": 2022,
+  "edition_version": "arXiv:2012.10949v3, 14 March 2022; first submitted 20 December 2020; journal DOI recorded separately",
+  "doi": "10.1177/23998083211044734",
+  "stable_url": "https://arxiv.org/abs/2012.10949",
+  "reading_url": "https://arxiv.org/abs/2012.10949v3",
+  "download_url": null,
+  "venue": null,
+  "pages": "23 (preprint)",
+  "tags": [
+    "shape-grammar",
+    "continuity",
+    "topology",
+    "research"
+  ],
+  "relevance": "Research follow-up on rule mappings and retrospective continuity; not an introductory theorem shortcut.",
+  "prerequisite_level": "advanced",
+  "prerequisites": [
+    "Undergraduate algebra and linear algebra; additional prerequisites in topic notes"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html",
+    "conditions": "arXiv nonexclusive distribution license grants rights to arXiv; it does not establish permission to mirror this PDF in this repository."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [
+    {
+      "locator": "Analysis of a computation; Continuity is retrospective (preprint pp. 1–3)",
+      "status": "selected-full-text-inspected"
+    }
+  ],
+  "verification": {
+    "scope": "arXiv metadata, version history and nonexclusive distribution license inspected; first three PDF pages read temporarily. Journal issue pagination not asserted.",
+    "source_urls": [
+      "https://arxiv.org/abs/2012.10949"
+    ],
+    "content_review": "selected-preprint-sections"
+  },
+  "annotation_file": "shape-grammar/notes/haridis-stiny-continuity.md"
+}

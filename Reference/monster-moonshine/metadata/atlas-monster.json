@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "id": "atlas-monster",
+  "topic": "monster-moonshine",
+  "title": "ATLAS: Monster Group M",
+  "authors": [
+    "ATLAS of Finite Group Representations contributors"
+  ],
+  "year": null,
+  "edition_version": "Living online reference; revision date not asserted",
+  "doi": null,
+  "stable_url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/M/",
+  "reading_url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/M/",
+  "download_url": null,
+  "venue": null,
+  "pages": null,
+  "tags": [
+    "monster-moonshine",
+    "finite-simple-groups",
+    "group-theory"
+  ],
+  "relevance": "Authoritative reference for Monster order and standard generators; historical update statements need dating.",
+  "prerequisite_level": "advanced",
+  "prerequisites": [
+    "Undergraduate algebra and linear algebra; additional prerequisites in topic notes"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://brauer.maths.qmul.ac.uk/Atlas/spor/M/",
+    "conditions": "No public redistribution permission verified; citation and lawful reading link only."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [
+    {
+      "locator": "Opening order; Standard generators",
+      "status": "web-full-text-inspected"
+    }
+  ],
+  "verification": {
+    "scope": "Page read. Its maximal-subgroup discussion and computer-resource updates are historical; do not use those as current completeness claims.",
+    "source_urls": [
+      "https://brauer.maths.qmul.ac.uk/Atlas/spor/M/"
+    ],
+    "content_review": "selected-web-sections"
+  },
+  "annotation_file": "monster-moonshine/notes/atlas-monster.md"
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "hammack-book-of-proof",
+  "topic": "set-theory",
+  "title": "Book of Proof",
+  "authors": [
+    "Richard Hammack"
+  ],
+  "year": 2018,
+  "edition_version": "Third edition, revision 3.4 (5 February 2025); copyright 2018",
+  "doi": null,
+  "stable_url": "https://richardhammack.github.io/BookOfProof/",
+  "reading_url": "https://richardhammack.github.io/BookOfProof/",
+  "download_url": "https://richardhammack.github.io/BookOfProof/Main.pdf",
+  "venue": null,
+  "pages": null,
+  "tags": [
+    "set-theory",
+    "functions",
+    "relations",
+    "proofs",
+    "infinity"
+  ],
+  "relevance": "Beginner core for sets, proof methods, relations, functions and cardinality.",
+  "prerequisite_level": "beginner",
+  "prerequisites": [
+    "High-school arithmetic; notation introduced gradually"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "downloaded-with-conditions",
+    "license": "CC BY-NC-ND 4.0",
+    "evidence_url": "https://richardhammack.github.io/BookOfProof/Main.pdf",
+    "conditions": "Unmodified PDF; Richard Hammack attribution and embedded notice retained. Noncommercial redistribution only; no distributed modified version."
+  },
+  "local_files": [
+    {
+      "path": "set-theory/originals/hammack-book-of-proof.pdf",
+      "sha256": "e0e471ca794ddda7bc46704b22885e1582350b7fc5881f8ba9a61b3747ec79fd",
+      "bytes": 1841432,
+      "pdf_pages": 380,
+      "download_url": "https://richardhammack.github.io/BookOfProof/Main.pdf",
+      "resolved_url": "https://richardhammack.github.io/BookOfProof/Main.pdf",
+      "access_date": "2026-10-18",
+      "unmodified": true
+    }
+  ],
+  "existing_local_files": [],
+  "locators": [
+    {
+      "locator": "Chapter 1: Sets; Chapters 4–10: proof methods; Chapter 11: Relations; Chapter 12: Functions; Chapter 14: Cardinality",
+      "status": "author-contents-and-downloaded-PDF-verified"
+    }
+  ],
+  "verification": {
+    "scope": "Bibliographic record or official landing page inspected; full text and exact claim locators not reviewed.",
+    "source_urls": [
+      "https://richardhammack.github.io/BookOfProof/",
+      "https://richardhammack.github.io/BookOfProof/Main.pdf"
+    ],
+    "content_review": "front-matter-rights-and-contents"
+  },
+  "annotation_file": "set-theory/notes/hammack-book-of-proof.md"
+}

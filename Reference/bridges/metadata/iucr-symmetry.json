@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "id": "iucr-symmetry",
+  "topic": "bridges",
+  "title": "Symmetry",
+  "authors": [
+    "L. S. Dent Glasser"
+  ],
+  "year": null,
+  "edition_version": "IUCr Teaching Pamphlet 13; year not verified",
+  "doi": null,
+  "stable_url": "https://www.iucr.org/what-we-do/education/pamphlets/symmetry",
+  "reading_url": "https://www.iucr.org/what-we-do/education/pamphlets/symmetry",
+  "download_url": null,
+  "venue": null,
+  "pages": null,
+  "tags": [
+    "bridges",
+    "group-theory",
+    "symmetry",
+    "crystallography"
+  ],
+  "relevance": "Institutional introductory symmetry reference for the later crystallography and pattern-symmetry branch.",
+  "prerequisite_level": "beginner",
+  "prerequisites": [
+    "General scientific knowledge; no prior crystallography"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://www.iucr.org/what-we-do/education/pamphlets/symmetry",
+    "conditions": "No public redistribution permission verified; citation and lawful reading link only."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [
+    {
+      "locator": "Heading, Teaching aims, Level; §1 Simple symmetry operations",
+      "status": "official-web-text-inspected"
+    }
+  ],
+  "verification": {
+    "scope": "Official IUCr full text accessed; author and teaching aims verified at page heading. Publication year not established.",
+    "source_urls": [
+      "https://www.iucr.org/what-we-do/education/pamphlets/symmetry"
+    ],
+    "content_review": "bibliography-only"
+  },
+  "annotation_file": "bridges/notes/iucr-symmetry.md"
+}

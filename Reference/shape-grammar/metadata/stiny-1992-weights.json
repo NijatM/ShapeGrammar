@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "stiny-1992-weights",
+  "topic": "shape-grammar",
+  "title": "Weights",
+  "authors": [
+    "George Stiny"
+  ],
+  "year": 1992,
+  "edition_version": "Version of record unless otherwise noted",
+  "doi": "10.1068/b190413",
+  "stable_url": "https://journals.sagepub.com/doi/10.1068/b190413",
+  "reading_url": "https://journals.sagepub.com/doi/10.1068/b190413",
+  "download_url": null,
+  "venue": "Environment and Planning B 19",
+  "pages": "413–430",
+  "tags": [
+    "shape-grammar",
+    "weights",
+    "extensions"
+  ],
+  "relevance": "Primary extension beyond unweighted line shapes; later research rather than first engine scope.",
+  "prerequisite_level": "advanced",
+  "prerequisites": [
+    "Undergraduate algebra and linear algebra; additional prerequisites in topic notes"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://journals.sagepub.com/doi/10.1068/b190413",
+    "conditions": "No public redistribution permission verified; citation and lawful reading link only."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [],
+  "verification": {
+    "scope": "Bibliographic record or official landing page inspected; full text and exact claim locators not reviewed.",
+    "source_urls": [
+      "https://journals.sagepub.com/doi/10.1068/b190413"
+    ],
+    "content_review": "bibliography-only"
+  },
+  "annotation_file": "shape-grammar/notes/stiny-1992-weights.md"
+}

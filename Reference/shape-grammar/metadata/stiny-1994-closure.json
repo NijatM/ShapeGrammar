@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "stiny-1994-closure",
+  "topic": "shape-grammar",
+  "title": "Shape Rules: Closure, Continuity, and Emergence",
+  "authors": [
+    "George Stiny"
+  ],
+  "year": 1994,
+  "edition_version": "Version of record unless otherwise noted",
+  "doi": "10.1068/b21S049",
+  "stable_url": "https://journals.sagepub.com/doi/10.1068/b21S049",
+  "reading_url": "https://journals.sagepub.com/doi/10.1068/b21S049",
+  "download_url": null,
+  "venue": "Environment and Planning B 21(7)",
+  "pages": "S49–S78",
+  "tags": [
+    "shape-grammar",
+    "emergence",
+    "continuity",
+    "topology"
+  ],
+  "relevance": "Foundational reference for retrospective structure and continuity analysis.",
+  "prerequisite_level": "advanced",
+  "prerequisites": [
+    "Undergraduate algebra and linear algebra; additional prerequisites in topic notes"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://journals.sagepub.com/doi/10.1068/b21S049",
+    "conditions": "No public redistribution permission verified; citation and lawful reading link only."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [],
+  "verification": {
+    "scope": "Bibliographic record or official landing page inspected; full text and exact claim locators not reviewed.",
+    "source_urls": [
+      "https://journals.sagepub.com/doi/10.1068/b21S049"
+    ],
+    "content_review": "bibliography-only"
+  },
+  "annotation_file": "shape-grammar/notes/stiny-1994-closure.md"
+}

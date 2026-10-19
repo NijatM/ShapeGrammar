@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "conway-norton-1979-moonshine",
+  "topic": "monster-moonshine",
+  "title": "Monstrous Moonshine",
+  "authors": [
+    "John H. Conway",
+    "Simon P. Norton"
+  ],
+  "year": 1979,
+  "edition_version": "Version of record unless otherwise noted",
+  "doi": "10.1112/blms/11.3.308",
+  "stable_url": "https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/blms/11.3.308",
+  "reading_url": "https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/blms/11.3.308",
+  "download_url": null,
+  "venue": "Bulletin of the London Mathematical Society 11(3)",
+  "pages": "308–339",
+  "tags": [
+    "monster-moonshine",
+    "history",
+    "modular-functions",
+    "representations"
+  ],
+  "relevance": "Original conjectural moonshine paper; interpret alongside subsequent proof and surveys.",
+  "prerequisite_level": "advanced",
+  "prerequisites": [
+    "Undergraduate algebra and linear algebra; additional prerequisites in topic notes"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/blms/11.3.308",
+    "conditions": "No public redistribution permission verified; citation and lawful reading link only."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [],
+  "verification": {
+    "scope": "Bibliographic record or official landing page inspected; full text and exact claim locators not reviewed.",
+    "source_urls": [
+      "https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/blms/11.3.308"
+    ],
+    "content_review": "bibliography-only"
+  },
+  "annotation_file": "monster-moonshine/notes/conway-norton-1979-moonshine.md"
+}

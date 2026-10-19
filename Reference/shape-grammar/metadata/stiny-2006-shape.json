@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "stiny-2006-shape",
+  "topic": "shape-grammar",
+  "title": "Shape: Talking about Seeing and Doing",
+  "authors": [
+    "George Stiny"
+  ],
+  "year": 2006,
+  "edition_version": "Hardcover first published 2006, ISBN 9780262195317; linked paperback 2008, ISBN 9780262693677",
+  "doi": null,
+  "stable_url": "https://mitpress.mit.edu/9780262693677/shape/",
+  "reading_url": "https://mitpress.mit.edu/9780262693677/shape/",
+  "download_url": null,
+  "venue": "MIT Press",
+  "pages": "432",
+  "tags": [
+    "shape-grammar",
+    "foundations",
+    "seeing",
+    "shape-algebras"
+  ],
+  "relevance": "Major primary book for visual calculation and formal shape reasoning.",
+  "prerequisite_level": "beginner",
+  "prerequisites": [
+    "High-school arithmetic; notation introduced gradually"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://mitpress.mit.edu/9780262693677/shape/",
+    "conditions": "No public redistribution permission verified; citation and lawful reading link only."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [],
+  "verification": {
+    "scope": "MIT Press explicitly distinguishes 2006 hardcover and 2008 paperback. No exact interior-page claims made.",
+    "source_urls": [
+      "https://mitpress.mit.edu/9780262693677/shape/"
+    ],
+    "content_review": "bibliography-only"
+  },
+  "annotation_file": "shape-grammar/notes/stiny-2006-shape.md"
+}

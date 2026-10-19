@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "id": "levin-discrete-mathematics",
+  "topic": "set-theory",
+  "title": "Discrete Mathematics: An Open Introduction",
+  "authors": [
+    "Oscar Levin"
+  ],
+  "year": 2025,
+  "edition_version": "Fourth edition, copyright 2013–2025; current PDF snapshot on access date",
+  "doi": null,
+  "stable_url": "https://discrete.openmathbooks.org/dmoi4.html",
+  "reading_url": "https://discrete.openmathbooks.org/dmoi4.html",
+  "download_url": "https://discrete.openmathbooks.org/pdfs/dmoi4.pdf",
+  "venue": null,
+  "pages": null,
+  "tags": [
+    "set-theory",
+    "proofs",
+    "counting",
+    "functions",
+    "relations"
+  ],
+  "relevance": "Alternative introductory exercises and explanations of discrete structures and proofs.",
+  "prerequisite_level": "beginner",
+  "prerequisites": [
+    "High-school arithmetic; notation introduced gradually"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "downloaded-with-conditions",
+    "license": "CC BY-NC-SA 4.0",
+    "evidence_url": "https://discrete.openmathbooks.org/dmoi4.html",
+    "conditions": "Oscar Levin attribution; unmodified PDF and notice retained; noncommercial use and ShareAlike. Fourth edition adds NonCommercial; do not inherit the third-edition license."
+  },
+  "local_files": [
+    {
+      "path": "set-theory/originals/levin-discrete-mathematics.pdf",
+      "sha256": "da85572c79111d63ce90e18a116e0551732c6a3725b7bc08aa16b3f4557d55ac",
+      "bytes": 2401424,
+      "pdf_pages": 549,
+      "download_url": "https://discrete.openmathbooks.org/pdfs/dmoi4.pdf",
+      "resolved_url": "https://discrete.openmathbooks.org/pdfs/dmoi4.pdf",
+      "access_date": "2026-10-18",
+      "unmodified": true
+    }
+  ],
+  "existing_local_files": [],
+  "locators": [],
+  "verification": {
+    "scope": "Bibliographic record or official landing page inspected; full text and exact claim locators not reviewed.",
+    "source_urls": [
+      "https://discrete.openmathbooks.org/dmoi4.html",
+      "https://discrete.openmathbooks.org/pdfs/dmoi4.pdf"
+    ],
+    "content_review": "front-matter-rights-and-contents"
+  },
+  "annotation_file": "set-theory/notes/levin-discrete-mathematics.md"
+}

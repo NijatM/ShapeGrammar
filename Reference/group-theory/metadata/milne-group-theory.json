@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "id": "milne-group-theory",
+  "topic": "group-theory",
+  "title": "Group Theory",
+  "authors": [
+    "James S. Milne"
+  ],
+  "year": 2025,
+  "edition_version": "v4.01 (2025); title page 6 November and history 7 November; 139 PDF pages",
+  "doi": null,
+  "stable_url": "https://www.jmilne.org/math/CourseNotes/gt.html",
+  "reading_url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+  "download_url": null,
+  "venue": null,
+  "pages": null,
+  "tags": [
+    "group-theory",
+    "actions",
+    "representations",
+    "Coxeter-groups"
+  ],
+  "relevance": "More advanced check for definitions, quotients, actions, Coxeter groups and representations.",
+  "prerequisite_level": "advanced",
+  "prerequisites": [
+    "Undergraduate algebra and linear algebra; additional prerequisites in topic notes"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "licensed-link-only",
+    "license": "CC BY-NC-SA 4.0 as stated in author page and PDF front matter",
+    "evidence_url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+    "conditions": "Noncommercial, attribution, ShareAlike. PDF license paragraph says Version 4.0; downloaded v4.01 applicability should be confirmed before mirroring."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [
+    {
+      "locator": "Chapter 1: Basic Definitions and Results; Chapter 4: Groups Acting on Sets; Chapter 7: Representations of Finite Groups",
+      "status": "web-PDF-contents-verified"
+    }
+  ],
+  "verification": {
+    "scope": "Author page and PDF front matter inspected through web tool. Direct HTTP download returned 406; no local PDF claimed.",
+    "source_urls": [
+      "https://www.jmilne.org/math/CourseNotes/gt.html"
+    ],
+    "content_review": "bibliography-only"
+  },
+  "annotation_file": "group-theory/notes/milne-group-theory.md"
+}

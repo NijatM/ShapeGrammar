@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "gannon-2004-moonshine-survey",
+  "topic": "monster-moonshine",
+  "title": "Monstrous Moonshine: The First Twenty-Five Years",
+  "authors": [
+    "Terry Gannon"
+  ],
+  "year": 2006,
+  "edition_version": "arXiv:math/0402345v2, 14 April 2004; journal publication 2006",
+  "doi": "10.1112/S0024609305018217",
+  "stable_url": "https://arxiv.org/abs/math/0402345",
+  "reading_url": "https://arxiv.org/abs/math/0402345v2",
+  "download_url": null,
+  "venue": "Bulletin of the London Mathematical Society 38",
+  "pages": "1–33",
+  "tags": [
+    "monster-moonshine",
+    "moonshine",
+    "history",
+    "modular-functions"
+  ],
+  "relevance": "Detailed historical and mathematical survey, useful for identifying prerequisites and primary references.",
+  "prerequisite_level": "advanced",
+  "prerequisites": [
+    "Undergraduate algebra and linear algebra; additional prerequisites in topic notes"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://arxiv.org/abs/math/0402345",
+    "conditions": "No public redistribution permission verified; citation and lawful reading link only."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [],
+  "verification": {
+    "scope": "arXiv v2 metadata and journal publisher record verified. No general redistribution permission established.",
+    "source_urls": [
+      "https://arxiv.org/abs/math/0402345",
+      "https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/S0024609305018217"
+    ],
+    "content_review": "bibliography-only"
+  },
+  "annotation_file": "monster-moonshine/notes/gannon-2004-moonshine-survey.md"
+}

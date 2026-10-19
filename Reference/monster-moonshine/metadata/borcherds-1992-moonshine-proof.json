@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "id": "borcherds-1992-moonshine-proof",
+  "topic": "monster-moonshine",
+  "title": "Monstrous Moonshine and Monstrous Lie Superalgebras",
+  "authors": [
+    "Richard E. Borcherds"
+  ],
+  "year": 1992,
+  "edition_version": "Version of record unless otherwise noted",
+  "doi": "10.1007/BF01232032",
+  "stable_url": "https://math.berkeley.edu/~reb/papers/monster/monster.pdf",
+  "reading_url": "https://math.berkeley.edu/~reb/papers/monster/monster.pdf",
+  "download_url": null,
+  "venue": "Inventiones Mathematicae 109",
+  "pages": "405–444",
+  "tags": [
+    "monster-moonshine",
+    "vertex-algebras",
+    "Lie-algebras",
+    "moonshine"
+  ],
+  "relevance": "Primary proof source; requires much more than introductory finite groups.",
+  "prerequisite_level": "advanced",
+  "prerequisites": [
+    "Undergraduate algebra and linear algebra; additional prerequisites in topic notes"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://math.berkeley.edu/~reb/papers/monster/monster.pdf",
+    "conditions": "No public redistribution permission verified; citation and lawful reading link only."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [
+    {
+      "locator": "§1 Introduction, Theorem 1.1; §9 The moonshine conjectures",
+      "status": "author-PDF-opening-and-contents-verified"
+    }
+  ],
+  "verification": {
+    "scope": "Author-hosted paper opening and author publication list inspected; full proof not reviewed.",
+    "source_urls": [
+      "https://math.berkeley.edu/~reb/papers/monster/monster.pdf",
+      "https://math.berkeley.edu/~reb/papers/index.html"
+    ],
+    "content_review": "bibliography-only"
+  },
+  "annotation_file": "monster-moonshine/notes/borcherds-1992-moonshine-proof.md"
+}

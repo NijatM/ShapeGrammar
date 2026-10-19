@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "borcherds-1998-moonshine",
+  "topic": "monster-moonshine",
+  "title": "What Is Moonshine?",
+  "authors": [
+    "Richard E. Borcherds"
+  ],
+  "year": 1998,
+  "edition_version": "1998 proceedings; author-hosted PDF has eight pages",
+  "doi": null,
+  "stable_url": "https://math.berkeley.edu/~reb/papers/icm98/icm98.pdf",
+  "reading_url": "https://math.berkeley.edu/~reb/papers/icm98/icm98.pdf",
+  "download_url": null,
+  "venue": "Documenta Mathematica, Extra Volume I (ICM Berlin)",
+  "pages": "607–615",
+  "tags": [
+    "monster-moonshine",
+    "moonshine",
+    "modular-functions",
+    "representations"
+  ],
+  "relevance": "Expert survey connecting Monster representation theory with modular functions.",
+  "prerequisite_level": "intermediate",
+  "prerequisites": [
+    "Elementary sets and functions; some proof reading"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://math.berkeley.edu/~reb/papers/icm98/icm98.pdf",
+    "conditions": "No public redistribution permission verified; citation and lawful reading link only."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [],
+  "verification": {
+    "scope": "Author publication list and PDF verified; reading copy pagination need not match the proceedings layout.",
+    "source_urls": [
+      "https://math.berkeley.edu/~reb/papers/icm98/icm98.pdf",
+      "https://math.berkeley.edu/~reb/papers/index.html"
+    ],
+    "content_review": "bibliography-only"
+  },
+  "annotation_file": "monster-moonshine/notes/borcherds-1998-moonshine.md"
+}

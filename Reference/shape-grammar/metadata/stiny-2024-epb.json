@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "id": "stiny-2024-epb",
+  "topic": "shape-grammar",
+  "title": "Shape Grammars in Environment and Planning B",
+  "authors": [
+    "George Stiny"
+  ],
+  "year": 2024,
+  "edition_version": "Version of record unless otherwise noted",
+  "doi": "10.1177/23998083241246668",
+  "stable_url": "https://journals.sagepub.com/doi/10.1177/23998083241246668",
+  "reading_url": "https://journals.sagepub.com/doi/10.1177/23998083241246668",
+  "download_url": null,
+  "venue": "Environment and Planning B: Urban Analytics and City Science 51(5)",
+  "pages": "1082–1084",
+  "tags": [
+    "shape-grammar",
+    "history",
+    "identity-rules",
+    "embed-fuse"
+  ],
+  "relevance": "Primary retrospective connecting identity, addition and the embed–fuse cycle.",
+  "prerequisite_level": "intermediate",
+  "prerequisites": [
+    "Elementary sets and functions; some proof reading"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://journals.sagepub.com/doi/10.1177/23998083241246668",
+    "conditions": "No public redistribution permission verified; citation and lawful reading link only."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [
+    {
+      "locator": "Equations (1)–(3) and embed–fuse discussion",
+      "status": "publisher-full-text-inspected"
+    }
+  ],
+  "verification": {
+    "scope": "Publisher full text and metadata inspected; free access is not treated as an open redistribution license.",
+    "source_urls": [
+      "https://journals.sagepub.com/doi/10.1177/23998083241246668"
+    ],
+    "content_review": "publisher-full-text"
+  },
+  "annotation_file": "shape-grammar/notes/stiny-2024-epb.md"
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "krishnamurti-1981-construction",
+  "topic": "shape-grammar",
+  "title": "The Construction of Shapes",
+  "authors": [
+    "Ramesh Krishnamurti"
+  ],
+  "year": 1981,
+  "edition_version": "Version of record unless otherwise noted",
+  "doi": "10.1068/b080005",
+  "stable_url": "https://journals.sagepub.com/doi/10.1068/b080005",
+  "reading_url": "https://journals.sagepub.com/doi/10.1068/b080005",
+  "download_url": null,
+  "venue": "Environment and Planning B 8(1)",
+  "pages": "5–40",
+  "tags": [
+    "shape-grammar",
+    "implementation",
+    "matching"
+  ],
+  "relevance": "Primary computational shape-recognition reference; review its transformation assumptions before borrowing algorithms.",
+  "prerequisite_level": "intermediate",
+  "prerequisites": [
+    "Elementary sets and functions; some proof reading"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://journals.sagepub.com/doi/10.1068/b080005",
+    "conditions": "No public redistribution permission verified; citation and lawful reading link only."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [],
+  "verification": {
+    "scope": "Crossref bibliographic record inspected; full text not reviewed.",
+    "source_urls": [
+      "https://journals.sagepub.com/doi/10.1068/b080005"
+    ],
+    "content_review": "bibliography-only"
+  },
+  "annotation_file": "shape-grammar/notes/krishnamurti-1981-construction.md"
+}

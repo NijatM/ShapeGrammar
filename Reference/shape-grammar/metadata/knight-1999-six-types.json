@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "knight-1999-six-types",
+  "topic": "shape-grammar",
+  "title": "Shape Grammars: Six Types",
+  "authors": [
+    "Terry W. Knight"
+  ],
+  "year": 1999,
+  "edition_version": "Version of record unless otherwise noted",
+  "doi": "10.1068/b260015",
+  "stable_url": "https://journals.sagepub.com/doi/10.1068/b260015",
+  "reading_url": "https://journals.sagepub.com/doi/10.1068/b260015",
+  "download_url": null,
+  "venue": "Environment and Planning B 26(1)",
+  "pages": "15–31",
+  "tags": [
+    "shape-grammar",
+    "grammar-design",
+    "classification"
+  ],
+  "relevance": "Classification of grammar types for later comparisons and design exercises.",
+  "prerequisite_level": "intermediate",
+  "prerequisites": [
+    "Elementary sets and functions; some proof reading"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://journals.sagepub.com/doi/10.1068/b260015",
+    "conditions": "No public redistribution permission verified; citation and lawful reading link only."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [],
+  "verification": {
+    "scope": "Bibliographic record or official landing page inspected; full text and exact claim locators not reviewed.",
+    "source_urls": [
+      "https://journals.sagepub.com/doi/10.1068/b260015"
+    ],
+    "content_review": "bibliography-only"
+  },
+  "annotation_file": "shape-grammar/notes/knight-1999-six-types.md"
+}

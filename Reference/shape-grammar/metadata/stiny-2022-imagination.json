@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "stiny-2022-imagination",
+  "topic": "shape-grammar",
+  "title": "Shapes of Imagination: Calculating in Coleridge’s Magical Realm",
+  "authors": [
+    "George Stiny"
+  ],
+  "year": 2022,
+  "edition_version": "2022; paperback ISBN 9780262544139; electronic ISBN 9780262370660",
+  "doi": "10.7551/mitpress/14469.001.0001",
+  "stable_url": "https://mitpress.mit.edu/9780262544139/shapes-of-imagination/",
+  "reading_url": "https://doi.org/10.7551/mitpress/14469.001.0001",
+  "download_url": null,
+  "venue": "MIT Press",
+  "pages": "248",
+  "tags": [
+    "shape-grammar",
+    "seeing",
+    "imagination",
+    "generative-design"
+  ],
+  "relevance": "Later primary book on seeing, ambiguity, art and design.",
+  "prerequisite_level": "beginner",
+  "prerequisites": [
+    "High-school arithmetic; notation introduced gradually"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "licensed-link-only",
+    "license": "CC BY-NC-ND 4.0",
+    "evidence_url": "https://mitpress.mit.edu/9780262544139/shapes-of-imagination/#tab-9",
+    "conditions": "Publisher identifies this open-access license. Full-book download was not retrieved; retain lawful OA link. Check any separately credited third-party material before reuse."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [],
+  "verification": {
+    "scope": "Bibliographic record or official landing page inspected; full text and exact claim locators not reviewed.",
+    "source_urls": [
+      "https://mitpress.mit.edu/9780262544139/shapes-of-imagination/"
+    ],
+    "content_review": "bibliography-only"
+  },
+  "annotation_file": "shape-grammar/notes/stiny-2022-imagination.md"
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "mit-mathematics-computer-science",
+  "topic": "set-theory",
+  "title": "Mathematics for Computer Science",
+  "authors": [
+    "Eric Lehman",
+    "F. Thomson Leighton",
+    "Albert R. Meyer"
+  ],
+  "year": 2015,
+  "edition_version": "Spring 2015 OCW textbook snapshot",
+  "doi": null,
+  "stable_url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_textbook/",
+  "reading_url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_textbook/",
+  "download_url": null,
+  "venue": "MIT OpenCourseWare",
+  "pages": null,
+  "tags": [
+    "set-theory",
+    "proofs",
+    "relations",
+    "counting"
+  ],
+  "relevance": "Additional proof, induction, sets, relations and counting reference.",
+  "prerequisite_level": "beginner",
+  "prerequisites": [
+    "High-school arithmetic; notation introduced gradually"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "licensed-link-only",
+    "license": "CC BY-NC-SA 4.0, subject to item-specific notices",
+    "evidence_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/",
+    "conditions": "MIT OpenCourseWare noncommercial course terms; exact downloaded item license must be checked before redistributing."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [],
+  "verification": {
+    "scope": "MIT OCW resource and readings page inspected; download and exact chapter locators reviewed separately.",
+    "source_urls": [
+      "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_textbook/"
+    ],
+    "content_review": "bibliography-only"
+  },
+  "annotation_file": "set-theory/notes/mit-mathematics-computer-science.md"
+}

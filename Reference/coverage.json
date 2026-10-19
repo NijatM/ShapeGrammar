@@ -1,0 +1,469 @@
+[
+  {
+    "id": "SG-01",
+    "title": "Seeing alternative parts; shapes and symbols",
+    "source_ids": [
+      "stiny-2018-calculating-excerpts",
+      "stiny-2006-shape"
+    ],
+    "locator": "OCW Q1 and Q4; Shape interior locator pending",
+    "evidence_status": "selected-text; book bibliography only",
+    "lesson_status": "not-authored-in-this-delivery"
+  },
+  {
+    "id": "SG-02",
+    "title": "Line elements and the planar setting",
+    "source_ids": [
+      "stiny-1980-introduction",
+      "stiny-1991-algebras"
+    ],
+    "locator": "1980 p. 343; U12 definition still requires full source passage",
+    "evidence_status": "selected-passage verified; U12 pending",
+    "lesson_status": "not-authored-in-this-delivery"
+  },
+  {
+    "id": "SG-03",
+    "title": "Parts, embedding and emergent subshapes",
+    "source_ids": [
+      "stiny-1980-introduction"
+    ],
+    "locator": "1980 pp. 343–344",
+    "evidence_status": "selected-passage and p. 344 image verified",
+    "lesson_status": "not-authored-in-this-delivery"
+  },
+  {
+    "id": "SG-04",
+    "title": "Maximal lines, overlap and fusion",
+    "source_ids": [
+      "stiny-1980-introduction",
+      "krishnamurti-1980-arithmetic"
+    ],
+    "locator": "1980 pp. 343–344; arithmetic algorithms require full-text review",
+    "evidence_status": "selected-passage verified; algorithm candidate",
+    "lesson_status": "not-authored-in-this-delivery"
+  },
+  {
+    "id": "SG-05",
+    "title": "Sum, empty shape, common parts and difference",
+    "source_ids": [
+      "stiny-1980-introduction",
+      "krishnamurti-1980-arithmetic"
+    ],
+    "locator": "1980 pp. 343–344",
+    "evidence_status": "selected-passage and p. 344 image verified",
+    "lesson_status": "not-authored-in-this-delivery"
+  },
+  {
+    "id": "SG-06",
+    "title": "Translations, rotations, reflections and scaling",
+    "source_ids": [
+      "stiny-1980-introduction",
+      "judson-abstract-algebra"
+    ],
+    "locator": "1980 pp. 344–345; Judson §5.2",
+    "evidence_status": "selected passages verified",
+    "lesson_status": "not-authored-in-this-delivery"
+  },
+  {
+    "id": "SG-07",
+    "title": "Rule sides and one shared transformation",
+    "source_ids": [
+      "stiny-1980-introduction",
+      "gatech-indeterminate-matching"
+    ],
+    "locator": "1980 p. 347; tutorial Formal Definition",
+    "evidence_status": "formula and p. 347 image verified",
+    "lesson_status": "not-authored-in-this-delivery"
+  },
+  {
+    "id": "SG-08",
+    "title": "Embed–fuse cycle and stepwise derivations",
+    "source_ids": [
+      "stiny-2024-epb",
+      "stiny-1980-introduction"
+    ],
+    "locator": "2024 equations (1)–(3) and cycle discussion; 1980 p. 347",
+    "evidence_status": "publisher text and selected passage verified",
+    "lesson_status": "not-authored-in-this-delivery"
+  },
+  {
+    "id": "SG-09",
+    "title": "Multiple matches and ambiguity",
+    "source_ids": [
+      "gatech-indeterminate-matching",
+      "krishnamurti-stouffs-1997-spatial"
+    ],
+    "locator": "tutorial Single Line Case; 1997 detailed cases pending",
+    "evidence_status": "tutorial checked; research candidate",
+    "lesson_status": "not-authored-in-this-delivery"
+  },
+  {
+    "id": "SG-10",
+    "title": "Identity rules and seeing parts",
+    "source_ids": [
+      "stiny-1996-useless",
+      "stiny-2024-epb"
+    ],
+    "locator": "1996 abstract; 2024 equation (2)",
+    "evidence_status": "abstract/full 2024 text; 1996 interior pending",
+    "lesson_status": "not-authored-in-this-delivery"
+  },
+  {
+    "id": "SG-11",
+    "title": "Recursion and grammar construction",
+    "source_ids": [
+      "stiny-1980-introduction",
+      "stiny-1976-exercises"
+    ],
+    "locator": "1980 p. 347 and examples pp. 348–351; 1976 full text pending",
+    "evidence_status": "selected text verified; candidate",
+    "lesson_status": "not-authored-in-this-delivery"
+  },
+  {
+    "id": "SG-12",
+    "title": "Termination considerations",
+    "source_ids": [
+      "yue-krishnamurti-2013-tractable"
+    ],
+    "locator": "abstract and author preprint; formal complexity statements need review",
+    "evidence_status": "bibliographic and abstract candidate",
+    "lesson_status": "not-authored-in-this-delivery"
+  },
+  {
+    "id": "SG-13",
+    "title": "Simple geometric examples",
+    "source_ids": [
+      "stiny-2018-calculating-excerpts",
+      "stiny-1980-introduction"
+    ],
+    "locator": "OCW Exhibit 2; 1980 figures 1–3 with source/rights review before adaptation",
+    "evidence_status": "text selected; figures not comprehensively audited",
+    "lesson_status": "not-authored-in-this-delivery"
+  },
+  {
+    "id": "SG-14",
+    "title": "Architectural patterns and generative design",
+    "source_ids": [
+      "stiny-mitchell-1978-palladian",
+      "stiny-1980-kindergarten"
+    ],
+    "locator": "1978 and 1980 primary articles; example-specific locators pending",
+    "evidence_status": "bibliographic candidates",
+    "lesson_status": "not-authored-in-this-delivery"
+  },
+  {
+    "id": "SG-15",
+    "title": "Capstone: emergence and correct application",
+    "source_ids": [
+      "stiny-1980-introduction",
+      "stiny-2018-calculating-excerpts"
+    ],
+    "locator": "1980 pp. 343–344, 347; project-authored emergence fixture",
+    "evidence_status": "selected source concepts verified; assessment not authored",
+    "lesson_status": "not-authored-in-this-delivery"
+  },
+  {
+    "id": "SG-16",
+    "title": "Capstone: construct and explain a small grammar",
+    "source_ids": [
+      "stiny-1980-introduction",
+      "stiny-2011-rules",
+      "knight-1999-six-types"
+    ],
+    "locator": "1980 p. 347; 2011/1999 detailed rule-design locators pending",
+    "evidence_status": "mixed selected passage and candidate sources",
+    "lesson_status": "not-authored-in-this-delivery"
+  },
+  {
+    "id": "ST-01",
+    "title": "Membership, notation and inclusion",
+    "source_ids": [
+      "hammack-book-of-proof",
+      "zach-sets-logic-computation"
+    ],
+    "locator": "Hammack Chapter 1; Zach §§1.1–1.2",
+    "evidence_status": "contents/locators verified; full lesson proof and feedback review pending",
+    "lesson_status": "not-authored-in-this-delivery"
+  },
+  {
+    "id": "ST-02",
+    "title": "Subsets, equality and power sets",
+    "source_ids": [
+      "hammack-book-of-proof",
+      "zach-sets-logic-computation"
+    ],
+    "locator": "Hammack Chapter 1; Zach §§1.1–1.2",
+    "evidence_status": "contents/locators verified; full lesson proof and feedback review pending",
+    "lesson_status": "not-authored-in-this-delivery"
+  },
+  {
+    "id": "ST-03",
+    "title": "Union, intersection and difference",
+    "source_ids": [
+      "hammack-book-of-proof",
+      "zach-sets-logic-computation"
+    ],
+    "locator": "Hammack Chapter 1; Zach §1.4",
+    "evidence_status": "contents/locators verified; full lesson proof and feedback review pending",
+    "lesson_status": "not-authored-in-this-delivery"
+  },
+  {
+    "id": "ST-04",
+    "title": "Ordered pairs and Cartesian products",
+    "source_ids": [
+      "hammack-book-of-proof",
+      "zach-sets-logic-computation"
+    ],
+    "locator": "Hammack Chapter 1; Zach §1.5",
+    "evidence_status": "contents/locators verified; full lesson proof and feedback review pending",
+    "lesson_status": "not-authored-in-this-delivery"
+  },
+  {
+    "id": "ST-05",
+    "title": "Functions, domain/codomain, image/preimage",
+    "source_ids": [
+      "hammack-book-of-proof",
+      "zach-sets-logic-computation"
+    ],
+    "locator": "Hammack §§12.1, 12.6; Zach §3.1",
+    "evidence_status": "contents/locators verified; full lesson proof and feedback review pending",
+    "lesson_status": "not-authored-in-this-delivery"
+  },
+  {
+    "id": "ST-06",
+    "title": "Composition, injections, surjections, bijections and inverses",
+    "source_ids": [
+      "hammack-book-of-proof",
+      "zach-sets-logic-computation"
+    ],
+    "locator": "Hammack §§12.2, 12.4–12.5; Zach §§3.2, 3.4–3.5",
+    "evidence_status": "contents/locators verified; full lesson proof and feedback review pending",
+    "lesson_status": "not-authored-in-this-delivery"
+  },
+  {
+    "id": "ST-07",
+    "title": "Relations, equivalence, partitions and quotients",
+    "source_ids": [
+      "hammack-book-of-proof",
+      "zach-sets-logic-computation"
+    ],
+    "locator": "Hammack §§11.1–11.4; Zach §§2.1–2.3",
+    "evidence_status": "contents/locators verified; full lesson proof and feedback review pending",
+    "lesson_status": "not-authored-in-this-delivery"
+  },
+  {
+    "id": "ST-08",
+    "title": "Finite counting, infinity and proof reasoning",
+    "source_ids": [
+      "hammack-book-of-proof",
+      "zach-sets-logic-computation",
+      "levin-discrete-mathematics",
+      "mit-mathematics-computer-science"
+    ],
+    "locator": "Hammack proof Chapters 4–10 and cardinality Chapter 14; Zach Chapter 4; other claim locators pending",
+    "evidence_status": "contents/locators verified; full lesson proof and feedback review pending",
+    "lesson_status": "not-authored-in-this-delivery"
+  },
+  {
+    "id": "GT-01",
+    "title": "Square symmetry and composition",
+    "source_ids": [
+      "judson-abstract-algebra",
+      "milne-group-theory"
+    ],
+    "locator": "§§3.1 and 5.2; project square-coordinate example",
+    "evidence_status": "Judson contents verified; dihedral/action passages read; full assessment review pending",
+    "lesson_status": "not-authored-in-this-delivery"
+  },
+  {
+    "id": "GT-02",
+    "title": "Permutations and operation tables",
+    "source_ids": [
+      "judson-abstract-algebra",
+      "milne-group-theory"
+    ],
+    "locator": "§§3.2 and 5.1",
+    "evidence_status": "Judson contents verified; dihedral/action passages read; full assessment review pending",
+    "lesson_status": "not-authored-in-this-delivery"
+  },
+  {
+    "id": "GT-03",
+    "title": "Group axioms, examples and nonexamples",
+    "source_ids": [
+      "judson-abstract-algebra",
+      "milne-group-theory"
+    ],
+    "locator": "§3.2",
+    "evidence_status": "Judson contents verified; dihedral/action passages read; full assessment review pending",
+    "lesson_status": "not-authored-in-this-delivery"
+  },
+  {
+    "id": "GT-04",
+    "title": "Cyclic and dihedral groups; noncommutativity",
+    "source_ids": [
+      "judson-abstract-algebra",
+      "milne-group-theory"
+    ],
+    "locator": "§§4.1 and 5.2, pp. 93–94 for D_n order 2n",
+    "evidence_status": "Judson contents verified; dihedral/action passages read; full assessment review pending",
+    "lesson_status": "not-authored-in-this-delivery"
+  },
+  {
+    "id": "GT-05",
+    "title": "Subgroups, generators and element orders",
+    "source_ids": [
+      "judson-abstract-algebra",
+      "milne-group-theory"
+    ],
+    "locator": "§§3.3, 4.1 and 5.2",
+    "evidence_status": "Judson contents verified; dihedral/action passages read; full assessment review pending",
+    "lesson_status": "not-authored-in-this-delivery"
+  },
+  {
+    "id": "GT-06",
+    "title": "Group actions, orbits and stabilizers",
+    "source_ids": [
+      "judson-abstract-algebra",
+      "milne-group-theory"
+    ],
+    "locator": "§14.1, beginning p. 239",
+    "evidence_status": "Judson contents verified; dihedral/action passages read; full assessment review pending",
+    "lesson_status": "not-authored-in-this-delivery"
+  },
+  {
+    "id": "GT-07",
+    "title": "Homomorphisms and kernels",
+    "source_ids": [
+      "judson-abstract-algebra",
+      "milne-group-theory"
+    ],
+    "locator": "§11.1, beginning p. 196",
+    "evidence_status": "Judson contents verified; dihedral/action passages read; full assessment review pending",
+    "lesson_status": "not-authored-in-this-delivery"
+  },
+  {
+    "id": "GT-08",
+    "title": "Normal subgroups",
+    "source_ids": [
+      "judson-abstract-algebra",
+      "milne-group-theory"
+    ],
+    "locator": "§10.1, beginning p. 183",
+    "evidence_status": "Judson contents verified; dihedral/action passages read; full assessment review pending",
+    "lesson_status": "not-authored-in-this-delivery"
+  },
+  {
+    "id": "GT-09",
+    "title": "Quotient groups",
+    "source_ids": [
+      "judson-abstract-algebra",
+      "milne-group-theory"
+    ],
+    "locator": "§10.1; connection with §11.2",
+    "evidence_status": "Judson contents verified; dihedral/action passages read; full assessment review pending",
+    "lesson_status": "not-authored-in-this-delivery"
+  },
+  {
+    "id": "GT-10",
+    "title": "Capstone: symmetry preservation and breaking",
+    "source_ids": [
+      "judson-abstract-algebra",
+      "milne-group-theory"
+    ],
+    "locator": "§§12.2 and 14.1; project-authored investigation",
+    "evidence_status": "Judson contents verified; dihedral/action passages read; full assessment review pending",
+    "lesson_status": "not-authored-in-this-delivery"
+  },
+  {
+    "id": "R-01",
+    "title": "Shape arithmetic and matching",
+    "source_ids": [
+      "stiny-1980-introduction",
+      "krishnamurti-1980-arithmetic",
+      "krishnamurti-1981-construction",
+      "gatech-indeterminate-matching"
+    ],
+    "locator": "1980 definitions selected; algorithm details pending",
+    "evidence_status": "research roadmap; no new theorem or full course claimed",
+    "lesson_status": "not-authored-in-this-delivery"
+  },
+  {
+    "id": "R-02",
+    "title": "Weights and later shape algebras",
+    "source_ids": [
+      "stiny-1991-algebras",
+      "stiny-1992-weights"
+    ],
+    "locator": "full definitions/locators pending",
+    "evidence_status": "research roadmap; no new theorem or full course claimed",
+    "lesson_status": "not-authored-in-this-delivery"
+  },
+  {
+    "id": "R-03",
+    "title": "Continuity and retrospective topology",
+    "source_ids": [
+      "stiny-1994-closure",
+      "haridis-stiny-continuity",
+      "krishnamurti-stouffs-1997-spatial"
+    ],
+    "locator": "2022 preprint opening pp. 1–3 read; proofs pending",
+    "evidence_status": "research roadmap; no new theorem or full course claimed",
+    "lesson_status": "not-authored-in-this-delivery"
+  },
+  {
+    "id": "R-04",
+    "title": "Monster overview",
+    "source_ids": [
+      "atlas-monster",
+      "borcherds-2002-monster",
+      "borcherds-1998-moonshine"
+    ],
+    "locator": "ATLAS opening order; 1998 survey first page",
+    "evidence_status": "research roadmap; no new theorem or full course claimed",
+    "lesson_status": "not-authored-in-this-delivery"
+  },
+  {
+    "id": "R-05",
+    "title": "Moonshine history and primary proof",
+    "source_ids": [
+      "conway-norton-1979-moonshine",
+      "borcherds-1992-moonshine-proof",
+      "gannon-2004-moonshine-survey"
+    ],
+    "locator": "1992 Theorem 1.1 and §9; proof not reviewed",
+    "evidence_status": "research roadmap; no new theorem or full course claimed",
+    "lesson_status": "not-authored-in-this-delivery"
+  },
+  {
+    "id": "R-06",
+    "title": "Later representations and symmetry",
+    "source_ids": [
+      "etingof-representation-theory",
+      "hefferon-linear-algebra",
+      "iucr-symmetry"
+    ],
+    "locator": "prerequisites and topic scope verified; course-specific sections pending",
+    "evidence_status": "research roadmap; no new theorem or full course claimed",
+    "lesson_status": "not-authored-in-this-delivery"
+  },
+  {
+    "id": "R-07",
+    "title": "Historical research questions",
+    "source_ids": [
+      "borcherds-1998-problems"
+    ],
+    "locator": "2001 proceedings of 1998 meeting; current problem status unchecked",
+    "evidence_status": "research roadmap; no new theorem or full course claimed",
+    "lesson_status": "not-authored-in-this-delivery"
+  },
+  {
+    "id": "R-08",
+    "title": "Optional axiomatic foundations",
+    "source_ids": [
+      "button-set-theory"
+    ],
+    "locator": "Part II Chs. 2–5; later iterative conception chapters",
+    "evidence_status": "research roadmap; no new theorem or full course claimed",
+    "lesson_status": "not-authored-in-this-delivery"
+  }
+]

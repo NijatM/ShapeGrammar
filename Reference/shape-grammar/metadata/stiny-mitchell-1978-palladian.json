@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "stiny-mitchell-1978-palladian",
+  "topic": "shape-grammar",
+  "title": "The Palladian Grammar",
+  "authors": [
+    "George Stiny",
+    "William J. Mitchell"
+  ],
+  "year": 1978,
+  "edition_version": "Version of record unless otherwise noted",
+  "doi": "10.1068/b050005",
+  "stable_url": "https://journals.sagepub.com/doi/10.1068/b050005",
+  "reading_url": "https://journals.sagepub.com/doi/10.1068/b050005",
+  "download_url": null,
+  "venue": "Environment and Planning B 5(1)",
+  "pages": "5–18",
+  "tags": [
+    "shape-grammar",
+    "architecture",
+    "parametric-grammars"
+  ],
+  "relevance": "Primary architectural application; parametric design example with added prerequisites.",
+  "prerequisite_level": "intermediate",
+  "prerequisites": [
+    "Elementary sets and functions; some proof reading"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://journals.sagepub.com/doi/10.1068/b050005",
+    "conditions": "No public redistribution permission verified; citation and lawful reading link only."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [],
+  "verification": {
+    "scope": "Bibliographic record or official landing page inspected; full text and exact claim locators not reviewed.",
+    "source_urls": [
+      "https://journals.sagepub.com/doi/10.1068/b050005"
+    ],
+    "content_review": "bibliography-only"
+  },
+  "annotation_file": "shape-grammar/notes/stiny-mitchell-1978-palladian.md"
+}

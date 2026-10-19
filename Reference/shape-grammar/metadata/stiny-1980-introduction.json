@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "stiny-1980-introduction",
+  "topic": "shape-grammar",
+  "title": "Introduction to Shape and Shape Grammars",
+  "authors": [
+    "George Stiny"
+  ],
+  "year": 1980,
+  "edition_version": "Version of record unless otherwise noted",
+  "doi": "10.1068/b070343",
+  "stable_url": "https://journals.sagepub.com/doi/10.1068/b070343",
+  "reading_url": "https://www.andrew.cmu.edu/user/ramesh/teaching/course/48-747/subFrames/readings/Stiny-1980-EPB7_343-351.IntroductionToShapeAndShapeGrammars.pdf",
+  "download_url": null,
+  "venue": "Environment and Planning B 7(3)",
+  "pages": "343–351",
+  "tags": [
+    "shape-grammar",
+    "foundations",
+    "embedding",
+    "shape-arithmetic",
+    "rules"
+  ],
+  "relevance": "Core source for maximal lines, embedding, operations, transformations, rules and derivations.",
+  "prerequisite_level": "beginner",
+  "prerequisites": [
+    "High-school arithmetic; notation introduced gradually"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://journals.sagepub.com/doi/10.1068/b070343",
+    "conditions": "No public redistribution permission verified; citation and lawful reading link only."
+  },
+  "local_files": [],
+  "existing_local_files": [
+    {
+      "path": "1980-Stiny_Introduction to shape and shape grammars.pdf",
+      "sha256": "d08dadd2461f58862b3d44a67dce59ec9adcff090cdad4c143b714a1f256defa",
+      "bytes": 1173894,
+      "public_candidate": false,
+      "reason": "Pre-existing user file preserved at original path. Source of these exact bytes and redistribution permission are unknown."
+    }
+  ],
+  "locators": [
+    {
+      "locator": "p. 343: Shape; maximal lines and empty shape",
+      "status": "local-full-text-inspected"
+    },
+    {
+      "locator": "p. 344: Subshape and identity relations; Boolean operations; Transformations",
+      "status": "local-text-and-page-image-verified"
+    },
+    {
+      "locator": "p. 347: Shape grammars; applicability and replacement formula",
+      "status": "local-text-and-page-image-verified"
+    },
+    {
+      "locator": "pp. 349–351: Parametric shape grammars",
+      "status": "local-text-inspected"
+    }
+  ],
+  "verification": {
+    "scope": "Publisher metadata and user-provided nine-page PDF inspected. Printed pp. 344 and 347 visually checked; extraction alone was not used for the parthood sign.",
+    "source_urls": [
+      "https://journals.sagepub.com/doi/10.1068/b070343"
+    ],
+    "content_review": "selected-sections-and-page-images"
+  },
+  "annotation_file": "shape-grammar/notes/stiny-1980-introduction.md"
+}
