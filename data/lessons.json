@@ -881,7 +881,7 @@
       },
       {
         "heading": "Why the distinction matters",
-        "body": "The examples in this course are original teaching fixtures. They demonstrate selected concepts rather than reproducing a historical grammar. A picture resembling a traditional pattern is not enough to establish that it follows the same grammar or constraints as the historical work."
+        "body": "The examples in these notes are small, original experiments. They demonstrate selected concepts rather than reproducing a historical grammar. A picture resembling a traditional pattern is not enough to establish that it follows the same grammar or constraints as the historical work."
       }
     ],
     "worked": {
@@ -1729,7 +1729,7 @@
     "sections": [
       {
         "heading": "The idea",
-        "body": "An unmarked square is preserved by four rotations and four reflections. The rotations are by 0°, 90°, 180° and 270°. The reflection axes pass through opposite vertices or through midpoints of opposite sides. These eight transformations form D₄ in this course’s convention."
+        "body": "An unmarked square is preserved by four rotations and four reflections. The rotations are by 0°, 90°, 180° and 270°. The reflection axes pass through opposite vertices or through midpoints of opposite sides. These eight transformations form D₄ in this project’s convention."
       },
       {
         "heading": "Why the distinction matters",
@@ -1754,7 +1754,7 @@
           "16"
         ],
         "answer": 1,
-        "explanation": "The course uses D₄ for the order-eight square symmetry group."
+        "explanation": "Here D₄ means the order-eight square symmetry group."
       },
       {
         "prompt": "In AB, which transformation acts first?",

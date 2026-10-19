@@ -2,7 +2,7 @@
 
 | Area | Delivered |
 | --- | --- |
-| Learning | 34 authored micro-lessons, worked examples, 68 checks, practice/hints/solutions, course navigation |
+| Exploration | 34 study notes across three tracks, worked examples, 68 quick checks, practice/hints/solutions and track navigation |
 | Research | 98 canonical records, 20 permitted originals, Stiny and Knight indexes, 10 reading pathways, 33 glossary terms |
 | Geometry | Exact rational line arithmetic, geometric parthood, finite matching, shared-transform rule application and replayable history |
 | Laboratory | Drawing, visual/coordinate rule editing, worker search, manual alignment, witness/part/result counts, history, pan/zoom, local save/restore and validated JSON interchange |

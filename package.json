@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "ShapeGrammar learning courses, reference library and exact geometric laboratory",
+  "description": "Personal experiments, study notes and references in shape grammar, set theory and group theory",
   "engines": {
     "node": ">=20"
   },

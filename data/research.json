@@ -79,7 +79,7 @@
       "iucr-symmetry",
       "knight-1998-infinite-patterns-and-their-symmetries"
     ],
-    "locator": "prerequisites and topic scope verified; course-specific sections pending"
+    "locator": "prerequisites and topic scope verified; topic-specific sections pending"
   },
   {
     "id": "R-07",
@@ -95,8 +95,8 @@
   {
     "id": "R-08",
     "title": "Axiomatic foundations",
-    "body": "Elementary set operations can be introduced informally, but a foundational account asks which set-existence principles are assumed. Axiomatic set theory also distinguishes informal collections from sets admitted by a particular theory. This pathway is optional after the introductory set course.",
-    "task": "Read an axiomatic treatment of separation and pairing, and compare its stated assumptions with the roster examples in the course.",
+    "body": "Elementary set operations can be introduced informally, but a foundational account asks which set-existence principles are assumed. Axiomatic set theory also distinguishes informal collections from sets admitted by a particular theory. This pathway is optional after the introductory set theory track.",
+    "task": "Read an axiomatic treatment of separation and pairing, and compare its stated assumptions with the roster examples in these notes.",
     "question": "Why does an unrestricted rule that every property defines a set create difficulties?",
     "source_ids": [
       "button-set-theory"
@@ -114,7 +114,7 @@
       "knight-2018-craft-performance-and-grammars",
       "knight-2015-computational-making"
     ],
-    "locator": "publisher/author bibliography checked; exact teaching locators pending"
+    "locator": "publisher/author bibliography checked; exact reading locators pending"
   },
   {
     "id": "R-10",
