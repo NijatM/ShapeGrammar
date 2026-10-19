@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "knight-2014-data-driven-design-to-production-and-operation",
+  "topic": "shape-grammar",
+  "title": "Data-Driven Design to Production and Operation",
+  "authors": [
+    "Henriette Bier",
+    "Terry Knight"
+  ],
+  "year": 2014,
+  "edition_version": "Autumn 2014 introduction, printed pp. 1–8; 8 PDF pages. Legacy DOI retained as alias.",
+  "doi": "10.59490/footprint.8.2.807",
+  "stable_url": "https://doi.org/10.59490/footprint.8.2.807",
+  "reading_url": "https://journals.open.tudelft.nl/footprint/article/view/807",
+  "download_url": "https://journals.open.tudelft.nl/footprint/article/download/807/990",
+  "venue": "FOOTPRINT",
+  "pages": "1–8",
+  "tags": [
+    "shape-grammar",
+    "author-terry-knight"
+  ],
+  "relevance": "Terry Knight author corpus: shape grammar theory, design, implementation, or teaching.",
+  "prerequisite_level": "intermediate",
+  "prerequisites": [
+    "Elementary sets and functions; some proof reading"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "downloaded-with-conditions",
+    "license": "CC BY 4.0",
+    "evidence_url": "https://journals.open.tudelft.nl/footprint/article/view/807",
+    "conditions": "CC BY 4.0 identified on publisher landing page; preserve attribution, source and notices. Original downloaded bytes are unmodified. Separately credited images must retain their credits; no figures extracted."
+  },
+  "local_files": [
+    {
+      "path": "shape-grammar/originals/knight-2014-data-driven-design-to-production-and-operation.pdf",
+      "sha256": "be719977b9d9496b3f0044e06cad058d749e6b7905db3b69f8d77c26939d3801",
+      "bytes": 543101,
+      "pdf_pages": 8,
+      "download_url": "https://journals.open.tudelft.nl/footprint/article/download/807/990",
+      "resolved_url": "https://journals.open.tudelft.nl/footprint/article/download/807/990",
+      "access_date": "2026-10-18",
+      "unmodified": true
+    }
+  ],
+  "existing_local_files": [],
+  "locators": [
+    {
+      "locator": "Printed p. 1, introduction and byline",
+      "status": "selected-text-inspected"
+    }
+  ],
+  "verification": {
+    "scope": "Publisher DOI metadata, official landing-page license, PDF byline and printed pagination inspected. Text layer read for introductory context and references; figures and all arguments not exhaustively reviewed.",
+    "source_urls": [
+      "https://api.crossref.org/works/10.59490/footprint.8.2.807",
+      "https://architecture.mit.edu/people/terry-knight",
+      "https://journals.open.tudelft.nl/footprint/article/view/807"
+    ],
+    "content_review": "selected-text-and-rights"
+  },
+  "annotation_file": "shape-grammar/notes/knight-2014-data-driven-design-to-production-and-operation.md",
+  "publication_type": "journal-article",
+  "author_names_as_published": [
+    "Henriette Bier",
+    "Terry Knight"
+  ],
+  "alternate_dois": [
+    "10.7480/footprint.8.2.807"
+  ]
+}

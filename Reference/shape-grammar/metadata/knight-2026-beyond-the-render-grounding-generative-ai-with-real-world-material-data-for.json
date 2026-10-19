@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "id": "knight-2026-beyond-the-render-grounding-generative-ai-with-real-world-material-data-for",
+  "topic": "shape-grammar",
+  "title": "Beyond the Render: Grounding Generative AI with Real-World Material Data for Informed Design Decisions",
+  "authors": [
+    "Richa Gupta",
+    "Terry Knight",
+    "Takehiko Nagakura"
+  ],
+  "year": 2026,
+  "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+  "doi": "10.1007/978-3-032-30846-7_7",
+  "stable_url": "https://doi.org/10.1007/978-3-032-30846-7_7",
+  "reading_url": "https://doi.org/10.1007/978-3-032-30846-7_7",
+  "download_url": null,
+  "venue": "Lecture Notes in Computer Science; Artificial Intelligence in HCI",
+  "pages": "107-123",
+  "tags": [
+    "shape-grammar",
+    "author-terry-knight",
+    "computational-making",
+    "materiality"
+  ],
+  "relevance": "Terry Knight author corpus: computational making and material/design practice.",
+  "prerequisite_level": "intermediate",
+  "prerequisites": [
+    "Elementary sets and functions; some proof reading"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://doi.org/10.1007/978-3-032-30846-7_7",
+    "conditions": "No general redistribution permission verified for this exact work; retain citation and lawful reading link."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [],
+  "verification": {
+    "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+    "source_urls": [
+      "https://api.crossref.org/works/10.1007/978-3-032-30846-7_7",
+      "https://architecture.mit.edu/people/terry-knight"
+    ],
+    "content_review": "bibliography-only"
+  },
+  "annotation_file": "shape-grammar/notes/knight-2026-beyond-the-render-grounding-generative-ai-with-real-world-material-data-for.md",
+  "publication_type": "book-chapter",
+  "author_names_as_published": [
+    "Richa Gupta",
+    "Terry Knight",
+    "Takehiko Nagakura"
+  ]
+}

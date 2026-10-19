@@ -1,6 +1,6 @@
 # Research log, exclusions and remaining work
 
-Research date: 18 October 2026. Scope: references requested by the user and the evidence requirements in the agreed prompt; application development is not part of this delivery.
+Research date: 18 October 2026. Scope: research references and evidence supporting the mathematical model. A separate local engine milestone is documented in [the project verification report](../docs/ENGINE_VALIDATION.md).
 
 ## Strategy and checks actually performed
 
@@ -9,6 +9,10 @@ Started with MIT OCW 4.540 primary texts, supplemental bibliography and source l
 For sets and groups, prioritized author-maintained open textbooks, archived builds and MIT course materials. For Monster/moonshine, used Borcherds’s author-hosted papers, the Conway–Norton publisher record, Gannon’s arXiv revision and ATLAS. For later connections, used representation theory, linear algebra and IUCr symmetry materials. Search-engine snippets were discovery aids; technical claims were tied to primary or institutional pages.
 
 Downloaded five textbooks and ten Stiny OCW manuscripts into the requested topic folders. Kept downloaded bytes unmodified and recorded SHA-256 hashes. Read front matter and license notices, selected tables of contents and relevant passages. Inspected the pre-existing Stiny 1980 PDF; rendered printed pp. 344 and 347 and visually confirmed parthood and rule-application notation. Other PDF figures and proofs have not all been visually or mathematically reviewed.
+
+Expanded Terry Knight’s bibliography using the author-hosted historical list, MIT Computational Making, publisher/DOI records, public ORCID and targeted title searches. Added 54 associated records beyond the existing Six Types entry and five openly licensed originals. The index includes authored work, editorial roles, a named contribution and teaching resources; it does not turn every associated item into a research paper. See the [author audit](authors/terry-knight/COVERAGE_AUDIT.md) for unresolved reports, versions and excluded same-name authors. Full texts without verified redistribution permission remain linked. No private course pages were accessed.
+
+Stouffs 2016, printed p. 331, was rendered and visually checked to verify the Uᵢⱼ dimension convention. Its institutional redistribution restriction was respected: the reading/rendering copy stayed outside the public collection. This resolves the selected implementation’s dimensional convention, while leaving the original Stiny 1991 passage as further research.
 
 The separate link report records actual HTTP results. A 403 or 406 can reflect filtering; it is not evidence that a paper does not exist. No login, subscription bypass or alternative account access was used. Git and GitHub operations were not performed, including read-only inspection.
 
@@ -25,7 +29,7 @@ The separate link report records actual HTTP results. A 403 or 406 can reflect f
 
 ## Gaps and next research tasks
 
-1. **U₁₂ source lock remains pending.** The intended meaning is line elements in a planar containing space. The bibliography identifies Stiny 1991 and Krishnamurti–Stouffs 1997, but their exact defining passages have not been inspected here. Do not present a finished engine contract as source-locked on this evidence alone.
+1. **Original algebra-source review:** the U₁₂ dimension convention is verified in Stouffs 2016 p. 331; Stiny 1991 and Krishnamurti–Stouffs 1997 still require full defining-passage review. The rational-coordinate and finite-menu restrictions in the implemented engine are project choices, not claims of unrestricted shape-grammar support.
 2. **Full-book locators remain pending** for *Shape* and *Shapes of Imagination*. Their bibliographic/edition and access records are verified, not every interior claim. The MIT OA link for the latter did not yield a full download in this pass.
 3. **Foundational and computational full texts:** 1972, 1975, weights, construction, rule schemas, six types and tractability have bibliographic coverage, with reading paths where verified. Selected results still need full-text checking before teaching or algorithm adoption. The 1978 institutional handle must be checked manually if its server continues to fail.
 4. **IUCr pamphlet year** remains unverified. Author L. S. Dent Glasser and the introductory teaching aims were verified on the official page; the publication year is not guessed.
@@ -34,7 +38,7 @@ The separate link report records actual HTTP results. A 403 or 406 can reflect f
 7. **Future modules:** frieze/wallpaper groups, reflection groups, representation theory, group extensions and finite simple groups need additional focused curation. The bridge folder is a prerequisite route, not a finished course in each topic.
 8. **Permissions:** exact provenance and redistribution rights of the existing 1980 PDF are unresolved. Preserve it, but exclude it from public staging. Lecturer slides with explicit third-party exclusions and papers without verified mirroring permission remain links.
 
-This library does not claim exhaustive coverage, expert certification, completed lesson review, a tested mathematical engine or a deployable application. The immediate research foundation is delivered; the items above are recorded boundaries for later work, not hidden completed tasks.
+This library does not claim exhaustive coverage, expert certification, completed lesson review or a deployable application. The initial tested engine has separate, bounded verification evidence. Knight’s lifetime bibliography is a continuing reconciliation task; identified uncertainties are recorded rather than represented as verified publications.
 
 ## Future literature updates
 

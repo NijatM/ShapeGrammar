@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "knight-1986-meander",
+  "topic": "shape-grammar",
+  "title": "Transformations of the Meander Motif on Greek Geometric Pottery",
+  "authors": [
+    "Terry W. Knight"
+  ],
+  "year": 1986,
+  "edition_version": "Bibliographic citation; no downloadable edition pinned",
+  "doi": null,
+  "stable_url": "https://www.mit.edu/~tknight/IJDC/page_references.htm",
+  "reading_url": "https://www.mit.edu/~tknight/IJDC/page_references.htm",
+  "download_url": null,
+  "venue": "Design Computing 1",
+  "pages": "29–67",
+  "tags": [
+    "shape-grammar",
+    "author-terry-knight",
+    "transformations",
+    "stylistic-change"
+  ],
+  "relevance": "Terry Knight author corpus: Transformations of the Meander Motif on Greek Geometric Pottery. Citation coverage; full text requires separate review.",
+  "prerequisite_level": "intermediate",
+  "prerequisites": [
+    "Elementary sets and functions; some proof reading"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://www.mit.edu/~tknight/IJDC/page_references.htm",
+    "conditions": "Citation and lawful source link only; redistribution permission for a complete original has not been established."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [],
+  "verification": {
+    "scope": "Title, author, year and venue checked in institutional bibliography; exact text not inspected.",
+    "source_urls": [
+      "https://www.mit.edu/~tknight/IJDC/page_references.htm"
+    ],
+    "content_review": "bibliography-only"
+  },
+  "annotation_file": "shape-grammar/notes/knight-1986-meander.md",
+  "publication_type": "journal-article"
+}

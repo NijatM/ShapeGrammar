@@ -133,7 +133,12 @@ def rebuild():
             if d['topic'] == topic:
                 title = d['title'].replace('|', '\\|')
                 access = f"{len(d['local_files'])} local PDF(s)" if d['local_files'] else 'reading link'
-                lines.append(f"| [{title}]({d['annotation_file']}) | {', '.join(d['authors'])} / {d['year'] or 'undated'} | {d['prerequisite_level']} | {access} |")
+                people = ', '.join(d.get('editors') or d['authors'])
+                if d.get('publication_type') == 'edited-issue':
+                    people += ' (editors)'
+                if d.get('contributors'):
+                    people += '; named contribution: ' + ', '.join(d['contributors'])
+                lines.append(f"| [{title}]({d['annotation_file']}) | {people} / {d['year'] or 'undated'} | {d['prerequisite_level']} | {access} |")
         lines.append('')
     (ROOT / 'CATALOGUE.md').write_text('\n'.join(lines))
     def bib(value):
@@ -142,6 +147,11 @@ def rebuild():
     for d in sources:
         fields = {'title': d['title'], 'author': ' and '.join(d['authors']), 'url': d['stable_url'],
                   'urldate': d['access_date'], 'note': d['edition_version']}
+        if d.get('publication_type') == 'edited-issue':
+            fields.pop('author')
+            fields['editor'] = ' and '.join(d['editors'])
+        if d.get('contributors'):
+            fields['note'] += ' Named contribution: ' + ', '.join(d['contributors']) + '.'
         if d['year'] is not None:
             fields['year'] = d['year']
         if d['doi']:

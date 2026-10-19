@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "papalambros-2015-design-science-knight-contribution",
+  "topic": "shape-grammar",
+  "title": "Design Science: Why, What and How",
+  "authors": [
+    "Panos Y. Papalambros"
+  ],
+  "year": 2015,
+  "edition_version": "2015 editorial; online 24 July 2015. Knight contribution is within the whole article, not a separately DOI-identified publication.",
+  "doi": "10.1017/dsj.2015.1",
+  "stable_url": "https://www.cambridge.org/core/journals/design-science/article/design-science-why-what-and-how/A575D750B05AE57AAF9E7CA07E44FEF4",
+  "reading_url": "https://www.cambridge.org/core/journals/design-science/article/design-science-why-what-and-how/A575D750B05AE57AAF9E7CA07E44FEF4",
+  "download_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A575D750B05AE57AAF9E7CA07E44FEF4/S2053470115000013a.pdf/div-class-title-design-science-why-what-and-how-div.pdf",
+  "venue": "Design Science 1",
+  "pages": "e1",
+  "tags": [
+    "shape-grammar",
+    "author-terry-knight"
+  ],
+  "relevance": "Knight’s explicitly attributed statement on design pedagogy, making and interdisciplinary study.",
+  "prerequisite_level": "intermediate",
+  "prerequisites": [
+    "Elementary sets and functions; some proof reading"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "downloaded-with-conditions",
+    "license": "CC BY 4.0",
+    "evidence_url": "https://www.cambridge.org/core/journals/design-science/article/design-science-why-what-and-how/A575D750B05AE57AAF9E7CA07E44FEF4",
+    "conditions": "CC BY 4.0 identified on publisher landing page; preserve attribution, source and notices. Original downloaded bytes are unmodified. Separately credited images must retain their credits; no figures extracted."
+  },
+  "local_files": [
+    {
+      "path": "shape-grammar/originals/papalambros-2015-design-science-knight-contribution.pdf",
+      "sha256": "a325739174c700d859901eff19cc7af9585be2f870b0fcb2a75e899244dac522",
+      "bytes": 587152,
+      "pdf_pages": 38,
+      "download_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A575D750B05AE57AAF9E7CA07E44FEF4/S2053470115000013a.pdf/div-class-title-design-science-why-what-and-how-div.pdf",
+      "resolved_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A575D750B05AE57AAF9E7CA07E44FEF4/S2053470115000013a.pdf/div-class-title-design-science-why-what-and-how-div.pdf",
+      "access_date": "2026-10-18",
+      "unmodified": true
+    }
+  ],
+  "existing_local_files": [],
+  "locators": [
+    {
+      "locator": "Section headed Terry Knight; PDF p. 20",
+      "status": "text-inspected"
+    }
+  ],
+  "verification": {
+    "scope": "Publisher byline and named Terry Knight section inspected. Papalambros is the credited article author; Knight contributes a separately headed statement within it.",
+    "source_urls": [
+      "https://www.cambridge.org/core/journals/design-science/article/design-science-why-what-and-how/A575D750B05AE57AAF9E7CA07E44FEF4"
+    ],
+    "content_review": "selected-sections"
+  },
+  "annotation_file": "shape-grammar/notes/papalambros-2015-design-science-knight-contribution.md",
+  "publication_type": "editorial-with-named-contribution",
+  "contributors": [
+    "Terry Knight"
+  ],
+  "contributor_roles": {
+    "Terry Knight": "Named section contributor; not the article byline author"
+  }
+}

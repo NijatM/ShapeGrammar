@@ -1,25 +1,30 @@
 # Shape Grammars: Six Types
 
-Source ID: `knight-1999-six-types`. Authors: Terry W. Knight. Year: 1999.
+Source ID: `knight-1999-six-types`. Year: 1999. Contributors as recorded: Terry W. Knight.
 
-Classification of grammar types for later comparisons and design exercises.
+Type: journal article. Venue: Environment and Planning B 26(1). Pages: 15–31.
 
-[Canonical/verification page](https://journals.sagepub.com/doi/10.1068/b260015) · [Lawful reading link](https://journals.sagepub.com/doi/10.1068/b260015).
+[Canonical metadata](../metadata/knight-1999-six-types.json) · [Source / publication record](https://journals.sagepub.com/doi/10.1068/b260015) · [Reading path](https://journals.sagepub.com/doi/10.1068/b260015)
 
-Version: Version of record unless otherwise noted.
+Version of record unless otherwise noted
 
-Review scope: Bibliographic record or official landing page inspected; full text and exact claim locators not reviewed.
+## Reading purpose
 
-## Reading locators
+Classification of grammar types for later comparisons and design exercises. This is a bibliographic entry and reading prompt, not a summary of an unreviewed argument.
 
-- Exact claim/page locators still require full-text review.
+## Verification
 
-## Local originals
+Bibliographic record or official landing page inspected; full text and exact claim locators not reviewed.
 
-- Reading link only; no new original mirrored here.
+## Locators
 
-## Rights
+Exact claim locators require further full-text review.
 
-No redistribution license verified. No public redistribution permission verified; citation and lawful reading link only.
+## Originals and rights
 
-This is a public editorial reference annotation. Bibliographic inclusion does not certify every claim in the work, complete a lesson, or establish a connection to the Monster.
+Reading link only; no local original mirrored.
+
+No general redistribution license established. No public redistribution permission verified; citation and lawful reading link only.
+[Rights evidence](https://journals.sagepub.com/doi/10.1068/b260015).
+
+[Terry Knight author index](../../authors/terry-knight/README.md).

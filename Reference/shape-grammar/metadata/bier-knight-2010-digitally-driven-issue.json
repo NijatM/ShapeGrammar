@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "bier-knight-2010-digitally-driven-issue",
+  "topic": "shape-grammar",
+  "title": "Digitally-Driven Architecture — Footprint Issue 6",
+  "authors": [
+    "Henriette Bier",
+    "Terry Knight"
+  ],
+  "year": 2010,
+  "edition_version": "Themed issue associated with Bier–Knight editorial; publication container recorded separately from the editorial article. Do not attribute every contributed paper to the issue editors. Spring 2010 is the issue designation; web platform displays publication timestamp 2014-07-31. The original editorial footer confirms Spring 2010.",
+  "doi": null,
+  "stable_url": "https://journals.open.tudelft.nl/footprint/issue/view/378",
+  "reading_url": "https://journals.open.tudelft.nl/footprint/issue/view/378",
+  "download_url": null,
+  "venue": "Footprint, themed issue",
+  "pages": null,
+  "tags": [
+    "shape-grammar",
+    "author-terry-knight"
+  ],
+  "relevance": "Terry Knight author corpus: Digitally-Driven Architecture — Footprint Issue 6. Citation coverage; full text requires separate review.",
+  "prerequisite_level": "intermediate",
+  "prerequisites": [
+    "Elementary sets and functions; some proof reading"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://journals.open.tudelft.nl/footprint/issue/view/378",
+    "conditions": "Citation and lawful source link only; redistribution permission for a complete original has not been established."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [],
+  "verification": {
+    "scope": "Official issue page and corresponding Bier–Knight editorial checked. This is an edited publication context, not a newly authored research paper.",
+    "source_urls": [
+      "https://journals.open.tudelft.nl/footprint/issue/view/378"
+    ],
+    "content_review": "bibliography-only"
+  },
+  "annotation_file": "shape-grammar/notes/bier-knight-2010-digitally-driven-issue.md",
+  "publication_type": "edited-issue",
+  "editors": [
+    "Henriette Bier",
+    "Terry Knight"
+  ],
+  "contributor_roles": {
+    "Henriette Bier": "Issue editor",
+    "Terry Knight": "Issue editor"
+  }
+}

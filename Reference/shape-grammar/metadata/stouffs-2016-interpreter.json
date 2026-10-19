@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "stouffs-2016-interpreter",
+  "topic": "shape-grammar",
+  "title": "An Algebraic Approach to Implementing a Shape Grammar Interpreter",
+  "authors": [
+    "Rudi Stouffs"
+  ],
+  "year": 2016,
+  "edition_version": "Bibliographic citation; no downloadable edition pinned",
+  "doi": null,
+  "stable_url": "https://pure.tudelft.nl/ws/portalfiles/portal/12909097/Stouffs_eCAADe2016_volume2.pdf",
+  "reading_url": "https://pure.tudelft.nl/ws/portalfiles/portal/12909097/Stouffs_eCAADe2016_volume2.pdf",
+  "download_url": null,
+  "venue": "Proceedings of the 34th eCAADe Conference, volume 2",
+  "pages": "329–338",
+  "tags": [
+    "shape-grammar",
+    "implementation",
+    "shape-algebras",
+    "U12"
+  ],
+  "relevance": "Primary definition of U_ij dimensions and an algebra interface for shape-grammar interpretation; supports the planar line-engine convention.",
+  "prerequisite_level": "intermediate",
+  "prerequisites": [
+    "Elementary sets and functions; some proof reading"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://pure.tudelft.nl/ws/portalfiles/portal/12909097/Stouffs_eCAADe2016_volume2.pdf",
+    "conditions": "TU Delft cover explicitly limits redistribution without consent unless an open license applies. Read temporarily only; no original mirrored."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [
+    {
+      "locator": "p. 331, Shape Algebras: U_ij and U_12 dimensional convention",
+      "status": "text-and-rendered-page-verified"
+    },
+    {
+      "locator": "pp. 332–334, algebra interface and spatial elements",
+      "status": "selected-text-inspected"
+    }
+  ],
+  "verification": {
+    "scope": "Institutional repository cover and complete relevant sections inspected. Printed p. 331 rendered and visually checked for U_ij dimensional convention; pp. 332–334 read for operations/interface.",
+    "source_urls": [
+      "https://pure.tudelft.nl/ws/portalfiles/portal/12909097/Stouffs_eCAADe2016_volume2.pdf"
+    ],
+    "content_review": "selected-sections-and-page-image"
+  },
+  "annotation_file": "shape-grammar/notes/stouffs-2016-interpreter.md",
+  "publication_type": "conference-paper"
+}

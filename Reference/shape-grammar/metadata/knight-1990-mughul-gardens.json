@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "knight-1990-mughul-gardens",
+  "topic": "shape-grammar",
+  "title": "Mughul Gardens Revisited",
+  "authors": [
+    "T W Knight"
+  ],
+  "year": 1990,
+  "edition_version": "Published journal article; historic author name T. Weissman Knight / T. W. Knight.",
+  "doi": "10.1068/b170073",
+  "stable_url": "https://journals.sagepub.com/doi/10.1068/b170073",
+  "reading_url": "https://journals.sagepub.com/doi/10.1068/b170073",
+  "download_url": null,
+  "venue": "Environment and Planning B",
+  "pages": "73–84",
+  "tags": [
+    "shape-grammar",
+    "author-terry-knight",
+    "color-grammars",
+    "extensions"
+  ],
+  "relevance": "Terry Knight author corpus: Mughul Gardens Revisited. Citation coverage; full text requires separate review.",
+  "prerequisite_level": "intermediate",
+  "prerequisites": [
+    "Elementary sets and functions; some proof reading"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://journals.sagepub.com/doi/10.1068/b170073",
+    "conditions": "Citation and lawful source link only; redistribution permission for a complete original has not been established."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [],
+  "verification": {
+    "scope": "Title, author, year and pp. 73–84 corroborated by Knight’s 1994 article bibliography on the publisher website. Direct landing page could not be retrieved; no direct record or full-text review claimed.",
+    "source_urls": [
+      "https://journals.sagepub.com/doi/10.1068/b210705"
+    ],
+    "content_review": "bibliographic-corroboration"
+  },
+  "annotation_file": "shape-grammar/notes/knight-1990-mughul-gardens.md",
+  "publication_type": "journal-article"
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "id": "knight-1994-transformations-in-design",
+  "topic": "shape-grammar",
+  "title": "Transformations in Design: A Formal Approach to Stylistic Change and Innovation in the Visual Arts",
+  "authors": [
+    "Terry W. Knight"
+  ],
+  "year": 1994,
+  "edition_version": "1994 edition. Library counts xvii + 258; other discovery services report 276 total pages. Preserve the library collation.",
+  "doi": null,
+  "stable_url": "https://www.cca.qc.ca/fr/recherche/details/library/publication/26361509",
+  "reading_url": "https://www.cca.qc.ca/fr/recherche/details/library/publication/26361509",
+  "download_url": null,
+  "venue": "Cambridge University Press",
+  "pages": "xvii + 258",
+  "tags": [
+    "shape-grammar",
+    "author-terry-knight",
+    "transformations",
+    "stylistic-change"
+  ],
+  "relevance": "Terry Knight author corpus: Transformations in Design: A Formal Approach to Stylistic Change and Innovation in the Visual Arts. Citation coverage; full text requires separate review.",
+  "prerequisite_level": "intermediate",
+  "prerequisites": [
+    "Elementary sets and functions; some proof reading"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://www.cca.qc.ca/fr/recherche/details/library/publication/26361509",
+    "conditions": "Citation and lawful source link only; redistribution permission for a complete original has not been established."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [],
+  "verification": {
+    "scope": "MIT author bibliography verifies author/year/publisher; Canadian Centre for Architecture library record verifies full title and collation.",
+    "source_urls": [
+      "https://www.cca.qc.ca/fr/recherche/details/library/publication/26361509",
+      "https://www.mit.edu/~tknight/IJDC/page_references.htm"
+    ],
+    "content_review": "bibliography-only"
+  },
+  "annotation_file": "shape-grammar/notes/knight-1994-transformations-in-design.md",
+  "publication_type": "book",
+  "isbn": [
+    "0521384605",
+    "9780521384605"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "id": "knight-1983-transformations-of-languages-of-designs-part-3",
+  "topic": "shape-grammar",
+  "title": "Transformations of Languages of Designs: Part 3",
+  "authors": [
+    "T Weissman Knight"
+  ],
+  "year": 1983,
+  "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+  "doi": "10.1068/b100155",
+  "stable_url": "https://doi.org/10.1068/b100155",
+  "reading_url": "https://doi.org/10.1068/b100155",
+  "download_url": null,
+  "venue": "Environment and Planning B: Planning and Design",
+  "pages": "155-177",
+  "tags": [
+    "shape-grammar",
+    "author-terry-knight",
+    "transformations",
+    "stylistic-change"
+  ],
+  "relevance": "Terry Knight author corpus: shape grammar theory, design, implementation, or teaching.",
+  "prerequisite_level": "intermediate",
+  "prerequisites": [
+    "Elementary sets and functions; some proof reading"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://doi.org/10.1068/b100155",
+    "conditions": "No general redistribution permission verified for this exact work; retain citation and lawful reading link."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [],
+  "verification": {
+    "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+    "source_urls": [
+      "https://api.crossref.org/works/10.1068/b100155",
+      "https://architecture.mit.edu/people/terry-knight",
+      "https://www.mit.edu/~tknight/IJDC/page_references.htm"
+    ],
+    "content_review": "bibliography-only"
+  },
+  "annotation_file": "shape-grammar/notes/knight-1983-transformations-of-languages-of-designs-part-3.md",
+  "publication_type": "journal-article",
+  "author_names_as_published": [
+    "T Weissman Knight"
+  ]
+}

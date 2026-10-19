@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "id": "knight-1995-constructive-symmetry",
+  "topic": "shape-grammar",
+  "title": "Constructive Symmetry",
+  "authors": [
+    "T W Knight"
+  ],
+  "year": 1995,
+  "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+  "doi": "10.1068/b220419",
+  "stable_url": "https://doi.org/10.1068/b220419",
+  "reading_url": "https://doi.org/10.1068/b220419",
+  "download_url": null,
+  "venue": "Environment and Planning B: Planning and Design",
+  "pages": "419-450",
+  "tags": [
+    "shape-grammar",
+    "author-terry-knight",
+    "group-theory",
+    "symmetry"
+  ],
+  "relevance": "Terry Knight author corpus: symmetry and pattern construction.",
+  "prerequisite_level": "intermediate",
+  "prerequisites": [
+    "Elementary sets and functions; some proof reading"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://doi.org/10.1068/b220419",
+    "conditions": "No general redistribution permission verified for this exact work; retain citation and lawful reading link."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [],
+  "verification": {
+    "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+    "source_urls": [
+      "https://api.crossref.org/works/10.1068/b220419",
+      "https://architecture.mit.edu/people/terry-knight"
+    ],
+    "content_review": "bibliography-only"
+  },
+  "annotation_file": "shape-grammar/notes/knight-1995-constructive-symmetry.md",
+  "publication_type": "journal-article",
+  "author_names_as_published": [
+    "T W Knight"
+  ]
+}

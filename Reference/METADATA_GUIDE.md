@@ -11,6 +11,7 @@ Canonical records live at `<topic>/metadata/<source-id>.json`; each has a matchi
 - `existing_local_files`: previously supplied files, separately described; explicitly excluded from the public candidate list when rights are unknown.
 - `locators`: printed page, PDF page, section or heading and verification status. A table-of-contents check establishes location, not correctness of all definitions or exercises. Distinguish printed and PDF page numbers.
 - `verification`: what was actually inspected and which URLs support it. Do not silently promote `bibliography-only` to full review.
+- Optional `publication_type`, `editors`, `contributors`, `contributor_roles`, `alternate_dois` and `related_versions` distinguish editorial roles, named contributions, aliases and versions. For `edited-issue` records the required legacy `authors` list names the editors; `editors` and `contributor_roles` make that role explicit. The generated BibTeX uses `editor`, not `author`, for those containers. A named contributor within another author’s editorial is not added to its byline.
 
 ## Adding or updating a source
 

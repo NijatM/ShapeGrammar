@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "el-zanfaly-knight-2016-why-make",
+  "topic": "shape-grammar",
+  "title": "Why to Make (almost) Anything: A Human-centered Learning Approach",
+  "authors": [
+    "Dina El-Zanfaly",
+    "Terry Knight"
+  ],
+  "year": 2016,
+  "edition_version": "Bibliographic citation; no downloadable edition pinned",
+  "doi": null,
+  "stable_url": "https://computationalmaking.mit.edu/publications/",
+  "reading_url": "https://computationalmaking.mit.edu/publications/",
+  "download_url": null,
+  "venue": "Proceedings of the 1st International Symposium on Academic Makerspaces, Cambridge, MA",
+  "pages": "49–53",
+  "tags": [
+    "shape-grammar",
+    "author-terry-knight",
+    "computational-making",
+    "materiality"
+  ],
+  "relevance": "Terry Knight author corpus: Why to Make (almost) Anything: A Human-centered Learning Approach. Citation coverage; full text requires separate review.",
+  "prerequisite_level": "intermediate",
+  "prerequisites": [
+    "Elementary sets and functions; some proof reading"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://computationalmaking.mit.edu/publications/",
+    "conditions": "Citation and lawful source link only; redistribution permission for a complete original has not been established."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [],
+  "verification": {
+    "scope": "Title, author, year and venue checked in institutional bibliography; exact text not inspected.",
+    "source_urls": [
+      "https://computationalmaking.mit.edu/publications/"
+    ],
+    "content_review": "bibliography-only"
+  },
+  "annotation_file": "shape-grammar/notes/el-zanfaly-knight-2016-why-make.md",
+  "publication_type": "conference-paper"
+}

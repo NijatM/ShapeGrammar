@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "id": "knight-1998-infinite-patterns-and-their-symmetries",
+  "topic": "shape-grammar",
+  "title": "Infinite Patterns and Their Symmetries",
+  "authors": [
+    "Terry W. Knight"
+  ],
+  "year": 1998,
+  "edition_version": "Leonardo 31(4), 1998. DOI deposit lists only opening page 305; the author’s 2003 bibliography supplies 305–312.",
+  "doi": "10.2307/1576670",
+  "stable_url": "https://doi.org/10.2307/1576670",
+  "reading_url": "https://doi.org/10.2307/1576670",
+  "download_url": null,
+  "venue": "Leonardo",
+  "pages": "305–312",
+  "tags": [
+    "shape-grammar",
+    "author-terry-knight",
+    "group-theory",
+    "symmetry"
+  ],
+  "relevance": "Terry Knight author corpus: symmetry and pattern construction.",
+  "prerequisite_level": "intermediate",
+  "prerequisites": [
+    "Elementary sets and functions; some proof reading"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://doi.org/10.2307/1576670",
+    "conditions": "No general redistribution permission verified for this exact work; retain citation and lawful reading link."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [],
+  "verification": {
+    "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed. Page range corroborated in author’s 2003 bibliography available through indexed primary-paper text; full original not reviewed.",
+    "source_urls": [
+      "https://api.crossref.org/works/10.2307/1576670",
+      "https://architecture.mit.edu/people/terry-knight",
+      "https://citeseerx.ist.psu.edu/document?doi=120bbf606e518f8ea4bdf044362dfbb6b71c6cf9&repid=rep1&type=pdf"
+    ],
+    "content_review": "bibliography-only"
+  },
+  "annotation_file": "shape-grammar/notes/knight-1998-infinite-patterns-and-their-symmetries.md",
+  "publication_type": "journal-article",
+  "author_names_as_published": [
+    "Terry W. Knight"
+  ]
+}

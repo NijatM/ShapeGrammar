@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "id": "knight-2006-ocw-inquiry",
+  "topic": "shape-grammar",
+  "title": "Inquiry into Computation and Design, MIT 4.580",
+  "authors": [
+    "Terry Knight"
+  ],
+  "year": 2006,
+  "edition_version": "Fall 2006 course; Knight is the instructor. Guest lectures and third-party readings have their own authors.",
+  "doi": null,
+  "stable_url": "https://ocw.mit.edu/courses/4-580-inquiry-into-computation-and-design-fall-2006/",
+  "reading_url": "https://ocw.mit.edu/courses/4-580-inquiry-into-computation-and-design-fall-2006/",
+  "download_url": null,
+  "venue": "MIT OpenCourseWare, Fall 2006",
+  "pages": null,
+  "tags": [
+    "shape-grammar",
+    "author-terry-knight",
+    "education",
+    "computational-making"
+  ],
+  "relevance": "Teaching context linking by-hand and digital computation to design inquiry.",
+  "prerequisite_level": "intermediate",
+  "prerequisites": [
+    "Elementary sets and functions; some proof reading"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "licensed-link-only",
+    "license": "CC BY-NC-SA 4.0 (OCW-authored material; exclusions apply)",
+    "evidence_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/",
+    "conditions": "Course-wide OCW license does not override individually excluded material or external readings. No complete course archive or lecture PDF mirrored in this pass."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [
+    {
+      "locator": "Syllabus; Lecture Notes inventory",
+      "status": "official-page-inspected"
+    }
+  ],
+  "verification": {
+    "scope": "Official course landing page, syllabus and lecture-note inventory inspected; guest contributions are not attributed to Knight. Individual lecture PDFs have not received a rights/content audit.",
+    "source_urls": [
+      "https://ocw.mit.edu/courses/4-580-inquiry-into-computation-and-design-fall-2006/"
+    ],
+    "content_review": "selected-sections"
+  },
+  "annotation_file": "shape-grammar/notes/knight-2006-ocw-inquiry.md",
+  "publication_type": "course-material-bundle"
+}

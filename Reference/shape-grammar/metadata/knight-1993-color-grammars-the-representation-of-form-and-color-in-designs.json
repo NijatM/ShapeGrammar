@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "id": "knight-1993-color-grammars-the-representation-of-form-and-color-in-designs",
+  "topic": "shape-grammar",
+  "title": "Color Grammars: The Representation of Form and Color in Designs",
+  "authors": [
+    "Terry W. Knight"
+  ],
+  "year": 1993,
+  "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+  "doi": "10.2307/1575896",
+  "stable_url": "https://doi.org/10.2307/1575896",
+  "reading_url": "https://doi.org/10.2307/1575896",
+  "download_url": null,
+  "venue": "Leonardo",
+  "pages": "117",
+  "tags": [
+    "shape-grammar",
+    "author-terry-knight",
+    "color-grammars",
+    "extensions"
+  ],
+  "relevance": "Terry Knight author corpus: color and material extensions of grammar research.",
+  "prerequisite_level": "intermediate",
+  "prerequisites": [
+    "Elementary sets and functions; some proof reading"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://doi.org/10.2307/1575896",
+    "conditions": "No general redistribution permission verified for this exact work; retain citation and lawful reading link."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [],
+  "verification": {
+    "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+    "source_urls": [
+      "https://api.crossref.org/works/10.2307/1575896",
+      "https://architecture.mit.edu/people/terry-knight"
+    ],
+    "content_review": "bibliography-only"
+  },
+  "annotation_file": "shape-grammar/notes/knight-1993-color-grammars-the-representation-of-form-and-color-in-designs.md",
+  "publication_type": "journal-article",
+  "author_names_as_published": [
+    "Terry W. Knight"
+  ]
+}

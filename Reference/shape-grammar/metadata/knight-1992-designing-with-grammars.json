@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "knight-1992-designing-with-grammars",
+  "topic": "shape-grammar",
+  "title": "Designing with Grammars",
+  "authors": [
+    "Terry W. Knight"
+  ],
+  "year": 1992,
+  "edition_version": "1992 book-chapter citation in author-hosted bibliography. A conference index lists a same-title version at pp. 19–34; edition relationship remains unresolved.",
+  "doi": null,
+  "stable_url": "https://www.mit.edu/~tknight/IJDC/page_references.htm",
+  "reading_url": "https://www.mit.edu/~tknight/IJDC/page_references.htm",
+  "download_url": null,
+  "venue": "In G. N. Schmitt (ed.), Computer-Aided Architectural Design; Vieweg",
+  "pages": "33–48",
+  "tags": [
+    "shape-grammar",
+    "author-terry-knight"
+  ],
+  "relevance": "Terry Knight author corpus: Designing with Grammars. Citation coverage; full text requires separate review.",
+  "prerequisite_level": "intermediate",
+  "prerequisites": [
+    "Elementary sets and functions; some proof reading"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://www.mit.edu/~tknight/IJDC/page_references.htm",
+    "conditions": "Citation and lawful source link only; redistribution permission for a complete original has not been established."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [],
+  "verification": {
+    "scope": "Title, author, year and venue checked in institutional bibliography; exact text not inspected.",
+    "source_urls": [
+      "https://www.mit.edu/~tknight/IJDC/page_references.htm"
+    ],
+    "content_review": "bibliography-only"
+  },
+  "annotation_file": "shape-grammar/notes/knight-1992-designing-with-grammars.md",
+  "publication_type": "book-chapter"
+}

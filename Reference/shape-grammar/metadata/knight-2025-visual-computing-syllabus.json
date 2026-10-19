@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "id": "knight-2025-visual-computing-syllabus",
+  "topic": "shape-grammar",
+  "title": "Visual Computing, MIT 4.520/4.521 — Spring 2025 syllabus",
+  "authors": [
+    "Terry Knight"
+  ],
+  "year": 2025,
+  "edition_version": "Public source edition identified below; no private course material collected.",
+  "doi": null,
+  "stable_url": "https://architecture.mit.edu/sites/default/files/course-documents/25sp-4.520%2B4.521-syll-knight.pdf",
+  "reading_url": "https://architecture.mit.edu/sites/default/files/course-documents/25sp-4.520%2B4.521-syll-knight.pdf",
+  "download_url": null,
+  "venue": "MIT Department of Architecture",
+  "pages": "2 PDF pages",
+  "tags": [
+    "shape-grammar",
+    "author-terry-knight",
+    "education",
+    "computational-making"
+  ],
+  "relevance": "A current documented teaching sequence from shape arithmetic to basic, complex and making grammars.",
+  "prerequisite_level": "intermediate",
+  "prerequisites": [
+    "Elementary sets and functions; some proof reading"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://architecture.mit.edu/sites/default/files/course-documents/25sp-4.520%2B4.521-syll-knight.pdf",
+    "conditions": "Reading link only. No redistribution license for the exact complete material has been established."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [
+    {
+      "locator": "PDF p. 1, course approach; PDF p. 2, calendar",
+      "status": "selected-text-inspected"
+    }
+  ],
+  "verification": {
+    "scope": "Official two-page syllabus inspected: course approach on PDF p. 1 and calendar on PDF p. 2. Public syllabus only; linked Canvas course not accessed.",
+    "source_urls": [
+      "https://architecture.mit.edu/sites/default/files/course-documents/25sp-4.520%2B4.521-syll-knight.pdf"
+    ],
+    "content_review": "selected-sections"
+  },
+  "annotation_file": "shape-grammar/notes/knight-2025-visual-computing-syllabus.md",
+  "publication_type": "course-syllabus"
+}

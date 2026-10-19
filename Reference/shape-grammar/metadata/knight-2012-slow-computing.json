@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "id": "knight-2012-slow-computing",
+  "topic": "shape-grammar",
+  "title": "Slow Computing",
+  "authors": [
+    "Terry Knight"
+  ],
+  "year": 2012,
+  "edition_version": "2012 chapter; registry title Slow Computing; extended title Slow Computing: Teaching Generative Design with Shape Grammars appears in author profile. Registry year is missing, so 2012 comes from profile/book context.",
+  "doi": "10.4018/978-1-61350-180-1.ch003",
+  "stable_url": "https://doi.org/10.4018/978-1-61350-180-1.ch003",
+  "reading_url": "https://doi.org/10.4018/978-1-61350-180-1.ch003",
+  "download_url": null,
+  "venue": "Computational Design Methods and Technologies",
+  "pages": "34-55",
+  "tags": [
+    "shape-grammar",
+    "author-terry-knight",
+    "education",
+    "grammar-design"
+  ],
+  "relevance": "Terry Knight author corpus: shape grammar theory, design, implementation, or teaching.",
+  "prerequisite_level": "intermediate",
+  "prerequisites": [
+    "Elementary sets and functions; some proof reading"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://doi.org/10.4018/978-1-61350-180-1.ch003",
+    "conditions": "No general redistribution permission verified for this exact work; retain citation and lawful reading link."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [],
+  "verification": {
+    "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+    "source_urls": [
+      "https://api.crossref.org/works/10.4018/978-1-61350-180-1.ch003",
+      "https://architecture.mit.edu/people/terry-knight"
+    ],
+    "content_review": "bibliography-only"
+  },
+  "annotation_file": "shape-grammar/notes/knight-2012-slow-computing.md",
+  "publication_type": "book-chapter",
+  "author_names_as_published": [
+    "Terry Knight"
+  ]
+}

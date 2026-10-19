@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "id": "knight-2014-regarding-rules-from-rimini-to-rio",
+  "topic": "shape-grammar",
+  "title": "Regarding Rules: From Rimini to Rio",
+  "authors": [
+    "Terry Knight"
+  ],
+  "year": 2014,
+  "edition_version": "Joelho issue 5, 2014; publisher PDF has 9 pages containing spreads and a final page numbered 29. Printed article text spans pp. 12–27; file pagination retained without claiming all pages are article text.",
+  "doi": "10.14195/1647-8681_5_1",
+  "stable_url": "https://doi.org/10.14195/1647-8681_5_1",
+  "reading_url": "https://impactum-journals.uc.pt/joelho/article/view/_5_1",
+  "download_url": "https://impactum-journals.uc.pt/joelho/article/download/_5_1/1645",
+  "venue": "Joelho Revista de Cultura Arquitectonica",
+  "pages": "12–27 (article text); supplied PDF includes final page numbered 29",
+  "tags": [
+    "shape-grammar",
+    "author-terry-knight"
+  ],
+  "relevance": "Terry Knight author corpus: shape grammar theory, design, implementation, or teaching.",
+  "prerequisite_level": "intermediate",
+  "prerequisites": [
+    "Elementary sets and functions; some proof reading"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "downloaded-with-conditions",
+    "license": "CC BY 4.0",
+    "evidence_url": "https://impactum-journals.uc.pt/joelho/article/view/_5_1",
+    "conditions": "CC BY 4.0 identified on publisher landing page; preserve attribution, source and notices. Original downloaded bytes are unmodified. Separately credited images must retain their credits; no figures extracted."
+  },
+  "local_files": [
+    {
+      "path": "shape-grammar/originals/knight-2014-regarding-rules-from-rimini-to-rio.pdf",
+      "sha256": "c9c3f4659a7c15f66a24e9de1cfbd86460992df7b6f99e6a082bcce65fe16bd9",
+      "bytes": 913130,
+      "pdf_pages": 9,
+      "download_url": "https://impactum-journals.uc.pt/joelho/article/download/_5_1/1645",
+      "resolved_url": "https://impactum-journals.uc.pt/joelho/article/download/_5_1/1645",
+      "access_date": "2026-10-18",
+      "unmodified": true
+    }
+  ],
+  "existing_local_files": [],
+  "locators": [
+    {
+      "locator": "Printed pp. 12–13, introduction; pp. 26–27, references and conclusion",
+      "status": "selected-text-inspected"
+    }
+  ],
+  "verification": {
+    "scope": "Publisher DOI metadata, official landing-page license, PDF byline and printed pagination inspected. Text layer read for introductory context and references; figures and all arguments not exhaustively reviewed.",
+    "source_urls": [
+      "https://api.crossref.org/works/10.14195/1647-8681_5_1",
+      "https://architecture.mit.edu/people/terry-knight",
+      "https://impactum-journals.uc.pt/joelho/article/view/_5_1"
+    ],
+    "content_review": "selected-text-and-rights"
+  },
+  "annotation_file": "shape-grammar/notes/knight-2014-regarding-rules-from-rimini-to-rio.md",
+  "publication_type": "journal-article",
+  "author_names_as_published": [
+    "Terry Knight"
+  ]
+}

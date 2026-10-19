@@ -2,11 +2,11 @@
 
 Curated on **18 October 2026** for Nijat Mahamaliyev. This collection provides research references and study notes. It does not implement the application or certify release readiness.
 
-Start with [the catalogue](CATALOGUE.md), then [lesson coverage](COVERAGE.md). The library contains **43 canonical sources** and **15 newly downloaded, unmodified PDFs**. This is a substantial selected foundation, not an exhaustive literature archive. Bibliographic verification, reading a selected passage, and reviewing a complete mathematical argument are different activities; each record states which occurred.
+Start with [the catalogue](CATALOGUE.md), then [lesson coverage](COVERAGE.md). The library contains **98 canonical sources** and **20 downloaded, unmodified PDFs**. Browse the parallel [George Stiny](authors/george-stiny/README.md) and [Terry Knight](authors/terry-knight/README.md) indexes. Knight has 55 associated records across research, editorial roles and teaching; the [coverage audit](authors/terry-knight/COVERAGE_AUDIT.md) records unresolved versions and limits to completeness. Bibliographic verification, reading a selected passage, and reviewing a complete mathematical argument are different activities; each record states which occurred.
 
 | Topic folder | Canonical sources | New original PDFs | Main use |
 | --- | ---: | ---: | --- |
-| [shape-grammar](shape-grammar/README.md) | 24 | 10 | Stiny foundations, emergence, rules, arithmetic, implementation and design |
+| [shape-grammar](shape-grammar/README.md) | 79 | 15 | Stiny and Knight; emergence, rules, arithmetic, design languages, color, symmetry, making and implementation |
 | [set-theory](set-theory/README.md) | 5 | 4 | Sets, functions, relations, proofs and infinity |
 | [group-theory](group-theory/README.md) | 4 | 1 | Groups, symmetries, homomorphisms, quotients and actions |
 | [monster-moonshine](monster-moonshine/README.md) | 7 | 0 | Expert introductions, primary papers and research history |

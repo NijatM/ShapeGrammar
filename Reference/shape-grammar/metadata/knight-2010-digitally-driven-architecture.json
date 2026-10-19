@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "knight-2010-digitally-driven-architecture",
+  "topic": "shape-grammar",
+  "title": "Digitally-Driven Architecture",
+  "authors": [
+    "Henriette Bier",
+    "Terry Knight"
+  ],
+  "year": 2010,
+  "edition_version": "Spring 2010 editorial, printed pp. 1–4; 4 PDF pages. Legacy DOI retained as alias.",
+  "doi": "10.59490/footprint.4.1.715",
+  "stable_url": "https://doi.org/10.59490/footprint.4.1.715",
+  "reading_url": "https://journals.open.tudelft.nl/footprint/article/view/715",
+  "download_url": "https://journals.open.tudelft.nl/footprint/article/download/715/892",
+  "venue": "FOOTPRINT",
+  "pages": "1–4",
+  "tags": [
+    "shape-grammar",
+    "author-terry-knight"
+  ],
+  "relevance": "Terry Knight author corpus: shape grammar theory, design, implementation, or teaching.",
+  "prerequisite_level": "intermediate",
+  "prerequisites": [
+    "Elementary sets and functions; some proof reading"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "downloaded-with-conditions",
+    "license": "CC BY 4.0",
+    "evidence_url": "https://journals.open.tudelft.nl/footprint/article/view/715",
+    "conditions": "CC BY 4.0 identified on publisher landing page; preserve attribution, source and notices. Original downloaded bytes are unmodified. Separately credited images must retain their credits; no figures extracted."
+  },
+  "local_files": [
+    {
+      "path": "shape-grammar/originals/knight-2010-digitally-driven-architecture.pdf",
+      "sha256": "e8265d7b9ab243eb3bc5b18f4670758f5f9be232c5928bff071eb273675603c3",
+      "bytes": 264655,
+      "pdf_pages": 4,
+      "download_url": "https://journals.open.tudelft.nl/footprint/article/download/715/892",
+      "resolved_url": "https://journals.open.tudelft.nl/footprint/article/download/715/892",
+      "access_date": "2026-10-18",
+      "unmodified": true
+    }
+  ],
+  "existing_local_files": [],
+  "locators": [
+    {
+      "locator": "Printed p. 1, byline and framing",
+      "status": "selected-text-inspected"
+    }
+  ],
+  "verification": {
+    "scope": "Publisher DOI metadata, official landing-page license, PDF byline and printed pagination inspected. Text layer read for introductory context and references; figures and all arguments not exhaustively reviewed.",
+    "source_urls": [
+      "https://api.crossref.org/works/10.59490/footprint.4.1.715",
+      "https://architecture.mit.edu/people/terry-knight",
+      "https://journals.open.tudelft.nl/footprint/article/view/715"
+    ],
+    "content_review": "selected-text-and-rights"
+  },
+  "annotation_file": "shape-grammar/notes/knight-2010-digitally-driven-architecture.md",
+  "publication_type": "journal-article",
+  "author_names_as_published": [
+    "Henriette Bier",
+    "Terry Knight"
+  ],
+  "alternate_dois": [
+    "10.7480/footprint.4.1.715"
+  ]
+}

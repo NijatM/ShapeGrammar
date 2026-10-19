@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "id": "knight-2018-editorial-design-technology-and-society",
+  "topic": "shape-grammar",
+  "title": "Editorial: Design, Technology and Society",
+  "authors": [
+    "Daniel Cardoso Llach",
+    "Terry Knight"
+  ],
+  "year": 2018,
+  "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+  "doi": "10.21606/drs.2018.002",
+  "stable_url": "https://doi.org/10.21606/drs.2018.002",
+  "reading_url": "https://dl.designresearchsociety.org/drs-conference-papers/drs2018/editorials/2/",
+  "download_url": null,
+  "venue": "Proceedings of DRS; DRS2018: Design as a catalyst for change",
+  "pages": null,
+  "tags": [
+    "shape-grammar",
+    "author-terry-knight"
+  ],
+  "relevance": "Terry Knight author corpus: shape grammar theory, design, implementation, or teaching.",
+  "prerequisite_level": "intermediate",
+  "prerequisites": [
+    "Elementary sets and functions; some proof reading"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "licensed-link-only",
+    "license": "CC BY-NC 4.0",
+    "evidence_url": "https://dl.designresearchsociety.org/drs-conference-papers/drs2018/editorials/2/",
+    "conditions": "Publisher page identifies CC BY-NC 4.0; direct download returned HTTP 403. No local original claimed."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [],
+  "verification": {
+    "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+    "source_urls": [
+      "https://api.crossref.org/works/10.21606/drs.2018.002",
+      "https://architecture.mit.edu/people/terry-knight"
+    ],
+    "content_review": "bibliography-only"
+  },
+  "annotation_file": "shape-grammar/notes/knight-2018-editorial-design-technology-and-society.md",
+  "publication_type": "proceedings-article",
+  "author_names_as_published": [
+    "Daniel Cardoso Llach",
+    "Terry Knight"
+  ]
+}

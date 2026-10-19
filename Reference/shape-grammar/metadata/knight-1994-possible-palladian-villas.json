@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "id": "knight-1994-possible-palladian-villas",
+  "topic": "shape-grammar",
+  "title": "Possible Palladian Villas",
+  "authors": [
+    "Terry Knight"
+  ],
+  "year": 1994,
+  "edition_version": "Journal item credited to Terry Knight in publisher-deposited metadata. Hersey and Freedman named in an aggregate entry appear associated with the book; they are not added as coauthors here. Review of Hersey–Freedman book; 1994 journal issue, later online posting 22 August 2013. The review’s author is Knight.",
+  "doi": "10.1080/10464883.1994.10734613",
+  "stable_url": "https://doi.org/10.1080/10464883.1994.10734613",
+  "reading_url": "https://doi.org/10.1080/10464883.1994.10734613",
+  "download_url": null,
+  "venue": "Journal of Architectural Education",
+  "pages": "258-260",
+  "tags": [
+    "shape-grammar",
+    "author-terry-knight"
+  ],
+  "relevance": "Terry Knight author corpus: shape grammar theory, design, implementation, or teaching.",
+  "prerequisite_level": "intermediate",
+  "prerequisites": [
+    "Elementary sets and functions; some proof reading"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://doi.org/10.1080/10464883.1994.10734613",
+    "conditions": "No general redistribution permission verified for this exact work; retain citation and lawful reading link."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [],
+  "verification": {
+    "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+    "source_urls": [
+      "https://api.crossref.org/works/10.1080/10464883.1994.10734613",
+      "https://architecture.mit.edu/people/terry-knight",
+      "https://www.tandfonline.com/doi/abs/10.1080/10464883.1994.10734613"
+    ],
+    "content_review": "bibliography-only"
+  },
+  "annotation_file": "shape-grammar/notes/knight-1994-possible-palladian-villas.md",
+  "publication_type": "book-review",
+  "author_names_as_published": [
+    "Terry Knight"
+  ]
+}

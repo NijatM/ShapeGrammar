@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "id": "knight-2018-craft-performance-and-grammars",
+  "topic": "shape-grammar",
+  "title": "Craft, Performance, and Grammars",
+  "authors": [
+    "Terry Knight"
+  ],
+  "year": 2018,
+  "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+  "doi": "10.1007/978-981-10-8189-7_16",
+  "stable_url": "https://doi.org/10.1007/978-981-10-8189-7_16",
+  "reading_url": "https://doi.org/10.1007/978-981-10-8189-7_16",
+  "download_url": null,
+  "venue": "KAIST Research Series; Computational Studies on Cultural Variation and Heredity",
+  "pages": "205-224",
+  "tags": [
+    "shape-grammar",
+    "author-terry-knight",
+    "computational-making",
+    "materiality"
+  ],
+  "relevance": "Terry Knight author corpus: computational making and material/design practice.",
+  "prerequisite_level": "intermediate",
+  "prerequisites": [
+    "Elementary sets and functions; some proof reading"
+  ],
+  "access_date": "2026-10-18",
+  "license_redistribution": {
+    "status": "link-only",
+    "license": null,
+    "evidence_url": "https://doi.org/10.1007/978-981-10-8189-7_16",
+    "conditions": "No general redistribution permission verified for this exact work; retain citation and lawful reading link."
+  },
+  "local_files": [],
+  "existing_local_files": [],
+  "locators": [],
+  "verification": {
+    "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+    "source_urls": [
+      "https://api.crossref.org/works/10.1007/978-981-10-8189-7_16",
+      "https://architecture.mit.edu/people/terry-knight",
+      "https://computationalmaking.mit.edu/publications/"
+    ],
+    "content_review": "bibliography-only"
+  },
+  "annotation_file": "shape-grammar/notes/knight-2018-craft-performance-and-grammars.md",
+  "publication_type": "book-chapter",
+  "author_names_as_published": [
+    "Terry Knight"
+  ],
+  "related_versions": [
+    {
+      "description": "2017 workshop presentation under the same title; relationship noted, identical content not asserted",
+      "url": "https://computationalmaking.mit.edu/publications/",
+      "year": 2017
+    }
+  ]
+}

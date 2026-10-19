@@ -1011,6 +1011,162 @@
     },
     {
       "schema_version": 1,
+      "id": "bier-knight-2010-digitally-driven-issue",
+      "topic": "shape-grammar",
+      "title": "Digitally-Driven Architecture — Footprint Issue 6",
+      "authors": [
+        "Henriette Bier",
+        "Terry Knight"
+      ],
+      "year": 2010,
+      "edition_version": "Themed issue associated with Bier–Knight editorial; publication container recorded separately from the editorial article. Do not attribute every contributed paper to the issue editors. Spring 2010 is the issue designation; web platform displays publication timestamp 2014-07-31. The original editorial footer confirms Spring 2010.",
+      "doi": null,
+      "stable_url": "https://journals.open.tudelft.nl/footprint/issue/view/378",
+      "reading_url": "https://journals.open.tudelft.nl/footprint/issue/view/378",
+      "download_url": null,
+      "venue": "Footprint, themed issue",
+      "pages": null,
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight"
+      ],
+      "relevance": "Terry Knight author corpus: Digitally-Driven Architecture — Footprint Issue 6. Citation coverage; full text requires separate review.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://journals.open.tudelft.nl/footprint/issue/view/378",
+        "conditions": "Citation and lawful source link only; redistribution permission for a complete original has not been established."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Official issue page and corresponding Bier–Knight editorial checked. This is an edited publication context, not a newly authored research paper.",
+        "source_urls": [
+          "https://journals.open.tudelft.nl/footprint/issue/view/378"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/bier-knight-2010-digitally-driven-issue.md",
+      "publication_type": "edited-issue",
+      "editors": [
+        "Henriette Bier",
+        "Terry Knight"
+      ],
+      "contributor_roles": {
+        "Henriette Bier": "Issue editor",
+        "Terry Knight": "Issue editor"
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "bier-knight-2014-dynamics-issue",
+      "topic": "shape-grammar",
+      "title": "Dynamics of Data-Driven Design — Footprint Issue 15",
+      "authors": [
+        "Henriette Bier",
+        "Terry Knight"
+      ],
+      "year": 2014,
+      "edition_version": "Themed issue associated with Bier–Knight editorial; publication container recorded separately from the editorial article. Do not attribute every contributed paper to the issue editors.",
+      "doi": null,
+      "stable_url": "https://journals.open.tudelft.nl/footprint/issue/view/394",
+      "reading_url": "https://journals.open.tudelft.nl/footprint/issue/view/394",
+      "download_url": null,
+      "venue": "Footprint, themed issue",
+      "pages": null,
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight"
+      ],
+      "relevance": "Terry Knight author corpus: Dynamics of Data-Driven Design — Footprint Issue 15. Citation coverage; full text requires separate review.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://journals.open.tudelft.nl/footprint/issue/view/394",
+        "conditions": "Citation and lawful source link only; redistribution permission for a complete original has not been established."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Official issue page and corresponding Bier–Knight editorial checked. This is an edited publication context, not a newly authored research paper.",
+        "source_urls": [
+          "https://journals.open.tudelft.nl/footprint/issue/view/394"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/bier-knight-2014-dynamics-issue.md",
+      "publication_type": "edited-issue",
+      "editors": [
+        "Henriette Bier",
+        "Terry Knight"
+      ],
+      "contributor_roles": {
+        "Henriette Bier": "Issue editor",
+        "Terry Knight": "Issue editor"
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "el-zanfaly-knight-2016-why-make",
+      "topic": "shape-grammar",
+      "title": "Why to Make (almost) Anything: A Human-centered Learning Approach",
+      "authors": [
+        "Dina El-Zanfaly",
+        "Terry Knight"
+      ],
+      "year": 2016,
+      "edition_version": "Bibliographic citation; no downloadable edition pinned",
+      "doi": null,
+      "stable_url": "https://computationalmaking.mit.edu/publications/",
+      "reading_url": "https://computationalmaking.mit.edu/publications/",
+      "download_url": null,
+      "venue": "Proceedings of the 1st International Symposium on Academic Makerspaces, Cambridge, MA",
+      "pages": "49–53",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight",
+        "computational-making",
+        "materiality"
+      ],
+      "relevance": "Terry Knight author corpus: Why to Make (almost) Anything: A Human-centered Learning Approach. Citation coverage; full text requires separate review.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://computationalmaking.mit.edu/publications/",
+        "conditions": "Citation and lawful source link only; redistribution permission for a complete original has not been established."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Title, author, year and venue checked in institutional bibliography; exact text not inspected.",
+        "source_urls": [
+          "https://computationalmaking.mit.edu/publications/"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/el-zanfaly-knight-2016-why-make.md",
+      "publication_type": "conference-paper"
+    },
+    {
+      "schema_version": 1,
       "id": "gatech-indeterminate-matching",
       "topic": "shape-grammar",
       "title": "Indeterminate Matching",
@@ -1118,6 +1274,1162 @@
     },
     {
       "schema_version": 1,
+      "id": "knight-1980-the-generation-of-hepplewhite-style-chair-back-designs",
+      "topic": "shape-grammar",
+      "title": "The Generation of Hepplewhite-Style Chair-Back Designs",
+      "authors": [
+        "T Weissman Knight"
+      ],
+      "year": 1980,
+      "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+      "doi": "10.1068/b070227",
+      "stable_url": "https://doi.org/10.1068/b070227",
+      "reading_url": "https://doi.org/10.1068/b070227",
+      "download_url": null,
+      "venue": "Environment and Planning B: Planning and Design",
+      "pages": "227-238",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight"
+      ],
+      "relevance": "Terry Knight author corpus: shape grammar theory, design, implementation, or teaching.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://doi.org/10.1068/b070227",
+        "conditions": "No general redistribution permission verified for this exact work; retain citation and lawful reading link."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+        "source_urls": [
+          "https://api.crossref.org/works/10.1068/b070227",
+          "https://architecture.mit.edu/people/terry-knight",
+          "https://www.mit.edu/~tknight/IJDC/page_references.htm"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/knight-1980-the-generation-of-hepplewhite-style-chair-back-designs.md",
+      "publication_type": "journal-article",
+      "author_names_as_published": [
+        "T Weissman Knight"
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-1981-forty-one-steps",
+      "topic": "shape-grammar",
+      "title": "The Forty-One Steps",
+      "authors": [
+        "T Weissman Knight"
+      ],
+      "year": 1981,
+      "edition_version": "Published journal article; historic author name T. Weissman Knight / T. W. Knight.",
+      "doi": "10.1068/b080097",
+      "stable_url": "https://journals.sagepub.com/doi/10.1068/b080097",
+      "reading_url": "https://journals.sagepub.com/doi/10.1068/b080097",
+      "download_url": null,
+      "venue": "Environment and Planning B",
+      "pages": "97–114",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight"
+      ],
+      "relevance": "Terry Knight author corpus: The Forty-One Steps. Citation coverage; full text requires separate review.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://journals.sagepub.com/doi/10.1068/b080097",
+        "conditions": "Citation and lawful source link only; redistribution permission for a complete original has not been established."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Publisher bibliographic record checked; 1981 title/year/pages and author affiliation directly inspected. Full text not reviewed.",
+        "source_urls": [
+          "https://journals.sagepub.com/doi/10.1068/b080097",
+          "https://www.mit.edu/~tknight/IJDC/page_references.htm"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/knight-1981-forty-one-steps.md",
+      "publication_type": "journal-article"
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-1981-languages-of-designs-from-known-to-new",
+      "topic": "shape-grammar",
+      "title": "Languages of Designs: From Known to New",
+      "authors": [
+        "T Weissman Knight"
+      ],
+      "year": 1981,
+      "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+      "doi": "10.1068/b080213",
+      "stable_url": "https://doi.org/10.1068/b080213",
+      "reading_url": "https://doi.org/10.1068/b080213",
+      "download_url": null,
+      "venue": "Environment and Planning B: Planning and Design",
+      "pages": "213-238",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight",
+        "transformations",
+        "stylistic-change"
+      ],
+      "relevance": "Terry Knight author corpus: shape grammar theory, design, implementation, or teaching.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://doi.org/10.1068/b080213",
+        "conditions": "No general redistribution permission verified for this exact work; retain citation and lawful reading link."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+        "source_urls": [
+          "https://api.crossref.org/works/10.1068/b080213",
+          "https://architecture.mit.edu/people/terry-knight",
+          "https://www.mit.edu/~tknight/IJDC/page_references.htm"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/knight-1981-languages-of-designs-from-known-to-new.md",
+      "publication_type": "journal-article",
+      "author_names_as_published": [
+        "T Weissman Knight"
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-1983-transformations-of-languages-of-designs-part-1",
+      "topic": "shape-grammar",
+      "title": "Transformations of Languages of Designs: Part 1",
+      "authors": [
+        "T Weissman Knight"
+      ],
+      "year": 1983,
+      "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+      "doi": "10.1068/b100125",
+      "stable_url": "https://doi.org/10.1068/b100125",
+      "reading_url": "https://doi.org/10.1068/b100125",
+      "download_url": null,
+      "venue": "Environment and Planning B: Planning and Design",
+      "pages": "125-128",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight",
+        "transformations",
+        "stylistic-change"
+      ],
+      "relevance": "Terry Knight author corpus: shape grammar theory, design, implementation, or teaching.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://doi.org/10.1068/b100125",
+        "conditions": "No general redistribution permission verified for this exact work; retain citation and lawful reading link."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+        "source_urls": [
+          "https://api.crossref.org/works/10.1068/b100125",
+          "https://architecture.mit.edu/people/terry-knight",
+          "https://www.mit.edu/~tknight/IJDC/page_references.htm"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/knight-1983-transformations-of-languages-of-designs-part-1.md",
+      "publication_type": "journal-article",
+      "author_names_as_published": [
+        "T Weissman Knight"
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-1983-transformations-of-languages-of-designs-part-2",
+      "topic": "shape-grammar",
+      "title": "Transformations of Languages of Designs: Part 2",
+      "authors": [
+        "T Weissman Knight"
+      ],
+      "year": 1983,
+      "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+      "doi": "10.1068/b100129",
+      "stable_url": "https://doi.org/10.1068/b100129",
+      "reading_url": "https://doi.org/10.1068/b100129",
+      "download_url": null,
+      "venue": "Environment and Planning B: Planning and Design",
+      "pages": "129-154",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight",
+        "transformations",
+        "stylistic-change"
+      ],
+      "relevance": "Terry Knight author corpus: shape grammar theory, design, implementation, or teaching.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://doi.org/10.1068/b100129",
+        "conditions": "No general redistribution permission verified for this exact work; retain citation and lawful reading link."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+        "source_urls": [
+          "https://api.crossref.org/works/10.1068/b100129",
+          "https://architecture.mit.edu/people/terry-knight",
+          "https://www.mit.edu/~tknight/IJDC/page_references.htm"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/knight-1983-transformations-of-languages-of-designs-part-2.md",
+      "publication_type": "journal-article",
+      "author_names_as_published": [
+        "T Weissman Knight"
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-1983-transformations-of-languages-of-designs-part-3",
+      "topic": "shape-grammar",
+      "title": "Transformations of Languages of Designs: Part 3",
+      "authors": [
+        "T Weissman Knight"
+      ],
+      "year": 1983,
+      "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+      "doi": "10.1068/b100155",
+      "stable_url": "https://doi.org/10.1068/b100155",
+      "reading_url": "https://doi.org/10.1068/b100155",
+      "download_url": null,
+      "venue": "Environment and Planning B: Planning and Design",
+      "pages": "155-177",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight",
+        "transformations",
+        "stylistic-change"
+      ],
+      "relevance": "Terry Knight author corpus: shape grammar theory, design, implementation, or teaching.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://doi.org/10.1068/b100155",
+        "conditions": "No general redistribution permission verified for this exact work; retain citation and lawful reading link."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+        "source_urls": [
+          "https://api.crossref.org/works/10.1068/b100155",
+          "https://architecture.mit.edu/people/terry-knight",
+          "https://www.mit.edu/~tknight/IJDC/page_references.htm"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/knight-1983-transformations-of-languages-of-designs-part-3.md",
+      "publication_type": "journal-article",
+      "author_names_as_published": [
+        "T Weissman Knight"
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-1986-meander",
+      "topic": "shape-grammar",
+      "title": "Transformations of the Meander Motif on Greek Geometric Pottery",
+      "authors": [
+        "Terry W. Knight"
+      ],
+      "year": 1986,
+      "edition_version": "Bibliographic citation; no downloadable edition pinned",
+      "doi": null,
+      "stable_url": "https://www.mit.edu/~tknight/IJDC/page_references.htm",
+      "reading_url": "https://www.mit.edu/~tknight/IJDC/page_references.htm",
+      "download_url": null,
+      "venue": "Design Computing 1",
+      "pages": "29–67",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight",
+        "transformations",
+        "stylistic-change"
+      ],
+      "relevance": "Terry Knight author corpus: Transformations of the Meander Motif on Greek Geometric Pottery. Citation coverage; full text requires separate review.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://www.mit.edu/~tknight/IJDC/page_references.htm",
+        "conditions": "Citation and lawful source link only; redistribution permission for a complete original has not been established."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Title, author, year and venue checked in institutional bibliography; exact text not inspected.",
+        "source_urls": [
+          "https://www.mit.edu/~tknight/IJDC/page_references.htm"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/knight-1986-meander.md",
+      "publication_type": "journal-article"
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-1986-transformations-dissertation",
+      "topic": "shape-grammar",
+      "title": "Transformations of Languages of Designs",
+      "authors": [
+        "Terry W. Knight"
+      ],
+      "year": 1986,
+      "edition_version": "1986 UCLA PhD dissertation. Plural Designs title corroborated in Knight’s own 1989 bibliography; original thesis title page/catalogue copy not retrieved.",
+      "doi": null,
+      "stable_url": "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb220689-grammarTaiwaneseHouses.pdf",
+      "reading_url": "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb220689-grammarTaiwaneseHouses.pdf",
+      "download_url": null,
+      "venue": "PhD dissertation, University of California, Los Angeles",
+      "pages": null,
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight",
+        "transformations",
+        "stylistic-change"
+      ],
+      "relevance": "Terry Knight author corpus: Transformations of Languages of Designs. Citation coverage; full text requires separate review.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb220689-grammarTaiwaneseHouses.pdf",
+        "conditions": "Citation and lawful source link only; redistribution permission for a complete original has not been established."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Citation verified in Chiou–Krishnamurti 1995 primary-paper bibliography; MIT faculty profile independently verifies UCLA PhD year 1986. Exact thesis title-page spelling and access remain unverified.",
+        "source_urls": [
+          "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb220689-grammarTaiwaneseHouses.pdf",
+          "https://journals.sagepub.com/doi/10.1068/b160417",
+          "https://ilpstex.mit.edu/content/faculty-profiles/terry-w-knight"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/knight-1986-transformations-dissertation.md",
+      "publication_type": "dissertation-citation"
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-1988-comparing-designs",
+      "topic": "shape-grammar",
+      "title": "Comparing Designs",
+      "authors": [
+        "T W Knight"
+      ],
+      "year": 1988,
+      "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+      "doi": "10.1068/b150073",
+      "stable_url": "https://doi.org/10.1068/b150073",
+      "reading_url": "https://doi.org/10.1068/b150073",
+      "download_url": null,
+      "venue": "Environment and Planning B: Planning and Design",
+      "pages": "73-110",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight",
+        "transformations",
+        "stylistic-change"
+      ],
+      "relevance": "Terry Knight author corpus: shape grammar theory, design, implementation, or teaching.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://doi.org/10.1068/b150073",
+        "conditions": "No general redistribution permission verified for this exact work; retain citation and lawful reading link."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+        "source_urls": [
+          "https://api.crossref.org/works/10.1068/b150073",
+          "https://architecture.mit.edu/people/terry-knight",
+          "https://www.mit.edu/~tknight/IJDC/page_references.htm"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/knight-1988-comparing-designs.md",
+      "publication_type": "journal-article",
+      "author_names_as_published": [
+        "T W Knight"
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-1989-color-grammars-designing-with-lines-and-colors",
+      "topic": "shape-grammar",
+      "title": "Color Grammars: Designing with Lines and Colors",
+      "authors": [
+        "T W Knight"
+      ],
+      "year": 1989,
+      "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+      "doi": "10.1068/b160417",
+      "stable_url": "https://doi.org/10.1068/b160417",
+      "reading_url": "https://doi.org/10.1068/b160417",
+      "download_url": null,
+      "venue": "Environment and Planning B: Planning and Design",
+      "pages": "417-449",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight",
+        "color-grammars",
+        "extensions"
+      ],
+      "relevance": "Terry Knight author corpus: color and material extensions of grammar research.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://doi.org/10.1068/b160417",
+        "conditions": "No general redistribution permission verified for this exact work; retain citation and lawful reading link."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+        "source_urls": [
+          "https://api.crossref.org/works/10.1068/b160417",
+          "https://architecture.mit.edu/people/terry-knight",
+          "https://www.mit.edu/~tknight/IJDC/page_references.htm"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/knight-1989-color-grammars-designing-with-lines-and-colors.md",
+      "publication_type": "journal-article",
+      "author_names_as_published": [
+        "T W Knight"
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-1989-transformations-of-de-stijl-art-the-paintings-of-georges-vantongerloo-and-f",
+      "topic": "shape-grammar",
+      "title": "Transformations of De Stijl Art: The Paintings of Georges Vantongerloo and Fritz Glarner",
+      "authors": [
+        "T W Knight"
+      ],
+      "year": 1989,
+      "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+      "doi": "10.1068/b160051",
+      "stable_url": "https://doi.org/10.1068/b160051",
+      "reading_url": "https://doi.org/10.1068/b160051",
+      "download_url": null,
+      "venue": "Environment and Planning B: Planning and Design",
+      "pages": "51-98",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight",
+        "transformations",
+        "stylistic-change"
+      ],
+      "relevance": "Terry Knight author corpus: shape grammar theory, design, implementation, or teaching.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://doi.org/10.1068/b160051",
+        "conditions": "No general redistribution permission verified for this exact work; retain citation and lawful reading link."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+        "source_urls": [
+          "https://api.crossref.org/works/10.1068/b160051",
+          "https://architecture.mit.edu/people/terry-knight",
+          "https://www.mit.edu/~tknight/IJDC/page_references.htm"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/knight-1989-transformations-of-de-stijl-art-the-paintings-of-georges-vantongerloo-and-f.md",
+      "publication_type": "journal-article",
+      "author_names_as_published": [
+        "T W Knight"
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-1990-mughul-gardens",
+      "topic": "shape-grammar",
+      "title": "Mughul Gardens Revisited",
+      "authors": [
+        "T W Knight"
+      ],
+      "year": 1990,
+      "edition_version": "Published journal article; historic author name T. Weissman Knight / T. W. Knight.",
+      "doi": "10.1068/b170073",
+      "stable_url": "https://journals.sagepub.com/doi/10.1068/b170073",
+      "reading_url": "https://journals.sagepub.com/doi/10.1068/b170073",
+      "download_url": null,
+      "venue": "Environment and Planning B",
+      "pages": "73–84",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight",
+        "color-grammars",
+        "extensions"
+      ],
+      "relevance": "Terry Knight author corpus: Mughul Gardens Revisited. Citation coverage; full text requires separate review.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://journals.sagepub.com/doi/10.1068/b170073",
+        "conditions": "Citation and lawful source link only; redistribution permission for a complete original has not been established."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Title, author, year and pp. 73–84 corroborated by Knight’s 1994 article bibliography on the publisher website. Direct landing page could not be retrieved; no direct record or full-text review claimed.",
+        "source_urls": [
+          "https://journals.sagepub.com/doi/10.1068/b210705"
+        ],
+        "content_review": "bibliographic-corroboration"
+      },
+      "annotation_file": "shape-grammar/notes/knight-1990-mughul-gardens.md",
+      "publication_type": "journal-article"
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-1992-designing-with-grammars",
+      "topic": "shape-grammar",
+      "title": "Designing with Grammars",
+      "authors": [
+        "Terry W. Knight"
+      ],
+      "year": 1992,
+      "edition_version": "1992 book-chapter citation in author-hosted bibliography. A conference index lists a same-title version at pp. 19–34; edition relationship remains unresolved.",
+      "doi": null,
+      "stable_url": "https://www.mit.edu/~tknight/IJDC/page_references.htm",
+      "reading_url": "https://www.mit.edu/~tknight/IJDC/page_references.htm",
+      "download_url": null,
+      "venue": "In G. N. Schmitt (ed.), Computer-Aided Architectural Design; Vieweg",
+      "pages": "33–48",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight"
+      ],
+      "relevance": "Terry Knight author corpus: Designing with Grammars. Citation coverage; full text requires separate review.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://www.mit.edu/~tknight/IJDC/page_references.htm",
+        "conditions": "Citation and lawful source link only; redistribution permission for a complete original has not been established."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Title, author, year and venue checked in institutional bibliography; exact text not inspected.",
+        "source_urls": [
+          "https://www.mit.edu/~tknight/IJDC/page_references.htm"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/knight-1992-designing-with-grammars.md",
+      "publication_type": "book-chapter"
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-1993-color-grammars-the-representation-of-form-and-color-in-designs",
+      "topic": "shape-grammar",
+      "title": "Color Grammars: The Representation of Form and Color in Designs",
+      "authors": [
+        "Terry W. Knight"
+      ],
+      "year": 1993,
+      "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+      "doi": "10.2307/1575896",
+      "stable_url": "https://doi.org/10.2307/1575896",
+      "reading_url": "https://doi.org/10.2307/1575896",
+      "download_url": null,
+      "venue": "Leonardo",
+      "pages": "117",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight",
+        "color-grammars",
+        "extensions"
+      ],
+      "relevance": "Terry Knight author corpus: color and material extensions of grammar research.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://doi.org/10.2307/1575896",
+        "conditions": "No general redistribution permission verified for this exact work; retain citation and lawful reading link."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+        "source_urls": [
+          "https://api.crossref.org/works/10.2307/1575896",
+          "https://architecture.mit.edu/people/terry-knight"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/knight-1993-color-grammars-the-representation-of-form-and-color-in-designs.md",
+      "publication_type": "journal-article",
+      "author_names_as_published": [
+        "Terry W. Knight"
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-1994-possible-palladian-villas",
+      "topic": "shape-grammar",
+      "title": "Possible Palladian Villas",
+      "authors": [
+        "Terry Knight"
+      ],
+      "year": 1994,
+      "edition_version": "Journal item credited to Terry Knight in publisher-deposited metadata. Hersey and Freedman named in an aggregate entry appear associated with the book; they are not added as coauthors here. Review of Hersey–Freedman book; 1994 journal issue, later online posting 22 August 2013. The review’s author is Knight.",
+      "doi": "10.1080/10464883.1994.10734613",
+      "stable_url": "https://doi.org/10.1080/10464883.1994.10734613",
+      "reading_url": "https://doi.org/10.1080/10464883.1994.10734613",
+      "download_url": null,
+      "venue": "Journal of Architectural Education",
+      "pages": "258-260",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight"
+      ],
+      "relevance": "Terry Knight author corpus: shape grammar theory, design, implementation, or teaching.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://doi.org/10.1080/10464883.1994.10734613",
+        "conditions": "No general redistribution permission verified for this exact work; retain citation and lawful reading link."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+        "source_urls": [
+          "https://api.crossref.org/works/10.1080/10464883.1994.10734613",
+          "https://architecture.mit.edu/people/terry-knight",
+          "https://www.tandfonline.com/doi/abs/10.1080/10464883.1994.10734613"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/knight-1994-possible-palladian-villas.md",
+      "publication_type": "book-review",
+      "author_names_as_published": [
+        "Terry Knight"
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-1994-shape-grammars-and-color-grammars-in-design",
+      "topic": "shape-grammar",
+      "title": "Shape Grammars and Color Grammars in Design",
+      "authors": [
+        "T W Knight"
+      ],
+      "year": 1994,
+      "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+      "doi": "10.1068/b210705",
+      "stable_url": "https://doi.org/10.1068/b210705",
+      "reading_url": "https://doi.org/10.1068/b210705",
+      "download_url": null,
+      "venue": "Environment and Planning B: Planning and Design",
+      "pages": "705-735",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight",
+        "color-grammars",
+        "extensions"
+      ],
+      "relevance": "Terry Knight author corpus: color and material extensions of grammar research.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://doi.org/10.1068/b210705",
+        "conditions": "No general redistribution permission verified for this exact work; retain citation and lawful reading link."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+        "source_urls": [
+          "https://api.crossref.org/works/10.1068/b210705",
+          "https://architecture.mit.edu/people/terry-knight",
+          "https://www.mit.edu/~tknight/IJDC/page_references.htm"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/knight-1994-shape-grammars-and-color-grammars-in-design.md",
+      "publication_type": "journal-article",
+      "author_names_as_published": [
+        "T W Knight"
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-1994-transformations-in-design",
+      "topic": "shape-grammar",
+      "title": "Transformations in Design: A Formal Approach to Stylistic Change and Innovation in the Visual Arts",
+      "authors": [
+        "Terry W. Knight"
+      ],
+      "year": 1994,
+      "edition_version": "1994 edition. Library counts xvii + 258; other discovery services report 276 total pages. Preserve the library collation.",
+      "doi": null,
+      "stable_url": "https://www.cca.qc.ca/fr/recherche/details/library/publication/26361509",
+      "reading_url": "https://www.cca.qc.ca/fr/recherche/details/library/publication/26361509",
+      "download_url": null,
+      "venue": "Cambridge University Press",
+      "pages": "xvii + 258",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight",
+        "transformations",
+        "stylistic-change"
+      ],
+      "relevance": "Terry Knight author corpus: Transformations in Design: A Formal Approach to Stylistic Change and Innovation in the Visual Arts. Citation coverage; full text requires separate review.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://www.cca.qc.ca/fr/recherche/details/library/publication/26361509",
+        "conditions": "Citation and lawful source link only; redistribution permission for a complete original has not been established."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "MIT author bibliography verifies author/year/publisher; Canadian Centre for Architecture library record verifies full title and collation.",
+        "source_urls": [
+          "https://www.cca.qc.ca/fr/recherche/details/library/publication/26361509",
+          "https://www.mit.edu/~tknight/IJDC/page_references.htm"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/knight-1994-transformations-in-design.md",
+      "publication_type": "book",
+      "isbn": [
+        "0521384605",
+        "9780521384605"
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-1995-constructive-symmetry",
+      "topic": "shape-grammar",
+      "title": "Constructive Symmetry",
+      "authors": [
+        "T W Knight"
+      ],
+      "year": 1995,
+      "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+      "doi": "10.1068/b220419",
+      "stable_url": "https://doi.org/10.1068/b220419",
+      "reading_url": "https://doi.org/10.1068/b220419",
+      "download_url": null,
+      "venue": "Environment and Planning B: Planning and Design",
+      "pages": "419-450",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight",
+        "group-theory",
+        "symmetry"
+      ],
+      "relevance": "Terry Knight author corpus: symmetry and pattern construction.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://doi.org/10.1068/b220419",
+        "conditions": "No general redistribution permission verified for this exact work; retain citation and lawful reading link."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+        "source_urls": [
+          "https://api.crossref.org/works/10.1068/b220419",
+          "https://architecture.mit.edu/people/terry-knight"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/knight-1995-constructive-symmetry.md",
+      "publication_type": "journal-article",
+      "author_names_as_published": [
+        "T W Knight"
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-1998-designing-a-shape-grammar",
+      "topic": "shape-grammar",
+      "title": "Designing a Shape Grammar",
+      "authors": [
+        "Terry W. Knight"
+      ],
+      "year": 1998,
+      "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+      "doi": "10.1007/978-94-011-5121-4_26",
+      "stable_url": "https://doi.org/10.1007/978-94-011-5121-4_26",
+      "reading_url": "https://doi.org/10.1007/978-94-011-5121-4_26",
+      "download_url": null,
+      "venue": "Artificial Intelligence in Design ’98",
+      "pages": "499-516",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight",
+        "education",
+        "grammar-design"
+      ],
+      "relevance": "Terry Knight author corpus: shape grammar theory, design, implementation, or teaching.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://doi.org/10.1007/978-94-011-5121-4_26",
+        "conditions": "No general redistribution permission verified for this exact work; retain citation and lawful reading link."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+        "source_urls": [
+          "https://api.crossref.org/works/10.1007/978-94-011-5121-4_26",
+          "https://architecture.mit.edu/people/terry-knight"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/knight-1998-designing-a-shape-grammar.md",
+      "publication_type": "book-chapter",
+      "author_names_as_published": [
+        "Terry W. Knight"
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-1998-infinite-patterns-and-their-symmetries",
+      "topic": "shape-grammar",
+      "title": "Infinite Patterns and Their Symmetries",
+      "authors": [
+        "Terry W. Knight"
+      ],
+      "year": 1998,
+      "edition_version": "Leonardo 31(4), 1998. DOI deposit lists only opening page 305; the author’s 2003 bibliography supplies 305–312.",
+      "doi": "10.2307/1576670",
+      "stable_url": "https://doi.org/10.2307/1576670",
+      "reading_url": "https://doi.org/10.2307/1576670",
+      "download_url": null,
+      "venue": "Leonardo",
+      "pages": "305–312",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight",
+        "group-theory",
+        "symmetry"
+      ],
+      "relevance": "Terry Knight author corpus: symmetry and pattern construction.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://doi.org/10.2307/1576670",
+        "conditions": "No general redistribution permission verified for this exact work; retain citation and lawful reading link."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed. Page range corroborated in author’s 2003 bibliography available through indexed primary-paper text; full original not reviewed.",
+        "source_urls": [
+          "https://api.crossref.org/works/10.2307/1576670",
+          "https://architecture.mit.edu/people/terry-knight",
+          "https://citeseerx.ist.psu.edu/document?doi=120bbf606e518f8ea4bdf044362dfbb6b71c6cf9&repid=rep1&type=pdf"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/knight-1998-infinite-patterns-and-their-symmetries.md",
+      "publication_type": "journal-article",
+      "author_names_as_published": [
+        "Terry W. Knight"
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-1998-shape-grammars",
+      "topic": "shape-grammar",
+      "title": "Shape Grammars",
+      "authors": [
+        "T W Knight"
+      ],
+      "year": 1998,
+      "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+      "doi": "10.1177/239980839802500714",
+      "stable_url": "https://doi.org/10.1177/239980839802500714",
+      "reading_url": "https://doi.org/10.1177/239980839802500714",
+      "download_url": null,
+      "venue": "Environment and Planning B: Planning and Design",
+      "pages": "86-91",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight"
+      ],
+      "relevance": "Terry Knight author corpus: shape grammar theory, design, implementation, or teaching.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://doi.org/10.1177/239980839802500714",
+        "conditions": "No general redistribution permission verified for this exact work; retain citation and lawful reading link."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+        "source_urls": [
+          "https://api.crossref.org/works/10.1177/239980839802500714",
+          "https://architecture.mit.edu/people/terry-knight"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/knight-1998-shape-grammars.md",
+      "publication_type": "journal-article",
+      "author_names_as_published": [
+        "T W Knight"
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-1999-guest-editorial",
+      "topic": "shape-grammar",
+      "title": "Guest Editorial",
+      "authors": [
+        "L March",
+        "T Knight"
+      ],
+      "year": 1999,
+      "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+      "doi": "10.1068/b260005",
+      "stable_url": "https://doi.org/10.1068/b260005",
+      "reading_url": "https://doi.org/10.1068/b260005",
+      "download_url": null,
+      "venue": "Environment and Planning B: Planning and Design",
+      "pages": "5-6",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight"
+      ],
+      "relevance": "Terry Knight author corpus: shape grammar theory, design, implementation, or teaching.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://doi.org/10.1068/b260005",
+        "conditions": "No general redistribution permission verified for this exact work; retain citation and lawful reading link."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+        "source_urls": [
+          "https://api.crossref.org/works/10.1068/b260005",
+          "https://architecture.mit.edu/people/terry-knight"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/knight-1999-guest-editorial.md",
+      "publication_type": "journal-article",
+      "author_names_as_published": [
+        "L March",
+        "T Knight"
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-1999-shape-grammars-five-questions",
+      "topic": "shape-grammar",
+      "title": "Shape Grammars: Five Questions",
+      "authors": [
+        "T W Knight"
+      ],
+      "year": 1999,
+      "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+      "doi": "10.1068/b260477",
+      "stable_url": "https://doi.org/10.1068/b260477",
+      "reading_url": "https://doi.org/10.1068/b260477",
+      "download_url": null,
+      "venue": "Environment and Planning B: Planning and Design",
+      "pages": "477-501",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight"
+      ],
+      "relevance": "Terry Knight author corpus: shape grammar theory, design, implementation, or teaching.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://doi.org/10.1068/b260477",
+        "conditions": "No general redistribution permission verified for this exact work; retain citation and lawful reading link."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+        "source_urls": [
+          "https://api.crossref.org/works/10.1068/b260477",
+          "https://architecture.mit.edu/people/terry-knight"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/knight-1999-shape-grammars-five-questions.md",
+      "publication_type": "journal-article",
+      "author_names_as_published": [
+        "T W Knight"
+      ]
+    },
+    {
+      "schema_version": 1,
       "id": "knight-1999-six-types",
       "topic": "shape-grammar",
       "title": "Shape Grammars: Six Types",
@@ -1135,7 +2447,8 @@
       "tags": [
         "shape-grammar",
         "grammar-design",
-        "classification"
+        "classification",
+        "author-terry-knight"
       ],
       "relevance": "Classification of grammar types for later comparisons and design exercises.",
       "prerequisite_level": "intermediate",
@@ -1160,6 +2473,1442 @@
         "content_review": "bibliography-only"
       },
       "annotation_file": "shape-grammar/notes/knight-1999-six-types.md"
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-2001-classical-and-non-classical-computation",
+      "topic": "shape-grammar",
+      "title": "Classical and non-classical computation",
+      "authors": [
+        "Terry Knight",
+        "George Stiny"
+      ],
+      "year": 2001,
+      "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+      "doi": "10.1017/s1359135502001410",
+      "stable_url": "https://doi.org/10.1017/s1359135502001410",
+      "reading_url": "https://doi.org/10.1017/s1359135502001410",
+      "download_url": null,
+      "venue": "Architectural Research Quarterly",
+      "pages": "355-372",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight"
+      ],
+      "relevance": "Terry Knight author corpus: shape grammar theory, design, implementation, or teaching.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://doi.org/10.1017/s1359135502001410",
+        "conditions": "No general redistribution permission verified for this exact work; retain citation and lawful reading link."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+        "source_urls": [
+          "https://api.crossref.org/works/10.1017/s1359135502001410",
+          "https://architecture.mit.edu/people/terry-knight"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/knight-2001-classical-and-non-classical-computation.md",
+      "publication_type": "journal-article",
+      "author_names_as_published": [
+        "Terry Knight",
+        "George Stiny"
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-2003-computing-with-ambiguity",
+      "topic": "shape-grammar",
+      "title": "Computing with Ambiguity",
+      "authors": [
+        "Terry Knight"
+      ],
+      "year": 2003,
+      "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+      "doi": "10.1068/b12915",
+      "stable_url": "https://doi.org/10.1068/b12915",
+      "reading_url": "https://doi.org/10.1068/b12915",
+      "download_url": null,
+      "venue": "Environment and Planning B: Planning and Design",
+      "pages": "165-180",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight",
+        "emergence",
+        "foundations"
+      ],
+      "relevance": "Terry Knight author corpus: shape grammar theory, design, implementation, or teaching.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://doi.org/10.1068/b12915",
+        "conditions": "No general redistribution permission verified for this exact work; retain citation and lawful reading link."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+        "source_urls": [
+          "https://api.crossref.org/works/10.1068/b12915",
+          "https://architecture.mit.edu/people/terry-knight",
+          "https://www.mit.edu/~tknight/IJDC/page_references.htm"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/knight-2003-computing-with-ambiguity.md",
+      "publication_type": "journal-article",
+      "author_names_as_published": [
+        "Terry Knight"
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-2003-computing-with-emergence",
+      "topic": "shape-grammar",
+      "title": "Computing with Emergence",
+      "authors": [
+        "Terry Knight"
+      ],
+      "year": 2003,
+      "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+      "doi": "10.1068/b12914",
+      "stable_url": "https://doi.org/10.1068/b12914",
+      "reading_url": "https://doi.org/10.1068/b12914",
+      "download_url": null,
+      "venue": "Environment and Planning B: Planning and Design",
+      "pages": "125-155",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight",
+        "emergence",
+        "foundations"
+      ],
+      "relevance": "Terry Knight author corpus: shape grammar theory, design, implementation, or teaching.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://doi.org/10.1068/b12914",
+        "conditions": "No general redistribution permission verified for this exact work; retain citation and lawful reading link."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+        "source_urls": [
+          "https://api.crossref.org/works/10.1068/b12914",
+          "https://architecture.mit.edu/people/terry-knight",
+          "https://www.mit.edu/~tknight/IJDC/page_references.htm"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/knight-2003-computing-with-emergence.md",
+      "publication_type": "journal-article",
+      "author_names_as_published": [
+        "Terry Knight"
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-2003-either-or-and",
+      "topic": "shape-grammar",
+      "title": "Either/or → and",
+      "authors": [
+        "Terry W Knight"
+      ],
+      "year": 2003,
+      "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+      "doi": "10.1068/b12927",
+      "stable_url": "https://doi.org/10.1068/b12927",
+      "reading_url": "https://doi.org/10.1068/b12927",
+      "download_url": null,
+      "venue": "Environment and Planning B: Planning and Design",
+      "pages": "327-338",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight"
+      ],
+      "relevance": "Terry Knight author corpus: shape grammar theory, design, implementation, or teaching.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://doi.org/10.1068/b12927",
+        "conditions": "No general redistribution permission verified for this exact work; retain citation and lawful reading link."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+        "source_urls": [
+          "https://api.crossref.org/works/10.1068/b12927",
+          "https://architecture.mit.edu/people/terry-knight",
+          "https://www.mit.edu/~tknight/IJDC/page_references.htm"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/knight-2003-either-or-and.md",
+      "publication_type": "journal-article",
+      "author_names_as_published": [
+        "Terry W Knight"
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-2004-designing-design-mediating-software-the-development-of-shaper2d",
+      "topic": "shape-grammar",
+      "title": "Designing Design-Mediating Software - The Development Of Shaper2D",
+      "authors": [
+        "Miranda McGill",
+        "Terry Knight"
+      ],
+      "year": 2004,
+      "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+      "doi": "10.52842/conf.ecaade.2004.119",
+      "stable_url": "https://doi.org/10.52842/conf.ecaade.2004.119",
+      "reading_url": "https://doi.org/10.52842/conf.ecaade.2004.119",
+      "download_url": null,
+      "venue": "eCAADe proceedings; Proceedings of the 22nd International Conference on Education and Research in Computer Aided Architectural Design in Europe (eCAADe)",
+      "pages": "119-127",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight",
+        "education",
+        "grammar-design"
+      ],
+      "relevance": "Terry Knight author corpus: shape grammar theory, design, implementation, or teaching.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://doi.org/10.52842/conf.ecaade.2004.119",
+        "conditions": "No general redistribution permission verified for this exact work; retain citation and lawful reading link."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+        "source_urls": [
+          "https://api.crossref.org/works/10.52842/conf.ecaade.2004.119",
+          "https://architecture.mit.edu/people/terry-knight"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/knight-2004-designing-design-mediating-software-the-development-of-shaper2d.md",
+      "publication_type": "proceedings-article",
+      "author_names_as_published": [
+        "Miranda McGill",
+        "Terry Knight"
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-2006-ocw-inquiry",
+      "topic": "shape-grammar",
+      "title": "Inquiry into Computation and Design, MIT 4.580",
+      "authors": [
+        "Terry Knight"
+      ],
+      "year": 2006,
+      "edition_version": "Fall 2006 course; Knight is the instructor. Guest lectures and third-party readings have their own authors.",
+      "doi": null,
+      "stable_url": "https://ocw.mit.edu/courses/4-580-inquiry-into-computation-and-design-fall-2006/",
+      "reading_url": "https://ocw.mit.edu/courses/4-580-inquiry-into-computation-and-design-fall-2006/",
+      "download_url": null,
+      "venue": "MIT OpenCourseWare, Fall 2006",
+      "pages": null,
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight",
+        "education",
+        "computational-making"
+      ],
+      "relevance": "Teaching context linking by-hand and digital computation to design inquiry.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "licensed-link-only",
+        "license": "CC BY-NC-SA 4.0 (OCW-authored material; exclusions apply)",
+        "evidence_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/",
+        "conditions": "Course-wide OCW license does not override individually excluded material or external readings. No complete course archive or lecture PDF mirrored in this pass."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [
+        {
+          "locator": "Syllabus; Lecture Notes inventory",
+          "status": "official-page-inspected"
+        }
+      ],
+      "verification": {
+        "scope": "Official course landing page, syllabus and lecture-note inventory inspected; guest contributions are not attributed to Knight. Individual lecture PDFs have not received a rights/content audit.",
+        "source_urls": [
+          "https://ocw.mit.edu/courses/4-580-inquiry-into-computation-and-design-fall-2006/"
+        ],
+        "content_review": "selected-sections"
+      },
+      "annotation_file": "shape-grammar/notes/knight-2006-ocw-inquiry.md",
+      "publication_type": "course-material-bundle"
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-2008-visual-physical-design-grammars",
+      "topic": "shape-grammar",
+      "title": "Visual-physical design grammars",
+      "authors": [
+        "Terry Knight",
+        "Larry Sass",
+        "Kenfield Griffith",
+        "Ayodh Vasant Kamath",
+        "Steve Preston",
+        "Tal Goldenberg"
+      ],
+      "year": 2008,
+      "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+      "doi": "10.1145/1400385.1400412",
+      "stable_url": "https://doi.org/10.1145/1400385.1400412",
+      "reading_url": "https://doi.org/10.1145/1400385.1400412",
+      "download_url": null,
+      "venue": "ACM SIGGRAPH 2008 art gallery",
+      "pages": "50-51",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight"
+      ],
+      "relevance": "Terry Knight author corpus: shape grammar theory, design, implementation, or teaching.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://doi.org/10.1145/1400385.1400412",
+        "conditions": "No general redistribution permission verified for this exact work; retain citation and lawful reading link."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+        "source_urls": [
+          "https://api.crossref.org/works/10.1145/1400385.1400412",
+          "https://architecture.mit.edu/people/terry-knight"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/knight-2008-visual-physical-design-grammars.md",
+      "publication_type": "proceedings-article",
+      "author_names_as_published": [
+        "Terry Knight",
+        "Larry Sass",
+        "Kenfield Griffith",
+        "Ayodh Vasant Kamath",
+        "Steve Preston",
+        "Tal Goldenberg"
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-2009-a-meta-cognitive-inquiry-into-digital-fabrication-exploring-the-activity-of",
+      "topic": "shape-grammar",
+      "title": "A Meta-Cognitive Inquiry into Digital Fabrication: Exploring the Activity of Designing and Making of a Wall Screen",
+      "authors": [
+        "Asli Arpak",
+        "Lawrence Sass",
+        "Terry Knight"
+      ],
+      "year": 2009,
+      "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+      "doi": "10.52842/conf.ecaade.2009.475",
+      "stable_url": "https://doi.org/10.52842/conf.ecaade.2009.475",
+      "reading_url": "https://doi.org/10.52842/conf.ecaade.2009.475",
+      "download_url": null,
+      "venue": "eCAADe proceedings; Proceedings of the 27th International Conference on Education and Research in Computer Aided Architectural Design in Europe (eCAADe)",
+      "pages": "475-482",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight",
+        "computational-making",
+        "materiality"
+      ],
+      "relevance": "Terry Knight author corpus: computational making and material/design practice.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://doi.org/10.52842/conf.ecaade.2009.475",
+        "conditions": "No general redistribution permission verified for this exact work; retain citation and lawful reading link."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+        "source_urls": [
+          "https://api.crossref.org/works/10.52842/conf.ecaade.2009.475",
+          "https://architecture.mit.edu/people/terry-knight"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/knight-2009-a-meta-cognitive-inquiry-into-digital-fabrication-exploring-the-activity-of.md",
+      "publication_type": "proceedings-article",
+      "author_names_as_published": [
+        "Asli Arpak",
+        "Lawrence Sass",
+        "Terry Knight"
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-2010-digitally-driven-architecture",
+      "topic": "shape-grammar",
+      "title": "Digitally-Driven Architecture",
+      "authors": [
+        "Henriette Bier",
+        "Terry Knight"
+      ],
+      "year": 2010,
+      "edition_version": "Spring 2010 editorial, printed pp. 1–4; 4 PDF pages. Legacy DOI retained as alias.",
+      "doi": "10.59490/footprint.4.1.715",
+      "stable_url": "https://doi.org/10.59490/footprint.4.1.715",
+      "reading_url": "https://journals.open.tudelft.nl/footprint/article/view/715",
+      "download_url": "https://journals.open.tudelft.nl/footprint/article/download/715/892",
+      "venue": "FOOTPRINT",
+      "pages": "1–4",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight"
+      ],
+      "relevance": "Terry Knight author corpus: shape grammar theory, design, implementation, or teaching.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "downloaded-with-conditions",
+        "license": "CC BY 4.0",
+        "evidence_url": "https://journals.open.tudelft.nl/footprint/article/view/715",
+        "conditions": "CC BY 4.0 identified on publisher landing page; preserve attribution, source and notices. Original downloaded bytes are unmodified. Separately credited images must retain their credits; no figures extracted."
+      },
+      "local_files": [
+        {
+          "path": "shape-grammar/originals/knight-2010-digitally-driven-architecture.pdf",
+          "sha256": "e8265d7b9ab243eb3bc5b18f4670758f5f9be232c5928bff071eb273675603c3",
+          "bytes": 264655,
+          "pdf_pages": 4,
+          "download_url": "https://journals.open.tudelft.nl/footprint/article/download/715/892",
+          "resolved_url": "https://journals.open.tudelft.nl/footprint/article/download/715/892",
+          "access_date": "2026-10-18",
+          "unmodified": true
+        }
+      ],
+      "existing_local_files": [],
+      "locators": [
+        {
+          "locator": "Printed p. 1, byline and framing",
+          "status": "selected-text-inspected"
+        }
+      ],
+      "verification": {
+        "scope": "Publisher DOI metadata, official landing-page license, PDF byline and printed pagination inspected. Text layer read for introductory context and references; figures and all arguments not exhaustively reviewed.",
+        "source_urls": [
+          "https://api.crossref.org/works/10.59490/footprint.4.1.715",
+          "https://architecture.mit.edu/people/terry-knight",
+          "https://journals.open.tudelft.nl/footprint/article/view/715"
+        ],
+        "content_review": "selected-text-and-rights"
+      },
+      "annotation_file": "shape-grammar/notes/knight-2010-digitally-driven-architecture.md",
+      "publication_type": "journal-article",
+      "author_names_as_published": [
+        "Henriette Bier",
+        "Terry Knight"
+      ],
+      "alternate_dois": [
+        "10.7480/footprint.4.1.715"
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-2010-looks-count-computing-and-constructing-visually-expressive-mass-customized",
+      "topic": "shape-grammar",
+      "title": "Looks count: Computing and constructing visually expressive mass customized housing",
+      "authors": [
+        "Terry Knight",
+        "Lawrence Sass"
+      ],
+      "year": 2010,
+      "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+      "doi": "10.1017/s0890060409990126",
+      "stable_url": "https://doi.org/10.1017/s0890060409990126",
+      "reading_url": "https://doi.org/10.1017/s0890060409990126",
+      "download_url": null,
+      "venue": "Artificial Intelligence for Engineering Design, Analysis and Manufacturing",
+      "pages": "425-445",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight"
+      ],
+      "relevance": "Terry Knight author corpus: shape grammar theory, design, implementation, or teaching.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://doi.org/10.1017/s0890060409990126",
+        "conditions": "No general redistribution permission verified for this exact work; retain citation and lawful reading link."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+        "source_urls": [
+          "https://api.crossref.org/works/10.1017/s0890060409990126",
+          "https://architecture.mit.edu/people/terry-knight"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/knight-2010-looks-count-computing-and-constructing-visually-expressive-mass-customized.md",
+      "publication_type": "journal-article",
+      "author_names_as_published": [
+        "Terry Knight",
+        "Lawrence Sass"
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-2012-cradle-molding-device-an-automated-cad-cam-molding-system-for-manufacturing",
+      "topic": "shape-grammar",
+      "title": "Cradle molding device: An automated CAD/CAM molding system for manufacturing composite materials as customizable assembly units for rural application",
+      "authors": [
+        "K. Griffith",
+        "R. Williams",
+        "T. Knight",
+        "L. Sass",
+        "A. Kamath"
+      ],
+      "year": 2012,
+      "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+      "doi": "10.1016/j.autcon.2011.05.019",
+      "stable_url": "https://doi.org/10.1016/j.autcon.2011.05.019",
+      "reading_url": "https://doi.org/10.1016/j.autcon.2011.05.019",
+      "download_url": null,
+      "venue": "Automation in Construction",
+      "pages": "114-120",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight",
+        "computational-making",
+        "materiality"
+      ],
+      "relevance": "Terry Knight author corpus: computational making and material/design practice.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://doi.org/10.1016/j.autcon.2011.05.019",
+        "conditions": "No general redistribution permission verified for this exact work; retain citation and lawful reading link."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+        "source_urls": [
+          "https://api.crossref.org/works/10.1016/j.autcon.2011.05.019",
+          "https://architecture.mit.edu/people/terry-knight"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/knight-2012-cradle-molding-device-an-automated-cad-cam-molding-system-for-manufacturing.md",
+      "publication_type": "journal-article",
+      "author_names_as_published": [
+        "K. Griffith",
+        "R. Williams",
+        "T. Knight",
+        "L. Sass",
+        "A. Kamath"
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-2012-slow-computing",
+      "topic": "shape-grammar",
+      "title": "Slow Computing",
+      "authors": [
+        "Terry Knight"
+      ],
+      "year": 2012,
+      "edition_version": "2012 chapter; registry title Slow Computing; extended title Slow Computing: Teaching Generative Design with Shape Grammars appears in author profile. Registry year is missing, so 2012 comes from profile/book context.",
+      "doi": "10.4018/978-1-61350-180-1.ch003",
+      "stable_url": "https://doi.org/10.4018/978-1-61350-180-1.ch003",
+      "reading_url": "https://doi.org/10.4018/978-1-61350-180-1.ch003",
+      "download_url": null,
+      "venue": "Computational Design Methods and Technologies",
+      "pages": "34-55",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight",
+        "education",
+        "grammar-design"
+      ],
+      "relevance": "Terry Knight author corpus: shape grammar theory, design, implementation, or teaching.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://doi.org/10.4018/978-1-61350-180-1.ch003",
+        "conditions": "No general redistribution permission verified for this exact work; retain citation and lawful reading link."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+        "source_urls": [
+          "https://api.crossref.org/works/10.4018/978-1-61350-180-1.ch003",
+          "https://architecture.mit.edu/people/terry-knight"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/knight-2012-slow-computing.md",
+      "publication_type": "book-chapter",
+      "author_names_as_published": [
+        "Terry Knight"
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-2014-data-driven-design-to-production-and-operation",
+      "topic": "shape-grammar",
+      "title": "Data-Driven Design to Production and Operation",
+      "authors": [
+        "Henriette Bier",
+        "Terry Knight"
+      ],
+      "year": 2014,
+      "edition_version": "Autumn 2014 introduction, printed pp. 1–8; 8 PDF pages. Legacy DOI retained as alias.",
+      "doi": "10.59490/footprint.8.2.807",
+      "stable_url": "https://doi.org/10.59490/footprint.8.2.807",
+      "reading_url": "https://journals.open.tudelft.nl/footprint/article/view/807",
+      "download_url": "https://journals.open.tudelft.nl/footprint/article/download/807/990",
+      "venue": "FOOTPRINT",
+      "pages": "1–8",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight"
+      ],
+      "relevance": "Terry Knight author corpus: shape grammar theory, design, implementation, or teaching.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "downloaded-with-conditions",
+        "license": "CC BY 4.0",
+        "evidence_url": "https://journals.open.tudelft.nl/footprint/article/view/807",
+        "conditions": "CC BY 4.0 identified on publisher landing page; preserve attribution, source and notices. Original downloaded bytes are unmodified. Separately credited images must retain their credits; no figures extracted."
+      },
+      "local_files": [
+        {
+          "path": "shape-grammar/originals/knight-2014-data-driven-design-to-production-and-operation.pdf",
+          "sha256": "be719977b9d9496b3f0044e06cad058d749e6b7905db3b69f8d77c26939d3801",
+          "bytes": 543101,
+          "pdf_pages": 8,
+          "download_url": "https://journals.open.tudelft.nl/footprint/article/download/807/990",
+          "resolved_url": "https://journals.open.tudelft.nl/footprint/article/download/807/990",
+          "access_date": "2026-10-18",
+          "unmodified": true
+        }
+      ],
+      "existing_local_files": [],
+      "locators": [
+        {
+          "locator": "Printed p. 1, introduction and byline",
+          "status": "selected-text-inspected"
+        }
+      ],
+      "verification": {
+        "scope": "Publisher DOI metadata, official landing-page license, PDF byline and printed pagination inspected. Text layer read for introductory context and references; figures and all arguments not exhaustively reviewed.",
+        "source_urls": [
+          "https://api.crossref.org/works/10.59490/footprint.8.2.807",
+          "https://architecture.mit.edu/people/terry-knight",
+          "https://journals.open.tudelft.nl/footprint/article/view/807"
+        ],
+        "content_review": "selected-text-and-rights"
+      },
+      "annotation_file": "shape-grammar/notes/knight-2014-data-driven-design-to-production-and-operation.md",
+      "publication_type": "journal-article",
+      "author_names_as_published": [
+        "Henriette Bier",
+        "Terry Knight"
+      ],
+      "alternate_dois": [
+        "10.7480/footprint.8.2.807"
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-2014-regarding-rules-from-rimini-to-rio",
+      "topic": "shape-grammar",
+      "title": "Regarding Rules: From Rimini to Rio",
+      "authors": [
+        "Terry Knight"
+      ],
+      "year": 2014,
+      "edition_version": "Joelho issue 5, 2014; publisher PDF has 9 pages containing spreads and a final page numbered 29. Printed article text spans pp. 12–27; file pagination retained without claiming all pages are article text.",
+      "doi": "10.14195/1647-8681_5_1",
+      "stable_url": "https://doi.org/10.14195/1647-8681_5_1",
+      "reading_url": "https://impactum-journals.uc.pt/joelho/article/view/_5_1",
+      "download_url": "https://impactum-journals.uc.pt/joelho/article/download/_5_1/1645",
+      "venue": "Joelho Revista de Cultura Arquitectonica",
+      "pages": "12–27 (article text); supplied PDF includes final page numbered 29",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight"
+      ],
+      "relevance": "Terry Knight author corpus: shape grammar theory, design, implementation, or teaching.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "downloaded-with-conditions",
+        "license": "CC BY 4.0",
+        "evidence_url": "https://impactum-journals.uc.pt/joelho/article/view/_5_1",
+        "conditions": "CC BY 4.0 identified on publisher landing page; preserve attribution, source and notices. Original downloaded bytes are unmodified. Separately credited images must retain their credits; no figures extracted."
+      },
+      "local_files": [
+        {
+          "path": "shape-grammar/originals/knight-2014-regarding-rules-from-rimini-to-rio.pdf",
+          "sha256": "c9c3f4659a7c15f66a24e9de1cfbd86460992df7b6f99e6a082bcce65fe16bd9",
+          "bytes": 913130,
+          "pdf_pages": 9,
+          "download_url": "https://impactum-journals.uc.pt/joelho/article/download/_5_1/1645",
+          "resolved_url": "https://impactum-journals.uc.pt/joelho/article/download/_5_1/1645",
+          "access_date": "2026-10-18",
+          "unmodified": true
+        }
+      ],
+      "existing_local_files": [],
+      "locators": [
+        {
+          "locator": "Printed pp. 12–13, introduction; pp. 26–27, references and conclusion",
+          "status": "selected-text-inspected"
+        }
+      ],
+      "verification": {
+        "scope": "Publisher DOI metadata, official landing-page license, PDF byline and printed pagination inspected. Text layer read for introductory context and references; figures and all arguments not exhaustively reviewed.",
+        "source_urls": [
+          "https://api.crossref.org/works/10.14195/1647-8681_5_1",
+          "https://architecture.mit.edu/people/terry-knight",
+          "https://impactum-journals.uc.pt/joelho/article/view/_5_1"
+        ],
+        "content_review": "selected-text-and-rights"
+      },
+      "annotation_file": "shape-grammar/notes/knight-2014-regarding-rules-from-rimini-to-rio.md",
+      "publication_type": "journal-article",
+      "author_names_as_published": [
+        "Terry Knight"
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-2015-computational-making",
+      "topic": "shape-grammar",
+      "title": "Computational making",
+      "authors": [
+        "Terry Knight",
+        "Theodora Vardouli"
+      ],
+      "year": 2015,
+      "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+      "doi": "10.1016/j.destud.2015.09.003",
+      "stable_url": "https://doi.org/10.1016/j.destud.2015.09.003",
+      "reading_url": "https://doi.org/10.1016/j.destud.2015.09.003",
+      "download_url": null,
+      "venue": "Design Studies",
+      "pages": "1-7",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight",
+        "computational-making",
+        "materiality"
+      ],
+      "relevance": "Terry Knight author corpus: computational making and material/design practice.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://doi.org/10.1016/j.destud.2015.09.003",
+        "conditions": "No general redistribution permission verified for this exact work; retain citation and lawful reading link."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+        "source_urls": [
+          "https://api.crossref.org/works/10.1016/j.destud.2015.09.003",
+          "https://architecture.mit.edu/people/terry-knight",
+          "https://computationalmaking.mit.edu/publications/"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/knight-2015-computational-making.md",
+      "publication_type": "journal-article",
+      "author_names_as_published": [
+        "Terry Knight",
+        "Theodora Vardouli"
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-2015-making-grammars-from-computing-with-shapes-to-computing-with-things",
+      "topic": "shape-grammar",
+      "title": "Making grammars: From computing with shapes to computing with things",
+      "authors": [
+        "Terry Knight",
+        "George Stiny"
+      ],
+      "year": 2015,
+      "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+      "doi": "10.1016/j.destud.2015.08.006",
+      "stable_url": "https://doi.org/10.1016/j.destud.2015.08.006",
+      "reading_url": "https://doi.org/10.1016/j.destud.2015.08.006",
+      "download_url": null,
+      "venue": "Design Studies",
+      "pages": "8-28",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight",
+        "computational-making",
+        "materiality"
+      ],
+      "relevance": "Terry Knight author corpus: computational making and material/design practice.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://doi.org/10.1016/j.destud.2015.08.006",
+        "conditions": "No general redistribution permission verified for this exact work; retain citation and lawful reading link."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+        "source_urls": [
+          "https://api.crossref.org/works/10.1016/j.destud.2015.08.006",
+          "https://architecture.mit.edu/people/terry-knight",
+          "https://computationalmaking.mit.edu/publications/"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/knight-2015-making-grammars-from-computing-with-shapes-to-computing-with-things.md",
+      "publication_type": "journal-article",
+      "author_names_as_published": [
+        "Terry Knight",
+        "George Stiny"
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-2015-shapes-and-other-things",
+      "topic": "shape-grammar",
+      "title": "Shapes and Other Things",
+      "authors": [
+        "Terry Knight"
+      ],
+      "year": 2015,
+      "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+      "doi": "10.1007/s00004-015-0267-3",
+      "stable_url": "https://doi.org/10.1007/s00004-015-0267-3",
+      "reading_url": "https://doi.org/10.1007/s00004-015-0267-3",
+      "download_url": null,
+      "venue": "Nexus Network Journal",
+      "pages": "963-980",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight"
+      ],
+      "relevance": "Terry Knight author corpus: shape grammar theory, design, implementation, or teaching.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://doi.org/10.1007/s00004-015-0267-3",
+        "conditions": "No general redistribution permission verified for this exact work; retain citation and lawful reading link."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+        "source_urls": [
+          "https://api.crossref.org/works/10.1007/s00004-015-0267-3",
+          "https://architecture.mit.edu/people/terry-knight",
+          "https://computationalmaking.mit.edu/publications/"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/knight-2015-shapes-and-other-things.md",
+      "publication_type": "journal-article",
+      "author_names_as_published": [
+        "Terry Knight"
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-2018-craft-performance-and-grammars",
+      "topic": "shape-grammar",
+      "title": "Craft, Performance, and Grammars",
+      "authors": [
+        "Terry Knight"
+      ],
+      "year": 2018,
+      "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+      "doi": "10.1007/978-981-10-8189-7_16",
+      "stable_url": "https://doi.org/10.1007/978-981-10-8189-7_16",
+      "reading_url": "https://doi.org/10.1007/978-981-10-8189-7_16",
+      "download_url": null,
+      "venue": "KAIST Research Series; Computational Studies on Cultural Variation and Heredity",
+      "pages": "205-224",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight",
+        "computational-making",
+        "materiality"
+      ],
+      "relevance": "Terry Knight author corpus: computational making and material/design practice.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://doi.org/10.1007/978-981-10-8189-7_16",
+        "conditions": "No general redistribution permission verified for this exact work; retain citation and lawful reading link."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+        "source_urls": [
+          "https://api.crossref.org/works/10.1007/978-981-10-8189-7_16",
+          "https://architecture.mit.edu/people/terry-knight",
+          "https://computationalmaking.mit.edu/publications/"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/knight-2018-craft-performance-and-grammars.md",
+      "publication_type": "book-chapter",
+      "author_names_as_published": [
+        "Terry Knight"
+      ],
+      "related_versions": [
+        {
+          "description": "2017 workshop presentation under the same title; relationship noted, identical content not asserted",
+          "url": "https://computationalmaking.mit.edu/publications/",
+          "year": 2017
+        }
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-2018-editorial-design-technology-and-society",
+      "topic": "shape-grammar",
+      "title": "Editorial: Design, Technology and Society",
+      "authors": [
+        "Daniel Cardoso Llach",
+        "Terry Knight"
+      ],
+      "year": 2018,
+      "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+      "doi": "10.21606/drs.2018.002",
+      "stable_url": "https://doi.org/10.21606/drs.2018.002",
+      "reading_url": "https://dl.designresearchsociety.org/drs-conference-papers/drs2018/editorials/2/",
+      "download_url": null,
+      "venue": "Proceedings of DRS; DRS2018: Design as a catalyst for change",
+      "pages": null,
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight"
+      ],
+      "relevance": "Terry Knight author corpus: shape grammar theory, design, implementation, or teaching.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "licensed-link-only",
+        "license": "CC BY-NC 4.0",
+        "evidence_url": "https://dl.designresearchsociety.org/drs-conference-papers/drs2018/editorials/2/",
+        "conditions": "Publisher page identifies CC BY-NC 4.0; direct download returned HTTP 403. No local original claimed."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+        "source_urls": [
+          "https://api.crossref.org/works/10.21606/drs.2018.002",
+          "https://architecture.mit.edu/people/terry-knight"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/knight-2018-editorial-design-technology-and-society.md",
+      "publication_type": "proceedings-article",
+      "author_names_as_published": [
+        "Daniel Cardoso Llach",
+        "Terry Knight"
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-2019-affective-sleeve-wearable-materials-with-haptic-action-for-promoting-calmne",
+      "topic": "shape-grammar",
+      "title": "Affective Sleeve: Wearable Materials with Haptic Action for Promoting Calmness",
+      "authors": [
+        "Athina Papadopoulou",
+        "Jaclyn Berry",
+        "Terry Knight",
+        "Rosalind Picard"
+      ],
+      "year": 2019,
+      "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+      "doi": "10.1007/978-3-030-21935-2_23",
+      "stable_url": "https://doi.org/10.1007/978-3-030-21935-2_23",
+      "reading_url": "https://doi.org/10.1007/978-3-030-21935-2_23",
+      "download_url": null,
+      "venue": "Lecture Notes in Computer Science; Distributed, Ambient and Pervasive Interactions",
+      "pages": "304-319",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight",
+        "computational-making",
+        "materiality"
+      ],
+      "relevance": "Terry Knight author corpus: computational making and material/design practice.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://doi.org/10.1007/978-3-030-21935-2_23",
+        "conditions": "No general redistribution permission verified for this exact work; retain citation and lawful reading link."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+        "source_urls": [
+          "https://api.crossref.org/works/10.1007/978-3-030-21935-2_23",
+          "https://architecture.mit.edu/people/terry-knight"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/knight-2019-affective-sleeve-wearable-materials-with-haptic-action-for-promoting-calmne.md",
+      "publication_type": "book-chapter",
+      "author_names_as_published": [
+        "Athina Papadopoulou",
+        "Jaclyn Berry",
+        "Terry Knight",
+        "Rosalind Picard"
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-2023-teaching-award-of-excellence",
+      "topic": "shape-grammar",
+      "title": "Teaching Award of Excellence",
+      "authors": [
+        "Terry Knight"
+      ],
+      "year": 2023,
+      "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+      "doi": "10.52842/conf.acadia.2023.3.091",
+      "stable_url": "https://doi.org/10.52842/conf.acadia.2023.3.091",
+      "reading_url": "https://doi.org/10.52842/conf.acadia.2023.3.091",
+      "download_url": null,
+      "venue": "ACADIA proceedings; Proceedings of the 43th Annual Conference of the Association of Computer Aided Design in Architecture (ACADIA)",
+      "pages": "91-94",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight",
+        "education",
+        "grammar-design"
+      ],
+      "relevance": "Terry Knight author corpus: shape grammar theory, design, implementation, or teaching.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://doi.org/10.52842/conf.acadia.2023.3.091",
+        "conditions": "No general redistribution permission verified for this exact work; retain citation and lawful reading link."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+        "source_urls": [
+          "https://api.crossref.org/works/10.52842/conf.acadia.2023.3.091",
+          "https://architecture.mit.edu/people/terry-knight"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/knight-2023-teaching-award-of-excellence.md",
+      "publication_type": "proceedings-article",
+      "author_names_as_published": [
+        "Terry Knight"
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-2024-robotics-in-design-and-the-makings-of-embodied-interfaces",
+      "topic": "shape-grammar",
+      "title": "Robotics in Design and the Makings of Embodied Interfaces",
+      "authors": [
+        "Hara Gavra",
+        "Sotirios Kotsopoulos",
+        "Terry Knight",
+        "Daniel Cardoso Llach",
+        "Dina El-Zanfaly",
+        "Madeline Gannon"
+      ],
+      "year": 2024,
+      "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+      "doi": "10.21606/drs.2024.1630",
+      "stable_url": "https://doi.org/10.21606/drs.2024.1630",
+      "reading_url": "https://dl.designresearchsociety.org/drs-conference-papers/drs2024/conversations/20/",
+      "download_url": null,
+      "venue": "Proceedings of DRS; DRS2024: Boston",
+      "pages": null,
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight",
+        "computational-making",
+        "materiality"
+      ],
+      "relevance": "Terry Knight author corpus: computational making and material/design practice.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "licensed-link-only",
+        "license": "CC BY-NC 4.0",
+        "evidence_url": "https://dl.designresearchsociety.org/drs-conference-papers/drs2024/conversations/20/",
+        "conditions": "Publisher page identifies CC BY-NC 4.0; direct download returned HTTP 403. No local original claimed."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+        "source_urls": [
+          "https://api.crossref.org/works/10.21606/drs.2024.1630",
+          "https://architecture.mit.edu/people/terry-knight"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/knight-2024-robotics-in-design-and-the-makings-of-embodied-interfaces.md",
+      "publication_type": "proceedings-article",
+      "author_names_as_published": [
+        "Hara Gavra",
+        "Sotirios Kotsopoulos",
+        "Terry Knight",
+        "Daniel Cardoso Llach",
+        "Dina El-Zanfaly",
+        "Madeline Gannon"
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-2025-how-is-that-computing-the-temporality-of-drawing",
+      "topic": "shape-grammar",
+      "title": "How Is That? Computing the Temporality of Drawing",
+      "authors": [
+        "Terry W. Knight"
+      ],
+      "year": 2025,
+      "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+      "doi": "10.1007/978-3-031-81623-9_6",
+      "stable_url": "https://doi.org/10.1007/978-3-031-81623-9_6",
+      "reading_url": "https://doi.org/10.1007/978-3-031-81623-9_6",
+      "download_url": null,
+      "venue": "Mathematics and the Built Environment; Shape Computation",
+      "pages": "99-123",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight",
+        "computational-making",
+        "materiality"
+      ],
+      "relevance": "Terry Knight author corpus: computational making and material/design practice.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://doi.org/10.1007/978-3-031-81623-9_6",
+        "conditions": "No general redistribution permission verified for this exact work; retain citation and lawful reading link."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+        "source_urls": [
+          "https://api.crossref.org/works/10.1007/978-3-031-81623-9_6",
+          "https://architecture.mit.edu/people/terry-knight"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/knight-2025-how-is-that-computing-the-temporality-of-drawing.md",
+      "publication_type": "book-chapter",
+      "author_names_as_published": [
+        "Terry W. Knight"
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-2025-visual-computing-syllabus",
+      "topic": "shape-grammar",
+      "title": "Visual Computing, MIT 4.520/4.521 — Spring 2025 syllabus",
+      "authors": [
+        "Terry Knight"
+      ],
+      "year": 2025,
+      "edition_version": "Public source edition identified below; no private course material collected.",
+      "doi": null,
+      "stable_url": "https://architecture.mit.edu/sites/default/files/course-documents/25sp-4.520%2B4.521-syll-knight.pdf",
+      "reading_url": "https://architecture.mit.edu/sites/default/files/course-documents/25sp-4.520%2B4.521-syll-knight.pdf",
+      "download_url": null,
+      "venue": "MIT Department of Architecture",
+      "pages": "2 PDF pages",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight",
+        "education",
+        "computational-making"
+      ],
+      "relevance": "A current documented teaching sequence from shape arithmetic to basic, complex and making grammars.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://architecture.mit.edu/sites/default/files/course-documents/25sp-4.520%2B4.521-syll-knight.pdf",
+        "conditions": "Reading link only. No redistribution license for the exact complete material has been established."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [
+        {
+          "locator": "PDF p. 1, course approach; PDF p. 2, calendar",
+          "status": "selected-text-inspected"
+        }
+      ],
+      "verification": {
+        "scope": "Official two-page syllabus inspected: course approach on PDF p. 1 and calendar on PDF p. 2. Public syllabus only; linked Canvas course not accessed.",
+        "source_urls": [
+          "https://architecture.mit.edu/sites/default/files/course-documents/25sp-4.520%2B4.521-syll-knight.pdf"
+        ],
+        "content_review": "selected-sections"
+      },
+      "annotation_file": "shape-grammar/notes/knight-2025-visual-computing-syllabus.md",
+      "publication_type": "course-syllabus"
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-2026-beyond-the-render-grounding-generative-ai-with-real-world-material-data-for",
+      "topic": "shape-grammar",
+      "title": "Beyond the Render: Grounding Generative AI with Real-World Material Data for Informed Design Decisions",
+      "authors": [
+        "Richa Gupta",
+        "Terry Knight",
+        "Takehiko Nagakura"
+      ],
+      "year": 2026,
+      "edition_version": "Published version; dates from publisher-deposited DOI metadata. Full text not reviewed unless stated.",
+      "doi": "10.1007/978-3-032-30846-7_7",
+      "stable_url": "https://doi.org/10.1007/978-3-032-30846-7_7",
+      "reading_url": "https://doi.org/10.1007/978-3-032-30846-7_7",
+      "download_url": null,
+      "venue": "Lecture Notes in Computer Science; Artificial Intelligence in HCI",
+      "pages": "107-123",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight",
+        "computational-making",
+        "materiality"
+      ],
+      "relevance": "Terry Knight author corpus: computational making and material/design practice.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://doi.org/10.1007/978-3-032-30846-7_7",
+        "conditions": "No general redistribution permission verified for this exact work; retain citation and lawful reading link."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Available publisher-deposited Crossref title, authors, date, venue and pagination fields checked; missing fields are not invented. Identity reconciled against MIT bibliography, coauthors, institutional affiliation and/or ORCID; no full-paper content review claimed.",
+        "source_urls": [
+          "https://api.crossref.org/works/10.1007/978-3-032-30846-7_7",
+          "https://architecture.mit.edu/people/terry-knight"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/knight-2026-beyond-the-render-grounding-generative-ai-with-real-world-material-data-for.md",
+      "publication_type": "book-chapter",
+      "author_names_as_published": [
+        "Richa Gupta",
+        "Terry Knight",
+        "Takehiko Nagakura"
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "knight-education-practice",
+      "topic": "shape-grammar",
+      "title": "Shape Grammars in Education and Practice: History and Prospects",
+      "authors": [
+        "Terry W. Knight"
+      ],
+      "year": 1999,
+      "edition_version": "Author-hosted report; 1999 and journal volume 2 established by Knight’s own 2014 bibliography. Some later citations use 2000; exact original issue date remains unresolved.",
+      "doi": null,
+      "stable_url": "https://www.mit.edu/~tknight/IJDC/",
+      "reading_url": "https://www.mit.edu/~tknight/IJDC/page_history_design_tr.htm",
+      "download_url": null,
+      "venue": "International Journal of Design Computing 2; author-hosted report",
+      "pages": null,
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight",
+        "education",
+        "grammar-design"
+      ],
+      "relevance": "Terry Knight author corpus: Shape Grammars in Education and Practice: History and Prospects. Citation coverage; full text requires separate review.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://www.mit.edu/~tknight/IJDC/page_history_design_tr.htm",
+        "conditions": "Citation and lawful source link only; redistribution permission for a complete original has not been established."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [],
+      "verification": {
+        "scope": "Author-hosted sections inspected; author’s 2014 Regarding Rules bibliography identifies title, year 1999 and journal volume 2. Host index is a legacy frameset. No unsupported pagination supplied.",
+        "source_urls": [
+          "https://www.mit.edu/~tknight/IJDC/page_history_design_tr.htm",
+          "https://impactum-journals.uc.pt/joelho/article/download/_5_1/1645"
+        ],
+        "content_review": "bibliography-only"
+      },
+      "annotation_file": "shape-grammar/notes/knight-education-practice.md",
+      "publication_type": "bibliographic-work"
     },
     {
       "schema_version": 1,
@@ -1299,6 +4048,174 @@
         "content_review": "bibliography-only"
       },
       "annotation_file": "shape-grammar/notes/krishnamurti-stouffs-1997-spatial.md"
+    },
+    {
+      "schema_version": 1,
+      "id": "papalambros-2015-design-science-knight-contribution",
+      "topic": "shape-grammar",
+      "title": "Design Science: Why, What and How",
+      "authors": [
+        "Panos Y. Papalambros"
+      ],
+      "year": 2015,
+      "edition_version": "2015 editorial; online 24 July 2015. Knight contribution is within the whole article, not a separately DOI-identified publication.",
+      "doi": "10.1017/dsj.2015.1",
+      "stable_url": "https://www.cambridge.org/core/journals/design-science/article/design-science-why-what-and-how/A575D750B05AE57AAF9E7CA07E44FEF4",
+      "reading_url": "https://www.cambridge.org/core/journals/design-science/article/design-science-why-what-and-how/A575D750B05AE57AAF9E7CA07E44FEF4",
+      "download_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A575D750B05AE57AAF9E7CA07E44FEF4/S2053470115000013a.pdf/div-class-title-design-science-why-what-and-how-div.pdf",
+      "venue": "Design Science 1",
+      "pages": "e1",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight"
+      ],
+      "relevance": "Knight’s explicitly attributed statement on design pedagogy, making and interdisciplinary study.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "downloaded-with-conditions",
+        "license": "CC BY 4.0",
+        "evidence_url": "https://www.cambridge.org/core/journals/design-science/article/design-science-why-what-and-how/A575D750B05AE57AAF9E7CA07E44FEF4",
+        "conditions": "CC BY 4.0 identified on publisher landing page; preserve attribution, source and notices. Original downloaded bytes are unmodified. Separately credited images must retain their credits; no figures extracted."
+      },
+      "local_files": [
+        {
+          "path": "shape-grammar/originals/papalambros-2015-design-science-knight-contribution.pdf",
+          "sha256": "a325739174c700d859901eff19cc7af9585be2f870b0fcb2a75e899244dac522",
+          "bytes": 587152,
+          "pdf_pages": 38,
+          "download_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A575D750B05AE57AAF9E7CA07E44FEF4/S2053470115000013a.pdf/div-class-title-design-science-why-what-and-how-div.pdf",
+          "resolved_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A575D750B05AE57AAF9E7CA07E44FEF4/S2053470115000013a.pdf/div-class-title-design-science-why-what-and-how-div.pdf",
+          "access_date": "2026-10-18",
+          "unmodified": true
+        }
+      ],
+      "existing_local_files": [],
+      "locators": [
+        {
+          "locator": "Section headed Terry Knight; PDF p. 20",
+          "status": "text-inspected"
+        }
+      ],
+      "verification": {
+        "scope": "Publisher byline and named Terry Knight section inspected. Papalambros is the credited article author; Knight contributes a separately headed statement within it.",
+        "source_urls": [
+          "https://www.cambridge.org/core/journals/design-science/article/design-science-why-what-and-how/A575D750B05AE57AAF9E7CA07E44FEF4"
+        ],
+        "content_review": "selected-sections"
+      },
+      "annotation_file": "shape-grammar/notes/papalambros-2015-design-science-knight-contribution.md",
+      "publication_type": "editorial-with-named-contribution",
+      "contributors": [
+        "Terry Knight"
+      ],
+      "contributor_roles": {
+        "Terry Knight": "Named section contributor; not the article byline author"
+      }
+    },
+    {
+      "schema_version": 1,
+      "id": "papalambros-et-al-2025-design-science-revisited",
+      "topic": "shape-grammar",
+      "title": "Design Science: Why, What and How – Revisited",
+      "authors": [
+        "Panos Papalambros",
+        "John Gero",
+        "Anja Maier",
+        "Jonathan Cagan",
+        "Saeema Ahmed-Kristensen",
+        "Albert Albers",
+        "Kurt April",
+        "Lucienne Blessing",
+        "Jean-Francois Boujut",
+        "Marco Cantamessa",
+        "Gaetano Cascini",
+        "Amaresh Chakrabarti",
+        "Lin-Lin Chen",
+        "P. John Clarkson",
+        "Roger Jiao",
+        "Claudia Eckert",
+        "Fred Feinberg",
+        "Kilian Gericke",
+        "Sean Hanna",
+        "Katja Holtta-Otto",
+        "Marija Jankovic",
+        "Yan Jin",
+        "Maaike Kleinsmann",
+        "Terry Knight",
+        "Pascal Le Masson",
+        "Kemper Lewis",
+        "Julie Linsey",
+        "Jianxi Luo",
+        "Chris McMahon",
+        "Yukari Nagai",
+        "Daniela Pigosso",
+        "Yoram Reich",
+        "Tahira Reid",
+        "Carolyn Seepersad",
+        "Colleen Seifert",
+        "Tripp Shealy",
+        "Joshua Summers",
+        "Pieter Vermaas",
+        "Sandro Wartzack",
+        "Maria Yang",
+        "Bernard Yannou"
+      ],
+      "year": 2025,
+      "edition_version": "Version of record, published online 18 November 2025; 53 PDF pages.",
+      "doi": "10.1017/dsj.2025.10026",
+      "stable_url": "https://doi.org/10.1017/dsj.2025.10026",
+      "reading_url": "https://doi.org/10.1017/dsj.2025.10026",
+      "download_url": "https://strathprints.strath.ac.uk/94756/1/Papalambros-etal-DS-2025-Design-science-why-what-and-how-revisited.pdf",
+      "venue": "Design Science 11",
+      "pages": "e48",
+      "tags": [
+        "shape-grammar",
+        "author-terry-knight"
+      ],
+      "relevance": "A coauthored retrospective including Knight’s contribution on the study and practice of design.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "downloaded-with-conditions",
+        "license": "CC BY 4.0",
+        "evidence_url": "https://doi.org/10.1017/dsj.2025.10026",
+        "conditions": "CC BY 4.0 identified on publisher landing page; preserve attribution, source and notices. Original downloaded bytes are unmodified. Separately credited images must retain their credits; no figures extracted."
+      },
+      "local_files": [
+        {
+          "path": "shape-grammar/originals/papalambros-et-al-2025-design-science-revisited.pdf",
+          "sha256": "fa3e7345622c1f2a9acf384c703e8bac7fadfb3a867790f9a7131a8ccbd710ae",
+          "bytes": 3885920,
+          "pdf_pages": 53,
+          "download_url": "https://strathprints.strath.ac.uk/94756/1/Papalambros-etal-DS-2025-Design-science-why-what-and-how-revisited.pdf",
+          "resolved_url": "https://strathprints.strath.ac.uk/94756/1/Papalambros-etal-DS-2025-Design-science-why-what-and-how-revisited.pdf",
+          "access_date": "2026-10-18",
+          "unmodified": true
+        }
+      ],
+      "existing_local_files": [],
+      "locators": [
+        {
+          "locator": "PDF p. 1, byline/license; pp. 26–27, Terry Knight contribution",
+          "status": "selected-text-inspected"
+        }
+      ],
+      "verification": {
+        "scope": "Publisher page, complete byline and MIT affiliation checked; original first-page license and Knight’s named contribution inspected. Full editorial arguments of every coauthor not reviewed.",
+        "source_urls": [
+          "https://doi.org/10.1017/dsj.2025.10026"
+        ],
+        "content_review": "selected-sections"
+      },
+      "annotation_file": "shape-grammar/notes/papalambros-et-al-2025-design-science-revisited.md",
+      "publication_type": "editorial"
     },
     {
       "schema_version": 1,
@@ -2225,6 +5142,62 @@
         "content_review": "bibliography-only"
       },
       "annotation_file": "shape-grammar/notes/stiny-mitchell-1978-palladian.md"
+    },
+    {
+      "schema_version": 1,
+      "id": "stouffs-2016-interpreter",
+      "topic": "shape-grammar",
+      "title": "An Algebraic Approach to Implementing a Shape Grammar Interpreter",
+      "authors": [
+        "Rudi Stouffs"
+      ],
+      "year": 2016,
+      "edition_version": "Bibliographic citation; no downloadable edition pinned",
+      "doi": null,
+      "stable_url": "https://pure.tudelft.nl/ws/portalfiles/portal/12909097/Stouffs_eCAADe2016_volume2.pdf",
+      "reading_url": "https://pure.tudelft.nl/ws/portalfiles/portal/12909097/Stouffs_eCAADe2016_volume2.pdf",
+      "download_url": null,
+      "venue": "Proceedings of the 34th eCAADe Conference, volume 2",
+      "pages": "329–338",
+      "tags": [
+        "shape-grammar",
+        "implementation",
+        "shape-algebras",
+        "U12"
+      ],
+      "relevance": "Primary definition of U_ij dimensions and an algebra interface for shape-grammar interpretation; supports the planar line-engine convention.",
+      "prerequisite_level": "intermediate",
+      "prerequisites": [
+        "Elementary sets and functions; some proof reading"
+      ],
+      "access_date": "2026-10-18",
+      "license_redistribution": {
+        "status": "link-only",
+        "license": null,
+        "evidence_url": "https://pure.tudelft.nl/ws/portalfiles/portal/12909097/Stouffs_eCAADe2016_volume2.pdf",
+        "conditions": "TU Delft cover explicitly limits redistribution without consent unless an open license applies. Read temporarily only; no original mirrored."
+      },
+      "local_files": [],
+      "existing_local_files": [],
+      "locators": [
+        {
+          "locator": "p. 331, Shape Algebras: U_ij and U_12 dimensional convention",
+          "status": "text-and-rendered-page-verified"
+        },
+        {
+          "locator": "pp. 332–334, algebra interface and spatial elements",
+          "status": "selected-text-inspected"
+        }
+      ],
+      "verification": {
+        "scope": "Institutional repository cover and complete relevant sections inspected. Printed p. 331 rendered and visually checked for U_ij dimensional convention; pp. 332–334 read for operations/interface.",
+        "source_urls": [
+          "https://pure.tudelft.nl/ws/portalfiles/portal/12909097/Stouffs_eCAADe2016_volume2.pdf"
+        ],
+        "content_review": "selected-sections-and-page-image"
+      },
+      "annotation_file": "shape-grammar/notes/stouffs-2016-interpreter.md",
+      "publication_type": "conference-paper"
     },
     {
       "schema_version": 1,

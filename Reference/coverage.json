@@ -4,10 +4,11 @@
     "title": "Seeing alternative parts; shapes and symbols",
     "source_ids": [
       "stiny-2018-calculating-excerpts",
-      "stiny-2006-shape"
+      "stiny-2006-shape",
+      "knight-2003-computing-with-emergence"
     ],
     "locator": "OCW Q1 and Q4; Shape interior locator pending",
-    "evidence_status": "selected-text; book bibliography only",
+    "evidence_status": "selected-text; book bibliography only; added Knight sources bibliography-only unless stated in source record",
     "lesson_status": "not-authored-in-this-delivery"
   },
   {
@@ -15,20 +16,22 @@
     "title": "Line elements and the planar setting",
     "source_ids": [
       "stiny-1980-introduction",
-      "stiny-1991-algebras"
+      "stiny-1991-algebras",
+      "stouffs-2016-interpreter"
     ],
-    "locator": "1980 p. 343; U12 definition still requires full source passage",
-    "evidence_status": "selected-passage verified; U12 pending",
+    "locator": "Stiny 1980 p. 343; Stouffs 2016 p. 331 for U12 dimensions",
+    "evidence_status": "selected passages verified; Stouffs p. 331 image verified; Stiny 1991 original passage pending",
     "lesson_status": "not-authored-in-this-delivery"
   },
   {
     "id": "SG-03",
     "title": "Parts, embedding and emergent subshapes",
     "source_ids": [
-      "stiny-1980-introduction"
+      "stiny-1980-introduction",
+      "knight-2003-computing-with-emergence"
     ],
     "locator": "1980 pp. 343–344",
-    "evidence_status": "selected-passage and p. 344 image verified",
+    "evidence_status": "selected-passage and p. 344 image verified; added Knight sources bibliography-only unless stated in source record",
     "lesson_status": "not-authored-in-this-delivery"
   },
   {
@@ -91,10 +94,11 @@
     "title": "Multiple matches and ambiguity",
     "source_ids": [
       "gatech-indeterminate-matching",
-      "krishnamurti-stouffs-1997-spatial"
+      "krishnamurti-stouffs-1997-spatial",
+      "knight-2003-computing-with-ambiguity"
     ],
     "locator": "tutorial Single Line Case; 1997 detailed cases pending",
-    "evidence_status": "tutorial checked; research candidate",
+    "evidence_status": "tutorial checked; research candidate; added Knight sources bibliography-only unless stated in source record",
     "lesson_status": "not-authored-in-this-delivery"
   },
   {
@@ -113,10 +117,11 @@
     "title": "Recursion and grammar construction",
     "source_ids": [
       "stiny-1980-introduction",
-      "stiny-1976-exercises"
+      "stiny-1976-exercises",
+      "knight-1998-designing-a-shape-grammar"
     ],
     "locator": "1980 p. 347 and examples pp. 348–351; 1976 full text pending",
-    "evidence_status": "selected text verified; candidate",
+    "evidence_status": "selected text verified; candidate; added Knight sources bibliography-only unless stated in source record",
     "lesson_status": "not-authored-in-this-delivery"
   },
   {
@@ -145,10 +150,12 @@
     "title": "Architectural patterns and generative design",
     "source_ids": [
       "stiny-mitchell-1978-palladian",
-      "stiny-1980-kindergarten"
+      "stiny-1980-kindergarten",
+      "knight-1980-the-generation-of-hepplewhite-style-chair-back-designs",
+      "knight-1981-forty-one-steps"
     ],
     "locator": "1978 and 1980 primary articles; example-specific locators pending",
-    "evidence_status": "bibliographic candidates",
+    "evidence_status": "bibliographic candidates; added Knight sources bibliography-only unless stated in source record",
     "lesson_status": "not-authored-in-this-delivery"
   },
   {
@@ -168,10 +175,12 @@
     "source_ids": [
       "stiny-1980-introduction",
       "stiny-2011-rules",
-      "knight-1999-six-types"
+      "knight-1999-six-types",
+      "knight-2012-slow-computing",
+      "knight-2025-visual-computing-syllabus"
     ],
     "locator": "1980 p. 347; 2011/1999 detailed rule-design locators pending",
-    "evidence_status": "mixed selected passage and candidate sources",
+    "evidence_status": "mixed selected passage and candidate sources; added Knight sources bibliography-only unless stated in source record",
     "lesson_status": "not-authored-in-this-delivery"
   },
   {
@@ -368,10 +377,11 @@
     "title": "Capstone: symmetry preservation and breaking",
     "source_ids": [
       "judson-abstract-algebra",
-      "milne-group-theory"
+      "milne-group-theory",
+      "knight-1995-constructive-symmetry"
     ],
     "locator": "§§12.2 and 14.1; project-authored investigation",
-    "evidence_status": "Judson contents verified; dihedral/action passages read; full assessment review pending",
+    "evidence_status": "Judson contents verified; dihedral/action passages read; full assessment review pending; added Knight sources bibliography-only unless stated in source record",
     "lesson_status": "not-authored-in-this-delivery"
   },
   {
@@ -381,10 +391,11 @@
       "stiny-1980-introduction",
       "krishnamurti-1980-arithmetic",
       "krishnamurti-1981-construction",
-      "gatech-indeterminate-matching"
+      "gatech-indeterminate-matching",
+      "stouffs-2016-interpreter"
     ],
-    "locator": "1980 definitions selected; algorithm details pending",
-    "evidence_status": "research roadmap; no new theorem or full course claimed",
+    "locator": "1980 definitions selected; algorithm details pending; Stouffs pp. 331–334 selected sections read",
+    "evidence_status": "research roadmap; no new theorem or full course claimed; added Knight sources bibliography-only unless stated in source record",
     "lesson_status": "not-authored-in-this-delivery"
   },
   {
@@ -392,10 +403,12 @@
     "title": "Weights and later shape algebras",
     "source_ids": [
       "stiny-1991-algebras",
-      "stiny-1992-weights"
+      "stiny-1992-weights",
+      "knight-1989-color-grammars-designing-with-lines-and-colors",
+      "knight-2015-shapes-and-other-things"
     ],
     "locator": "full definitions/locators pending",
-    "evidence_status": "research roadmap; no new theorem or full course claimed",
+    "evidence_status": "research roadmap; no new theorem or full course claimed; added Knight sources bibliography-only unless stated in source record",
     "lesson_status": "not-authored-in-this-delivery"
   },
   {
@@ -440,10 +453,11 @@
     "source_ids": [
       "etingof-representation-theory",
       "hefferon-linear-algebra",
-      "iucr-symmetry"
+      "iucr-symmetry",
+      "knight-1998-infinite-patterns-and-their-symmetries"
     ],
     "locator": "prerequisites and topic scope verified; course-specific sections pending",
-    "evidence_status": "research roadmap; no new theorem or full course claimed",
+    "evidence_status": "research roadmap; no new theorem or full course claimed; added Knight sources bibliography-only unless stated in source record",
     "lesson_status": "not-authored-in-this-delivery"
   },
   {
@@ -464,6 +478,32 @@
     ],
     "locator": "Part II Chs. 2–5; later iterative conception chapters",
     "evidence_status": "research roadmap; no new theorem or full course claimed",
+    "lesson_status": "not-authored-in-this-delivery"
+  },
+  {
+    "id": "R-09",
+    "title": "Computational making, materials and performance",
+    "source_ids": [
+      "knight-2015-making-grammars-from-computing-with-shapes-to-computing-with-things",
+      "knight-2018-craft-performance-and-grammars",
+      "knight-2015-computational-making"
+    ],
+    "locator": "publisher/author bibliography checked; exact teaching locators pending",
+    "evidence_status": "research roadmap; scope stated per source",
+    "lesson_status": "not-authored-in-this-delivery"
+  },
+  {
+    "id": "R-10",
+    "title": "Design languages, stylistic change and rule transformation",
+    "source_ids": [
+      "knight-1994-transformations-in-design",
+      "knight-1983-transformations-of-languages-of-designs-part-1",
+      "knight-1983-transformations-of-languages-of-designs-part-2",
+      "knight-1983-transformations-of-languages-of-designs-part-3",
+      "knight-2014-regarding-rules-from-rimini-to-rio"
+    ],
+    "locator": "Regarding Rules printed pp. 12–13 and 26–27 selected; book/1983 interiors pending",
+    "evidence_status": "research roadmap; scope stated per source",
     "lesson_status": "not-authored-in-this-delivery"
   }
 ]

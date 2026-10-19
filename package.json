@@ -1,0 +1,9 @@
+{
+  "name": "shapegrammar",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "ShapeGrammar mathematical core; application under development",
+  "engines": { "node": ">=20" },
+  "scripts": { "test": "node --test test/*.test.mjs" }
+}
