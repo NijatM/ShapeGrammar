@@ -11,7 +11,7 @@
   "edition_version": "Published version; dates from publisher-deposited DOI metadata. See the reading guide for the exact material inspected.",
   "doi": "10.21606/drs.2018.002",
   "stable_url": "https://doi.org/10.21606/drs.2018.002",
-  "reading_url": "https://dl.designresearchsociety.org/drs-conference-papers/drs2018/editorials/2/",
+  "reading_url": "https://www.aacademica.org/del.giorgio.solfa/228.pdf#page=28",
   "download_url": null,
   "venue": "Proceedings of DRS; DRS2018: Design as a catalyst for change",
   "pages": null,
@@ -19,12 +19,12 @@
     "shape-grammar",
     "author-terry-knight"
   ],
-  "relevance": "Terry Knight author corpus: shape grammar theory, design, implementation, or teaching.",
+  "relevance": "A critical framing of design technology, data and material practice, presented as a six-paper track editorial rather than an empirical study.",
   "prerequisite_level": "intermediate",
   "prerequisites": [
     "Elementary sets and functions; some proof reading"
   ],
-  "access_date": "2026-10-19",
+  "access_date": "2026-10-20",
   "license_redistribution": {
     "status": "licensed-link-only",
     "license": "CC BY-NC 4.0",
@@ -35,18 +35,23 @@
   "existing_local_files": [],
   "locators": [
     {
-      "locator": "DRS2018 Editorials: official record",
-      "status": "bibliographic-only-inspected"
+      "locator": "Official DRS2018 record: authors, canonical DOI and item license",
+      "status": "primary-content-reviewed-2026-10-20",
+      "url": "https://dl.designresearchsociety.org/drs-conference-papers/drs2018/editorials/2/"
+    },
+    {
+      "locator": "Printed pp.3–4 (deposited volume PDF pp.28–29): complete editorial",
+      "status": "primary-content-reviewed-2026-10-20",
+      "url": "https://www.aacademica.org/del.giorgio.solfa/228.pdf#page=28"
     }
   ],
   "verification": {
-    "scope": "Original reading guide reviewed 2026-10-19. The official DRS publication record was read, including authors, venue and license. Its download returned HTTP 403. No abstract is provided on the inspected record, and the editorial text could not be read.",
+    "scope": "Reviewed 2026-10-20. Read the complete editorial on printed pp.3–4 in a public deposited copy of DRS2018 Volume 1 (PDF pp.28–29), and checked its identity against the official DRS record. The official standalone PDF still returned HTTP 403. This is an editorial introduction to six other contributions, not a combined empirical study. The six underlying papers were not independently reviewed for this guide. The deposited volume prints a different DOI spelling and license notice from the current official record; both are distinguished below.",
     "source_urls": [
-      "https://api.crossref.org/works/10.21606/drs.2018.002",
-      "https://architecture.mit.edu/people/terry-knight",
-      "https://dl.designresearchsociety.org/drs-conference-papers/drs2018/editorials/2/"
+      "https://dl.designresearchsociety.org/drs-conference-papers/drs2018/editorials/2/",
+      "https://www.aacademica.org/del.giorgio.solfa/228.pdf"
     ],
-    "content_review": "bibliographic-only"
+    "content_review": "full-text"
   },
   "annotation_file": "shape-grammar/notes/knight-2018-editorial-design-technology-and-society.md",
   "publication_type": "proceedings-article",

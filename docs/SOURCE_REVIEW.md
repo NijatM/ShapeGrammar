@@ -1,18 +1,18 @@
 # Source reading review
 
-Reviewed 19 October 2026. There is one reading-guide file for each of the 98 canonical source records. Guides are original, condensed explanations tied to the text actually available, not reproduced abstracts. No new original publications were mirrored for this review.
+Initial review 19 October 2026; reading recovery updated 20 October 2026. There is one reading-guide file for each of the 98 canonical source records. Guides are original, condensed explanations tied to the text actually available, not reproduced abstracts. No new original publications were mirrored for this review.
 
 ## Coverage and meaning
 
 | Review basis | Records | What the label establishes |
 | --- | ---: | --- |
-| Full text reviewed | 17 | The text was read in full; exercises, experiments and proofs were not independently reproduced. |
-| Selected sections reviewed | 42 | The named sections or excerpts were read. This does not mean the whole book or paper was reviewed. |
-| Abstract / publisher description | 25 | Claims are limited to an available abstract, chapter abstract or publisher description. Detailed methods and results remain unverified. |
-| Publication details only | 11 | Publication identity and available context, without an account of an unread argument. |
+| Full text reviewed | 20 | The text was read in full; exercises, experiments and proofs were not independently reproduced. |
+| Selected sections reviewed | 43 | The named sections or excerpts were read. This does not mean the whole book or paper was reviewed. |
+| Abstract / publisher description | 22 | Claims are limited to an available abstract, chapter abstract or publisher description. Detailed methods and results remain unverified. |
+| Publication details only | 10 | Publication identity and available context, without an account of an unread argument. |
 | Supporting citation only | 3 | An explicit later citation or author retrospective; the original work was not available for direct review. |
 
-The 59 full-text/selected-section records include research papers, editorials, books, teaching material and software documentation. They are not 59 papers read cover to cover. Selected-section labels also cover limited indexed primary excerpts where direct access failed; those restrictions are stated on the page. Abstract-based and citation-only records deliberately do not invent experiments, sample sizes, results or conclusions.
+The 63 full-text/selected-section records include research papers, editorials, books, teaching material and software documentation. They are not 63 papers read cover to cover. Selected-section labels also cover limited indexed primary excerpts where direct access failed; those restrictions are stated on the page. Abstract-based and citation-only records deliberately do not invent experiments, sample sizes, results or conclusions.
 
 ## Reading experience
 
@@ -32,7 +32,7 @@ Books are summarized only at the reviewed chapter/section level. Edited issues a
 
 ## Originals still unavailable for direct review
 
-These 14 records have only publication or supporting-citation evidence. Other partial-access limits are identified individually in the table and each guide.
+These 13 records have only publication or supporting-citation evidence. Other partial-access limits are identified individually in the table and each guide.
 
 - [Monstrous Moonshine](../Reference/monster-moonshine/notes/conway-norton-1979-moonshine.md) — Supporting citation only.
 - [Transformations of the Meander Motif on Greek Geometric Pottery](../Reference/shape-grammar/notes/knight-1986-meander.md) — Publication details only.
@@ -44,7 +44,6 @@ These 14 records have only publication or supporting-citation evidence. Other pa
 - [Visual-physical design grammars](../Reference/shape-grammar/notes/knight-2008-visual-physical-design-grammars.md) — Publication details only.
 - [Cradle molding device: An automated CAD/CAM molding system for manufacturing composite materials as customizable assembly units for rural application](../Reference/shape-grammar/notes/knight-2012-cradle-molding-device-an-automated-cad-cam-molding-system-for-manufacturing.md) — Publication details only.
 - [Computational making](../Reference/shape-grammar/notes/knight-2015-computational-making.md) — Publication details only.
-- [Editorial: Design, Technology and Society](../Reference/shape-grammar/notes/knight-2018-editorial-design-technology-and-society.md) — Publication details only.
 - [Teaching Award of Excellence](../Reference/shape-grammar/notes/knight-2023-teaching-award-of-excellence.md) — Publication details only.
 - [Robotics in Design and the Makings of Embodied Interfaces](../Reference/shape-grammar/notes/knight-2024-robotics-in-design-and-the-makings-of-embodied-interfaces.md) — Publication details only.
 - [Algorithmic Aesthetics: Computer Models for Criticism and Design in the Arts](../Reference/shape-grammar/notes/stiny-gips-1978-algorithmic.md) — Supporting citation only.
@@ -118,10 +117,10 @@ The linked Markdown notes contain the explanations and original reading links. T
 | [Data-Driven Design to Production and Operation](../Reference/shape-grammar/notes/knight-2014-data-driven-design-to-production-and-operation.md) | Full text reviewed | All eight printed pages (1–8), including conceptual framing, five article descriptions and notes, were read. |
 | [Regarding Rules: From Rimini to Rio](../Reference/shape-grammar/notes/knight-2014-regarding-rules-from-rimini-to-rio.md) | Full text reviewed | The complete article was read, including four strategies, illustrated case descriptions and the Rocinha work-in-progress. The diagram of four strategies was inspected. |
 | [Computational making](../Reference/shape-grammar/notes/knight-2015-computational-making.md) | Publication details only | The MIT Computational Making publications list and publisher-deposited DOI metadata were inspected. The editorial body was unavailable. |
-| [Making grammars: From computing with shapes to computing with things](../Reference/shape-grammar/notes/knight-2015-making-grammars-from-computing-with-shapes-to-computing-with-things.md) | Abstract / publisher description | The complete author/institutional abstract and publisher highlights were read. The MIT repository identifies an author-final manuscript, but its download was rate-limited during review. |
+| [Making grammars: From computing with shapes to computing with things](../Reference/shape-grammar/notes/knight-2015-making-grammars-from-computing-with-shapes-to-computing-with-things.md) | Full text reviewed | Read the complete MIT author-final manuscript: repository cover sheet and manuscript pp.1–21. Visually checked the knotting rules in Fig.8 and the string-algebra definition on manuscript pp.14–15. |
 | [Shapes and Other Things](../Reference/shape-grammar/notes/knight-2015-shapes-and-other-things.md) | Full text reviewed | The full public publisher text and 18-page PDF were read, including historical approaches, Complications, Things and Discussion. The cube-subtraction figure was inspected. |
-| [Craft, Performance, and Grammars](../Reference/shape-grammar/notes/knight-2018-craft-performance-and-grammars.md) | Abstract / publisher description | The complete publisher abstract for the 2018 chapter was read. A related 2017 author-linked URL returned a website page instead of its PDF, and was not treated as the chapter text. |
-| [Editorial: Design, Technology and Society](../Reference/shape-grammar/notes/knight-2018-editorial-design-technology-and-society.md) | Publication details only | The official DRS publication record was read, including authors, venue and license. Its download returned HTTP 403. |
+| [Craft, Performance, and Grammars](../Reference/shape-grammar/notes/knight-2018-craft-performance-and-grammars.md) | Full text reviewed | Read the complete publisher chapter, printed pp.205–224, including all three kolam grammar descriptions, discussion and references. Visually checked the paired seeing/drawing rules in Fig.10 on p.219. |
+| [Editorial: Design, Technology and Society](../Reference/shape-grammar/notes/knight-2018-editorial-design-technology-and-society.md) | Full text reviewed | Read the complete editorial on printed pp.3–4 in a public deposited copy of DRS2018 Volume 1 (PDF pp.28–29), and checked its identity against the official DRS record. The official standalone PDF still returned HTTP 403. |
 | [Affective Sleeve: Wearable Materials with Haptic Action for Promoting Calmness](../Reference/shape-grammar/notes/knight-2019-affective-sleeve-wearable-materials-with-haptic-action-for-promoting-calmne.md) | Abstract / publisher description | The full public Springer abstract was read. |
 | [Teaching Award of Excellence](../Reference/shape-grammar/notes/knight-2023-teaching-award-of-excellence.md) | Publication details only | The proceedings DOI record was inspected, and ACADIA’s official award-recipient list independently confirms Knight’s 2023 Teaching Award of Excellence. The four-page proceedings contribution was not accessible. |
 | [Robotics in Design and the Makings of Embodied Interfaces](../Reference/shape-grammar/notes/knight-2024-robotics-in-design-and-the-makings-of-embodied-interfaces.md) | Publication details only | The official DRS2024 record was read, including its Conversation classification, six contributors, keywords and license. The PDF download returned HTTP 403. |
@@ -134,7 +133,7 @@ The linked Markdown notes contain the explanations and original reading links. T
 | [Spatial Change: Continuity, Reversibility, and Emergent Shapes](../Reference/shape-grammar/notes/krishnamurti-stouffs-1997-spatial.md) | Selected sections reviewed | Author-hosted paper: introduction and the sections on continuity, reversibility and recognition. |
 | [Design Science: Why, What and How](../Reference/shape-grammar/notes/papalambros-2015-design-science-knight-contribution.md) | Selected sections reviewed | Read the opening editorial, Knight’s complete named statement on pp. 20–21, Gero’s synthesis and the beginning of How in the licensed original. |
 | [Design Science: Why, What and How – Revisited](../Reference/shape-grammar/notes/papalambros-et-al-2025-design-science-revisited.md) | Selected sections reviewed | Read the abstract, introduction, opening editors-in-chief discussion and Knight’s complete named contribution on pp. 26–27 in the licensed original. |
-| [Pictorial and Formal Aspects of Shape and Shape Grammars](../Reference/shape-grammar/notes/stiny-1975-pictorial.md) | Abstract / publisher description | Publisher-hosted Introduction and pictorial/formal chapter abstracts read, alongside the official contents. |
+| [Pictorial and Formal Aspects of Shape and Shape Grammars](../Reference/shape-grammar/notes/stiny-1975-pictorial.md) | Selected sections reviewed | Read 36 selected printed pages in the publisher book PDF: pp.1–2, 4–9, 117–122, 133–136, 144–146, 170–177 and 282–288, plus contents. Printed page p corresponds to PDF page p+18. Visually checked Fig.2-8 (p.134) and the special matching condition on p.175. |
 | [Two Exercises in Formal Composition](../Reference/shape-grammar/notes/stiny-1976-exercises.md) | Selected sections reviewed | Primary paper: definitions in §2, both exercises in §3, and conclusions; selected illustrated constructions. |
 | [Introduction to Shape and Shape Grammars](../Reference/shape-grammar/notes/stiny-1980-introduction.md) | Selected sections reviewed | Primary paper: shape operations and labels, formal grammar definition, square derivation and parametric extension. |
 | [Kindergarten Grammars: Designing with Froebel’s Building Gifts](../Reference/shape-grammar/notes/stiny-1980-kindergarten.md) | Selected sections reviewed | Scanned primary paper: opening discussion; five-stage programme; selected spatial-relation and grammar examples; conclusions on pp. 459–461. |
@@ -153,6 +152,16 @@ The linked Markdown notes contain the explanations and original reading links. T
 | [The Palladian Grammar](../Reference/shape-grammar/notes/stiny-mitchell-1978-palladian.md) | Selected sections reviewed | Primary scan: motivation, eight-stage programme, selected rules and Villa Malcontenta derivation, biaxial extension and discussion. |
 | [An Algebraic Approach to Implementing a Shape Grammar Interpreter](../Reference/shape-grammar/notes/stouffs-2016-interpreter.md) | Selected sections reviewed | Institutional author PDF: problem statement, algebraic constructions and concluding interpreter discussion. |
 | [Tractable Shape Grammars](../Reference/shape-grammar/notes/yue-krishnamurti-2013-tractable.md) | Selected sections reviewed | Author-hosted April 2013 prepublication draft: introductory complexity discussion and §4, especially §4.2 on parametric subshape recognition. |
+
+## Reading recovery — 20 October 2026
+
+Four guides were strengthened from newly readable originals. Making Grammars is based on the complete MIT author-final manuscript, with its own pagination and CC BY-NC-ND 4.0 notice. Craft, Performance, and Grammars is based on the complete publisher chapter, including the incomplete symmetry and temporal assumptions in its kolam example. Stiny’s 1975 monograph is based on 36 named foundational pages, not a whole-book review; its early indexed grammar and special matching case are kept distinct from later definitions. The DRS2018 editorial was read in a publicly deposited proceedings volume and checked against the official publication record. Its printed DOI spelling and license notice differ from the current item record; the guide identifies both without silently merging them.
+
+New concept links connect three research guides (Making Grammars, Craft, Performance, and Grammars, and the 1975 book) to the existing attention or line-part experiments. Their descriptions state exactly which relationship is illustrated. No knotting mechanics, kolam performance or historical indexed grammar is claimed to be implemented. The catalogue now links 14 models to 26 source guides.
+
+Access attempts remained limited to public reading routes. The Conway–Norton publisher PDF, Boston College’s Algorithmic Aesthetics handle target, the Knight 1998 publisher PDF, and the official DRS2018 standalone download returned HTTP 403. CUMINCAD’s Designing with Grammars record returned a human-verification page; no automated verification was submitted. The conference organization’s 1991 index and Knight’s later bibliography still disagree on pagination/edition details, so that record was not promoted. A former DRS2018 conference-domain route returned unrelated content and was not used as evidence. MIT’s normal manuscript download route returned HTTP 429; its public repository content endpoint returned the PDF and is the guide’s reading link. These observations are a dated access snapshot, not a claim that a work is permanently unavailable.
+
+All four reading copies stayed in a temporary folder outside the repository. No new original PDF was added to the public collection. The existing PDF bytes and hashes remain subject to the normal library validation.
 
 ## Validation and practical limits
 

@@ -35,6 +35,14 @@
         "connection": "A maximal-element representation does not exhaust the recognizable parts.",
         "role": "concept",
         "url": "https://link.springer.com/content/pdf/10.1007/BF01578998.pdf"
+      },
+      {
+        "id": "stiny-1975-pictorial",
+        "evidence": 2,
+        "locator": "pp.133–136 and 144–146: §2.3, occurrence, equivalence and subshape",
+        "connection": "The early formal account distinguishes stored segments from line occurrence and pictorial equivalence. This experiment illustrates that distinction; it does not implement the book’s indexed grammar.",
+        "role": "concept",
+        "url": "https://link.springer.com/content/pdf/10.1007/978-3-0348-6879-2.pdf#page=151"
       }
     ],
     "lab_example": "emergence"
@@ -203,6 +211,22 @@
         "connection": "A related question is which newly recognized shapes can become inputs. The abstract’s special-rule system is not implemented here.",
         "role": "reading-prompt",
         "url": "https://journals.sagepub.com/doi/10.1068/b12914"
+      },
+      {
+        "id": "knight-2015-making-grammars-from-computing-with-shapes-to-computing-with-things",
+        "evidence": 2,
+        "locator": "Manuscript pp.10–11: §4.1 and Fig.3, seeing and drawing",
+        "connection": "The drawing example explicitly separates seeing rules from drawing rules. This fixed-geometry experiment illustrates only the change of visual attention, without implementing the making grammar.",
+        "role": "concept",
+        "url": "https://dspace.mit.edu/server/api/core/bitstreams/e41b611c-754f-4539-9961-2e48b16e1318/content#page=11"
+      },
+      {
+        "id": "knight-2018-craft-performance-and-grammars",
+        "evidence": 0,
+        "locator": "pp.205–210: §§1–3, craft performance and temporal segmentation",
+        "connection": "The chapter distinguishes sensory refocusing from physical changes. The experiment illustrates that limited distinction; kolam curves, gestures and temporal segmentation are outside its model.",
+        "role": "concept",
+        "url": "https://link.springer.com/content/pdf/10.1007/978-981-10-8189-7_16.pdf#page=1"
       }
     ]
   },

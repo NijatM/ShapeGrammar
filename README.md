@@ -9,7 +9,7 @@ The application includes:
 - **34 study notes across three tracks:** 16 shape grammar, 8 set theory and 10 group theory notes, with worked examples, 68 checked questions, practice prompts, hints and solutions.
 - **An exact line laboratory:** drawing, visual and coordinate rule editing, finite matching, manual alignment, separate witness/part/result counts, pan/zoom, derivation history and validated workspace import/export.
 - **98 source reading guides:** concise explanations of each available text’s question, claims, approach, examples, findings and limits; passage references and original reading links. Review labels distinguish full texts, selected sections, abstracts and citation records. The searchable library also includes 20 permitted, unmodified PDFs and Stiny and Knight indexes.
-- **14 interactive experiments linked to 23 source guides:** move geometric parts, compare rule placements, change overlap conventions, construct finite sets and explore square symmetries. Each has small presets, immediate observations, reset controls, source passages and an explicit scope.
+- **14 interactive experiments linked to 26 source guides:** move geometric parts, compare rule placements, change overlap conventions, construct finite sets and explore square symmetries. Each has small presets, immediate observations, reset controls, source passages and an explicit scope.
 - **10 research pathways and a 33-term glossary**, including an introductory reading route to the Monster and moonshine with prerequisite boundaries.
 - **Private notes and progress:** automatic browser storage for study notes, portable backups, import validation and explicit laboratory save/restore.
 

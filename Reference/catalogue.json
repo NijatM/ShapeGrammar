@@ -3902,10 +3902,10 @@
         "George Stiny"
       ],
       "year": 2015,
-      "edition_version": "Published version; dates from publisher-deposited DOI metadata. See the reading guide for the exact material inspected.",
+      "edition_version": "2015 journal article, pp.8–28. Reading copy: MIT author-final manuscript, separately paginated pp.1–21 plus repository cover sheet.",
       "doi": "10.1016/j.destud.2015.08.006",
       "stable_url": "https://doi.org/10.1016/j.destud.2015.08.006",
-      "reading_url": "https://doi.org/10.1016/j.destud.2015.08.006",
+      "reading_url": "https://dspace.mit.edu/server/api/core/bitstreams/e41b611c-754f-4539-9961-2e48b16e1318/content",
       "download_url": null,
       "venue": "Design Studies",
       "pages": "8-28",
@@ -3915,40 +3915,54 @@
         "computational-making",
         "materiality"
       ],
-      "relevance": "Terry Knight author corpus: computational making and material/design practice.",
+      "relevance": "A developed account of making grammars, sensory attention and material-specific algebras, with drawing and knotting examples and a speculative watercolor extension.",
       "prerequisite_level": "intermediate",
       "prerequisites": [
         "Elementary sets and functions; some proof reading"
       ],
-      "access_date": "2026-10-19",
+      "access_date": "2026-10-20",
       "license_redistribution": {
-        "status": "link-only",
-        "license": null,
-        "evidence_url": "https://doi.org/10.1016/j.destud.2015.08.006",
-        "conditions": "No general redistribution permission verified for this exact work; retain citation and lawful reading link."
+        "status": "licensed-link-only",
+        "license": "CC BY-NC-ND 4.0 (MIT author-final manuscript)",
+        "evidence_url": "https://dspace.mit.edu/entities/publication/7a52ee9e-621c-4e1b-b11f-22a7c73e6622",
+        "conditions": "The MIT record and manuscript cover identify CC BY-NC-ND 4.0 for the author-final manuscript. Retain the institutional reading link; no new original is mirrored. Do not extend that license to the publisher version or separately credited images."
       },
       "local_files": [],
       "existing_local_files": [],
       "locators": [
         {
-          "locator": "Repository abstract; author-final-manuscript version statement",
-          "status": "abstract-only-inspected"
+          "locator": "MIT repository record and manuscript cover sheet",
+          "status": "primary-content-reviewed-2026-10-20",
+          "url": "https://dspace.mit.edu/entities/publication/7a52ee9e-621c-4e1b-b11f-22a7c73e6622"
         },
         {
-          "locator": "Abstract and highlights",
-          "status": "abstract-only-inspected"
+          "locator": "Manuscript pp.1–9: §§1–3, perception, action and material algebras",
+          "status": "primary-content-reviewed-2026-10-20",
+          "url": "https://dspace.mit.edu/server/api/core/bitstreams/e41b611c-754f-4539-9961-2e48b16e1318/content#page=2"
+        },
+        {
+          "locator": "Manuscript pp.10–11: §4.1 and Fig.3, seeing and drawing",
+          "status": "primary-content-reviewed-2026-10-20",
+          "url": "https://dspace.mit.edu/server/api/core/bitstreams/e41b611c-754f-4539-9961-2e48b16e1318/content#page=11"
+        },
+        {
+          "locator": "Manuscript pp.11–16: §4.2, Figs.8–9 and string algebra",
+          "status": "primary-content-reviewed-2026-10-20",
+          "url": "https://dspace.mit.edu/server/api/core/bitstreams/e41b611c-754f-4539-9961-2e48b16e1318/content#page=12"
+        },
+        {
+          "locator": "Manuscript pp.17–20: §4.3 and §5, watercolor proposal and discussion",
+          "status": "primary-content-reviewed-2026-10-20",
+          "url": "https://dspace.mit.edu/server/api/core/bitstreams/e41b611c-754f-4539-9961-2e48b16e1318/content#page=18"
         }
       ],
       "verification": {
-        "scope": "Original reading guide reviewed 2026-10-19. The complete author/institutional abstract and publisher highlights were read. The MIT repository identifies an author-final manuscript, but its download was rate-limited during review. The detailed algebras, examples and proofs in the full article were not inspected; this guide does not substitute for them.",
+        "scope": "Reviewed 2026-10-20. Read the complete MIT author-final manuscript: repository cover sheet and manuscript pp.1–21. Visually checked the knotting rules in Fig.8 and the string-algebra definition on manuscript pp.14–15. This is the author-final manuscript, not the typeset journal version (published pp.8–28). Examples illustrate a theory; no controlled performance study is reported. The watercolor example is explicitly speculative, with no completed painting grammar.",
         "source_urls": [
-          "https://api.crossref.org/works/10.1016/j.destud.2015.08.006",
-          "https://architecture.mit.edu/people/terry-knight",
-          "https://computationalmaking.mit.edu/publications/",
           "https://dspace.mit.edu/entities/publication/7a52ee9e-621c-4e1b-b11f-22a7c73e6622",
-          "https://www.sciencedirect.com/science/article/pii/S0142694X15000605"
+          "https://dspace.mit.edu/server/api/core/bitstreams/e41b611c-754f-4539-9961-2e48b16e1318/content"
         ],
-        "content_review": "abstract-only"
+        "content_review": "full-text"
       },
       "annotation_file": "shape-grammar/notes/knight-2015-making-grammars-from-computing-with-shapes-to-computing-with-things.md",
       "publication_type": "journal-article",
@@ -4033,7 +4047,7 @@
       "edition_version": "Published version; dates from publisher-deposited DOI metadata. See the reading guide for the exact material inspected.",
       "doi": "10.1007/978-981-10-8189-7_16",
       "stable_url": "https://doi.org/10.1007/978-981-10-8189-7_16",
-      "reading_url": "https://doi.org/10.1007/978-981-10-8189-7_16",
+      "reading_url": "https://link.springer.com/content/pdf/10.1007/978-981-10-8189-7_16.pdf",
       "download_url": null,
       "venue": "KAIST Research Series; Computational Studies on Cultural Variation and Heredity",
       "pages": "205-224",
@@ -4043,12 +4057,12 @@
         "computational-making",
         "materiality"
       ],
-      "relevance": "Terry Knight author corpus: computational making and material/design practice.",
+      "relevance": "Compares pattern generation with embodied craft performance through three kolam grammars; develops the role and limits of temporal segmentation.",
       "prerequisite_level": "intermediate",
       "prerequisites": [
         "Elementary sets and functions; some proof reading"
       ],
-      "access_date": "2026-10-19",
+      "access_date": "2026-10-20",
       "license_redistribution": {
         "status": "link-only",
         "license": null,
@@ -4059,19 +4073,32 @@
       "existing_local_files": [],
       "locators": [
         {
-          "locator": "Public abstract",
-          "status": "abstract-only-inspected"
+          "locator": "pp.205–210: §§1–3, craft performance and temporal segmentation",
+          "status": "primary-content-reviewed-2026-10-20",
+          "url": "https://link.springer.com/content/pdf/10.1007/978-981-10-8189-7_16.pdf#page=1"
+        },
+        {
+          "locator": "pp.210–215: §4, modular motifs and mirror curves",
+          "status": "primary-content-reviewed-2026-10-20",
+          "url": "https://link.springer.com/content/pdf/10.1007/978-981-10-8189-7_16.pdf#page=6"
+        },
+        {
+          "locator": "pp.216–222: §4.3 and Figs.10–11, line on a walk",
+          "status": "primary-content-reviewed-2026-10-20",
+          "url": "https://link.springer.com/content/pdf/10.1007/978-981-10-8189-7_16.pdf#page=12"
+        },
+        {
+          "locator": "pp.223–224: discussion and references",
+          "status": "primary-content-reviewed-2026-10-20",
+          "url": "https://link.springer.com/content/pdf/10.1007/978-981-10-8189-7_16.pdf#page=19"
         }
       ],
       "verification": {
-        "scope": "Original reading guide reviewed 2026-10-19. The complete publisher abstract for the 2018 chapter was read. A related 2017 author-linked URL returned a website page instead of its PDF, and was not treated as the chapter text. The kolam rules and comparative computations were not inspected. The 2017 presentation and 2018 chapter are not asserted to be identical.",
+        "scope": "Reviewed 2026-10-20. Read the complete publisher chapter, printed pp.205–224, including all three kolam grammar descriptions, discussion and references. Visually checked the paired seeing/drawing rules in Fig.10 on p.219. The illustrated grammars omit control labels and preprocessing/postprocessing details. The performance model and temporal segmentations are conjectural; the chapter does not report a controlled practitioner study, measured timing or a complete account of kolam’s cultural meanings.",
         "source_urls": [
-          "https://api.crossref.org/works/10.1007/978-981-10-8189-7_16",
-          "https://architecture.mit.edu/people/terry-knight",
-          "https://computationalmaking.mit.edu/publications/",
-          "https://link.springer.com/chapter/10.1007/978-981-10-8189-7_16"
+          "https://link.springer.com/content/pdf/10.1007/978-981-10-8189-7_16.pdf"
         ],
-        "content_review": "abstract-only"
+        "content_review": "full-text"
       },
       "annotation_file": "shape-grammar/notes/knight-2018-craft-performance-and-grammars.md",
       "publication_type": "book-chapter",
@@ -4099,7 +4126,7 @@
       "edition_version": "Published version; dates from publisher-deposited DOI metadata. See the reading guide for the exact material inspected.",
       "doi": "10.21606/drs.2018.002",
       "stable_url": "https://doi.org/10.21606/drs.2018.002",
-      "reading_url": "https://dl.designresearchsociety.org/drs-conference-papers/drs2018/editorials/2/",
+      "reading_url": "https://www.aacademica.org/del.giorgio.solfa/228.pdf#page=28",
       "download_url": null,
       "venue": "Proceedings of DRS; DRS2018: Design as a catalyst for change",
       "pages": null,
@@ -4107,12 +4134,12 @@
         "shape-grammar",
         "author-terry-knight"
       ],
-      "relevance": "Terry Knight author corpus: shape grammar theory, design, implementation, or teaching.",
+      "relevance": "A critical framing of design technology, data and material practice, presented as a six-paper track editorial rather than an empirical study.",
       "prerequisite_level": "intermediate",
       "prerequisites": [
         "Elementary sets and functions; some proof reading"
       ],
-      "access_date": "2026-10-19",
+      "access_date": "2026-10-20",
       "license_redistribution": {
         "status": "licensed-link-only",
         "license": "CC BY-NC 4.0",
@@ -4123,18 +4150,23 @@
       "existing_local_files": [],
       "locators": [
         {
-          "locator": "DRS2018 Editorials: official record",
-          "status": "bibliographic-only-inspected"
+          "locator": "Official DRS2018 record: authors, canonical DOI and item license",
+          "status": "primary-content-reviewed-2026-10-20",
+          "url": "https://dl.designresearchsociety.org/drs-conference-papers/drs2018/editorials/2/"
+        },
+        {
+          "locator": "Printed pp.3–4 (deposited volume PDF pp.28–29): complete editorial",
+          "status": "primary-content-reviewed-2026-10-20",
+          "url": "https://www.aacademica.org/del.giorgio.solfa/228.pdf#page=28"
         }
       ],
       "verification": {
-        "scope": "Original reading guide reviewed 2026-10-19. The official DRS publication record was read, including authors, venue and license. Its download returned HTTP 403. No abstract is provided on the inspected record, and the editorial text could not be read.",
+        "scope": "Reviewed 2026-10-20. Read the complete editorial on printed pp.3–4 in a public deposited copy of DRS2018 Volume 1 (PDF pp.28–29), and checked its identity against the official DRS record. The official standalone PDF still returned HTTP 403. This is an editorial introduction to six other contributions, not a combined empirical study. The six underlying papers were not independently reviewed for this guide. The deposited volume prints a different DOI spelling and license notice from the current official record; both are distinguished below.",
         "source_urls": [
-          "https://api.crossref.org/works/10.21606/drs.2018.002",
-          "https://architecture.mit.edu/people/terry-knight",
-          "https://dl.designresearchsociety.org/drs-conference-papers/drs2018/editorials/2/"
+          "https://dl.designresearchsociety.org/drs-conference-papers/drs2018/editorials/2/",
+          "https://www.aacademica.org/del.giorgio.solfa/228.pdf"
         ],
-        "content_review": "bibliographic-only"
+        "content_review": "full-text"
       },
       "annotation_file": "shape-grammar/notes/knight-2018-editorial-design-technology-and-society.md",
       "publication_type": "proceedings-article",
@@ -4991,19 +5023,19 @@
       "edition_version": "First edition, copyright 1975; Springer lists softcover publication 1976 and electronic publication 2013",
       "doi": "10.1007/978-3-0348-6879-2",
       "stable_url": "https://link.springer.com/book/10.1007/978-3-0348-6879-2",
-      "reading_url": "https://link.springer.com/book/10.1007/978-3-0348-6879-2",
+      "reading_url": "https://link.springer.com/content/pdf/10.1007/978-3-0348-6879-2.pdf",
       "download_url": null,
       "venue": "Birkhäuser Basel",
       "pages": "xv + 403",
       "tags": [
         "shape-grammar"
       ],
-      "relevance": "Formal foundations and pictorial development; includes Turing machines and shape grammars.",
+      "relevance": "Foundational distinctions among shape specification, pictorial equivalence and subshape; selected early grammar and Turing-simulation passages, with historical restrictions kept explicit.",
       "prerequisite_level": "advanced",
       "prerequisites": [
         "Undergraduate algebra and linear algebra; additional prerequisites in topic notes"
       ],
-      "access_date": "2026-10-18",
+      "access_date": "2026-10-20",
       "license_redistribution": {
         "status": "link-only",
         "license": null,
@@ -5014,35 +5046,37 @@
       "existing_local_files": [],
       "locators": [
         {
-          "locator": "Introduction abstract, chapter pp.1–2",
-          "status": "primary-content-reviewed-2026-10-19",
-          "url": "https://link.springer.com/chapter/10.1007/978-3-0348-6879-2_1"
+          "locator": "pp.1–2 and 4–9: introduction and pictorial foundations",
+          "status": "primary-content-reviewed-2026-10-20",
+          "url": "https://link.springer.com/content/pdf/10.1007/978-3-0348-6879-2.pdf#page=19"
         },
         {
-          "locator": "Pictorial Model abstract, chapter pp.4–116",
-          "status": "primary-content-reviewed-2026-10-19",
-          "url": "https://link.springer.com/chapter/10.1007/978-3-0348-6879-2_2"
+          "locator": "pp.117–122: §2.1, formal shapes and rational representation",
+          "status": "primary-content-reviewed-2026-10-20",
+          "url": "https://link.springer.com/content/pdf/10.1007/978-3-0348-6879-2.pdf#page=135"
         },
         {
-          "locator": "Formal Model abstract, chapter pp.117–288",
-          "status": "primary-content-reviewed-2026-10-19",
-          "url": "https://link.springer.com/chapter/10.1007/978-3-0348-6879-2_3"
+          "locator": "pp.133–136 and 144–146: §2.3, occurrence, equivalence and subshape",
+          "status": "primary-content-reviewed-2026-10-20",
+          "url": "https://link.springer.com/content/pdf/10.1007/978-3-0348-6879-2.pdf#page=151"
         },
         {
-          "locator": "Table of contents",
-          "status": "primary-content-reviewed-2026-10-19",
-          "url": "https://link.springer.com/book/10.1007/978-3-0348-6879-2"
+          "locator": "pp.170–177: §§2.5.3–2.6.1, set analogy and early grammar definition",
+          "status": "primary-content-reviewed-2026-10-20",
+          "url": "https://link.springer.com/content/pdf/10.1007/978-3-0348-6879-2.pdf#page=188"
+        },
+        {
+          "locator": "pp.282–288: §2.10, shape grammars and Turing machines",
+          "status": "primary-content-reviewed-2026-10-20",
+          "url": "https://link.springer.com/content/pdf/10.1007/978-3-0348-6879-2.pdf#page=300"
         }
       ],
       "verification": {
-        "scope": "Publisher-hosted Introduction and pictorial/formal chapter abstracts read, alongside the official contents. Full chapters, formal proofs, painting specifications and aesthetic-system examples were not accessible in this review. This is a guide to the stated research program, not a verified summary of the whole book.",
+        "scope": "Reviewed 2026-10-20. Read 36 selected printed pages in the publisher book PDF: pp.1–2, 4–9, 117–122, 133–136, 144–146, 170–177 and 282–288, plus contents. Printed page p corresponds to PDF page p+18. Visually checked Fig.2-8 (p.134) and the special matching condition on p.175. This is a reading of selected foundational passages, not the entire 403-page book. The reduction/intersection/difference algorithms, other proofs, painting specifications and Part II aesthetic-system developments were not reviewed in full. The early grammar definition is distinguished from later formulations.",
         "source_urls": [
-          "https://link.springer.com/book/10.1007/978-3-0348-6879-2",
-          "https://link.springer.com/chapter/10.1007/978-3-0348-6879-2_1",
-          "https://link.springer.com/chapter/10.1007/978-3-0348-6879-2_2",
-          "https://link.springer.com/chapter/10.1007/978-3-0348-6879-2_3"
+          "https://link.springer.com/content/pdf/10.1007/978-3-0348-6879-2.pdf"
         ],
-        "content_review": "abstract-only"
+        "content_review": "selected-sections"
       },
       "annotation_file": "shape-grammar/notes/stiny-1975-pictorial.md"
     },

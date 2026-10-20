@@ -1,95 +1,162 @@
 {
   "schema_version": 1,
   "source_id": "knight-2015-making-grammars-from-computing-with-shapes-to-computing-with-things",
-  "kind": "theoretical framework paper",
+  "kind": "theoretical research article",
   "review": {
-    "level": "abstract-only",
-    "material": "The complete author/institutional abstract and publisher highlights were read. The MIT repository identifies an author-final manuscript, but its download was rate-limited during review.",
-    "limitations": "The detailed algebras, examples and proofs in the full article were not inspected; this guide does not substitute for them.",
-    "date": "2026-10-19",
+    "level": "full-text",
+    "material": "Read the complete MIT author-final manuscript: repository cover sheet and manuscript pp.1–21. Visually checked the knotting rules in Fig.8 and the string-algebra definition on manuscript pp.14–15.",
+    "limitations": "This is the author-final manuscript, not the typeset journal version (published pp.8–28). Examples illustrate a theory; no controlled performance study is reported. The watercolor example is explicitly speculative, with no completed painting grammar.",
+    "date": "2026-10-20",
     "evidence": [
       {
         "url": "https://dspace.mit.edu/entities/publication/7a52ee9e-621c-4e1b-b11f-22a7c73e6622",
-        "locator": "Repository abstract; author-final-manuscript version statement",
-        "description": "Primary institutional record and abstract."
+        "locator": "MIT repository record and manuscript cover sheet",
+        "description": "Version, citation and manuscript-specific license"
       },
       {
-        "url": "https://www.sciencedirect.com/science/article/pii/S0142694X15000605",
-        "locator": "Abstract and highlights",
-        "description": "Primary publisher account of the proposal."
+        "url": "https://dspace.mit.edu/server/api/core/bitstreams/e41b611c-754f-4539-9961-2e48b16e1318/content#page=2",
+        "locator": "Manuscript pp.1–9: §§1–3, perception, action and material algebras",
+        "description": "Read the framework and its treatment of discrete moments"
+      },
+      {
+        "url": "https://dspace.mit.edu/server/api/core/bitstreams/e41b611c-754f-4539-9961-2e48b16e1318/content#page=11",
+        "locator": "Manuscript pp.10–11: §4.1 and Fig.3, seeing and drawing",
+        "description": "Compare a change of attention with a change of geometry"
+      },
+      {
+        "url": "https://dspace.mit.edu/server/api/core/bitstreams/e41b611c-754f-4539-9961-2e48b16e1318/content#page=12",
+        "locator": "Manuscript pp.11–16: §4.2, Figs.8–9 and string algebra",
+        "description": "Follow knotting, regrasping and the material-specific part relation"
+      },
+      {
+        "url": "https://dspace.mit.edu/server/api/core/bitstreams/e41b611c-754f-4539-9961-2e48b16e1318/content#page=18",
+        "locator": "Manuscript pp.17–20: §4.3 and §5, watercolor proposal and discussion",
+        "description": "Check the unfinished example and the final reframing of designing"
       }
     ]
   },
   "original": {
-    "url": "https://dspace.mit.edu/entities/publication/7a52ee9e-621c-4e1b-b11f-22a7c73e6622",
-    "label": "Read original source",
-    "type": "publication-record"
+    "url": "https://dspace.mit.edu/server/api/core/bitstreams/e41b611c-754f-4539-9961-2e48b16e1318/content",
+    "label": "Read the MIT author manuscript",
+    "type": "full-text"
   },
   "sections": [
     {
       "id": "overview",
       "title": "Short overview",
-      "text": "Knight and Stiny propose making grammars as a computational theory of making. They extend shape grammar’s relationship between perception and action to activities involving material things.",
+      "text": "Knight and Stiny extend shape grammars into making grammars: rules describe how people act on materials and sense what they are making. The framework treats making as a computational activity that can remain embodied, improvisational and performed by hand. Drawing and knotting are developed examples; watercolor painting exposes harder, still-open questions.",
       "evidence": [
-        0,
-        1
+        1,
+        2,
+        3,
+        4
       ]
     },
     {
       "id": "question",
-      "title": "Premise and claim",
-      "text": "Can the principles supporting visual shape computation describe doing and sensing with materials? The proposal starts from the improvisational features of shape grammars rather than equating making with automated fabrication.",
+      "title": "Question and premise",
+      "text": "Can the perceptual, action-based character of shape computation help describe making with material things? The authors challenge the assumption that designing first supplies a complete plan which passive matter then receives. Their proposed alternative takes the maker’s interactions with materials as central to designing itself.",
       "evidence": [
-        0
+        1,
+        4
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "What the theory proposes",
+      "text": "A making rule relates sensed things before and after an action or perceptual shift. Its arrow may stand for doing, sensing, or both. The supporting algebra should describe material properties relevant to a maker’s practice, rather than promise a complete account of molecular or mechanical behavior. A computation records chosen moments in a continuous process; it is one interpretation of that process, not the process in its entirety.",
+      "evidence": [
+        1
       ]
     },
     {
       "id": "approach",
-      "title": "Method reported",
-      "text": "The authors modify algebras for shape elements into algebras for materials, then adapt grammars from computing shapes to computing things. The abstract says examples illustrate both the grammars and their supporting algebras.",
+      "title": "Method and formal construction",
+      "text": "The paper reviews shape replacement, defines making through actions, senses, materials and finite things, and adapts shape algebras to specific materials. It then constructs drawing and knotting examples. In the drawing example, a seeing rule highlights a recognized part without altering the line drawing; a doing rule changes that selected shape. The knotting example separates tactile regrasping from tying and also includes a rule combining both.",
       "evidence": [
-        0,
-        1
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "Worked examples and what they establish",
+      "text": "The knotting grammar repeats ties within a knot and knots along a string. Its algebra keeps separate strings separate, even when they overlap visually. A string is described by segments and indexed knots; matching must preserve the correspondence of knots and internal segments. Tying a knot changes that correspondence, so the original unknotted string is not automatically a part of the result. These definitions show why the algebra for fused drawn lines cannot simply be reused for physical strings.",
+      "evidence": [
+        3
       ]
     },
     {
       "id": "findings",
-      "title": "Reported contribution",
-      "text": "The contribution is a proposed formal framework and a reframing of designing and making. The abstract reports no controlled experiment or general fabrication-performance result.",
+      "title": "Contribution and conclusion",
+      "text": "The developed examples make action and sensory attention explicit within rule-based descriptions. The authors conclude that designing can be understood as a form of making involving bodily and perceptual engagement. Their Sargent watercolor discussion instead outlines a research agenda: interacting materials, order-dependent actions, drying and other timed changes may require different operations and combined algebras. It does not supply a finished watercolor model.",
       "evidence": [
-        0,
-        1
+        2,
+        3,
+        4
       ]
     },
     {
       "id": "limitations",
-      "title": "What needs the full paper",
-      "text": "The actual definitions and example computations remain unchecked here. An algebra tailored to an activity should not be assumed to model every physical behaviour of its material.",
+      "title": "Limits of the evidence",
+      "text": "The examples are deliberately schematized. They focus on selected senses and actions, and do not validate a general simulator of knot mechanics, skilled movement or painting. Discrete rule steps leave aspects of continuous performance undescribed. In the watercolor proposal, even familiar algebraic laws and the adequacy of replacement as the action model are questions to investigate.",
       "evidence": [
-        0
+        1,
+        3,
+        4
       ]
     },
     {
       "id": "takeaways",
-      "title": "What to ask while reading",
-      "text": "Identify the material, the actions, the sensory decisions and the operations the algebra permits. Separate a useful formal description from a physically validated simulation.",
+      "title": "What to carry into an experiment",
+      "text": "For any rule-based making model, identify what counts as material, thing, action, sensory attention and part. Ask what can change through sensing alone. Then check whether its operations fit that material: adding two overlapping drawn lines and putting two strings together need different accounts. A geometric screen experiment illustrates a selected relationship; it does not reproduce the paper’s tactile practice.",
       "evidence": [
-        0,
-        1
+        1,
+        2,
+        3
       ]
     }
   ],
   "reading_path": [
     {
-      "label": "Start here",
-      "locator": "Repository abstract; author-final-manuscript version statement",
+      "label": "Version, citation and manuscript-specific license",
+      "locator": "MIT repository record and manuscript cover sheet",
       "url": "https://dspace.mit.edu/entities/publication/7a52ee9e-621c-4e1b-b11f-22a7c73e6622"
+    },
+    {
+      "label": "Read the framework and its treatment of discrete moments",
+      "locator": "Manuscript pp.1–9: §§1–3, perception, action and material algebras",
+      "url": "https://dspace.mit.edu/server/api/core/bitstreams/e41b611c-754f-4539-9961-2e48b16e1318/content#page=2"
+    },
+    {
+      "label": "Compare a change of attention with a change of geometry",
+      "locator": "Manuscript pp.10–11: §4.1 and Fig.3, seeing and drawing",
+      "url": "https://dspace.mit.edu/server/api/core/bitstreams/e41b611c-754f-4539-9961-2e48b16e1318/content#page=11"
+    },
+    {
+      "label": "Follow knotting, regrasping and the material-specific part relation",
+      "locator": "Manuscript pp.11–16: §4.2, Figs.8–9 and string algebra",
+      "url": "https://dspace.mit.edu/server/api/core/bitstreams/e41b611c-754f-4539-9961-2e48b16e1318/content#page=12"
+    },
+    {
+      "label": "Check the unfinished example and the final reframing of designing",
+      "locator": "Manuscript pp.17–20: §4.3 and §5, watercolor proposal and discussion",
+      "url": "https://dspace.mit.edu/server/api/core/bitstreams/e41b611c-754f-4539-9961-2e48b16e1318/content#page=18"
     }
   ],
   "terms": [
     {
       "term": "Making grammar",
-      "meaning": "Here, shape-grammar principles adapted for computing or making material things."
+      "meaning": "A rule system describing selected physical changes and sensory interactions with things."
+    },
+    {
+      "term": "Sensing rule",
+      "meaning": "A rule recording a change of attention or sensory engagement; it need not alter physical geometry."
+    },
+    {
+      "term": "Material-specific part relation",
+      "meaning": "A definition of containment fitted to the material, including constraints such as corresponding knots."
     }
   ]
 }

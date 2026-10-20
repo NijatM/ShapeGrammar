@@ -1,6 +1,6 @@
 # Release validation
 
-Local release review on **19 October 2026**. No Git commands, repository/account APIs, commits, pushes or deployment actions were performed. The static application and a manually triggered Pages workflow are ready for owner review; hosted deployment has not been executed.
+Local release review on **19 October 2026**, with a source-reading recovery and validation update on **20 October 2026**. No Git commands, repository/account APIs, commits, pushes or deployment actions were performed. The static application and a manually triggered Pages workflow are ready for owner review; hosted deployment has not been executed.
 
 ## Automated evidence
 
@@ -17,7 +17,7 @@ Local release review on **19 October 2026**. No Git commands, repository/account
 | Lab workspace | Five tests cover exact round trips, redo cursor, selected rule, legacy files, tampered replay, malformed/future formats and resource/storage boundaries |
 | References | 98 canonical records, 20 unchanged PDF byte counts/SHA-256 hashes, coverage IDs and local-only preserved-file checks when present |
 | Source reading guides | Three tests cover honest scope rendering, citation targets, invalid records, escaping and unsafe links; all 98 actual guides also pass schema, metadata-scope and rendered-jump checks |
-| Source experiments | 21 tests cover 14 mathematical models, generated views and synthetic control events; exhaustive cases include all 27 three-element functions and all 256 subsets of D₄. All 14 definitions resolve to the correct evidence passages across 23 source guides |
+| Source experiments | 21 tests cover 14 mathematical models, generated views and synthetic control events; exhaustive cases include all 27 three-element functions and all 256 subsets of D₄. All 14 definitions resolve to the correct evidence passages across 26 source guides |
 | Portability | Reference validation succeeds inside `dist/`, where the excluded pre-existing Stiny PDF is absent |
 | Public boundaries | Curated file manifest checked exactly; prompts/configuration, private exports, Git data and unregistered originals excluded; an injected test export was correctly rejected |
 | Paths | Public Markdown/HTML/local-original targets checked; all declared production files served successfully beneath `/dist/`, with valid JavaScript-module MIME types |
@@ -46,7 +46,7 @@ The download control opened the native Save As dialog; that test download was ca
 
 All lesson worked examples and 68 answer-key checks were reviewed for internal consistency. [Content review](CONTENT_REVIEW.md) records definitions, source locators, original teaching examples, and the distinction between introductory content and unreviewed research proofs. There was no independent subject-expert review. The Knight bibliography preserves unresolved coverage leads rather than claiming completeness.
 
-The [source review report](SOURCE_REVIEW.md) records 17 full-text reviews, 42 selected-section reviews, 25 abstract/description reviews, 11 publication-only records and 3 supporting-citation-only records. Availability of a link is not evidence that an original was read. Book sections, reprint pagination and prepublication manuscripts are identified separately; summaries do not claim independent verification of mathematical proofs or reproduced experiments.
+The [source review report](SOURCE_REVIEW.md) records 20 full-text reviews, 43 selected-section reviews, 22 abstract/description reviews, 10 publication-only records and 3 supporting-citation-only records. Availability of a link is not evidence that an original was read. Book sections, reprint pagination and prepublication manuscripts are identified separately; summaries do not claim independent verification of mathematical proofs or reproduced experiments.
 
 The 14 interactive experiments are original simplified examples. They are linked where the reviewed passage supports the connection; abstract-based prompts are labelled. They do not reconstruct all 98 publications, reproduce historical case studies or certify a paper’s broader conclusions. Exact line operations share the tested engine. Separate weight/quality toys do not extend the general laboratory into a complete attributed grammar interpreter.
 
@@ -64,3 +64,7 @@ npm run dev
 ```
 
 Open `http://127.0.0.1:8765/` or `/dist/`. See [deployment instructions](DEPLOYMENT.md) for the owner's later Pages publication. Notes and workspaces use separate, origin-specific browser storage and portable backups; neither is sent to a server.
+
+## Source-reading recovery — 20 October 2026
+
+Four source guides now use newly readable original texts: three complete article/chapter readings and 36 selected pages of Stiny’s 1975 monograph. Canonical metadata, Markdown notes, source previews and passage links were regenerated together. Three concept connections bring the experiment catalogue to 26 linked source guides. The [source review](SOURCE_REVIEW.md) records exact reading boundaries, version-specific rights evidence and unsuccessful access attempts. No runtime controls changed in this update; the earlier browser-QA limitation remains.

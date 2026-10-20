@@ -3,51 +3,60 @@
   "source_id": "stiny-1975-pictorial",
   "kind": "monograph",
   "review": {
-    "level": "abstract-only",
-    "material": "Publisher-hosted Introduction and pictorial/formal chapter abstracts read, alongside the official contents.",
-    "limitations": "Full chapters, formal proofs, painting specifications and aesthetic-system examples were not accessible in this review. This is a guide to the stated research program, not a verified summary of the whole book.",
-    "date": "2026-10-19",
+    "level": "selected-sections",
+    "material": "Read 36 selected printed pages in the publisher book PDF: pp.1–2, 4–9, 117–122, 133–136, 144–146, 170–177 and 282–288, plus contents. Printed page p corresponds to PDF page p+18. Visually checked Fig.2-8 (p.134) and the special matching condition on p.175.",
+    "limitations": "This is a reading of selected foundational passages, not the entire 403-page book. The reduction/intersection/difference algorithms, other proofs, painting specifications and Part II aesthetic-system developments were not reviewed in full. The early grammar definition is distinguished from later formulations.",
+    "date": "2026-10-20",
     "evidence": [
       {
-        "url": "https://link.springer.com/chapter/10.1007/978-3-0348-6879-2_1",
-        "locator": "Introduction abstract, chapter pp.1–2",
-        "description": "Author’s overview of the two-part research program"
+        "url": "https://link.springer.com/content/pdf/10.1007/978-3-0348-6879-2.pdf#page=19",
+        "locator": "pp.1–2 and 4–9: introduction and pictorial foundations",
+        "description": "Begin with the two-part program and visual shape operations"
       },
       {
-        "url": "https://link.springer.com/chapter/10.1007/978-3-0348-6879-2_2",
-        "locator": "Pictorial Model abstract, chapter pp.4–116",
-        "description": "Visual development of shapes, relations and generation"
+        "url": "https://link.springer.com/content/pdf/10.1007/978-3-0348-6879-2.pdf#page=135",
+        "locator": "pp.117–122: §2.1, formal shapes and rational representation",
+        "description": "Distinguish a finite specification from its visible content"
       },
       {
-        "url": "https://link.springer.com/chapter/10.1007/978-3-0348-6879-2_3",
-        "locator": "Formal Model abstract, chapter pp.117–288",
-        "description": "Scope of the formal model"
+        "url": "https://link.springer.com/content/pdf/10.1007/978-3-0348-6879-2.pdf#page=151",
+        "locator": "pp.133–136 and 144–146: §2.3, occurrence, equivalence and subshape",
+        "description": "See why geometric parts can cross stored line boundaries"
       },
       {
-        "url": "https://link.springer.com/book/10.1007/978-3-0348-6879-2",
-        "locator": "Table of contents",
-        "description": "Locations of painting, aesthetic-system and algorithm chapters"
+        "url": "https://link.springer.com/content/pdf/10.1007/978-3-0348-6879-2.pdf#page=188",
+        "locator": "pp.170–177: §§2.5.3–2.6.1, set analogy and early grammar definition",
+        "description": "Check the indexed marker components and special matching case"
+      },
+      {
+        "url": "https://link.springer.com/content/pdf/10.1007/978-3-0348-6879-2.pdf#page=300",
+        "locator": "pp.282–288: §2.10, shape grammars and Turing machines",
+        "description": "Read the simulation construction and its stated scope"
       }
     ]
   },
   "original": {
-    "url": "https://link.springer.com/book/10.1007/978-3-0348-6879-2",
-    "label": "Open publisher record and chapter access",
-    "type": "publication-record"
+    "url": "https://link.springer.com/content/pdf/10.1007/978-3-0348-6879-2.pdf",
+    "label": "Read the publisher book PDF",
+    "type": "full-text"
   },
   "sections": [
     {
       "id": "overview",
-      "title": "What the book sets out to do",
-      "text": "Develop shape grammars through both visual and formal accounts, then connect generative descriptions of paintings with algorithmic approaches to criticism and design.",
+      "title": "Short overview",
+      "text": "Stiny develops shape grammars through a visual account followed by a formal treatment of two-dimensional rectilinear shapes. The selected passages explain why a finite drawing specification can contain geometric parts that are not among its stored lines, define an early grammar with coordinated marker components, and outline how it can simulate a Turing machine. Later parts of the book connect grammars to paintings and aesthetic systems; those parts are outside this detailed reading.",
       "evidence": [
-        0
+        0,
+        1,
+        2,
+        3,
+        4
       ]
     },
     {
-      "id": "claims",
-      "title": "The stated premise",
-      "text": "Definitions should be visually persuasive while supporting productive formal reasoning. The pictorial account studies shapes, relations and generation; the formal counterpart treats languages of two-dimensional rectilinear shapes.",
+      "id": "question",
+      "title": "Question and premise",
+      "text": "How can a shape formalism remain responsive to what people see while supporting explicit mathematical definitions? A single picture may have several finite line specifications. The framework therefore distinguishes the stored specification, the visible shape content, geometric containment and generation by rules.",
       "evidence": [
         0,
         1,
@@ -55,31 +64,62 @@
       ]
     },
     {
-      "id": "approach",
-      "title": "How the project is organized",
-      "text": "A visual introduction precedes a mathematical development requiring formal-language and automata knowledge. Later chapters introduce generative specifications of paintings, define aesthetic systems, and combine them with criticism and design algorithms.",
+      "id": "claims",
+      "title": "The central distinction: content versus specification",
+      "text": "In the formal model a shape is specified by a finite collection of nonzero straight segments and their endpoints. Two specifications can differ yet be pictorially equivalent because adjacent or overlapping collinear segments draw the same content. Likewise, a line may occur within a shape without belonging to its stored segment list. Subshape is defined through that occurrence relation, so containment need not mean subset inclusion between the stored endpoint or segment sets.",
       "evidence": [
-        0,
-        3
+        1,
+        2
       ]
     },
     {
-      "id": "limitations",
-      "title": "What the accessible material does not show",
-      "text": "The abstracts describe the project’s architecture but do not expose enough detail to check its proofs, algorithms or concrete examples. In particular, no computational-universality result is asserted here from a chapter heading alone.",
+      "id": "approach",
+      "title": "How the selected formal passages work",
+      "text": "The pictorial account introduces union and transformations. Chapter 2 then gives definitions and propositions for line occurrence, pictorial equivalence and subshape. The 1975 grammar is an indexed system: a rule changes a visible component together with one or more marker-shape components under a shared transformation. It includes an additional representation-based matching restriction when the combined rule geometry has fewer than two intersection points, expressly to avoid uncountably many applications in that case.",
       "evidence": [
         0,
+        1,
         2,
         3
       ]
     },
     {
-      "id": "takeaways",
-      "title": "A useful route into the original",
-      "text": "Begin with the pictorial model for intuition; follow the formal model to inspect definitions and assumptions. Then ask how the painting specifications and aesthetic system depend on those choices.",
+      "id": "evidence",
+      "title": "Examples and constructive argument",
+      "text": "Fig.2-8 shows lines occurring within and across the original collinear segments. Fig.2-9 shows unequal specifications with identical pictures. The special matching case is motivated by the continuously many placements of a smaller segment inside a larger one. In §2.10, triangles encode machine states and tape symbols; arranged copies represent a tape, and shape rules represent left or right transitions. The text gives the basic construction and leaves completion details to the reader.",
+      "evidence": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "What the reviewed passages establish",
+      "text": "The part relation and pictorial equivalence provide a formal account of geometric content beyond the stored list. The book draws analogies with set relations and operations, while noting that a shape complement is not generally another shape in this system. Its Turing-machine discussion concerns the particular formal grammar and effective representation assumptions developed here. It does not establish that every later form of unrestricted visual computation has the same behavior.",
+      "evidence": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "Historical and reading limits",
+      "text": "Do not silently replace this early indexed grammar with a later unlabelled rule definition: its marker components and special matching case matter. The formal algorithms adopt rational-coordinate representations; the text’s discussion of irrational coordinates should not be read as a claim about all possible exact number encodings. The simulation is a constructive outline, not a proof independently completed in this review. No detailed claim about the unread aesthetic-system chapters is inferred from their headings.",
       "evidence": [
         0,
         1,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "takeaways",
+      "title": "What to carry into an experiment",
+      "text": "Draw a long line in two joined strokes, then select a shorter line that crosses their join. Compare the list of strokes with the line content you can recognize. Next ask whether moving that selected part is allowed by the exact grammar under discussion. This separates representation, containment and matching assumptions instead of treating every shape-grammar definition as identical.",
+      "evidence": [
         2,
         3
       ]
@@ -87,34 +127,43 @@
   ],
   "reading_path": [
     {
-      "label": "Author’s overview of the two-part research program",
-      "locator": "Introduction abstract, chapter pp.1–2",
-      "url": "https://link.springer.com/chapter/10.1007/978-3-0348-6879-2_1"
+      "label": "Begin with the two-part program and visual shape operations",
+      "locator": "pp.1–2 and 4–9: introduction and pictorial foundations",
+      "url": "https://link.springer.com/content/pdf/10.1007/978-3-0348-6879-2.pdf#page=19"
     },
     {
-      "label": "Visual development of shapes, relations and generation",
-      "locator": "Pictorial Model abstract, chapter pp.4–116",
-      "url": "https://link.springer.com/chapter/10.1007/978-3-0348-6879-2_2"
+      "label": "Distinguish a finite specification from its visible content",
+      "locator": "pp.117–122: §2.1, formal shapes and rational representation",
+      "url": "https://link.springer.com/content/pdf/10.1007/978-3-0348-6879-2.pdf#page=135"
     },
     {
-      "label": "Scope of the formal model",
-      "locator": "Formal Model abstract, chapter pp.117–288",
-      "url": "https://link.springer.com/chapter/10.1007/978-3-0348-6879-2_3"
+      "label": "See why geometric parts can cross stored line boundaries",
+      "locator": "pp.133–136 and 144–146: §2.3, occurrence, equivalence and subshape",
+      "url": "https://link.springer.com/content/pdf/10.1007/978-3-0348-6879-2.pdf#page=151"
     },
     {
-      "label": "Locations of painting, aesthetic-system and algorithm chapters",
-      "locator": "Table of contents",
-      "url": "https://link.springer.com/book/10.1007/978-3-0348-6879-2"
+      "label": "Check the indexed marker components and special matching case",
+      "locator": "pp.170–177: §§2.5.3–2.6.1, set analogy and early grammar definition",
+      "url": "https://link.springer.com/content/pdf/10.1007/978-3-0348-6879-2.pdf#page=188"
+    },
+    {
+      "label": "Read the simulation construction and its stated scope",
+      "locator": "pp.282–288: §2.10, shape grammars and Turing machines",
+      "url": "https://link.springer.com/content/pdf/10.1007/978-3-0348-6879-2.pdf#page=300"
     }
   ],
   "terms": [
     {
-      "term": "Generative specification",
-      "meaning": "A procedural account of how an artwork or class of artworks is produced."
+      "term": "Pictorial equivalence",
+      "meaning": "Two finite specifications display the same line content even if their stored segment lists differ."
     },
     {
-      "term": "Formal language",
-      "meaning": "A collection of expressions or shapes characterized by explicit rules."
+      "term": "Line occurrence",
+      "meaning": "A line is covered by a shape’s geometric content, potentially across adjacent or overlapping collinear stored lines."
+    },
+    {
+      "term": "Indexed marker components",
+      "meaning": "Separate marker shapes coordinated with the visible component in this book’s early grammar definition."
     }
   ]
 }

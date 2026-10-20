@@ -1,6 +1,6 @@
 # Research log, exclusions and remaining work
 
-Initial research date: 18 October 2026; source-reading update: 19 October 2026. Scope: research references and evidence supporting the mathematical model. A separate local engine milestone is documented in [the project verification report](../docs/ENGINE_VALIDATION.md). The subsequent [source review report](../docs/SOURCE_REVIEW.md) records the new reading guides and their exact review boundaries.
+Initial research date: 18 October 2026; source-reading updates: 19 and 20 October 2026. Scope: research references and evidence supporting the mathematical model. A separate local engine milestone is documented in [the project verification report](../docs/ENGINE_VALIDATION.md). The subsequent [source review report](../docs/SOURCE_REVIEW.md) records the new reading guides and their exact review boundaries.
 
 ## Strategy and checks actually performed
 

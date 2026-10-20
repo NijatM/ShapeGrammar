@@ -10,19 +10,19 @@
   "edition_version": "First edition, copyright 1975; Springer lists softcover publication 1976 and electronic publication 2013",
   "doi": "10.1007/978-3-0348-6879-2",
   "stable_url": "https://link.springer.com/book/10.1007/978-3-0348-6879-2",
-  "reading_url": "https://link.springer.com/book/10.1007/978-3-0348-6879-2",
+  "reading_url": "https://link.springer.com/content/pdf/10.1007/978-3-0348-6879-2.pdf",
   "download_url": null,
   "venue": "Birkhäuser Basel",
   "pages": "xv + 403",
   "tags": [
     "shape-grammar"
   ],
-  "relevance": "Formal foundations and pictorial development; includes Turing machines and shape grammars.",
+  "relevance": "Foundational distinctions among shape specification, pictorial equivalence and subshape; selected early grammar and Turing-simulation passages, with historical restrictions kept explicit.",
   "prerequisite_level": "advanced",
   "prerequisites": [
     "Undergraduate algebra and linear algebra; additional prerequisites in topic notes"
   ],
-  "access_date": "2026-10-18",
+  "access_date": "2026-10-20",
   "license_redistribution": {
     "status": "link-only",
     "license": null,
@@ -33,35 +33,37 @@
   "existing_local_files": [],
   "locators": [
     {
-      "locator": "Introduction abstract, chapter pp.1–2",
-      "status": "primary-content-reviewed-2026-10-19",
-      "url": "https://link.springer.com/chapter/10.1007/978-3-0348-6879-2_1"
+      "locator": "pp.1–2 and 4–9: introduction and pictorial foundations",
+      "status": "primary-content-reviewed-2026-10-20",
+      "url": "https://link.springer.com/content/pdf/10.1007/978-3-0348-6879-2.pdf#page=19"
     },
     {
-      "locator": "Pictorial Model abstract, chapter pp.4–116",
-      "status": "primary-content-reviewed-2026-10-19",
-      "url": "https://link.springer.com/chapter/10.1007/978-3-0348-6879-2_2"
+      "locator": "pp.117–122: §2.1, formal shapes and rational representation",
+      "status": "primary-content-reviewed-2026-10-20",
+      "url": "https://link.springer.com/content/pdf/10.1007/978-3-0348-6879-2.pdf#page=135"
     },
     {
-      "locator": "Formal Model abstract, chapter pp.117–288",
-      "status": "primary-content-reviewed-2026-10-19",
-      "url": "https://link.springer.com/chapter/10.1007/978-3-0348-6879-2_3"
+      "locator": "pp.133–136 and 144–146: §2.3, occurrence, equivalence and subshape",
+      "status": "primary-content-reviewed-2026-10-20",
+      "url": "https://link.springer.com/content/pdf/10.1007/978-3-0348-6879-2.pdf#page=151"
     },
     {
-      "locator": "Table of contents",
-      "status": "primary-content-reviewed-2026-10-19",
-      "url": "https://link.springer.com/book/10.1007/978-3-0348-6879-2"
+      "locator": "pp.170–177: §§2.5.3–2.6.1, set analogy and early grammar definition",
+      "status": "primary-content-reviewed-2026-10-20",
+      "url": "https://link.springer.com/content/pdf/10.1007/978-3-0348-6879-2.pdf#page=188"
+    },
+    {
+      "locator": "pp.282–288: §2.10, shape grammars and Turing machines",
+      "status": "primary-content-reviewed-2026-10-20",
+      "url": "https://link.springer.com/content/pdf/10.1007/978-3-0348-6879-2.pdf#page=300"
     }
   ],
   "verification": {
-    "scope": "Publisher-hosted Introduction and pictorial/formal chapter abstracts read, alongside the official contents. Full chapters, formal proofs, painting specifications and aesthetic-system examples were not accessible in this review. This is a guide to the stated research program, not a verified summary of the whole book.",
+    "scope": "Reviewed 2026-10-20. Read 36 selected printed pages in the publisher book PDF: pp.1–2, 4–9, 117–122, 133–136, 144–146, 170–177 and 282–288, plus contents. Printed page p corresponds to PDF page p+18. Visually checked Fig.2-8 (p.134) and the special matching condition on p.175. This is a reading of selected foundational passages, not the entire 403-page book. The reduction/intersection/difference algorithms, other proofs, painting specifications and Part II aesthetic-system developments were not reviewed in full. The early grammar definition is distinguished from later formulations.",
     "source_urls": [
-      "https://link.springer.com/book/10.1007/978-3-0348-6879-2",
-      "https://link.springer.com/chapter/10.1007/978-3-0348-6879-2_1",
-      "https://link.springer.com/chapter/10.1007/978-3-0348-6879-2_2",
-      "https://link.springer.com/chapter/10.1007/978-3-0348-6879-2_3"
+      "https://link.springer.com/content/pdf/10.1007/978-3-0348-6879-2.pdf"
     ],
-    "content_review": "abstract-only"
+    "content_review": "selected-sections"
   },
   "annotation_file": "shape-grammar/notes/stiny-1975-pictorial.md"
 }

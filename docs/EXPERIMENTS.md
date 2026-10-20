@@ -1,6 +1,6 @@
 # Source-linked experiments
 
-Implemented locally on 19 October 2026. The site now has **14 interactive experiments**, connected to **23 source guides** through specific reviewed passages. Eight experiments concern shape grammar, three concern sets/functions/relations, and three concern square symmetries.
+Implemented locally on 19 October 2026; reviewed source connections expanded on 20 October 2026. The site now has **14 interactive experiments**, connected to **26 source guides** through specific reviewed passages. Eight experiments concern shape grammar, three concern sets/functions/relations, and three concern square symmetries.
 
 These are original small examples for understanding an idea. They do not reproduce entire publications, historical architectural case studies, controlled experiments or the full expressive power of the cited formalisms. Incomplete scholarly readings remain a separate research task.
 
@@ -46,7 +46,7 @@ Stiny’s identity-rule note and Knight’s emergence article are connected as *
 - All 256 square-symmetry selections yield exactly the ten D₄ subgroups. Four point choices have the expected orbit/stabilizer counts.
 - Generated controls and observations were checked for every model. An additional diagnostic checked **48 default/preset states**, **77 well-formed accessible SVG diagrams**, labelled fields and non-submitting buttons. This caught and corrected a display-coordinate conversion error in the numbered-square diagrams.
 - Three bounded DOM-adapter tests execute the actual event handlers for all supplied presets, reset, range/checkbox/select changes, set/group toggles and disabled growth controls. They verify observations update while the control objects remain in place. The adapter is not a browser emulator and does not establish native event delivery, focus or layout.
-- The catalogue/source validator checks all 14 model IDs and their 23 source connections in both source and production folders. Route/private-file and original-PDF integrity checks remain part of the release validation.
+- The catalogue/source validator checks all 14 model IDs and their 26 source connections in both source and production folders. Route/private-file and original-PDF integrity checks remain part of the release validation.
 
 **Browser verification limit:** the in-app browser was unavailable. Safari could be observed, but attempts to open a separate preview window/tab timed out in the computer-use tool. A new desktop/mobile interaction pass was therefore not completed. Model, generated-view, SVG and HTTP checks do not certify browser layout, keyboard event delivery or touch behavior. Earlier Safari observations in the release report concern the prior source-reading/laboratory version.
 
