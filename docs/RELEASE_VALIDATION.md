@@ -4,7 +4,7 @@ Local release review on **19 October 2026**. No Git commands, repository/account
 
 ## Automated evidence
 
-`npm run check` passes **35 tests**, reference integrity validation, all 98 reading-guide checks and local link checks. `npm run build` produces the curated `dist/` folder; `node tools/check-site.mjs --dist` checks its exact file list, all built guides and their preview scopes, and validates the reference collection again inside the clean distribution.
+`npm run check` passes **56 tests**, reference integrity validation, all 98 reading-guide checks, experiment/source-passage validation and local link checks. `npm run build` produces the curated `dist/` folder; `node tools/check-site.mjs --dist` checks its exact file list, all built guides and their preview scopes, all experiment connections, and the reference collection again inside the clean distribution.
 
 | Area | Evidence |
 | --- | --- |
@@ -17,6 +17,7 @@ Local release review on **19 October 2026**. No Git commands, repository/account
 | Lab workspace | Five tests cover exact round trips, redo cursor, selected rule, legacy files, tampered replay, malformed/future formats and resource/storage boundaries |
 | References | 98 canonical records, 20 unchanged PDF byte counts/SHA-256 hashes, coverage IDs and local-only preserved-file checks when present |
 | Source reading guides | Three tests cover honest scope rendering, citation targets, invalid records, escaping and unsafe links; all 98 actual guides also pass schema, metadata-scope and rendered-jump checks |
+| Source experiments | 21 tests cover 14 mathematical models, generated views and synthetic control events; exhaustive cases include all 27 three-element functions and all 256 subsets of D₄. All 14 definitions resolve to the correct evidence passages across 23 source guides |
 | Portability | Reference validation succeeds inside `dist/`, where the excluded pre-existing Stiny PDF is absent |
 | Public boundaries | Curated file manifest checked exactly; prompts/configuration, private exports, Git data and unregistered originals excluded; an injected test export was correctly rejected |
 | Paths | Public Markdown/HTML/local-original targets checked; all declared production files served successfully beneath `/dist/`, with valid JavaScript-module MIME types |
@@ -24,6 +25,8 @@ Local release review on **19 October 2026**. No Git commands, repository/account
 The complete original collection contains 20 permitted unmodified PDFs, 29,234,889 bytes and 2,351 parsed PDF pages. The public reference manifest lists 338 paths, including 98 reading-guide JSON files. The final build manifest records the current distribution file count and bytes. The earlier bibliography link-check snapshot covered 110 unique stable/reading URLs: 71 HTTP 200, 38 HTTP 403 and one HTTP 429. This snapshot predates the new passage links; it is not a fresh certification of every guide URL. Access filtering and rate limits remain visible in [the report](../Reference/LINK_CHECK_REPORT.json); no access controls were bypassed.
 
 ## Observed Safari checks
+
+The observations below concern the earlier source-reading/lab milestone. **The new experiment controls have not received a completed browser interaction pass:** current Safari automation attempts timed out before opening the local preview. Generated-view, SVG, mathematical and HTTP checks are recorded separately in [the experiment report](EXPERIMENTS.md); they are not described as observed browser behavior.
 
 The production site was loaded at a nested `/dist/` path to exercise project-style relative URLs. Desktop and a **390×844 CSS pixel** responsive viewport were inspected.
 
@@ -44,6 +47,8 @@ The download control opened the native Save As dialog; that test download was ca
 All lesson worked examples and 68 answer-key checks were reviewed for internal consistency. [Content review](CONTENT_REVIEW.md) records definitions, source locators, original teaching examples, and the distinction between introductory content and unreviewed research proofs. There was no independent subject-expert review. The Knight bibliography preserves unresolved coverage leads rather than claiming completeness.
 
 The [source review report](SOURCE_REVIEW.md) records 17 full-text reviews, 42 selected-section reviews, 25 abstract/description reviews, 11 publication-only records and 3 supporting-citation-only records. Availability of a link is not evidence that an original was read. Book sections, reprint pagination and prepublication manuscripts are identified separately; summaries do not claim independent verification of mathematical proofs or reproduced experiments.
+
+The 14 interactive experiments are original simplified examples. They are linked where the reviewed passage supports the connection; abstract-based prompts are labelled. They do not reconstruct all 98 publications, reproduce historical case studies or certify a paper’s broader conclusions. Exact line operations share the tested engine. Separate weight/quality toys do not extend the general laboratory into a complete attributed grammar interpreter.
 
 Three core benchmarks measured approximately **100–436 ms** on this machine. Search limits and worker execution protect interaction; they do not guarantee constant response time for every input or device. [Performance details](PERFORMANCE.md) include payload sizes and measurement limits.
 

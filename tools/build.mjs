@@ -5,6 +5,7 @@ import path from 'node:path';
 const root=fileURLToPath(new URL('../',import.meta.url)),dist=path.join(root,'dist');
 execFileSync('python3',['Reference/tools/library.py','validate'],{cwd:root,stdio:'inherit'});
 execFileSync(process.execPath,['tools/check-readings.mjs'],{cwd:root,stdio:'inherit'});
+execFileSync(process.execPath,['tools/check-experiments.mjs'],{cwd:root,stdio:'inherit'});
 const sourceFiles=(await readdir(path.join(root,'Reference'),{withFileTypes:true})).filter(e=>e.isDirectory());
 const records=[];
 for(const topic of sourceFiles){const folder=path.join(root,'Reference',topic.name,'metadata');try{for(const name of await readdir(folder))if(name.endsWith('.json'))records.push(JSON.parse(await readFile(path.join(folder,name),'utf8')));}catch(error){if(error.code!=='ENOENT')throw error;}}

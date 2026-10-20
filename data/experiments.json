@@ -1,0 +1,528 @@
+[
+  {
+    "id": "parts-across-strokes",
+    "title": "A part can cross an old join",
+    "topic": "shape-grammar",
+    "question": "Does a part have to be one of the strokes you drew?",
+    "intro": "Two strokes meet at 3. Move a length-two query across that join, then introduce a real gap.",
+    "try_it": [
+      "Leave the query at 2.5: it crosses the old join at 3.",
+      "Switch on the gap. Move the query to 0 and compare."
+    ],
+    "notice": "A drawing boundary and a gap have different effects. Joined collinear strokes fuse into one maximal line; missing line content makes some queries fail.",
+    "scope": "Exact one-dimensional line shapes in the plane. The input strokes are shown only to explain their history; matching uses their geometric content.",
+    "sources": [
+      {
+        "id": "krishnamurti-1980-arithmetic",
+        "evidence": 0,
+        "locator": "pp. 463–467: rational shapes and representation",
+        "connection": "The experiment makes maximal-line representation and coverage visible.",
+        "role": "concept",
+        "url": "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb070463-arithmeticOfShapes.pdf#page=1"
+      },
+      {
+        "id": "stiny-1980-introduction",
+        "evidence": 0,
+        "locator": "pp. 343–346: shapes, operations and labelled shapes",
+        "connection": "The part relation concerns embedded geometry, rather than original drawing objects.",
+        "role": "concept",
+        "url": "https://www.andrew.cmu.edu/user/ramesh/teaching/course/48-747/subFrames/readings/Stiny-1980-EPB7_343-351.IntroductionToShapeAndShapeGrammars.pdf"
+      },
+      {
+        "id": "stiny-1991-algebras",
+        "evidence": 0,
+        "locator": "pp. 171–174: algebras, maximality and operations",
+        "connection": "A maximal-element representation does not exhaust the recognizable parts.",
+        "role": "concept",
+        "url": "https://link.springer.com/content/pdf/10.1007/BF01578998.pdf"
+      }
+    ],
+    "lab_example": "emergence"
+  },
+  {
+    "id": "shape-arithmetic",
+    "title": "Add, erase, keep the overlap",
+    "topic": "shape-grammar",
+    "question": "What exactly is common to two line shapes?",
+    "intro": "Keep A fixed. Move B, choose an operation, and compare the operands with the computed result.",
+    "try_it": [
+      "Erase the middle of A to split it into two maximal lines.",
+      "Choose intersection, then turn B into a crossing line."
+    ],
+    "notice": "Union keeps all line content. Difference removes common line content. Intersection retains shared intervals; a crossing point alone is not a one-dimensional line shape.",
+    "scope": "This model contains line elements, without independent point elements. Difference uses the regularized line-shape convention: retained segments include their endpoints. These are geometric operations, not operations on a list of stroke IDs.",
+    "sources": [
+      {
+        "id": "krishnamurti-1980-arithmetic",
+        "evidence": 1,
+        "locator": "pp. 468–473: algorithms and their bounds",
+        "connection": "The worked controls illustrate the Boolean shape operations, without reproducing the paper’s data structures.",
+        "role": "concept",
+        "url": "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb070463-arithmeticOfShapes.pdf#page=6"
+      },
+      {
+        "id": "stiny-1991-algebras",
+        "evidence": 0,
+        "locator": "pp. 171–174: algebras, maximality and operations",
+        "connection": "Compare shape sum and difference with ordinary set operations on stored elements.",
+        "role": "concept",
+        "url": "https://link.springer.com/content/pdf/10.1007/BF01578998.pdf"
+      }
+    ],
+    "lab_example": "crossing"
+  },
+  {
+    "id": "shared-transformation",
+    "title": "One rule, one transformation",
+    "topic": "shape-grammar",
+    "question": "Why must both sides of a rule move together?",
+    "intro": "The rule keeps a length-two line and adds a stem at its midpoint. Position its left side in the host; the same transformation positions the replacement.",
+    "try_it": [
+      "Reflect across the horizontal axis: the match stays, but the stem flips.",
+      "Raise the query or turn it 90° and see why the rule cannot apply."
+    ],
+    "notice": "First check t(A) ≤ S. Only then compute (S − t(A)) + t(B). A failed match has no rule result; placing the new stem independently would change the rule.",
+    "scope": "A finite D₄ orientation menu, three rational scales and a half-unit translation grid. This is a project example, not a general continuous or parametric recognition algorithm.",
+    "sources": [
+      {
+        "id": "stiny-1980-introduction",
+        "evidence": 1,
+        "locator": "pp. 347–349: grammar definition and square example",
+        "connection": "The matching and replacement stages use one shared transformation.",
+        "role": "concept",
+        "url": "https://www.andrew.cmu.edu/user/ramesh/teaching/course/48-747/subFrames/readings/Stiny-1980-EPB7_343-351.IntroductionToShapeAndShapeGrammars.pdf"
+      },
+      {
+        "id": "krishnamurti-1981-construction",
+        "evidence": 0,
+        "locator": "pp. 5–8: formulation and shape representation",
+        "connection": "Registration and containment are distinct tasks in rule recognition.",
+        "role": "concept",
+        "url": "https://www.andrew.cmu.edu/user/ramesh/pub/distribution/journal/epb080005-constructionOfShapes.pdf"
+      },
+      {
+        "id": "gatech-indeterminate-matching",
+        "evidence": 0,
+        "locator": "Part 1: Anatomy of a Replacement Rule → Formal Definition",
+        "connection": "The tutorial states the same-transform replacement formula.",
+        "role": "concept",
+        "url": "https://shapemachine.gatech.edu/tutorials/tutorials/2_indeterminate_matching_and_rule_sequences.html"
+      },
+      {
+        "id": "stiny-2018-calculating-excerpts",
+        "evidence": 0,
+        "locator": "Q1, substantive pp.1–3",
+        "connection": "Q1 supplies the conceptual matching-and-replacement mechanism.",
+        "role": "concept",
+        "url": "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/5f02efa46b231bd8e72595f39e791110_MIT4_540F18_qa1.pdf"
+      }
+    ],
+    "lab_example": "ambiguity"
+  },
+  {
+    "id": "witnesses-and-results",
+    "title": "Same part, different consequences",
+    "topic": "shape-grammar",
+    "question": "Does one matched part imply one possible result?",
+    "intro": "Compare the identity and a reflection. Both match the same line. Now change the rule from adding a stem to an identity rule.",
+    "try_it": [
+      "Switch between the two matching transformations and watch the stem.",
+      "Use the identity rule and compare all three counts again."
+    ],
+    "notice": "Distinct transformations may match the same geometric part. Their results can differ, or coincide. Counting transformations, parts and results answers three separate questions.",
+    "scope": "Exactly eight orientations are tested, with scale 1 and translation (0,0). Counts are complete only for this declared menu, not for all possible continuous transformations.",
+    "sources": [
+      {
+        "id": "stiny-1991-algebras",
+        "evidence": 1,
+        "locator": "pp. 174–178: rules, emergence and indeterminacy",
+        "connection": "The algebraic account separates shape geometry from the transformations under which rules apply.",
+        "role": "concept",
+        "url": "https://link.springer.com/content/pdf/10.1007/BF01578998.pdf"
+      },
+      {
+        "id": "gatech-indeterminate-matching",
+        "evidence": 1,
+        "locator": "Part 2: Scale, Angle and Single Line Case; parameter summary table",
+        "connection": "Matching depends on permitted transformations and additional choices.",
+        "role": "concept",
+        "url": "https://shapemachine.gatech.edu/tutorials/tutorials/2_indeterminate_matching_and_rule_sequences.html"
+      }
+    ],
+    "lab_example": "ambiguity"
+  },
+  {
+    "id": "seeing-with-identities",
+    "title": "Look again without moving a line",
+    "topic": "shape-grammar",
+    "question": "Can an identity rule matter if the drawing stays identical?",
+    "intro": "Two adjacent squares also contain an outer rectangle. Choose a part and apply A → A; compare the highlighted reading with the unchanged drawing.",
+    "try_it": [
+      "Choose the left square, then the right square.",
+      "Choose the outer rectangle and check the geometry comparison."
+    ],
+    "notice": "The selected reading changes while the line geometry remains equal. This makes the difference between recognizing a part and altering a shape explicit.",
+    "scope": "Three supplied readings of a fixed drawing. These are not all its parts, and the interface does not measure perception or claim a psychological effect.",
+    "sources": [
+      {
+        "id": "stiny-2011-rules",
+        "evidence": 0,
+        "locator": "pp. 15–20: questions and schema lattice",
+        "connection": "The schema A → A makes a part recognition explicit without moving geometry.",
+        "role": "concept",
+        "url": "https://link.springer.com/content/pdf/10.1007/s00004-011-0056-6.pdf"
+      },
+      {
+        "id": "stiny-2024-epb",
+        "evidence": 0,
+        "locator": "Equations (1)–(3) and discussion",
+        "connection": "The retrospective distinguishes identity-based analysis from addition-based generation.",
+        "role": "concept",
+        "url": "https://journals.sagepub.com/doi/10.1177/23998083241246668"
+      },
+      {
+        "id": "stiny-2018-calculating-excerpts",
+        "evidence": 1,
+        "locator": "Q2, substantive pp.1–2",
+        "connection": "Q2 discusses identities for symmetry and parsing.",
+        "role": "concept",
+        "url": "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/fec4103db325fcc94329804f753e4be2_MIT4_540F18_qa2.pdf"
+      },
+      {
+        "id": "stiny-1996-useless",
+        "evidence": 0,
+        "locator": "Public abstract",
+        "connection": "The abstract motivates the identity-rule question. This original diagram does not reconstruct the unread note.",
+        "role": "reading-prompt",
+        "url": "https://journals.sagepub.com/doi/10.1068/b230235"
+      },
+      {
+        "id": "knight-2003-computing-with-emergence",
+        "evidence": 0,
+        "locator": "Public abstract",
+        "connection": "A related question is which newly recognized shapes can become inputs. The abstract’s special-rule system is not implemented here.",
+        "role": "reading-prompt",
+        "url": "https://journals.sagepub.com/doi/10.1068/b12914"
+      }
+    ]
+  },
+  {
+    "id": "growing-with-rules",
+    "title": "Same square, different possibilities",
+    "topic": "shape-grammar",
+    "question": "What changes when you change the available rules?",
+    "intro": "Start with one square. A right rule or an up rule adds a neighboring square beside the currently marked one. Build a short trace, then try a different rule menu.",
+    "try_it": [
+      "Build a staircase by alternating right and up.",
+      "Choose right only. The trace resets; try to make the same staircase."
+    ],
+    "notice": "Choices within one rule menu produce different traces. Changing the menu changes what can be generated. A fixed square vocabulary alone does not determine a design language.",
+    "scope": "An original planar toy grammar, with a visible focus marker and an eight-step exploration cap. Rules use exact line arithmetic. Only the marked square is selected; this does not search all possible embeddings or reproduce Froebel’s solids or a historical building grammar.",
+    "sources": [
+      {
+        "id": "stiny-1976-exercises",
+        "evidence": 1,
+        "locator": "pp. 194–203, §3.1: Exercise 1",
+        "connection": "The first exercise derives languages from a vocabulary and spatial relations.",
+        "role": "concept",
+        "url": "https://www.andrew.cmu.edu/user/ramesh/teaching/course/48-747/subFrames/readings/Stiny-1976-EPB3_187-210.TwoExerciseInFormalComposition.pdf"
+      },
+      {
+        "id": "stiny-1980-kindergarten",
+        "evidence": 0,
+        "locator": "pp. 409–420: gifts and constructive programme",
+        "connection": "The constructive programme separates vocabulary, spatial relations, rules and initial shapes.",
+        "role": "concept",
+        "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Stiny.kindergartenGrammars.pdf"
+      },
+      {
+        "id": "knight-education-practice",
+        "evidence": 2,
+        "locator": "Roles: Original Design",
+        "connection": "The survey explains why authoring and revising rules can make design choices explicit.",
+        "role": "concept",
+        "url": "https://www.mit.edu/~tknight/IJDC/page_roles_design.htm"
+      },
+      {
+        "id": "knight-2014-regarding-rules-from-rimini-to-rio",
+        "evidence": 0,
+        "locator": "pp. 13–18: Alberti, shape grammars and four strategies; Fig. 4",
+        "connection": "Compare varying designs under rules with changing the rules themselves. This toy demonstrates the distinction, not the paper’s architectural cases.",
+        "role": "concept",
+        "url": "https://impactum-journals.uc.pt/joelho/article/download/_5_1/1645"
+      }
+    ]
+  },
+  {
+    "id": "weights-on-overlap",
+    "title": "Thickness has rules too",
+    "topic": "shape-grammar",
+    "question": "When weighted lines overlap, should their weights add?",
+    "intro": "Change two numerical weights on overlapping intervals. Compare maximum-based sum, minimum-based intersection and clipped difference.",
+    "try_it": [
+      "Give both lines weight 3: their sum still has weight 3 in the overlap.",
+      "Set A to 2 and B to 4, then subtract B from A."
+    ],
+    "notice": "In this numerical model, sum uses max(a,b), intersection uses min(a,b), and difference uses max(a−b,0) where both lines occur. Zero weight removes that interval from the result.",
+    "scope": "Positive integer weights on collinear intervals. Stroke widths visualize the chosen formal values; they are not physical mass, optical ink mixing or a general model of material behavior.",
+    "sources": [
+      {
+        "id": "stiny-1992-weights",
+        "evidence": 1,
+        "locator": "pp. 415–419: weights and their operations",
+        "connection": "The numerical operations and subdivision of overlaps are the source concept.",
+        "role": "concept",
+        "url": "https://www.andrew.cmu.edu/course/48-747/subFrames/readings/Stiny.weights.pdf"
+      }
+    ]
+  },
+  {
+    "id": "qualities-on-overlap",
+    "title": "Who wins in the overlap?",
+    "topic": "shape-grammar",
+    "question": "Does geometry alone decide what an overlap means?",
+    "intro": "Two fields use different hatch patterns. Change their priority and inspect only the shared region.",
+    "try_it": [
+      "Give field A higher priority, then give it to B.",
+      "Compare the fixed outlines and the changing overlap pattern."
+    ],
+    "notice": "The regions stay in place. Their ranking changes the quality assigned to their intersection. A visible boundary alone cannot supply that decision.",
+    "scope": "A two-field priority toy inspired by the need for an explicit overlap convention. It does not reproduce Knight’s full color-field algebra, her layering/weaving figures, material physics or additive color mixing. Hatching is used to keep the site monochrome.",
+    "sources": [
+      {
+        "id": "knight-1989-color-grammars-designing-with-lines-and-colors",
+        "evidence": 1,
+        "locator": "Color grammars: an informal discussion; rankings and Figures 12–16",
+        "connection": "Knight supplies explicit ranking conventions for coincident qualities; the controls isolate that general issue.",
+        "role": "concept",
+        "url": "https://www.researchgate.net/publication/23540671_Color_grammars_Designing_with_lines_and_colors"
+      },
+      {
+        "id": "knight-education-practice",
+        "evidence": 7,
+        "locator": "History: Original Design—Color Grammars; final paragraphs",
+        "connection": "The color-grammar discussion connects spatial rules to qualitative information.",
+        "role": "concept",
+        "url": "https://www.mit.edu/~tknight/IJDC/page_history_design_cg.htm"
+      }
+    ]
+  },
+  {
+    "id": "finite-set-operations",
+    "title": "Build sets and compare them",
+    "topic": "set-theory",
+    "question": "Which elements survive each set operation?",
+    "intro": "Tap elements to put them in A or B. Change the operation and watch the result, including ordered pairs and the power set.",
+    "try_it": [
+      "Remove every element from A and inspect its power set.",
+      "Compare A × B with A ∩ B: ordered pairs are different objects from their components."
+    ],
+    "notice": "Set membership ignores ordering and duplicates. A × B contains ordered pairs; P(A) contains subsets. The empty set has one subset: itself.",
+    "scope": "A fixed four-element universe. This is finite set arithmetic, not an illustration of paradoxes or a proof about arbitrary infinite sets.",
+    "sources": [
+      {
+        "id": "hammack-book-of-proof",
+        "evidence": 0,
+        "locator": "§§1.3–1.5, printed pp.12–19 (PDF pp.24–31)",
+        "connection": "The selected set chapters distinguish elements, subsets and power sets.",
+        "role": "concept",
+        "url": "https://richardhammack.github.io/BookOfProof/Main.pdf"
+      },
+      {
+        "id": "levin-discrete-mathematics",
+        "evidence": 0,
+        "locator": "Preface; §§0.2.2–0.2.3, printed pp.5–7",
+        "connection": "Small finite sets make the definitions and counting behavior visible.",
+        "role": "concept",
+        "url": "https://discrete.openmathbooks.org/pdfs/dmoi4.pdf"
+      },
+      {
+        "id": "mit-mathematics-computer-science",
+        "evidence": 0,
+        "locator": "Introduction and §1.1, printed pp.3–6; Chapter 4 pp.81–89",
+        "connection": "The selected sets/functions chapter provides the foundational definitions.",
+        "role": "concept",
+        "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf"
+      }
+    ]
+  },
+  {
+    "id": "equivalence-classes",
+    "title": "Choose what counts as the same",
+    "topic": "set-theory",
+    "question": "How does a relation turn elements into classes?",
+    "intro": "Group 0 through 5 by their remainder after division. Change the modulus and compare two selected elements.",
+    "try_it": [
+      "With modulus 3, compare 2 and 5.",
+      "Switch to modulus 4 and inspect the different class sizes."
+    ],
+    "notice": "Two numbers are related exactly when they have the same remainder. Every number belongs to one class; different classes are disjoint.",
+    "scope": "Congruence restricted to the finite set {0,1,2,3,4,5}. These are equivalence classes of that set, not a construction of quotient-group multiplication. Classes need not have equal sizes here.",
+    "sources": [
+      {
+        "id": "hammack-book-of-proof",
+        "evidence": 1,
+        "locator": "§11.3, printed pp.210–212; §12.2, pp.228–229",
+        "connection": "The selected relation section introduces equivalence and classes.",
+        "role": "concept",
+        "url": "https://richardhammack.github.io/BookOfProof/Main.pdf"
+      },
+      {
+        "id": "zach-sets-logic-computation",
+        "evidence": 0,
+        "locator": "§§1.1–1.2, pp.2–4; §§2.2–2.3, pp.19–20",
+        "connection": "Equivalence is defined through reflexivity, symmetry and transitivity.",
+        "role": "concept",
+        "url": "https://slc.openlogicproject.org/archives/f25/slc-screen.pdf"
+      },
+      {
+        "id": "mit-mckernan-modern-algebra",
+        "evidence": 1,
+        "locator": "Lecture 3 pp.1–3",
+        "connection": "The equivalence discussion motivates partitions; later quotient operations require additional checks.",
+        "role": "concept",
+        "url": "https://ocw.mit.edu/courses/18-703-modern-algebra-spring-2013/df580757da0149c376f1fda29bf82a91_MIT18_703S13_pra_l_3.pdf"
+      }
+    ]
+  },
+  {
+    "id": "functions-and-bijections",
+    "title": "One arrow from every input",
+    "topic": "set-theory",
+    "question": "When is a function a reversible pairing?",
+    "intro": "Choose one output for each of a, b and c. Inspect collisions and unused outputs.",
+    "try_it": [
+      "Use the cycle preset: each output has exactly one incoming arrow.",
+      "Use the collision preset and find both the repeated output and the unused one."
+    ],
+    "notice": "Injective means no collisions. Surjective means every declared output is reached. A bijection has both properties, so each output identifies one input.",
+    "scope": "Functions from the three-element set {a,b,c} to itself. For these equal finite sizes, injectivity and surjectivity coincide; they need not coincide for arbitrary domain/codomain choices. A bijection here is a permutation.",
+    "sources": [
+      {
+        "id": "hammack-book-of-proof",
+        "evidence": 1,
+        "locator": "§11.3, printed pp.210–212; §12.2, pp.228–229",
+        "connection": "The functions section separates domain, codomain, injection and surjection.",
+        "role": "concept",
+        "url": "https://richardhammack.github.io/BookOfProof/Main.pdf"
+      },
+      {
+        "id": "zach-sets-logic-computation",
+        "evidence": 1,
+        "locator": "§3.2, pp.35–36",
+        "connection": "The map definitions explain collisions and coverage of the codomain.",
+        "role": "concept",
+        "url": "https://slc.openlogicproject.org/archives/f25/slc-screen.pdf"
+      },
+      {
+        "id": "mit-mathematics-computer-science",
+        "evidence": 0,
+        "locator": "Introduction and §1.1, printed pp.3–6; Chapter 4 pp.81–89",
+        "connection": "The selected definitions treat functions as assignments with stated domains and codomains.",
+        "role": "concept",
+        "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf"
+      }
+    ]
+  },
+  {
+    "id": "composition-order",
+    "title": "Try the other order",
+    "topic": "group-theory",
+    "question": "Does reflecting then turning equal turning then reflecting?",
+    "intro": "Track the same four labelled corners through B, then A. Compare that with reversing the order.",
+    "try_it": [
+      "Use quarter turn and reflection; compare the final labels.",
+      "Set A to the identity and compare again."
+    ],
+    "notice": "AB means apply B first, then A. The unlabelled square looks the same after every symmetry; the corner labels reveal where its points went.",
+    "scope": "D₄ is the eight-element symmetry group of a square. These are rigid motions with no scaling. This does not model every spatial transformation or a crystallographic classification.",
+    "sources": [
+      {
+        "id": "judson-abstract-algebra",
+        "evidence": 0,
+        "locator": "Preface; §§3.1–3.2, printed pp.43–44",
+        "connection": "Rigid symmetries and composition motivate the group laws and noncommutativity.",
+        "role": "concept",
+        "url": "https://judsonbooks.org/aata-files/aata-20250801.pdf"
+      },
+      {
+        "id": "mit-mckernan-modern-algebra",
+        "evidence": 0,
+        "locator": "Lecture 1 pp.1–4",
+        "connection": "The first lecture motivates groups through composing symmetries.",
+        "role": "concept",
+        "url": "https://ocw.mit.edu/courses/18-703-modern-algebra-spring-2013/faeeeaf01f838584ce2172cfd85cf74d_MIT18_703S13_pra_l_1.pdf"
+      }
+    ]
+  },
+  {
+    "id": "orbits-and-stabilizers",
+    "title": "What moves, what stays fixed?",
+    "topic": "group-theory",
+    "question": "Why do eight symmetries not always give eight different point positions?",
+    "intro": "Choose a point and a square symmetry. Compare all its possible images with the operations that leave that point fixed.",
+    "try_it": [
+      "Compare a corner with the center.",
+      "Choose the general point (2,1) and check 8 = orbit size × stabilizer size."
+    ],
+    "notice": "The orbit counts distinct positions. The stabilizer counts transformations fixing the chosen point. For this finite action, their sizes multiply to the group order 8.",
+    "scope": "The standard action of D₄ on points in the plane. The general point lies outside the square; the square supplies the symmetry operations. This is a small action example, not a simulation of the Monster or a proof of the general theorem.",
+    "sources": [
+      {
+        "id": "judson-abstract-algebra",
+        "evidence": 2,
+        "locator": "§14.1, pp.239–240",
+        "connection": "The selected group-action section introduces orbits.",
+        "role": "concept",
+        "url": "https://judsonbooks.org/aata-files/aata-20250801.pdf"
+      },
+      {
+        "id": "milne-group-theory",
+        "evidence": 0,
+        "locator": "Chapter 4 pp.57–59, Definitions 4.1 and stabilizers",
+        "connection": "Chapter 4 defines actions and stabilizers.",
+        "role": "concept",
+        "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf"
+      },
+      {
+        "id": "mit-mckernan-modern-algebra",
+        "evidence": 3,
+        "locator": "Lecture 23 pp.1–3, Definitions 23.1–23.3 and Lemma 23.5",
+        "connection": "Lecture 23 supplies the action, orbit and stabilizer framework.",
+        "role": "concept",
+        "url": "https://ocw.mit.edu/courses/18-703-modern-algebra-spring-2013/96221ce2d5b1077b3e5d3c5e08c88afe_MIT18_703S13_pra_l_23.pdf"
+      }
+    ]
+  },
+  {
+    "id": "subgroup-builder",
+    "title": "Can your selection be a group?",
+    "topic": "group-theory",
+    "question": "Can any collection of square symmetries form a group?",
+    "intro": "Toggle transformations into a selection. Check whether composition and inversion stay inside it.",
+    "try_it": [
+      "Start with identity and a quarter turn. Find the missing product.",
+      "Try all rotations, then build a two-element reflection subgroup."
+    ],
+    "notice": "A subgroup uses the same operation as D₄. It needs the identity, closure and inverses. Associativity is inherited from D₄; it is not an extra property supplied by the selection.",
+    "scope": "All subsets of the eight known D₄ transformations are small enough to check directly. This is a test inside a known group, not a method for certifying an arbitrary operation table.",
+    "sources": [
+      {
+        "id": "judson-abstract-algebra",
+        "evidence": 0,
+        "locator": "Preface; §§3.1–3.2, printed pp.43–44",
+        "connection": "The group axioms and dihedral examples motivate checking identity, composition and inverses.",
+        "role": "concept",
+        "url": "https://judsonbooks.org/aata-files/aata-20250801.pdf"
+      },
+      {
+        "id": "mit-mckernan-modern-algebra",
+        "evidence": 0,
+        "locator": "Lecture 1 pp.1–4",
+        "connection": "The opening group framework supplies the operation and axioms.",
+        "role": "concept",
+        "url": "https://ocw.mit.edu/courses/18-703-modern-algebra-spring-2013/faeeeaf01f838584ce2172cfd85cf74d_MIT18_703S13_pra_l_1.pdf"
+      }
+    ]
+  }
+]

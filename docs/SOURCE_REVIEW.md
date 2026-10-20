@@ -156,7 +156,7 @@ The linked Markdown notes contain the explanations and original reading links. T
 
 ## Validation and practical limits
 
-All 98 files pass identity/schema, canonical-scope agreement, HTTPS-link, citation-index and rendered-jump checks. Three targeted rendering tests cover honest scope display, invalid data, escaping and unsafe source links. The whole application has 35 passing tests. These checks establish consistency and functioning controls, not the truth of every research claim. No independent expert audit is claimed.
+All 98 files pass identity/schema, canonical-scope agreement, HTTPS-link, citation-index and rendered-jump checks. Three targeted rendering tests cover honest scope display, invalid data, escaping and unsafe source links. The source-reading milestone had 35 passing application tests; the subsequent [experiment milestone](EXPERIMENTS.md) adds its own evidence. These checks establish consistency, not the truth of every research claim. No independent expert audit is claimed.
 
 Safari checks on the built `/dist/` site covered the Arithmetic guide, a Knight full-text guide, a publisher-description-only book entry, reference previews and the 55-record Knight filter. Section jumps, evidence expansion, publication disclosure and the Arithmetic original PDF link worked. The Arithmetic page was visually checked on desktop and at 390×844 CSS pixels. Hosted publication and cross-browser certification were not performed.
 
