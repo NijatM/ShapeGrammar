@@ -10,9 +10,9 @@ Measured locally on 19 October 2026 with Node.js v26.11.1 on macOS arm64. These 
 
 Carrier-line coverage is prepared once per orientation/scale and reused while checking translations. Search runs in a worker where supported, and cancellation terminates it. A yielding fallback preserves functionality if workers are unavailable. The browser limits searches to 50,000 candidates, 2,000 witnesses and an eight-second budget, while preserving truthful incomplete-result reporting.
 
-The home page's local HTML/CSS/static-module dependencies/initial data/favicon total approximately **205 KB** before HTTP compression after adding source-linked experiments. This is a file-size measurement, not an observed network waterfall; optional Google Fonts bytes are additional. The reference browser loads approximately **234 KB** of compact metadata only when needed and paginates 20 records at a time.
+The home page's local HTML/CSS/static-module dependencies/initial data/favicon total approximately **206 KB** before HTTP compression (206,184 bytes after the interaction update). This is a file-size measurement, not an observed network waterfall; optional Google Fonts bytes are additional. The reference browser loads approximately **234 KB** of compact metadata only when needed and paginates 20 records at a time.
 
-Payload sizes below were refreshed on 20 October 2026 after the reading recovery; the execution timings above are the original 19 October measurements.
+Payload sizes were refreshed on 20 October 2026 after the reading and interaction updates; the execution timings above are the original 19 October measurements.
 
 The 98 complete reading guides are separate JSON files, loaded only when their source page is opened. Their median size is **4,038 bytes**, their maximum is **9,375 bytes**, and their combined size is **411,991 bytes**. The app does not fetch all 98 guides on the home or library page. The 29.2 MB of reference PDFs also open on demand.
 

@@ -4,7 +4,8 @@ import {defaultState,evaluateExperiment,ORIENTATIONS,GROUP_NAMES,TOKENS,square,s
 const esc=v=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const options=(values,selected)=>values.map(v=>{const [value,label]=Array.isArray(v)?v:[v,v];return `<option value="${esc(value)}" ${String(value)===String(selected)?'selected':''}>${esc(label)}</option>`;}).join('');
 const choose=(key,label,values,selected)=>`<label>${esc(label)}<select data-setting="${key}">${options(values,selected)}</select></label>`;
-const range=(key,label,min,max,value,divisor=1)=>`<label>${esc(label)}: <output data-value="${key}">${value/divisor}</output><input type="range" data-setting="${key}" data-divisor="${divisor}" min="${min}" max="${max}" step="1" value="${value}"></label>`;
+// Native range values use the displayed units; integer ticks belong to the model only.
+const range=(key,label,min,max,value,divisor=1)=>`<label>${esc(label)}: <output data-value="${key}">${value/divisor}</output><input type="range" data-setting="${key}" data-divisor="${divisor}" min="${min/divisor}" max="${max/divisor}" step="${1/divisor}" value="${value/divisor}"></label>`;
 const check=(key,label,value)=>`<label class="experiment-check"><input type="checkbox" data-setting="${key}" ${value?'checked':''}>${esc(label)}</label>`;
 const button=(label,action)=>`<button type="button" data-action="${action}">${esc(label)}</button>`;
 const orientations=()=>ORIENTATIONS.map(n=>[n,`${n} · ${GROUP_NAMES[n]}`]);
@@ -100,7 +101,7 @@ export function mountExperiment(host,id){
   host.innerHTML=`<section class="experiment-workbench" aria-label="Interactive experiment"><div class="experiment-toolbar"><p>Change a setting. Compare what stays and what changes.</p>${button('Reset experiment','reset')}</div><div class="experiment-controls">${experimentControlsHTML(id,state)}</div><div class="experiment-visual"></div><div class="experiment-feedback" role="status" aria-live="polite" aria-atomic="true"></div><p class="experiment-detail"></p></section>`;
   const controlsHost=host.querySelector('.experiment-controls'),visual=host.querySelector('.experiment-visual'),feedback=host.querySelector('.experiment-feedback'),detail=host.querySelector('.experiment-detail');
   const sync=()=>{
-    controlsHost.querySelectorAll('[data-setting]').forEach(el=>{const key=el.dataset.setting;let value=key.startsWith('image-')?state.images[Number(key.slice(6))]:state[key];if(key==='allowUp')value=state.allowUp?'both':'right';if(el.type==='checkbox')el.checked=value;else el.value=String(value);const out=controlsHost.querySelector(`[data-value="${key}"]`);if(out)out.value=String(Number(value)/Number(el.dataset.divisor??1));});
+    controlsHost.querySelectorAll('[data-setting]').forEach(el=>{const key=el.dataset.setting;let value=key.startsWith('image-')?state.images[Number(key.slice(6))]:state[key];if(key==='allowUp')value=state.allowUp?'both':'right';if(el.type==='range')value=Number(value)/Number(el.dataset.divisor??1);if(el.type==='checkbox')el.checked=value;else el.value=String(value);const out=controlsHost.querySelector(`[data-value="${key}"]`);if(out)out.value=String(value);});
     controlsHost.querySelectorAll('[data-set]').forEach(el=>el.setAttribute('aria-pressed',String(state[el.dataset.set].includes(el.dataset.token))));
     controlsHost.querySelectorAll('[data-member]').forEach(el=>el.setAttribute('aria-pressed',String(state.members.includes(el.dataset.member))));
   };
@@ -119,7 +120,7 @@ export function mountExperiment(host,id){
     else if(key==='allowUp'){state.allowUp=el.value==='both';state.moves=[];}
     else{
       const numeric=el.type==='range'||key==='choice'||id==='equivalence-classes'&&['x','y','modulus'].includes(key);
-      state[key]=el.type==='checkbox'?el.checked:numeric?Number(el.value):el.value;
+      state[key]=el.type==='checkbox'?el.checked:el.type==='range'?Number(el.value)*Number(el.dataset.divisor??1):numeric?Number(el.value):el.value;
     }
     update();
   });

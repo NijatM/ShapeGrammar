@@ -1,10 +1,10 @@
 # Release validation
 
-Local release review on **19 October 2026**, with a source-reading recovery and validation update on **20 October 2026**. No Git commands, repository/account APIs, commits, pushes or deployment actions were performed. The static application and a manually triggered Pages workflow are ready for owner review; hosted deployment has not been executed.
+Local release review on **19 October 2026**, with source-reading recovery, interaction fixes and validation updates on **20 October 2026**. No Git commands, repository/account APIs, commits, pushes or deployment actions were performed. The static application and a manually triggered Pages workflow are ready for owner review; hosted deployment has not been executed.
 
 ## Automated evidence
 
-`npm run check` passes **56 tests**, reference integrity validation, all 98 reading-guide checks, experiment/source-passage validation and local link checks. `npm run build` produces the curated `dist/` folder; `node tools/check-site.mjs --dist` checks its exact file list, all built guides and their preview scopes, all experiment connections, and the reference collection again inside the clean distribution.
+`npm run check` passes **59 tests**, reference integrity validation, all 98 reading-guide checks, experiment/source-passage validation and local link checks. `npm run build` produces the curated `dist/` folder; `node tools/check-site.mjs --dist` checks its exact file list, all built guides and their preview scopes, all experiment connections, and the reference collection again inside the clean distribution.
 
 | Area | Evidence |
 | --- | --- |
@@ -17,7 +17,8 @@ Local release review on **19 October 2026**, with a source-reading recovery and 
 | Lab workspace | Five tests cover exact round trips, redo cursor, selected rule, legacy files, tampered replay, malformed/future formats and resource/storage boundaries |
 | References | 98 canonical records, 20 unchanged PDF byte counts/SHA-256 hashes, coverage IDs and local-only preserved-file checks when present |
 | Source reading guides | Three tests cover honest scope rendering, citation targets, invalid records, escaping and unsafe links; all 98 actual guides also pass schema, metadata-scope and rendered-jump checks |
-| Source experiments | 21 tests cover 14 mathematical models, generated views and synthetic control events; exhaustive cases include all 27 three-element functions and all 256 subsets of D₄. All 14 definitions resolve to the correct evidence passages across 26 source guides |
+| Source experiments | 22 tests cover 14 mathematical models, generated views and synthetic control events; exhaustive cases include all 27 three-element functions and all 256 subsets of D₄. All 14 definitions resolve to the correct evidence passages across 26 source guides |
+| Route recovery | Two bounded document/network-adapter tests run the actual application module: experiment-link retry preserves pending notes, and slow prior requests cannot overwrite a newer route |
 | Portability | Reference validation succeeds inside `dist/`, where the excluded pre-existing Stiny PDF is absent |
 | Public boundaries | Curated file manifest checked exactly; prompts/configuration, private exports, Git data and unregistered originals excluded; an injected test export was correctly rejected |
 | Paths | Public Markdown/HTML/local-original targets checked; all declared production files served successfully beneath `/dist/`, with valid JavaScript-module MIME types |
@@ -68,3 +69,7 @@ Open `http://127.0.0.1:8765/` or `/dist/`. See [deployment instructions](DEPLOYM
 ## Source-reading recovery — 20 October 2026
 
 Four source guides now use newly readable original texts: three complete article/chapter readings and 36 selected pages of Stiny’s 1975 monograph. Canonical metadata, Markdown notes, source previews and passage links were regenerated together. Three concept connections bring the experiment catalogue to 26 linked source guides. The [source review](SOURCE_REVIEW.md) records exact reading boundaries, version-specific rights evidence and unsuccessful access attempts. No runtime controls changed in this update; the earlier browser-QA limitation remains.
+
+## Interaction and recovery update — 20 October 2026
+
+Native experiment slider values now use displayed units, including half-unit steps, with internal integer ticks converted at the model boundary. Source pages retain their reading if experiment links fail and offer an explicit retry; failed catalogue requests no longer stay cached. A targeted control regression and two application routing/recovery tests bring the suite to 59 passing tests. The [experiment report](EXPERIMENTS.md) records these checks and the repeated browser-control timeout. Browser keyboard, mobile layout and native screen-reader behavior are still unverified for the new controls; no unrelated browser save dialog was changed. The rebuilt distribution was checked at its nested `/dist/` path.

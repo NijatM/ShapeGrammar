@@ -64,3 +64,21 @@ test('identity toggles and numeric witness selection reach the matching view thr
   const relation=mount('equivalence-classes');relation.input('modulus',4);assert.match(relation.status,/No/);relation.input('y',2);assert.match(relation.status,/Yes/);
   const reflection=mount('shared-transformation');reflection.click('action','miss');assert.match(reflection.status,/cannot apply/);reflection.click('action','reflect');assert.match(reflection.status,/Valid match/);
 });
+test('native slider units agree with the geometry, visible values, presets and reset',()=>{
+  const parts=mount('parts-across-strokes');
+  const start=parts.controls.querySelector('[data-setting="start"]');
+  const output=parts.controls.querySelector('[data-value="start"]');
+  assert.equal(start.attributes.min,'0');assert.equal(start.attributes.max,'6');assert.equal(start.attributes.step,'0.5');
+  assert.equal(start.value,'2.5');assert.equal(output.value,'2.5');
+  parts.input('start',3.5);assert.match(parts.status,/Query \[3.5, 5.5\] is a part/);
+  assert.equal(start.value,'3.5');assert.equal(output.value,'3.5');
+  parts.click('action','inside');assert.equal(start.value,'0');assert.equal(output.value,'0');
+  parts.click('action','reset');assert.equal(start.value,'2.5');assert.equal(output.value,'2.5');
+  const placed=mount('shared-transformation');
+  placed.input('x',0.5);assert.match(placed.output['.experiment-detail'].textContent,/shift \(1\/2, 0\)/);
+  placed.input('y',-0.5);assert.match(placed.status,/cannot apply/);
+  assert.match(placed.output['.experiment-detail'].textContent,/shift \(1\/2, -1\/2\)/);
+  placed.click('action','reflect');assert.equal(placed.controls.querySelector('[data-setting="x"]').value,'1');
+  const weights=mount('weights-on-overlap');weights.input('a',5);assert.match(weights.status,/weight is 5/);
+  assert.equal(weights.controls.querySelector('[data-setting="a"]').attributes.step,'1');
+});

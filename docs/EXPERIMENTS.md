@@ -39,22 +39,28 @@ Stiny’s identity-rule note and Knight’s emergence article are connected as *
 
 ## Verification performed
 
-- **56 application tests pass**, including 21 new experiment model/view/control tests.
+- **59 application tests pass**, including 22 experiment model/view/control tests and two application routing/recovery tests.
 - Interval coverage was checked at every supplied query position, with and without the gap. Rule tests distinguish reflected replacements, failed matches, witness/part/result counts and unchanged identity results.
 - Growth tests verify actual rule application, changed menus, different traces and the step limit. Weight tests verify equal-weight fusion, clipped subtraction and removal of zero-weight overlap.
 - Set tests cover all 256 A/B selections in the four-element universe. Relation tests check all three equivalence laws in the finite examples. All 27 three-element functions yield exactly six bijections.
 - All 256 square-symmetry selections yield exactly the ten D₄ subgroups. Four point choices have the expected orbit/stabilizer counts.
 - Generated controls and observations were checked for every model. An additional diagnostic checked **48 default/preset states**, **77 well-formed accessible SVG diagrams**, labelled fields and non-submitting buttons. This caught and corrected a display-coordinate conversion error in the numbered-square diagrams.
-- Three bounded DOM-adapter tests execute the actual event handlers for all supplied presets, reset, range/checkbox/select changes, set/group toggles and disabled growth controls. They verify observations update while the control objects remain in place. The adapter is not a browser emulator and does not establish native event delivery, focus or layout.
+- Four bounded DOM-adapter tests execute the actual event handlers for all supplied presets, reset, range/checkbox/select changes, set/group toggles and disabled growth controls. They verify observations update while the control objects remain in place, and that native slider values, half-unit steps, visible outputs and exact model coordinates agree. The adapter is not a browser emulator and does not establish native event delivery, focus or layout.
 - The catalogue/source validator checks all 14 model IDs and their 26 source connections in both source and production folders. Route/private-file and original-PDF integrity checks remain part of the release validation.
 
-**Browser verification limit:** the in-app browser was unavailable. Safari could be observed, but attempts to open a separate preview window/tab timed out in the computer-use tool. A new desktop/mobile interaction pass was therefore not completed. Model, generated-view, SVG and HTTP checks do not certify browser layout, keyboard event delivery or touch behavior. Earlier Safari observations in the release report concern the prior source-reading/laboratory version.
+**Browser verification limit:** the in-app browser was unavailable. Safari could be observed, but attempts to open a separate preview window/tab timed out in the computer-use tool. A renewed attempt on 20 October also timed out; the active Safari window then showed an unrelated save dialog, which was left untouched. A new desktop/mobile interaction pass was therefore not completed. Model, generated-view, SVG and HTTP checks do not certify browser layout, keyboard event delivery or touch behavior. Earlier Safari observations in the release report concern the prior source-reading/laboratory version.
+
+## Interaction and recovery update — 20 October 2026
+
+Half-unit sliders now expose actual displayed units through their native values, minimums, maximums and steps. For example, query start 2.5 is represented by native value 2.5 and step 0.5. Integer ticks remain internal to the exact model. Presets, reset, negative shifts and integer weight controls are covered by a regression test. Native keyboard and assistive-technology behavior remains subject to the browser verification limit above.
+
+If the experiment catalogue fails to load on a source page, the reading remains available and an explicit retry control appears before the private-notes section. A rejected request no longer stays cached. Two tests run the real application module using bounded document/network adapters: they verify that retry restores the correct source-specific links while preserving a pending private note, and that a delayed old source request cannot overwrite the newer experiment index. These adapters do not measure browser event delivery, focus or mobile layout.
 
 ## Performance and reproduction
 
 The experiment catalogue loads on demand, and the interactive view/model modules load when an individual experiment opens. The models have fixed finite bounds; there is no unbounded search in these controls and no new package dependency.
 
-A local Node.js diagnostic ran 1,440 model-plus-markup generations across the 48 states: median **0.025 ms**, 95th percentile **0.40 ms**, maximum **46.91 ms**. These numbers exclude DOM insertion, browser layout, painting, network time and physical-device effects. They do not establish Web Vitals or an input-latency guarantee. See [performance measurements](PERFORMANCE.md) for payload sizes and the existing laboratory benchmarks.
+A local Node.js diagnostic ran 1,440 model-plus-markup generations across the 48 states: median **0.024 ms**, 95th percentile **0.365 ms**, maximum **2.426 ms** in the 20 October rerun. These numbers exclude DOM insertion, browser layout, painting, network time and physical-device effects. They do not establish Web Vitals or an input-latency guarantee. See [performance measurements](PERFORMANCE.md) for payload sizes and the existing laboratory benchmarks.
 
 ```bash
 npm run check

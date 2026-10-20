@@ -13,7 +13,7 @@ let lessons,research,glossary,store,referencePromise,refs,experimentPromise,expe
 let filters={q:'',topic:'',author:'',page:0};
 const json=async path=>{const r=await fetch(new URL(path,document.baseURI));if(!r.ok)throw new Error(`Could not load ${path} (HTTP ${r.status}).`);return r.json();};
 const loadReferences=()=>referencePromise??=json('./data/references.json').then(data=>(refs=data));
-const loadExperiments=()=>experimentPromise??=json('./data/experiments.json').then(data=>(experiments=data));
+const loadExperiments=()=>experimentPromise??=json('./data/experiments.json').then(data=>(experiments=data)).catch(error=>{experimentPromise=null;throw error;});
 function alert(message){$('storage-alert').hidden=false;$('storage-alert').textContent=message;}
 function persist(action){try{action();return true;}catch(error){alert(`${error.message} Your current changes remain in this tab; download a copy from Notebook.`);return false;}}
 function stats(){return lessons.filter(l=>progressFor(l,store.state).complete).length;}
@@ -62,7 +62,7 @@ async function source(id,ticket){
   await loadReferences();if(ticket!==renderVersion)return;
   const d=refs.find(x=>x.id===id);if(!d)return notFound();
   let guide=null;
-  const [reading]=await Promise.allSettled([json(`./Reference/reading-guides/${id}.json`),loadExperiments()]);
+  const [reading,experimentLoad]=await Promise.allSettled([json(`./Reference/reading-guides/${id}.json`),loadExperiments()]);
   try{if(reading.status==='fulfilled')guide=validateReadingGuide(reading.value,id);}catch{}
   const related=(experiments??[]).filter(ex=>ex.sources.some(s=>s.id===id));
   if(ticket!==renderVersion)return;
@@ -70,6 +70,13 @@ async function source(id,ticket){
   $('main').innerHTML=`<article class="article source-article">${head(d.title,`${d.topic.replaceAll('-',' ')} / source`)}<p class="author-line">${e(d.authors.join(', '))}${d.publication_type==='edited-issue'?' (issue editors)':''} · ${d.year??'year not established'}</p>${d.contributors?.length?`<p>Named contributors: ${e(d.contributors.join(', '))}</p>`:''}<div class="source-actions">${related.length?`<button class="button-link" type="button" data-reading-anchor="source-experiments">Try linked experiments (${related.length}) ↓</button>`:''}<a class="button-link" href="${e(safeURL(original.url))}" target="_blank" rel="noopener noreferrer">${e(original.label)} ↗</a>${d.local_files.map(f=>`<a class="button-link" href="./Reference/${e(f.path)}" target="_blank" rel="noopener">Open local PDF (${Math.round(f.bytes/1024)} KiB)</a>`).join('')}</div>${guide?readingGuideHTML(guide):'<section class="reading-unavailable"><h2>Reading notes could not load</h2><p>You can still open the source above or try loading these notes again.</p><button id="retry-reading">Try again</button></section>'}${related.length?`<section id="source-experiments" class="source-experiments"><h2>Try these ideas</h2><p class="small">Small project experiments linked to this reading. Their examples and limits are stated on each page.</p><div class="card-grid">${experimentCards(related,id)}</div></section>`:''}<details class="source-publication"><summary>Publication details and rights</summary><dl class="metadata"><dt>Publication</dt><dd>${e(d.venue??'Not established')}</dd><dt>Pages</dt><dd>${e(d.pages??'Not established')}</dd><dt>Edition</dt><dd>${e(d.edition_version)}</dd><dt>DOI</dt><dd>${e(d.doi??'Not established')}</dd><dt>Access</dt><dd>${e(d.license_redistribution.license??'No general redistribution license established')}</dd></dl><p>${e(d.verification.scope)}</p><p>${e(d.license_redistribution.conditions)}</p><p><a href="${e(safeURL(d.license_redistribution.evidence_url))}" target="_blank" rel="noopener noreferrer">Rights evidence ↗</a></p></details>${noteHTML()}<p><a href="#/references">← Reference library</a></p></article>`;
   mountNote('source',id);
   if($('retry-reading'))$('retry-reading').onclick=render;
+  if(experimentLoad.status==='rejected'){
+    const section=document.createElement('section');section.className='reading-unavailable';
+    const title=document.createElement('h2');title.textContent='Linked experiments could not load';
+    const text=document.createElement('p');text.textContent='You can keep reading and taking notes. Try loading the experiment links again.';
+    const retry=document.createElement('button');retry.id='retry-experiments';retry.type='button';retry.textContent='Retry experiment links';retry.onclick=render;
+    section.append(title,text,retry);$('private-note').closest('section').before(section);
+  }
   document.querySelectorAll('[data-reading-anchor]').forEach(a=>a.addEventListener('click',event=>{event.preventDefault();const target=$(a.dataset.readingAnchor);if(target){const details=target.closest('details');if(details)details.open=true;target.tabIndex=-1;target.focus({preventScroll:true});target.scrollIntoView({block:'start'});}}));
 }
 async function researchView(id,ticket){if(id){await loadReferences();if(ticket!==renderVersion)return;const r=research.find(x=>x.id===id);if(!r)return notFound();$('main').innerHTML=`<article class="article">${head(r.title,`Research / ${id}`)}<p>${e(r.body)}</p><h2>Try an investigation</h2><p>${e(r.task)}</p><h2>A question to carry forward</h2><p>${e(r.question)}</p><h2>Reading route</h2>${sourcesHTML(r.source_ids.map(source=>({id:source,locator:r.locator})))}<p class="reading-tip">These are research pathways, not claims that an open problem has been solved. Historical sources retain their publication context. Verify current problem status against newer primary literature.</p><p><a href="#/research">← Research pathways</a></p></article>`;return;}
